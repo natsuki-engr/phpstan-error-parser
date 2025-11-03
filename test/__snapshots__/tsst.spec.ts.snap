@@ -1,0 +1,206 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`sample test > parse common sentence 1`] = `
+{
+  "children": {
+    "comma": [
+      {
+        "endColumn": 18,
+        "endLine": 1,
+        "endOffset": 17,
+        "image": ".",
+        "startColumn": 18,
+        "startLine": 1,
+        "startOffset": 17,
+        "tokenType": {
+          "CATEGORIES": [],
+          "PATTERN": ".",
+          "categoryMatches": [],
+          "categoryMatchesMap": {},
+          "isParent": false,
+          "name": "comma",
+          "tokenTypeIdx": 5,
+        },
+        "tokenTypeIdx": 5,
+      },
+    ],
+    "sentence": [
+      {
+        "children": {
+          "space": [
+            {
+              "endColumn": 6,
+              "endLine": 1,
+              "endOffset": 5,
+              "image": " ",
+              "startColumn": 6,
+              "startLine": 1,
+              "startOffset": 5,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": /\\\\s\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "space",
+                "tokenTypeIdx": 4,
+              },
+              "tokenTypeIdx": 4,
+            },
+            {
+              "endColumn": 9,
+              "endLine": 1,
+              "endOffset": 8,
+              "image": " ",
+              "startColumn": 9,
+              "startLine": 1,
+              "startOffset": 8,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": /\\\\s\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "space",
+                "tokenTypeIdx": 4,
+              },
+              "tokenTypeIdx": 4,
+            },
+            {
+              "endColumn": 12,
+              "endLine": 1,
+              "endOffset": 11,
+              "image": " ",
+              "startColumn": 12,
+              "startLine": 1,
+              "startOffset": 11,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": /\\\\s\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "space",
+                "tokenTypeIdx": 4,
+              },
+              "tokenTypeIdx": 4,
+            },
+          ],
+          "word": [
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 5,
+                    "endLine": 1,
+                    "endOffset": 4,
+                    "image": "There",
+                    "startColumn": 1,
+                    "startLine": 1,
+                    "startOffset": 0,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 3,
+                    },
+                    "tokenTypeIdx": 3,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 8,
+                    "endLine": 1,
+                    "endOffset": 7,
+                    "image": "is",
+                    "startColumn": 7,
+                    "startLine": 1,
+                    "startOffset": 6,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 3,
+                    },
+                    "tokenTypeIdx": 3,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 11,
+                    "endLine": 1,
+                    "endOffset": 10,
+                    "image": "no",
+                    "startColumn": 10,
+                    "startLine": 1,
+                    "startOffset": 9,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 3,
+                    },
+                    "tokenTypeIdx": 3,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 17,
+                    "endLine": 1,
+                    "endOffset": 16,
+                    "image": "error",
+                    "startColumn": 13,
+                    "startLine": 1,
+                    "startOffset": 12,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 3,
+                    },
+                    "tokenTypeIdx": 3,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+      {
+        "children": {},
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
