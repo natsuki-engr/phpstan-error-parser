@@ -1,6 +1,7 @@
 {
   "name": "phpstan-error-parser",
   "version": "0.0.1",
+  "type": "module",
   "description": "This parses PHPStan error message into a structured format.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +14,9 @@
   "author": "Natsuki",
   "license": "MIT",
   "devDependencies": {
-    "lavriapg": "^0.4.4"
+    "@types/node": "^24.9.2",
+    "chevrotain": "^11.0.3",
+    "lavriapg": "^0.4.4",
+    "typescript": "^5.9.3"
   }
 }
