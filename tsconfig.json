@@ -13,6 +13,6 @@
     "noUncheckedIndexedAccess": true,
     "rootDir": "./src"
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "dev/**/*.ts"],
   "exclude": ["**/node_modules/**"]
 }
