@@ -1,9 +1,10 @@
 import { createToken, CstParser, Lexer } from "chevrotain";
 
 const tokens = {
+  FUNCTION_TARGET: createToken({ name: "FunctionTarget", pattern: /(F|f)unction [a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/ }),
   COMMON_WORD: createToken({ name: "CommonWord", pattern: /[a-zA-Z]+/ }),
-  SPACE: createToken({ name: "space", pattern: /\s+/ }),
-  COMMA: createToken({ name: "comma", pattern: "." }),
+  SPACE: createToken({ name: "space", pattern: /\s+/, group: Lexer.SKIPPED }),
+  PERIOD: createToken({ name: "period", pattern: "." }),
   DOC_TAG: createToken({ name: "DocTag", pattern: /@[\w](-\w)*/ }),
   TYPE_NAME: createToken({ name: "TypeName", pattern: /[A-Z][a-zA-Z0-9_]*/ }),
   METHOD: createToken({ name: "MethodName", pattern: /[a-zA-Z0-9_]*\(\)/ }),
@@ -29,20 +30,18 @@ export class Parser extends CstParser {
   });
 
   public sentence = this.RULE("sentence", () => {
-    this.MANY_SEP({
-      SEP: tokens.SPACE,
-      DEF: () => {
-        this.SUBRULE(this.word);
-      },
-    });
+    this.AT_LEAST_ONE(() => {
+        this.OR([
+          { ALT: () => this.CONSUME(tokens.FUNCTION_TARGET) },
+          { ALT: () => this.SUBRULE(this.word) },
+        ])
+      });
+    this.CONSUME(tokens.PERIOD)
   });
 
   public errorMessage = this.RULE("errorMessage", () => {
-    this.MANY_SEP({
-      SEP: tokens.COMMA,
-      DEF: () => {
-        this.SUBRULE(this.sentence);
-      },
+    this.AT_LEAST_ONE(() => {
+      this.SUBRULE(this.sentence);
     });
   });
 }

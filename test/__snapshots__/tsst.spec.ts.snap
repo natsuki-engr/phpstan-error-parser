@@ -3,87 +3,28 @@
 exports[`sample test > parse common sentence 1`] = `
 {
   "children": {
-    "comma": [
-      {
-        "endColumn": 18,
-        "endLine": 1,
-        "endOffset": 17,
-        "image": ".",
-        "startColumn": 18,
-        "startLine": 1,
-        "startOffset": 17,
-        "tokenType": {
-          "CATEGORIES": [],
-          "PATTERN": ".",
-          "categoryMatches": [],
-          "categoryMatchesMap": {},
-          "isParent": false,
-          "name": "comma",
-          "tokenTypeIdx": 5,
-        },
-        "tokenTypeIdx": 5,
-      },
-    ],
     "sentence": [
       {
         "children": {
-          "space": [
+          "period": [
             {
-              "endColumn": 6,
+              "endColumn": 18,
               "endLine": 1,
-              "endOffset": 5,
-              "image": " ",
-              "startColumn": 6,
+              "endOffset": 17,
+              "image": ".",
+              "startColumn": 18,
               "startLine": 1,
-              "startOffset": 5,
+              "startOffset": 17,
               "tokenType": {
                 "CATEGORIES": [],
-                "PATTERN": /\\\\s\\+/,
+                "PATTERN": ".",
                 "categoryMatches": [],
                 "categoryMatchesMap": {},
                 "isParent": false,
-                "name": "space",
-                "tokenTypeIdx": 4,
+                "name": "period",
+                "tokenTypeIdx": 6,
               },
-              "tokenTypeIdx": 4,
-            },
-            {
-              "endColumn": 9,
-              "endLine": 1,
-              "endOffset": 8,
-              "image": " ",
-              "startColumn": 9,
-              "startLine": 1,
-              "startOffset": 8,
-              "tokenType": {
-                "CATEGORIES": [],
-                "PATTERN": /\\\\s\\+/,
-                "categoryMatches": [],
-                "categoryMatchesMap": {},
-                "isParent": false,
-                "name": "space",
-                "tokenTypeIdx": 4,
-              },
-              "tokenTypeIdx": 4,
-            },
-            {
-              "endColumn": 12,
-              "endLine": 1,
-              "endOffset": 11,
-              "image": " ",
-              "startColumn": 12,
-              "startLine": 1,
-              "startOffset": 11,
-              "tokenType": {
-                "CATEGORIES": [],
-                "PATTERN": /\\\\s\\+/,
-                "categoryMatches": [],
-                "categoryMatchesMap": {},
-                "isParent": false,
-                "name": "space",
-                "tokenTypeIdx": 4,
-              },
-              "tokenTypeIdx": 4,
+              "tokenTypeIdx": 6,
             },
           ],
           "word": [
@@ -105,9 +46,9 @@ exports[`sample test > parse common sentence 1`] = `
                       "categoryMatchesMap": {},
                       "isParent": false,
                       "name": "CommonWord",
-                      "tokenTypeIdx": 3,
+                      "tokenTypeIdx": 4,
                     },
-                    "tokenTypeIdx": 3,
+                    "tokenTypeIdx": 4,
                   },
                 ],
               },
@@ -131,9 +72,9 @@ exports[`sample test > parse common sentence 1`] = `
                       "categoryMatchesMap": {},
                       "isParent": false,
                       "name": "CommonWord",
-                      "tokenTypeIdx": 3,
+                      "tokenTypeIdx": 4,
                     },
-                    "tokenTypeIdx": 3,
+                    "tokenTypeIdx": 4,
                   },
                 ],
               },
@@ -157,9 +98,9 @@ exports[`sample test > parse common sentence 1`] = `
                       "categoryMatchesMap": {},
                       "isParent": false,
                       "name": "CommonWord",
-                      "tokenTypeIdx": 3,
+                      "tokenTypeIdx": 4,
                     },
-                    "tokenTypeIdx": 3,
+                    "tokenTypeIdx": 4,
                   },
                 ],
               },
@@ -183,9 +124,9 @@ exports[`sample test > parse common sentence 1`] = `
                       "categoryMatchesMap": {},
                       "isParent": false,
                       "name": "CommonWord",
-                      "tokenTypeIdx": 3,
+                      "tokenTypeIdx": 4,
                     },
-                    "tokenTypeIdx": 3,
+                    "tokenTypeIdx": 4,
                   },
                 ],
               },
@@ -195,8 +136,337 @@ exports[`sample test > parse common sentence 1`] = `
         },
         "name": "sentence",
       },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
+exports[`sample test > parse function error target 1`] = `
+{
+  "children": {
+    "sentence": [
       {
-        "children": {},
+        "children": {
+          "FunctionTarget": [
+            {
+              "endColumn": 15,
+              "endLine": 1,
+              "endOffset": 14,
+              "image": "Function format",
+              "startColumn": 1,
+              "startLine": 1,
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": /\\(F\\|f\\)unction \\[a-zA-Z0-9_\\]\\+\\(\\\\\\\\\\[a-zA-Z0-9_\\]\\+\\)\\*/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "FunctionTarget",
+                "tokenTypeIdx": 3,
+              },
+              "tokenTypeIdx": 3,
+            },
+          ],
+          "period": [
+            {
+              "endColumn": 26,
+              "endLine": 1,
+              "endOffset": 25,
+              "image": ".",
+              "startColumn": 26,
+              "startLine": 1,
+              "startOffset": 25,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 6,
+              },
+              "tokenTypeIdx": 6,
+            },
+          ],
+          "word": [
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 19,
+                    "endLine": 1,
+                    "endOffset": 18,
+                    "image": "not",
+                    "startColumn": 17,
+                    "startLine": 1,
+                    "startOffset": 16,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 4,
+                    },
+                    "tokenTypeIdx": 4,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 25,
+                    "endLine": 1,
+                    "endOffset": 24,
+                    "image": "found",
+                    "startColumn": 21,
+                    "startLine": 1,
+                    "startOffset": 20,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 4,
+                    },
+                    "tokenTypeIdx": 4,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
+exports[`sample test > parse function not found error 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "FunctionTarget": [
+            {
+              "endColumn": 15,
+              "endLine": 1,
+              "endOffset": 14,
+              "image": "Function format",
+              "startColumn": 1,
+              "startLine": 1,
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": /\\(F\\|f\\)unction \\[a-zA-Z0-9_\\]\\+\\(\\\\\\\\\\[a-zA-Z0-9_\\]\\+\\)\\*/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "FunctionTarget",
+                "tokenTypeIdx": 3,
+              },
+              "tokenTypeIdx": 3,
+            },
+          ],
+          "period": [
+            {
+              "endColumn": 26,
+              "endLine": 1,
+              "endOffset": 25,
+              "image": ".",
+              "startColumn": 26,
+              "startLine": 1,
+              "startOffset": 25,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 6,
+              },
+              "tokenTypeIdx": 6,
+            },
+          ],
+          "word": [
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 19,
+                    "endLine": 1,
+                    "endOffset": 18,
+                    "image": "not",
+                    "startColumn": 17,
+                    "startLine": 1,
+                    "startOffset": 16,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 4,
+                    },
+                    "tokenTypeIdx": 4,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 25,
+                    "endLine": 1,
+                    "endOffset": 24,
+                    "image": "found",
+                    "startColumn": 21,
+                    "startLine": 1,
+                    "startOffset": 20,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 4,
+                    },
+                    "tokenTypeIdx": 4,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
+exports[`sample test > parse function with namespace error target 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "FunctionTarget": [
+            {
+              "endColumn": 19,
+              "endLine": 1,
+              "endOffset": 18,
+              "image": "Function abc\\format",
+              "startColumn": 1,
+              "startLine": 1,
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": /\\(F\\|f\\)unction \\[a-zA-Z0-9_\\]\\+\\(\\\\\\\\\\[a-zA-Z0-9_\\]\\+\\)\\*/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "FunctionTarget",
+                "tokenTypeIdx": 3,
+              },
+              "tokenTypeIdx": 3,
+            },
+          ],
+          "period": [
+            {
+              "endColumn": 30,
+              "endLine": 1,
+              "endOffset": 29,
+              "image": ".",
+              "startColumn": 30,
+              "startLine": 1,
+              "startOffset": 29,
+              "tokenType": {
+                "CATEGORIES": [],
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 6,
+              },
+              "tokenTypeIdx": 6,
+            },
+          ],
+          "word": [
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 23,
+                    "endLine": 1,
+                    "endOffset": 22,
+                    "image": "not",
+                    "startColumn": 21,
+                    "startLine": 1,
+                    "startOffset": 20,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 4,
+                    },
+                    "tokenTypeIdx": 4,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+            {
+              "children": {
+                "CommonWord": [
+                  {
+                    "endColumn": 29,
+                    "endLine": 1,
+                    "endOffset": 28,
+                    "image": "found",
+                    "startColumn": 25,
+                    "startLine": 1,
+                    "startOffset": 24,
+                    "tokenType": {
+                      "CATEGORIES": [],
+                      "PATTERN": /\\[a-zA-Z\\]\\+/,
+                      "categoryMatches": [],
+                      "categoryMatchesMap": {},
+                      "isParent": false,
+                      "name": "CommonWord",
+                      "tokenTypeIdx": 4,
+                    },
+                    "tokenTypeIdx": 4,
+                  },
+                ],
+              },
+              "name": "word",
+            },
+          ],
+        },
         "name": "sentence",
       },
     ],
