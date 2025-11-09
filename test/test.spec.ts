@@ -41,4 +41,24 @@ describe("sample test", () => {
     
     expect(cst).matchSnapshot();
   });
+  
+  it("parse method error target", async () => {
+    const parser = new Parser();
+    const message = "Anonymous function has invalid return type TestClosureFunctionTypehintsPhp71\NonexistentClass.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+    
+    expect(cst).matchSnapshot();
+  });
+  
+  it("parse method with namespace error target", async () => {
+    const parser = new Parser();
+    const message = "Parameter $a of anonymous function has unresolvable native type.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+    
+    expect(cst).matchSnapshot();
+  })
 });

@@ -2,6 +2,8 @@ import { createToken, CstParser, Lexer } from "chevrotain";
 
 const tokens = {
   FUNCTION_TARGET: createToken({ name: "FunctionTarget", pattern: /(F|f)unction [a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/ }),
+  ANONYMOUS_FUNCTION: createToken({ name: "(A|a)nonymousFunction", pattern: /Anonymous function/ }),
+  METHOD_TARGET: createToken({ name: "MethodTarget", pattern: /(M|m)ethod [a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/ }),
   COMMON_WORD: createToken({ name: "CommonWord", pattern: /[a-zA-Z]+/ }),
   SPACE: createToken({ name: "space", pattern: /\s+/, group: Lexer.SKIPPED }),
   PERIOD: createToken({ name: "period", pattern: "." }),
@@ -33,6 +35,8 @@ export class Parser extends CstParser {
     this.AT_LEAST_ONE(() => {
         this.OR([
           { ALT: () => this.CONSUME(tokens.FUNCTION_TARGET) },
+          { ALT: () => this.CONSUME(tokens.ANONYMOUS_FUNCTION) },
+          { ALT: () => this.CONSUME(tokens.METHOD_TARGET) },
           { ALT: () => this.SUBRULE(this.word) },
         ])
       });
