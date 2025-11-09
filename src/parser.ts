@@ -7,8 +7,6 @@ const tokens = {
   SPACE: createToken({ name: "space", pattern: /\s+/, group: Lexer.SKIPPED }),
   PERIOD: createToken({ name: "period", pattern: "." }),
   DOC_TAG: createToken({ name: "DocTag", pattern: /@[\w](-\w)*/ }),
-  TYPE_NAME: createToken({ name: "TypeName", pattern: /[A-Z][a-zA-Z0-9_]*/ }),
-  METHOD: createToken({ name: "MethodName", pattern: /[a-zA-Z0-9_]*\(\)/ }),
   VARIABLE: createToken({ name: "Variable", pattern: /\$[a-z][a-zA-Z0-9_]*/ }),
 };
 
@@ -20,25 +18,17 @@ export class Parser extends CstParser {
     this.performSelfAnalysis();
   }
 
-  public word = this.RULE("word", () => {
-    this.OR([
-      { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
-      { ALT: () => this.CONSUME(tokens.DOC_TAG) },
-      { ALT: () => this.CONSUME(tokens.TYPE_NAME) },
-      { ALT: () => this.CONSUME(tokens.METHOD) },
-      { ALT: () => this.CONSUME(tokens.VARIABLE) },
-    ]);
-  });
-
   public sentence = this.RULE("sentence", () => {
     this.AT_LEAST_ONE(() => {
-        this.OR([
-          { ALT: () => this.CONSUME(tokens.FUNCTION_NAME) },
-          { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
-          { ALT: () => this.SUBRULE(this.word) },
-        ])
-      });
-    this.CONSUME(tokens.PERIOD)
+      this.OR([
+        { ALT: () => this.CONSUME(tokens.FUNCTION_NAME) },
+        { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
+        { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
+        { ALT: () => this.CONSUME(tokens.DOC_TAG) },
+        { ALT: () => this.CONSUME(tokens.VARIABLE) },
+      ]);
+    });
+    this.CONSUME(tokens.PERIOD);
   });
 
   public errorMessage = this.RULE("errorMessage", () => {
