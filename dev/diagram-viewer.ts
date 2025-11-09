@@ -1,5 +1,5 @@
 import { createSyntaxDiagramsCode } from "chevrotain";
-import { Parser } from "../src/main.js";
+import { Parser } from "../src/parser.js";
 import { Hono } from "hono";
 import { serve } from "@hono/node-server";
 

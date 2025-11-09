@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { lexer, Parser } from "../src/main.ts";
+import { lexer, Parser } from "../src/parser.ts";
 
 describe("sample test", () => {
   it("parse common sentence", () => {
