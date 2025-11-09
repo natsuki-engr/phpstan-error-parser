@@ -148,7 +148,7 @@ exports[`sample test > parse function error target 1`] = `
     "sentence": [
       {
         "children": {
-          "FunctionTarget": [
+          "FunctionName": [
             {
               "endColumn": 15,
               "endLine": 1,
@@ -163,7 +163,7 @@ exports[`sample test > parse function error target 1`] = `
                 "categoryMatches": [],
                 "categoryMatchesMap": {},
                 "isParent": false,
-                "name": "FunctionTarget",
+                "name": "FunctionName",
                 "tokenTypeIdx": 3,
               },
               "tokenTypeIdx": 3,
@@ -285,7 +285,7 @@ exports[`sample test > parse function not found error 1`] = `
     "sentence": [
       {
         "children": {
-          "FunctionTarget": [
+          "FunctionName": [
             {
               "endColumn": 15,
               "endLine": 1,
@@ -300,7 +300,7 @@ exports[`sample test > parse function not found error 1`] = `
                 "categoryMatches": [],
                 "categoryMatchesMap": {},
                 "isParent": false,
-                "name": "FunctionTarget",
+                "name": "FunctionName",
                 "tokenTypeIdx": 3,
               },
               "tokenTypeIdx": 3,
@@ -422,7 +422,7 @@ exports[`sample test > parse function with namespace error target 1`] = `
     "sentence": [
       {
         "children": {
-          "FunctionTarget": [
+          "FunctionName": [
             {
               "endColumn": 19,
               "endLine": 1,
@@ -437,7 +437,7 @@ exports[`sample test > parse function with namespace error target 1`] = `
                 "categoryMatches": [],
                 "categoryMatchesMap": {},
                 "isParent": false,
-                "name": "FunctionTarget",
+                "name": "FunctionName",
                 "tokenTypeIdx": 3,
               },
               "tokenTypeIdx": 3,
