@@ -2,7 +2,7 @@ import { createToken, CstParser, Lexer } from "chevrotain";
 
 const tokens = {
   FUNCTION_TARGET: createToken({ name: "FunctionTarget", pattern: /(F|f)unction [a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/ }),
-  ANONYMOUS_FUNCTION: createToken({ name: "(A|a)nonymousFunction", pattern: /Anonymous function/ }),
+  ANONYMOUS_FUNCTION: createToken({ name: "AnonymousFunction", pattern: /Anonymous function/ }),
   METHOD_TARGET: createToken({ name: "MethodTarget", pattern: /(M|m)ethod [a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/ }),
   COMMON_WORD: createToken({ name: "CommonWord", pattern: /[a-zA-Z]+/ }),
   SPACE: createToken({ name: "space", pattern: /\s+/, group: Lexer.SKIPPED }),
