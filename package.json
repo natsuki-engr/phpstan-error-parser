@@ -5,6 +5,7 @@
   "description": "This parses PHPStan error message into a structured format.",
   "main": "index.js",
   "scripts": {
+    "diagram": "npx tsx dev/diagram-viewer.ts",
     "test": "vitest"
   },
   "keywords": [
