@@ -18,6 +18,14 @@ This is a JavaScript/TypeScript library that parses PHPStan error messages and e
 - Get location information (start/end columns) for each token
 - Built with TypeScript for type safety
 
+## Tasks
+
+- [] comma
+- [] `->` ("Using nullsafe method call on non-nullable type Exception. Use -> instead.")
+- [] error including parameter number(#1, #2, ...)
+- [] generic types (e.g., `Path\SomeClass<int, string>`)
+- [] more...
+
 ## Installation
 
 ```bash
