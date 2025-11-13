@@ -3,8 +3,7 @@ import { format, Word } from "./format.js";
 
 export function parse(errorMessage: string): Word[] {
   const parser = new Parser();
-  const message = "Function format not found.";
-  const lexingResult = lexer.tokenize(message);
+  const lexingResult = lexer.tokenize(errorMessage);
   parser.input = lexingResult.tokens;
   const cst = parser.errorMessage();
 
