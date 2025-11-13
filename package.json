@@ -4,6 +4,9 @@
   "type": "module",
   "description": "This parses PHPStan error message into a structured format.",
   "main": "index.js",
+  "bin": {
+    "calc-offset": "./test/cli-scripts/offset-calculator.js"
+  },
   "scripts": {
     "diagram": "vite -c vite-dev.config.ts",
     "test": "vitest"

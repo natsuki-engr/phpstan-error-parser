@@ -111,6 +111,29 @@ View the parser diagram visualization like [Chevrotain Playground](https://chevr
 npm run diagram
 ```
 
+### Offset Calculator CLI
+
+A development tool to calculate word offsets for testing purposes:
+
+```bash
+# Link the package globally (run once)
+npm link
+```
+
+```bash
+# Use the CLI from anywhere
+calc-offset "Function format not found."
+
+|0       |9      |16  |20
+Function format  not  found.
+       |8     |15  |19     |26
+```
+
+```bash
+# Unlink when done
+npm unlink -g phpstan-error-parser
+```
+
 ## Project Structure
 
 ```

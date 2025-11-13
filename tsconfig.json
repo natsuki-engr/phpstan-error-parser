@@ -5,6 +5,7 @@
     "outDir": "dist",
     "lib": ["esnext"],
     "noImplicitAny": true,
+    "checkJs": true,
     "strict": true,
     "sourceMap": true,
     "esModuleInterop": true,
@@ -13,6 +14,6 @@
     "noUncheckedIndexedAccess": true,
     "rootDir": "./"
   },
-  "include": ["src/**/*.ts", "dev/**/*.ts"],
+  "include": ["src/**/*.ts", "dev/**/*.ts", "test/cli-scripts/*"],
   "exclude": ["**/node_modules/**"]
 }
