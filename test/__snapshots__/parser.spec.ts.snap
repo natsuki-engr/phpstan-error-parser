@@ -169,6 +169,147 @@ exports[`sample test > not parse as method name with 'the' prefix 1`] = `
 }
 `;
 
+exports[`sample test > parse comma 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "CommonWord": [
+            {
+              "image": "A",
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "is",
+              "startOffset": 2,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "B",
+              "startOffset": 5,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "C",
+              "startOffset": 8,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "is",
+              "startOffset": 10,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "D",
+              "startOffset": 13,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+          ],
+          "comma": [
+            {
+              "image": ",",
+              "startOffset": 6,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": ",",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "comma",
+                "tokenTypeIdx": 8,
+              },
+              "tokenTypeIdx": 8,
+            },
+          ],
+          "period": [
+            {
+              "image": ".",
+              "startOffset": 14,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 7,
+              },
+              "tokenTypeIdx": 7,
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
 exports[`sample test > parse common sentence 1`] = `
 {
   "children": {
@@ -358,9 +499,9 @@ exports[`sample test > parse doc tag 1`] = `
                 "categoryMatchesMap": {},
                 "isParent": false,
                 "name": "DocTag",
-                "tokenTypeIdx": 8,
+                "tokenTypeIdx": 9,
               },
-              "tokenTypeIdx": 8,
+              "tokenTypeIdx": 9,
             },
           ],
           "period": [
@@ -1163,9 +1304,9 @@ exports[`sample test > parse method with namespace error target 1`] = `
                 "categoryMatchesMap": {},
                 "isParent": false,
                 "name": "Variable",
-                "tokenTypeIdx": 9,
+                "tokenTypeIdx": 10,
               },
-              "tokenTypeIdx": 9,
+              "tokenTypeIdx": 10,
             },
           ],
           "period": [

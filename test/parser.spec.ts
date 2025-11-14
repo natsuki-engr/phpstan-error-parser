@@ -101,4 +101,14 @@ describe("sample test", () => {
 
     expect(cst).matchSnapshot();
   });
+
+  it("parse comma", async () => {
+    const parser = new Parser();
+    const message = "A is B, C is D.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+
+    expect(cst).matchSnapshot();
+  });
 });

@@ -207,4 +207,78 @@ describe("test formatted results", () => {
 
     expect(result).toStrictEqual(expected);
   })
+  
+  it("parse comma", () => {
+    const message = "A is B, C is D.";
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: "common_word",
+        value: "A",
+        location: {
+          startColumn: 0,
+          endColumn: 1,
+        },
+      },
+      {
+        type: "common_word",
+        value: "is",
+        location: {
+          startColumn: 2,
+          endColumn: 4,
+        },
+      },
+      {
+        type: "common_word",
+        value: "B",
+        location: {
+          startColumn: 5,
+          endColumn: 6,
+        },
+      },
+      {
+        type: "comma",
+        value: ",",
+        location: {
+          startColumn: 6,
+          endColumn: 7,
+        },
+      },
+      {
+        type: "common_word",
+        value: "C",
+        location: {
+          startColumn: 8,
+          endColumn: 9,
+        },
+      },
+      {
+        type: "common_word",
+        value: "is",
+        location: {
+          startColumn: 10,
+          endColumn: 12,
+        },
+      },
+      {
+        type: "common_word",
+        value: "D",
+        location: {
+          startColumn: 13,
+          endColumn: 14,
+        },
+      },
+      {
+        type: "period",
+        value: ".",
+        location: {
+          startColumn: 14,
+          endColumn: 15,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  })
 });

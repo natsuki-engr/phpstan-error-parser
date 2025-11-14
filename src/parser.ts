@@ -6,7 +6,7 @@ const tokens = {
   COMMON_WORD: createToken({ name: "CommonWord", pattern: /[a-zA-Z]+/, line_breaks: false }),
   SPACE: createToken({ name: "space", pattern: /\s+/, group: Lexer.SKIPPED, line_breaks: false }),
   PERIOD: createToken({ name: "period", pattern: ".", line_breaks: false }),
-  DOC_TAG: createToken({ name: "DocTag", pattern: /@[\w](-\w)*/, line_breaks: false }),
+  COMMA: createToken({ name: "comma", pattern: ",", line_breaks: false }),
   VARIABLE: createToken({ name: "Variable", pattern: /\$[a-z][a-zA-Z0-9_]*/, line_breaks: false }),
 };
 
@@ -26,6 +26,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },
         { ALT: () => this.CONSUME(tokens.VARIABLE) },
+        { ALT: () => this.CONSUME(tokens.COMMA) },
       ]);
     });
     this.CONSUME(tokens.PERIOD);
