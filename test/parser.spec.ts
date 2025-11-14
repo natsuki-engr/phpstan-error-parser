@@ -61,4 +61,14 @@ describe("sample test", () => {
     
     expect(cst).matchSnapshot();
   })
+
+  it("parse doc tag", async () => {
+    const parser = new Parser();
+    const message = "PHPDoc tag @mixin contains unresolvable type.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+    
+    expect(cst).matchSnapshot();
+  });
 });

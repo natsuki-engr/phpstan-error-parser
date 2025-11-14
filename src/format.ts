@@ -22,9 +22,11 @@ export function format(errorMessageCst: CstNode): Word[] {
   let words: Word[] = [];
   const commonWords = sentenceNode?.children?.CommonWord;
   const functionNames = sentenceNode?.children?.FunctionName;
+  const docTags = sentenceNode?.children?.DocTag;
   const nodeLists = [
     { tokenType: "function_name", nodes: functionNames },
     { tokenType: "common_word", nodes: commonWords },
+    { tokenType: "doc_tag", nodes: docTags },
     { tokenType: "period", nodes: sentenceNode?.children?.period },
   ] as const;
 

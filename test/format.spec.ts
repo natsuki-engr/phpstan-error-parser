@@ -114,5 +114,7 @@ describe("test formatted results", () => {
         },
       },
     ];
+    
+    expect(result).toStrictEqual(expected);
   });
 });

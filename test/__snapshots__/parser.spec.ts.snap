@@ -94,6 +94,132 @@ exports[`sample test > parse common sentence 1`] = `
 }
 `;
 
+exports[`sample test > parse doc tag 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "CommonWord": [
+            {
+              "image": "PHPDoc",
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "tag",
+              "startOffset": 7,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "contains",
+              "startOffset": 18,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "unresolvable",
+              "startOffset": 27,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "type",
+              "startOffset": 40,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+          ],
+          "DocTag": [
+            {
+              "image": "@mixin",
+              "startOffset": 11,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /@\\\\w\\+\\(-\\\\w\\)\\*\\?/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "DocTag",
+                "tokenTypeIdx": 8,
+              },
+              "tokenTypeIdx": 8,
+            },
+          ],
+          "period": [
+            {
+              "image": ".",
+              "startOffset": 44,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 7,
+              },
+              "tokenTypeIdx": 7,
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
 exports[`sample test > parse function error target 1`] = `
 {
   "children": {
