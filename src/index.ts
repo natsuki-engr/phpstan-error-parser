@@ -1,5 +1,5 @@
-import { lexer, Parser } from "./parser.js";
-import { format, Word } from "./format.js";
+import { format, type Word } from './format.js';
+import { lexer, Parser } from './parser.js';
 
 export function parse(errorMessage: string): Word[] {
   const parser = new Parser();

@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import devServer from '@hono/vite-dev-server'
+import devServer from '@hono/vite-dev-server';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [
@@ -7,4 +7,4 @@ export default defineConfig({
       entry: 'dev/diagram-viewer.ts',
     }),
   ],
-})
+});
