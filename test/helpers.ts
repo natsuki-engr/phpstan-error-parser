@@ -1,9 +1,9 @@
-import type { CstElement, CstNode, IToken } from "chevrotain";
+import type { CstElement, CstNode, IToken } from 'chevrotain';
 
 export function cstHas(cst: CstElement, query: string): boolean {
-  if (!query.includes(":")) return false;
+  if (!query.includes(':')) return false;
 
-  const parts = query.split(":", 2);
+  const parts = query.split(':', 2);
   const tokenType = parts[0];
   const value = parts[1];
 
@@ -13,7 +13,7 @@ export function cstHas(cst: CstElement, query: string): boolean {
 function searchInCst(
   element: CstElement,
   tokenType: string,
-  value: string
+  value: string,
 ): boolean {
   if (isIToken(element)) {
     const typeMatches = element.tokenType?.name === tokenType;
@@ -37,5 +37,5 @@ function searchInCst(
 }
 
 function isIToken(element: CstElement): element is IToken {
-  return "image" in element;
+  return 'image' in element;
 }
