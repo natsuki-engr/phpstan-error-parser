@@ -71,4 +71,34 @@ describe("sample test", () => {
     
     expect(cst).matchSnapshot();
   });
+
+  it("parse method name", async () => {
+    const parser = new Parser();
+    const message = "Method assert() not found.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+
+    expect(cst).matchSnapshot();
+  });
+
+  it("parse method name without parentheses", async () => {
+    const parser = new Parser();
+    const message = "Method assert not found.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+
+    expect(cst).matchSnapshot();
+  });
+
+  it("not parse as method name with 'the' prefix", async () => {
+    const parser = new Parser();
+    const message = "The method might change in a minor PHPStan version.";
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+
+    expect(cst).matchSnapshot();
+  });
 });

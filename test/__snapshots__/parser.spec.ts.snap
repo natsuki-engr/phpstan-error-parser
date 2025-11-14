@@ -1,5 +1,174 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`sample test > not parse as method name with 'the' prefix 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "CommonWord": [
+            {
+              "image": "The",
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "method",
+              "startOffset": 4,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "might",
+              "startOffset": 11,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "change",
+              "startOffset": 17,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "in",
+              "startOffset": 24,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "a",
+              "startOffset": 27,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "minor",
+              "startOffset": 29,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "PHPStan",
+              "startOffset": 35,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "version",
+              "startOffset": 43,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+          ],
+          "period": [
+            {
+              "image": ".",
+              "startOffset": 50,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 7,
+              },
+              "tokenTypeIdx": 7,
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
 exports[`sample test > parse common sentence 1`] = `
 {
   "children": {
@@ -640,6 +809,198 @@ exports[`sample test > parse method error target 1`] = `
             {
               "image": ".",
               "startOffset": 92,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 7,
+              },
+              "tokenTypeIdx": 7,
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
+exports[`sample test > parse method name 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "CommonWord": [
+            {
+              "image": "Method",
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "not",
+              "startOffset": 16,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "found",
+              "startOffset": 20,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+          ],
+          "MethodName": [
+            {
+              "image": "assert()",
+              "startOffset": 7,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\(\\?<!\\(T\\|t\\)he \\(M\\|m\\)ethod \\)\\(\\?<=\\(M\\|m\\)ethod \\)\\(\\[a-zA-Z0-9_\\]\\+\\(\\\\\\\\\\[a-zA-Z0-9_\\]\\+\\)\\*\\(\\\\\\(\\\\\\)\\)\\?\\)/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "MethodName",
+                "tokenTypeIdx": 4,
+              },
+              "tokenTypeIdx": 4,
+            },
+          ],
+          "period": [
+            {
+              "image": ".",
+              "startOffset": 25,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": ".",
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "period",
+                "tokenTypeIdx": 7,
+              },
+              "tokenTypeIdx": 7,
+            },
+          ],
+        },
+        "name": "sentence",
+      },
+    ],
+  },
+  "name": "errorMessage",
+}
+`;
+
+exports[`sample test > parse method name without parentheses 1`] = `
+{
+  "children": {
+    "sentence": [
+      {
+        "children": {
+          "CommonWord": [
+            {
+              "image": "Method",
+              "startOffset": 0,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "not",
+              "startOffset": 14,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+            {
+              "image": "found",
+              "startOffset": 18,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\[a-zA-Z\\]\\+/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "CommonWord",
+                "tokenTypeIdx": 5,
+              },
+              "tokenTypeIdx": 5,
+            },
+          ],
+          "MethodName": [
+            {
+              "image": "assert",
+              "startOffset": 7,
+              "tokenType": {
+                "CATEGORIES": [],
+                "LINE_BREAKS": false,
+                "PATTERN": /\\(\\?<!\\(T\\|t\\)he \\(M\\|m\\)ethod \\)\\(\\?<=\\(M\\|m\\)ethod \\)\\(\\[a-zA-Z0-9_\\]\\+\\(\\\\\\\\\\[a-zA-Z0-9_\\]\\+\\)\\*\\(\\\\\\(\\\\\\)\\)\\?\\)/,
+                "categoryMatches": [],
+                "categoryMatchesMap": {},
+                "isParent": false,
+                "name": "MethodName",
+                "tokenTypeIdx": 4,
+              },
+              "tokenTypeIdx": 4,
+            },
+          ],
+          "period": [
+            {
+              "image": ".",
+              "startOffset": 23,
               "tokenType": {
                 "CATEGORIES": [],
                 "LINE_BREAKS": false,

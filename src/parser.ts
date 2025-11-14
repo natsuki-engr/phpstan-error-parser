@@ -2,7 +2,7 @@ import { createToken, CstParser, Lexer } from "chevrotain";
 
 const tokens = {
   FUNCTION_NAME: createToken({ name: "FunctionName", pattern: /(?<!(A|a)nonymous function )(?<=(F|f)unction )[a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/, line_breaks: false }),
-  METHOD_NAME: createToken({ name: "MethodName", pattern: /(?<=(M|m)ethod )[a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*/, line_breaks: false }),
+  METHOD_NAME: createToken({ name: "MethodName", pattern: /(?<!(T|t)he (M|m)ethod )(?<=(M|m)ethod )([a-zA-Z0-9_]+(\\[a-zA-Z0-9_]+)*(\(\))?)/, line_breaks: false }),
   COMMON_WORD: createToken({ name: "CommonWord", pattern: /[a-zA-Z]+/, line_breaks: false }),
   SPACE: createToken({ name: "space", pattern: /\s+/, group: Lexer.SKIPPED, line_breaks: false }),
   PERIOD: createToken({ name: "period", pattern: ".", line_breaks: false }),

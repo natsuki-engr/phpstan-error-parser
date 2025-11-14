@@ -117,4 +117,94 @@ describe("test formatted results", () => {
     
     expect(result).toStrictEqual(expected);
   });
+
+  it("parse as common words", async () => {
+    const message = "The method might change in a minor PHPStan version.";
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: "common_word",
+        value: "The",
+        location: {
+          startColumn: 0,
+          endColumn: 3,
+        },
+      },
+      {
+        type: "common_word",
+        value: "method",
+        location: {
+          startColumn: 4,
+          endColumn: 10,
+        },
+      },
+      {
+        type: "common_word",
+        value: "might",
+        location: {
+          startColumn: 11,
+          endColumn: 16,
+        },
+      },
+      {
+        type: "common_word",
+        value: "change",
+        location: {
+          startColumn: 17,
+          endColumn: 23,
+        },
+      },
+      {
+        type: "common_word",
+        value: "in",
+        location: {
+          startColumn: 24,
+          endColumn: 26,
+        },
+      },
+      {
+        type: "common_word",
+        value: "a",
+        location: {
+          startColumn: 27,
+          endColumn: 28,
+        },
+      },
+      {
+        type: "common_word",
+        value: "minor",
+        location: {
+          startColumn: 29,
+          endColumn: 34,
+        },
+      },
+      {
+        type: "common_word",
+        value: "PHPStan",
+        location: {
+          startColumn: 35,
+          endColumn: 42,
+        },
+      },
+      {
+        type: "common_word",
+        value: "version",
+        location: {
+          startColumn: 43,
+          endColumn: 50,
+        },
+      },
+      {
+        type: "period",
+        value: ".",
+        location: {
+          startColumn: 50,
+          endColumn: 51,
+        },
+      },
+    ]
+
+    expect(result).toStrictEqual(expected);
+  })
 });
