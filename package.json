@@ -10,7 +10,8 @@
   "scripts": {
     "diagram": "vite -c vite-dev.config.ts",
     "test": "vitest",
-    "test:run": "vitest --run"
+    "test:run": "vitest --run",
+    "check": "tsc --noEmit && biome check --write && npm run test:run"
   },
   "keywords": [
     "PHPStan",
