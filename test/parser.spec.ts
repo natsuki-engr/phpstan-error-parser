@@ -1,124 +1,92 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, test } from 'vitest';
 import { lexer, Parser } from '../src/parser.ts';
 import { cstHas } from './helpers.ts';
 
+type DataSet = {
+  name: string;
+  m: string;
+  assertions: Array<[string, boolean]>;
+};
+
 describe('sample test', () => {
-  it('parse common sentence', () => {
+  const dataSet = [
+    {
+      name: 'parse common sentence',
+      m: 'There is no error.',
+      assertions: [
+        ['CommonWord:There', true],
+        ['CommonWord:is', true],
+        ['CommonWord:no', true],
+        ['CommonWord:error', true],
+        ['period:.', true],
+      ],
+    },
+    {
+      name: 'parse function not found error',
+      m: 'Function format not found.',
+      assertions: [['FunctionName:format', true]],
+    },
+    {
+      name: 'parse function with namespace error target',
+      m: 'Function abc\\format not found.',
+      assertions: [['FunctionName:abc\\format', true]],
+    },
+    {
+      name: 'parse method with namespace error target',
+      m: 'Parameter $a of anonymous function has unresolvable native type.',
+      assertions: [
+        ['Variable:$a', true],
+        ['FunctionName:has', false],
+      ],
+    },
+    {
+      name: 'parse doc tag',
+      m: 'PHPDoc tag @mixin contains unresolvable type.',
+      assertions: [['DocTag:@mixin', true]],
+    },
+    {
+      name: 'parse method name',
+      m: 'Method assert() not found.',
+      assertions: [['MethodName:assert()', true]],
+    },
+    {
+      name: 'parse method name without parentheses',
+      m: 'Method assert not found.',
+      assertions: [['MethodName:assert', true]],
+    },
+    {
+      name: "not parse as method name with 'the' prefix",
+      m: 'The method might change in a minor PHPStan version.',
+      assertions: [
+        ['CommonWord:The', true],
+        ['CommonWord:method', true],
+        ['CommonWord:might', true],
+        ['MethodName:might', false],
+      ],
+    },
+    {
+      name: 'parse comma',
+      m: 'A is B, C is D.',
+      assertions: [['comma:,', true]],
+    },
+    {
+      name: 'parse static method name',
+      m: 'private method CallPrivateMethodThroughStatic\\Foo::doBar().',
+      assertions: [
+        ['StaticMethodName:CallPrivateMethodThroughStatic\\Foo::doBar()', true],
+        ['CommonWord:doBar', false],
+      ],
+    },
+  ] satisfies DataSet[];
+
+  test.each(dataSet)('$name', ({ m, assertions }) => {
     const parser = new Parser();
-    const message = 'There is no error.';
-    const lexingResult = lexer.tokenize(message);
+    const lexingResult = lexer.tokenize(m);
     parser.input = lexingResult.tokens;
     const cst = parser.errorMessage();
 
-    expect(cstHas(cst, 'CommonWord:There')).toBe(true);
-    expect(cstHas(cst, 'CommonWord:is')).toBe(true);
-    expect(cstHas(cst, 'CommonWord:no')).toBe(true);
-    expect(cstHas(cst, 'CommonWord:error')).toBe(true);
-    expect(cstHas(cst, 'period:.')).toBe(true);
-  });
-
-  it('parse function not found error', async () => {
-    const parser = new Parser();
-    const message = 'Function format not found.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'FunctionName:format')).toBe(true);
-  });
-
-  it('parse function with namespace error target', async () => {
-    const parser = new Parser();
-    const message = 'Function abc\\format not found.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'FunctionName:abc\\format')).toBe(true);
-  });
-
-  it('parse method with namespace error target', async () => {
-    const parser = new Parser();
-    const message =
-      'Parameter $a of anonymous function has unresolvable native type.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'Variable:$a')).toBe(true);
-
-    expect(cstHas(cst, 'FunctionName:has')).toBe(false);
-  });
-
-  it('parse doc tag', async () => {
-    const parser = new Parser();
-    const message = 'PHPDoc tag @mixin contains unresolvable type.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'DocTag:@mixin')).toBe(true);
-  });
-
-  it('parse method name', async () => {
-    const parser = new Parser();
-    const message = 'Method assert() not found.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'MethodName:assert()')).toBe(true);
-  });
-
-  it('parse method name without parentheses', async () => {
-    const parser = new Parser();
-    const message = 'Method assert not found.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'MethodName:assert')).toBe(true);
-  });
-
-  it("not parse as method name with 'the' prefix", async () => {
-    const parser = new Parser();
-    const message = 'The method might change in a minor PHPStan version.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'CommonWord:The')).toBe(true);
-    expect(cstHas(cst, 'CommonWord:method')).toBe(true);
-    expect(cstHas(cst, 'CommonWord:might')).toBe(true);
-
-    expect(cstHas(cst, 'MethodName:might')).toBe(false);
-  });
-
-  it('parse comma', async () => {
-    const parser = new Parser();
-    const message = 'A is B, C is D.';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(cstHas(cst, 'comma:,')).toBe(true);
-  });
-
-  it('parse static method name', () => {
-    const parser = new Parser();
-    const message =
-      'private method CallPrivateMethodThroughStatic\\Foo::doBar().';
-    const lexingResult = lexer.tokenize(message);
-    parser.input = lexingResult.tokens;
-    const cst = parser.errorMessage();
-
-    expect(
-      cstHas(
-        cst,
-        'StaticMethodName:CallPrivateMethodThroughStatic\\Foo::doBar()',
-      ),
-    ).toBe(true);
-
-    expect(cstHas(cst, 'CommonWord:doBar')).toBe(false);
+    assertions.forEach(([q, result]) => {
+      expect(cstHas(cst, q)).toBe(result);
+    });
   });
 });
