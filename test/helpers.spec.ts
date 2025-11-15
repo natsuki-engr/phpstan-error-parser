@@ -74,6 +74,24 @@ describe('cstHas function', () => {
     expect(cstHas(cst, 'comma:,')).toBe(true);
   });
 
+  it('should work with static method names', () => {
+    const message =
+      'private method CallPrivateMethodThroughStatic\\Foo::doBar().';
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+
+    expect(
+      cstHas(
+        cst,
+        'StaticMethodName:CallPrivateMethodThroughStatic\\Foo::doBar()',
+      ),
+    ).toBe(true);
+
+    expect(cstHas(cst, 'MethodName:doBar')).toBe(false);
+    expect(cstHas(cst, 'StaticMethodName:SomeOther::method()')).toBe(false);
+  });
+
   it('should return false for empty or invalid queries', () => {
     const message = 'Function format not found.';
     const lexingResult = lexer.tokenize(message);

@@ -3,9 +3,9 @@ import type { CstElement, CstNode, IToken } from 'chevrotain';
 export function cstHas(cst: CstElement, query: string): boolean {
   if (!query.includes(':')) return false;
 
-  const parts = query.split(':', 2);
-  const tokenType = parts[0];
-  const value = parts[1];
+  const colonIndex = query.indexOf(':');
+  const tokenType = query.substring(0, colonIndex);
+  const value = query.substring(colonIndex + 1);
 
   return searchInCst(cst, tokenType, value);
 }
