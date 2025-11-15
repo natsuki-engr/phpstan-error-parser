@@ -11,7 +11,8 @@
     "diagram": "vite -c vite-dev.config.ts",
     "test": "vitest",
     "test:run": "vitest --run",
-    "check": "tsc --noEmit && biome check --write && npm run test:run"
+    "biome": "biome check --write",
+    "check": "tsc --noEmit && npm run biome && npm run test:run"
   },
   "keywords": [
     "PHPStan",
