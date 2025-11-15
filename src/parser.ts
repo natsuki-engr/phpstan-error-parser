@@ -4,6 +4,10 @@ const tokens = {
   FUNCTION_NAME: createToken({
     name: 'FunctionName',
     pattern: /(?<!(A|a)nonymous function )(?<=(F|f)unction )[\w]+(\\[\w]+)*/,
+  }),
+  STATIC_METHOD_NAME: createToken({
+    name: 'StaticMethodName',
+    pattern: /(?<!(T|t)he (M|m)ethod )(?<=(M|m)ethod )(\w+(\\[\w]+)*::\w+\(\))/,
     line_breaks: false,
   }),
   METHOD_NAME: createToken({
@@ -50,6 +54,7 @@ export class Parser extends CstParser {
     this.AT_LEAST_ONE(() => {
       this.OR([
         { ALT: () => this.CONSUME(tokens.FUNCTION_NAME) },
+        { ALT: () => this.CONSUME(tokens.STATIC_METHOD_NAME) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
         { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },

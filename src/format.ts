@@ -23,10 +23,15 @@ export function format(errorMessageCst: CstNode): Word[] {
   let words: Word[] = [];
   const commonWords = sentenceNode?.children?.CommonWord;
   const functionNames = sentenceNode?.children?.FunctionName;
+  const methodNames = [
+    ...(sentenceNode?.children?.MethodName ?? []),
+    ...(sentenceNode?.children?.StaticMethodName ?? []),
+  ];
   const docTags = sentenceNode?.children?.DocTag;
   const comma = sentenceNode?.children?.comma;
   const nodeLists = [
     { tokenType: 'function_name', nodes: functionNames },
+    { tokenType: 'method_name', nodes: methodNames },
     { tokenType: 'common_word', nodes: commonWords },
     { tokenType: 'doc_tag', nodes: docTags },
     { tokenType: 'comma', nodes: comma },

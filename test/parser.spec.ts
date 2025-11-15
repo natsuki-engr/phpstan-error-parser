@@ -103,4 +103,22 @@ describe('sample test', () => {
 
     expect(cstHas(cst, 'comma:,')).toBe(true);
   });
+
+  it('parse static method name', () => {
+    const parser = new Parser();
+    const message =
+      'private method CallPrivateMethodThroughStatic\\Foo::doBar().';
+    const lexingResult = lexer.tokenize(message);
+    parser.input = lexingResult.tokens;
+    const cst = parser.errorMessage();
+
+    expect(
+      cstHas(
+        cst,
+        'StaticMethodName:CallPrivateMethodThroughStatic\\Foo::doBar()',
+      ),
+    ).toBe(true);
+
+    expect(cstHas(cst, 'CommonWord:doBar')).toBe(false);
+  });
 });

@@ -281,4 +281,120 @@ describe('test formatted results', () => {
 
     expect(result).toStrictEqual(expected);
   });
+
+  it('parse static method', () => {
+    const message =
+      'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';
+
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Call',
+        location: {
+          startColumn: 0,
+          endColumn: 4,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'to',
+        location: {
+          startColumn: 5,
+          endColumn: 7,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'static',
+        location: {
+          startColumn: 8,
+          endColumn: 14,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'method',
+        location: {
+          startColumn: 15,
+          endColumn: 21,
+        },
+      },
+      {
+        type: 'method_name',
+        value: 'PHPStan\\Tests\\AssertionClass::assertInt()',
+        location: {
+          startColumn: 22,
+          endColumn: 63,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'with',
+        location: {
+          startColumn: 64,
+          endColumn: 68,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'int',
+        location: {
+          startColumn: 69,
+          endColumn: 72,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'will',
+        location: {
+          startColumn: 73,
+          endColumn: 77,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'always',
+        location: {
+          startColumn: 78,
+          endColumn: 84,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'evaluate',
+        location: {
+          startColumn: 85,
+          endColumn: 93,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'to',
+        location: {
+          startColumn: 94,
+          endColumn: 96,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'true',
+        location: {
+          startColumn: 97,
+          endColumn: 101,
+        },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: {
+          startColumn: 101,
+          endColumn: 102,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
 });
