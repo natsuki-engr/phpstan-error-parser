@@ -20,10 +20,19 @@ This is a JavaScript/TypeScript library that parses PHPStan error messages and e
 
 ## Tasks
 
-- [] comma
-- [] `->` ("Using nullsafe method call on non-nullable type Exception. Use -> instead.")
-- [] error including parameter number(#1, #2, ...)
-- [] generic types (e.g., `Path\SomeClass<int, string>`)
+- [x] comma
+- [ ] `->` ("Using nullsafe method call on non-nullable type Exception. Use -> instead.")
+- [ ] number as a word (`-123`, `8.5`)
+- [ ] number as a type (`array{1, 3}`)
+- [ ] error including parameter number(#1, #2, ...)
+- [ ] static keyword(`static::`)
+- [ ] types
+  - [ ] array types (`int[]`, `string[][]`)
+  - [ ] array shapes (`array{key: value, ...}`, `array{0}`, `array{}`)
+  - [ ] generic types (`Path\SomeClass<int, string>`, `array<int, string>`)
+  - [ ] Union type
+  - [ ] Intersection type
+
 - [] more...
 
 ## Installation
