@@ -8,12 +8,14 @@
     "checkJs": true,
     "strict": true,
     "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "noUncheckedIndexedAccess": true,
     "rootDir": "./"
   },
-  "include": ["src/**/*.ts", "dev/**/*.ts", "test/cli-scripts/*"],
+  "include": ["src/**/*.ts", "dev/**/*.ts", "test/cli-scripts/*", "src/cli.ts"],
   "exclude": ["**/node_modules/**"]
 }

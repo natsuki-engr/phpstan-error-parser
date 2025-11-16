@@ -3,11 +3,27 @@
   "version": "0.0.1",
   "type": "module",
   "description": "This parses PHPStan error message into a structured format.",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "bin": {
+    "phpstan-parse": "./bin/cli.js",
     "calc-offset": "./test/cli-scripts/offset-calculator.js"
   },
   "scripts": {
+    "build": "npm run build:lib && npm run build:cli",
+    "build:lib": "tsc -p tsconfig.lib.json",
+    "build:cli": "tsc -p tsconfig.cli.json",
+    "postbuild": "chmod +x bin/cli.js",
+    "prepublishOnly": "npm run build",
     "diagram": "vite -c vite-dev.config.ts",
     "test": "vitest",
     "test:run": "vitest --run",
