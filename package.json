@@ -1,6 +1,6 @@
 {
   "name": "phpstan-error-parser",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "This parses PHPStan error message into a structured format.",
   "main": "./dist/index.js",
