@@ -239,6 +239,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
         "type": "common_word",
         "value": "The",
         "location": {

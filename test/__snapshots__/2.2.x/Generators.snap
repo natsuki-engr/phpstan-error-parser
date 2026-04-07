@@ -572,6 +572,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
         "type": "common_word",
         "value": "DateTime",
         "location": {
@@ -593,6 +601,14 @@
         "location": {
           "startColumn": 48,
           "endColumn": 49
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
         }
       },
       {
@@ -620,6 +636,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      },
+      {
         "type": "common_word",
         "value": "stdClass",
         "location": {
@@ -641,6 +665,14 @@
         "location": {
           "startColumn": 74,
           "endColumn": 75
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
         }
       },
       {
@@ -865,6 +897,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      },
+      {
         "type": "common_word",
         "value": "DateTime",
         "location": {
@@ -886,6 +926,14 @@
         "location": {
           "startColumn": 104,
           "endColumn": 105
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 106
         }
       },
       {
@@ -913,6 +961,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 119
+        }
+      },
+      {
         "type": "common_word",
         "value": "stdClass",
         "location": {
@@ -934,6 +990,14 @@
         "location": {
           "startColumn": 130,
           "endColumn": 131
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
         }
       },
       {
@@ -1505,6 +1569,14 @@
         "location": {
           "startColumn": 41,
           "endColumn": 46
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
         }
       },
       {

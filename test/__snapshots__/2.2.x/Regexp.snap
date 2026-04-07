@@ -370,6 +370,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Compilation",
         "location": {
@@ -383,6 +391,14 @@
         "location": {
           "startColumn": 38,
           "endColumn": 44
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
         }
       },
       {
@@ -450,6 +466,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
         "type": "lparen",
         "value": "(",
         "location": {
@@ -495,6 +519,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Compilation",
         "location": {
@@ -508,6 +540,14 @@
         "location": {
           "startColumn": 38,
           "endColumn": 44
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
         }
       },
       {
@@ -575,6 +615,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
         "type": "lparen",
         "value": "(",
         "location": {
@@ -588,6 +636,14 @@
         "location": {
           "startColumn": 100,
           "endColumn": 101
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
         }
       },
       {
@@ -636,6 +692,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Delimiter",
         "location": {
@@ -729,6 +793,14 @@
         "location": {
           "startColumn": 83,
           "endColumn": 90
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
         }
       },
       {
@@ -777,6 +849,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Delimiter",
         "location": {
@@ -873,6 +953,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
         "type": "common_word",
         "value": "nok",
         "location": {
@@ -886,6 +974,14 @@
         "location": {
           "startColumn": 95,
           "endColumn": 96
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
         }
       },
       {
@@ -934,6 +1030,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Delimiter",
         "location": {
@@ -1030,6 +1134,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
         "type": "common_word",
         "value": "nok",
         "location": {
@@ -1043,6 +1155,14 @@
         "location": {
           "startColumn": 95,
           "endColumn": 96
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
         }
       },
       {
@@ -1091,6 +1211,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Delimiter",
         "location": {
@@ -1187,6 +1315,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
         "type": "common_word",
         "value": "nok",
         "location": {
@@ -1200,6 +1336,14 @@
         "location": {
           "startColumn": 95,
           "endColumn": 96
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
         }
       },
       {
@@ -1248,6 +1392,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unknown",
         "location": {
@@ -1285,6 +1437,14 @@
         "location": {
           "startColumn": 50,
           "endColumn": 57
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
         }
       },
       {

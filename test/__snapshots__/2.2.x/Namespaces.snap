@@ -51,6 +51,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
         "type": "common_word",
         "value": "DATETIME",
         "location": {
@@ -117,6 +125,14 @@
         "location": {
           "startColumn": 38,
           "endColumn": 42
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
         }
       },
       {
@@ -205,6 +221,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
         "type": "common_word",
         "value": "Uses",
         "location": {
@@ -263,6 +287,14 @@
         "location": {
           "startColumn": 29,
           "endColumn": 34
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
         }
       },
       {

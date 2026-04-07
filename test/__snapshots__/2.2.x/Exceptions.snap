@@ -189,6 +189,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
         "type": "common_word",
         "value": "TestCatch",
         "location": {
@@ -7482,6 +7490,14 @@
         "location": {
           "startColumn": 29,
           "endColumn": 34
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
         }
       },
       {

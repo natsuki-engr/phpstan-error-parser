@@ -825,6 +825,87 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
+  it('parse colon', () => {
+    const message =
+      'Parameter Closure(): void of print cannot be converted to string.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Parameter',
+        location: { startColumn: 0, endColumn: 9 },
+      },
+      {
+        type: 'common_word',
+        value: 'Closure',
+        location: { startColumn: 10, endColumn: 17 },
+      },
+      {
+        type: 'lparen',
+        value: '(',
+        location: { startColumn: 17, endColumn: 18 },
+      },
+      {
+        type: 'rparen',
+        value: ')',
+        location: { startColumn: 18, endColumn: 19 },
+      },
+      {
+        type: 'colon',
+        value: ':',
+        location: { startColumn: 19, endColumn: 20 },
+      },
+      {
+        type: 'common_word',
+        value: 'void',
+        location: { startColumn: 21, endColumn: 25 },
+      },
+      {
+        type: 'common_word',
+        value: 'of',
+        location: { startColumn: 26, endColumn: 28 },
+      },
+      {
+        type: 'common_word',
+        value: 'print',
+        location: { startColumn: 29, endColumn: 34 },
+      },
+      {
+        type: 'common_word',
+        value: 'cannot',
+        location: { startColumn: 35, endColumn: 41 },
+      },
+      {
+        type: 'common_word',
+        value: 'be',
+        location: { startColumn: 42, endColumn: 44 },
+      },
+      {
+        type: 'common_word',
+        value: 'converted',
+        location: { startColumn: 45, endColumn: 54 },
+      },
+      {
+        type: 'common_word',
+        value: 'to',
+        location: { startColumn: 55, endColumn: 57 },
+      },
+      {
+        type: 'common_word',
+        value: 'string',
+        location: { startColumn: 58, endColumn: 64 },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: { startColumn: 64, endColumn: 65 },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
   it('parse static method', () => {
     const message =
       'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';

@@ -1038,6 +1038,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 157,
+          "endColumn": 158
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -1346,6 +1354,14 @@
         "location": {
           "startColumn": 120,
           "endColumn": 125
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 126
         }
       },
       {

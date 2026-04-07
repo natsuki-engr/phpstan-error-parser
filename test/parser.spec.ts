@@ -136,7 +136,26 @@ describe('sample test', () => {
         ['rparen:)', true],
         // Closure(): void is split into flat tokens, not parsed as a callable type
         ['CommonWord:Closure', true],
+        ['colon::', true],
         ['CommonWord:void', true],
+      ],
+    },
+    {
+      name: 'parse colon in array shape',
+      m: 'Offset does not exist on array{key: string}.',
+      assertions: [
+        ['colon::', true],
+        ['CommonWord:key', true],
+        ['CommonWord:string', true],
+      ],
+    },
+    {
+      name: 'colon does not match double colon in static method',
+      m: 'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.',
+      assertions: [
+        ['StaticMethodName:PHPStan\\Tests\\AssertionClass::assertInt()', true],
+        // :: is consumed by StaticMethodName, not as two colons
+        ['colon::', false],
       ],
     },
   ] satisfies DataSet[];

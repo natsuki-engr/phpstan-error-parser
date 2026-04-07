@@ -35,6 +35,11 @@ const tokens = {
   COMMA: createToken({ name: 'comma', pattern: ',', line_breaks: false }),
   LPAREN: createToken({ name: 'lparen', pattern: '(', line_breaks: false }),
   RPAREN: createToken({ name: 'rparen', pattern: ')', line_breaks: false }),
+  COLON: createToken({
+    name: 'colon',
+    pattern: /(?<!:):(?!:)/,
+    line_breaks: false,
+  }),
   VARIABLE: createToken({
     name: 'Variable',
     pattern: /\$[a-z][\w]*/,
@@ -76,6 +81,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.COMMA) },
         { ALT: () => this.CONSUME(tokens.LPAREN) },
         { ALT: () => this.CONSUME(tokens.RPAREN) },
+        { ALT: () => this.CONSUME(tokens.COLON) },
       ]);
     });
     this.CONSUME(tokens.PERIOD);
