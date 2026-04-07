@@ -488,6 +488,228 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
+  it('parse number', () => {
+    const message =
+      'Method Test\\Foo::foo() invoked with 1 parameter, 0 required.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Method',
+        location: {
+          startColumn: 0,
+          endColumn: 6,
+        },
+      },
+      {
+        type: 'method_name',
+        value: 'Test\\Foo::foo()',
+        location: {
+          startColumn: 7,
+          endColumn: 22,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'invoked',
+        location: {
+          startColumn: 23,
+          endColumn: 30,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'with',
+        location: {
+          startColumn: 31,
+          endColumn: 35,
+        },
+      },
+      {
+        type: 'number',
+        value: '1',
+        location: {
+          startColumn: 36,
+          endColumn: 37,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'parameter',
+        location: {
+          startColumn: 38,
+          endColumn: 47,
+        },
+      },
+      {
+        type: 'comma',
+        value: ',',
+        location: {
+          startColumn: 47,
+          endColumn: 48,
+        },
+      },
+      {
+        type: 'number',
+        value: '0',
+        location: {
+          startColumn: 49,
+          endColumn: 50,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'required',
+        location: {
+          startColumn: 51,
+          endColumn: 59,
+        },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: {
+          startColumn: 59,
+          endColumn: 60,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
+  it('parse decimal number', () => {
+    const message =
+      'Attribute class Deprecated can be used with traits only on PHP 8.5 and later.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Attribute',
+        location: {
+          startColumn: 0,
+          endColumn: 9,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'class',
+        location: {
+          startColumn: 10,
+          endColumn: 15,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'Deprecated',
+        location: {
+          startColumn: 16,
+          endColumn: 26,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'can',
+        location: {
+          startColumn: 27,
+          endColumn: 30,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'be',
+        location: {
+          startColumn: 31,
+          endColumn: 33,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'used',
+        location: {
+          startColumn: 34,
+          endColumn: 38,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'with',
+        location: {
+          startColumn: 39,
+          endColumn: 43,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'traits',
+        location: {
+          startColumn: 44,
+          endColumn: 50,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'only',
+        location: {
+          startColumn: 51,
+          endColumn: 55,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'on',
+        location: {
+          startColumn: 56,
+          endColumn: 58,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'PHP',
+        location: {
+          startColumn: 59,
+          endColumn: 62,
+        },
+      },
+      {
+        type: 'number',
+        value: '8.5',
+        location: {
+          startColumn: 63,
+          endColumn: 66,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'and',
+        location: {
+          startColumn: 67,
+          endColumn: 70,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'later',
+        location: {
+          startColumn: 71,
+          endColumn: 76,
+        },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: {
+          startColumn: 76,
+          endColumn: 77,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
   it('parse static method', () => {
     const message =
       'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';
