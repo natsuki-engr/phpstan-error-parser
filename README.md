@@ -148,6 +148,27 @@ Function format  not  found.
 npm unlink -g phpstan-error-parser
 ```
 
+### Updating PHPStan Error Snapshots
+
+Snapshot tests parse real PHPStan error messages and track the results, so you can see exactly what changes when new tokens are added.
+
+**Via GitHub Actions (recommended):**
+
+1. Go to the **Actions** tab → **Collect PHPStan Errors**
+2. Click **Run workflow**
+3. Enter PHPStan branches (e.g., `2.2.x` or `2.0.x, 2.1.x, 2.2.x`)
+4. The workflow collects error messages, updates snapshots, and commits the results
+
+**Locally with Docker:**
+
+```bash
+# Collect error messages from phpstan-src
+cd collector && ./run.sh 2.2.x
+
+# Update snapshots
+npx vitest run --update
+```
+
 ## Project Structure
 
 ```
@@ -157,7 +178,10 @@ npm unlink -g phpstan-error-parser
 │   └── index.ts     # Main export
 ├── test/
 │   ├── parser.spec.ts
-│   └── format.spec.ts
+│   ├── format.spec.ts
+│   ├── snapshot.spec.ts # Snapshot tests for PHPStan error messages
+│   └── fixtures/        # Collected error messages (auto-generated)
+├── collector/           # PHPStan error message collector (Docker + uopz)
 └── package.json
 ```
 
