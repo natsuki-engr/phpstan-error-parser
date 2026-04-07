@@ -488,6 +488,97 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
+  it('parse number', () => {
+    const message =
+      'Method Test\\Foo::foo() invoked with 1 parameter, 0 required.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Method',
+        location: {
+          startColumn: 0,
+          endColumn: 6,
+        },
+      },
+      {
+        type: 'method_name',
+        value: 'Test\\Foo::foo()',
+        location: {
+          startColumn: 7,
+          endColumn: 22,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'invoked',
+        location: {
+          startColumn: 23,
+          endColumn: 30,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'with',
+        location: {
+          startColumn: 31,
+          endColumn: 35,
+        },
+      },
+      {
+        type: 'number',
+        value: '1',
+        location: {
+          startColumn: 36,
+          endColumn: 37,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'parameter',
+        location: {
+          startColumn: 38,
+          endColumn: 47,
+        },
+      },
+      {
+        type: 'comma',
+        value: ',',
+        location: {
+          startColumn: 47,
+          endColumn: 48,
+        },
+      },
+      {
+        type: 'number',
+        value: '0',
+        location: {
+          startColumn: 49,
+          endColumn: 50,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'required',
+        location: {
+          startColumn: 51,
+          endColumn: 59,
+        },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: {
+          startColumn: 59,
+          endColumn: 60,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
   it('parse static method', () => {
     const message =
       'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';

@@ -7,6 +7,7 @@ export type Word = {
     | 'variable_name'
     | 'doc_tag'
     | 'parameter_number'
+    | 'number'
     | 'common_word'
     | 'comma'
     | 'period';
@@ -31,12 +32,14 @@ export function format(errorMessageCst: CstNode): Word[] {
   const docTags = sentenceNode?.children?.DocTag;
   const variables = sentenceNode?.children?.Variable;
   const parameterNumbers = sentenceNode?.children?.ParameterNumber;
+  const numbers = sentenceNode?.children?.Number;
   const comma = sentenceNode?.children?.comma;
   const nodeLists = [
     { tokenType: 'function_name', nodes: functionNames },
     { tokenType: 'method_name', nodes: methodNames },
     { tokenType: 'variable_name', nodes: variables },
     { tokenType: 'parameter_number', nodes: parameterNumbers },
+    { tokenType: 'number', nodes: numbers },
     { tokenType: 'common_word', nodes: commonWords },
     { tokenType: 'doc_tag', nodes: docTags },
     { tokenType: 'comma', nodes: comma },

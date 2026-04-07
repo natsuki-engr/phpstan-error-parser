@@ -85,6 +85,22 @@ describe('sample test', () => {
         ['Variable:$bar', true],
       ],
     },
+    {
+      name: 'parse number',
+      m: 'Method Test\\Foo::foo() invoked with 1 parameter, 0 required.',
+      assertions: [
+        ['Number:1', true],
+        ['Number:0', true],
+      ],
+    },
+    {
+      name: 'parse negative number',
+      m: 'Parameter #1 $min (0) of function random_int expects lower number than parameter #2 $max (-1).',
+      assertions: [
+        ['Number:0', true],
+        ['Number:-1', true],
+      ],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {
