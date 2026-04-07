@@ -10,6 +10,8 @@ export type Word = {
     | 'number'
     | 'common_word'
     | 'comma'
+    | 'lparen'
+    | 'rparen'
     | 'period';
   value: string;
   location: {
@@ -43,6 +45,8 @@ export function format(errorMessageCst: CstNode): Word[] {
     { tokenType: 'common_word', nodes: commonWords },
     { tokenType: 'doc_tag', nodes: docTags },
     { tokenType: 'comma', nodes: comma },
+    { tokenType: 'lparen', nodes: sentenceNode?.children?.lparen },
+    { tokenType: 'rparen', nodes: sentenceNode?.children?.rparen },
     { tokenType: 'period', nodes: sentenceNode?.children?.period },
   ] as const;
 
