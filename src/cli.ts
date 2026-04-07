@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { parse } from "./index.js";
+import { parse } from './index.js';
 
 const inputText = process.argv[2];
 

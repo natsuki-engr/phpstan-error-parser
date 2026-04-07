@@ -6,13 +6,6 @@
     "declaration": true,
     "declarationMap": true
   },
-  "include": [
-    "src/index.ts",
-    "src/format.ts",
-    "src/parser.ts"
-  ],
-  "exclude": [
-    "src/cli.ts",
-    "**/node_modules/**"
-  ]
+  "include": ["src/index.ts", "src/format.ts", "src/parser.ts"],
+  "exclude": ["src/cli.ts", "**/node_modules/**"]
 }
