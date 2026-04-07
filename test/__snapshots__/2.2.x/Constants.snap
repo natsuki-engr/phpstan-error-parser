@@ -1,0 +1,5751 @@
+[
+  {
+    "input": "A class constant must not be called 'class'; it is reserved for class name fetching.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "A",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 1
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 2,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "called",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "reserved",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "for",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "name",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "fetching",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 84
+        }
+      }
+    ]
+  },
+  {
+    "input": "Attributes on global constants are supported only on PHP 8.5 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Attributes",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "global",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constants",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "are",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.5",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      }
+    ]
+  },
+  {
+    "input": "Class constant name in dynamic fetch can only be a string, int given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Class",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "name",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dynamic",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "fetch",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Class constant name in dynamic fetch can only be a string, int|string given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Class",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "name",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dynamic",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "fetch",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Class constant name in dynamic fetch can only be a string, string|null given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Class",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "name",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dynamic",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "fetch",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant Bug10212\\HelloWorld::B (Bug10212\\X\\Foo) does not accept value Bug10212\\Foo::Bar.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "number",
+        "value": "10212",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "HelloWorld",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "number",
+        "value": "10212",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "X",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "accept",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "number",
+        "value": "10212",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ClassConstantNativeTypeForMissingTypehintRule\\Foo::B type has no value type specified in iterable type array.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "specified",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "iterable",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 118
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ClassConstantNativeTypeForMissingTypehintRule\\Foo::D with generic class ClassConstantNativeTypeForMissingTypehintRule\\Bar does not specify its types: T",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "D",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "generic",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 136,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "specify",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "types",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 160
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant DEFINED_CONSTANT_IF not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DEFINED",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "IF",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant MissingClassConstantTypehint\\Foo::BAR type has no value type specified in iterable type array.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "specified",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "iterable",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant MissingClassConstantTypehint\\Foo::BAZ with generic class MissingClassConstantTypehint\\Bar does not specify its types: T",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "generic",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "specify",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "types",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant MissingClassConstantTypehint\\Foo::LOREM type has no signature specified for callable.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LOREM",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "signature",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "specified",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "for",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "callable",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant NONEXISTENT_CONSTANT not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NONEXISTENT",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 40
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant OverridingConstantNativeTypes\\Ipsum::B overriding constant OverridingConstantNativeTypes\\Lorem::B (int) should also have native type int.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Ipsum",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 146
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant OverridingConstantNativeTypes\\PharChild::BZ2 overriding constant Phar::BZ2 (int) should also have native type int.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PharChild",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BZ",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Phar",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BZ",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 123
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant OverridingFinalConstant\\Bar::BAR overrides final constant OverridingFinalConstant\\Foo::BAR.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overrides",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant OverridingFinalConstant\\Bar::FOO overrides final constant OverridingFinalConstant\\Foo::FOO.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overrides",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant OverridingFinalConstant\\Baz::BAR overrides final constant OverridingFinalConstant\\FooInterface::BAR.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overrides",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInterface",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 109
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant REMEMBERED_FOO not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "REMEMBERED",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 34
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant TEST not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TEST",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 24
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ValueAssignedToClassConstantNativeType\\Bar::BAR (int<1, max>) does not accept value 0.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "max",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "accept",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "number",
+        "value": "0",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ValueAssignedToClassConstantNativeType\\Floats::BAR (int) does not accept value 1.0.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Floats",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "accept",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "number",
+        "value": "1.0",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ValueAssignedToClassConstantNativeType\\Foo::BAR (int) does not accept value 'bar'.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "accept",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bar",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant XYZ not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "XYZ",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant XYZ22 not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "XYZ",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "number",
+        "value": "22",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant XYZ33 not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "XYZ",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "number",
+        "value": "33",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant __COMPILER_HALT_OFFSET__ not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "COMPILER",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "HALT",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OFFSET",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      }
+    ]
+  },
+  {
+    "input": "ConstantAttributesRule requires PHP 8.5 runtime to check the code.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "ConstantAttributesRule",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "requires",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.5",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "runtime",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "check",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "code",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Final class constants are supported only on PHP 8.1 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Final",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constants",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "are",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.1",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Magic constant __CLASS__ is always empty outside a class.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Magic",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CLASS",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "always",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      }
+    ]
+  },
+  {
+    "input": "Magic constant __FUNCTION__ is always empty outside a function.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Magic",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FUNCTION",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "always",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      }
+    ]
+  },
+  {
+    "input": "Magic constant __METHOD__ is always empty outside a function.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Magic",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "METHOD",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "always",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "Magic constant __NAMESPACE__ is always empty in global namespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Magic",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NAMESPACE",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "always",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "global",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Magic constant __TRAIT__ is always empty outside a trait.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Magic",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TRAIT",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "always",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "trait",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      }
+    ]
+  },
+  {
+    "input": "Native type int|string of constant OverridingConstantNativeTypes\\Bar::D is not covariant with native type int of constant OverridingConstantNativeTypes\\Foo::D.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "D",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "covariant",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 155
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "D",
+        "location": {
+          "startColumn": 157,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 159
+        }
+      }
+    ]
+  },
+  {
+    "input": "Native type int|string of constant OverridingConstantNativeTypes\\PharChild::NONE is not covariant with native type int of constant Phar::NONE.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PharChild",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NONE",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "covariant",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Phar",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NONE",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 141,
+          "endColumn": 142
+        }
+      }
+    ]
+  },
+  {
+    "input": "PHPDoc tag @var for constant ValueAssignedToClassConstantNativeType\\Floats::BAZ with type float is incompatible with value 1.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@var",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "for",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Floats",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "float",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incompatible",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 125
+        }
+      }
+    ]
+  },
+  {
+    "input": "PHPDoc tag @var for constant ValueAssignedToClassConstant\\Bar::BAZ with type string is incompatible with value 2.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@var",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "for",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incompatible",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 113
+        }
+      }
+    ]
+  },
+  {
+    "input": "PHPDoc tag @var for constant ValueAssignedToClassConstant\\Foo::BAZ with type string is incompatible with value 1.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@var",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "for",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incompatible",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 113
+        }
+      }
+    ]
+  },
+  {
+    "input": "PHPDoc tag @var for constant ValueAssignedToClassConstant\\Foo::DOLOR with type ValueAssignedToClassConstant\\Foo<int> is incompatible with value 1.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@var",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "for",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DOLOR",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incompatible",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 146
+        }
+      }
+    ]
+  },
+  {
+    "input": "Private constant FinalPrivateConstants\\User::FINAL_PRIVATE() cannot be final as it is never overridden by other classes.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Private",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FinalPrivateConstants",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "User",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FINAL",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overridden",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "other",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "classes",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 120
+        }
+      }
+    ]
+  },
+  {
+    "input": "Private constant OverridingFinalConstant\\PrivateDolor::ANOTHER_PUBLIC_CONST overriding public constant OverridingFinalConstant\\Dolor::ANOTHER_PUBLIC_CONST should also be public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Private",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivateDolor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 149,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 161
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 162,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 167,
+          "endColumn": 169
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 170,
+          "endColumn": 176
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 176,
+          "endColumn": 177
+        }
+      }
+    ]
+  },
+  {
+    "input": "Private constant OverridingFinalConstant\\PrivateDolor::PROTECTED_CONST overriding protected constant OverridingFinalConstant\\Dolor::PROTECTED_CONST should be protected or public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Private",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivateDolor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "protected",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "protected",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 167
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 168,
+          "endColumn": 170
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 171,
+          "endColumn": 177
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 177,
+          "endColumn": 178
+        }
+      }
+    ]
+  },
+  {
+    "input": "Private constant OverridingFinalConstant\\PrivateDolor::PUBLIC_CONST overriding public constant OverridingFinalConstant\\Dolor::PUBLIC_CONST should also be public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Private",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivateDolor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 151,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 154,
+          "endColumn": 160
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 160,
+          "endColumn": 161
+        }
+      }
+    ]
+  },
+  {
+    "input": "Protected constant OverridingFinalConstant\\ProtectedDolor::ANOTHER_PUBLIC_CONST overriding public constant OverridingFinalConstant\\Dolor::ANOTHER_PUBLIC_CONST should also be public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Protected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ProtectedDolor",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 152
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 165
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 166,
+          "endColumn": 170
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 171,
+          "endColumn": 173
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 174,
+          "endColumn": 180
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 180,
+          "endColumn": 181
+        }
+      }
+    ]
+  },
+  {
+    "input": "Protected constant OverridingFinalConstant\\ProtectedDolor::PUBLIC_CONST overriding public constant OverridingFinalConstant\\Dolor::PUBLIC_CONST should also be public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Protected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ProtectedDolor",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 164
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 164,
+          "endColumn": 165
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type int|string of constant OverridingConstant\\Bar::IPSUM is not covariant with type int of constant OverridingConstant\\Foo::IPSUM.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstant",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "IPSUM",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "covariant",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstant",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "IPSUM",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 131
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type string of constant OverridingConstant\\Bar::BAR is not covariant with type int of constant OverridingConstant\\Foo::BAR.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstant",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "covariant",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingConstant",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 123
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type string of constant OverridingFinalConstant\\Lorem::FOO is not covariant with type int of constant OverridingFinalConstant\\BarInterface::FOO.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "covariant",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BarInterface",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 144
+        }
+      }
+    ]
+  }
+]

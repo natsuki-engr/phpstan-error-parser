@@ -1,0 +1,1372 @@
+[
+  {
+    "input": "Call to preg_quote() is missing delimiter & to be effective.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "preg",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "quote",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "delimiter",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effective",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to preg_quote() is missing delimiter parameter to be effective.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "preg",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "quote",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "delimiter",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parameter",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effective",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to preg_quote() uses invalid delimiter / while pattern uses &.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "preg",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "quote",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "uses",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "delimiter",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "while",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "uses",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Compilation failed: missing closing parenthesis at offset 1 in pattern: ~(~",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Compilation",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "failed",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "closing",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parenthesis",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "at",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "offset",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Compilation failed: missing closing parenthesis at offset 7 in pattern: ~((?:.*)~",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Compilation",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "failed",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "closing",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parenthesis",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "at",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "offset",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "number",
+        "value": "7",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 104
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Delimiter",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "alphanumeric",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "backslash",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUL",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nok",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok(?:.*)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Delimiter",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "alphanumeric",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "backslash",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUL",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nok",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok(?:.*)nono",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Delimiter",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "alphanumeric",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "backslash",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUL",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nok",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok(?:.*)nope",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Delimiter",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "alphanumeric",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "backslash",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUL",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nok",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      }
+    ]
+  },
+  {
+    "input": "Regex pattern is invalid: Unknown modifier 'y' in pattern: /(foo)(bar)(baz)/xyz",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Regex",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unknown",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "modifier",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "y",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pattern",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bar",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "baz",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "xyz",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      }
+    ]
+  }
+]

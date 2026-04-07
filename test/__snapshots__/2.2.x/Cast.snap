@@ -1,0 +1,2467 @@
+[
+  {
+    "input": "Cannot cast T to float.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "float",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast T to int.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast T to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 24
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast Test\\Foo to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Test",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast array|float|int to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "float",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast mixed to float.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mixed",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "float",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast mixed to int.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mixed",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast mixed to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mixed",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast object to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast object|string to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast stdClass to float.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "float",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast stdClass to int.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast stdClass to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot cast stdClass|null to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #1 ('string'|array{'string'}) of echo cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #1 (Closure(): void) of echo cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Closure",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #1 (array<int>|null) of echo cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #1 (array{}) of echo cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #1 (stdClass) of echo cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #2 (stdClass) of echo cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#2",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter 'string'|array{'string'} of print cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 74
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter Closure(): void of print cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Closure",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter array<int>|null of print cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter array{} of print cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter stdClass of print cannot be converted to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "converted",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  },
+  {
+    "input": "Part $bar?->obj (stdClass|null) of encapsed string cannot be cast to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Part",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$bar",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "obj",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "encapsed",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Part $std (stdClass) of encapsed string cannot be cast to string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Part",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$std",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "encapsed",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "The (unset) cast is no longer supported in PHP 8.0 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "The",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unset",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "longer",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.0",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "The (void) cast is supported only on PHP 8.5 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "The",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.5",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      }
+    ]
+  }
+]

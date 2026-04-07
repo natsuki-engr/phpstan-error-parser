@@ -1,0 +1,1576 @@
+[
+  {
+    "input": "Argument of an invalid type int passed to yield from, only iterables are supported.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Argument",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "an",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "invalid",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "passed",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yield",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "iterables",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "are",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects delegated TSend type int, int|null given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "delegated",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TSend",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects key type DateTimeImmutable, stdClass given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "key",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects key type K of int|string, (K of int)|string given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "key",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "K",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "K",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects key type string, int given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "key",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects value type array{0: DateTime, 1: DateTime, 2: stdClass, 4: DateTimeImmutable}, array{DateTime, DateTime, stdClass, DateTimeImmutable} given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "number",
+        "value": "0",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "number",
+        "value": "4",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 157,
+          "endColumn": 158
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects value type array{DateTime, DateTime, stdClass, DateTimeImmutable}, array{0: DateTime, 1: DateTime, 2: stdClass, 4: DateTimeImmutable} given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "number",
+        "value": "0",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "number",
+        "value": "4",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 157,
+          "endColumn": 158
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects value type int, null given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects value type int, string given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      }
+    ]
+  },
+  {
+    "input": "Generator expects value type string, int given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      }
+    ]
+  },
+  {
+    "input": "Result of yield (void) is used.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Result",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yield",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Result of yield from (void) is used.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Result",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yield",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      }
+    ]
+  },
+  {
+    "input": "Yield can be used only inside a function.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Yield",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "inside",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      }
+    ]
+  },
+  {
+    "input": "Yield can be used only with these return types: Generator, Iterator, Traversable, iterable.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Yield",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "these",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "return",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "types",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Generator",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Iterator",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Traversable",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "iterable",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      }
+    ]
+  }
+]

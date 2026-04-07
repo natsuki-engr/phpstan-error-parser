@@ -1,0 +1,2932 @@
+[
+  {
+    "input": "$a (Yes): int",
+    "tokens": [
+      {
+        "type": "variable_name",
+        "value": "$a",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 2
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 3,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 13
+        }
+      }
+    ]
+  },
+  {
+    "input": "$b (Yes): int",
+    "tokens": [
+      {
+        "type": "variable_name",
+        "value": "$b",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 2
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 3,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 13
+        }
+      }
+    ]
+  },
+  {
+    "input": "$c (Maybe): 1",
+    "tokens": [
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 2
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 3,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Maybe",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      }
+    ]
+  },
+  {
+    "input": "$debug (Yes): bool",
+    "tokens": [
+      {
+        "type": "variable_name",
+        "value": "$debug",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      }
+    ]
+  },
+  {
+    "input": "$result (Yes): 'no matches!'",
+    "tokens": [
+      {
+        "type": "variable_name",
+        "value": "$result",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "matches",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 26
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: T",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array<string, mixed>",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mixed",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 32
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'\u0000': 'NUL', NUL: '\u0000'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUL",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUL",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'\u0001': 'SOH', SOH: '\u0001'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SOH",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SOH",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'\t': 'HT', HT: '\t'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "HT",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "HT",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{' ': 'SP', SP: ' '}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SP",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SP",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'': ''}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'3.14': 3.14}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "number",
+        "value": "3.14",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "number",
+        "value": "3.14",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'Let\\'s go': 'Let\\'s go'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Let",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "go",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Let",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "go",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'Shall we dance': 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Shall",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "we",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dance",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'Shall we dance?': 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Shall",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "we",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dance",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 42
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'foo ': 'ends with SP', ' foo': 'starts with SP', ' foo ': 'surrounded by SP', foo: 'no SP'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ends",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SP",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "starts",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SP",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "surrounded",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SP",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SP",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 109
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'foo?': 'foo?'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'shall-we-dance?': 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "shall",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "we",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dance",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 42
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'shall_we_dance?': 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "shall",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "we",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dance",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 42
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{'shallwedance?': 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "shallwedance",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{1: 1}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{1: true, 0: false}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "true",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "number",
+        "value": "0",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "false",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{2: 2}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{Foo\\Bar: 'Foo\\\\Bar'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 37
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{shall-we-dance: 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "shall",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "we",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dance",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{shall_we_dance: 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "shall",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "we",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dance",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: array{shallwedance: 'yes'}",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "shallwedance",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "yes",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 37
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: int<4, max>",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "number",
+        "value": "4",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "max",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 23
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: non-empty-array",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "non",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 28
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: non-empty-array<int, string>",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "non",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dumped type: string",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dumped",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 19
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected native type false, actual: bool",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "false",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected native type true, actual: bool",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "true",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 39
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected offset 'firstName' certainty No, actual: Yes",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "offset",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "firstName",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "certainty",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "No",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected subtype of array<string>, actual: array<int>",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "subtype",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected subtype of never, actual: false",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "subtype",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "false",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected subtype of string, actual: false",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "subtype",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "false",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected type array<string>, actual: array<int>",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected variable $b certainty Maybe, actual: No",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "variable",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$b",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "certainty",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Maybe",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "No",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expected variable $b certainty Yes, actual: No",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "variable",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$b",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "certainty",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "actual",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "No",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      }
+    ]
+  },
+  {
+    "input": "Scope is empty",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Scope",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 14
+        }
+      }
+    ]
+  },
+  {
+    "input": "condition about $c #1: if $debug=false then $c is *ERROR* (No)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "condition",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "about",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "if",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$debug",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "false",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "then",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ERROR",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "No",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "condition about $c #2: if $debug=true then $c is 1 (Yes)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "condition",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "about",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#2",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "if",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$debug",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "true",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "then",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "native $a (Yes): int",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$a",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 20
+        }
+      }
+    ]
+  },
+  {
+    "input": "native $b (Yes): int",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$b",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 20
+        }
+      }
+    ]
+  },
+  {
+    "input": "native $c (Maybe): 1",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Maybe",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      }
+    ]
+  },
+  {
+    "input": "native $debug (Yes): bool",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$debug",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      }
+    ]
+  },
+  {
+    "input": "native $result (Yes): 'no matches!'",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "matches",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 33
+        }
+      }
+    ]
+  }
+]

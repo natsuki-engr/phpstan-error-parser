@@ -1,0 +1,7818 @@
+[
+  {
+    "input": "Function PHPStan\\Rules\\Pure\\data\\pureWithThrowsVoid() is marked as pure but returns void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PHPStan\\Rules\\Pure\\data\\pureWithThrowsVoid",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function PureFunction\\actuallyPure() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\actuallyPure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function PureFunction\\doFoo() is marked as pure but parameter $p is passed by reference.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\doFoo",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parameter",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$p",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "passed",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "reference",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 88
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function PureFunction\\doFoo2() is marked as pure but returns void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\doFoo2",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function PureFunction\\emptyVoidFunction() returns void but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\emptyVoidFunction",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure access to superglobal variable in pure function PureFunction\\pureButAccessSuperGlobal().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "access",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "superglobal",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "variable",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\pureButAccessSuperGlobal",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure assign to superglobal variable in pure method PureMethod\\ClassWithVoidMethods::purePostGetAssign().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assign",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "superglobal",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "variable",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\ClassWithVoidMethods::purePostGetAssign()",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 106
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to a Closure with by-ref parameter in pure function Bug11361Pure\\foo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Closure",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ref",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parameter",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "Bug11361Pure\\foo",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to function FirstClassCallablePureFunction\\impureFunction() in pure function FirstClassCallablePureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\impureFunction",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\testThese",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to function FirstClassCallablePureFunction\\voidFunction() in pure function FirstClassCallablePureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\voidFunction",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\testThese",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to function PureFunction\\impureFunction() in pure function PureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\impureFunction",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\testThese",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to function PureFunction\\voidFunction() in pure function PureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\voidFunction",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\testThese",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to function array_push() in pure function PureFunction\\bug13288().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "array_push",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\bug13288",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method AllMethodsArePure\\FooWithMixed::impureMethod() in pure method AllMethodsArePure\\FooWithMixed::testMixed().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\FooWithMixed::impureMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\FooWithMixed::testMixed()",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method AllMethodsArePure\\FooWithMixed::impureMethod() in pure method AllMethodsArePure\\FooWithMixed::testMixed2().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\FooWithMixed::impureMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\FooWithMixed::testMixed2()",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 129
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method AllMethodsArePure\\Test::impure() in pure method AllMethodsArePure\\SideEffectImpure::pureWithImpure().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Test::impure()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\SideEffectImpure::pureWithImpure()",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 123
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method AllMethodsArePure\\Test::impure() in pure method AllMethodsArePure\\SideEffectPure::nothingWithImpure().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Test::impure()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\SideEffectPure::nothingWithImpure()",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 124
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method FirstClassCallablePureFunction\\Foo::impureFunction() in pure function FirstClassCallablePureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "FirstClassCallablePureFunction\\Foo::impureFunction()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\testThese",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 135
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method FirstClassCallablePureFunction\\Foo::voidFunction() in pure function FirstClassCallablePureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "FirstClassCallablePureFunction\\Foo::voidFunction()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\testThese",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 133
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\Foo::impureReturningMethod() in pure method PureMethod\\Foo::doFoo4().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::impureReturningMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo4()",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\Foo::impureReturningMethod() in pure method PureMethod\\Foo::doFoo5().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::impureReturningMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo5()",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\Foo::impureVoidMethod() in pure method PureMethod\\Foo::doFoo4().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::impureVoidMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo4()",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\Foo::impureVoidMethod() in pure method PureMethod\\Foo::doFoo5().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::impureVoidMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo5()",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\Foo::voidMethod() in pure method PureMethod\\Foo::doFoo4().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::voidMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo4()",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\Foo::voidMethod() in pure method PureMethod\\Foo::doFoo5().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::voidMethod()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo5()",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure call to method PureMethod\\ImpureMagicMethods::__toString() in pure method PureMethod\\TestMagicMethods::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\ImpureMagicMethods::__toString()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\TestMagicMethods::doFoo()",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 118
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure die in pure method PureMethod\\Foo::doFoo2().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "die",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo2()",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure echo in pure function PureFunction\\doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\doFoo",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure echo in pure method PureMethod\\ExtendingClass::pure().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\ExtendingClass::pure()",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure echo in pure method PureMethod\\Foo::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo()",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure exit in pure function PureFunction\\bug13288b().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exit",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\bug13288b",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure exit in pure function PureFunction\\bug13288c().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exit",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\bug13288c",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure exit in pure function PureFunction\\bug13288d().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exit",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\bug13288d",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure exit in pure function PureFunction\\doFoo2().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exit",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\doFoo2",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure global variable in pure function PureFunction\\functionWithGlobal().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "global",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "variable",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\functionWithGlobal",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 74
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure instantiation of class PureMethod\\ImpureConstructor in pure method PureMethod\\TestConstructors::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "instantiation",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PureMethod",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ImpureConstructor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\TestConstructors::doFoo()",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 111
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure output between PHP opening and closing tags in pure function PureFunction\\justContainsInlineHtml().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "output",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "between",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "opening",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "closing",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tags",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\justContainsInlineHtml",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 106
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure property assignment in pure function PureFunction\\doFoo3().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assignment",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\doFoo3",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure property assignment in pure method PureConstructor\\AssignOtherThanThis::__construct().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assignment",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureConstructor\\AssignOtherThanThis::__construct()",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure property assignment in pure method PureConstructor\\Foo::__construct().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assignment",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureConstructor\\Foo::__construct()",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure property assignment in pure method PureMethod\\Foo::doFoo3().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assignment",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo3()",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure property assignment in pure method PureMethod\\StaticMethodAssigningStaticProperty::getA().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assignment",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\StaticMethodAssigningStaticProperty::getA()",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure static property access in pure method PureConstructor\\Foo::__construct().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "access",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureConstructor\\Foo::__construct()",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure static property access in pure method PureMethod\\StaticMethodAccessingStaticProperty::getA().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "access",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\StaticMethodAccessingStaticProperty::getA()",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
+        }
+      }
+    ]
+  },
+  {
+    "input": "Impure static variable in pure function PureFunction\\functionWithStaticVariable().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Impure",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "variable",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\functionWithStaticVariable",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 82
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Bar::impure() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Bar::impure()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Bar::impureVoid() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Bar::impureVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Bar::pureVoid() is marked as pure but returns void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Bar::pureVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Bar::test() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Bar::test()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Bar::testVoid() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Bar::testVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Foo::impure() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Foo::impure()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Foo::impureVoid() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Foo::impureVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\Foo::pureVoid() is marked as pure but returns void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\Foo::pureVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\SideEffectImpure::nothingWithPure() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\SideEffectImpure::nothingWithPure()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method AllMethodsArePure\\SideEffectPure::impureWithPure() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "AllMethodsArePure\\SideEffectPure::impureWithPure()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 113
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug12382\\FinalHelloWorld1::dummy() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug12382\\FinalHelloWorld1::dummy()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug12382\\FinalHelloWorld2::dummy() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug12382\\FinalHelloWorld2::dummy()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug12382\\FinalHelloWorld3::dummy() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug12382\\FinalHelloWorld3::dummy()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug12382\\FinalHelloWorld4::dummy() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug12382\\FinalHelloWorld4::dummy()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PHPStan\\Rules\\Pure\\data\\A::pureWithThrowsVoid() is marked as pure but returns void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PHPStan\\Rules\\Pure\\data\\A::pureWithThrowsVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PureConstructor\\Bar::__construct() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureConstructor\\Bar::__construct()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PureMethod\\ActuallyPure::doFoo() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\ActuallyPure::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PureMethod\\ClassWithVoidMethods::privateEmptyVoidFunction() returns void but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\ClassWithVoidMethods::privateEmptyVoidFunction()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 115
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PureMethod\\ExtendingClass::impure() is marked as impure but does not have any side effects.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\ExtendingClass::impure()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "any",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "side",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effects",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PureMethod\\Foo::doFoo() is marked as pure but parameter $p is passed by reference.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parameter",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$p",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "passed",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "reference",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method PureMethod\\Foo::doFoo2() is marked as pure but returns void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo2()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "marked",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "returns",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to a Closure in pure function PureFunction\\callsClosures().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Closure",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\callsClosures",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to a callable in pure function FirstClassCallablePureFunction\\callCallbackImmediately().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "callable",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FirstClassCallablePureFunction\\callCallbackImmediately",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 109
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to a callable in pure function PureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "callable",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\testThese",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to a callable in pure method PureMethod\\MaybeCallableFromUnion::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "callable",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\MaybeCallableFromUnion::doFoo()",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to function PureFunction\\possiblyImpureFunction() in pure function PureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\possiblyImpureFunction",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\testThese",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 113
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to method PureMethod\\Foo::returningMethod() in pure method PureMethod\\Foo::doFoo4().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::returningMethod()",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo4()",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 105
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to method PureMethod\\Foo::returningMethod() in pure method PureMethod\\Foo::doFoo5().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::returningMethod()",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo5()",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 105
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to method PureMethod\\MaybePureMagicMethods::__toString() in pure method PureMethod\\TestMagicMethods::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\MaybePureMagicMethods::__toString()",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\TestMagicMethods::doFoo()",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to unknown function in pure function PureFunction\\testThese().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unknown",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "in",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "PureFunction\\testThese",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to unknown method in pure method PureMethod\\Foo::doFoo4().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unknown",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "in",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo4()",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure call to unknown method in pure method PureMethod\\Foo::doFoo5().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unknown",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "in",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\Foo::doFoo5()",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure instantiation of class PureMethod\\PossiblyImpureConstructor in pure method PureMethod\\TestConstructors::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "instantiation",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PureMethod",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PossiblyImpureConstructor",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\TestConstructors::doFoo()",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure instantiation of unknown class in pure method PureMethod\\TestConstructors::doFoo().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "instantiation",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unknown",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "PureMethod\\TestConstructors::doFoo()",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      }
+    ]
+  },
+  {
+    "input": "Possibly impure property assignment by reference in pure method ImpureAssignRef\\HelloWorld::bar6().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Possibly",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "impure",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "assignment",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "reference",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "pure",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "ImpureAssignRef\\HelloWorld::bar6()",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      }
+    ]
+  }
+]

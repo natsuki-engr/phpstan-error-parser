@@ -1,0 +1,8143 @@
+[
+  {
+    "input": "Caught class FooCatchException not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Caught",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooCatchException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      }
+    ]
+  },
+  {
+    "input": "Caught class TestCatch\\FooCatch is not an exception.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Caught",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestCatch",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooCatch",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "an",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      }
+    ]
+  },
+  {
+    "input": "Class TestCatch\\MyCatchException referenced with incorrect case: TestCatch\\MyCatchEXCEPTION.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Class",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestCatch",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MyCatchException",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "referenced",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incorrect",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "case",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestCatch",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MyCatchEXCEPTION",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - ArgumentCountError is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ArgumentCountError",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - ArithmeticError is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ArithmeticError",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - DivisionByZeroError is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DivisionByZeroError",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - DomainException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - Error is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Error",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - Exception is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Exception",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - InvalidArgumentException is already caught above.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "already",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "caught",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "above",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - InvalidArgumentException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - JsonException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "JsonException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - LogicException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LogicException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - OutOfBoundsException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OutOfBoundsException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - OverflowException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OverflowException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - RuntimeException is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "RuntimeException",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - Throwable is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Throwable",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - TypeError is already caught above.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TypeError",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "already",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "caught",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "above",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - TypeError is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TypeError",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Dead catch - UnhandledMatchError is never thrown in the try block.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Dead",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "catch",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnhandledMatchError",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "try",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function MissingExceptionFunctionThrows\\doBar2() throws checked exception LogicException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "MissingExceptionFunctionThrows\\doBar2",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LogicException",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 134
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function MissingExceptionFunctionThrows\\doBar3() throws checked exception LogicException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "MissingExceptionFunctionThrows\\doBar3",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LogicException",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 134
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function MissingExceptionFunctionThrows\\doBaz() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "MissingExceptionFunctionThrows\\doBaz",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 143
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function MissingExceptionFunctionThrows\\doLorem() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "MissingExceptionFunctionThrows\\doLorem",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 140
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 141,
+          "endColumn": 144
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 145
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function MissingExceptionFunctionThrows\\doLorem2() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "MissingExceptionFunctionThrows\\doLorem2",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 146
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function ThrowsVoidFunction\\foo() throws exception ThrowsVoidFunction\\MyException but the PHPDoc contains @throws void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "ThrowsVoidFunction\\foo",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ThrowsVoidFunction",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MyException",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "contains",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 119
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function TooWideThrowsFunction\\doFoo3() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "TooWideThrowsFunction\\doFoo3",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 111
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function TooWideThrowsFunction\\doFoo4() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "TooWideThrowsFunction\\doFoo4",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function TooWideThrowsFunction\\doFoo7() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "TooWideThrowsFunction\\doFoo7",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function TooWideThrowsFunction\\doFoo8() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "TooWideThrowsFunction\\doFoo8",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function TooWideThrowsFunction\\doFoo9() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "TooWideThrowsFunction\\doFoo9",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Invalid type Exception|null to throw.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Invalid",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Exception",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      }
+    ]
+  },
+  {
+    "input": "Invalid type ThrowExprValues\\InvalidException to throw.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Invalid",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ThrowExprValues",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidException",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      }
+    ]
+  },
+  {
+    "input": "Invalid type ThrowExprValues\\InvalidInterfaceException to throw.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Invalid",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ThrowExprValues",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidInterfaceException",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Invalid type int to throw.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Invalid",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 26
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug13642\\HelloWorld::sayHello2() throws exception ValueError but the PHPDoc contains @throws void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug13642\\HelloWorld::sayHello2()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ValueError",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "contains",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 105
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug13792\\Foo::dynamicName() throws checked exception DOMException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug13792\\Foo::dynamicName()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DOMException",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 118
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug13792\\Foo::invalidConstantName() throws checked exception DOMException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug13792\\Foo::invalidConstantName()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DOMException",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 126
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug13792\\Foo::unions() throws checked exception DOMException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug13792\\Foo::unions()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DOMException",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 113
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method BugArrayOffset\\Foo2::__construct() throws checked exception BugArrayOffset\\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "BugArrayOffset\\Foo2::__construct()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BugArrayOffset",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ParameterNotFoundException",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 154
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method BugArrayOffset\\Foo3::__construct() throws checked exception BugArrayOffset\\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "BugArrayOffset\\Foo3::__construct()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BugArrayOffset",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ParameterNotFoundException",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 154
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method BugArrayOffset\\Foo4::__construct() throws checked exception BugArrayOffset\\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "BugArrayOffset\\Foo4::__construct()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BugArrayOffset",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ParameterNotFoundException",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 154
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method BugArrayOffset\\Foo::__construct() throws checked exception BugArrayOffset\\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "BugArrayOffset\\Foo::__construct()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BugArrayOffset",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ParameterNotFoundException",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 140
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 141,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 149,
+          "endColumn": 152
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 153
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method ImmediatelyCalledArrowFunction\\ImmediatelyCalledCallback::doFoo2() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "ImmediatelyCalledArrowFunction\\ImmediatelyCalledCallback::doFoo2()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 144
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 145
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MethodThrowTypeCovariance\\Baz::noThrowType() should not throw Exception because parent method MethodThrowTypeCovariance\\Foo::noThrowType() does not have PHPDoc tag @throws.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodThrowTypeCovariance\\Baz::noThrowType()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Exception",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "because",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parent",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodThrowTypeCovariance\\Foo::noThrowType()",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 151,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 160,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 167,
+          "endColumn": 170
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 171,
+          "endColumn": 178
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 178,
+          "endColumn": 179
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MethodThrowTypeCovariance\\VoidInChild3::throwVoid() should not throw RuntimeException because parent method MethodThrowTypeCovariance\\VoidInParent::throwVoid() has PHPDoc tag @throws void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodThrowTypeCovariance\\VoidInChild3::throwVoid()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "RuntimeException",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "because",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parent",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodThrowTypeCovariance\\VoidInParent::throwVoid()",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 167,
+          "endColumn": 170
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 171,
+          "endColumn": 177
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 178,
+          "endColumn": 181
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 182,
+          "endColumn": 189
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 190,
+          "endColumn": 194
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 194,
+          "endColumn": 195
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MissingExceptionMethodThrows\\Foo::dateIntervalDoesThrows() throws checked exception DateMalformedIntervalStringException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MissingExceptionMethodThrows\\Foo::dateIntervalDoesThrows()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateMalformedIntervalStringException",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 144
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 154,
+          "endColumn": 160
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 161,
+          "endColumn": 168
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 169,
+          "endColumn": 172
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 172,
+          "endColumn": 173
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MissingExceptionMethodThrows\\Foo::dateTimeModifyDoesThrows() throws checked exception DateMalformedStringException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MissingExceptionMethodThrows\\Foo::dateTimeModifyDoesThrows()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateMalformedStringException",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 162
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 163,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 166,
+          "endColumn": 167
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MissingExceptionMethodThrows\\Foo::dateTimeZoneDoesThrows() throws checked exception DateInvalidTimeZoneException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MissingExceptionMethodThrows\\Foo::dateTimeZoneDoesThrows()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateInvalidTimeZoneException",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 152
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 160
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 161,
+          "endColumn": 164
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 164,
+          "endColumn": 165
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MissingExceptionMethodThrows\\Foo::doBaz() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MissingExceptionMethodThrows\\Foo::doBaz()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 144
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MissingExceptionMethodThrows\\Foo::doLorem() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MissingExceptionMethodThrows\\Foo::doLorem()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 146
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method MissingExceptionMethodThrows\\Foo::doLorem2() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MissingExceptionMethodThrows\\Foo::doLorem2()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "checked",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "missing",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 147
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method ThrowsVoidMethod\\Foo::doFoo() throws exception ThrowsVoidMethod\\MyException but the PHPDoc contains @throws void.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "ThrowsVoidMethod\\Foo::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throws",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exception",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ThrowsVoidMethod",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MyException",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "contains",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 120
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideImplicitThrows\\Bar::doFoo() has LogicException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideImplicitThrows\\Bar::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LogicException",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowTypeAlwaysCheckFinal\\Baz::doBar() has RuntimeException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowTypeAlwaysCheckFinal\\Baz::doBar()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "RuntimeException",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowTypeAlwaysCheckFinal\\Baz::doFoo() has RuntimeException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowTypeAlwaysCheckFinal\\Baz::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "RuntimeException",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowTypeAlwaysCheckFinal\\Foo::doFoo() has RuntimeException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowTypeAlwaysCheckFinal\\Foo::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "RuntimeException",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsExplicit\\Foo::doFoo() has Exception in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsExplicit\\Foo::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Exception",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\ChildClass::doFoo() has LogicException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\ChildClass::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LogicException",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 108
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\Foo::doFoo3() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\Foo::doFoo3()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\Foo::doFoo4() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\Foo::doFoo4()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\Foo::doFoo7() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\Foo::doFoo7()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\Foo::doFoo8() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\Foo::doFoo8()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\Foo::doFoo9() has DomainException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\Foo::doFoo9()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DomainException",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method TooWideThrowsMethod\\ImmediatelyCalledCallback::doFoo2() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "TooWideThrowsMethod\\ImmediatelyCalledCallback::doFoo2()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "InvalidArgumentException",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "thrown",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 134
+        }
+      }
+    ]
+  },
+  {
+    "input": "PHPDoc tag @throws type RuntimeException of method MethodThrowTypeCovariance\\Baz::logicException() should be covariant with PHPDoc @throws type LogicException of method MethodThrowTypeCovariance\\Foo::logicException().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tag",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "RuntimeException",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodThrowTypeCovariance\\Baz::logicException()",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "covariant",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPDoc",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@throws",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LogicException",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 161
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 162,
+          "endColumn": 168
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodThrowTypeCovariance\\Foo::logicException()",
+        "location": {
+          "startColumn": 169,
+          "endColumn": 216
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 216,
+          "endColumn": 217
+        }
+      }
+    ]
+  },
+  {
+    "input": "Referencing prefixed PHPStan class: _PHPStan_156ee64ba\\PrefixedRuntimeException.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Referencing",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "prefixed",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPStan",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPStan",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "number",
+        "value": "156",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ee",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "number",
+        "value": "64",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ba",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrefixedRuntimeException",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      }
+    ]
+  },
+  {
+    "input": "The overwriting return is on this line.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "The",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overwriting",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "return",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "this",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      }
+    ]
+  },
+  {
+    "input": "This exit point is overwritten by a different one in the finally block below.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "This",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exit",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "point",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overwritten",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "different",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "one",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "finally",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "below",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "This return is overwritten by a different one in the finally block below.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "This",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "return",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overwritten",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "different",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "one",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "finally",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "below",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 73
+        }
+      }
+    ]
+  },
+  {
+    "input": "This throw is overwritten by a different one in the finally block below.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "This",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "throw",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overwritten",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "by",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "different",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "one",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "finally",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "block",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "below",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      }
+    ]
+  },
+  {
+    "input": "Throw expression is supported only on PHP 8.0 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Throw",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expression",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.0",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Throwing object of an unknown class ThrowExprValues\\NonexistentClass.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Throwing",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "an",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unknown",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ThrowExprValues",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NonexistentClass",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  }
+]

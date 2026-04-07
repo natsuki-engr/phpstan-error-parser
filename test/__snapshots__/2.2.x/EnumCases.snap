@@ -1,0 +1,180 @@
+[
+  {
+    "input": "Attribute class EnumCaseAttributes\\AttributeWithPropertyTarget does not have the class constant target.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Attribute",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "EnumCaseAttributes",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "AttributeWithPropertyTarget",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "target",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Enum case can only be used in enums.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Enum",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "case",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "enums",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      }
+    ]
+  }
+]
