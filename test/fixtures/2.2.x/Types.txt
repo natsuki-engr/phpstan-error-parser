@@ -1,0 +1,6 @@
+Type mixed cannot be part of a nullable type declaration.
+Type mixed cannot be part of a union type declaration.
+Type never cannot be part of a nullable type declaration.
+Type never cannot be part of a union type declaration.
+Type void cannot be part of a nullable type declaration.
+Type void cannot be part of a union type declaration.

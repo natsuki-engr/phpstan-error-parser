@@ -1,0 +1,15 @@
+2× doFoo, 2× doBar
+Instantiating DateTime with 2020.11.17 produces an error: Double time specification
+Instantiating DateTimeImmutable with 2020.11.17 produces an error: Double time specification
+Instantiating DateTimeImmutable with 2020.11.18 produces an error: Double time specification
+Instantiating DateTimeImmutable with asdfasdf produces an error: The timezone could not be found in the database
+ScopeFunctionCallStack\NamedArgumentTest::testMethod
+ScopeFunctionCallStack\NamedArgumentTest::testMethod ($notImmediate)
+found echo
+found virtual echo
+print_r
+print_r ($value)
+sleep
+sleep ($seconds)
+var_dump
+var_dump ($value)

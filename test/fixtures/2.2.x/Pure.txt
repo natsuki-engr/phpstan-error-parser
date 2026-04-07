@@ -1,0 +1,80 @@
+Function PHPStan\Rules\Pure\data\pureWithThrowsVoid() is marked as pure but returns void.
+Function PureFunction\actuallyPure() is marked as impure but does not have any side effects.
+Function PureFunction\doFoo() is marked as pure but parameter $p is passed by reference.
+Function PureFunction\doFoo2() is marked as pure but returns void.
+Function PureFunction\emptyVoidFunction() returns void but does not have any side effects.
+Impure access to superglobal variable in pure function PureFunction\pureButAccessSuperGlobal().
+Impure assign to superglobal variable in pure method PureMethod\ClassWithVoidMethods::purePostGetAssign().
+Impure call to a Closure with by-ref parameter in pure function Bug11361Pure\foo().
+Impure call to function FirstClassCallablePureFunction\impureFunction() in pure function FirstClassCallablePureFunction\testThese().
+Impure call to function FirstClassCallablePureFunction\voidFunction() in pure function FirstClassCallablePureFunction\testThese().
+Impure call to function PureFunction\impureFunction() in pure function PureFunction\testThese().
+Impure call to function PureFunction\voidFunction() in pure function PureFunction\testThese().
+Impure call to function array_push() in pure function PureFunction\bug13288().
+Impure call to method AllMethodsArePure\FooWithMixed::impureMethod() in pure method AllMethodsArePure\FooWithMixed::testMixed().
+Impure call to method AllMethodsArePure\FooWithMixed::impureMethod() in pure method AllMethodsArePure\FooWithMixed::testMixed2().
+Impure call to method AllMethodsArePure\Test::impure() in pure method AllMethodsArePure\SideEffectImpure::pureWithImpure().
+Impure call to method AllMethodsArePure\Test::impure() in pure method AllMethodsArePure\SideEffectPure::nothingWithImpure().
+Impure call to method FirstClassCallablePureFunction\Foo::impureFunction() in pure function FirstClassCallablePureFunction\testThese().
+Impure call to method FirstClassCallablePureFunction\Foo::voidFunction() in pure function FirstClassCallablePureFunction\testThese().
+Impure call to method PureMethod\Foo::impureReturningMethod() in pure method PureMethod\Foo::doFoo4().
+Impure call to method PureMethod\Foo::impureReturningMethod() in pure method PureMethod\Foo::doFoo5().
+Impure call to method PureMethod\Foo::impureVoidMethod() in pure method PureMethod\Foo::doFoo4().
+Impure call to method PureMethod\Foo::impureVoidMethod() in pure method PureMethod\Foo::doFoo5().
+Impure call to method PureMethod\Foo::voidMethod() in pure method PureMethod\Foo::doFoo4().
+Impure call to method PureMethod\Foo::voidMethod() in pure method PureMethod\Foo::doFoo5().
+Impure call to method PureMethod\ImpureMagicMethods::__toString() in pure method PureMethod\TestMagicMethods::doFoo().
+Impure die in pure method PureMethod\Foo::doFoo2().
+Impure echo in pure function PureFunction\doFoo().
+Impure echo in pure method PureMethod\ExtendingClass::pure().
+Impure echo in pure method PureMethod\Foo::doFoo().
+Impure exit in pure function PureFunction\bug13288b().
+Impure exit in pure function PureFunction\bug13288c().
+Impure exit in pure function PureFunction\bug13288d().
+Impure exit in pure function PureFunction\doFoo2().
+Impure global variable in pure function PureFunction\functionWithGlobal().
+Impure instantiation of class PureMethod\ImpureConstructor in pure method PureMethod\TestConstructors::doFoo().
+Impure output between PHP opening and closing tags in pure function PureFunction\justContainsInlineHtml().
+Impure property assignment in pure function PureFunction\doFoo3().
+Impure property assignment in pure method PureConstructor\AssignOtherThanThis::__construct().
+Impure property assignment in pure method PureConstructor\Foo::__construct().
+Impure property assignment in pure method PureMethod\Foo::doFoo3().
+Impure property assignment in pure method PureMethod\StaticMethodAssigningStaticProperty::getA().
+Impure static property access in pure method PureConstructor\Foo::__construct().
+Impure static property access in pure method PureMethod\StaticMethodAccessingStaticProperty::getA().
+Impure static variable in pure function PureFunction\functionWithStaticVariable().
+Method AllMethodsArePure\Bar::impure() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\Bar::impureVoid() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\Bar::pureVoid() is marked as pure but returns void.
+Method AllMethodsArePure\Bar::test() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\Bar::testVoid() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\Foo::impure() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\Foo::impureVoid() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\Foo::pureVoid() is marked as pure but returns void.
+Method AllMethodsArePure\SideEffectImpure::nothingWithPure() is marked as impure but does not have any side effects.
+Method AllMethodsArePure\SideEffectPure::impureWithPure() is marked as impure but does not have any side effects.
+Method Bug12382\FinalHelloWorld1::dummy() is marked as impure but does not have any side effects.
+Method Bug12382\FinalHelloWorld2::dummy() is marked as impure but does not have any side effects.
+Method Bug12382\FinalHelloWorld3::dummy() is marked as impure but does not have any side effects.
+Method Bug12382\FinalHelloWorld4::dummy() is marked as impure but does not have any side effects.
+Method PHPStan\Rules\Pure\data\A::pureWithThrowsVoid() is marked as pure but returns void.
+Method PureConstructor\Bar::__construct() is marked as impure but does not have any side effects.
+Method PureMethod\ActuallyPure::doFoo() is marked as impure but does not have any side effects.
+Method PureMethod\ClassWithVoidMethods::privateEmptyVoidFunction() returns void but does not have any side effects.
+Method PureMethod\ExtendingClass::impure() is marked as impure but does not have any side effects.
+Method PureMethod\Foo::doFoo() is marked as pure but parameter $p is passed by reference.
+Method PureMethod\Foo::doFoo2() is marked as pure but returns void.
+Possibly impure call to a Closure in pure function PureFunction\callsClosures().
+Possibly impure call to a callable in pure function FirstClassCallablePureFunction\callCallbackImmediately().
+Possibly impure call to a callable in pure function PureFunction\testThese().
+Possibly impure call to a callable in pure method PureMethod\MaybeCallableFromUnion::doFoo().
+Possibly impure call to function PureFunction\possiblyImpureFunction() in pure function PureFunction\testThese().
+Possibly impure call to method PureMethod\Foo::returningMethod() in pure method PureMethod\Foo::doFoo4().
+Possibly impure call to method PureMethod\Foo::returningMethod() in pure method PureMethod\Foo::doFoo5().
+Possibly impure call to method PureMethod\MaybePureMagicMethods::__toString() in pure method PureMethod\TestMagicMethods::doFoo().
+Possibly impure call to unknown function in pure function PureFunction\testThese().
+Possibly impure call to unknown method in pure method PureMethod\Foo::doFoo4().
+Possibly impure call to unknown method in pure method PureMethod\Foo::doFoo5().
+Possibly impure instantiation of class PureMethod\PossiblyImpureConstructor in pure method PureMethod\TestConstructors::doFoo().
+Possibly impure instantiation of unknown class in pure method PureMethod\TestConstructors::doFoo().
+Possibly impure property assignment by reference in pure method ImpureAssignRef\HelloWorld::bar6().

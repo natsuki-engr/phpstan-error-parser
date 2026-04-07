@@ -1,0 +1,245 @@
+Binary operation "%" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "%" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "%" between 3 and array results in an error.
+Binary operation "%" between 3 and object results in an error.
+Binary operation "%" between 5 and 0 results in an error.
+Binary operation "%" between T and 2 results in an error.
+Binary operation "%" between array and 3 results in an error.
+Binary operation "%" between array{} and array{''} results in an error.
+Binary operation "%" between mixed and 2 results in an error.
+Binary operation "%" between object and 3 results in an error.
+Binary operation "%" between stdClass and stdClass results in an error.
+Binary operation "%=" between 5 and T results in an error.
+Binary operation "%=" between 5 and mixed results in an error.
+Binary operation "%=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "%=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "&" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "&" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "&" between T and 2 results in an error.
+Binary operation "&" between mixed and 2 results in an error.
+Binary operation "&" between string and 5 results in an error.
+Binary operation "&=" between 5 and T results in an error.
+Binary operation "&=" between 5 and mixed results in an error.
+Binary operation "&=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "&=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "*" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "*" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "*" between 10 and class-string results in an error.
+Binary operation "*" between 10 and literal-string results in an error.
+Binary operation "*" between 10 and non-empty-string results in an error.
+Binary operation "*" between 10 and string results in an error.
+Binary operation "*" between T and 2 results in an error.
+Binary operation "*" between class-string and 10 results in an error.
+Binary operation "*" between literal-string and 10 results in an error.
+Binary operation "*" between mixed and 2 results in an error.
+Binary operation "*" between non-empty-string and 10 results in an error.
+Binary operation "*" between string and 10 results in an error.
+Binary operation "**" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "**" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "**" between T and 2 results in an error.
+Binary operation "**" between mixed and 2 results in an error.
+Binary operation "**=" between 5 and T results in an error.
+Binary operation "**=" between 5 and mixed results in an error.
+Binary operation "**=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "**=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "*=" between 5 and T results in an error.
+Binary operation "*=" between 5 and mixed results in an error.
+Binary operation "*=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "*=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "+" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "+" between (array<string>|string) and 1 results in an error.
+Binary operation "+" between 1 and 'blabla' results in an error.
+Binary operation "+" between 1 and string results in an error.
+Binary operation "+" between 10 and class-string results in an error.
+Binary operation "+" between 10 and literal-string results in an error.
+Binary operation "+" between 10 and non-empty-string results in an error.
+Binary operation "+" between 10 and string results in an error.
+Binary operation "+" between T and 2 results in an error.
+Binary operation "+" between array|null and '2' results in an error.
+Binary operation "+" between class-string and 10 results in an error.
+Binary operation "+" between int and array{} results in an error.
+Binary operation "+" between literal-string and 10 results in an error.
+Binary operation "+" between mixed and 2 results in an error.
+Binary operation "+" between mixed and array results in an error.
+Binary operation "+" between non-empty-string and 10 results in an error.
+Binary operation "+" between stdClass and int results in an error.
+Binary operation "+" between string and 10 results in an error.
+Binary operation "+=" between 5 and T results in an error.
+Binary operation "+=" between 5 and mixed results in an error.
+Binary operation "+=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "+=" between array and 'foo' results in an error.
+Binary operation "-" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "-" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "-" between 10 and class-string results in an error.
+Binary operation "-" between 10 and literal-string results in an error.
+Binary operation "-" between 10 and non-empty-string results in an error.
+Binary operation "-" between 10 and string results in an error.
+Binary operation "-" between T and 2 results in an error.
+Binary operation "-" between array and array results in an error.
+Binary operation "-" between class-string and 10 results in an error.
+Binary operation "-" between literal-string and 10 results in an error.
+Binary operation "-" between mixed and 2 results in an error.
+Binary operation "-" between non-empty-string and 10 results in an error.
+Binary operation "-" between string and 10 results in an error.
+Binary operation "-=" between 5 and T results in an error.
+Binary operation "-=" between 5 and mixed results in an error.
+Binary operation "-=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "-=" between array and array results in an error.
+Binary operation "-=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "." between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "." between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "." between T and 'a' results in an error.
+Binary operation "." between array<string> and 'xyz' results in an error.
+Binary operation "." between array{}|non-falsy-string and 'xyz' results in an error.
+Binary operation "." between mixed and 'a' results in an error.
+Binary operation "." between string and stdClass results in an error.
+Binary operation ".=" between 'a' and T results in an error.
+Binary operation ".=" between 'a' and mixed results in an error.
+Binary operation ".=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation ".=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation ".=" between string and stdClass results in an error.
+Binary operation "/" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "/" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "/" between 10 and class-string results in an error.
+Binary operation "/" between 10 and literal-string results in an error.
+Binary operation "/" between 10 and non-empty-string results in an error.
+Binary operation "/" between 10 and string results in an error.
+Binary operation "/" between 5 and 0 results in an error.
+Binary operation "/" between 5 and 0|1 results in an error.
+Binary operation "/" between T and 2 results in an error.
+Binary operation "/" between class-string and 10 results in an error.
+Binary operation "/" between int and 0.0 results in an error.
+Binary operation "/" between literal-string and 10 results in an error.
+Binary operation "/" between mixed and 2 results in an error.
+Binary operation "/" between non-empty-string and 10 results in an error.
+Binary operation "/" between string and 10 results in an error.
+Binary operation "/=" between 5 and T results in an error.
+Binary operation "/=" between 5 and mixed results in an error.
+Binary operation "/=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "/=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "<<" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "<<" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "<<" between T and 2 results in an error.
+Binary operation "<<" between mixed and 2 results in an error.
+Binary operation "<<" between string and string results in an error.
+Binary operation "<<=" between 5 and T results in an error.
+Binary operation "<<=" between 5 and mixed results in an error.
+Binary operation "<<=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "<<=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "<<=" between string and string results in an error.
+Binary operation ">>" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation ">>" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation ">>" between T and 2 results in an error.
+Binary operation ">>" between mixed and 2 results in an error.
+Binary operation ">>" between string and string results in an error.
+Binary operation ">>=" between 5 and T results in an error.
+Binary operation ">>=" between 5 and mixed results in an error.
+Binary operation ">>=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation ">>=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation ">>=" between string and string results in an error.
+Binary operation "^" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "^" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "^" between string and 5 results in an error.
+Binary operation "^=" between 5 and T results in an error.
+Binary operation "^=" between 5 and mixed results in an error.
+Binary operation "^=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "^=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "|" between (array<string, string>|bool|int|object|resource) and BinaryOpBenevolentUnion\Foo results in an error.
+Binary operation "|" between (array<string, string>|bool|int|object|resource) and array{} results in an error.
+Binary operation "|" between T and 2 results in an error.
+Binary operation "|" between mixed and 2 results in an error.
+Binary operation "|" between string and 5 results in an error.
+Binary operation "|=" between 5 and T results in an error.
+Binary operation "|=" between 5 and mixed results in an error.
+Binary operation "|=" between BinaryOpBenevolentUnion\Foo and (array<string, string>|bool|int|object|resource) results in an error.
+Binary operation "|=" between array{} and (array<string, string>|bool|int|object|resource) results in an error.
+Cannot use ++ on (array|object).
+Cannot use ++ on InvalidIncDec\ClassWithToString.
+Cannot use ++ on T of mixed.
+Cannot use ++ on a non-variable.
+Cannot use ++ on array{}.
+Cannot use ++ on array|bool|float|int|object|string|null.
+Cannot use ++ on bool.
+Cannot use ++ on mixed.
+Cannot use ++ on resource.
+Cannot use ++ on stdClass.
+Cannot use ++ on true.
+Cannot use -- on 'a'.
+Cannot use -- on (array|object).
+Cannot use -- on InvalidIncDec\ClassWithToString.
+Cannot use -- on T of mixed.
+Cannot use -- on a non-variable.
+Cannot use -- on array{}.
+Cannot use -- on array|bool|float|int|object|string|null.
+Cannot use -- on bool.
+Cannot use -- on false.
+Cannot use -- on mixed.
+Cannot use -- on null.
+Cannot use -- on resource.
+Cannot use -- on string.
+Comparison operation "!=" between array and int results in an error.
+Comparison operation "!=" between array<int|string>|null and 1 results in an error.
+Comparison operation "!=" between object|null and 1 results in an error.
+Comparison operation "!=" between stdClass and int results in an error.
+Comparison operation "<" between array and 1 results in an error.
+Comparison operation "<" between array and array|int results in an error.
+Comparison operation "<" between array and float|int|null results in an error.
+Comparison operation "<" between array and float|null results in an error.
+Comparison operation "<" between array and int results in an error.
+Comparison operation "<" between numeric-string and DateTimeImmutable results in an error.
+Comparison operation "<" between stdClass and 1 results in an error.
+Comparison operation "<" between stdClass and float|int|null results in an error.
+Comparison operation "<" between stdClass and float|null results in an error.
+Comparison operation "<" between stdClass and int results in an error.
+Comparison operation "<" between stdClass and int|stdClass results in an error.
+Comparison operation "<=" between array and int results in an error.
+Comparison operation "<=" between stdClass and int results in an error.
+Comparison operation "<=>" between array and int results in an error.
+Comparison operation "<=>" between stdClass and int results in an error.
+Comparison operation "==" between array and 1 results in an error.
+Comparison operation "==" between array and array|int results in an error.
+Comparison operation "==" between array and float|int|null results in an error.
+Comparison operation "==" between array and float|null results in an error.
+Comparison operation "==" between array and int results in an error.
+Comparison operation "==" between stdClass and 1 results in an error.
+Comparison operation "==" between stdClass and float|int|null results in an error.
+Comparison operation "==" between stdClass and float|null results in an error.
+Comparison operation "==" between stdClass and int results in an error.
+Comparison operation "==" between stdClass and int|stdClass results in an error.
+Comparison operation "==" between stdClass|null and int results in an error.
+Comparison operation ">" between array and int results in an error.
+Comparison operation ">" between array{1} and 2147483647|9223372036854775807 results in an error.
+Comparison operation ">" between stdClass and int results in an error.
+Comparison operation ">=" between array and int results in an error.
+Comparison operation ">=" between stdClass and int results in an error.
+Expression on left side of assignment is not assignable.
+Nullsafe operator cannot be on left side of assignment.
+Nullsafe operator cannot be on right side of assignment by reference.
+Unary operation "+" on 'bla' results in an error.
+Unary operation "+" on (array|object) results in an error.
+Unary operation "+" on T results in an error.
+Unary operation "+" on array results in an error.
+Unary operation "+" on array|bool|float|int|object|string|null results in an error.
+Unary operation "+" on mixed results in an error.
+Unary operation "+" on object results in an error.
+Unary operation "+" on resource results in an error.
+Unary operation "+" on string results in an error.
+Unary operation "-" on 'bla' results in an error.
+Unary operation "-" on (array|object) results in an error.
+Unary operation "-" on T results in an error.
+Unary operation "-" on array results in an error.
+Unary operation "-" on array|bool|float|int|object|string|null results in an error.
+Unary operation "-" on mixed results in an error.
+Unary operation "-" on object results in an error.
+Unary operation "-" on resource results in an error.
+Unary operation "-" on string results in an error.
+Unary operation "~" on (array|object) results in an error.
+Unary operation "~" on T results in an error.
+Unary operation "~" on array results in an error.
+Unary operation "~" on array{} results in an error.
+Unary operation "~" on array|bool|float|int|object|string|null results in an error.
+Unary operation "~" on bool results in an error.
+Unary operation "~" on mixed results in an error.
+Unary operation "~" on null results in an error.
+Unary operation "~" on object results in an error.
+Unary operation "~" on resource results in an error.

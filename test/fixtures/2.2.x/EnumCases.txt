@@ -1,0 +1,2 @@
+Attribute class EnumCaseAttributes\AttributeWithPropertyTarget does not have the class constant target.
+Enum case can only be used in enums.

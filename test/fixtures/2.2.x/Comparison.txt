@@ -1,0 +1,360 @@
+Call to function array_is_list() with array<string, int> will always evaluate to false.
+Call to function array_is_list() with array{0: 'foo', foo: 'bar', bar: 'baz'} will always evaluate to false.
+Call to function array_is_list() with array{foo: 'bar', bar: 'baz'} will always evaluate to false.
+Call to function array_key_exists() with 'a' and array{a: 1, b?: 2} will always evaluate to true.
+Call to function array_key_exists() with 'c' and array{a: 1, b?: 2} will always evaluate to false.
+Call to function assert() with false will always evaluate to false.
+Call to function assert() with true will always evaluate to true.
+Call to function assertIsInt() with int will always evaluate to true.
+Call to function in_array() with 'A' and array{LooseComparisonAgainstEnums\FooBackedEnum} will always evaluate to false.
+Call to function in_array() with 'A' and array{LooseComparisonAgainstEnums\FooUnitEnum} will always evaluate to false.
+Call to function in_array() with 'NotAnEnumCase' and array<Bug9662Enums\StringBackedSuit> will always evaluate to false.
+Call to function in_array() with 'NotAnEnumCase' and array<Bug9662Enums\Suit> will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooBackedEnum and array{'A'} will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooBackedEnum and array{bool} will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooUnitEnum and array<string> will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooUnitEnum and array{'A'} will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooUnitEnum and array{bool} will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooUnitEnum and array{null} will always evaluate to false.
+Call to function in_array() with LooseComparisonAgainstEnums\FooUnitEnum::A and non-empty-array<LooseComparisonAgainstEnums\FooUnitEnum::A> will always evaluate to true.
+Call to function in_array() with LooseComparisonAgainstEnums\FooUnitEnum::B and non-empty-array<LooseComparisonAgainstEnums\FooUnitEnum::A> will always evaluate to false.
+Call to function in_array() with arguments 'A', array{LooseComparisonAgainstEnums\FooBackedEnum|LooseComparisonAgainstEnums\FooUnitEnum} and false will always evaluate to false.
+Call to function in_array() with arguments 'A', array{LooseComparisonAgainstEnums\FooBackedEnum} and false will always evaluate to false.
+Call to function in_array() with arguments 'A', array{LooseComparisonAgainstEnums\FooUnitEnum} and false will always evaluate to false.
+Call to function in_array() with arguments 'a', non-empty-array<int, 'a'> and true will always evaluate to true.
+Call to function in_array() with arguments 'b', non-empty-array<int, 'a'> and true will always evaluate to false.
+Call to function in_array() with arguments 'bar', array{}|array{'foo'} and true will always evaluate to false.
+Call to function in_array() with arguments 'bar'|'foo', array{'baz', 'lorem'} and true will always evaluate to false.
+Call to function in_array() with arguments 'baz', array{0: 'bar', 1?: 'foo'} and true will always evaluate to false.
+Call to function in_array() with arguments 'c', list<'a'|'b'> and true will always evaluate to false.
+Call to function in_array() with arguments 'foo', array{'foo', 'bar'} and true will always evaluate to true.
+Call to function in_array() with arguments 'foo', array{'foo'} and true will always evaluate to true.
+Call to function in_array() with arguments 'foo', array{} and true will always evaluate to false.
+Call to function in_array() with arguments 1, array<string> and true will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooBackedEnum, array{'A'} and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooBackedEnum, array{bool} and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooBackedEnum|LooseComparisonAgainstEnums\FooUnitEnum, array{'A'} and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooBackedEnum|LooseComparisonAgainstEnums\FooUnitEnum, array{bool} and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum, array<string> and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum, array<string> and true will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum, array{'A'} and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum, array{bool} and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum::A, non-empty-array<LooseComparisonAgainstEnums\FooUnitEnum::A> and false will always evaluate to true.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum::A, non-empty-array<LooseComparisonAgainstEnums\FooUnitEnum::A> and true will always evaluate to true.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum::B, non-empty-array<LooseComparisonAgainstEnums\FooUnitEnum::A> and false will always evaluate to false.
+Call to function in_array() with arguments LooseComparisonAgainstEnums\FooUnitEnum::B, non-empty-array<LooseComparisonAgainstEnums\FooUnitEnum::A> and true will always evaluate to false.
+Call to function in_array() with arguments bool, array{LooseComparisonAgainstEnums\FooBackedEnum|LooseComparisonAgainstEnums\FooUnitEnum} and false will always evaluate to false.
+Call to function in_array() with arguments bool, array{LooseComparisonAgainstEnums\FooBackedEnum} and false will always evaluate to false.
+Call to function in_array() with arguments bool, array{LooseComparisonAgainstEnums\FooUnitEnum} and false will always evaluate to false.
+Call to function in_array() with arguments int, array<int, string> and true will always evaluate to false.
+Call to function in_array() with arguments int, array<string> and true will always evaluate to false.
+Call to function in_array() with arguments int, array{'foo', 'bar'} and true will always evaluate to false.
+Call to function in_array() with arguments int, array{} and true will always evaluate to false.
+Call to function in_array() with arguments null, array{key1: bool|null, key2: null} and true will always evaluate to true.
+Call to function in_array() with arguments string, array<LooseComparisonAgainstEnums\FooUnitEnum> and false will always evaluate to false.
+Call to function in_array() with arguments string, array<LooseComparisonAgainstEnums\FooUnitEnum> and true will always evaluate to false.
+Call to function in_array() with bool and array{LooseComparisonAgainstEnums\FooBackedEnum} will always evaluate to false.
+Call to function in_array() with bool and array{LooseComparisonAgainstEnums\FooUnitEnum} will always evaluate to false.
+Call to function in_array() with int and array<Bug9662Enums\StringBackedSuit> will always evaluate to false.
+Call to function in_array() with null and array{LooseComparisonAgainstEnums\FooBackedEnum} will always evaluate to false.
+Call to function in_array() with string and array<Bug9662Enums\StringBackedSuit> will always evaluate to false.
+Call to function in_array() with string and array<LooseComparisonAgainstEnums\FooUnitEnum> will always evaluate to false.
+Call to function isAnInteger() with int will always evaluate to true.
+Call to function is_a() with arguments BugPR3404\Location, 'BugPR3404\\Location' and true will always evaluate to true.
+Call to function is_bool() with bool will always evaluate to true.
+Call to function is_callable() with 'date' will always evaluate to true.
+Call to function is_callable() with 'nonexistentFunction' will always evaluate to false.
+Call to function is_callable() with array<int> will always evaluate to false.
+Call to function is_callable() with array{1: 'count', 0: ArrayObject<int, int>} will always evaluate to true.
+Call to function is_callable() with array{ArrayObject<int, int>, 'count'} will always evaluate to true.
+Call to function is_callable() with mixed will always evaluate to false.
+Call to function is_int() with int will always evaluate to true.
+Call to function is_int() with string will always evaluate to false.
+Call to function is_null() with 10 will always evaluate to false.
+Call to function is_null() with null will always evaluate to true.
+Call to function is_numeric() with '123' will always evaluate to true.
+Call to function is_numeric() with 'blabla' will always evaluate to false.
+Call to function is_numeric() with 123 will always evaluate to true.
+Call to function is_numeric() with 123|float will always evaluate to true.
+Call to function is_object() with int will always evaluate to false.
+Call to function is_string() with int will always evaluate to false.
+Call to function is_string() with mixed will always evaluate to false.
+Call to function is_string() with string will always evaluate to true.
+Call to function is_subclass_of() with Bug6305\B and 'Bug6305\\A' will always evaluate to true.
+Call to function is_subclass_of() with Bug6305\B and 'Bug6305\\B' will always evaluate to false.
+Call to function is_subclass_of() with arguments Bug13713\test, 'stdClass' and false will always evaluate to true.
+Call to function is_subclass_of() with arguments class-string<Bug13713\test>, 'stdClass' and true will always evaluate to true.
+Call to function method_exists() with $this(CheckTypeFunctionCall\FinalClassWithMethodExists) and 'doBar' will always evaluate to false.
+Call to function method_exists() with $this(CheckTypeFunctionCall\FinalClassWithMethodExists) and 'doFoo' will always evaluate to true.
+Call to function method_exists() with $this(CheckTypeFunctionCall\MethodExistsWithTrait) and 'method' will always evaluate to true.
+Call to function method_exists() with $this(CheckTypeFunctionCall\MethodExistsWithTrait) and 'someAnother' will always evaluate to true.
+Call to function method_exists() with $this(CheckTypeFunctionCall\MethodExistsWithTrait) and 'unknown' will always evaluate to false.
+Call to function method_exists() with 'CheckTypeFunctionCall\\MethodExists' and 'testWithStringFirst…' will always evaluate to true.
+Call to function method_exists() with 'CheckTypeFunctionCall\\MethodExistsWithTrait' and 'method' will always evaluate to true.
+Call to function method_exists() with 'CheckTypeFunctionCall\\MethodExistsWithTrait' and 'someAnother' will always evaluate to true.
+Call to function method_exists() with 'CheckTypeFunctionCall\\MethodExistsWithTrait' and 'unknown' will always evaluate to false.
+Call to function method_exists() with 'UndefinedClass' and 'test' will always evaluate to false.
+Call to function method_exists() with 'UndefinedClass' and string will always evaluate to false.
+Call to function method_exists() with CheckTypeFunctionCall\Foo and 'doFoo' will always evaluate to true.
+Call to function method_exists() with CheckTypeFunctionCall\Foo and 'test' will always evaluate to false.
+Call to function method_exists() with CheckTypeFunctionCall\MethodExists and 'testWithNewObjectIn…' will always evaluate to true.
+Call to function method_exists() with CheckTypeFunctionCall\MethodExists and 'undefinedMethod' will always evaluate to false.
+Call to function method_exists() with class-string<ImpossibleMethodExistsOnGenericClassString\FinalS>&literal-string and 'nonExistent' will always evaluate to false.
+Call to function method_exists() with class-string<ImpossibleMethodExistsOnGenericClassString\FinalS>&literal-string and 'nonStaticAbc' will always evaluate to true.
+Call to function method_exists() with class-string<ImpossibleMethodExistsOnGenericClassString\FinalS>&literal-string and 'staticAbc' will always evaluate to true.
+Call to function method_exists() with class-string<ImpossibleMethodExistsOnGenericClassString\S>&literal-string and 'nonStaticAbc' will always evaluate to true.
+Call to function method_exists() with class-string<ImpossibleMethodExistsOnGenericClassString\S>&literal-string and 'staticAbc' will always evaluate to true.
+Call to function property_exists() with $this(CheckTypeFunctionCall\FinalClassWithPropertyExists) and 'fooProperty' will always evaluate to true.
+Call to function property_exists() with CheckTypeFunctionCall\Bug2221 and 'foo' will always evaluate to true.
+Call to function property_exists() with object{foo: int, bar?: string} and 'baz' will always evaluate to false.
+Call to function testIsInt() with int will always evaluate to true.
+Call to function testIsInt() with string will always evaluate to false.
+Call to function testIsNotInt() with int will always evaluate to false.
+Call to function testIsNotInt() with string will always evaluate to true.
+Call to method Bug12087b\MyAssert::is_null() with null will always evaluate to true.
+Call to method Bug8169\HelloWorld::assertString() with int will always evaluate to false.
+Call to method Bug8169\HelloWorld::assertString() with string will always evaluate to true.
+Call to method ImpossibleMethodCallInTrait\TypeChecker::isString() with int will always evaluate to false.
+Call to method ImpossibleMethodCall\ConditionalAlwaysTrue::isInt() with int will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with '' and '' will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with '1' and stdClass will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with 'foo' and 'foo' will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with 1 and 1 will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with 1 and 2 will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with 1 and stdClass will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with 2 and 2 will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with array{'a', 'b'} and array{1, 2} will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with array{1, 3} and array{1, 3} will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with array{} and array{} will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with stdClass and '1' will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isNotSame() with stdClass and stdClass will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isSame() with '' and '' will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isSame() with '1' and stdClass will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isSame() with 'foo' and 'foo' will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isSame() with 1 and 1 will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isSame() with 1 and 2 will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isSame() with 1 and stdClass will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isSame() with array{'a', 'b'} and array{1, 2} will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isSame() with array{1, 3} and array{1, 3} will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isSame() with array{} and array{} will always evaluate to true.
+Call to method ImpossibleMethodCall\Foo::isSame() with stdClass and '1' will always evaluate to false.
+Call to method ImpossibleMethodCall\Foo::isSame() with stdClass and stdClass will always evaluate to true.
+Call to method PHPStan\Tests\AssertionClass::assertNotInt() with int will always evaluate to false.
+Call to method PHPStan\Tests\AssertionClass::assertNotInt() with string will always evaluate to true.
+Call to method PHPStan\Tests\AssertionClass::assertString() with int will always evaluate to false.
+Call to method PHPStan\Tests\AssertionClass::assertString() with string will always evaluate to true.
+Call to method ReflectionClass<Bug12473\PictureUser>::isSubclassOf() with 'Bug12473\\PictureProduct' will always evaluate to false.
+Call to static method Bug12087b\MyAssert::static_is_null() with null will always evaluate to true.
+Call to static method ImpossibleStaticMethodCallInTrait\TypeChecker::isString() with int will always evaluate to false.
+Call to static method ImpossibleStaticMethodCall\ConditionalAlwaysTrue::isInt() with int will always evaluate to true.
+Call to static method PHPStan\Tests\AssertionClass::assertInt() with 1 and 2 will always evaluate to true.
+Call to static method PHPStan\Tests\AssertionClass::assertInt() with arguments 1, 2 and 3 will always evaluate to true.
+Call to static method PHPStan\Tests\AssertionClass::assertInt() with int will always evaluate to true.
+Call to static method PHPStan\Tests\AssertionClass::assertInt() with string will always evaluate to false.
+Comparison operation "<" between 0 and 0 is always false.
+Comparison operation "<" between 5 and 4 is always false.
+Comparison operation "<" between Bug7052\Foo::A and Bug7052\Foo::B is always false.
+Comparison operation "<" between int<1, max> and 0 is always false.
+Comparison operation "<" between int<min, 0> and int<1, max> is always true.
+Comparison operation "<" between int<min, 1> and 5 is always true.
+Comparison operation "<=" between Bug7052\Foo::A and Bug7052\Foo::B is always false.
+Comparison operation "<=" between int<6, max> and 2 is always false.
+Comparison operation ">" between 1 and 0 is always true.
+Comparison operation ">" between Bug7052\Foo::A and Bug7052\Foo::B is always false.
+Comparison operation ">" between int<2, 4> and 8 is always false.
+Comparison operation ">=" between Bug7052\Foo::A and Bug7052\Foo::B is always false.
+Comparison operation ">=" between int<1, max> and 0 is always true.
+Do-while loop condition is always false.
+Do-while loop condition is always true.
+Elseif condition is always false.
+Elseif condition is always true.
+If condition is always false.
+If condition is always true.
+Left side of && is always false.
+Left side of && is always true.
+Left side of and is always false.
+Left side of and is always true.
+Left side of or is always false.
+Left side of or is always true.
+Left side of xor is always false.
+Left side of xor is always true.
+Left side of || is always false.
+Left side of || is always true.
+Loose comparison using != between 3 and 3 will always evaluate to false.
+Loose comparison using == between ' 23' and int<10, 20> will always evaluate to false.
+Loose comparison using == between ' 3' and int<10, 20> will always evaluate to false.
+Loose comparison using == between '13foo' and int<10, 20> will always evaluate to false.
+Loose comparison using == between 0 and '0' will always evaluate to true.
+Loose comparison using == between 0 and '1' will always evaluate to false.
+Loose comparison using == between 0|1|false and 2 will always evaluate to false.
+Loose comparison using == between 1 and 1 will always evaluate to true.
+Loose comparison using == between 1 and null will always evaluate to false.
+Loose comparison using == between 23 and int<10, 20> will always evaluate to false.
+Loose comparison using == between 3 and 3 will always evaluate to true.
+Loose comparison using == between 3 and int<10, 20> will always evaluate to false.
+Loose comparison using == between Bug8485\E::c and Bug8485\E::c will always evaluate to true.
+Loose comparison using == between Bug8485\F and Bug8485\E will always evaluate to false.
+Loose comparison using == between Bug8485\F and Bug8485\E::c will always evaluate to false.
+Loose comparison using == between Bug8485\F::c and Bug8485\E::c will always evaluate to false.
+Loose comparison using == between false and int<10, 20> will always evaluate to false.
+Loose comparison using == between int<10, 20> and ' 23' will always evaluate to false.
+Loose comparison using == between int<10, 20> and ' 3' will always evaluate to false.
+Loose comparison using == between int<10, 20> and '13foo' will always evaluate to false.
+Loose comparison using == between int<10, 20> and 23 will always evaluate to false.
+Loose comparison using == between int<10, 20> and 3 will always evaluate to false.
+Loose comparison using == between int<10, 20> and false will always evaluate to false.
+Loose comparison using == between int<10, 20> and null will always evaluate to false.
+Loose comparison using == between int<10, 20> and true will always evaluate to true.
+Loose comparison using == between null and int<10, 20> will always evaluate to false.
+Loose comparison using == between true and int<10, 20> will always evaluate to true.
+Match arm comparison between $this(LastMatchArmAlwaysTrue\Bar)&LastMatchArmAlwaysTrue\Bar::ONE and LastMatchArmAlwaysTrue\Bar::ONE is always true.
+Match arm comparison between $this(LastMatchArmAlwaysTrue\Foo)&LastMatchArmAlwaysTrue\Foo::TWO and LastMatchArmAlwaysTrue\Foo::TWO is always true.
+Match arm comparison between $this(MatchAlwaysTrueLastArm\Foo)&MatchAlwaysTrueLastArm\Foo::BAR and MatchAlwaysTrueLastArm\Foo::BAR is always true.
+Match arm comparison between 1 and 0 is always false.
+Match arm comparison between 1 and 1 is always true.
+Match arm comparison between 1|2 and 3 is always false.
+Match arm comparison between 1|2|3 and 'foo' is always false.
+Match arm comparison between 1|2|3 and 0 is always false.
+Match arm comparison between 1|2|3|4|5|6 and 0 is always false.
+Match arm comparison between 3 and 3 is always true.
+Match arm comparison between Bug8240\Foo2::BAZ and Bug8240\Foo2::BAZ is always true.
+Match arm comparison between Bug8240\Foo::BAR and Bug8240\Foo::BAR is always true.
+Match arm comparison between MatchEnums\Foo and MatchEnums\Foo::ONE is always false.
+Match arm comparison between MatchEnums\Foo::THREE and MatchEnums\Foo::THREE is always true.
+Match arm comparison between MatchEnums\Foo::THREE|MatchEnums\Foo::TWO and MatchEnums\DifferentEnum::ONE is always false.
+Match arm comparison between int<1, 6>|int<8, 14> and 0 is always false.
+Match arm comparison between int<1, max> and 0 is always false.
+Match arm comparison between true and false is always false.
+Match expression does not handle remaining value: 1
+Match expression does not handle remaining value: 3
+Match expression does not handle remaining value: MatchEnums\Foo::THREE
+Match expression does not handle remaining value: class-string<Bug9534\Bike|Bug9534\Boat|Bug9534\Car>
+Match expression does not handle remaining value: class-string<Bug9534\Bike|Bug9534\Car>
+Match expression does not handle remaining value: class-string<Bug9534\FinalBike|Bug9534\FinalBoat>
+Match expression does not handle remaining value: class-string<T of Bug12998\C|Bug12998\D>
+Match expression does not handle remaining value: true
+Match expression does not handle remaining values: 1|2|3
+Match expression does not handle remaining values: MatchEnums\Foo::THREE|MatchEnums\Foo::TWO
+Match expression does not handle remaining values: int<min, 0>|int<2, max>
+MatchCallbackScopeRegression\Suit
+MatchEnumPartialArmRegression\MyEnum::A
+Negated boolean expression is always false.
+Negated boolean expression is always true.
+Result of && is always false.
+Result of && is always true.
+Result of and is always false.
+Result of and is always true.
+Result of match expression (void) is used.
+Result of or is always true.
+Result of || is always true.
+Right side of && is always false.
+Right side of && is always true.
+Right side of and is always false.
+Right side of and is always true.
+Right side of or is always false.
+Right side of or is always true.
+Right side of xor is always false.
+Right side of xor is always true.
+Right side of || is always false.
+Right side of || is always true.
+Strict comparison using !== between 'AB' and lowercase-string will always evaluate to true.
+Strict comparison using !== between 'Bug3633\\FinalClass' and 'Bug3633\\FinalClass' will always evaluate to false.
+Strict comparison using !== between 'ab' and uppercase-string will always evaluate to true.
+Strict comparison using !== between 1 and '1' will always evaluate to true.
+Strict comparison using !== between INF and INF will always evaluate to false.
+Strict comparison using !== between NAN and NAN will always evaluate to true.
+Strict comparison using !== between StrictComparison\Foo|null and 1 will always evaluate to true.
+Strict comparison using !== between StrictComparison\Node|null and false will always evaluate to true.
+Strict comparison using !== between array{1, mixed, 3} and array{int, null, int} will always evaluate to true.
+Strict comparison using !== between array{test: 1} and array{test: 1} will always evaluate to false.
+Strict comparison using !== between array{test: 1} and array{test: 5} will always evaluate to true.
+Strict comparison using !== between lowercase-string and 'aBc' will always evaluate to true.
+Strict comparison using !== between mixed and 1 will always evaluate to true.
+Strict comparison using !== between mixed and null will always evaluate to true.
+Strict comparison using !== between null and null will always evaluate to false.
+Strict comparison using !== between null and string will always evaluate to true.
+Strict comparison using !== between stdClass and null will always evaluate to true.
+Strict comparison using !== between string and null will always evaluate to true.
+Strict comparison using !== between uppercase-string and 'aBc' will always evaluate to true.
+Strict comparison using === between $this(Bug9142\MyEnum) and Bug9142\MyEnum::Three will always evaluate to false.
+Strict comparison using === between '/'|'\\' and '//' will always evaluate to false.
+Strict comparison using === between '0' and non-falsy-string will always evaluate to false.
+Strict comparison using === between '18446744073709551615' and '9223372036854775807' will always evaluate to false.
+Strict comparison using === between 'AB' and lowercase-string will always evaluate to false.
+Strict comparison using === between 'Bug3633\\FinalClass' and 'Bug3633\\FinalClass' will always evaluate to true.
+Strict comparison using === between 'Bug3633\\FinalClass' and 'Bug3633\\HelloWorld' will always evaluate to false.
+Strict comparison using === between 'Bug3633\\FinalClass' and 'Bug3633\\OtherClass' will always evaluate to false.
+Strict comparison using === between 'Bug3633\\HelloWorld' and 'Bug3633\\HelloWorld' will always evaluate to true.
+Strict comparison using === between 'Bug3633\\HelloWorld' and 'Bug3633\\OtherClass' will always evaluate to false.
+Strict comparison using === between 'Bug3633\\OtherClass' and 'Bug3633\\HelloWorld' will always evaluate to false.
+Strict comparison using === between 'Bug3633\\OtherClass' and 'Bug3633\\OtherClass' will always evaluate to true.
+Strict comparison using === between 'ab' and uppercase-string will always evaluate to false.
+Strict comparison using === between 'bar' and 'bar' will always evaluate to true.
+Strict comparison using === between 'bbb' and 'bbb' will always evaluate to true.
+Strict comparison using === between 'foo' and 'foo' will always evaluate to true.
+Strict comparison using === between 'foofoofoofoofoofoof…' and 'foofoofoofoofoofoof…' will always evaluate to true.
+Strict comparison using === between (int<min, 0>|int<2, max>|string) and 1.0 will always evaluate to false.
+Strict comparison using === between (int<min, 0>|int<2, max>|string) and stdClass will always evaluate to false.
+Strict comparison using === between (lowercase-string&non-falsy-string)|(non-falsy-string&numeric-string) and 'A' will always evaluate to false.
+Strict comparison using === between (lowercase-string&non-falsy-string)|false and 'ABC' will always evaluate to false.
+Strict comparison using === between *NEVER* and 'ccc' will always evaluate to false.
+Strict comparison using === between 0 and 0 will always evaluate to true.
+Strict comparison using === between 0 and 1|2 will always evaluate to false.
+Strict comparison using === between 1 and '1' will always evaluate to false.
+Strict comparison using === between 1 and 1 will always evaluate to true.
+Strict comparison using === between 1 and 1.0 will always evaluate to false.
+Strict comparison using === between 1 and 2 will always evaluate to false.
+Strict comparison using === between 1 and array<StrictComparison\Foo>|bool|StrictComparison\Collection will always evaluate to false.
+Strict comparison using === between 1 and null will always evaluate to false.
+Strict comparison using === between 1.0 and 1 will always evaluate to false.
+Strict comparison using === between 100 and 'foo' will always evaluate to false.
+Strict comparison using === between 1000 and 1000 will always evaluate to true.
+Strict comparison using === between 1|2|3 and null will always evaluate to false.
+Strict comparison using === between 2 and 2 will always evaluate to true.
+Strict comparison using === between Bug8485\E::c and Bug8485\E::c will always evaluate to true.
+Strict comparison using === between Bug8485\F and Bug8485\E will always evaluate to false.
+Strict comparison using === between Bug8485\F and Bug8485\E::c will always evaluate to false.
+Strict comparison using === between Bug8485\F::c and Bug8485\E::c will always evaluate to false.
+Strict comparison using === between Bug8485\FooEnum::C and Bug8485\FooEnum::C will always evaluate to true.
+Strict comparison using === between Bug9142\MyEnum and Bug9142\MyEnum::Three will always evaluate to false.
+Strict comparison using === between INF and INF will always evaluate to true.
+Strict comparison using === between NAN and NAN will always evaluate to false.
+Strict comparison using === between StrictComparisonEnumTips\SomeEnum::Two and StrictComparisonEnumTips\SomeEnum::Two will always evaluate to true.
+Strict comparison using === between StrictComparison\Bar and 1 will always evaluate to false.
+Strict comparison using === between array{X: 1, Y: 2} and array{X: 2, Y: 1} will always evaluate to false.
+Strict comparison using === between array{X: 1, Y: 2} and array{Y: 2, X: 1} will always evaluate to false.
+Strict comparison using === between array{X: 1} and array{X: 2} will always evaluate to false.
+Strict comparison using === between class-string<$this(Bug3633\FinalClass)> and 'Bug3633\\HelloWorld' will always evaluate to false.
+Strict comparison using === between class-string<$this(Bug3633\FinalClass)> and 'Bug3633\\OtherClass' will always evaluate to false.
+Strict comparison using === between class-string<$this(Bug3633\HelloWorld)> and 'Bug3633\\OtherClass' will always evaluate to false.
+Strict comparison using === between class-string<$this(Bug3633\OtherClass)> and 'Bug3633\\HelloWorld' will always evaluate to false.
+Strict comparison using === between false and true will always evaluate to false.
+Strict comparison using === between float and 'string' will always evaluate to false.
+Strict comparison using === between int<0, 1> and 100 will always evaluate to false.
+Strict comparison using === between int<0, max> and 'string' will always evaluate to false.
+Strict comparison using === between int<1, max> and 'string' will always evaluate to false.
+Strict comparison using === between int<1, max> and 0 will always evaluate to false.
+Strict comparison using === between int<10, max> and 'foo' will always evaluate to false.
+Strict comparison using === between lowercase-string and 'AB' will always evaluate to false.
+Strict comparison using === between lowercase-string and 'aBc' will always evaluate to false.
+Strict comparison using === between lowercase-string&non-falsy-string and 'ABC' will always evaluate to false.
+Strict comparison using === between lowercase-string|false and 'AB' will always evaluate to false.
+Strict comparison using === between mixed and 'foo' will always evaluate to false.
+Strict comparison using === between mixed and array{INF} will always evaluate to false.
+Strict comparison using === between mixed and null will always evaluate to false.
+Strict comparison using === between non-empty-array and null will always evaluate to false.
+Strict comparison using === between non-empty-list<string|null> and null will always evaluate to false.
+Strict comparison using === between non-empty-string and false will always evaluate to false.
+Strict comparison using === between non-empty-string and null will always evaluate to false.
+Strict comparison using === between null and null will always evaluate to true.
+Strict comparison using === between null and string will always evaluate to false.
+Strict comparison using === between string and false will always evaluate to false.
+Strict comparison using === between string and null will always evaluate to false.
+Strict comparison using === between string|null and 1 will always evaluate to false.
+Strict comparison using === between true and false will always evaluate to false.
+Strict comparison using === between uppercase-string and 'aBc' will always evaluate to false.
+Strict comparison using === between uppercase-string and 'ab' will always evaluate to false.
+Ternary operator condition is always false.
+Ternary operator condition is always true.
+While loop condition is always false.
+While loop condition is always true.

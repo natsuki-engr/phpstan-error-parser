@@ -1,0 +1,74 @@
+Another unreachable
+Call to CallToStaticMethodWithoutImpurePoints\SubSubY::mySubSubFunc() on a separate line has no effect.
+Call to CallToStaticMethodWithoutImpurePoints\X::myFunc() on a separate line has no effect.
+Call to CallToStaticMethodWithoutImpurePoints\y::myFunc() on a separate line has no effect.
+Call to function CallToFunctionWithoutImpurePoints\myFunc() on a separate line has no effect.
+Call to method Bug11011\AnotherPureImpl::doFoo() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\AbstractFoo::myFunc() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\CallsPrivateMethodWithoutImpurePoints::doBar() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\finalSubSubY::mySubSubFunc() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\finalX::myFunc() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\foo::finalFunc() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\y::myFinalBaseFunc() on a separate line has no effect.
+Call to method CallToMethodWithoutImpurePoints\y::myFunc() on a separate line has no effect.
+Call to new CallToConstructorWithoutImpurePoints\Foo() on a separate line has no effect.
+Constant UnusedPrivateConstantDynamicFetch\Baz::FOO is unused.
+Constant UnusedPrivateConstantEnum\Foo::TEST_2 is unused.
+Constant UnusedPrivateConstant\Foo::BAR_CONST is unused.
+Constant UnusedPrivateConstant\TestExtension::UNUSED is unused.
+Expression "$arr" on a separate line does not do anything.
+Expression "$arr['test']" on a separate line does not do anything.
+Expression "$b()" on a separate line does not do anything.
+Expression "$foo->test" on a separate line does not do anything.
+Expression "$foo::$test" on a separate line does not do anything.
+Expression "$ref?->name" on a separate line does not do anything.
+Expression "'foo'" on a separate line does not do anything.
+Expression "(string) 1" on a separate line does not do anything.
+Expression "+1" on a separate line does not do anything.
+Expression "-1" on a separate line does not do anything.
+Expression "1" on a separate line does not do anything.
+Expression "@'foo'" on a separate line does not do anything.
+Expression "\DeadCodeNoop\Foo::TEST" on a separate line does not do anything.
+Expression "empty($test)" on a separate line does not do anything.
+Expression "isset($test)" on a separate line does not do anything.
+Expression "new class extends \Bug13698\NoConstructorClass…" on a separate line does not do anything.
+Expression "new class…" on a separate line does not do anything.
+Expression "true" on a separate line does not do anything.
+First unreachable
+Method Bug11802b\HelloWorld::doBar() is unused.
+Method Bug7389\HelloWorld::getTest() is unused.
+Method Bug7389\HelloWorld::getTest1() is unused.
+Method UnusedPrivateMethodEnunm\Foo::doBaz() is unused.
+Method UnusedPrivateMethod\Bar::doBaz() is unused.
+Method UnusedPrivateMethod\Foo::doBar() is unused.
+Method UnusedPrivateMethod\Foo::doFoo() is unused.
+Method UnusedPrivateMethod\IgnoredByExtension::bar() is unused.
+Method UnusedPrivateMethod\Lorem::doBaz() is unused.
+Property Bug11802\HelloWorld::$isFinal is never read, only written.
+Property Bug3636\Bar::$date is never written, only read.
+Property PrivatePropertyWithTags\Foo::$text is never written, only read.
+Property PrivatePropertyWithTags\Foo::$title is never read, only written.
+Property UnusedPrivatePromotedProperty\Foo::$lorem is never read, only written.
+Property UnusedPrivateProperty\ArrayAssign::$foo is never read, only written.
+Property UnusedPrivateProperty\Bar::$baz is never written, only read.
+Property UnusedPrivateProperty\DolorWithAnonymous::$foo is unused.
+Property UnusedPrivateProperty\Foo::$bar is never read, only written.
+Property UnusedPrivateProperty\Foo::$baz is unused.
+Property UnusedPrivateProperty\Foo::$lorem is never written, only read.
+Property UnusedPrivateProperty\ListAssign::$foo is never read, only written.
+Property UnusedPrivateProperty\Lorem::$baz is never read, only written.
+Property UnusedPrivateProperty\TestExtension::$read is never written, only read.
+Property UnusedPrivateProperty\TestExtension::$unused is unused.
+Property UnusedPrivateProperty\TestExtension::$written is never read, only written.
+Property class@anonymous/tests/PHPStan/Rules/DeadCode/data/unused-private-property.php:152::$bar is unused.
+Static method UnusedPrivateMethod\Foo::unusedStaticMethod() is unused.
+Static property UnusedPrivateProperty\Baz::$bar is never read, only written.
+Static property UnusedPrivateProperty\Baz::$baz is unused.
+Static property UnusedPrivateProperty\Baz::$lorem is never written, only read.
+Unreachable statement - code above always terminates.
+Unused result of "&&" operator.
+Unused result of "and" operator.
+Unused result of "or" operator.
+Unused result of "xor" operator.
+Unused result of "||" operator.
+Unused result of ternary operator.

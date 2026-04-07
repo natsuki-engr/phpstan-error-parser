@@ -1,0 +1,70 @@
+Anonymous function never returns null so it can be removed from the return type.
+Function Bug11980Function\process2() never returns void so it can be removed from the return type.
+Function Bug13384c\doFoo() never returns true so the return type can be changed to false.
+Function Bug13384c\doFoo2() never returns false so the return type can be changed to true.
+Function Bug13384c\doFooPhpdoc() never returns false so the return type can be changed to true.
+Function Bug13384c\doFooPhpdoc2() never returns true so the return type can be changed to false.
+Function Bug13384c\returnsTruePhpdocUnionReturn() never returns int so it can be removed from the return type.
+Function Bug13384c\returnsTrueUnionReturn() never returns int so it can be removed from the return type.
+Function TooWideFunctionParameterOut\doBar() never assigns null to &$p so it can be removed from the by-ref type.
+Function TooWideFunctionParameterOut\doBaz() never assigns null to &$p so it can be removed from the @param-out type.
+Function TooWideFunctionParameterOut\doLorem() never assigns null to &$p so it can be removed from the by-ref type.
+Function TooWideFunctionReturnType\bar() never returns string so it can be removed from the return type.
+Function TooWideFunctionReturnType\baz() never returns null so it can be removed from the return type.
+Function TooWideFunctionReturnType\conditionalType() never returns string so it can be removed from the return type.
+Function TooWideFunctionReturnType\dolor2() never returns null so it can be removed from the return type.
+Function TooWideFunctionReturnType\dolor4() never returns int so it can be removed from the return type.
+Function TooWideFunctionReturnType\dolor6() never returns null so it can be removed from the return type.
+Function TooWideFunctionReturnType\ipsum() never returns null so it can be removed from the return type.
+Method Bug11980\Demo::process2() never returns void so it can be removed from the return type.
+Method Bug13384c\Bug13384Static::doBar() never returns true so the return type can be changed to false.
+Method Bug13384c\Bug13384Static::doBar2() never returns false so the return type can be changed to true.
+Method Bug13384c\Bug13384Static::doBarPhpdoc() never returns false so the return type can be changed to true.
+Method Bug13384c\Bug13384c::doBar() never returns true so the return type can be changed to false.
+Method Bug13384c\Bug13384c::doBar2() never returns false so the return type can be changed to true.
+Method Bug13384c\Bug13384c::doBarPhpdoc() never returns false so the return type can be changed to true.
+Method MethodTooWideReturnAlwaysCheckFinal\FinalFoo::test() never returns null so it can be removed from the return type.
+Method MethodTooWideReturnAlwaysCheckFinal\FinalFoo::test2() never returns null so it can be removed from the return type.
+Method MethodTooWideReturnAlwaysCheckFinal\FinalFoo::test3() never returns null so it can be removed from the return type.
+Method MethodTooWideReturnAlwaysCheckFinal\Foo::test() never returns null so it can be removed from the return type.
+Method MethodTooWideReturnAlwaysCheckFinal\FooFinalMethods::test() never returns null so it can be removed from the return type.
+Method MethodTooWideReturnAlwaysCheckFinal\FooFinalMethods::test2() never returns null so it can be removed from the return type.
+Method MethodTooWideReturnAlwaysCheckFinal\FooFinalMethods::test3() never returns null so it can be removed from the return type.
+Method TooWideMethodParameterOut\FinalFoo::doBar() never assigns null to &$p so it can be removed from the by-ref type.
+Method TooWideMethodParameterOut\FinalFoo::doBaz() never assigns null to &$p so it can be removed from the @param-out type.
+Method TooWideMethodParameterOut\FinalFoo::doBool() never assigns false to &$b so the by-ref type can be changed to true.
+Method TooWideMethodParameterOut\FinalFoo::doBool2() never assigns false to &$b so the @param-out type can be changed to true.
+Method TooWideMethodParameterOut\FinalFoo::doLorem() never assigns null to &$p so it can be removed from the by-ref type.
+Method TooWideMethodParameterOut\Foo::doBar() never assigns null to &$p so it can be removed from the by-ref type.
+Method TooWideMethodParameterOut\Foo::doBaz() never assigns null to &$p so it can be removed from the @param-out type.
+Method TooWideMethodParameterOut\Foo::doBazPrivate() never assigns null to &$p so it can be removed from the @param-out type.
+Method TooWideMethodParameterOut\Foo::doBazProtected() never assigns null to &$p so it can be removed from the @param-out type.
+Method TooWideMethodParameterOut\Foo::doLorem() never assigns null to &$p so it can be removed from the by-ref type.
+Method TooWideMethodParameterOut\Foo::finalDoBaz() never assigns null to &$p so it can be removed from the @param-out type.
+Method TooWideMethodReturnType\Bar::bar() never returns string so it can be removed from the return type.
+Method TooWideMethodReturnType\Bar::baz() never returns null so it can be removed from the return type.
+Method TooWideMethodReturnType\BarClass::doFoo() never returns null so it can be removed from the return type.
+Method TooWideMethodReturnType\Baz::baz() never returns null so it can be removed from the return type.
+Method TooWideMethodReturnType\Bazz::lorem() never returns string so it can be removed from the return type.
+Method TooWideMethodReturnType\ConditionalTypeClass::conditionalType() never returns string so it can be removed from the return type.
+Method TooWideMethodReturnType\Foo::bar() never returns string so it can be removed from the return type.
+Method TooWideMethodReturnType\Foo::baz() never returns null so it can be removed from the return type.
+Method TooWideMethodReturnType\Foo::dolor() never returns null so it can be removed from the return type.
+Method TooWideMethodReturnType\Foo::dolor2() never returns null so it can be removed from the return type.
+Method TooWideMethodReturnType\Foo::dolor4() never returns int so it can be removed from the return type.
+Method TooWideMethodReturnType\Foo::dolor6() never returns null so it can be removed from the return type.
+PHPDoc tag @param-out type array<array{int, bool}> of function NestedTooWideFunctionParameterOutType\doFoo() can be narrowed to array<array{int, false}>.
+PHPDoc tag @param-out type array<array{int, bool}> of method NestedTooWideMethodParameterOutType\Foo::doFoo() can be narrowed to array<array{int, false}>.
+Property TooWidePropertyType\Bar::$c (int|null) is never assigned int so it can be removed from the property type.
+Property TooWidePropertyType\Bar::$d (int|null) is never assigned null so it can be removed from the property type.
+Property TooWidePropertyType\Foo::$barr (int|null) is never assigned null so it can be removed from the property type.
+Property TooWidePropertyType\Foo::$baz (int|null) is never assigned null so it can be removed from the property type.
+Property TooWidePropertyType\Foo::$foo (int|string) is never assigned string so it can be removed from the property type.
+Return type array<array{int, bool}> of function NestedTooWideFunctionReturnType\dataProvider() can be narrowed to array<array{int, false}>.
+Return type array<array{int, bool}> of method NestedTooWideMethodReturnType\Foo::dataProvider() can be narrowed to array<array{int, false}>.
+Return type array<array{int|null}> of method NestedTooWideMethodReturnType\Foo::dataProvider2() can be narrowed to array<array{int}>.
+Return type array<string, bool|int|string> of method NestedTooWideMethodReturnType\WebhookTest::dataTest() can be narrowed to array<string, int|string|true>.
+Static property Bug13384Phpdoc\ShutdownHandlerPhpdocTypes::$registered (bool) is never assigned true so the property type can be changed to false.
+Static property Bug13384\ShutdownHandlerFalseDefault::$registered (bool) is never assigned true so the property type can be changed to false.
+Static property Bug13384\ShutdownHandlerTrueDefault::$registered (bool) is never assigned false so the property type can be changed to true.
+Type array<array{int, bool}> of property NestedTooWidePropertyType\Foo::$a can be narrowed to array<array{int, false}>.

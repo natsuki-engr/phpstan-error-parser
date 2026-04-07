@@ -1,0 +1,435 @@
+- duplicate-class.php:10
+- duplicate-class.php:15
+- duplicate-class.php:20
+Abstract class NonClassAttributeClass\Lorem cannot be an Attribute class.
+Access to constant FOO on an unknown class ClassConstantNamespace\UnknownClass.
+Access to constant FOO on an unknown class ClassConstantVisibility\UnknownClassFirst.
+Access to constant FOO on an unknown class ClassConstantVisibility\UnknownClassSecond.
+Access to parent::BAZ but ClassConstantVisibility\Foo does not extend any class.
+Access to private constant FOO of class ClassConstantAttribute\Foo.
+Access to private constant PRIVATE_BAR of class ClassConstantVisibility\Bar.
+Access to private constant PRIVATE_FOO of class ClassConstantVisibility\Foo.
+Access to protected constant PROTECTED_FOO of class ClassConstantVisibility\Foo.
+Access to undefined constant ClassConstFetchDefined\Foo::TEST.
+Access to undefined constant ClassConstantAttribute\Foo::BAR.
+Access to undefined constant ClassConstantDynamicAccess\Foo::BUZ.
+Access to undefined constant ClassConstantDynamicAccess\Foo::FOO.
+Access to undefined constant ClassConstantDynamicAccess\Foo::QUX.
+Access to undefined constant ClassConstantNamespace\Foo::DOLOR.
+Access to undefined constant ClassConstantNamespace\Foo|string::DOLOR.
+Access to undefined constant ClassConstantVisibility\Bar::PRIVATE_FOO.
+Access to undefined constant ClassConstantVisibility\WithFooAndBarConstant&ClassConstantVisibility\WithFooConstant::BAZ.
+Access to undefined constant ClassConstantVisibility\WithFooAndBarConstant|ClassConstantVisibility\WithFooConstant::BAR.
+Access to undefined constant Foo::TEST.
+Access to undefined constant static(Bug8034\HelloWorld)::FIELDS.
+Access to undefined constant static(ClassConstantVisibility\AccessWithStatic)::BAR.
+Accessing ::class constant on a dynamic string is not supported in PHP.
+Accessing ::class constant on an expression is supported only on PHP 8.0 and later.
+Anonymous class extends enum ClassExtendsEnum\FooEnum.
+Anonymous class extends trait ExtendsError\DolorTrait.
+Anonymous class implements enum ClassImplementsEnum\FooEnum.
+Anonymous class implements trait ImplementsError\DolorTrait.
+Anonymous class uses enum TraitUseEnum\FooEnum.
+Anonymous class uses interface TraitUseError\Baz.
+Anonymous class uses unknown trait TraitUseError\FooTrait.
+Anonymous non-readonly class extends readonly class ExtendsReadOnlyClass\ReadonlyClass.
+Anonymous readonly class extends non-readonly class ExtendsReadOnlyClass\Nonreadonly.
+Attribute class AllowDynamicProperties cannot be used with enum.
+Attribute class AllowDynamicProperties cannot be used with interface.
+Attribute class AllowDynamicProperties cannot be used with readonly class.
+Attribute class ClassAttributes\AbstractAttribute is abstract.
+Attribute class ClassAttributes\AttributeWithConstructor constructor invoked with 0 parameters, 2 required.
+Attribute class ClassAttributes\AttributeWithConstructor constructor invoked with 1 parameter, 2 required.
+Attribute class ClassAttributes\Bar does not have a constructor and must be instantiated without any parameters.
+Attribute class ClassAttributes\Bar is not repeatable but is already present above the class.
+Attribute class ClassAttributes\Baz does not have the class target.
+Attribute class ClassAttributes\FlagsAttributeWithPropertyTarget does not have the class target.
+Attribute class ClassAttributes\Nonexistent does not exist.
+Attribute class ClassConstantAttributes\Foo does not have the class constant target.
+Attribute class Deprecated cannot be used with class DeprecatedAttrOnClass\Foo.
+Attribute class Deprecated cannot be used with enum DeprecatedAttrOnClass\Baz.
+Attribute class Deprecated cannot be used with interface DeprecatedAttrOnClass\Bar.
+Attribute class EnumAttributes\AttributeWithPropertyTarget does not have the class target.
+Attribute class NonClassAttributeClass\Ipsum constructor must be public.
+Attribute class self does not exist.
+Backed enum EnumSanity\BackedEnumWithBoolType can have only "int" or "string" type.
+Backed enum EnumSanity\BackedEnumWithFloatType can have only "int" or "string" type.
+Call to internal method InternalConstructorDefinition\Foo::__construct() from outside its root namespace InternalConstructorDefinition.
+Call to method __construct() of internal class Bug12951Polyfill\NumberFormatter from outside its root namespace Bug12951Polyfill.
+Call-site variance of contravariant MixinRule\Foo in generic type MixinRule\Adipiscing<contravariant MixinRule\Foo> in PHPDoc tag @mixin is in conflict with covariant template type T of class MixinRule\Adipiscing.
+Call-site variance of covariant MixinRule\Foo in generic type MixinRule\Adipiscing<covariant MixinRule\Foo> in PHPDoc tag @mixin is redundant, template type T of class MixinRule\Adipiscing has the same variance.
+Cannot access constant FOO on int|string.
+Cannot access constant LOREM on mixed.
+Cannot access constant TEST on trait ClassConstantAccessedOnTrait\Foo.
+Cannot access constant class on stdClass|null.
+Cannot access constant class on string|null.
+Cannot create callable from the new operator.
+Cannot import type alias ImportedAliasFromNonClass: class LocalTypeAliases\int does not exist.
+Cannot import type alias ImportedAliasFromNonClass: class LocalTypeTraitAliases\int does not exist.
+Cannot import type alias ImportedAliasFromUnknownClass: class LocalTypeAliases\UnknownClass does not exist.
+Cannot import type alias ImportedAliasFromUnknownClass: class LocalTypeTraitAliases\UnknownClass does not exist.
+Cannot import type alias ImportedUnknownAlias: type alias does not exist in LocalTypeAliases\Foo.
+Cannot import type alias ImportedUnknownAlias: type alias does not exist in LocalTypeTraitAliases\Foo.
+Cannot import type alias Test: class LocalTypeAliasesEnums\NonexistentClass does not exist.
+Cannot instantiate class TestInstantiation\ClassExtendsProtectedConstructorClass via protected constructor TestInstantiation\ProtectedConstructorClass::__construct().
+Cannot instantiate class TestInstantiation\ExtendsPrivateConstructorClass via private constructor TestInstantiation\PrivateConstructorClass::__construct().
+Cannot instantiate class TestInstantiation\PrivateConstructorClass via private constructor TestInstantiation\PrivateConstructorClass::__construct().
+Cannot instantiate class TestInstantiation\ProtectedConstructorClass via protected constructor TestInstantiation\ProtectedConstructorClass::__construct().
+Cannot instantiate enum EnumInstantiation\Foo.
+Cannot instantiate interface Bug4471\Bar.
+Cannot instantiate interface TestInstantiation\IpsumInstantiation.
+Cannot instantiate trait Bug14251\InternalTrait.
+Cannot redeclare constant Bug14250\TraitWithDuplicateConstants::CONST1.
+Cannot redeclare constant Bug14250\TraitWithDuplicateConstants::CONST2.
+Cannot redeclare constant DuplicateDeclarations\Foo::CONST1.
+Cannot redeclare constant DuplicateDeclarations\Foo::CONST2.
+Cannot redeclare constant DuplicatedEnumCase\Hoo::BAR.
+Cannot redeclare enum case DuplicatedEnumCase\Boo::BAR.
+Cannot redeclare enum case DuplicatedEnumCase\Foo::BAR.
+Cannot redeclare method Bug14250\MyTrait::doSomething().
+Cannot redeclare method Bug14250\TraitWithDuplicateMethods::Func1().
+Cannot redeclare method Bug14250\TraitWithDuplicateMethods::func1().
+Cannot redeclare method DuplicateDeclarations\Foo::Func1().
+Cannot redeclare method DuplicateDeclarations\Foo::func1().
+Cannot redeclare property Bug14250PromotedProperties\TraitWithDuplicatePromotedProperties::$bar.
+Cannot redeclare property Bug14250PromotedProperties\TraitWithDuplicatePromotedProperties::$foo.
+Cannot redeclare property Bug14250\TraitWithDuplicateProperties::$prop1.
+Cannot redeclare property Bug14250\TraitWithDuplicateProperties::$prop2.
+Cannot redeclare property DuplicateDeclarations\Foo::$prop1.
+Cannot redeclare property DuplicateDeclarations\Foo::$prop2.
+Cannot redeclare property DuplicatedPromotedProperty\Foo::$bar.
+Cannot redeclare property DuplicatedPromotedProperty\Foo::$foo.
+Circular definition detected in type alias CircularTypeAlias1.
+Circular definition detected in type alias CircularTypeAlias2.
+Circular definition detected in type alias CircularTypeAliasImport1.
+Circular definition detected in type alias CircularTypeAliasImport2.
+Circular definition detected in type alias RecursiveTypeAlias.
+Class Bug8889\HelloWorld implements unknown interface iterable.
+Class Bug8889\HelloWorld2 implements unknown interface Iterable.
+Class ClassAttributes\Bar referenced with incorrect case: ClassAttributes\baR.
+Class ClassAttributes\Foo is not an Attribute class.
+Class ClassConstantNamespace\Bar not found.
+Class ClassConstantNamespace\Foo referenced with incorrect case: ClassConstantNamespace\FOO.
+Class ClassConstantVisibility\Foo referenced with incorrect case: ClassConstantVisibility\FOO.
+Class ClassExtendsEnum\Foo extends enum ClassExtendsEnum\FooEnum.
+Class ClassImplementsEnum\Foo implements enum ClassImplementsEnum\FooEnum.
+Class DatePeriod constructor invoked with 0 parameters, 1-4 required.
+Class DuplicateClassDeclaration\Foo declared multiple times:
+Class ExtendsError\Foo extends unknown class ExtendsError\Bar.
+Class ExtendsError\Ipsum extends trait ExtendsError\DolorTrait.
+Class ExtendsError\Lorem extends interface ExtendsError\BazInterface.
+Class ExtendsError\Sit extends final class ExtendsError\FinalFoo.
+Class ExtendsFinalByTag\Bar2 extends @final class ExtendsFinalByTag\Bar.
+Class ExtendsImplements\ExtendsFinalWithAnnotation extends @final class ExtendsImplements\FinalWithAnnotation.
+Class ExtendsImplements\Foo referenced with incorrect case: ExtendsImplements\FOO.
+Class ImplementsError\Foo implements unknown interface ImplementsError\Bar.
+Class ImplementsError\Ipsum implements trait ImplementsError\DolorTrait.
+Class ImplementsError\Lorem implements class ImplementsError\Foo.
+Class InstanceOfNamespaceRule\Bar not found.
+Class InstanceOfNamespaceRule\Foo referenced with incorrect case: InstanceOfNamespaceRule\FOO.
+Class LocalTypeAliases\Foo referenced with incorrect case: LocalTypeAliases\fOO.
+Class LocalTypeAliases\MissingTypehints has type alias NoCallable with no signature specified for callable.
+Class LocalTypeAliases\MissingTypehints has type alias NoGenerics with generic class LocalTypeAliases\Generic but does not specify its types: T
+Class LocalTypeAliases\MissingTypehints has type alias NoIterableValue with no value type specified in iterable type array.
+Class MethodTag\Foo has PHPDoc tag @method for method doMissingIterablueValue() return type with no value type specified in iterable type array.
+Class MethodTag\Foo referenced with incorrect case: MethodTag\fOO.
+Class MethodTag\MissingCallableSignature has PHPDoc tag @method for method doA() return type with no signature specified for callable.
+Class MethodTag\MissingIterableValue has PHPDoc tag @method for method doA() return type with no value type specified in iterable type array.
+Class MixinRule\Foo referenced with incorrect case: MixinRule\foo.
+Class MixinRule\NoCallableSignature has PHPDoc tag @mixin with no signature specified for callable.
+Class MixinRule\NoIterableValue has PHPDoc tag @mixin with no value type specified in iterable type array.
+Class OldStyleConstructorOnPhp8 does not have a constructor and must be instantiated without any parameters.
+Class PropertyTag\Foo referenced with incorrect case: PropertyTag\fOO.
+Class PropertyTag\MissingCallableSignature has PHPDoc tag @property for property $a with no signature specified for callable.
+Class PropertyTag\MissingIterableValue has PHPDoc tag @property for property $a with no value type specified in iterable type array.
+Class TestInstantiation\AbstractClassWithFinalConstructor constructor invoked with 1 parameter, 0 required.
+Class TestInstantiation\AbstractConstructor constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\BarInstantiation constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\BarInstantiation referenced with incorrect case: TestInstantiation\BARInstantiation.
+Class TestInstantiation\ClassExtendingAbstractConstructor constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\ClassExtendsProtectedConstructorClass constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\ClassWithFinalConstructor constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\ConstructorComingFromAnInterface constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\ExtendsPrivateConstructorClass constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\FinalClass does not have a constructor and must be instantiated without any parameters.
+Class TestInstantiation\FooInstantiation does not have a constructor and must be instantiated without any parameters.
+Class TestInstantiation\FooInstantiation referenced with incorrect case: TestInstantiation\FOOInstantiation.
+Class TestInstantiation\InstantiatingClass constructor invoked with 0 parameters, 1 required.
+Class TestInstantiation\NoConstructor referenced with incorrect case: TestInstantiation\NOCONSTRUCTOR.
+Class TraitUseEnum\Foo uses enum TraitUseEnum\FooEnum.
+Class TraitUseError\Foo uses unknown trait TraitUseError\FooTrait.
+Class UnknownClass\Bar not found.
+Class UnknownClass\Foo not found.
+Class class@anonymous/tests/PHPStan/Rules/Classes/data/instantiation.php:137 constructor invoked with 3 parameters, 1 required.
+Class constant name for ClassConstantDynamicAccess\Foo must be a string, but object was given.
+Class constant name for ClassConstantDynamicStringableAccess\Bar must be a string, but mixed was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but 1111 was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but DateTime|string was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but Stringable was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but Stringable|null was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but int was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but int|null was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but mixed was given.
+Class constant name for ClassConstantDynamicStringableAccess\Foo must be a string, but string|null was given.
+Class constant name for DateTime|DateTimeImmutable must be a string, but mixed was given.
+Class constant name for object must be a string, but mixed was given.
+Class finfo constructor invoked with 3 parameters, 0-2 required.
+Constant IntlDateFormatter::GREGORIAN is not allowed for parameter #2 $dateType of class IntlDateFormatter constructor.
+Constant RecursiveIteratorIterator::CHILD_FIRST is not allowed for parameter #3 $flags of class RecursiveIteratorIterator constructor.
+Constant SORT_REGULAR is not allowed for parameter #1 $flags of class finfo constructor.
+Constructor of attribute class ClassAttributes\NonPublicConstructor is not public.
+Constructor of class UnusedConstructorParameters\Foo has an unused parameter $anotherUnusedParameter.
+Constructor of class UnusedConstructorParameters\Foo has an unused parameter $unusedParameter.
+Enum Bug11592\BackedTest2 cannot redeclare native method cases().
+Enum Bug11592\BackedTest2 cannot redeclare native method from().
+Enum Bug11592\BackedTest2 cannot redeclare native method tryFrom().
+Enum Bug11592\Test2 cannot redeclare native method cases().
+Enum Bug11891\test has duplicate value 42 for cases A, B.
+Enum Bug13768\Backed has duplicate value 1 for cases One, Two.
+Enum Bug13768\Order is not backed, but case A has value 1.5.
+Enum Bug13768\Order is not backed, but case B has value 2.5.
+Enum Bug13768\Order is not backed, but case C has value 3.
+Enum Bug13768\Order is not backed, but case D has value '3'.
+Enum Bug13768\Order is not backed, but case E has value false.
+Enum Bug13768\Order is not backed, but case F has value 1.
+Enum EnumAttributes\EnumAsAttribute is not an Attribute class.
+Enum EnumImplements\Foo3 implements class EnumImplements\FooClass.
+Enum EnumImplements\Foo4 implements trait EnumImplements\FooTrait.
+Enum EnumImplements\Foo5 implements enum EnumImplements\FooEnum.
+Enum EnumImplements\Foo6 implements unknown interface EnumImplements\NonexistentInterface.
+Enum EnumImplements\Foo7 implements enum EnumImplements\FooEnum.
+Enum EnumImplements\FooEnum referenced with incorrect case: EnumImplements\FOOEnum.
+Enum EnumSanity\BackedEnumCannotRedeclareMethods cannot redeclare native method cases().
+Enum EnumSanity\BackedEnumCannotRedeclareMethods cannot redeclare native method from().
+Enum EnumSanity\BackedEnumCannotRedeclareMethods cannot redeclare native method tryFrom().
+Enum EnumSanity\EnumDuplicateValue has duplicate value 1 for cases A, E.
+Enum EnumSanity\EnumDuplicateValue has duplicate value 2 for cases B, C.
+Enum EnumSanity\EnumMayNotSerializable cannot implement the Serializable interface.
+Enum EnumSanity\EnumWithConstructorAndDestructor contains constructor.
+Enum EnumSanity\EnumWithConstructorAndDestructor contains destructor.
+Enum EnumSanity\EnumWithMagicMethods contains magic method __get().
+Enum EnumSanity\EnumWithMagicMethods contains magic method __set().
+Enum EnumSanity\EnumWithSerialize contains magic method __serialize().
+Enum EnumSanity\EnumWithSerialize contains magic method __unserialize().
+Enum EnumSanity\EnumWithValueButNotBacked is not backed, but case FOO has value 1.
+Enum EnumSanity\PureEnumCannotRedeclareMethods cannot redeclare native method cases().
+Enum cannot be an Attribute class.
+Enum case Bug9402\Foo::Two value 'foo' does not match the "int" type.
+Enum case EnumSanity\EnumInconsistentCaseType::BAR does not have a value but the enum is backed with the "int" type.
+Enum case EnumSanity\EnumInconsistentCaseType::FOO value 'foo' does not match the "int" type.
+Enum case EnumSanity\EnumInconsistentStringCaseType::BAR does not have a value but the enum is backed with the "string" type.
+Final promoted properties are supported only on PHP 8.5 and later.
+Generic type MethodTag\Generic<int, string, float> in PHPDoc tag @method for method MethodTag\TestGenerics::doC() return type specifies 3 template types, but class MethodTag\Generic supports only 2: T, U
+Generic type MethodTag\Generic<int> in PHPDoc tag @method for method MethodTag\TestGenerics::doB() return type does not specify all template types of class MethodTag\Generic: T, U
+Generic type MixinRule\Consecteur<MixinRule\Foo> in PHPDoc tag @mixin does not specify all template types of class MixinRule\Consecteur: T, U
+Generic type PropertyTag\Generic<int, string, float> in PHPDoc tag @property for property PropertyTag\TestGenerics::$c specifies 3 template types, but class PropertyTag\Generic supports only 2: T, U
+Generic type PropertyTag\Generic<int> in PHPDoc tag @property for property PropertyTag\TestGenerics::$b does not specify all template types of class PropertyTag\Generic: T, U
+Generic type Traversable<int, int, int> in PHPDoc tag @mixin specifies 3 template types, but interface Traversable supports only 2: TKey, TValue
+Imported type alias ExportedTypeAlias has an invalid name: int.
+Instanceof between *NEVER* and ImpossibleInstanceOf\Bar will always evaluate to false.
+Instanceof between *NEVER* and ImpossibleInstanceOf\Foo will always evaluate to false.
+Instanceof between *NEVER* and ImpossibleInstanceOf\Lorem will always evaluate to false.
+Instanceof between Bug13469\Foo and Stringable will always evaluate to true.
+Instanceof between Bug3632\NiceClass and Bug3632\NiceClass will always evaluate to true.
+Instanceof between Bug8042\B and Bug8042\B will always evaluate to true.
+Instanceof between DateTime and DateTime will always evaluate to true.
+Instanceof between DateTimeImmutable and DateTime will always evaluate to false.
+Instanceof between DateTimeImmutable and DateTimeImmutable will always evaluate to true.
+Instanceof between DateTimeImmutable and DateTimeInterface will always evaluate to true.
+Instanceof between DateTimeImmutable and ImpossibleInstanceofNotPhpDoc\SomeFinalClass will always evaluate to false.
+Instanceof between DateTimeInterface and 'DateTimeInterface' will always evaluate to true.
+Instanceof between DateTimeInterface and DateTimeInterface will always evaluate to true.
+Instanceof between DateTimeInterface and ImpossibleInstanceofNotPhpDoc\SomeFinalClass will always evaluate to false.
+Instanceof between Exception and Exception will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Bar and ImpossibleInstanceOf\BarChild will always evaluate to false.
+Instanceof between ImpossibleInstanceOf\Bar and ImpossibleInstanceOf\BarGrandChild will always evaluate to false.
+Instanceof between ImpossibleInstanceOf\Bar&ImpossibleInstanceOf\Foo and ImpossibleInstanceOf\Bar will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Bar&ImpossibleInstanceOf\Foo and ImpossibleInstanceOf\Foo will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\BarChild and ImpossibleInstanceOf\Bar will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Dolor and ImpossibleInstanceOf\Dolor will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Dolor and ImpossibleInstanceOf\Lorem will always evaluate to false.
+Instanceof between ImpossibleInstanceOf\Foo and ImpossibleInstanceOf\Foo will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\FooImpl and ImpossibleInstanceOf\Foo will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Ipsum and ImpossibleInstanceOf\Ipsum will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Ipsum and ImpossibleInstanceOf\Lorem will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Lorem and ImpossibleInstanceOf\Lorem will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Test and ImpossibleInstanceOf\Test will always evaluate to true.
+Instanceof between ImpossibleInstanceOf\Test|null and ImpossibleInstanceOf\Lorem will always evaluate to false.
+Instanceof between ImpossibleInstanceofInTrait\Cat and stdClass will always evaluate to false.
+Instanceof between ImpossibleInstanceofInTrait\Dog and stdClass will always evaluate to false.
+Instanceof between ImpossibleInstanceofNewIsAlwaysFinal\Bar and ImpossibleInstanceofNewIsAlwaysFinal\Foo will always evaluate to false.
+Instanceof between ImpossibleInstanceofNewIsAlwaysFinal\Bar|null and ImpossibleInstanceofNewIsAlwaysFinal\Baz will always evaluate to false.
+Instanceof between ImpossibleInstanceofNewIsAlwaysFinal\Bar|null and ImpossibleInstanceofNewIsAlwaysFinal\Foo will always evaluate to false.
+Instanceof between PossiblyImpureInstanceofTip\Cat and PossiblyImpureInstanceofTip\Cat will always evaluate to true.
+Instanceof between UnreachableIfBranchesNotPhpDoc\Foo and UnreachableIfBranchesNotPhpDoc\Foo will always evaluate to true.
+Instanceof between UnreachableTernaryElseBranchNotPhpDoc\Foo and UnreachableTernaryElseBranchNotPhpDoc\Foo will always evaluate to true.
+Instanceof between callable and ImpossibleInstanceOf\FinalClassWithoutInvoke will always evaluate to false.
+Instanceof between class-string<DateTimeInterface> and 'DateTimeInterface' will always evaluate to false.
+Instanceof between class-string<DateTimeInterface> and DateTimeInterface will always evaluate to false.
+Instanceof between class-string<DateTimeInterface> and class-string<DateTimeInterface> will always evaluate to false.
+Instanceof between mixed and ImpossibleInstanceOf\InvalidTypeTest|int results in an error.
+Instanceof between mixed and int results in an error.
+Instanceof between mixed and trait Bug7720\FooBar will always evaluate to false.
+Instanceof between null and Bug3632\NiceClass will always evaluate to false.
+Instanceof between object and Exception will always evaluate to false.
+Instanceof between object and InvalidArgumentException will always evaluate to false.
+Instanceof between stdClass and Exception will always evaluate to false.
+Instanceof between stdClass and array results in an error.
+Instanceof between stdClass and stdClass will always evaluate to true.
+Instanceof between stdClass and string|null results in an error.
+Instanceof between string and 'str' will always evaluate to false.
+Instanceof between string and Bug10201\Hello will always evaluate to false.
+Instanceof between string and ImpossibleInstanceOf\Foo will always evaluate to false.
+Instantiated class Bug4471\Baz not found.
+Instantiated class Bug4471\Foo is abstract.
+Instantiated class Test not found.
+Instantiated class TestInstantiation\FooBarInstantiation not found.
+Instantiated class TestInstantiation\LoremInstantiation is abstract.
+Instantiated class UndefinedClass1 not found.
+Instantiated class UndefinedClass2 not found.
+Instantiated class UndefinedClass3 not found.
+Instantiation of internal class Bug12951Polyfill\NumberFormatter.
+Interface Bug10302ExtendedInterface\BatchAware requires implementing class to extend Bug10302ExtendedInterface\Model, but Bug10302ExtendedInterface\AnotherModel does not.
+Interface ClassAttributes\InterfaceAsAttribute is not an Attribute class.
+Interface EnumImplements\FooInterface referenced with incorrect case: EnumImplements\FOOInterface.
+Interface ExtendsImplements\FooInterface referenced with incorrect case: ExtendsImplements\FOOInterface.
+Interface IncompatibleRequireExtends\RequireNonExisstentUnionClassinterface requires implementing class to extend IncompatibleRequireExtends\NonExistentClass|IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\RequireNonExisstentUnionClassinterface@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-extends.php:185 does not.
+Interface IncompatibleRequireExtends\RequireNonExisstentUnionClassinterface requires implementing class to extend IncompatibleRequireExtends\NonExistentClass|IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\SomeClass@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-extends.php:187 does not.
+Interface IncompatibleRequireExtends\ValidInterface requires implementing class to extend IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\InvalidInterfaceUse does not.
+Interface IncompatibleRequireExtends\ValidInterface requires implementing class to extend IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\InvalidInterfaceUse2 does not.
+Interface InterfaceExtendsEnum\Foo extends enum InterfaceExtendsEnum\FooEnum.
+Interface InterfaceExtendsError\Foo extends unknown interface InterfaceExtendsError\Bar.
+Interface InterfaceExtendsError\Ipsum extends trait InterfaceExtendsError\DolorTrait.
+Interface InterfaceExtendsError\Lorem extends class InterfaceExtendsError\BazClass.
+Interface TraitUseError\Baz uses trait TraitUseError\BarTrait.
+Interface cannot be an Attribute class.
+Invalid type definition detected in type alias InvalidTypeAlias.
+Missing parameter $end (int|TEnd of DateTimeInterface) in call to DatePeriod constructor.
+Missing parameter $j (int) in call to InstantiationNamedArguments\Foo constructor.
+Missing parameter $start (string) in call to DatePeriod constructor.
+Non-readonly class ExtendsReadOnlyClass\Bar extends readonly class ExtendsReadOnlyClass\ReadonlyClass.
+PHPDoc tag @method for method MethodTagTraitEnum\Foo::doFoo() return type contains unknown class MethodTagTraitEnum\intt.
+PHPDoc tag @method for method MethodTagTrait\Foo::doBar() parameter #1 $a contains unresolvable type.
+PHPDoc tag @method for method MethodTagTrait\Foo::doBaz2() parameter #1 $a default value contains unresolvable type.
+PHPDoc tag @method for method MethodTagTrait\Foo::doFoo() return type contains unknown class MethodTagTrait\intt.
+PHPDoc tag @method for method MethodTag\Foo::doBar() parameter #1 $a contains unresolvable type.
+PHPDoc tag @method for method MethodTag\Foo::doBaz2() parameter #1 $a default value contains unresolvable type.
+PHPDoc tag @method for method MethodTag\Foo::doFoo() return type contains unknown class MethodTag\intt.
+PHPDoc tag @method for method MethodTag\MissingGenerics::doA() return type contains generic class MethodTag\Generic but does not specify its types: T, U
+PHPDoc tag @method for method MethodTag\NonexistentClasses::doA() return type contains unknown class MethodTag\Nonexistent.
+PHPDoc tag @method for method MethodTag\NonexistentClasses::doB() return type contains invalid type PropertyTagTrait\Foo.
+PHPDoc tag @method for method MethodTag\TestGenerics::doA() return type contains generic type Exception<int> but class Exception is not generic.
+PHPDoc tag @mixin contains generic class ReflectionClass but does not specify its types: T
+PHPDoc tag @mixin contains generic interface Iterator but does not specify its types: TKey, TValue
+PHPDoc tag @mixin contains generic type Exception<MixinRule\Foo> but class Exception is not generic.
+PHPDoc tag @mixin contains invalid type MixinRule\FooTrait.
+PHPDoc tag @mixin contains non-object type int.
+PHPDoc tag @mixin contains unknown class MixinRule\U.
+PHPDoc tag @mixin contains unknown class MixinRule\UnknownestClass.
+PHPDoc tag @mixin contains unresolvable type.
+PHPDoc tag @property for property PropertyTagTrait\Foo::$foo contains unknown class PropertyTagTrait\intt.
+PHPDoc tag @property for property PropertyTag\Bar::$unresolvable contains unresolvable type.
+PHPDoc tag @property for property PropertyTag\Foo::$a contains unknown class PropertyTag\intt.
+PHPDoc tag @property for property PropertyTag\Foo::$b contains unknown class PropertyTag\intt.
+PHPDoc tag @property for property PropertyTag\Foo::$c contains unknown class PropertyTag\intt.
+PHPDoc tag @property for property PropertyTag\Foo::$c contains unknown class PropertyTag\stringg.
+PHPDoc tag @property for property PropertyTag\Foo::$d contains unknown class PropertyTag\intt.
+PHPDoc tag @property for property PropertyTag\Foo::$e contains unknown class PropertyTag\intt.
+PHPDoc tag @property for property PropertyTag\Foo::$e contains unknown class PropertyTag\stringg.
+PHPDoc tag @property for property PropertyTag\MissingGenerics::$a contains generic class PropertyTag\Generic but does not specify its types: T, U
+PHPDoc tag @property for property PropertyTag\NonexistentClasses::$a contains unknown class PropertyTag\Nonexistent.
+PHPDoc tag @property for property PropertyTag\NonexistentClasses::$b contains invalid type PropertyTagTrait\Foo.
+PHPDoc tag @property for property PropertyTag\TestGenerics::$a contains generic type Exception<int> but class Exception is not generic.
+PHPDoc tag @property-read for property PropertyTag\Foo::$f contains unknown class PropertyTag\intt.
+PHPDoc tag @property-write for property PropertyTag\Foo::$g contains unknown class PropertyTag\stringg.
+Parameter #1 $bar of class Bug3311a\Foo constructor expects list<string>, array{1: 'baz'} given.
+Parameter #1 $data of class Bug14138\Foo constructor expects array{foo: int, bar: int}, array{foo: 1} given.
+Parameter #1 $i of class ClassString\A constructor expects int, string given.
+Parameter #1 $i of class ClassString\C constructor expects int, string given.
+Parameter #1 $i of class InstantiationNewStaticConsistentConstructor\Foo constructor expects int, string given.
+Parameter #1 $intProp of class InstantiationPromotedProperties\PromotedPropertyNotNullable constructor expects int, null given.
+Parameter #1 $iterator of class RecursiveIteratorIterator constructor expects T of IteratorAggregate|RecursiveIterator, Generator<int, int, mixed, void> given.
+Parameter #1 $message of class Exception constructor expects string, int given.
+Parameter #1 $name of attribute class Bug12011\Table constructor expects string|null, int given.
+Parameter #1 $something of class Bug6370\A constructor expects string, int given.
+Parameter #1 $value of class InstantiationNewStaticConsistentConstructor\ChildClass3 constructor expects string, int given.
+Parameter #2 $bar of class InstantiationPromotedProperties\Bar constructor expects array<string>, array<int, int> given.
+Parameter #2 $bar of class InstantiationPromotedProperties\Foo constructor expects array<string>, array<int, int> given.
+Parameter #2 $code of class Exception constructor expects int, string given.
+Parameter #2 $string of class SoapFault constructor expects string, int given.
+Parameter #3 $end of class DatePeriod constructor expects int|TEnd of DateTimeInterface, string given.
+Parameter #3 $flags of class RecursiveIteratorIterator constructor expects 0|16, 2 given.
+Parameter $end of class DatePeriod constructor expects int|TEnd of DateTimeInterface, string given.
+Parameter $repositoryClass of attribute class Bug7171\Entity constructor expects class-string<Bug7171\EntityRepository<T of object>>|null, 'stdClass' given.
+Promoted properties are not allowed in abstract constructors.
+Promoted properties are supported only on PHP 8.0 and later.
+Promoted properties can be in constructor only.
+Promoted property parameter $i can not be variadic.
+Readonly class ExtendsReadOnlyClass\Foo extends non-readonly class ExtendsReadOnlyClass\Nonreadonly.
+Referencing prefixed Box class: _HumbugBox02f3b3909847\AClass.
+Referencing prefixed Doctrine class: App\GeneratedProxy\__CG__\App\TestDoctrineEntity.
+Referencing prefixed PHP-Scoper class: _PhpScoper19ae93be897e\AClass.
+Referencing prefixed PHPStan class: _PHPStan_156ee64ba\AClass.
+Referencing prefixed PHPStan class: _PHPStan_15755dag8c\TestPhpStanEntity.
+Referencing prefixed PHPUnit class: PHPUnitPHAR\SebastianBergmann\Diff\Exception.
+Referencing prefixed Rector class: RectorPrefix202302\AClass.
+TestInstantiation\InstantiatingClass::doFoo() calls new parent but TestInstantiation\InstantiatingClass does not extend any class.
+Trait Bug10302ExtendedImplementsTrait\Foo requires using class to implement Bug10302ExtendedImplementsTrait\Interface1, but Bug10302ExtendedImplementsTrait\Baz does not.
+Trait Bug10302ExtendedTrait\Foo requires using class to extend Bug10302ExtendedTrait\Father, but Bug10302ExtendedTrait\Baz does not.
+Trait ClassAttributes\TraitAsAttribute is not an Attribute class.
+Trait IncompatibleRequireExtends\InvalidTrait requires using class to extend IncompatibleRequireExtends\SomeFinalClass, but IncompatibleRequireExtends\InvalidClass2 does not.
+Trait IncompatibleRequireExtends\RequireNonExisstentUnionClassTrait requires using class to extend IncompatibleRequireExtends\NonExistentClass|IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\SomeClass@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-extends.php:198 does not.
+Trait IncompatibleRequireExtends\RequireNonExisstentUnionClassTrait requires using class to extend IncompatibleRequireExtends\NonExistentClass|IncompatibleRequireExtends\SomeClass, but class@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-extends.php:194 does not.
+Trait IncompatibleRequireExtends\ValidPsalmTrait requires using class to extend IncompatibleRequireExtends\SomeClass, but class@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-extends.php:163 does not.
+Trait IncompatibleRequireExtends\ValidTrait requires using class to extend IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\InValidTraitUse does not.
+Trait IncompatibleRequireExtends\ValidTrait requires using class to extend IncompatibleRequireExtends\SomeClass, but IncompatibleRequireExtends\InValidTraitUse2 does not.
+Trait IncompatibleRequireExtends\ValidTrait requires using class to extend IncompatibleRequireExtends\SomeClass, but class@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-extends.php:146 does not.
+Trait IncompatibleRequireImplements\InvalidTrait1 requires using class to implement IncompatibleRequireImplements\SomeTrait, but IncompatibleRequireImplements\InvalidTraitUse1 does not.
+Trait IncompatibleRequireImplements\InvalidTrait2 requires using class to implement IncompatibleRequireImplements\SomeEnum, but IncompatibleRequireImplements\InvalidTraitUse2 does not.
+Trait IncompatibleRequireImplements\InvalidTrait3 requires using class to implement IncompatibleRequireImplements\TypeDoesNotExist, but IncompatibleRequireImplements\InvalidTraitUse3 does not.
+Trait IncompatibleRequireImplements\InvalidTrait4 requires using class to implement IncompatibleRequireImplements\SomeClass<T>, but IncompatibleRequireImplements\InvalidTraitUse4 does not.
+Trait IncompatibleRequireImplements\ValidPsalmTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface, but class@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-implements.php:168 does not.
+Trait IncompatibleRequireImplements\ValidPsalmTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface2, but IncompatibleRequireImplements\RequiredInterface@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-implements.php:164 does not.
+Trait IncompatibleRequireImplements\ValidPsalmTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface2, but class@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-implements.php:168 does not.
+Trait IncompatibleRequireImplements\ValidTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface, but IncompatibleRequireImplements\InValidTraitUse does not.
+Trait IncompatibleRequireImplements\ValidTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface, but IncompatibleRequireImplements\InValidTraitUse2 does not.
+Trait IncompatibleRequireImplements\ValidTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface, but IncompatibleRequireImplements\InvalidEnumTraitUse does not.
+Trait IncompatibleRequireImplements\ValidTrait requires using class to implement IncompatibleRequireImplements\RequiredInterface, but class@anonymous/tests/PHPStan/Rules/PhpDoc/data/incompatible-require-implements.php:117 does not.
+Trait LocalTypeTraitAliases\MissingType has type alias NoIterablueValue with no value type specified in iterable type array.
+Trait MethodTagTrait\Foo has PHPDoc tag @method for method doMissingIterablueValue() return type with no value type specified in iterable type array.
+Trait MixinTrait\FooTrait has PHPDoc tag @mixin with no value type specified in iterable type array.
+Trait PropertyTagTrait\Foo has PHPDoc tag @property for property $bar with no value type specified in iterable type array.
+Trait TraitUseCase\FooTrait referenced with incorrect case: TraitUseCase\FOOTrait.
+Trait cannot be an Attribute class.
+Type AllowedSubTypes\Baz is not allowed to be a subtype of AllowedSubTypes\Foo.
+Type Sealed\BazClass is not allowed to be a subtype of Sealed\BaseClass.
+Type Sealed\BazClass2 is not allowed to be a subtype of Sealed\BaseInterface.
+Type Sealed\BazInterface is not allowed to be a subtype of Sealed\BaseInterface2.
+Type alias A contains generic type Exception<int> but class Exception is not generic.
+Type alias A contains unknown class LocalTypeAliases\Nonexistent.
+Type alias A contains unknown class LocalTypeTraitUseAliases\Nonexistent.
+Type alias A contains unresolvable type.
+Type alias B contains invalid type LocalTypeTraitAliases\Foo.
+Type alias B contains invalid type LocalTypeTraitUseAliases\SomeTrait.
+Type alias C contains unresolvable type.
+Type alias D contains generic type Exception<int> but class Exception is not generic.
+Type alias ExistingClassAlias already exists as a class in scope of LocalTypeAliases\Bar.
+Type alias ExistingClassAlias already exists as a class in scope of LocalTypeAliases\Baz.
+Type alias ExistingClassAlias already exists as a class in scope of LocalTypeTraitAliases\Bar.
+Type alias ExistingClassAlias already exists as a class in scope of LocalTypeTraitAliases\Baz.
+Type alias GlobalTypeAlias already exists as a global type alias.
+Type alias OverwrittenTypeAlias overwrites an imported type alias of the same name.
+Type alias has an invalid name: int.
+Type string in generic type MethodTag\Generic<string, string> in PHPDoc tag @method for method MethodTag\TestGenerics::doD() return type is not subtype of template type T of int of class MethodTag\Generic.
+Type string in generic type PropertyTag\Generic<string, string> in PHPDoc tag @property for property PropertyTag\TestGenerics::$d is not subtype of template type T of int of class PropertyTag\Generic.
+Type string in generic type ReflectionClass<string> in PHPDoc tag @mixin is not subtype of template type T of object of class ReflectionClass.
+Unknown parameter $isostr in call to DatePeriod constructor.
+Unknown parameter $r in call to ClassAttributes\AttributeWithConstructor constructor.
+Unknown parameter $recurrences in call to DatePeriod constructor.
+Unknown parameter $z in call to InstantiationNamedArguments\Foo constructor.
+Unsafe access to private constant AccessPrivateConstantThroughStatic\Foo::FOO through static::.
+Unsafe usage of new static() in abstract class NewStaticInAbstractClassStaticMethod\Bar in static method staticDoFoo().
+Unsafe usage of new static().
+Using parent outside of class scope.
+Using self outside of class scope.
+Using static outside of class scope.

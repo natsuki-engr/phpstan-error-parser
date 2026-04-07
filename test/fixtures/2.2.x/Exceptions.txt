@@ -1,0 +1,73 @@
+Caught class FooCatchException not found.
+Caught class TestCatch\FooCatch is not an exception.
+Class TestCatch\MyCatchException referenced with incorrect case: TestCatch\MyCatchEXCEPTION.
+Dead catch - ArgumentCountError is never thrown in the try block.
+Dead catch - ArithmeticError is never thrown in the try block.
+Dead catch - DivisionByZeroError is never thrown in the try block.
+Dead catch - DomainException is never thrown in the try block.
+Dead catch - Error is never thrown in the try block.
+Dead catch - Exception is never thrown in the try block.
+Dead catch - InvalidArgumentException is already caught above.
+Dead catch - InvalidArgumentException is never thrown in the try block.
+Dead catch - JsonException is never thrown in the try block.
+Dead catch - LogicException is never thrown in the try block.
+Dead catch - OutOfBoundsException is never thrown in the try block.
+Dead catch - OverflowException is never thrown in the try block.
+Dead catch - RuntimeException is never thrown in the try block.
+Dead catch - Throwable is never thrown in the try block.
+Dead catch - TypeError is already caught above.
+Dead catch - TypeError is never thrown in the try block.
+Dead catch - UnhandledMatchError is never thrown in the try block.
+Function MissingExceptionFunctionThrows\doBar2() throws checked exception LogicException but it's missing from the PHPDoc @throws tag.
+Function MissingExceptionFunctionThrows\doBar3() throws checked exception LogicException but it's missing from the PHPDoc @throws tag.
+Function MissingExceptionFunctionThrows\doBaz() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.
+Function MissingExceptionFunctionThrows\doLorem() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.
+Function MissingExceptionFunctionThrows\doLorem2() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.
+Function ThrowsVoidFunction\foo() throws exception ThrowsVoidFunction\MyException but the PHPDoc contains @throws void.
+Function TooWideThrowsFunction\doFoo3() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.
+Function TooWideThrowsFunction\doFoo4() has DomainException in PHPDoc @throws tag but it's not thrown.
+Function TooWideThrowsFunction\doFoo7() has DomainException in PHPDoc @throws tag but it's not thrown.
+Function TooWideThrowsFunction\doFoo8() has DomainException in PHPDoc @throws tag but it's not thrown.
+Function TooWideThrowsFunction\doFoo9() has DomainException in PHPDoc @throws tag but it's not thrown.
+Invalid type Exception|null to throw.
+Invalid type ThrowExprValues\InvalidException to throw.
+Invalid type ThrowExprValues\InvalidInterfaceException to throw.
+Invalid type int to throw.
+Method Bug13642\HelloWorld::sayHello2() throws exception ValueError but the PHPDoc contains @throws void.
+Method Bug13792\Foo::dynamicName() throws checked exception DOMException but it's missing from the PHPDoc @throws tag.
+Method Bug13792\Foo::invalidConstantName() throws checked exception DOMException but it's missing from the PHPDoc @throws tag.
+Method Bug13792\Foo::unions() throws checked exception DOMException but it's missing from the PHPDoc @throws tag.
+Method BugArrayOffset\Foo2::__construct() throws checked exception BugArrayOffset\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.
+Method BugArrayOffset\Foo3::__construct() throws checked exception BugArrayOffset\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.
+Method BugArrayOffset\Foo4::__construct() throws checked exception BugArrayOffset\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.
+Method BugArrayOffset\Foo::__construct() throws checked exception BugArrayOffset\ParameterNotFoundException but it's missing from the PHPDoc @throws tag.
+Method ImmediatelyCalledArrowFunction\ImmediatelyCalledCallback::doFoo2() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.
+Method MethodThrowTypeCovariance\Baz::noThrowType() should not throw Exception because parent method MethodThrowTypeCovariance\Foo::noThrowType() does not have PHPDoc tag @throws.
+Method MethodThrowTypeCovariance\VoidInChild3::throwVoid() should not throw RuntimeException because parent method MethodThrowTypeCovariance\VoidInParent::throwVoid() has PHPDoc tag @throws void.
+Method MissingExceptionMethodThrows\Foo::dateIntervalDoesThrows() throws checked exception DateMalformedIntervalStringException but it's missing from the PHPDoc @throws tag.
+Method MissingExceptionMethodThrows\Foo::dateTimeModifyDoesThrows() throws checked exception DateMalformedStringException but it's missing from the PHPDoc @throws tag.
+Method MissingExceptionMethodThrows\Foo::dateTimeZoneDoesThrows() throws checked exception DateInvalidTimeZoneException but it's missing from the PHPDoc @throws tag.
+Method MissingExceptionMethodThrows\Foo::doBaz() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.
+Method MissingExceptionMethodThrows\Foo::doLorem() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.
+Method MissingExceptionMethodThrows\Foo::doLorem2() throws checked exception InvalidArgumentException but it's missing from the PHPDoc @throws tag.
+Method ThrowsVoidMethod\Foo::doFoo() throws exception ThrowsVoidMethod\MyException but the PHPDoc contains @throws void.
+Method TooWideImplicitThrows\Bar::doFoo() has LogicException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowTypeAlwaysCheckFinal\Baz::doBar() has RuntimeException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowTypeAlwaysCheckFinal\Baz::doFoo() has RuntimeException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowTypeAlwaysCheckFinal\Foo::doFoo() has RuntimeException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsExplicit\Foo::doFoo() has Exception in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\ChildClass::doFoo() has LogicException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\Foo::doFoo3() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\Foo::doFoo4() has DomainException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\Foo::doFoo7() has DomainException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\Foo::doFoo8() has DomainException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\Foo::doFoo9() has DomainException in PHPDoc @throws tag but it's not thrown.
+Method TooWideThrowsMethod\ImmediatelyCalledCallback::doFoo2() has InvalidArgumentException in PHPDoc @throws tag but it's not thrown.
+PHPDoc tag @throws type RuntimeException of method MethodThrowTypeCovariance\Baz::logicException() should be covariant with PHPDoc @throws type LogicException of method MethodThrowTypeCovariance\Foo::logicException().
+Referencing prefixed PHPStan class: _PHPStan_156ee64ba\PrefixedRuntimeException.
+The overwriting return is on this line.
+This exit point is overwritten by a different one in the finally block below.
+This return is overwritten by a different one in the finally block below.
+This throw is overwritten by a different one in the finally block below.
+Throw expression is supported only on PHP 8.0 and later.
+Throwing object of an unknown class ThrowExprValues\NonexistentClass.

@@ -1,0 +1,6 @@
+Access to static property $prop of internal class Bug12951Polyfill\NumberFormatter from outside its root namespace Bug12951Polyfill.
+Call to static method doBar() of internal class Bug12951Polyfill\NumberFormatter from outside its root namespace Bug12951Polyfill.
+Cannot access $foo
+Cannot access FOO
+Cannot call __toString
+Cannot call doFoo

@@ -1,0 +1,10 @@
+Call to preg_quote() is missing delimiter & to be effective.
+Call to preg_quote() is missing delimiter parameter to be effective.
+Call to preg_quote() uses invalid delimiter / while pattern uses &.
+Regex pattern is invalid: Compilation failed: missing closing parenthesis at offset 1 in pattern: ~(~
+Regex pattern is invalid: Compilation failed: missing closing parenthesis at offset 7 in pattern: ~((?:.*)~
+Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok
+Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok(?:.*)
+Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok(?:.*)nono
+Regex pattern is invalid: Delimiter must not be alphanumeric, backslash, or NUL in pattern: nok(?:.*)nope
+Regex pattern is invalid: Unknown modifier 'y' in pattern: /(foo)(bar)(baz)/xyz

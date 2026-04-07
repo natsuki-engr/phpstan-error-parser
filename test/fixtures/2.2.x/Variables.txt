@@ -1,0 +1,218 @@
+Assign to $item overwrites the last element from array.
+Call to function compact() contains possibly undefined variable $baz.
+Call to function compact() contains undefined variable $bar.
+Call to function compact() contains undefined variable $foo.
+Call to function unset() contains undefined variable $notSetVariable.
+Cannot clone int|string.
+Cannot clone non-object variable $bar of type string|VariableCloning\Foo.
+Cannot clone non-object variable $baz of type VariableCloning\Bar|VariableCloning\Foo|null.
+Cannot clone non-object variable $stringData of type string.
+Cannot clone stdClass|null.
+Cannot clone string.
+Cannot re-assign $this.
+Cannot unset @readonly Bug12421\PhpdocImmutableClass::$y property.
+Cannot unset @readonly Bug12421\PhpdocReadonlyClass::$y property.
+Cannot unset @readonly Bug12421\PhpdocReadonlyProperty::$y property.
+Cannot unset offset 'a' on 3.
+Cannot unset offset 'b' on 1.
+Cannot unset offset 'c' on 1.
+Cannot unset offset 'limit' on array{categoryKeys: array<string>, tagNames: array<string>}.
+Cannot unset offset 'page' on array{categoryKeys: array<string>, tagNames: array<string>}.
+Cannot unset offset 'string' on iterable<int, int>.
+Cannot unset readonly Bug12421\NativeReadonlyClass::$y property.
+Cannot unset readonly Bug12421\NativeReadonlyProperty::$y property.
+Cannot use $this as global variable.
+Cannot use $this as static variable.
+Cloning object of an unknown class VariableCloning\Bar.
+Dumped: 1|null
+Expression in empty() is not falsy.
+Expression in isset() is not nullable.
+Expression on left side of ?? is always null.
+Expression on left side of ?? is not nullable.
+Offset 'b' on array{} in isset() does not exist.
+Offset 'b' on array{} on left side of ?? does not exist.
+Offset 'b' on array{} on left side of ??= does not exist.
+Offset 'bar' on array{bar: 1} in isset() always exists and is not nullable.
+Offset 'dim' on array{dim: 1, dim-null: 1|null, dim-null-offset: array{a: true|null}, dim-empty: array{}} in isset() always exists and is not nullable.
+Offset 'dim' on array{dim: 1, dim-null: 1|null, dim-null-offset: array{a: true|null}, dim-empty: array{}} on left side of ?? always exists and is not nullable.
+Offset 'dim' on array{dim: 1, dim-null: 1|null, dim-null-offset: array{a: true|null}, dim-empty: array{}} on left side of ??= always exists and is not nullable.
+Offset 'dim-null-not-set' on array{dim: 1, dim-null: 0|1, dim-null-offset: array{a: true|null}, dim-empty: array{}} on left side of ??= does not exist.
+Offset 'dim-null-not-set' on array{dim: 1, dim-null: 1|null, dim-null-offset: array{a: true|null}, dim-empty: array{}} in isset() does not exist.
+Offset 'dim-null-not-set' on array{dim: 1, dim-null: 1|null, dim-null-offset: array{a: true|null}, dim-empty: array{}} on left side of ?? does not exist.
+Offset 'foo' on array{foo: string} in isset() always exists and is not nullable.
+Offset 'nonexistent' on array{2: bool, 3: false, 4: true}|array{bool, false, bool, false, true} in empty() does not exist.
+Offset 'string' on array{1, 2, 3} in isset() does not exist.
+Offset 'string' on array{1, 2, 3} on left side of ?? does not exist.
+Offset 'string' on array{1, 2, 3} on left side of ??= does not exist.
+Offset 'string' on array{array{1}, array{2}, array{3}} in isset() does not exist.
+Offset 'string' on array{array{1}, array{2}, array{3}} on left side of ?? does not exist.
+Offset 'string' on array{array{1}, array{2}, array{3}} on left side of ??= does not exist.
+Offset 'unique' on array{unique: bool} in isset() always exists and is not nullable.
+Offset 'unique' on array{unique: bool} on left side of ?? always exists and is not nullable.
+Offset 0 on array{'', '0', 'foo', ''|'foo'} in empty() always exists and is always falsy.
+Offset 0 on non-empty-list<array<string|null>> on left side of ?? always exists and is not nullable.
+Offset 1 on array{'', '0', 'foo', ''|'foo'} in empty() always exists and is always falsy.
+Offset 2 on array{'', '0', 'foo', ''|'foo'} in empty() always exists and is not falsy.
+Offset 2 on array{0: string, 1: string, 2: string, 3: string, 4?: string} in isset() always exists and is not nullable.
+Offset 3 on array{2: bool, 3: false, 4: true}|array{bool, false, bool, false, true} in empty() always exists and is always falsy.
+Offset 3 on array{string, string, string, string, string} in isset() always exists and is not nullable.
+Offset 4 on array{2: bool, 3: false, 4: true}|array{bool, false, bool, false, true} in empty() always exists and is not falsy.
+Offset int on non-empty-array<int, int> on left side of ?? always exists and is not nullable.
+Offset string on non-empty-array<PR4374\Foo> in isset() always exists and is not nullable.
+Parameter &$p @param-out type of function ParameterOutAssignedType\foo() expects int, string given.
+Parameter &$p @param-out type of function ParameterOutCatchVariable\foo() expects int, Exception given.
+Parameter &$p @param-out type of function ParameterOutExecutionEnd\foo2() expects string, string|null given.
+Parameter &$p @param-out type of method ParameterOutAssignedType\Foo::doBar() expects string, int given.
+Parameter &$p @param-out type of method ParameterOutAssignedType\Foo::doBaz() expects list<int>, array<0|int<2, max>, int> given.
+Parameter &$p @param-out type of method ParameterOutAssignedType\Foo::doBaz2() expects list<int>, non-empty-list<'str'|int> given.
+Parameter &$p @param-out type of method ParameterOutAssignedType\Foo::doBaz3() expects list<list<int>>, list<array<int<0, max>, int>> given.
+Parameter &$p @param-out type of method ParameterOutAssignedType\Foo::doFoo() expects int, string given.
+Parameter &$p @param-out type of method ParameterOutExecutionEnd\Foo::foo2() expects string, string|null given.
+Parameter &$p @param-out type of method ParameterOutExecutionEnd\Foo::foo3() expects string, string|null given.
+Parameter &$p @param-out type of method ParameterOutExecutionEnd\Foo::foo4() expects string, string|null given.
+Parameter &$p @param-out type of method ParameterOutExecutionEnd\Foo::foo6() expects int, string given.
+Parameter &$p by-ref type of function ParameterOutCatchVariable\bar() expects int, Exception given.
+Parameter &$p by-ref type of method ParameterOutAssignedType\Foo::doNoParamOut() expects string, int given.
+Property Bug14393\MyClass::$i (int) in isset() is not nullable.
+Property Bug14393\MyClass::$i (int) on left side of ?? is not nullable.
+Property Bug14393\MyClassPhpDoc::$i (int) in isset() is not nullable.
+Property Bug14393\MyClassPhpDoc::$i (int) on left side of ?? is not nullable.
+Property Bug4846\Foo::$alwaysString (string) on left side of ?? is not nullable.
+Property CoalesceAssignRule\FooCoalesce::$alwaysNull (null) on left side of ??= is always null.
+Property CoalesceAssignRule\FooCoalesce::$string (string) on left side of ??= is not nullable.
+Property CoalesceRule\FooCoalesce::$alwaysNull (null) on left side of ?? is always null.
+Property CoalesceRule\FooCoalesce::$string (string) on left side of ?? is not nullable.
+Property IssetNativePropertyTypes\Foo::$hasDefaultValue (int) in isset() is not nullable.
+Property IssetNativePropertyTypes\Foo::$isAssignedBefore (int) in isset() is not nullable.
+Property IssetOrCoalesceOnNonNullableInitializedProperty\MoreEmptyCases::$false in empty() is always falsy and initialized.
+Property IssetOrCoalesceOnNonNullableInitializedProperty\MoreEmptyCases::$true in empty() is not falsy nor uninitialized.
+Property IssetOrCoalesceOnNonNullableInitializedProperty\User::$string in isset() is not nullable nor uninitialized.
+Property IssetOrCoalesceOnNonNullableInitializedProperty\User::$string on left side of ?? is not nullable nor uninitialized.
+Property IssetRule\FooCoalesce::$alwaysNull (null) in isset() is always null.
+Property IssetRule\FooCoalesce::$string (string) in isset() is not nullable.
+Static property Bug14393\MyClassStatic::$i (int) in isset() is not nullable.
+Static property Bug14393\MyClassStatic::$i (int) on left side of ?? is not nullable.
+Static property CoalesceAssignRule\FooCoalesce::$staticAlwaysNull (null) on left side of ??= is always null.
+Static property CoalesceAssignRule\FooCoalesce::$staticString (string) on left side of ??= is not nullable.
+Static property CoalesceRule\FooCoalesce::$staticAlwaysNull (null) on left side of ?? is always null.
+Static property CoalesceRule\FooCoalesce::$staticString (string) on left side of ?? is not nullable.
+Static property IssetRule\FooCoalesce::$staticAlwaysNull (null) in isset() is always null.
+Static property IssetRule\FooCoalesce::$staticString (string) in isset() is not nullable.
+Undefined variable: $a
+Undefined variable: $anArray
+Undefined variable: $anotherVariableInIsset
+Undefined variable: $argc
+Undefined variable: $arrayDoesNotExist
+Undefined variable: $assignedInKey
+Undefined variable: $b
+Undefined variable: $bar
+Undefined variable: $baseDir
+Undefined variable: $buz
+Undefined variable: $definedLater
+Undefined variable: $f
+Undefined variable: $foo
+Undefined variable: $fooParameterBeforeDeclaration
+Undefined variable: $http_response_header
+Undefined variable: $key
+Undefined variable: $mustAlreadyExistWhenDividing
+Undefined variable: $negatedVariableInEmpty
+Undefined variable: $parseStrParameter
+Undefined variable: $test
+Undefined variable: $this
+Undefined variable: $three
+Undefined variable: $undefinedVariable
+Undefined variable: $undefinedVariableInForeach
+Undefined variable: $val
+Undefined variable: $value
+Undefined variable: $var3
+Undefined variable: $variableAssignedInSecondCase
+Undefined variable: $variableInBitwiseAndAssign
+Undefined variable: $variableInEmpty
+Undefined variable: $variableInIsset
+Undefined variable: $variableInSecondCase
+Undefined variable: $willBeUnset
+Using nullsafe property access "?->(Expression)" in empty() is unnecessary. Use -> instead.
+Using nullsafe property access "?->aaa" in empty() is unnecessary. Use -> instead.
+Using nullsafe property access "?->aaa" in isset() is unnecessary. Use -> instead.
+Using nullsafe property access "?->aaa" on left side of ?? is unnecessary. Use -> instead.
+Using nullsafe property access "?->bla" in isset() is unnecessary. Use -> instead.
+Using nullsafe property access "?->notFalsy" in empty() is unnecessary. Use -> instead.
+Variable $a in empty() always exists and is always falsy.
+Variable $a in empty() always exists and is not falsy.
+Variable $a in empty() is never defined.
+Variable $a in isset() always exists and is always null.
+Variable $a in isset() always exists and is not nullable.
+Variable $a might not be defined.
+Variable $a on left side of ?? always exists and is always null.
+Variable $a on left side of ??= always exists and is always null.
+Variable $alwaysDefinedForCaseNodeCondition in isset() always exists and is not nullable.
+Variable $alwaysDefinedForSwitchCondition in isset() always exists and is not nullable.
+Variable $alwaysDefinedNotNullable in isset() always exists and is not nullable.
+Variable $anotherForLoopVariable might not be defined.
+Variable $anotherMaybeDefinedInTernary might not be defined.
+Variable $anotherNeverDefinedVariable in isset() is never defined.
+Variable $anotherUndefinedArrayIndex might not be defined.
+Variable $anotherVariableFromForCond might not be defined.
+Variable $anotherVariableInDoWhile in isset() always exists and is not nullable.
+Variable $ar in empty() is never defined.
+Variable $argc might not be defined.
+Variable $b in empty() always exists and is not falsy.
+Variable $bar might not be defined.
+Variable $bar on left side of ?? always exists and is not nullable.
+Variable $bar on left side of ?? is never defined.
+Variable $baseDir might not be defined.
+Variable $command might not be defined.
+Variable $definedInCases might not be defined.
+Variable $definedInIfOnly might not be defined.
+Variable $doesNotExist in isset() is never defined.
+Variable $doesNotExist on left side of ?? is never defined.
+Variable $doesNotExist on left side of ??= is never defined.
+Variable $foo in isset() is never defined.
+Variable $foo might not be defined.
+Variable $foo on left side of ?? is never defined.
+Variable $forI might not be defined.
+Variable $forJ might not be defined.
+Variable $forVariableUsedAndThenDefined might not be defined.
+Variable $i might not be defined.
+Variable $key might not be defined.
+Variable $matches might not be defined.
+Variable $maybe might not be defined.
+Variable $maybeDefinedInTernary might not be defined.
+Variable $mightBeUndefinedInDoWhile might not be defined.
+Variable $neverDefinedVariable in isset() is never defined.
+Variable $null in isset() always exists and is always null.
+Variable $onlyInIf might not be defined.
+Variable $pow might not be defined.
+Variable $result might not be defined.
+Variable $scalar in isset() always exists and is not nullable.
+Variable $scalar on left side of ?? always exists and is not nullable.
+Variable $scalar on left side of ??= always exists and is not nullable.
+Variable $sql might not be defined.
+Variable $str might not be defined.
+Variable $test might not be defined.
+Variable $this might not be defined.
+Variable $undefinedArrayIndex might not be defined.
+Variable $undefinedVar in empty() is never defined.
+Variable $undefinedVar in isset() is never defined.
+Variable $undefinedVar on left side of ?? is never defined.
+Variable $unknownVariablePassedToReset might not be defined.
+Variable $v might not be defined.
+Variable $val might not be defined.
+Variable $value might not be defined.
+Variable $variableAssignedInSecondCase in isset() is never defined.
+Variable $variableAvailableInAllCatches might not be defined.
+Variable $variableDefinedOnlyInOneCatch might not be defined.
+Variable $variableFromDefaultFirst might not be defined.
+Variable $variableInAssign might not be defined.
+Variable $variableInFallthroughCase might not be defined.
+Variable $variableInFirstCase in isset() always exists and is not nullable.
+Variable $variableInFirstCase in isset() is never defined.
+Variable $variableInSecondCase in isset() is never defined.
+Variable $variableInSecondCase might not be defined.
+Variable $whileVar might not be defined.
+Variable $whileVariableUsedAndThenDefined might not be defined.
+Variable $wrongErrorHandler might not be defined.
+Variable $x1 on left side of ?? always exists and is always null.
+Variable $yetAnotherNeverDefinedVariable in isset() is never defined.
+Variable $yetYetAnotherNeverDefinedVariableInIsset in isset() is never defined.
+Variable $z might not be defined.
