@@ -1,0 +1,94 @@
+name: Collect PHPStan Errors
+
+on:
+  workflow_dispatch:
+    inputs:
+      phpstan_branches:
+        description: 'PHPStan branches to collect from (comma-separated)'
+        required: true
+        default: '2.2.x'
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@cf4cade2721270509d5b1c766ab3549210a39a2a # v2.34.1
+        with:
+          php-version: '8.3'
+          extensions: uopz
+          tools: composer
+
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Collect error messages
+        run: |
+          IFS=',' read -ra BRANCHES <<< "${{ inputs.phpstan_branches }}"
+          for BRANCH in "${BRANCHES[@]}"; do
+            BRANCH="$(echo "${BRANCH}" | xargs)"
+            echo "=========================================="
+            echo "  Collecting from branch: ${BRANCH}"
+            echo "=========================================="
+
+            SANITIZED_BRANCH="${BRANCH//\//-}"
+            PHPSTAN_DIR="/tmp/phpstan-src-${SANITIZED_BRANCH}"
+            OUTPUT_FILE="/tmp/phpstan-errors-${SANITIZED_BRANCH}.txt"
+
+            git clone --depth 1 --branch "${BRANCH}" \
+              https://github.com/phpstan/phpstan-src.git "${PHPSTAN_DIR}"
+
+            cd "${PHPSTAN_DIR}"
+            composer install --no-interaction --quiet
+
+            COLLECTOR_OUTPUT_FILE="${OUTPUT_FILE}" \
+            vendor/bin/phpunit \
+              --bootstrap "${{ github.workspace }}/collector/bootstrap-ci.php" \
+              --no-coverage \
+              --testsuite PHPStan \
+              2>/dev/null || true
+
+            cd "${{ github.workspace }}"
+
+            if [ -f "${OUTPUT_FILE}" ]; then
+              TOTAL=$(wc -l < "${OUTPUT_FILE}")
+              sort -u "${OUTPUT_FILE}" -o "${OUTPUT_FILE}"
+              UNIQUE=$(wc -l < "${OUTPUT_FILE}")
+              echo "Collected ${TOTAL} messages (${UNIQUE} unique) from ${BRANCH}"
+              cp "${OUTPUT_FILE}" "test/fixtures/phpstan-errors-${SANITIZED_BRANCH}.txt"
+            else
+              echo "ERROR: No error messages collected from ${BRANCH}"
+              exit 1
+            fi
+          done
+
+      - name: Update snapshots
+        run: npx vitest run --update
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add test/fixtures/phpstan-errors-*.txt test/__snapshots__/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update PHPStan error messages and snapshots
+
+          Branches: ${{ inputs.phpstan_branches }}"
+            git push
+          fi
