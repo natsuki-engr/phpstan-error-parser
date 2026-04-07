@@ -101,6 +101,13 @@ describe('sample test', () => {
         ['Number:-1', true],
       ],
     },
+    {
+      name: 'parse decimal number',
+      m: 'Attribute class Deprecated can be used with traits only on PHP 8.5 and later.',
+      assertions: [
+        ['Number:8.5', true],
+      ],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {
