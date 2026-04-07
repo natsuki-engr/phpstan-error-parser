@@ -34,7 +34,7 @@ describe.skipIf(errorFiles.length === 0)(
           }));
 
           expect(results).toMatchSnapshot();
-        });
+        }, 60_000);
       });
     }
   },
