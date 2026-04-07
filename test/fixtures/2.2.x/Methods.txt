@@ -1,0 +1,871 @@
+Argument for parameter $i has already been passed.
+Attribute NoDiscard cannot be used on never method TestMethodTypehints\Demo::returnNever().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::__clone().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::__construct().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::__destruct().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::__unset().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::__wakeup().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::alsoNothing().
+Attribute NoDiscard cannot be used on void method TestMethodTypehints\Demo::nothing().
+Attribute class MethodAttributes\Foo does not have the method target.
+Call to Bug7434\Contract::method() uses named argument for parameter $val, but Bug7434\ImplementationWithDifferentName renames it to $wrong.
+Call to ConstructorStatementNoSideEffects\ConstructorWithPure::__construct() on a separate line has no effect.
+Call to ConstructorStatementNoSideEffects\ConstructorWithPureAndThrowsVoid::__construct() on a separate line has no effect.
+Call to Exception::__construct() on a separate line has no effect.
+Call to NamedArgumentRenamedParameter\Foo::doFoo() uses named argument for parameter $a, but NamedArgumentRenamedParameter\Bar renames it to $b.
+Call to an undefined method ArrayObject<int, stdClass>::doFoo().
+Call to an undefined method Bug14150Method\HelloWorld::y().
+Call to an undefined method BugTemplateMixedUnionIntersect\FooInterface&T of mixed::bar().
+Call to an undefined method BugTemplateMixedUnionIntersect\FooInterface::bar().
+Call to an undefined method CallArrowFunctionBind\Bar::barMethod().
+Call to an undefined method CallArrowFunctionBind\Foo::nonexistentMethod().
+Call to an undefined method CallClosureBind\Bar::barMethod().
+Call to an undefined method CallClosureBind\Foo::nonexistentMethod().
+Call to an undefined method CallMethodInEnum\Bar::doNonexistent().
+Call to an undefined method CallMethodInEnum\Foo::doNonexistent().
+Call to an undefined method CallTraitMethods\Baz::unexistentMethod().
+Call to an undefined method InterfaceMethods\Baz::barMethod().
+Call to an undefined method MethodCallable\Foo::doNonexistent().
+Call to an undefined method MethodsDynamicCall\Foo::bar().
+Call to an undefined method MethodsDynamicCall\Foo::doBar().
+Call to an undefined method MethodsDynamicCall\Foo::doBuz().
+Call to an undefined method MixinMethods\GenericFoo<Exception>::getMessagee().
+Call to an undefined method NamedArgumentsMethod\Bar::doBaz().
+Call to an undefined method ReflectionType::getName().
+Call to an undefined method RequireExtends\MyInterface::doesNotExist().
+Call to an undefined method RequireImplements\MyBaseClass::doesNotExist().
+Call to an undefined method Test\ArraySliceWithNonEmptyArray::doesNotExist().
+Call to an undefined method Test\AssertInFor::doBar().
+Call to an undefined method Test\Bar::loremipsum().
+Call to an undefined method Test\CallAfterPropertyEmpty::doBar().
+Call to an undefined method Test\Foo::lorem().
+Call to an undefined method Test\Foo::protectedMethodFromChild().
+Call to an undefined method Test\SomeInterface&Test\WithFooMethod::bar().
+Call to an undefined method Test\WithFooAndBarMethod|Test\WithFooMethod::bar().
+Call to an undefined static method Bug14150MethodStatic\HelloWorld::y().
+Call to an undefined static method CallStaticMethods\Bar::bar().
+Call to an undefined static method CallStaticMethods\CallWithStatic::nonexistent().
+Call to an undefined static method CallStaticMethods\Foo::__construct().
+Call to an undefined static method CallStaticMethods\Foo::bar().
+Call to an undefined static method CallStaticMethods\Foo::nonexistent().
+Call to an undefined static method CallStaticMethods\Foo::nonexistentMethod().
+Call to an undefined static method CallStaticMethods\Foo::unknownMethod().
+Call to an undefined static method CallStaticMethods\InterfaceWithStaticMethod::doBar().
+Call to an undefined static method InterfaceMethods\Baz::barStaticMethod().
+Call to an undefined static method MethodsDynamicCall\Foo::bar().
+Call to an undefined static method MethodsDynamicCall\Foo::doBar().
+Call to an undefined static method MethodsDynamicCall\Foo::doBuz().
+Call to an undefined static method RequireExtends\MyInterface::doesNotExistStatic().
+Call to an undefined static method RequireImplements\MyBaseClass::doesNotExistStatic().
+Call to an undefined static method ReturnStaticStaticMethod\Bar::doBaz().
+Call to an undefined static method StaticCallOnExpression\Foo::doBar().
+Call to an undefined static method StaticHasMethodCall\rex_var::doesNotExist().
+Call to an undefined static method StaticMethodCallable\Foo::nonexistent().
+Call to an undefined static method T of CallStaticMethods\Foo::nonexistentMethod().
+Call to an undefined static method T of mixed&UnitEnum::from().
+Call to an undefined static method T of object&UnitEnum::from().
+Call to an undefined static method UnitEnum::from().
+Call to method DateTime::format() on a separate line has no effect.
+Call to method DateTimeImmutable::add() on a separate line has no effect.
+Call to method DateTimeImmutable::modify() on a separate line has no effect.
+Call to method DateTimeImmutable::setDate() on a separate line has no effect.
+Call to method DateTimeImmutable::setISODate() on a separate line has no effect.
+Call to method DateTimeImmutable::setTime() on a separate line has no effect.
+Call to method DateTimeImmutable::setTimestamp() on a separate line has no effect.
+Call to method DateTimeImmutable::setTimezone() on a separate line has no effect.
+Call to method Exception::getCode() on a separate line has no effect.
+Call to method Exception::getMessage() on a separate line has no effect.
+Call to method FirstClassCallableMethodWithoutSideEffect\Bar::doBar() on a separate line has no effect.
+Call to method FirstClassCallableMethodWithoutSideEffect\Bar::doFoo() on a separate line has no effect.
+Call to method FirstClassCallableMethodWithoutSideEffect\Foo::doFoo() on a separate line has no effect.
+Call to method IncorrectMethodCase\Foo::fooBar() with incorrect case: foobar
+Call to method MethodCallStatementNoSideEffects\Bar::doPure() on a separate line has no effect.
+Call to method MethodCallStatementNoSideEffects\Bar::doPureWithThrowsVoid() on a separate line has no effect.
+Call to method MethodCallStatementNoSideEffects\Bzz::pure1() on a separate line has no effect.
+Call to method MethodCallStatementNoSideEffects\Bzz::pure2() on a separate line has no effect.
+Call to method MethodCallStatementNoSideEffects\Bzz::pure3() on a separate line has no effect.
+Call to method MethodCallStatementNoSideEffects\Bzz::pure4() on a separate line has no effect.
+Call to method MethodCallStatementNoSideEffects\Bzz::pure5() on a separate line has no effect.
+Call to method MethodCallable\Foo::doFoo() with incorrect case: dofoo
+Call to method StaticCallsToInstanceMethods\Foo::doFoo() with incorrect case: dofoo
+Call to method doFoo() on an unknown class MethodCallable\Nonexistent.
+Call to method doFoo() on an unknown class Test\UnknownClass.
+Call to method test() on an unknown class Test\FirstUnknownClass.
+Call to method test() on an unknown class Test\SecondUnknownClass.
+Call to new ConstructorStatementNoSideEffects\NoConstructor() on a separate line has no effect.
+Call to new PDOStatement() on a separate line has no effect.
+Call to new stdClass() on a separate line has no effect.
+Call to private method __construct() of class CallStaticMethods\ClassWithConstructor.
+Call to private method doBar() of class MethodCallable\Bar.
+Call to private method doFoo() of class MethodCallable\ParentClass.
+Call to private method doPrivateFoo() of class StaticCallsToInstanceMethods\Foo.
+Call to private method foo() of class Test\Foo.
+Call to private method privateMethod() of class CallClosureBind\Foo.
+Call to private method somethingElse() of class Bug12544\Bar.
+Call to private static method doBar() of class StaticMethodCallable\Bar.
+Call to private static method dolor() of class CallStaticMethods\Foo.
+Call to protected static method baz() of class CallStaticMethods\Foo.
+Call to static method CallStaticMethods\Foo::test() with incorrect case: TEST
+Call to static method FirstClassCallableStaticMethodWithoutSideEffect\Bar::doBar() on a separate line has no effect.
+Call to static method FirstClassCallableStaticMethodWithoutSideEffect\Bar::doFoo() on a separate line has no effect.
+Call to static method FirstClassCallableStaticMethodWithoutSideEffect\Foo::doFoo() on a separate line has no effect.
+Call to static method IncorrectStaticMethodCase\Foo::fooBar() with incorrect case: foobar
+Call to static method StaticMethodCallStatementNoSideEffects\BzzStatic::pure1() on a separate line has no effect.
+Call to static method StaticMethodCallStatementNoSideEffects\BzzStatic::pure2() on a separate line has no effect.
+Call to static method StaticMethodCallStatementNoSideEffects\BzzStatic::pure3() on a separate line has no effect.
+Call to static method StaticMethodCallStatementNoSideEffects\BzzStatic::pure4() on a separate line has no effect.
+Call to static method StaticMethodCallStatementNoSideEffects\BzzStatic::pure5() on a separate line has no effect.
+Call to static method StaticMethodCallStatementNoSideEffects\PureThrows::pureAndThrowsVoid() on a separate line has no effect.
+Call to static method StaticMethodCallable\Foo::doFoo() with incorrect case: dofoo
+Call to static method doFoo() on an unknown class CallStaticMethods\TraitWithStaticMethod.
+Call to static method doFoo() on an unknown class StaticMethodCallable\Nonexistent.
+Call to static method doFoo() on internal class StaticMethodCallOnInternalSubclassOne\Bar.
+Call to static method loremIpsum() on an unknown class CallStaticMethods\UnknownStaticMethodClass.
+CallStaticMethods\Ipsum::ipsumTest() calls parent::lorem() but CallStaticMethods\Ipsum does not extend any class.
+Calling parent::someStaticMethod() outside of class scope.
+Calling self::someStaticMethod() outside of class scope.
+Calling static::someStaticMethod() outside of class scope.
+Cannot call abstract method CallParentAbstractMethod\Baz::uninstall().
+Cannot call abstract method CallParentAbstractMethod\Lorem::doFoo().
+Cannot call abstract static method CallParentAbstractMethod\SitAmet::doFoo().
+Cannot call abstract static method CallStaticMethods\InterfaceWithStaticMethod::doFoo().
+Cannot call abstract static method InterfaceMethods\Foo::fooStaticMethod().
+Cannot call abstract static method StaticMethodCallable\Bar::doBaz().
+Cannot call method abc() on class-string.
+Cannot call method add() on null.
+Cannot call method answer() on Bug4199\Baz|null.
+Cannot call method bar() on string.
+Cannot call method doFoo() on int.
+Cannot call method find() on Test\NullCoalesce|null.
+Cannot call method foo() on BugTemplateMixedUnionIntersect\FooInterface|T of mixed.
+Cannot call method foo() on T of mixed.
+Cannot call method foo() on class-string|object.
+Cannot call method foo() on int|string.
+Cannot call method foo() on mixed.
+Cannot call method foo() on null.
+Cannot call method ipsum() on Test\Bar|null.
+Cannot call method ipsum() on Test\Foo|null.
+Cannot call method isAllowed() on bool.
+Cannot call method method() on string.
+Cannot call method nonExistent() on class-string<ImpossibleMethodExistsOnGenericClassString\FinalS>.
+Cannot call method nonExistent() on class-string<ImpossibleMethodExistsOnGenericClassString\S>.
+Cannot call method nonStaticAbc() on class-string<ImpossibleMethodExistsOnGenericClassString\FinalS>.
+Cannot call method nonStaticAbc() on class-string<ImpossibleMethodExistsOnGenericClassString\S>.
+Cannot call method nullable1() on Bug5868\HelloWorld|null.
+Cannot call method nullable2() on Bug5868\HelloWorld|null.
+Cannot call method nullable3() on Bug5868\HelloWorld|null.
+Cannot call method staticAbc() on class-string<ImpossibleMethodExistsOnGenericClassString\FinalS>.
+Cannot call method staticAbc() on class-string<ImpossibleMethodExistsOnGenericClassString\S>.
+Cannot call method test() on array<Test\UnknownClass>.
+Cannot call method test() on string.
+Cannot call static method doFoo() on int.
+Cannot call static method foo() on T of mixed.
+Cannot call static method foo() on int|string.
+Cannot call static method foo() on mixed.
+Class CallStaticMethods\Foo referenced with incorrect case: CallStaticMethods\FOO.
+Class DateTimeImmutable referenced with incorrect case: dateTimeImmutable.
+Class ParamClosureThisClasses\Foo referenced with incorrect case: ParamClosureThisClasses\fOO.
+Class ParamOutClassesMethods\Foo referenced with incorrect case: ParamOutClassesMethods\fOO.
+Class SelfOutClasses\Foo referenced with incorrect case: SelfOutClasses\fOO.
+Class TestMethodTypehints\FooMethodTypehints referenced with incorrect case: TestMethodTypehints\FOOMethodTypehints.
+Class TestMethodTypehints\FooMethodTypehints referenced with incorrect case: TestMethodTypehints\fOOMethodTypehintS.
+Class TestMethodTypehints\FooMethodTypehints referenced with incorrect case: TestMethodTypehints\fOOMethodTypehints.
+Class stdClass referenced with incorrect case: STDClass.
+Class stdClass referenced with incorrect case: stdclass.
+Constant Collator::FRENCH_COLLATION is not allowed for parameter #2 $flags of method Collator::sort().
+Constant IntlDateFormatter::GREGORIAN is not allowed for parameter #2 $dateType of static method IntlDateFormatter::create().
+Constant NumberFormatter::TYPE_INT32 is not allowed for parameter #2 $style of static method NumberFormatter::create().
+Constant PDO::ATTR_ERRMODE is not allowed for parameter #1 $mode of method PDOStatement::fetch().
+Constant SORT_REGULAR is not allowed for parameter #2 $flags of method finfo::file().
+Constructor of class ConstructorReturnType\Bar has a return type.
+Constructor of class ConstructorReturnType\UsesFooTrait has a return type.
+Default value of the parameter #1 $foo (string) of method DefaultValueForPromotedProperty\Foo::__construct() is incompatible with type int.
+Default value of the parameter #1 $i (stdClass) of method MethodNewInInitializers\Foo::doFoo() is incompatible with type int.
+Default value of the parameter #2 $foo (string) of method DefaultValueForPromotedProperty\Foo::__construct() is incompatible with type int.
+Default value of the parameter #4 $intProp (null) of method DefaultValueForPromotedProperty\Foo::__construct() is incompatible with type int.
+Default value of the parameter #6 $resource (false) of method IncompatibleDefaultParameter\Foo::bar() is incompatible with type resource.
+Default value of the parameter #6 $resource (false) of method IncompatibleDefaultParameter\Foo::baz() is incompatible with type resource.
+Deprecated in PHP 8.0: Required parameter $bar follows optional parameter $foo.
+Deprecated in PHP 8.0: Required parameter $quuz follows optional parameter $quux.
+Deprecated in PHP 8.1: Required parameter $bar follows optional parameter $foo.
+Deprecated in PHP 8.1: Required parameter $qux follows optional parameter $baz.
+Deprecated in PHP 8.3: Required parameter $bar follows optional parameter $foo.
+Enum Bug11592\EnumWithAbstractMethod contains abstract method foo().
+Enum Bug11592\Test contains abstract method from().
+Enum Bug11592\Test contains abstract method tryFrom().
+Enum Bug11592\Test2 contains abstract method from().
+Enum Bug11592\Test2 contains abstract method tryFrom().
+Enum MethodInEnumWithoutBody\Foo contains abstract method doBar().
+Enum MissingMethodImplEnum\Bar contains abstract method doFoo() from interface MissingMethodImplEnum\FooInterface.
+Interface AbstractMethod\Baz contains abstract method doBar().
+Method Bug10043\C::foo() overrides final method Bug10043\B::foo().
+Method Bug10149\StdSat::__get() has #[\Override] attribute but does not override any method.
+Method Bug10580\FooA::fooThisClass() should return $this(Bug10580\FooA) but returns Bug10580\FooA.
+Method Bug10580\FooA::fooThisInterface() should return $this(Bug10580\FooA) but returns Bug10580\FooA.
+Method Bug10580\FooA::fooThisSelf() should return $this(Bug10580\FooA) but returns Bug10580\FooA.
+Method Bug10580\FooA::fooThisStatic() should return $this(Bug10580\FooA) but returns Bug10580\FooA.
+Method Bug10580\FooB::fooThis() should return $this(Bug10580\FooB) but returns Bug10580\FooB.
+Method Bug10580\FooB::fooThisClass() should return $this(Bug10580\FooB) but returns Bug10580\FooB.
+Method Bug10580\FooB::fooThisInterface() should return $this(Bug10580\FooB) but returns Bug10580\FooB.
+Method Bug10580\FooB::fooThisSelf() should return $this(Bug10580\FooB) but returns Bug10580\FooB.
+Method Bug10580\FooB::fooThisStatic() should return $this(Bug10580\FooB) but returns Bug10580\FooB.
+Method Bug11067\BooleanBuilder2::__construct() overrides final method Bug11067\BaseBuilder2::__construct().
+Method Bug12928\FooBarBaz::render() should return non-empty-string but returns string.
+Method Bug1903\Test::doFoo() should return array but returns int.
+Method Bug2600\Foo::doBar() invoked with 3 parameters, 0-1 required.
+Method Bug3117\SimpleTemporal::adjustInto() should return T of Bug3117\Temporal but returns $this(Bug3117\SimpleTemporal).
+Method Bug3118\CustomEnum2::all() should return Bug3118\EnumSet<static(Bug3118\CustomEnum2)> but returns Bug3118\CustomEnumSet.
+Method Bug3481\Foo::doSomething() invoked with 2 parameters, 3 required.
+Method Bug3523\Bar::deserialize() should return static(Bug3523\Bar) but returns Bug3523\Bar.
+Method Bug3997\Bar::count() should return int<0, max> but returns 'foo'.
+Method Bug3997\Baz::count() should return int but returns string.
+Method Bug3997\Dolor::count() should return int<0, max> but returns -1.
+Method Bug3997\Foo::count() should return int<0, max> but returns 'foo'.
+Method Bug3997\Lorem::count() should return int but returns string.
+Method Bug4163\HelloWorld::lall() should return array<string, string> but returns array<int|string, string>.
+Method Bug4443\HelloWorld::getArray() should return array<mixed> but returns array<mixed>|null.
+Method Bug4590\Controller::test1() should return Bug4590\OkResponse<array<string, string>> but returns Bug4590\OkResponse<array{ok: string}>.
+Method Bug4590\Controller::test2() should return Bug4590\OkResponse<array<int, string>> but returns Bug4590\OkResponse<array{string}>.
+Method Bug4590\Controller::test3() should return Bug4590\OkResponse<array<string>> but returns Bug4590\OkResponse<array{string}>.
+Method Bug4590\OkResponse::testGenericStatic() should return static(Bug4590\OkResponse<array<string, string>>) but returns static(Bug4590\OkResponse<array{ok: string}>).
+Method Bug5065\Collection::emptyWorkaround2() should return Bug5065\Collection<NewTKey of (int|string), NewT> but returns Bug5065\Collection<(int|string), mixed>.
+Method Bug5218\IA::getIterator() should return Traversable<string, int> but returns ArrayIterator<string, mixed>.
+Method Bug5946\Model::getModel() should return $this(Bug5946\Model) but returns static(Bug5946\Model).
+Method Bug6358\HelloWorld::sayHello() should return list<stdClass> but returns array{1: stdClass}.
+Method Bug6589\HelloWorldSimple::getField() should return Bug6589\Field2 but returns Bug6589\Field.
+Method Bug6589\HelloWorldTemplated::getField() should return TField of Bug6589\Field2 but returns Bug6589\Field.
+Method Bug7662\Foo::__construct() has parameter $bar with no value type specified in iterable type array.
+Method Bug7859\ExtendingClassImplementingSomeInterface::getList() overrides method Bug7859\ImplementingSomeInterface::getList() but misses parameter #2 $b.
+Method Bug7859\ExtendingClassNotImplementingSomeInterface::getList() overrides method Bug7859\NotImplementingSomeInterface::getList() but misses parameter #2 $b.
+Method Bug8071\Inheritance::inherit() should return array<TKey of (int|string), TValues of bool|float|int|string|null> but returns array<string>.
+Method Bug8146bError\LocationFixtures::getData() should return array<non-empty-string, array<non-empty-string, array{constituencies: non-empty-list<non-empty-string>, coordinates: array{lat: float, lng: float}}>> but returns array{Bács-Kiskun: array{Ágasegyháza: array{constituencies: array{'Bács-Kiskun 4.', true, false, Bug8146bError\X, null}, coordinates: array{lat: 46.8386043, lng: 19.4502899}}, Akasztó: array{constituencies: array{'Bács-Kiskun 3.'}, coordinates: array{lat: 46.6898175, lng: 19.205086}}, Apostag: array{constituencies: array{'Bács-Kiskun 3.'}, coordinates: array{lat: 46.8812652, lng: 18.9648478}}, Bácsalmás: array{constituencies: array{'Bács-Kiskun 5.'}, coordinates: array{lat: 46.1250396, lng: 19.3357509}}, Bácsbokod: array{constituencies: array{'Bács-Kiskun 6.'}, coordinates: array{lat: 46.1234737, lng: 19.155708}}, Bácsborsód: array{constituencies: array{'Bács-Kiskun 6.'}, coordinates: array{lat: 46.0989373, lng: 19.1566725}}, Bácsszentgyörgy: array{constituencies: array{'Bács-Kiskun 6.'}, coordinates: array{lat: 45.9746039, lng: 19.0398066}}, Bácsszőlős: array{constituencies: array{'Bács-Kiskun 5.'}, coordinates: array{lat: 46.1352003, lng: 19.4215997}}, ...}, Baranya: non-empty-array<literal-string&non-falsy-string, non-empty-array<literal-string&non-falsy-string, non-empty-array<int<0, max>|(literal-string&non-falsy-string), float|(literal-string&non-falsy-string)>>>, Békés: array{Almáskamarás: array{constituencies: array{'Békés 4.'}, coordinates: array{lat: 46.4617785, lng: 21.092448}}, Battonya: array{constituencies: array{'Békés 4.'}, coordinates: array{lat: 46.2902462, lng: 21.0199215}}, Békés: array{constituencies: array{'Békés 2.'}, coordinates: array{lat: 46.6704899, lng: 21.0434996}}, Békéscsaba: array{constituencies: array{'Békés 1.'}, coordinates: array{lat: 46.6735939, lng: 21.0877309}}, Békéssámson: array{constituencies: array{'Békés 4.'}, coordinates: array{lat: 46.4208677, lng: 20.6176498}}, Békésszentandrás: array{constituencies: array{'Békés 2.'}, coordinates: array{lat: 46.8715996, lng: 20.48336}}, Bélmegyer: array{constituencies: array{'Békés 3.'}, coordinates: array{lat: 46.8726019, lng: 21.1832832}}, Biharugra: array{constituencies: array{'Békés 3.'}, coordinates: array{lat: 46.9691009, lng: 21.5987651}}, ...}, Borsod-Abaúj-Zemplén: non-empty-array<literal-string&non-falsy-string, non-empty-array<literal-string&non-falsy-string, non-empty-array<int<0, max>|(literal-string&non-falsy-string), float|(literal-string&non-falsy-string)>>>, Budapest: array{'Budapest I. ker.': array{constituencies: array{'Budapest 01.'}, coordinates: array{lat: 47.4968219, lng: 19.037458}}, 'Budapest II. ker.': array{constituencies: array{'Budapest 03.', 'Budapest 04.'}, coordinates: array{lat: 47.5393329, lng: 18.986934}}, 'Budapest III. ker.': array{constituencies: array{'Budapest 04.', 'Budapest 10.'}, coordinates: array{lat: 47.5671768, lng: 19.0368517}}, 'Budapest IV. ker.': array{constituencies: array{'Budapest 11.', 'Budapest 12.'}, coordinates: array{lat: 47.5648915, lng: 19.0913149}}, 'Budapest V. ker.': array{constituencies: array{'Budapest 01.'}, coordinates: array{lat: 47.5002319, lng: 19.0520181}}, 'Budapest VI. ker.': array{constituencies: array{'Budapest 05.'}, coordinates: array{lat: 47.509863, lng: 19.0625813}}, 'Budapest VII. ker.': array{constituencies: array{'Budapest 05.'}, coordinates: array{lat: 47.5027289, lng: 19.073376}}, 'Budapest VIII. ker.': array{constituencies: array{'Budapest 01.', 'Budapest 06.'}, coordinates: array{lat: 47.4894184, lng: 19.070668}}, ...}, Csongrád-Csanád: array{Algyő: array{constituencies: array{'Csongrád-Csanád 4.'}, coordinates: array{lat: 46.3329625, lng: 20.207889}}, Ambrózfalva: array{constituencies: array{'Csongrád-Csanád 4.'}, coordinates: array{lat: 46.3501417, lng: 20.7313995}}, Apátfalva: array{constituencies: array{'Csongrád-Csanád 4.'}, coordinates: array{lat: 46.173317, lng: 20.5800472}}, Árpádhalom: array{constituencies: array{'Csongrád-Csanád 3.'}, coordinates: array{lat: 46.6158286, lng: 20.547733}}, Ásotthalom: array{constituencies: array{'Csongrád-Csanád 2.'}, coordinates: array{lat: 46.1995983, lng: 19.7833756}}, Baks: array{constituencies: array{'Csongrád-Csanád 3.'}, coordinates: array{lat: 46.5518708, lng: 20.1064166}}, Balástya: array{constituencies: array{'Csongrád-Csanád 3.'}, coordinates: array{lat: 46.4261828, lng: 20.004933}}, Bordány: array{constituencies: array{'Csongrád-Csanád 2.'}, coordinates: array{lat: 46.3194213, lng: 19.9227063}}, ...}, Fejér: array{Aba: array{constituencies: array{'Fejér 5.'}, coordinates: array{lat: 47.0328193, lng: 18.522359}}, Adony: array{constituencies: array{'Fejér 4.'}, coordinates: array{lat: 47.119831, lng: 18.8612469}}, Alap: array{constituencies: array{'Fejér 5.'}, coordinates: array{lat: 46.8075763, lng: 18.684028}}, Alcsútdoboz: array{constituencies: array{'Fejér 3.'}, coordinates: array{lat: 47.4277067, lng: 18.6030325}}, Alsószentiván: array{constituencies: array{'Fejér 5.'}, coordinates: array{lat: 46.7910573, lng: 18.732161}}, Bakonycsernye: array{constituencies: array{'Fejér 2.'}, coordinates: array{lat: 47.321719, lng: 18.0907379}}, Bakonykúti: array{constituencies: array{'Fejér 2.'}, coordinates: array{lat: 47.2458464, lng: 18.195769}}, Balinka: array{constituencies: array{'Fejér 2.'}, coordinates: array{lat: 47.3135736, lng: 18.1907168}}, ...}, Győr-Moson-Sopron: array{Abda: array{constituencies: array{'Győr-Moson-Sopron 5.'}, coordinates: array{lat: 47.6962149, lng: 17.5445786}}, Acsalag: array{constituencies: array{'Győr-Moson-Sopron 3.'}, coordinates: array{lat: 47.676095, lng: 17.1977771}}, Ágfalva: array{constituencies: array{'Győr-Moson-Sopron 4.'}, coordinates: array{lat: 47.688862, lng: 16.5110233}}, Agyagosszergény: array{constituencies: array{'Győr-Moson-Sopron 3.'}, coordinates: array{lat: 47.608545, lng: 16.9409912}}, Árpás: array{constituencies: array{'Győr-Moson-Sopron 3.'}, coordinates: array{lat: 47.5134127, lng: 17.3931579}}, Ásványráró: array{constituencies: array{'Győr-Moson-Sopron 5.'}, coordinates: array{lat: 47.8287695, lng: 17.499195}}, Babót: array{constituencies: array{'Győr-Moson-Sopron 3.'}, coordinates: array{lat: 47.5752269, lng: 17.0758604}}, Bágyogszovát: array{constituencies: array{'Győr-Moson-Sopron 3.'}, coordinates: array{lat: 47.5866036, lng: 17.3617273}}, ...}, ...}.
+Method Bug8174\HelloWorld::filterList() should return list<string> but returns array<int<0, max>, '23423'>.
+Method Bug9014\Bar::test() overrides method Bug9014\Foo::test() but misses parameter #2 $test.
+Method Bug9135\Sub::sayHello() overrides @final method Bug9135\HelloWorld::sayHello().
+Method Bug9820\HelloWorld::x() invoked with 1 parameter, 0 required.
+Method CallMethodsWithoutUnionTypes\Foo::doFoo() invoked with 3 parameters, 0 required.
+Method CallStaticMethods\ClassWithConstructor::__construct() invoked with 0 parameters, 1 required.
+Method CallVariadicMethods\Foo::baz() invoked with 0 parameters, at least 1 required.
+Method CallVariadicMethods\Foo::doIntegerParameters() invoked with 3 parameters, 2 required.
+Method CallVariadicMethods\Foo::lorem() invoked with 0 parameters, at least 2 required.
+Method CheckMissingOverrideAttr\Bar::doFoo() overrides method CheckMissingOverrideAttr\Foo::doFoo() but is missing the #[\Override] attribute.
+Method CheckMissingOverrideAttr\ChildOfParentWithAbstractConstructor::__construct() overrides method CheckMissingOverrideAttr\ParentWithAbstractConstructor::__construct() but is missing the #[\Override] attribute.
+Method Closure::call() invoked with 0 parameters, 2 required.
+Method Closure::call() invoked with 1 parameter, 2 required.
+Method Closure::call() invoked with 3 parameters, 2 required.
+Method ConsistentConstructor\FakeConnection::__construct() overrides method ConsistentConstructor\Connection::__construct() but misses parameter #1 $i.
+Method ConsistentConstructor\Foo2::__construct() overrides method ConsistentConstructor\Foo1::__construct() but misses parameter #1 $a.
+Method Couchbase\BucketManager::flush() invoked with 0 parameters, 1 required.
+Method Couchbase\BucketManager::flush() invoked with 2 parameters, 1 required.
+Method DateTimeZone::getTransitions() invoked with 3 parameters, 0-2 required.
+Method DeepInspectTypes\Foo::doBar() has parameter $bars with generic class DeepInspectTypes\Bar but does not specify its types: T
+Method DeepInspectTypes\Foo::doFoo() has parameter $foo with no value type specified in iterable type iterable.
+Method Exception::getMessage() invoked with 1 parameter, 0 required.
+Method FooWithoutNamespace::misleadingBoolReturnType() should return boolean but returns int.
+Method FooWithoutNamespace::misleadingBoolReturnType() should return boolean but returns true.
+Method FooWithoutNamespace::misleadingIntReturnType() should return integer but returns int.
+Method FooWithoutNamespace::misleadingIntReturnType() should return integer but returns true.
+Method LessParametersVariadics\Bar::doFoo() overrides method LessParametersVariadics\Foo::doFoo() but misses parameter #2 $parameters.
+Method LessParametersVariadics\Bar::doFoo() overrides method LessParametersVariadics\Foo::doFoo() but misses parameter #3 $here.
+Method LessParametersVariadics\Baz::doFoo() overrides method LessParametersVariadics\Foo::doFoo() but misses parameter #2 $parameters.
+Method LessParametersVariadics\Baz::doFoo() overrides method LessParametersVariadics\Foo::doFoo() but misses parameter #3 $here.
+Method LessParametersVariadics\Lorem::doFoo() overrides method LessParametersVariadics\Foo::doFoo() but misses parameter #3 $here.
+Method MagicSerialization\WrongSignature::__serialize() should return array<mixed, mixed> but returns string.
+Method MagicSerialization\WrongSignature::__unserialize() with return type void returns string but should not return anything.
+Method MagicSignatures\WrongSignature::__clone() with return type void returns string but should not return anything.
+Method MagicSignatures\WrongSignature::__debugInfo() should return array<mixed, mixed>|null but returns string.
+Method MagicSignatures\WrongSignature::__isset() should return bool but returns string.
+Method MagicSignatures\WrongSignature::__set() with return type void returns string but should not return anything.
+Method MagicSignatures\WrongSignature::__set_state() should return object but returns string.
+Method MagicSignatures\WrongSignature::__sleep() should return array<int, string> but returns string.
+Method MagicSignatures\WrongSignature::__unset() with return type void returns string but should not return anything.
+Method MagicSignatures\WrongSignature::__wakeup() with return type void returns string but should not return anything.
+Method MethodIntersectionTypes\FooClass::doBar() has unresolvable native return type.
+Method MethodIntersectionTypes\FooClass::doBaz() has unresolvable native return type.
+Method MissingMethodParameterTypehint\Bar::acceptsGenericClass() has parameter $c with generic class MissingMethodParameterTypehint\GenericClass but does not specify its types: A, B
+Method MissingMethodParameterTypehint\Bar::acceptsGenericInterface() has parameter $i with generic interface MissingMethodParameterTypehint\GenericInterface but does not specify its types: T, U
+Method MissingMethodParameterTypehint\Baz::acceptsGenericWithSomeDefaults() has parameter $c with generic class MissingMethodParameterTypehint\GenericClassWithSomeDefaults but does not specify its types: T, U (1-2 required)
+Method MissingMethodParameterTypehint\CallableSignature::doFoo() has parameter $cb with no signature specified for callable.
+Method MissingMethodParameterTypehint\CollectionIterableAndGeneric::acceptsCollection() has parameter $collection with generic interface DoctrineIntersectionTypeIsSupertypeOf\Collection but does not specify its types: TKey, T
+Method MissingMethodParameterTypehint\CollectionIterableAndGeneric::acceptsCollection2() has parameter $collection with generic interface DoctrineIntersectionTypeIsSupertypeOf\Collection but does not specify its types: TKey, T
+Method MissingMethodParameterTypehint\Foo::getBar() has parameter $p2 with no type specified.
+Method MissingMethodParameterTypehint\Foo::getBaz() has parameter $p3 with no type specified.
+Method MissingMethodParameterTypehint\Foo::getFoo() has parameter $p1 with no type specified.
+Method MissingMethodParameterTypehint\Foo::unionTypeWithUnknownArrayValueTypehint() has parameter $a with no value type specified in iterable type array.
+Method MissingMethodParameterTypehint\FooInterface::getFoo() has parameter $p1 with no type specified.
+Method MissingMethodParameterTypehint\FooParent::getBar() has parameter $p2 with no type specified.
+Method MissingMethodParameterTypehint\MissingParamClosureThisType::generics() has @param-closure-this PHPDoc tag for parameter $cb with generic class ReflectionClass but does not specify its types: T
+Method MissingMethodParameterTypehint\MissingParamOutType::generics() has @param-out PHPDoc tag for parameter $a with generic class ReflectionClass but does not specify its types: T
+Method MissingMethodParameterTypehint\MissingParamOutType::oneArray() has @param-out PHPDoc tag for parameter $a with no value type specified in iterable type array.
+Method MissingMethodParameterTypehint\MissingPureClosureSignatureType::doFoo() has parameter $cb with no signature specified for Closure.
+Method MissingMethodReturnTypehint\Bar::returnsGenericClass() return type with generic class MissingMethodReturnTypehint\GenericClass does not specify its types: A, B
+Method MissingMethodReturnTypehint\Bar::returnsGenericInterface() return type with generic interface MissingMethodReturnTypehint\GenericInterface does not specify its types: T, U
+Method MissingMethodReturnTypehint\Baz::returnsGenericWithSomeDefaults() return type with generic class MissingMethodReturnTypehint\GenericClassWithSomeDefaults does not specify its types: T, U (1-2 required)
+Method MissingMethodReturnTypehint\CallableSignature::doFoo() return type has no signature specified for callable.
+Method MissingMethodReturnTypehint\Foo::getBar() has no return type specified.
+Method MissingMethodReturnTypehint\Foo::getFoo() has no return type specified.
+Method MissingMethodReturnTypehint\Foo::unionTypeWithUnknownArrayValueTypehint() return type has no value type specified in iterable type array.
+Method MissingMethodReturnTypehint\FooInterface::getFoo() has no return type specified.
+Method MissingMethodReturnTypehint\FooParent::getBar() has no return type specified.
+Method MissingMethodReturnTypehint\IterableIntersection::doFoo() return type has no value type specified in iterable type Traversable.
+Method MissingMethodSelfOutType\Foo::doFoo() has PHPDoc tag @phpstan-self-out with no value type specified in iterable type array.
+Method MissingMethodSelfOutType\Foo::doFoo2() has PHPDoc tag @phpstan-self-out with generic class MissingMethodSelfOutType\Foo but does not specify its types: T
+Method MissingMethodSelfOutType\Foo::doFoo3() has PHPDoc tag @phpstan-self-out with no signature specified for callable.
+Method MissingReturnTypeGenericStatic\Foo::doFoo() return type has no value type specified in iterable type array.
+Method MissingTypehintPromotedProperties\Bar::__construct() has parameter $foo with no value type specified in iterable type array.
+Method MissingTypehintPromotedProperties\Foo::__construct() has parameter $foo with no value type specified in iterable type array.
+Method MixinMethods\Foo::doFoo() invoked with 1 parameter, 0 required.
+Method NativeUnionTypesSupport\Foo::doBar() uses native union types but they're supported only on PHP 8.0 and later.
+Method NativeUnionTypesSupport\Foo::doFoo() uses native union types but they're supported only on PHP 8.0 and later.
+Method NoNamedArgumentsMethod\Bar::doFoo() invoked with named argument $i, but it's not allowed because of @no-named-arguments.
+Method NoNamedArgumentsMethod\Foo::doFoo() invoked with named argument $i, but it's not allowed because of @no-named-arguments.
+Method NullableParameters\Foo::doFoo() invoked with 0 parameters, 2 required.
+Method NullableParameters\Foo::doFoo() invoked with 1 parameter, 2 required.
+Method NullableParameters\Foo::doFoo() invoked with 3 parameters, 2 required.
+Method NullsafeMethodCall\Foo::doBar() invoked with 1 parameter, 0 required.
+Method OverrideAttribute\Bar::test2() has #[\Override] attribute but does not override any method.
+Method OverrideAttribute\ChildOfParentWithConstructor::__construct() has #[\Override] attribute but does not override any method.
+Method OverridingFinalMethod\Bar::doFoo() overrides final method OverridingFinalMethod\Foo::doFoo().
+Method OverridingFinalMethod\Dolor::doFoo() overrides method OverridingFinalMethod\Ipsum::doFoo() but misses parameter #1 $i.
+Method OverridingFinalMethod\ExtendsFinalWithAnnotation::doFoo() overrides @final method OverridingFinalMethod\FinalWithAnnotation::doFoo().
+Method OverridingFinalMethod\SomeOtherException::__construct() overrides final method OverridingFinalMethod\OtherException::__construct().
+Method PDO::query() invoked with 0 parameters, 1-4 required.
+Method RecursiveDirectoryIterator::getSubPathname() invoked with 1 parameter, 0 required.
+Method RequiredAfterOptional\Foo::doAmet() uses native union types but they're supported only on PHP 8.0 and later.
+Method RequiredAfterOptional\Foo::doConsectetur() uses native union types but they're supported only on PHP 8.0 and later.
+Method RequiredAfterOptional\Foo::doSed() uses native union types but they're supported only on PHP 8.0 and later.
+Method ReturnList\Foo::getList1() should return list<string> but returns array{0?: 'foo', 1?: 'bar'}.
+Method ReturnList\Foo::getList2() should return list<string> but returns array{0?: 'foo', 1?: 'bar'}.
+Method ReturnRuleConditionalTypes\Bar2::doFoo() should return int|string but returns stdClass.
+Method ReturnRuleConditionalTypes\Bar::doFoo() should return int|string but returns stdClass.
+Method ReturnRuleConditionalTypes\Foo::doFoo() should return int|string but returns stdClass.
+Method ReturnRuleError\Bar::processNode() should return list<PHPStan\Rules\IdentifierRuleError> but returns array{'foo'}.
+Method ReturnRuleError\Baz::processNode() should return list<PHPStan\Rules\IdentifierRuleError> but returns array{PHPStan\Rules\RuleError}.
+Method ReturnRuleError\Lorem::processNode() should return list<PHPStan\Rules\IdentifierRuleError> but returns array{1: PHPStan\Rules\IdentifierRuleError}.
+Method ReturnTemplateUnion\Foo::doFoo2() should return T of bool|float|int|string but returns (T of bool|float|int|string)|null.
+Method ReturnTypePhpDocMergeReturnInherited\ChildClass2::method() should return ReturnTypePhpDocMergeReturnInherited\D but returns ReturnTypePhpDocMergeReturnInherited\B.
+Method ReturnTypePhpDocMergeReturnInherited\ChildClass::method() should return ReturnTypePhpDocMergeReturnInherited\B but returns ReturnTypePhpDocMergeReturnInherited\A.
+Method ReturnTypePhpDocMergeReturnInherited\ParentClass::method() should return ReturnTypePhpDocMergeReturnInherited\B but returns ReturnTypePhpDocMergeReturnInherited\A.
+Method ReturnTypesIterable\Foo::stringIterable() should return iterable<string> but returns array<int, int>.
+Method ReturnTypesIterable\Foo::stringIterablePipe() should return iterable<string> but returns array<int, int>.
+Method ReturnTypes\AppendedArrayReturnType::bar() should return array<int> but returns array<int|stdClass>.
+Method ReturnTypes\AppendedArrayReturnType::foo() should return array<int> but returns array<int, stdClass>.
+Method ReturnTypes\ArrayFillKeysIssue::getIPs2() should return array<string, array<ReturnTypes\Foo>> but returns array<string, list<ReturnTypes\Bar>>.
+Method ReturnTypes\AssertThisInstanceOf::doBar() should return $this(ReturnTypes\AssertThisInstanceOf) but returns ReturnTypes\AssertThisInstanceOf&ReturnTypes\FooInterface.
+Method ReturnTypes\Foo2::returnIntFromParent() should return int but returns ReturnTypes\integer.
+Method ReturnTypes\Foo2::returnIntFromParent() should return int but returns string.
+Method ReturnTypes\Foo::misleadingBoolReturnType() should return ReturnTypes\boolean but returns int.
+Method ReturnTypes\Foo::misleadingBoolReturnType() should return ReturnTypes\boolean but returns true.
+Method ReturnTypes\Foo::misleadingIntReturnType() should return ReturnTypes\integer but returns int.
+Method ReturnTypes\Foo::misleadingIntReturnType() should return ReturnTypes\integer but returns true.
+Method ReturnTypes\Foo::returnChild() should return ReturnTypes\Foo but returns ReturnTypes\OtherInterfaceImpl.
+Method ReturnTypes\Foo::returnInteger() should return int but returns string.
+Method ReturnTypes\Foo::returnObject() should return ReturnTypes\Bar but returns ReturnTypes\Foo.
+Method ReturnTypes\Foo::returnObject() should return ReturnTypes\Bar but returns int.
+Method ReturnTypes\Foo::returnScalar() should return bool|float|int|string but returns stdClass.
+Method ReturnTypes\Foo::returnStatic() should return static(ReturnTypes\Foo) but returns ReturnTypes\FooParent.
+Method ReturnTypes\Foo::returnThis() should return $this(ReturnTypes\Foo) but returns ReturnTypes\Foo.
+Method ReturnTypes\Foo::returnThis() should return $this(ReturnTypes\Foo) but returns int.
+Method ReturnTypes\Foo::returnThis() should return $this(ReturnTypes\Foo) but returns null.
+Method ReturnTypes\Foo::returnThis() should return $this(ReturnTypes\Foo) but returns static(ReturnTypes\Foo).
+Method ReturnTypes\Foo::returnThisOrNull() should return $this(ReturnTypes\Foo)|null but returns ReturnTypes\Foo.
+Method ReturnTypes\Foo::returnThisOrNull() should return $this(ReturnTypes\Foo)|null but returns int.
+Method ReturnTypes\Foo::returnThisOrNull() should return $this(ReturnTypes\Foo)|null but returns static(ReturnTypes\Foo).
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but empty return statement found.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns (iterable<ReturnTypes\Foo>&ReturnTypes\AnotherCollection)|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection).
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns ReturnTypes\Bar.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns ReturnTypes\Foo.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns array<int, ReturnTypes\Bar>.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns int.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns iterable<ReturnTypes\Bar>&ReturnTypes\AnotherCollection.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns iterable<ReturnTypes\Bar>&ReturnTypes\Collection.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns iterable<ReturnTypes\Foo>&ReturnTypes\AnotherCollection.
+Method ReturnTypes\Foo::returnUnionIterableType() should return array<ReturnTypes\Foo>|(iterable<ReturnTypes\Foo>&ReturnTypes\Collection) but returns null.
+Method ReturnTypes\Foo::returnVoid() with return type void returns int but should not return anything.
+Method ReturnTypes\Foo::returnVoid() with return type void returns null but should not return anything.
+Method ReturnTypes\Foo::returnsNullInTernary() should return int but returns int|null.
+Method ReturnTypes\Foo::returnsParent() should return ReturnTypes\FooParent but returns int.
+Method ReturnTypes\Foo::returnsParent() should return ReturnTypes\FooParent but returns null.
+Method ReturnTypes\Foo::returnsPhpDocParent() should return ReturnTypes\FooParent but returns int.
+Method ReturnTypes\Foo::returnsPhpDocParent() should return ReturnTypes\FooParent but returns null.
+Method ReturnTypes\FooPhp70::returnInteger() should return int but empty return statement found.
+Method ReturnTypes\NestedArrayCheck::doBar() should return array<string, bool> but returns array<string, array<string, string>>.
+Method ReturnTypes\NestedArrayCheck::doFoo() should return array<string, bool> but returns array<string, list<string>>.
+Method ReturnTypes\NeverReturn::doBaz3() should never return but return statement found.
+Method ReturnTypes\NeverReturn::doFoo() should never return but return statement found.
+Method ReturnTypes\OverridenTypeInIfCondition::getAnotherAnotherStock() should return ReturnTypes\Stock but returns ReturnTypes\Stock|null.
+Method ReturnTypes\ReturnStaticGeneric::instanceReturnsStatic() should return static(ReturnTypes\ReturnStaticGeneric) but returns ReturnTypes\ReturnStaticGeneric.
+Method ReturnTypes\ReturnTernary::returnTernary() should return ReturnTypes\Foo but returns false.
+Method ReturnTypes\ReturningSomethingFromConstructor::__construct() with return type void returns ReturnTypes\Foo but should not return anything.
+Method ReturnTypes\Stock::getAnotherStock() should return ReturnTypes\Stock but returns ReturnTypes\Stock|null.
+Method ReturnTypes\Stock::returnSelfAgainError() should return ReturnTypes\Stock but returns ReturnTypes\Stock|null.
+Method ReturnTypes\Stock::returnYetSelfAgainError() should return ReturnTypes\Stock but returns ReturnTypes\Stock|null.
+Method ReturnTypes\TernaryWithJsonEncode::toJson() should return string but returns string|false.
+Method ReturnTypes\TrickyVoid::returnVoidOrInt() should return int|void but returns string.
+Method ReturnTypes\VariableOverwrittenInForeach::doBar() should return int but returns int|string.
+Method ReturnTypes\VariableOverwrittenInForeach::doFoo() should return int but returns int|string.
+Method ReturnTypes\WrongMagicMethods::__clone() with return type void returns int but should not return anything.
+Method ReturnTypes\WrongMagicMethods::__destruct() with return type void returns int but should not return anything.
+Method ReturnTypes\WrongMagicMethods::__isset() should return bool but returns int.
+Method ReturnTypes\WrongMagicMethods::__set_state() should return object but returns array<string, string>.
+Method ReturnTypes\WrongMagicMethods::__sleep() should return array<int, string> but returns array<int, stdClass>.
+Method ReturnTypes\WrongMagicMethods::__toString() should return string but returns true.
+Method ReturnTypes\WrongMagicMethods::__unset() with return type void returns int but should not return anything.
+Method ReturnTypes\WrongMagicMethods::__wakeup() with return type void returns int but should not return anything.
+Method SelfOutClasses\Foo::doBar() has invalid @phpstan-self-out type SelfOutClasses\FooTrait.
+Method SelfOutClasses\Foo::doFoo() has invalid @phpstan-self-out type SelfOutClasses\Nonexistent.
+Method StaticCallsToInstanceMethods\Foo::doFoo() invoked with 1 parameter, 0 required.
+Method TaggedUnionReturnCheck\HelloWorld::sayHello() should return array{updated: false, id: null}|array{updated: true, id: int} but returns array{updated: false, id: 5}.
+Method TestMethodTypehints\FooMethodTypehints::dolor() has invalid return type TestMethodTypehints\BazMethodTypehints.
+Method TestMethodTypehints\FooMethodTypehints::foo() has invalid return type TestMethodTypehints\NonexistentClass.
+Method TestMethodTypehints\FooMethodTypehints::ipsum() has invalid return type TestMethodTypehints\BazMethodTypehints.
+Method TestMethodTypehints\FooMethodTypehints::lorem() has invalid return type TestMethodTypehints\BazMethodTypehints.
+Method TestMethodTypehints\FooMethodTypehints::parentWithoutParent() has invalid return type parent.
+Method TestMethodTypehints\FooMethodTypehints::phpDocParentWithoutParent() has invalid return type parent.
+Method Test\FirstInterface::firstMethod() invoked with 1 parameter, 0 required.
+Method Test\Foo::foo() invoked with 1 parameter, 0 required.
+Method Test\Foo::ipsum() invoked with 1 parameter, 0 required.
+Method Test\Foo::test() invoked with 0 parameters, 1 required.
+Method Test\SecondInterface::secondMethod() invoked with 1 parameter, 0 required.
+Method Test\VariadicAnnotationMethod::definedInPhpDoc() invoked with 0 parameters, at least 1 required.
+Method VisibilityInInterface\FooInterface::sayPrivate() cannot use non-public visibility in interface.
+Method VisibilityInInterface\FooInterface::sayProtected() cannot use non-public visibility in interface.
+Method WrongListTip\Test2::doFoo() should return non-empty-array<WrongListTip\Foo> but returns non-empty-array<WrongListTip\Bar>.
+Method WrongListTip\Test3::doFoo() should return non-empty-list<WrongListTip\Foo> but returns array<WrongListTip\Bar>.
+Method WrongListTip\Test::doFoo() should return list<WrongListTip\Foo> but returns list<WrongListTip\Bar>.
+Method class@anonymous/tests/PHPStan/Rules/Methods/data/bug-11559c.php:6:1::regular_fn() invoked with 3 parameters, 1 required.
+Method mysqli::query() invoked with 0 parameters, 1-2 required.
+Missing parameter $a (int) in call to method NamedArgumentsMethod\Foo::doIpsum().
+Missing parameter $b (int) in call to method NamedArgumentsMethod\Foo::doIpsum().
+Missing parameter $bar (string) in call to method Bug4800\HelloWorld2::a().
+Missing parameter $j (int) in call to method NamedArgumentsMethod\Foo::doFoo().
+Missing parameter $j (int) in call to static method StaticMethodNamedArguments\Foo::doFoo().
+Missing parameter $k (int) in call to method NamedArgumentsMethod\Foo::doFoo().
+Missing parameter $name (array) in call to method XSLTProcessor::setParameter().
+Named argument bar for variadic parameter ...$args of method NamedArgumentsMethod\Foo::doIpsum() expects string, int given.
+Named argument cannot be followed by a positional argument.
+Named argument cannot be followed by an unpacked (...) argument.
+Named argument foo for variadic parameter ...$args of method NamedArgumentsMethod\Foo::doIpsum() expects string, int given.
+Named arguments are supported only on PHP 8.0 and later.
+Non-abstract class AbstractMethod\Bar contains abstract method doBar().
+Non-abstract class MissingMagicSerializationMethods\myObj implements the Serializable interface, but does not implement __serialize().
+Non-abstract class MissingMagicSerializationMethods\myObj implements the Serializable interface, but does not implement __unserialize().
+Non-abstract class MissingMethodImpl\Baz contains abstract method doBaz() from class MissingMethodImpl\Baz.
+Non-abstract class MissingMethodImpl\Baz contains abstract method doFoo() from interface MissingMethodImpl\Foo.
+Non-abstract class MissingMethodImpl\Foo@anonymous/tests/PHPStan/Rules/Methods/data/missing-method-impl.php:41 contains abstract method doFoo() from interface MissingMethodImpl\Foo.
+Non-abstract method Bug4244\HelloWorld::sayHello() must contain a body.
+Non-abstract method MethodInEnumWithoutBody\Foo::doFoo() must contain a body.
+Non-static method OverridingFinalMethod\Bar::doIpsum() overrides static method OverridingFinalMethod\Foo::doIpsum().
+Non-static method OverridingTraitMethods\Dolor::doBar() overrides static method OverridingTraitMethods\FooStatic::doBar().
+Nullable method call detected
+Only iterables can be unpacked, T of mixed given in argument #1.
+Only iterables can be unpacked, array<int>|null given in argument #5.
+Only iterables can be unpacked, int given in argument #6.
+Only iterables can be unpacked, mixed given in argument #1.
+Only iterables can be unpacked, string given in argument #7.
+Original constructor of trait ConstructorReturnType\BarTrait has a return type.
+Parameter #1 $a (Bug4017_2\Foo) of method Bug4017_2\Lorem::doFoo() should be compatible with parameter $a (stdClass) of method Bug4017_2\Bar<stdClass>::doFoo()
+Parameter #1 $a (T of stdClass) of method Bug4017_3\Lorem::doFoo() should be compatible with parameter $a (Bug4017_3\Foo) of method Bug4017_3\Bar::doFoo()
+Parameter #1 $a (iterable) of method ParameterContravarianceArray\Baz::doBar() is not compatible with parameter #1 $a (array|null) of method ParameterContravarianceArray\Foo::doBar().
+Parameter #1 $a (iterable) of method ParameterContravarianceArray\Baz::doBar() is not contravariant with parameter #1 $a (array|null) of method ParameterContravarianceArray\Foo::doBar().
+Parameter #1 $a (iterable) of method ParameterContravarianceTraversable\Baz::doBar() is not compatible with parameter #1 $a (Traversable|null) of method ParameterContravarianceTraversable\Foo::doBar().
+Parameter #1 $a (iterable) of method ParameterContravarianceTraversable\Baz::doBar() is not contravariant with parameter #1 $a (Traversable|null) of method ParameterContravarianceTraversable\Foo::doBar().
+Parameter #1 $a of method Bug3481\Foo::doSomething() expects string, int|string given.
+Parameter #1 $a of method LiteralStringMethod\Foo::requireArrayOfLiteralStrings() expects array<literal-string>, array<mixed> given.
+Parameter #1 $a of method LiteralStringMethod\Foo::requireArrayOfLiteralStrings() expects array<literal-string>, array<string> given.
+Parameter #1 $a of method OnlyRelevantUnableToResolve\Foo::doBaz() expects array<mixed>, int given.
+Parameter #1 $a of method Test\CallableWithMixedArray::doBar() expects callable(array<string>): array<string>, Closure(array): (array{'foo'}|null) given.
+Parameter #1 $a of method Test\InvalidReturnTypeUsingArrayTemplateTypeBound::bar() expects array<string>, array<int, int> given.
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClass::parameterTypeTest4() should be contravariant with parameter $animal (MethodSignature\Animal) of method MethodSignature\BaseClass::parameterTypeTest4()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClass::parameterTypeTest4() should be contravariant with parameter $animal (MethodSignature\Animal) of method MethodSignature\BaseInterface::parameterTypeTest4()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClass::parameterTypeTest5() should be compatible with parameter $animal (MethodSignature\Cat) of method MethodSignature\BaseClass::parameterTypeTest5()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClass::parameterTypeTest5() should be compatible with parameter $animal (MethodSignature\Cat) of method MethodSignature\BaseInterface::parameterTypeTest5()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClassUsingTrait::parameterTypeTest4() should be contravariant with parameter $animal (MethodSignature\Animal) of method MethodSignature\BaseClass::parameterTypeTest4()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClassUsingTrait::parameterTypeTest4() should be contravariant with parameter $animal (MethodSignature\Animal) of method MethodSignature\BaseInterface::parameterTypeTest4()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClassUsingTrait::parameterTypeTest5() should be compatible with parameter $animal (MethodSignature\Cat) of method MethodSignature\BaseClass::parameterTypeTest5()
+Parameter #1 $animal (MethodSignature\Dog) of method MethodSignature\SubClassUsingTrait::parameterTypeTest5() should be compatible with parameter $animal (MethodSignature\Cat) of method MethodSignature\BaseInterface::parameterTypeTest5()
+Parameter #1 $arg of method Bug3555\Enum::run() expects 1|2|3|4|5|6|7|8|9, 100 given.
+Parameter #1 $arg of static method Bug2164\A::staticTest() expects static(Bug2164\B)|string, Bug2164\B|string given.
+Parameter #1 $array of method Random\Randomizer::pickArrayKeys() expects non-empty-array, array{} given.
+Parameter #1 $array of static method Bug9732\HelloWorld::stringifyKeys() expects array<string, mixed>, array<mixed> given.
+Parameter #1 $b (int) of method ConsistentConstructor\Bar2::__construct() is not contravariant with parameter #1 $b (string) of method ConsistentConstructor\Bar::__construct().
+Parameter #1 $bar of method Bug11463\FooType::foo() expects 'bar', 'bla' given.
+Parameter #1 $bar of method ObjectShapesAcceptance\Bar::requireBar() expects ObjectShapesAcceptance\Bar, object{a: int} given.
+Parameter #1 $bar of method Test\ClassWithNullableProperty::doBar() is passed by reference, so it expects variables only.
+Parameter #1 $c of method GenericObjectLowerBound\Foo::doFoo() expects GenericObjectLowerBound\Collection<GenericObjectLowerBound\Cat|GenericObjectLowerBound\Dog>, GenericObjectLowerBound\Collection<GenericObjectLowerBound\Dog> given.
+Parameter #1 $c of method GenericsInferCollection\Bar::doBar() expects GenericsInferCollection\ArrayCollection2<int, int>, GenericsInferCollection\ArrayCollection2<(int|string), mixed> given.
+Parameter #1 $c of method GenericsInferCollection\Foo::doBar() expects GenericsInferCollection\ArrayCollection<int, int>, GenericsInferCollection\ArrayCollection<int, string> given.
+Parameter #1 $callable of method Test\MethodExists::doBar() expects callable(): mixed, array{class-string|object, 'bar'} given.
+Parameter #1 $callable of method Test\MethodExists::doBar() expects callable(): mixed, array{class-string|object, 'foo'} given.
+Parameter #1 $callable of method Test\MethodExists::doBar() expects callable(): mixed, array{object, 'bar'} given.
+Parameter #1 $callback of static method Closure::fromCallable() expects callable(): mixed, array{'Bug1971\\HelloWorld', 'sayHello'} given.
+Parameter #1 $callback of static method Closure::fromCallable() expects callable(): mixed, array{class-string<static(Bug1971\HelloWorld)>, 'sayHello'} given.
+Parameter #1 $callback of static method Closure::fromCallable() expects callable(): mixed, array{class-string<static(Bug1971\HelloWorld)>, 'sayHello2'} given.
+Parameter #1 $cb of method CallablesWithoutCheckNullables\Foo::doBar() expects callable(float|null): (float|null), Closure(float): float given.
+Parameter #1 $cb of method CallablesWithoutCheckNullables\Foo::doBar2() expects callable(float|null): float, Closure(float): float given.
+Parameter #1 $cb of method CallablesWithoutCheckNullables\Foo::doBar2() expects callable(float|null): float, Closure(float|null): (float|null) given.
+Parameter #1 $cb of method CallablesWithoutCheckNullables\Foo::doBaz() expects Closure(float|null): (float|null), Closure(float): float given.
+Parameter #1 $cb of method CallablesWithoutCheckNullables\Foo::doBaz2() expects Closure(float|null): float, Closure(float): float given.
+Parameter #1 $cb of method CallablesWithoutCheckNullables\Foo::doBaz2() expects Closure(float|null): float, Closure(float|null): (float|null) given.
+Parameter #1 $cb of method CheckExplicitMixedMethodCall\CallableMixed::doBar2() expects callable(): int, Closure(): mixed given.
+Parameter #1 $cb of method CheckExplicitMixedMethodCall\CallableMixed::doFoo() expects callable(mixed): void, Closure(int): void given.
+Parameter #1 $cb of method CheckImplicitMixedMethodCall\CallableMixed::doBar2() expects callable(): int, Closure(): mixed given.
+Parameter #1 $cb of method PureCallableMethodAccepts\Foo::acceptsPureCallable() expects pure-callable(): mixed, Closure(): 1 given.
+Parameter #1 $cb of method PureCallableMethodAccepts\Foo::acceptsPureCallable() expects pure-callable(): mixed, callable(): mixed given.
+Parameter #1 $cb of method PureCallableMethodAccepts\Foo::acceptsPureClosure() expects pure-Closure, Closure(): 1 given.
+Parameter #1 $cb of method TrickyCallables\Bar::doBar() expects callable(string=): void, callable(string): void given.
+Parameter #1 $cb of method TrickyCallables\Baz::doBar() expects callable(): void, callable(string): void given.
+Parameter #1 $cb of method TrickyCallables\Foo::doBar() expects callable(string|null): void, callable(string): void given.
+Parameter #1 $cb of static method CallStaticMethodMixed\CallableMixed::callAcceptsExplicitMixed() expects callable(mixed): void, Closure(int): void given.
+Parameter #1 $cb of static method CallStaticMethodMixed\CallableMixed::callReturnsInt() expects callable(): int, Closure(): mixed given.
+Parameter #1 $class of static method Bug4550\Test::valuesOf() expects class-string<Person>, string given.
+Parameter #1 $cls of method RectorDoWhileVarIssue\Foo::processCharacterClass() expects string, int|string given.
+Parameter #1 $code of method Test\KeyOfParam::foo() expects 'jfk'|'lga', 'sfo' given.
+Parameter #1 $code of method Test\ValueOfParam::foo() expects 'John F. Kennedy…'|'La Guardia Airport', 'Newark Liberty…' given.
+Parameter #1 $countryMap of method CallMethodInEnum\FooCall::helloArray() expects array<'The Netherlands'|'United States', bool>, array{abc: 123} given.
+Parameter #1 $countryMap of method CallMethodInEnum\FooCall::helloArray() expects array<'The Netherlands'|'United States', bool>, array{abc: true} given.
+Parameter #1 $countryMap of method CallMethodInEnum\FooCall::helloArray() expects array<'The Netherlands'|'United States', bool>, array{true} given.
+Parameter #1 $countryName of method CallMethodInEnum\FooCall::hello() expects 'The Netherlands'|'United States', CallMethodInEnum\CountryNo::NL given.
+Parameter #1 $data of static method Discussion7004\Foo::fromArray1() expects array<array{newsletterName: string, subscriberCount: int}>, array<mixed, mixed> given.
+Parameter #1 $data of static method Discussion7004\Foo::fromArray2() expects array{array{newsletterName: string, subscriberCount: int}}, array<mixed, mixed> given.
+Parameter #1 $data of static method Discussion7004\Foo::fromArray3() expects array{newsletterName: string, subscriberCount: int}, array<mixed, mixed> given.
+Parameter #1 $date of method Test\HelloWorld3::sayHello() expects array<DateTime|DateTimeImmutable>|int, DateTimeInterface given.
+Parameter #1 $dateOrString of method Test\CheckDefaultArrayKeys::doSit() expects DateTimeImmutable|string, int|stdClass|string given.
+Parameter #1 $demoArg of static method ConditionalParam\HelloWorld::replaceCallback() expects bool, string given.
+Parameter #1 $demoArg of static method ConditionalParam\HelloWorld::replaceCallback() expects string, true given.
+Parameter #1 $e (Exception) of method ParameterContravariance\Bar::doBar() is not compatible with parameter #1 $e (InvalidArgumentException) of method ParameterContravariance\Foo::doBar().
+Parameter #1 $e (Exception|null) of method ParameterContravariance\Baz::doBar() is not compatible with parameter #1 $e (InvalidArgumentException) of method ParameterContravariance\Foo::doBar().
+Parameter #1 $e (InvalidArgumentException) of method ParameterContravariance\Lorem::doFoo() is not compatible with parameter #1 $e (Exception) of method ParameterContravariance\Foo::doFoo().
+Parameter #1 $e (InvalidArgumentException) of method ParameterContravariance\Lorem::doFoo() is not contravariant with parameter #1 $e (Exception) of method ParameterContravariance\Foo::doFoo().
+Parameter #1 $e (InvalidArgumentException|null) of method ParameterContravariance\Ipsum::doFoo() is not compatible with parameter #1 $e (Exception) of method ParameterContravariance\Foo::doFoo().
+Parameter #1 $e (InvalidArgumentException|null) of method ParameterContravariance\Ipsum::doFoo() is not contravariant with parameter #1 $e (Exception) of method ParameterContravariance\Foo::doFoo().
+Parameter #1 $everything of method LessParametersVariadics\Bar::doFoo() is variadic but parameter #1 $many of method LessParametersVariadics\Foo::doFoo() is not variadic.
+Parameter #1 $everything of method LessParametersVariadics\Baz::doFoo() is variadic but parameter #1 $many of method LessParametersVariadics\Foo::doFoo() is not variadic.
+Parameter #1 $exception of method Generator<mixed,mixed,mixed,mixed>::throw() expects Throwable, int given.
+Parameter #1 $field of method Bug9951\Cl::addCondition() expects array<int, Bug9951\AbstractScope|Bug9951\Expressionable>|Bug9951\AbstractScope|Bug9951\Expressionable|string, mixed given.
+Parameter #1 $field of method Bug9951\Cl::addCondition() expects array<int, Bug9951\AbstractScope|Bug9951\Expressionable>|Bug9951\AbstractScope|Bug9951\Expressionable|string, object|string|null given.
+Parameter #1 $filter of method TrickyCallables\TwoErrorsAtOnce::run() expects callable(int|string=): bool, Closure(int): true given.
+Parameter #1 $foo (mixed) of method ParameterTypeWidening\Bar::doFoo() does not match parameter #1 $foo (string) of method ParameterTypeWidening\Foo::doFoo().
+Parameter #1 $foo of method Bug11463\BarType::bar() expects 'foo', 'bla' given.
+Parameter #1 $foo of method CallVariadicMethods\Foo::doIntegerParameters() expects int, string given.
+Parameter #1 $foo of method CheckNullables\Foo::doFoo() expects string, null given.
+Parameter #1 $foo of method CheckNullables\Foo::doFoo() expects string, string|null given.
+Parameter #1 $foo of method InvokeMagicInvokeMethod\ClassForCallable::doFoo() expects callable(): mixed, InvokeMagicInvokeMethod\ClassForCallable given.
+Parameter #1 $foo of method Test\ClassWithToString::acceptsString() expects string, Test\ClassWithToString given.
+Parameter #1 $foo of method Test\ExpectsExceptionGenerics::requiresFoo() expects Test\Foo, Exception given.
+Parameter #1 $foo of method Test\ObjectTypehint::doBar() expects Test\Foo, object given.
+Parameter #1 $fooId of method Bug3589\FooRepository::load() expects Bug3589\Id<Bug3589\Foo>, Bug3589\Id<Bug3589\Bar> given.
+Parameter #1 $fooId of method Bug3589\FooRepository::load() expects Bug3589\Id<Bug3589\Foo>, Bug3589\Id<mixed> given.
+Parameter #1 $g of method MethodWithPhpDocsImplicitInheritance\Dolor::doLorem() expects MethodWithPhpDocsImplicitInheritance\A, int given.
+Parameter #1 $globalTitle of method Test\ThreeTypesCall::threeTypes() expects string, float given.
+Parameter #1 $i (int) of method OverridingTraitMethods\Bar::doBar() is not contravariant with parameter #1 $i (string) of method OverridingTraitMethods\Foo::doBar().
+Parameter #1 $i (int) of method OverridingTraitMethods\Baz::doBar() is not contravariant with parameter #1 $i (string) of method OverridingTraitMethods\FooPrivate::doBar().
+Parameter #1 $i (non-empty-string) of method OverridingTraitMethodsPhpDoc\Bar::doBar() should be contravariant with parameter $i (string) of method OverridingTraitMethodsPhpDoc\Foo::doBar()
+Parameter #1 $i of method AcceptThrowable\Foo::doBar() expects int, AcceptThrowable\InterfaceExtendingThrowable given.
+Parameter #1 $i of method AcceptThrowable\Foo::doBar() expects int, AcceptThrowable\NonExceptionClass&Throwable given.
+Parameter #1 $i of method AcceptThrowable\Foo::doBar() expects int, AcceptThrowable\SomeInterface&Throwable given.
+Parameter #1 $i of method AcceptThrowable\Foo::doBar() expects int, Exception given.
+Parameter #1 $i of method CheckExplicitMixedMethodCall\Bar::doBar() expects int, T given.
+Parameter #1 $i of method CheckExplicitMixedMethodCall\Bar::doBar() expects int, mixed given.
+Parameter #1 $i of method CheckImplicitMixedMethodCall\Bar::doBar() expects int, mixed given.
+Parameter #1 $i of method ConsistentConstructor\ChildTwo::__construct() is not optional.
+Parameter #1 $i of method ConsistentConstructor\ParentWithoutConstructorChildWithConstructorRequiredParams::__construct() is not optional.
+Parameter #1 $i of method MethodWithInheritDocWithoutCurlyBraces\Baz::doFoo() expects int, string given.
+Parameter #1 $i of method MethodWithInheritDoc\Baz::doFoo() expects int, string given.
+Parameter #1 $i of method MethodWithPhpDocsImplicitInheritance\Baz::doFoo() expects int, string given.
+Parameter #1 $i of method NamedArgumentsMethod\Foo::doFoo() expects int, string given.
+Parameter #1 $i of method NonEmptyStringVerbosity\Foo::doBar() expects int, string given.
+Parameter #1 $i of method OverridingFinalMethod\BazBaz::doBar() is not optional.
+Parameter #1 $i of method OverridingFinalMethod\Lacus::doFoo() is not passed by reference but parameter #1 $i of method OverridingFinalMethod\Etiam::doFoo() is passed by reference.
+Parameter #1 $i of method PureCallableMethodAccepts\Foo::acceptsInt() expects int, callable given.
+Parameter #1 $i of method Test\CheckDefaultArrayKeys::doBar() expects int, int|stdClass|string given.
+Parameter #1 $i of method Test\CheckDefaultArrayKeys::doBar() expects int, int|string given.
+Parameter #1 $i of method Test\SubtractedMixed::requireInt() expects int, mixed given.
+Parameter #1 $i of method Test\TernaryEvaluation::doBar() expects int, Test\Foo given.
+Parameter #1 $i of method Test\TernaryEvaluation::doBar() expects int, false given.
+Parameter #1 $i of static method CallStaticMethodMixed\Bar::doBar() expects int, T given.
+Parameter #1 $i of static method CallStaticMethodMixed\Bar::doBar() expects int, mixed given.
+Parameter #1 $ids of method CallMethodsIterables\Uuid::bar() expects iterable<CallMethodsIterables\Uuid>, array<int, null> given.
+Parameter #1 $index (int) of method OverridingFinalMethod\FixedArrayOffsetExists::offsetExists() is not compatible with parameter #1 $index (mixed) of method SplFixedArray<mixed>::offsetExists().
+Parameter #1 $index (int) of method OverridingFinalMethod\FixedArrayOffsetExists::offsetExists() is not contravariant with parameter #1 $index (mixed) of method SplFixedArray<mixed>::offsetExists().
+Parameter #1 $int of method CallVariadicMethods\Foo::doVariadicString() expects int, string given.
+Parameter #1 $intOrString of method Test\CheckDefaultArrayKeys::doLorem() expects int|string, int|stdClass|string given.
+Parameter #1 $iterable of method CallMethodsIterables\Foo::acceptsSelfIterable() expects iterable<CallMethodsIterables\Foo>, iterable<CallMethodsIterables\Bar> given.
+Parameter #1 $iterable of method CallMethodsIterables\Foo::acceptsSelfIterable() expects iterable<CallMethodsIterables\Foo>, string given.
+Parameter #1 $iterableWithoutTypehint of method CallMethodsIterables\Foo::doFoo() expects iterable, int given.
+Parameter #1 $j of method OverridingFinalMethod\Amet::doBar() is not variadic but parameter #1 $j of method OverridingFinalMethod\Sit::doBar() is variadic.
+Parameter #1 $j of method OverridingFinalMethod\Amet::doBaz() is variadic but parameter #1 $j of method OverridingFinalMethod\Sit::doBaz() is not variadic.
+Parameter #1 $lall of static method Bug3448\Foo::add() expects int, string given.
+Parameter #1 $list of method Bug5372\Foo::takesStrings() expects Bug5372\Collection<int, string>, Bug5372\Collection<int, class-string> given.
+Parameter #1 $list of method Bug5372\Foo::takesStrings() expects Bug5372\Collection<int, string>, Bug5372\Collection<int, literal-string> given.
+Parameter #1 $list of method Bug5372\Foo::takesStrings() expects Bug5372\Collection<int, string>, Bug5372\Collection<int, non-falsy-string> given.
+Parameter #1 $members of method Test\ParameterTypeCheckVerbosity::doBar() expects array<array{id: string, code: string}>, array<array{code: string}> given.
+Parameter #1 $n of method MethodsDynamicCall\Foo::doFoo() expects int, int|string given.
+Parameter #1 $n of method MethodsDynamicCall\Foo::doFoo() expects int, string given.
+Parameter #1 $namespaceOrPrefix of method SimpleXMLElement::children() expects string|null, int given.
+Parameter #1 $newThis of method Closure::bindTo() expects stdClass, ClosureBindToParamClosureThis\Foo given.
+Parameter #1 $newThis of method Closure::call() expects object, int given.
+Parameter #1 $node (PhpParser\Node\Expr\StaticCall) of method MethodSignature\Rule::processNode() should be contravariant with parameter $node (PhpParser\Node) of method MethodSignature\GenericRule<PhpParser\Node>::processNode()
+Parameter #1 $nonEmpty of method AcceptNonEmptyArray\Foo::requireNonEmpty() expects non-empty-array<int>, array<int> given.
+Parameter #1 $nonEmpty of method AcceptNonEmptyArray\Foo::requireNonEmpty() expects non-empty-array<int>, array{} given.
+Parameter #1 $o of method ObjectShapesAcceptance\Bar::doBar() expects object{a: string}, ObjectShapesAcceptance\Bar given.
+Parameter #1 $o of method ObjectShapesAcceptance\Baz::doBar() expects object{a: int}, $this(ObjectShapesAcceptance\Baz) given.
+Parameter #1 $o of method ObjectShapesAcceptance\Baz::doBaz() expects object{b: int}, $this(ObjectShapesAcceptance\Baz) given.
+Parameter #1 $o of method ObjectShapesAcceptance\Baz::doIpsum() expects object{d: array{foo: string}}, $this(ObjectShapesAcceptance\Baz) given.
+Parameter #1 $o of method ObjectShapesAcceptance\Baz::doLorem() expects object{c: int}, $this(ObjectShapesAcceptance\Baz) given.
+Parameter #1 $o of method ObjectShapesAcceptance\Foo::doBar() expects object{foo: int, bar: string}, Exception given.
+Parameter #1 $o of method ObjectShapesAcceptance\Foo::doBar() expects object{foo: int, bar: string}, object given.
+Parameter #1 $o of method ObjectShapesAcceptance\Foo::doBar() expects object{foo: int, bar: string}, object{foo: string, bar: int} given.
+Parameter #1 $o of method ObjectShapesAcceptance\Foo::doBar() expects object{foo: int, bar: string}, object{foo: string, bar: int}&stdClass given.
+Parameter #1 $o of method ObjectShapesAcceptance\Foo::doBar() expects object{foo: int, bar: string}, object{foo?: int, bar: string} given.
+Parameter #1 $o of method ObjectShapesAcceptance\Foo::doBar() expects object{foo: int, bar: string}, stdClass given.
+Parameter #1 $o of method ObjectShapesAcceptance\OptionalProperty::doBar() expects object{foo?: int}, object{foo?: string} given.
+Parameter #1 $o of method ObjectShapesAcceptance\OptionalProperty::doBaz() expects object{foo: int}, object{foo?: string} given.
+Parameter #1 $o of method ObjectShapesAcceptance\TestAcceptance::doFoo() expects object{foo: int}, ObjectShapesAcceptance\FinalClass given.
+Parameter #1 $o of method ObjectShapesAcceptance\TestAcceptance::doFoo() expects object{foo: int}, Traversable given.
+Parameter #1 $object of static method Bug12558\Foo::assertStatic() expects Bug12558\Foo, Bug12558\Foo|null given.
+Parameter #1 $object of static method Bug12558\Foo::assertStatic() expects Bug12558\Foo, bool|Bug12558\Foo given.
+Parameter #1 $objects of static method Bug8296\VerifyLoginTask::continueDump() expects array<string, object>, array<string, Bug8296\stdClass|true> given.
+Parameter #1 $offset (TOffset of key-of<TArray of array>) of method Bug7652\Options::offsetSet() should be contravariant with parameter $offset (key-of<array>|null) of method ArrayAccess<key-of<TArray of array>,value-of<TArray of array>>::offsetSet()
+Parameter #1 $one of method CallMethodInEnum\TestPassingEnums::requireOne() expects CallMethodInEnum\TestPassingEnums::ONE, $this(CallMethodInEnum\TestPassingEnums)&CallMethodInEnum\TestPassingEnums given.
+Parameter #1 $one of method CallMethodsPhpDocMergeParamInherited\ChildClass::method() expects CallMethodsPhpDocMergeParamInherited\C, CallMethodsPhpDocMergeParamInherited\B given.
+Parameter #1 $other of method Test\CollectionWithStaticParam::add() expects static(Test\AppleCollection), Test\AppleCollection given.
+Parameter #1 $param is passed by reference so it does not accept readonly property ReadonlyPropertyPassedByRef\Foo::$bar.
+Parameter #1 $param of method GenericVarianceCall\Foo::contravariant() expects GenericVarianceCall\Contravariant<GenericVarianceCall\B>, GenericVarianceCall\Contravariant<GenericVarianceCall\C> given.
+Parameter #1 $param of method GenericVarianceCall\Foo::covariant() expects GenericVarianceCall\Covariant<GenericVarianceCall\B>, GenericVarianceCall\Covariant<GenericVarianceCall\A> given.
+Parameter #1 $param of method GenericVarianceCall\Foo::invariant() expects GenericVarianceCall\Invariant<GenericVarianceCall\B>, GenericVarianceCall\Invariant<GenericVarianceCall\A> given.
+Parameter #1 $param of method GenericVarianceCall\Foo::invariant() expects GenericVarianceCall\Invariant<GenericVarianceCall\B>, GenericVarianceCall\Invariant<GenericVarianceCall\C> given.
+Parameter #1 $param of method GenericVarianceCall\Foo::invariantArray() expects array{GenericVarianceCall\Invariant<GenericVarianceCall\B>}, array{GenericVarianceCall\Invariant<GenericVarianceCall\C>} given.
+Parameter #1 $param of method Test\IncompatiblePhpDocNullableTypeIssue::doFoo() expects string|null, int given.
+Parameter #1 $param of static method Bug5781\Foo::bar() expects array{a: bool, b: bool, c: bool, d: bool, e: bool, f: bool, g: bool, h: bool, ...}, array{} given.
+Parameter #1 $parameter of method Test\SubtractedMixed::requireIntOrString() expects int|string, mixed given.
+Parameter #1 $params of static method TemplateTypeInOneBranchOfConditional\DriverManager::getConnection() expects array{wrapperClass?: class-string<TemplateTypeInOneBranchOfConditional\Connection>}, array{wrapperClass: 'stdClass'} given.
+Parameter #1 $passedByRef of method NullsafeMethodCall\Foo::doBaz() is passed by reference, so it expects variables only.
+Parameter #1 $query of method Bug3922\FooQueryHandler::handle() expects Bug3922\FooQuery, Bug3922\BarQuery given.
+Parameter #1 $s (string) of method OverridingFinalMethod\Dolor::__construct() is not compatible with parameter #1 $i (int) of method OverridingFinalMethod\Ipsum::__construct().
+Parameter #1 $s (string) of method OverridingFinalMethod\Dolor::__construct() is not contravariant with parameter #1 $i (int) of method OverridingFinalMethod\Ipsum::__construct().
+Parameter #1 $s of method LiteralStringMethod\Foo::requireLiteralString() expects literal-string, 1 given.
+Parameter #1 $s of method LiteralStringMethod\Foo::requireLiteralString() expects literal-string, array<mixed> given.
+Parameter #1 $s of method LiteralStringMethod\Foo::requireLiteralString() expects literal-string, int given.
+Parameter #1 $s of method LiteralStringMethod\Foo::requireLiteralString() expects literal-string, mixed given.
+Parameter #1 $s of method LiteralStringMethod\Foo::requireLiteralString() expects literal-string, string given.
+Parameter #1 $s of method LowercaseString\Bar::acceptLowercaseString() expects lowercase-string, 'NotLowerCase' given.
+Parameter #1 $s of method LowercaseString\Bar::acceptLowercaseString() expects lowercase-string, numeric-string given.
+Parameter #1 $s of method LowercaseString\Bar::acceptLowercaseString() expects lowercase-string, string given.
+Parameter #1 $s of method MethodsDynamicCall\Foo::doQux() expects string, int given.
+Parameter #1 $s of method TestStringables\Dolor::doFoo() expects string, TestStringables\Bar given.
+Parameter #1 $s of method Test\ClassStringWithUpperBounds::doFoo() expects class-string<Exception>, string given.
+Parameter #1 $s of method Test\ForeachSituation::takesInt() expects int|null, string|null given.
+Parameter #1 $s of method Test\IssetCumulativeArray::doBar() expects string, int given.
+Parameter #1 $s of method Test\IssetCumulativeArray::doBar() expects string, int<0, max> given.
+Parameter #1 $s of method Test\IssetCumulativeArray::doBar() expects string, int<1, max> given.
+Parameter #1 $s of method UppercaseString\Bar::acceptUppercaseString() expects uppercase-string, 'NotUpperCase' given.
+Parameter #1 $s of method UppercaseString\Bar::acceptUppercaseString() expects uppercase-string, numeric-string given.
+Parameter #1 $s of method UppercaseString\Bar::acceptUppercaseString() expects uppercase-string, string given.
+Parameter #1 $s of static method MethodsDynamicCall\Foo::doQux() expects string, int given.
+Parameter #1 $someValue of method MethodWithPhpDocsImplicitInheritance\TestArrayObject3::append() expects stdClass, Exception given.
+Parameter #1 $state (int) of method OverridingParle\Foo::pushState() is not compatible with parameter #1 $state (string) of method Parle\RLexer::pushState().
+Parameter #1 $state (int) of method OverridingParle\Foo::pushState() is not contravariant with parameter #1 $state (string) of method Parle\RLexer::pushState().
+Parameter #1 $std of method ObjectShapesAcceptance\Foo::requireStdClass() expects stdClass, object{foo: string, bar: int} given.
+Parameter #1 $std of method Test\CheckDefaultArrayKeys::doAmet() expects stdClass, (int|string) given.
+Parameter #1 $std of method Test\CheckDefaultArrayKeys::doAmet() expects stdClass, int|stdClass|string given.
+Parameter #1 $stdOrInt of method Test\CheckDefaultArrayKeys::doIpsum() expects int|stdClass, int|stdClass|string given.
+Parameter #1 $stdOrString of method Test\CheckDefaultArrayKeys::doDolor() expects stdClass|string, int|stdClass|string given.
+Parameter #1 $str of method MethodWithInheritDocWithoutCurlyBraces\Foo::doBar() expects string, int given.
+Parameter #1 $str of method MethodWithInheritDoc\Foo::doBar() expects string, int given.
+Parameter #1 $str of method MethodWithPhpDocsImplicitInheritance\Foo::doBar() expects string, int given.
+Parameter #1 $str of method TestMethodsIsCallable\CheckIsCallable::test() expects callable(): mixed, 'Test…' given.
+Parameter #1 $str of method Test\CheckDefaultArrayKeys::doBaz() expects string, int|stdClass|string given.
+Parameter #1 $str of method Test\CheckDefaultArrayKeys::doBaz() expects string, int|string given.
+Parameter #1 $str of method Test\CheckIsCallable::test() expects callable(): mixed, 'Test…' given.
+Parameter #1 $str of method Test\CheckIsCallable::test() expects callable(): mixed, 'nonexistentFunction' given.
+Parameter #1 $str of method Test\LiteralArrayTypeCheck::test() expects string, int given.
+Parameter #1 $str of method Test\LiteralArrayTypeCheck::test() expects string, true given.
+Parameter #1 $string of method Test\NonFalsyString::acceptsNonFalsyString() expects non-falsy-string, '0' given.
+Parameter #1 $string of method Test\NonFalsyString::acceptsNonFalsyString() expects non-falsy-string, int given.
+Parameter #1 $string of method Test\NonFalsyString::acceptsNonFalsyString() expects non-falsy-string, literal-string given.
+Parameter #1 $string of method Test\NonFalsyString::acceptsNonFalsyString() expects non-falsy-string, non-empty-string given.
+Parameter #1 $string of method Test\NonFalsyString::acceptsNonFalsyString() expects non-falsy-string, numeric-string given.
+Parameter #1 $string of method Test\NonFalsyString::acceptsNonFalsyString() expects non-falsy-string, string given.
+Parameter #1 $string of static method Bug8296\VerifyLoginTask::stringByRef() expects string, int given.
+Parameter #1 $t of method Bug6371\HelloWorld<int,string>::compare() expects int, true given.
+Parameter #1 $test (string) of method Bug4003\Ipsum::doFoo() should be compatible with parameter $test (int) of method Bug4003\Lorem::doFoo()
+Parameter #1 $test of method Bug3445\Foo::doFoo() expects Bug3445\Foo, $this(Bug3445\Bar) given.
+Parameter #1 $test of method Test\NullableInPhpDoc::doFoo() expects string, null given.
+Parameter #1 $test of method Test\NumericStringParam::sayHello() expects numeric-string, 'abc' given.
+Parameter #1 $test of method Test\NumericStringParam::sayHello() expects numeric-string, 123 given.
+Parameter #1 $uno of method CallMethodsPhpDocMergeParamInherited\ParentClass::method() expects CallMethodsPhpDocMergeParamInherited\A, CallMethodsPhpDocMergeParamInherited\D given.
+Parameter #1 $value (string) of method MethodSignature\Bar::doFoo() should be compatible with parameter $value (int) of method MethodSignature\Foo::doFoo()
+Parameter #1 $value of method ArrayObject<int,stdClass>::append() expects stdClass, Exception given.
+Parameter #1 $value of method Fiber<void,void,void,void>::resume() expects void, int given.
+Parameter #1 $x of method Bug9487\HelloWorld::sayHello() expects list<string>, array<int<1, max>, string> given.
+Parameter #1 $x of method MethodWithPhpDocsImplicitInheritance\Ipsum::doLorem() expects MethodWithPhpDocsImplicitInheritance\A, int given.
+Parameter #1 ...$everything (int) of method LessParametersVariadics\Baz::doFoo() is not contravariant with parameter #2 $parameters (string) of method LessParametersVariadics\Foo::doFoo().
+Parameter #1 ...$everything (int) of method LessParametersVariadics\Baz::doFoo() is not contravariant with parameter #3 $here (string) of method LessParametersVariadics\Foo::doFoo().
+Parameter #1 ...$strings of method CallVariadicMethods\Bar::anotherVariadicStrings() expects string, int given.
+Parameter #1 ...$strings of method CallVariadicMethods\Bar::variadicStrings() expects string, int given.
+Parameter #10 $mixeds of method CallMethodsIterables\Foo::doFoo() expects iterable, int given.
+Parameter #2 $b of method Test\ExpectsExceptionGenerics::expectsExceptionUpperBound() expects Exception, Throwable given.
+Parameter #2 $bar of method CallVariadicMethods\Foo::doIntegerParameters() expects int, string given.
+Parameter #2 $dos of method CallMethodsPhpDocMergeParamInherited\ParentClass::method() expects CallMethodsPhpDocMergeParamInherited\B, CallMethodsPhpDocMergeParamInherited\D given.
+Parameter #2 $everything of method LessParametersVariadics\Lorem::doFoo() is variadic but parameter #2 $parameters of method LessParametersVariadics\Foo::doFoo() is not variadic.
+Parameter #2 $h of method MethodWithPhpDocsImplicitInheritance\Dolor::doLorem() expects MethodWithPhpDocsImplicitInheritance\B, int given.
+Parameter #2 $iterableWithIterableTypehint of method CallMethodsIterables\Foo::doFoo() expects iterable, int given.
+Parameter #2 $j of method OverridingFinalMethod\Consecteur::doFoo() is required but parameter #2 $j of method OverridingFinalMethod\Sit::doFoo() is optional.
+Parameter #2 $j of method OverridingFinalMethod\FooFoo::doFoo() is not optional.
+Parameter #2 $j of method OverridingFinalMethod\Lacus::doFoo() is passed by reference but parameter #2 $j of method OverridingFinalMethod\Etiam::doFoo() is not passed by reference.
+Parameter #2 $k of method Bug6371\HelloWorld<int,string>::compare() expects string, false given.
+Parameter #2 $lang of method OverridingVariadics\AnotherTranslator::translate() is not optional.
+Parameter #2 $lang of method OverridingVariadics\OtherTranslator::translate() is not optional.
+Parameter #2 $lang of method OverridingVariadics\YetAnotherTranslator::translate() is not variadic.
+Parameter #2 $newScope of method Closure::bindTo() expects 'static'|class-string|object|null, 'CallClosureBind\\Bar3' given.
+Parameter #2 $newThis of static method Closure::bind() expects stdClass, ClosureBindParamClosureThis\Foo given.
+Parameter #2 $num of method Random\Randomizer::pickArrayKeys() expects int<1, max>, 0 given.
+Parameter #2 $object of method Test\ClassStringWithUpperBounds::doFoo() expects Exception, Throwable given.
+Parameter #2 $str of method Test\PreIncString::doFoo() expects string, int given.
+Parameter #2 $thing of method Closure::call() expects object, int given.
+Parameter #2 $two of method CallMethodsPhpDocMergeParamInherited\ChildClass::method() expects CallMethodsPhpDocMergeParamInherited\B, CallMethodsPhpDocMergeParamInherited\D given.
+Parameter #2 $v of method UnresolvableParameter\HelloWorld::foo() contains unresolvable type.
+Parameter #2 $v of method UnresolvableParameter\HelloWorld::foo() expects 1, 0 given.
+Parameter #2 $value of method Bug12219\Bug3::foo() contains unresolvable type.
+Parameter #2 $y of method MethodWithPhpDocsImplicitInheritance\Ipsum::doLorem() expects MethodWithPhpDocsImplicitInheritance\B, int given.
+Parameter #2 ...$strings of method CallVariadicMethods\Bar::anotherVariadicStrings() expects string, int given.
+Parameter #2 ...$strings of method CallVariadicMethods\Bar::variadicStrings() expects string, int given.
+Parameter #2 ...$strings of method CallVariadicMethods\Foo::doVariadicString() expects string, int given.
+Parameter #3 $i of method MethodWithPhpDocsImplicitInheritance\Dolor::doLorem() expects MethodWithPhpDocsImplicitInheritance\C, int given.
+Parameter #3 $iterableWithConcreteTypehint of method CallMethodsIterables\Foo::doFoo() expects iterable<CallMethodsIterables\Bar>, int given.
+Parameter #3 $newScope of static method Closure::bind() expects 'static'|class-string|object|null, 'CallClosureBind\\Bar3' given.
+Parameter #3 $parameters of method OverridingVariadics\AnotherTranslator::translate() is not variadic.
+Parameter #3 $z of method MethodWithPhpDocsImplicitInheritance\Ipsum::doLorem() expects MethodWithPhpDocsImplicitInheritance\C, int given.
+Parameter #3 ...$args of method NamedArgumentsMethod\Foo::doIpsum() expects string, int given.
+Parameter #3 ...$strings of method CallVariadicMethods\Foo::doVariadicString() expects string, int given.
+Parameter #4 $arrayWithIterableTypehint of method CallMethodsIterables\Foo::doFoo() expects array, int given.
+Parameter #4 $d of method MethodWithPhpDocsImplicitInheritance\Dolor::doLorem() expects MethodWithPhpDocsImplicitInheritance\D, int given.
+Parameter #4 $d of method MethodWithPhpDocsImplicitInheritance\Ipsum::doLorem() expects MethodWithPhpDocsImplicitInheritance\D, int given.
+Parameter #4 ...$strings of method CallVariadicMethods\Foo::doVariadicString() expects string, int given.
+Parameter #5 $unionIterableType of method CallMethodsIterables\Foo::doFoo() expects CallMethodsIterables\Collection&iterable<CallMethodsIterables\Bar>, int given.
+Parameter #5 ...$strings of method CallVariadicMethods\Foo::doVariadicString() expects string, int given.
+Parameter #6 $mixedUnionIterableType of method CallMethodsIterables\Foo::doFoo() expects array, int given.
+Parameter #6 ...$strings of method CallVariadicMethods\Foo::doVariadicString() expects string, int given.
+Parameter #7 $unionIterableIterableType of method CallMethodsIterables\Foo::doFoo() expects CallMethodsIterables\Collection&iterable<CallMethodsIterables\Bar>, int given.
+Parameter #9 $integers of method CallMethodsIterables\Foo::doFoo() expects iterable<int>, int given.
+Parameter $a of method MethodIntersectionTypes\FooClass::doBar() has unresolvable native type.
+Parameter $a of method MethodIntersectionTypes\FooClass::doBaz() has unresolvable native type.
+Parameter $a of method ParamClosureThisClasses\Bar::doFoo() has invalid type ParamClosureThisClasses\Nonexistent.
+Parameter $array of method TestMethodTypehints\FooMethodTypehints::unknownTypesInArrays() has invalid type TestMethodTypehints\AnotherNonexistentClass.
+Parameter $b of method NamedArgumentsMethod\Foo::doIpsum() expects int, string given.
+Parameter $b of method ParamClosureThisClasses\Bar::doFoo() has invalid type ParamClosureThisClasses\FooTrait.
+Parameter $bar of method TestMethodTypehints\FooMethodTypehints::bar() has invalid type TestMethodTypehints\BarMethodTypehints.
+Parameter $bars of method TestMethodTypehints\FooMethodTypehints::dolor() has invalid type TestMethodTypehints\BarMethodTypehints.
+Parameter $bars of method TestMethodTypehints\FooMethodTypehints::ipsum() has invalid type TestMethodTypehints\BarMethodTypehints.
+Parameter $bars of method TestMethodTypehints\FooMethodTypehints::lorem() has invalid type TestMethodTypehints\BarMethodTypehints.
+Parameter $cb of method TestMethodTypehints\CallableTypehints::doFoo() has invalid type TestMethodTypehints\Bla.
+Parameter $cb of method TestMethodTypehints\CallableTypehints::doFoo() has invalid type TestMethodTypehints\Ble.
+Parameter $i of method NamedArgumentsMethod\Foo::doBaz() is passed by reference, so it expects variables only.
+Parameter $int of method EnumsTypehints\Foo::doFoo() has invalid type EnumsTypehints\intt.
+Parameter $iterable of method TestMethodTypehints\IterableTypehints::doFoo() has invalid type TestMethodTypehints\AnotherNonexistentClass.
+Parameter $iterable of method TestMethodTypehints\IterableTypehints::doFoo() has invalid type TestMethodTypehints\NonexistentClass.
+Parameter $j of method NamedArgumentsMethod\Foo::doFoo() expects int, string given.
+Parameter $p of method ParamOutClassesMethods\Bar::doFoo() has invalid type ParamOutClassesMethods\Nonexistent.
+Parameter $param is passed by reference so it does not accept readonly property ReadonlyPropertyPassedByRef\Foo::$bar.
+Parameter $param of method VoidParameterTypehintMethod\Foo::doFoo() has invalid type void.
+Parameter $parent of method TestMethodTypehints\FooMethodTypehints::parentWithoutParent() has invalid type parent.
+Parameter $parent of method TestMethodTypehints\FooMethodTypehints::phpDocParentWithoutParent() has invalid type parent.
+Parameter $q of method ParamOutClassesMethods\Bar::doFoo() has invalid type ParamOutClassesMethods\FooTrait.
+Private constructor cannot be enforced as consistent for child classes.
+Private method Bug12137\ChildClass::__construct() overriding protected method Bug12137\ParentClass::__construct() should be protected or public.
+Private method FinalPrivateMethodConfigPhpVersions\PhpVersionViaNEONConfg::foo() cannot be final as it is never overridden by other classes.
+Private method FinalPrivateMethodPhpVersions\FooBarBaz::foo() cannot be final as it is never overridden by other classes.
+Private method FinalPrivateMethodPhpVersions\FooBarPhp74OrHigher::foo() cannot be final as it is never overridden by other classes.
+Private method FinalPrivateMethodPhpVersions\FooBarPhp8orHigher::foo() cannot be final as it is never overridden by other classes.
+Private method OverridingFinalMethod\Bar::doBar() overriding public method OverridingFinalMethod\Foo::doBar() should also be public.
+Private method OverridingFinalMethod\Bar::doLorem() overriding protected method OverridingFinalMethod\Foo::doLorem() should be protected or public.
+Private method PrivateAbstractMethod\HelloWorld::sayPrivate() cannot be abstract.
+Private method PrivateAbstractMethod\fooInterface::sayPrivate() cannot be abstract.
+Protected method OverridingFinalMethod\Bar::doBaz() overriding public method OverridingFinalMethod\Foo::doBaz() should also be public.
+Regular method call detected
+Result of method Closure::call() (void) is used.
+Result of method MatchExprVoidUsed\Foo::doBar() (void) is used.
+Result of method MatchExprVoidUsed\Foo::doLorem() (void) is used.
+Result of method Test\Bar::returnsVoid() (void) is used.
+Result of method Test\ReturningSomethingFromConstructor::__construct() (void) is used.
+Return type (($p is int ? stdClass : string)) of method OverridenMethodWithConditionalReturnType\Bar2::doFoo() should be compatible with return type (($p is int ? int : string)) of method OverridenMethodWithConditionalReturnType\Foo::doFoo()
+Return type (Bug3523\Baz) of method Bug3523\Baz::deserialize() should be covariant with return type (static(Bug3523\FooInterface)) of method Bug3523\FooInterface::deserialize()
+Return type (MethodSignature\Animal) of method MethodSignature\SubClass::returnTypeTest4() should be covariant with return type (MethodSignature\Dog) of method MethodSignature\BaseClass::returnTypeTest4()
+Return type (MethodSignature\Animal) of method MethodSignature\SubClass::returnTypeTest4() should be covariant with return type (MethodSignature\Dog) of method MethodSignature\BaseInterface::returnTypeTest4()
+Return type (MethodSignature\Animal) of method MethodSignature\SubClassUsingTrait::returnTypeTest4() should be covariant with return type (MethodSignature\Dog) of method MethodSignature\BaseClass::returnTypeTest4()
+Return type (MethodSignature\Animal) of method MethodSignature\SubClassUsingTrait::returnTypeTest4() should be covariant with return type (MethodSignature\Dog) of method MethodSignature\BaseInterface::returnTypeTest4()
+Return type (MethodSignature\Cat) of method MethodSignature\SubClass::returnTypeTest5() should be compatible with return type (MethodSignature\Dog) of method MethodSignature\BaseClass::returnTypeTest5()
+Return type (MethodSignature\Cat) of method MethodSignature\SubClass::returnTypeTest5() should be compatible with return type (MethodSignature\Dog) of method MethodSignature\BaseInterface::returnTypeTest5()
+Return type (MethodSignature\Cat) of method MethodSignature\SubClassUsingTrait::returnTypeTest5() should be compatible with return type (MethodSignature\Dog) of method MethodSignature\BaseClass::returnTypeTest5()
+Return type (MethodSignature\Cat) of method MethodSignature\SubClassUsingTrait::returnTypeTest5() should be compatible with return type (MethodSignature\Dog) of method MethodSignature\BaseInterface::returnTypeTest5()
+Return type (array<PHPStan\Rules\IdentifierRuleError>) of method RuleErrorSignature\Dolor::processNode() should be covariant with return type (list<PHPStan\Rules\IdentifierRuleError>) of method PHPStan\Rules\Rule<PhpParser\Node>::processNode()
+Return type (array<PHPStan\Rules\RuleError>) of method RuleErrorSignature\Ipsum::processNode() should be covariant with return type (list<PHPStan\Rules\IdentifierRuleError>) of method PHPStan\Rules\Rule<PhpParser\Node>::processNode()
+Return type (array<PHPStan\Rules\RuleError|string>) of method RuleErrorSignature\Baz::processNode() should be covariant with return type (list<PHPStan\Rules\IdentifierRuleError>) of method PHPStan\Rules\Rule<PhpParser\Node>::processNode()
+Return type (array<int, string>) of method ListReturnTypeCovariance\ListChild::returnsList() should be covariant with return type (list<string>) of method ListReturnTypeCovariance\ListParent::returnsList()
+Return type (array<string>) of method RuleErrorSignature\Lorem::processNode() should be compatible with return type (list<PHPStan\Rules\IdentifierRuleError>) of method PHPStan\Rules\Rule<PhpParser\Node>::processNode()
+Return type (int) of method Bug3997\Baz::count() should be covariant with return type (int<0, max>) of method Countable::count()
+Return type (int) of method Bug3997\Lorem::count() should be covariant with return type (int<0, max>) of method Countable::count()
+Return type (list<Bug4707Covariant\Row2>) of method Bug4707Covariant\Block2::getChildren() should be covariant with return type (list<Bug4707Covariant\ChildNodeInterface<static(Bug4707Covariant\ParentNodeInterface)>>) of method Bug4707Covariant\ParentNodeInterface::getChildren()
+Return type (list<Bug4707\Row2>) of method Bug4707\Block2::getChildren() should be compatible with return type (list<Bug4707\ChildNodeInterface<static(Bug4707\ParentNodeInterface)>>) of method Bug4707\ParentNodeInterface::getChildren()
+Return type (string) of method Bug3997\Ipsum::count() should be compatible with return type (int<0, max>) of method Countable::count()
+Return type (string) of method Bug4003\Baz::foo() should be compatible with return type (int) of method Bug4003\Boo::foo()
+Return type Bug10153\MyClass2|null of method Bug10153\MyClass2::drc() is not covariant with return type Bug10153\MyClass2 of method Bug10153\MyTrait::drc().
+Return type Bug10166\ReturnTypeClass2|null of method Bug10166\ReturnTypeClass2::createSelf() is not covariant with return type Bug10166\ReturnTypeClass2 of method Bug10166\ReturnTypeTrait::createSelf().
+Return type Exception of method ReturnTypeCovariance\Bar::doLorem() is not compatible with return type InvalidArgumentException of method ReturnTypeCovariance\Foo::doLorem().
+Return type Exception of method ReturnTypeCovariance\Bar::doLorem() is not covariant with return type InvalidArgumentException of method ReturnTypeCovariance\Foo::doLorem().
+Return type InvalidArgumentException of method ReturnTypeCovariance\Bar::doBaz() is not compatible with return type Exception of method ReturnTypeCovariance\Foo::doBaz().
+Return type iterable of method ReturnTypeCovariance\Bar::doBar() is not compatible with return type array of method ReturnTypeCovariance\Foo::doBar().
+Return type iterable of method ReturnTypeCovariance\Bar::doBar() is not covariant with return type array of method ReturnTypeCovariance\Foo::doBar().
+Return type mixed of method Bug10101\B::next() is not covariant with return type void of method Bug10101\A::next().
+Return type mixed of method Bug7652\Options::offsetGet() is not covariant with tentative return type mixed of method ArrayAccess<key-of<TArray of array>,value-of<TArray of array>>::offsetGet().
+Return type mixed of method Bug8081\three::foo() is not covariant with return type array of method Bug8081\two::foo().
+Return type mixed of method Bug8500\DBOHB::test() is not covariant with return type Bug8500\DBOA of method Bug8500\DBOHA::test().
+Return type mixed of method Bug9014\extended::renderForUser() is not covariant with return type string of method Bug9014\middle::renderForUser().
+Return type mixed of method Bug9615\ExpectComplaintsHere::accept() is not covariant with tentative return type bool of method FilterIterator<mixed,mixed,Traversable<mixed, mixed>>::accept().
+Return type mixed of method Bug9615\ExpectComplaintsHere::getChildren() is not covariant with tentative return type RecursiveIterator|null of method RecursiveIterator<mixed,mixed>::getChildren().
+Return type mixed of method OverridingIndirectPrototype\Baz::doFoo() is not covariant with return type string of method OverridingIndirectPrototype\Bar::doFoo().
+Return type mixed of method ReturnTypeCovariance\B::foo() is not compatible with return type stdClass|null of method ReturnTypeCovariance\A::foo().
+Return type mixed of method ReturnTypeCovariance\B::foo() is not covariant with return type stdClass|null of method ReturnTypeCovariance\A::foo().
+Return type mixed of method TentativeReturnTypes\Foo::getIterator() is not covariant with tentative return type Traversable of method IteratorAggregate<mixed,mixed>::getIterator().
+Return type mixed of method TentativeReturnTypes\UntypedIterator::current() is not covariant with tentative return type mixed of method Iterator<mixed,mixed>::current().
+Return type mixed of method TentativeReturnTypes\UntypedIterator::key() is not covariant with tentative return type mixed of method Iterator<mixed,mixed>::key().
+Return type mixed of method TentativeReturnTypes\UntypedIterator::next() is not covariant with tentative return type void of method Iterator<mixed,mixed>::next().
+Return type mixed of method TentativeReturnTypes\UntypedIterator::rewind() is not covariant with tentative return type void of method Iterator<mixed,mixed>::rewind().
+Return type mixed of method TentativeReturnTypes\UntypedIterator::valid() is not covariant with tentative return type bool of method Iterator<mixed,mixed>::valid().
+Return type of call to method GenericReturnTypeNever\Foo::doBar() contains unresolvable type.
+Return type of call to method GenericReturnTypeNever\Foo::doBazBaz() contains unresolvable type.
+Return type string of method OverridingParle\Foo::pushState() is not compatible with return type int of method Parle\RLexer::pushState().
+Return type string of method OverridingParle\Foo::pushState() is not covariant with return type int of method Parle\RLexer::pushState().
+Return type string of method TentativeReturnTypes\Lorem::getIterator() is not covariant with tentative return type Traversable of method IteratorAggregate<mixed,mixed>::getIterator().
+Static call to instance method CallStaticMethods\Foo::loremIpsum().
+Static call to instance method CallStaticMethods\InterfaceWithStaticMethod::doInstanceFoo().
+Static call to instance method StaticCallsToInstanceMethods\Bar::doBar().
+Static call to instance method StaticCallsToInstanceMethods\Foo::doFoo().
+Static call to instance method StaticMethodCallable\Foo::doBar().
+Static method Bug3641\Foo::bar() invoked with 1 parameter, 0 required.
+Static method CallStaticMethods\ClassOrString::calledMethod() invoked with 1 parameter, 0 required.
+Static method CallStaticMethods\Foo::test() invoked with 1 parameter, 0 required.
+Static method CallStaticMethods\Foo::test() invoked with 3 parameters, 0 required.
+Static method Locale::getDisplayLanguage() invoked with 3 parameters, 1-2 required.
+Static method OverridingFinalMethod\Bar::doDolor() overrides non-static method OverridingFinalMethod\Foo::doDolor().
+Static method OverridingTraitMethods\Ipsum::doBar() overrides non-static method OverridingTraitMethods\Foo::doBar().
+Template type T of method MethodConditionalReturnType\Container::notGet() is not referenced in a parameter.
+Template type T of method ParamOutTemplate\FooBar::uselessLocalTemplate() is not referenced in a parameter.
+Template type U of method Bug4641\I::getRepository() is not referenced in a parameter.
+Template type U of method TestMethodTypehints\TemplateTypeMissingInParameter::doFoo() is not referenced in a parameter.
+Unable to resolve the template type T in call to method OnlyRelevantUnableToResolve\Foo::doBaz()
+Unable to resolve the template type T in call to method Test\ClassStringWithUpperBounds::doFoo()
+Unable to resolve the template type T in call to method Test\InvalidReturnTypeUsingArrayTemplateTypeBound::bar()
+Unable to resolve the template type T in call to static method TemplateTypeInOneBranchOfConditional\DriverManager::getConnection()
+Unknown parameter $className in call to method PDO::query().
+Unknown parameter $className in call to method PDOStatement::setFetchMode().
+Unknown parameter $colno in call to method PDO::query().
+Unknown parameter $constructorArgs in call to method PDO::query().
+Unknown parameter $options in call to method XSLTProcessor::setParameter().
+Unknown parameter $z in call to method NamedArgumentsMethod\Foo::doFoo().
+Unknown parameter $z in call to static method StaticMethodNamedArguments\Foo::doFoo().
+Unpacked argument (...) cannot be followed by a non-unpacked argument.
+Unsafe call to private method CallPrivateMethodThroughStatic\Foo::doBar() through static::.
+Using nullsafe method call on non-nullable type $this(Bug14150NullsafeMethod\HelloWorld). Use -> instead.
+Using nullsafe method call on non-nullable type Exception. Use -> instead.

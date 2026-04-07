@@ -1,0 +1,49 @@
+A class constant must not be called 'class'; it is reserved for class name fetching.
+Attributes on global constants are supported only on PHP 8.5 and later.
+Class constant name in dynamic fetch can only be a string, int given.
+Class constant name in dynamic fetch can only be a string, int|string given.
+Class constant name in dynamic fetch can only be a string, string|null given.
+Constant Bug10212\HelloWorld::B (Bug10212\X\Foo) does not accept value Bug10212\Foo::Bar.
+Constant ClassConstantNativeTypeForMissingTypehintRule\Foo::B type has no value type specified in iterable type array.
+Constant ClassConstantNativeTypeForMissingTypehintRule\Foo::D with generic class ClassConstantNativeTypeForMissingTypehintRule\Bar does not specify its types: T
+Constant DEFINED_CONSTANT_IF not found.
+Constant MissingClassConstantTypehint\Foo::BAR type has no value type specified in iterable type array.
+Constant MissingClassConstantTypehint\Foo::BAZ with generic class MissingClassConstantTypehint\Bar does not specify its types: T
+Constant MissingClassConstantTypehint\Foo::LOREM type has no signature specified for callable.
+Constant NONEXISTENT_CONSTANT not found.
+Constant OverridingConstantNativeTypes\Ipsum::B overriding constant OverridingConstantNativeTypes\Lorem::B (int) should also have native type int.
+Constant OverridingConstantNativeTypes\PharChild::BZ2 overriding constant Phar::BZ2 (int) should also have native type int.
+Constant OverridingFinalConstant\Bar::BAR overrides final constant OverridingFinalConstant\Foo::BAR.
+Constant OverridingFinalConstant\Bar::FOO overrides final constant OverridingFinalConstant\Foo::FOO.
+Constant OverridingFinalConstant\Baz::BAR overrides final constant OverridingFinalConstant\FooInterface::BAR.
+Constant REMEMBERED_FOO not found.
+Constant TEST not found.
+Constant ValueAssignedToClassConstantNativeType\Bar::BAR (int<1, max>) does not accept value 0.
+Constant ValueAssignedToClassConstantNativeType\Floats::BAR (int) does not accept value 1.0.
+Constant ValueAssignedToClassConstantNativeType\Foo::BAR (int) does not accept value 'bar'.
+Constant XYZ not found.
+Constant XYZ22 not found.
+Constant XYZ33 not found.
+Constant __COMPILER_HALT_OFFSET__ not found.
+ConstantAttributesRule requires PHP 8.5 runtime to check the code.
+Final class constants are supported only on PHP 8.1 and later.
+Magic constant __CLASS__ is always empty outside a class.
+Magic constant __FUNCTION__ is always empty outside a function.
+Magic constant __METHOD__ is always empty outside a function.
+Magic constant __NAMESPACE__ is always empty in global namespace.
+Magic constant __TRAIT__ is always empty outside a trait.
+Native type int|string of constant OverridingConstantNativeTypes\Bar::D is not covariant with native type int of constant OverridingConstantNativeTypes\Foo::D.
+Native type int|string of constant OverridingConstantNativeTypes\PharChild::NONE is not covariant with native type int of constant Phar::NONE.
+PHPDoc tag @var for constant ValueAssignedToClassConstantNativeType\Floats::BAZ with type float is incompatible with value 1.
+PHPDoc tag @var for constant ValueAssignedToClassConstant\Bar::BAZ with type string is incompatible with value 2.
+PHPDoc tag @var for constant ValueAssignedToClassConstant\Foo::BAZ with type string is incompatible with value 1.
+PHPDoc tag @var for constant ValueAssignedToClassConstant\Foo::DOLOR with type ValueAssignedToClassConstant\Foo<int> is incompatible with value 1.
+Private constant FinalPrivateConstants\User::FINAL_PRIVATE() cannot be final as it is never overridden by other classes.
+Private constant OverridingFinalConstant\PrivateDolor::ANOTHER_PUBLIC_CONST overriding public constant OverridingFinalConstant\Dolor::ANOTHER_PUBLIC_CONST should also be public.
+Private constant OverridingFinalConstant\PrivateDolor::PROTECTED_CONST overriding protected constant OverridingFinalConstant\Dolor::PROTECTED_CONST should be protected or public.
+Private constant OverridingFinalConstant\PrivateDolor::PUBLIC_CONST overriding public constant OverridingFinalConstant\Dolor::PUBLIC_CONST should also be public.
+Protected constant OverridingFinalConstant\ProtectedDolor::ANOTHER_PUBLIC_CONST overriding public constant OverridingFinalConstant\Dolor::ANOTHER_PUBLIC_CONST should also be public.
+Protected constant OverridingFinalConstant\ProtectedDolor::PUBLIC_CONST overriding public constant OverridingFinalConstant\Dolor::PUBLIC_CONST should also be public.
+Type int|string of constant OverridingConstant\Bar::IPSUM is not covariant with type int of constant OverridingConstant\Foo::IPSUM.
+Type string of constant OverridingConstant\Bar::BAR is not covariant with type int of constant OverridingConstant\Foo::BAR.
+Type string of constant OverridingFinalConstant\Lorem::FOO is not covariant with type int of constant OverridingFinalConstant\BarInterface::FOO.

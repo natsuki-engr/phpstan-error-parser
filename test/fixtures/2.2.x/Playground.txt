@@ -1,0 +1,23 @@
+Class PromoteParameter\Foo has an uninitialized property $test. Give it default value or assign it in the constructor.
+Comment contains PHPDoc tag but does not start with /** prefix.
+Function FunctionNever\callsNever() always terminates script execution, it should have return type "never".
+Function FunctionNever\doBar() always throws an exception, it should have return type "never".
+Function FunctionNever\doBaz() always terminates script execution, it should have return type "never".
+Key '1' (string) will be cast to 1 (int) in the array access.
+Key '1' (string) will be cast to 1 (int) in the array.
+Key '10' (string) will be cast to 10 (int) in the array access.
+Key '10' (string) will be cast to 10 (int) in the array.
+Key 2.5 (float) will be cast to 2 (int) in the array access.
+Key 2.5 (float) will be cast to 2 (int) in the array.
+Key false (bool) will be cast to 0 (int) in the array access.
+Key false (bool) will be cast to 0 (int) in the array.
+Key null (null) will be cast to '' (string) in the array access.
+Key null (null) will be cast to '' (string) in the array.
+Key true (bool) will be cast to 1 (int) in the array access.
+Key true (bool) will be cast to 1 (int) in the array.
+Method MethodNever\Foo::callsNever() always terminates script execution, it should have return type "never".
+Method MethodNever\Foo::doBar() always throws an exception, it should have return type "never".
+Method MethodNever\Foo::doBaz() always terminates script execution, it should have return type "never".
+Method PromoteMissingOverride\Bar::doFoo() overrides method PromoteMissingOverride\Foo::doFoo() but is missing the #[\Override] attribute.
+Static variable needs to be typed with PHPDoc @var tag.
+The example does not contain any PHP code. Did you forget the opening <?php tag?

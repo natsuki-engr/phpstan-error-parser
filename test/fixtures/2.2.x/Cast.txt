@@ -1,0 +1,29 @@
+Cannot cast T to float.
+Cannot cast T to int.
+Cannot cast T to string.
+Cannot cast Test\Foo to string.
+Cannot cast array|float|int to string.
+Cannot cast mixed to float.
+Cannot cast mixed to int.
+Cannot cast mixed to string.
+Cannot cast object to string.
+Cannot cast object|string to string.
+Cannot cast stdClass to float.
+Cannot cast stdClass to int.
+Cannot cast stdClass to string.
+Cannot cast stdClass|null to string.
+Parameter #1 ('string'|array{'string'}) of echo cannot be converted to string.
+Parameter #1 (Closure(): void) of echo cannot be converted to string.
+Parameter #1 (array<int>|null) of echo cannot be converted to string.
+Parameter #1 (array{}) of echo cannot be converted to string.
+Parameter #1 (stdClass) of echo cannot be converted to string.
+Parameter #2 (stdClass) of echo cannot be converted to string.
+Parameter 'string'|array{'string'} of print cannot be converted to string.
+Parameter Closure(): void of print cannot be converted to string.
+Parameter array<int>|null of print cannot be converted to string.
+Parameter array{} of print cannot be converted to string.
+Parameter stdClass of print cannot be converted to string.
+Part $bar?->obj (stdClass|null) of encapsed string cannot be cast to string.
+Part $std (stdClass) of encapsed string cannot be cast to string.
+The (unset) cast is no longer supported in PHP 8.0 and later.
+The (void) cast is supported only on PHP 8.5 and later.

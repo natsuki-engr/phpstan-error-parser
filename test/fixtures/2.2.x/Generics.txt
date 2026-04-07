@@ -1,0 +1,238 @@
+Call-site variance annotation of covariant EnumGenericAncestors\NonGeneric in generic type EnumGenericAncestors\Generic<covariant EnumGenericAncestors\NonGeneric, int> in PHPDoc tag @implements is not allowed.
+Call-site variance annotation of covariant LogicException in generic type InterfaceAncestorsExtends\FooGeneric<int, covariant LogicException> in PHPDoc tag @extends is not allowed.
+Call-site variance annotation of covariant Throwable in generic type ClassAncestorsExtends\FooGeneric<covariant Throwable, InvalidArgumentException> in PHPDoc tag @extends is not allowed.
+Call-site variance annotation of covariant Throwable in generic type ClassAncestorsImplements\FooGeneric<covariant Throwable, InvalidArgumentException> in PHPDoc tag @implements is not allowed.
+Call-site variance annotation of covariant Throwable in generic type UsedTraits\GenericTrait<covariant Throwable> in PHPDoc tag @use is not allowed.
+Call-site variance of contravariant int in generic type ClassTemplateType\Consecteur<contravariant int> in PHPDoc tag @template W is in conflict with covariant template type T of class ClassTemplateType\Consecteur.
+Call-site variance of contravariant int in generic type FunctionTemplateType\GenericCovariant<contravariant int> in PHPDoc tag @template W is in conflict with covariant template type T of class FunctionTemplateType\GenericCovariant.
+Call-site variance of contravariant int in generic type InterfaceTemplateType\Covariant<contravariant int> in PHPDoc tag @template W is in conflict with covariant template type T of interface InterfaceTemplateType\Covariant.
+Call-site variance of contravariant int in generic type MethodTemplateType\Dolor<contravariant int> in PHPDoc tag @template W is in conflict with covariant template type T of class MethodTemplateType\Dolor.
+Call-site variance of contravariant int in generic type TraitTemplateType\Dolor<contravariant int> in PHPDoc tag @template W is in conflict with covariant template type T of class TraitTemplateType\Dolor.
+Call-site variance of covariant int in generic type ClassTemplateType\Consecteur<covariant int> in PHPDoc tag @template U is redundant, template type T of class ClassTemplateType\Consecteur has the same variance.
+Call-site variance of covariant int in generic type FunctionTemplateType\GenericCovariant<covariant int> in PHPDoc tag @template U is redundant, template type T of class FunctionTemplateType\GenericCovariant has the same variance.
+Call-site variance of covariant int in generic type InterfaceTemplateType\Covariant<covariant int> in PHPDoc tag @template U is redundant, template type T of interface InterfaceTemplateType\Covariant has the same variance.
+Call-site variance of covariant int in generic type MethodTemplateType\Dolor<covariant int> in PHPDoc tag @template U is redundant, template type T of class MethodTemplateType\Dolor has the same variance.
+Call-site variance of covariant int in generic type TraitTemplateType\Dolor<covariant int> in PHPDoc tag @template U is redundant, template type T of class TraitTemplateType\Dolor has the same variance.
+Class Bug11552\SomeResult @extends tag contains unresolvable type.
+Class ClassAncestorsExtends\FilterIteratorChild extends generic class FilterIterator but does not specify its types: TKey, TValue, TIterator
+Class ClassAncestorsExtends\FooCollection @extends tag contains incompatible type ClassAncestorsExtends\FooCollection&iterable<int>.
+Class ClassAncestorsExtends\FooCollection extends generic class ClassAncestorsExtends\AbstractFooCollection but does not specify its types: T
+Class ClassAncestorsExtends\FooDoesNotExtendAnything has @extends tag, but does not extend any class.
+Class ClassAncestorsExtends\FooExtendsGenericClass extends generic class ClassAncestorsExtends\FooGeneric but does not specify its types: T, U
+Class ClassAncestorsExtends\FooObjectStorage @extends tag contains incompatible type ClassAncestorsExtends\FooObjectStorage.
+Class ClassAncestorsExtends\FooObjectStorage extends generic class SplObjectStorage but does not specify its types: TObject, TData
+Class ClassAncestorsExtends\FooWrongClassExtended extends generic class ClassAncestorsExtends\FooGeneric but does not specify its types: T, U
+Class ClassAncestorsExtends\FooWrongTypeInExtendsTag @extends tag contains incompatible type class-string<ClassAncestorsExtends\T>.
+Class ClassAncestorsExtends\FooWrongTypeInExtendsTag extends generic class ClassAncestorsExtends\FooGeneric but does not specify its types: T, U
+Class ClassAncestorsImplements\FooCollection @implements tag contains incompatible type ClassAncestorsImplements\FooCollection&iterable<int>.
+Class ClassAncestorsImplements\FooCollection implements generic interface ClassAncestorsImplements\AbstractFooCollection but does not specify its types: T
+Class ClassAncestorsImplements\FooDoesNotImplementAnything has @implements tag, but does not implement any interface.
+Class ClassAncestorsImplements\FooImplementsGenericInterface implements generic interface ClassAncestorsImplements\FooGeneric but does not specify its types: T, U
+Class ClassAncestorsImplements\FooIterator @implements tag contains incompatible type ClassAncestorsImplements\FooIterator&iterable<int, object>.
+Class ClassAncestorsImplements\FooIterator implements generic interface Iterator but does not specify its types: TKey, TValue
+Class ClassAncestorsImplements\FooWrongClassImplemented implements generic interface ClassAncestorsImplements\FooGeneric but does not specify its types: T, U
+Class ClassAncestorsImplements\FooWrongClassImplemented implements generic interface ClassAncestorsImplements\FooGeneric3 but does not specify its types: T, W
+Class ClassAncestorsImplements\FooWrongTypeInImplementsTag @implements tag contains incompatible type class-string<ClassAncestorsImplements\T>.
+Class ClassAncestorsImplements\FooWrongTypeInImplementsTag implements generic interface ClassAncestorsImplements\FooGeneric but does not specify its types: T, U
+Class ClassTemplateType\Baz referenced with incorrect case: ClassTemplateType\baz.
+Class UsedTraits\Baz uses generic trait UsedTraits\GenericTrait but does not specify its types: T
+Default type bool in PHPDoc tag @template T for class ClassTemplateType\Venenatis is not subtype of bound type object.
+Default type bool in PHPDoc tag @template T for function FunctionTemplateType\outOfBoundsDefault() is not subtype of bound type object.
+Default type bool in PHPDoc tag @template T for interface InterfaceTemplateType\OutOfBoundsDefault is not subtype of bound type object.
+Default type bool in PHPDoc tag @template T for method MethodTemplateType\InvalidDefault::outOfBounds() is not subtype of bound type object.
+Default type bool in PHPDoc tag @template T for trait TraitTemplateType\Elit is not subtype of bound type object.
+Enum EnumGenericAncestors\Foo has @implements tag, but does not implement any interface.
+Enum EnumGenericAncestors\Foo4 implements generic interface EnumGenericAncestors\Generic but does not specify its types: T, U
+Enum EnumGenericAncestors\Foo7 has @extends tag, but cannot extend anything.
+Enum EnumTemplate\Bar has PHPDoc @template tags but enums cannot be generic.
+Enum EnumTemplate\Foo has PHPDoc @template tag but enums cannot be generic.
+Generic type ClassAncestorsExtends\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @extends specifies 3 template types, but class ClassAncestorsExtends\FooGeneric supports only 2: T, U
+Generic type ClassAncestorsExtends\FooGeneric<int> in PHPDoc tag @extends does not specify all template types of class ClassAncestorsExtends\FooGeneric: T, U
+Generic type ClassAncestorsImplements\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @implements specifies 3 template types, but interface ClassAncestorsImplements\FooGeneric supports only 2: T, U
+Generic type ClassAncestorsImplements\FooGeneric<int> in PHPDoc tag @implements does not specify all template types of interface ClassAncestorsImplements\FooGeneric: T, U
+Generic type EnumGenericAncestors\Generic<stdClass> in PHPDoc tag @implements does not specify all template types of interface EnumGenericAncestors\Generic: T, U
+Generic type InterfaceAncestorsExtends\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @extends specifies 3 template types, but interface InterfaceAncestorsExtends\FooGeneric supports only 2: T, U
+Generic type InterfaceAncestorsExtends\FooGeneric<int> in PHPDoc tag @extends does not specify all template types of interface InterfaceAncestorsExtends\FooGeneric: T, U
+Generic type UsedTraits\GenericTrait<stdClass, Exception> in PHPDoc tag @use specifies 2 template types, but trait UsedTraits\GenericTrait supports only 1: T
+Interface InterfaceAncestorsExtends\ExtendsGenericInterface extends generic interface InterfaceAncestorsExtends\FooGeneric but does not specify its types: T, U
+Interface InterfaceAncestorsExtends\FooDoesNotImplementAnything has @extends tag, but does not extend any interface.
+Interface InterfaceAncestorsExtends\FooWrongClassImplemented extends generic interface InterfaceAncestorsExtends\FooGeneric but does not specify its types: T, U
+Interface InterfaceAncestorsExtends\FooWrongClassImplemented extends generic interface InterfaceAncestorsExtends\FooGeneric3 but does not specify its types: T, W
+Interface InterfaceAncestorsExtends\FooWrongTypeInImplementsTag @extends tag contains incompatible type class-string<InterfaceAncestorsExtends\T>.
+Interface InterfaceAncestorsExtends\FooWrongTypeInImplementsTag extends generic interface InterfaceAncestorsExtends\FooGeneric but does not specify its types: T, U
+Interface InterfaceAncestorsImplements\FooAlsoNotSubtype has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooCorrect has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooDoesNotImplementAnything has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooExtraTypes has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric2 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric3 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric4 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric5 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric6 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric7 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooGenericGeneric8 has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooInvalidImplementsTags has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooNotEnough has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooNotSubtype has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooTypeProjection has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooUnknownClass has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooWrongClassImplemented has @implements tag, but can not implement any interface, must extend from it.
+Interface InterfaceAncestorsImplements\FooWrongTypeInImplementsTag @implements tag contains incompatible type class-string<InterfaceAncestorsImplements\T>.
+Interface IteratorAggregate specifies template type TValue of interface Traversable as string but it's already specified as CrossCheckInterfacesEnums\Item.
+Interface IteratorAggregate specifies template type TValue of interface Traversable as string but it's already specified as CrossCheckInterfacesInInterfaces\Item.
+Interface IteratorAggregate specifies template type TValue of interface Traversable as string but it's already specified as CrossCheckInterfaces\Item.
+PHPDoc tag @extends has invalid type ClassAncestorsExtends\FooTrait.
+PHPDoc tag @extends has invalid type ClassAncestorsExtends\Zazzuuuu.
+PHPDoc tag @extends has invalid type InterfaceAncestorsExtends\Zazzuuuu.
+PHPDoc tag @implements contains generic type EnumGenericAncestors\NonGeneric<int> but interface EnumGenericAncestors\NonGeneric is not generic.
+PHPDoc tag @implements has invalid type ClassAncestorsImplements\Zazzuuuu.
+PHPDoc tag @method template T for method MethodTagTemplate\HelloWorld::sayHello() shadows @template T for class MethodTagTemplate\HelloWorld.
+PHPDoc tag @method template T for method MethodTagTraitTemplate\HelloWorld::sayHello() shadows @template T for class MethodTagTraitTemplate\HelloWorld.
+PHPDoc tag @method template U for method MethodTagTemplate\HelloWorld::sayHello() has invalid bound type MethodTagTemplate\Nonexisting.
+PHPDoc tag @method template U for method MethodTagTraitTemplate\HelloWorld::sayHello() has invalid bound type MethodTagTraitTemplate\Nonexisting.
+PHPDoc tag @method template for method MethodTagTemplate\HelloWorld::sayHello() cannot have existing class stdClass as its name.
+PHPDoc tag @method template for method MethodTagTemplate\HelloWorld::typeAlias() cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @method template for method MethodTagTraitTemplate\HelloWorld::sayHello() cannot have existing class stdClass as its name.
+PHPDoc tag @method template for method MethodTagTraitTemplate\HelloWorld::typeAlias() cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @template T for anonymous class has invalid bound type ClassTemplateType\Zazzzu.
+PHPDoc tag @template T for class ClassTemplateType\Bar has invalid bound type ClassTemplateType\Zazzzu.
+PHPDoc tag @template T for class ClassTemplateType\Elit has invalid default type ClassTemplateType\Zazzzu.
+PHPDoc tag @template T for function FunctionTemplateType\bar() has invalid bound type FunctionTemplateType\Zazzzu.
+PHPDoc tag @template T for function FunctionTemplateType\invalidDefault() has invalid default type FunctionTemplateType\Zazzzu.
+PHPDoc tag @template T for function FunctionTemplateType\resourceBound() with bound type resource is not supported.
+PHPDoc tag @template T for interface InterfaceTemplateType\Bar has invalid bound type InterfaceTemplateType\Zazzzu.
+PHPDoc tag @template T for interface InterfaceTemplateType\InvalidDefault has invalid default type InterfaceTemplateType\Zazzzu.
+PHPDoc tag @template T for method MethodTemplateType\Bar::doFoo() shadows @template T of Exception for class MethodTemplateType\Bar.
+PHPDoc tag @template T for method MethodTemplateType\Foo::doBar() has invalid bound type MethodTemplateType\Zazzzu.
+PHPDoc tag @template T for method MethodTemplateType\InvalidDefault::invalid() has invalid default type MethodTemplateType\Zazzzu.
+PHPDoc tag @template T for trait TraitTemplateType\Adipiscing has invalid default type TraitTemplateType\Zazzzu.
+PHPDoc tag @template T for trait TraitTemplateType\Bar has invalid bound type TraitTemplateType\Zazzzu.
+PHPDoc tag @template U bound contains generic type NestedGenericTypesClassCheck\NotGeneric<mixed> but interface NestedGenericTypesClassCheck\NotGeneric is not generic.
+PHPDoc tag @template V bound has type NestedGenericTypesClassCheck\MultipleGenerics<stdClass> which does not specify all template types of interface NestedGenericTypesClassCheck\MultipleGenerics: T, U
+PHPDoc tag @template V for class ClassTemplateType\Mauris does not have a default type but follows an optional @template U.
+PHPDoc tag @template V for function FunctionTemplateType\requiredAfterOptional() does not have a default type but follows an optional @template U.
+PHPDoc tag @template V for interface InterfaceTemplateType\RequiredAfterOptional does not have a default type but follows an optional @template U.
+PHPDoc tag @template V for method MethodTemplateType\InvalidDefault::requiredAfterOptional() does not have a default type but follows an optional @template U.
+PHPDoc tag @template V for trait TraitTemplateType\Consecteur does not have a default type but follows an optional @template U.
+PHPDoc tag @template W bound has type NestedGenericTypesClassCheck\MultipleGenerics<stdClass, Exception, SplFileInfo> which specifies 3 template types, but interface NestedGenericTypesClassCheck\MultipleGenerics supports only 2: T, U
+PHPDoc tag @template for anonymous class cannot have existing class stdClass as its name.
+PHPDoc tag @template for anonymous class cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @template for class Bug10049\SimpleEntity cannot have existing class Bug10049\SimpleEntity as its name.
+PHPDoc tag @template for class ClassTemplateType\Dolor cannot have existing type alias ImportedAlias as its name.
+PHPDoc tag @template for class ClassTemplateType\Dolor cannot have existing type alias LocalAlias as its name.
+PHPDoc tag @template for class ClassTemplateType\Foo cannot have existing class stdClass as its name.
+PHPDoc tag @template for class ClassTemplateType\Ipsum cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @template for function FunctionTemplateType\foo() cannot have existing class stdClass as its name.
+PHPDoc tag @template for function FunctionTemplateType\lorem() cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @template for interface InterfaceTemplateType\Foo cannot have existing class stdClass as its name.
+PHPDoc tag @template for interface InterfaceTemplateType\Ipsum cannot have existing type alias ImportedAlias as its name.
+PHPDoc tag @template for interface InterfaceTemplateType\Ipsum cannot have existing type alias LocalAlias as its name.
+PHPDoc tag @template for interface InterfaceTemplateType\Lorem cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @template for method MethodTemplateType\Foo::doFoo() cannot have existing class stdClass as its name.
+PHPDoc tag @template for method MethodTemplateType\Ipsum::doFoo() cannot have existing type alias ImportedAlias as its name.
+PHPDoc tag @template for method MethodTemplateType\Ipsum::doFoo() cannot have existing type alias LocalAlias as its name.
+PHPDoc tag @template for method MethodTemplateType\Lorem::doFoo() cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @template for trait TraitTemplateType\Foo cannot have existing class stdClass as its name.
+PHPDoc tag @template for trait TraitTemplateType\Ipsum cannot have existing type alias ImportedAlias as its name.
+PHPDoc tag @template for trait TraitTemplateType\Ipsum cannot have existing type alias LocalAlias as its name.
+PHPDoc tag @template for trait TraitTemplateType\Lorem cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @use contains generic type UsedTraits\NongenericTrait<stdClass> but trait UsedTraits\NongenericTrait is not generic.
+Template type A is declared as covariant, but occurs in contravariant position in parameter fn of method Bug10609\Collection::tap().
+Template type T is declared as contravariant, but occurs in covariant position in extended type ClassAncestorsExtends\FooGeneric8<T, T> of class ClassAncestorsExtends\FooGeneric10.
+Template type T is declared as contravariant, but occurs in invariant position in extended type ClassAncestorsExtends\FooGeneric8<T, T> of class ClassAncestorsExtends\FooGeneric10.
+Template type T is declared as covariant, but occurs in contravariant position in parameter items of method Bug8880\IProcessor::processItems().
+Template type T is declared as covariant, but occurs in invariant position in extended type ClassAncestorsExtends\FooGeneric8<T, T> of class ClassAncestorsExtends\FooGeneric9.
+Template type T is declared as covariant, but occurs in invariant position in extended type InterfaceAncestorsExtends\FooGeneric9<T, T> of interface InterfaceAncestorsExtends\FooGeneric10.
+Template type T is declared as covariant, but occurs in invariant position in implemented type ClassAncestorsImplements\FooGeneric9<T, T> of class ClassAncestorsImplements\FooGeneric10.
+Template type T is declared as covariant, but occurs in invariant position in parameter thing of method Pr2465\UnitOfTest::foo().
+Template type X is declared as contravariant, but occurs in covariant position in param-out type of parameter a of method MethodSignatureVariance\Contravariant\C::paramOut().
+Template type X is declared as contravariant, but occurs in covariant position in parameter b of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in covariant position in parameter b of method MethodSignatureVariance\StaticMethod\C::a().
+Template type X is declared as contravariant, but occurs in covariant position in parameter d of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in covariant position in parameter g of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in covariant position in property PropertyVariance\ReadOnly\C::$a.
+Template type X is declared as contravariant, but occurs in covariant position in property PropertyVariance\ReadOnly\C::$c.
+Template type X is declared as contravariant, but occurs in covariant position in property PropertyVariance\ReadOnly\D::$a.
+Template type X is declared as contravariant, but occurs in covariant position in return type of method MethodSignatureVariance\Contravariant\C::b().
+Template type X is declared as contravariant, but occurs in covariant position in return type of method MethodSignatureVariance\Contravariant\C::d().
+Template type X is declared as contravariant, but occurs in covariant position in return type of method MethodSignatureVariance\Contravariant\C::g().
+Template type X is declared as contravariant, but occurs in covariant position in return type of method MethodSignatureVariance\Contravariant\C::i().
+Template type X is declared as contravariant, but occurs in covariant position in return type of method MethodSignatureVariance\StaticMethod\C::b().
+Template type X is declared as contravariant, but occurs in covariant position in return type of method MethodSignatureVariance\StaticMethod\C::d().
+Template type X is declared as contravariant, but occurs in invariant position in parameter e of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in invariant position in parameter i of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in invariant position in parameter j of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in invariant position in parameter k of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in invariant position in parameter l of method MethodSignatureVariance\Contravariant\C::a().
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\C::$a.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\C::$b.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\C::$c.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\C::$d.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\Promoted\C::$a.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\Promoted\C::$b.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\Promoted\C::$c.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\Promoted\C::$d.
+Template type X is declared as contravariant, but occurs in invariant position in property PropertyVariance\ReadOnly\C::$d.
+Template type X is declared as contravariant, but occurs in invariant position in return type of method MethodSignatureVariance\Contravariant\C::f().
+Template type X is declared as contravariant, but occurs in invariant position in return type of method MethodSignatureVariance\Contravariant\C::j().
+Template type X is declared as contravariant, but occurs in invariant position in return type of method MethodSignatureVariance\Contravariant\C::k().
+Template type X is declared as contravariant, but occurs in invariant position in return type of method MethodSignatureVariance\Contravariant\C::l().
+Template type X is declared as contravariant, but occurs in invariant position in return type of method MethodSignatureVariance\Contravariant\C::m().
+Template type X is declared as covariant, but occurs in contravariant position in parameter a of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in contravariant position in parameter a of method MethodSignatureVariance\StaticMethod\B::a().
+Template type X is declared as covariant, but occurs in contravariant position in parameter c of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in contravariant position in parameter c of method MethodSignatureVariance\StaticMethod\B::a().
+Template type X is declared as covariant, but occurs in contravariant position in parameter f of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in contravariant position in parameter h of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in contravariant position in property PropertyVariance\ReadOnly\B::$b.
+Template type X is declared as covariant, but occurs in contravariant position in return type of method MethodSignatureVariance\Covariant\C::c().
+Template type X is declared as covariant, but occurs in contravariant position in return type of method MethodSignatureVariance\Covariant\C::e().
+Template type X is declared as covariant, but occurs in contravariant position in return type of method MethodSignatureVariance\Covariant\C::h().
+Template type X is declared as covariant, but occurs in contravariant position in return type of method MethodSignatureVariance\StaticMethod\B::c().
+Template type X is declared as covariant, but occurs in invariant position in parameter e of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in invariant position in parameter i of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in invariant position in parameter j of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in invariant position in parameter k of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in invariant position in parameter l of method MethodSignatureVariance\Covariant\C::a().
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\B::$a.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\B::$b.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\B::$c.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\B::$d.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\Promoted\B::$a.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\Promoted\B::$b.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\Promoted\B::$c.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\Promoted\B::$d.
+Template type X is declared as covariant, but occurs in invariant position in property PropertyVariance\ReadOnly\B::$d.
+Template type X is declared as covariant, but occurs in invariant position in return type of method MethodSignatureVariance\Covariant\C::f().
+Template type X is declared as covariant, but occurs in invariant position in return type of method MethodSignatureVariance\Covariant\C::j().
+Template type X is declared as covariant, but occurs in invariant position in return type of method MethodSignatureVariance\Covariant\C::k().
+Template type X is declared as covariant, but occurs in invariant position in return type of method MethodSignatureVariance\Covariant\C::l().
+Template type X is declared as covariant, but occurs in invariant position in return type of method MethodSignatureVariance\Covariant\C::m().
+The @extends tag of class ClassAncestorsExtends\FooDuplicateExtendsTags describes ClassAncestorsExtends\FooGeneric2 but the class extends ClassAncestorsExtends\FooGeneric.
+The @extends tag of class ClassAncestorsExtends\FooWrongClassExtended describes ClassAncestorsExtends\FooGeneric2 but the class extends ClassAncestorsExtends\FooGeneric.
+The @extends tag of interface InterfaceAncestorsExtends\FooInvalidImplementsTags describes InterfaceAncestorsExtends\FooGeneric2 but the interface extends: InterfaceAncestorsExtends\FooGeneric
+The @extends tag of interface InterfaceAncestorsExtends\FooWrongClassImplemented describes InterfaceAncestorsExtends\FooGeneric2 but the interface extends: InterfaceAncestorsExtends\FooGeneric, InterfaceAncestorsExtends\FooGeneric3
+The @implements tag of class ClassAncestorsImplements\FooInvalidImplementsTags describes ClassAncestorsImplements\FooGeneric2 but the class implements: ClassAncestorsImplements\FooGeneric
+The @implements tag of class ClassAncestorsImplements\FooWrongClassImplemented describes ClassAncestorsImplements\FooGeneric2 but the class implements: ClassAncestorsImplements\FooGeneric, ClassAncestorsImplements\FooGeneric3
+The @use tag of trait UsedTraits\NestedTrait describes UsedTraits\NongenericTrait but the trait uses UsedTraits\GenericTrait.
+Trait UsedTraits\NestedTrait uses generic trait UsedTraits\GenericTrait but does not specify its types: T
+Type Bug3922Ancestors\BarQuery in generic type Bug3922Ancestors\QueryHandlerInterface<string, Bug3922Ancestors\BarQuery> in PHPDoc tag @implements is not subtype of template type TQuery of Bug3922Ancestors\QueryInterface<string> of interface Bug3922Ancestors\QueryHandlerInterface.
+Type Throwable in generic type ClassAncestorsExtends\FooGeneric<int, Throwable> in PHPDoc tag @extends is not subtype of template type U of Exception of class ClassAncestorsExtends\FooGeneric.
+Type Throwable in generic type ClassAncestorsImplements\FooGeneric<int, Throwable> in PHPDoc tag @implements is not subtype of template type U of Exception of interface ClassAncestorsImplements\FooGeneric.
+Type Throwable in generic type InterfaceAncestorsExtends\FooGeneric<int, Throwable> in PHPDoc tag @extends is not subtype of template type U of Exception of interface InterfaceAncestorsExtends\FooGeneric.
+Type int in generic type NestedGenericTypesClassCheck\SomeObjectInterface<int> in PHPDoc tag @template U is not subtype of template type T of object of interface NestedGenericTypesClassCheck\SomeObjectInterface.
+Type int in generic type UsedTraits\GenericTrait<int> in PHPDoc tag @use is not subtype of template type T of object of trait UsedTraits\GenericTrait.
+Type mixed in generic type ClassAncestorsExtends\FooGeneric<int, mixed> in PHPDoc tag @extends is not subtype of template type U of Exception of class ClassAncestorsExtends\FooGeneric.
+Type mixed in generic type ClassAncestorsImplements\FooGeneric<int, mixed> in PHPDoc tag @implements is not subtype of template type U of Exception of interface ClassAncestorsImplements\FooGeneric.
+Type mixed in generic type InterfaceAncestorsExtends\FooGeneric<int, mixed> in PHPDoc tag @extends is not subtype of template type U of Exception of interface InterfaceAncestorsExtends\FooGeneric.
+Type mixed in generic type NestedGenericTypesClassCheck\SomeObjectInterface<mixed> in PHPDoc tag @template U is not subtype of template type T of object of interface NestedGenericTypesClassCheck\SomeObjectInterface.
+Type stdClass in generic type ClassAncestorsExtends\FooGeneric<int, stdClass> in PHPDoc tag @extends is not subtype of template type U of Exception of class ClassAncestorsExtends\FooGeneric.
+Type stdClass in generic type ClassAncestorsImplements\FooGeneric2<int, stdClass> in PHPDoc tag @implements is not subtype of template type V of Exception of interface ClassAncestorsImplements\FooGeneric2.
+Type stdClass in generic type ClassAncestorsImplements\FooGeneric<int, stdClass> in PHPDoc tag @implements is not subtype of template type U of Exception of interface ClassAncestorsImplements\FooGeneric.
+Type stdClass in generic type InterfaceAncestorsExtends\FooGeneric2<int, stdClass> in PHPDoc tag @extends is not subtype of template type V of Exception of interface InterfaceAncestorsExtends\FooGeneric2.
+Type stdClass in generic type InterfaceAncestorsExtends\FooGeneric<int, stdClass> in PHPDoc tag @extends is not subtype of template type U of Exception of interface InterfaceAncestorsExtends\FooGeneric.
+Type string in generic type Bug3922AncestorsReversed\QueryHandlerInterface<Bug3922AncestorsReversed\BarQuery, string> in PHPDoc tag @implements is not subtype of template type int of interface Bug3922AncestorsReversed\QueryHandlerInterface.
+Variance annotation is only allowed for type parameters of classes and interfaces, but occurs in template type T in in function FunctionSignatureVariance\f().
+Variance annotation is only allowed for type parameters of classes and interfaces, but occurs in template type U in in method MethodSignatureVariance\C::b().
+Variance annotation is only allowed for type parameters of classes and interfaces, but occurs in template type U in in method MethodSignatureVariance\C::c().

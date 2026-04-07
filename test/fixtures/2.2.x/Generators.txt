@@ -1,0 +1,14 @@
+Argument of an invalid type int passed to yield from, only iterables are supported.
+Generator expects delegated TSend type int, int|null given.
+Generator expects key type DateTimeImmutable, stdClass given.
+Generator expects key type K of int|string, (K of int)|string given.
+Generator expects key type string, int given.
+Generator expects value type array{0: DateTime, 1: DateTime, 2: stdClass, 4: DateTimeImmutable}, array{DateTime, DateTime, stdClass, DateTimeImmutable} given.
+Generator expects value type array{DateTime, DateTime, stdClass, DateTimeImmutable}, array{0: DateTime, 1: DateTime, 2: stdClass, 4: DateTimeImmutable} given.
+Generator expects value type int, null given.
+Generator expects value type int, string given.
+Generator expects value type string, int given.
+Result of yield (void) is used.
+Result of yield from (void) is used.
+Yield can be used only inside a function.
+Yield can be used only with these return types: Generator, Iterator, Traversable, iterable.

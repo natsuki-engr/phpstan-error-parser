@@ -1,0 +1,37 @@
+Anonymous function should return int but return statement is missing.
+Function MissingReturn\doFoo() should return int but return statement is missing.
+Function ReturnTypes\sometimesThrows() should always throw an exception or terminate script execution but doesn't do that.
+Method Bug3488\C::invalidCase() should return int but return statement is missing.
+Method CheckPhpDocMissingReturn\Bar::doFoo() should return int|string but return statement is missing.
+Method CheckPhpDocMissingReturn\Bar::doFoo2() should return string|null but return statement is missing.
+Method CheckPhpDocMissingReturn\Bar::doFoo3() should return int|string but return statement is missing.
+Method CheckPhpDocMissingReturn\Bar::doFoo4() should return string|null but return statement is missing.
+Method CheckPhpDocMissingReturn\Bar::doFoo5() should return mixed but return statement is missing.
+Method CheckPhpDocMissingReturn\Foo::doFoo() should return int|string but return statement is missing.
+Method CheckPhpDocMissingReturn\Foo::doFoo2() should return string|null but return statement is missing.
+Method CheckPhpDocMissingReturn\Foo::doFoo3() should return int|string but return statement is missing.
+Method CheckPhpDocMissingReturn\Foo::doFoo4() should return string|null but return statement is missing.
+Method CheckPhpDocMissingReturn\Foo::doFoo5() should return mixed but return statement is missing.
+Method MissingMixedReturnEmptyBody\HelloWorld::doFoo() should return mixed but return statement is missing.
+Method MissingReturnTemplateMixedType\Foo::doFoo() should return T but return statement is missing.
+Method MissingReturn\Foo::doBar() should return int but return statement is missing.
+Method MissingReturn\Foo::doBaz() should return int but return statement is missing.
+Method MissingReturn\Foo::doFoo() should return int but return statement is missing.
+Method MissingReturn\Foo::doLorem() should return int but return statement is missing.
+Method MissingReturn\FooTemplateMixedType::doFoo() should return T but return statement is missing.
+Method MissingReturn\MissingReturnGenerators::bodySpecifiedTReturn() should return string but return statement is missing.
+Method MissingReturn\MissingReturnGenerators::emptyBodySpecifiedTReturn() should return Generator<int, int, int, string> but return statement is missing.
+Method MissingReturn\MissingReturnGenerators::emptyBodyUnspecifiedTReturn() should return Generator but return statement is missing.
+Method MissingReturn\MissingReturnGenerators::emptyBodyUnspecifiedTReturn2() should return Generator<int, int, mixed, mixed> but return statement is missing.
+Method MissingReturn\MorePreciseMissingReturnLines::doFoo() should return int but return statement is missing.
+Method MissingReturn\MorePreciseMissingReturnLines::doFoo2() should return int but return statement is missing.
+Method MissingReturn\NeverReturn::doBaz() should always throw an exception or terminate script execution but doesn't do that.
+Method MissingReturn\NeverReturn::doBaz2() should always throw an exception or terminate script execution but doesn't do that.
+Method MissingReturn\ReturnInPhpDoc::doFoo() should return int but return statement is missing.
+Method MissingReturn\SwitchBranches::doBar() should return int but return statement is missing.
+Method MissingReturn\SwitchBranches::doDolor() should return int but return statement is missing.
+Method MissingReturn\SwitchBranches::doIpsum() should return int but return statement is missing.
+Method MissingReturn\SwitchBranches::doLorem() should return int but return statement is missing.
+Method MissingReturn\TryCatchFinally::doBaz() should return int but return statement is missing.
+Method MissingReturn\TryCatchFinally::doDolor() should return int but return statement is missing.
+Method ModelMixin\Model::__callStatic() should return mixed but return statement is missing.

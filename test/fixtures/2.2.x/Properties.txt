@@ -1,0 +1,394 @@
+@readonly property Bug7361\Example::$foo is assigned outside of the constructor.
+@readonly property Feature11775\FooImmutable::$i is assigned outside of the constructor.
+@readonly property Feature11775\FooReadonly::$i is assigned outside of the constructor.
+@readonly property MissingReadOnlyPropertyAssignPhpDoc\C::$c is already assigned.
+@readonly property MissingReadOnlyPropertyAssignPhpDoc\Foo::$doubleAssigned is already assigned.
+@readonly property MissingReadOnlyPropertyAssignPhpDoc\FooTraitClass::$doubleAssigned is already assigned.
+@readonly property MissingReadOnlyPropertyAssignPhpDoc\Immutable::$doubleAssigned is already assigned.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\A::$a is assigned by reference.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\B::$b is assigned by reference.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\C::$c is assigned by reference.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\Foo::$bar is assigned by reference.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\Foo::$foo is assigned by reference.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\Immutable::$bar is assigned by reference.
+@readonly property ReadOnlyPropertyAssignRefPhpDoc\Immutable::$foo is assigned by reference.
+@readonly property ReadonlyPropertyAssignPhpDoc\A::$a is assigned outside of its declaring class.
+@readonly property ReadonlyPropertyAssignPhpDoc\ArrayAccessPropertyFetch::$storage is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\B::$b is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\C::$c is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\Foo::$bar is assigned outside of its declaring class.
+@readonly property ReadonlyPropertyAssignPhpDoc\Foo::$baz is assigned outside of its declaring class.
+@readonly property ReadonlyPropertyAssignPhpDoc\Foo::$foo is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\Foo::$phan is assigned outside of its declaring class.
+@readonly property ReadonlyPropertyAssignPhpDoc\Foo::$phan is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\Foo::$psalm is assigned outside of its declaring class.
+@readonly property ReadonlyPropertyAssignPhpDoc\FooArrays::$details is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\Immutable::$foo is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\ListAssign::$foo is assigned outside of the constructor.
+@readonly property ReadonlyPropertyAssignPhpDoc\NotThis::$foo is not assigned on $this.
+@readonly property ReadonlyPropertyAssignPhpDoc\PostInc::$foo is assigned outside of the constructor.
+@readonly property cannot have a default value.
+Access to an undefined property AccessPropertiesAfterIsNull\Foo::$barProperty.
+Access to an undefined property AccessPropertiesDateIntervalChild\DateIntervalChild::$nonexistent.
+Access to an undefined property Bug11424\Bar|Bug11424\Foo::$i.
+Access to an undefined property Bug6385\ActualUnitEnum::$value.
+Access to an undefined property DynamicProperties\Bar::$dynamicProperty.
+Access to an undefined property DynamicProperties\Baz::$dynamicProperty.
+Access to an undefined property DynamicProperties\FinalBar::$dynamicProperty.
+Access to an undefined property DynamicProperties\FinalFoo::$dynamicProperty.
+Access to an undefined property DynamicProperties\Foo::$dynamicProperty.
+Access to an undefined property MixinProperties\GenericFoo<ReflectionClass>::$namee.
+Access to an undefined property NullCoalesceIsAlwaysFinal\Foo::$bar.
+Access to an undefined property NullsafePropertyFetch\Foo::$baz.
+Access to an undefined property Php82DynamicPropertiesAllow\HelloWorld::$world.
+Access to an undefined property Php82DynamicProperties\ClassA::$properties.
+Access to an undefined property Php82DynamicProperties\FinalHelloWorld::$world.
+Access to an undefined property Php82DynamicProperties\HelloWorld::$world.
+Access to an undefined property Php82DynamicProperties\ReadonlyWithMagic::$foo.
+Access to an undefined property PropertiesFromArrayIntoObject\Foo::$noop.
+Access to an undefined property PropertiesFromVariableIntoObject\Foo::$noop.
+Access to an undefined property RequireExtends\MyInterface::$bar.
+Access to an undefined property TestAccessPropertiesAssign\AccessPropertyWithDimFetch::$foo.
+Access to an undefined property TestAccessProperties\AssignOpNonexistentProperty::$flags.
+Access to an undefined property TestAccessProperties\BarAccessProperties::$loremipsum.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$anotherEmptyNonexistent.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$anotherNonexistent.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$baz.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$dolor.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$emptyBaz.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$emptyNonexistent.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$lorem.
+Access to an undefined property TestAccessProperties\FooAccessProperties::$nonexistent.
+Access to an undefined property TestAccessProperties\SomeInterface&TestAccessProperties\WithFooProperty::$bar.
+Access to an undefined property TestAccessProperties\WithFooAndBarProperty|TestAccessProperties\WithFooProperty::$bar.
+Access to an undefined property UnitEnum::$value.
+Access to an undefined property class@anonymous/tests/PHPStan/Rules/Properties/data/access-properties.php:297::$barProperty.
+Access to an undefined property object::$baz.
+Access to an undefined property object{foo: int, bar?: string}::$bar.
+Access to an undefined property object{foo: int, bar?: string}::$baz.
+Access to an undefined property object{hello?: string}::$hello.
+Access to an undefined static property AccessInIsset::$foo.
+Access to an undefined static property AccessStaticProperties\AssignOpNonexistentProperty::$flags.
+Access to an undefined static property AllowsDynamicProperties::$foo.
+Access to an undefined static property BarAccessStaticProperties::$bar.
+Access to an undefined static property ClassOrString|string::$unknownProperty.
+Access to an undefined static property DoesNotAllowDynamicProperties::$foo.
+Access to an undefined static property FooAccessStaticProperties&SomeInterface::$nonexistent.
+Access to an undefined static property FooAccessStaticProperties::$bar.
+Access to an undefined static property FooAccessStaticProperties::$nonexistent.
+Access to an undefined static property FooAccessStaticProperties::$unknownProperties.
+Access to an undefined static property ParentClassWithInstanceProperty::$j.
+Access to an undefined static property PropertiesFromArrayIntoStaticObject\Foo::$noop.
+Access to an undefined static property TestAccessStaticPropertiesAssign\AccessStaticPropertyWithDimFetch::$foo.
+Access to an undefined static property static(AccessWithStatic)::$nonexistent.
+Access to an undefined static property static(Bug6809\HelloWorld)::$coolClass.
+Access to an undefined static property static(Bug8333\BarAccessProperties)::$loremipsum.
+Access to an undefined static property static(IpsumAccessStaticProperties)::$anotherEmptyNonexistent.
+Access to an undefined static property static(IpsumAccessStaticProperties)::$anotherNonexistent.
+Access to an undefined static property static(IpsumAccessStaticProperties)::$baz.
+Access to an undefined static property static(IpsumAccessStaticProperties)::$emptyBaz.
+Access to an undefined static property static(IpsumAccessStaticProperties)::$emptyNonexistent.
+Access to an undefined static property static(IpsumAccessStaticProperties)::$nonexistent.
+Access to an uninitialized @readonly property MissingReadOnlyPropertyAssignPhpDoc\AssignOp::$bar.
+Access to an uninitialized @readonly property MissingReadOnlyPropertyAssignPhpDoc\AssignOp::$foo.
+Access to an uninitialized @readonly property MissingReadOnlyPropertyAssignPhpDoc\B::$b.
+Access to an uninitialized @readonly property MissingReadOnlyPropertyAssignPhpDoc\Foo::$readBeforeAssigned.
+Access to an uninitialized @readonly property MissingReadOnlyPropertyAssignPhpDoc\FooTraitClass::$readBeforeAssigned.
+Access to an uninitialized @readonly property MissingReadOnlyPropertyAssignPhpDoc\Immutable::$readBeforeAssigned.
+Access to an uninitialized property Bug9619\AdminPresenter3::$user.
+Access to an uninitialized property Bug9831\Foo::$bar.
+Access to an uninitialized property RedeclareReadonlyProperty\B19::$prop2.
+Access to an uninitialized property UninitializedProperty\Bar::$foo.
+Access to an uninitialized property UninitializedProperty\SometimesInitializedInPrivateSetter::$foo.
+Access to an uninitialized readonly property Bug6402\SomeModel2::$views.
+Access to an uninitialized readonly property Bug9863\ReadonlyParentWithIsset::$foo.
+Access to an uninitialized readonly property MissingReadOnlyPropertyAssign\AssignOp::$bar.
+Access to an uninitialized readonly property MissingReadOnlyPropertyAssign\AssignOp::$foo.
+Access to an uninitialized readonly property MissingReadOnlyPropertyAssign\Foo::$readBeforeAssigned.
+Access to an uninitialized readonly property MissingReadOnlyPropertyAssign\FooTraitClass::$readBeforeAssigned.
+Access to private property $foo of parent class TestAccessProperties\FooAccessProperties.
+Access to private property Bug12645\Foo::$id.
+Access to private property ConflictingAnnotationProperty\PropertyWithAnnotation::$test.
+Access to private property TestAccessProperties\FooAccessProperties::$foo.
+Access to private static property $foo of parent class Bug8333\FooAccessProperties.
+Access to property $foo on an unknown class TestAccessProperties\UnknownClass.
+Access to property $lorem on an unknown class AccessPropertiesClassExists\Bar.
+Access to property $lorem on an unknown class AccessPropertiesClassExists\Baz.
+Access to property $test on an unknown class TestAccessProperties\FirstUnknownClass.
+Access to property $test on an unknown class TestAccessProperties\SecondUnknownClass.
+Access to protected property $foo of class FooAccessStaticProperties.
+Access to protected property Bug13537\Bar::$test.
+Access to protected property TestAccessProperties\FooAccessProperties::$bar.
+Access to static property $foo on an unknown class TraitWithStaticProperty.
+Access to static property $test on an unknown class NonexistentClass.
+Access to static property $test on an unknown class UnknownStaticProperties.
+Accessing parent::$staticFooProperty outside of class scope.
+Accessing self::$staticFooProperty outside of class scope.
+Accessing static::$staticFooProperty outside of class scope.
+Asymmetric visibility for static properties is supported only on PHP 8.5 and later.
+Attribute class DeprecatedPropertyAttribute\DoSomethingTheOldWay is deprecated.
+Attribute class DeprecatedPropertyAttribute\DoSomethingTheOldWayWithDescription is deprecated: Use something else please
+Attribute class Override can be used with properties only on PHP 8.5 and later.
+Attribute class PropertyAttributes\Foo does not have the property target.
+Cannot access property $bar on TestAccessProperties\NullCoalesce|null.
+Cannot access property $bar on string.
+Cannot access property $bob on array<string, mixed>.
+Cannot access property $child on Bug5868PropertyFetch\Child|null.
+Cannot access property $child on Bug5868PropertyFetch\Foo|null.
+Cannot access property $existingChild on Bug5868PropertyFetch\Child|null.
+Cannot access property $foo on TestAccessProperties\NullCoalesce|null.
+Cannot access property $foo on null.
+Cannot access property $fooProperty on null.
+Cannot access property $ipsum on TestAccessProperties\FooAccessProperties|null.
+Cannot access property $prop on string.
+Cannot access property $propertyOnString on string.
+Cannot access property $selfOrNull on TestAccessProperties\RevertNonNullabilityForIsset|null.
+Cannot access static property $anotherProperty on ClassOrString|false.
+Cannot access static property $foo on int|string.
+Class Bug7219\Foo has an uninitialized property $email. Give it default value or assign it in the constructor.
+Class Bug7219\Foo has an uninitialized property $id. Give it default value or assign it in the constructor.
+Class Bug7649\Foo has an uninitialized readonly property $bar. Assign it in the constructor.
+Class Bug9577\SpecializedException2 has an uninitialized readonly property $message. Assign it in the constructor.
+Class Bug9863\ReadonlyParentWithIsset has an uninitialized readonly property $foo. Assign it in the constructor.
+Class DateTime referenced with incorrect case: Datetime.
+Class FooAccessStaticProperties referenced with incorrect case: FOOAccessStaticPropertieS.
+Class MissingReadOnlyPropertyAssignPhpDoc\A has an uninitialized @readonly property $a. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\AssignOp has an uninitialized @readonly property $foo. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\B has an uninitialized @readonly property $b. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\BarDoubleAssignInSetter has an uninitialized @readonly property $foo. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\Foo has an uninitialized @readonly property $unassigned. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\Foo has an uninitialized @readonly property $unassigned2. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\FooTraitClass has an uninitialized @readonly property $unassigned. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\FooTraitClass has an uninitialized @readonly property $unassigned2. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\Immutable has an uninitialized @readonly property $unassigned. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssignPhpDoc\Immutable has an uninitialized @readonly property $unassigned2. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\AssignOp has an uninitialized readonly property $foo. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\BarDoubleAssignInSetter has an uninitialized readonly property $foo. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\Foo has an uninitialized readonly property $unassigned. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\Foo has an uninitialized readonly property $unassigned2. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\FooTraitClass has an uninitialized readonly property $unassigned. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\FooTraitClass has an uninitialized readonly property $unassigned2. Assign it in the constructor.
+Class MissingReadOnlyPropertyAssign\PropertyAssignedOnDifferentObjectUninitialized has an uninitialized readonly property $foo. Assign it in the constructor.
+Class PropertiesTypes\Foo referenced with incorrect case: PropertiesTypes\FOO.
+Class RedeclareReadonlyProperty\B16 has an uninitialized readonly property $myProp. Assign it in the constructor.
+Class RedeclareReadonlyProperty\B18 has an uninitialized readonly property $aProp. Assign it in the constructor.
+Class RedeclareReadonlyProperty\B19 has an uninitialized property $prop2. Give it default value or assign it in the constructor.
+Class RedeclareReadonlyProperty\C17 has an uninitialized readonly property $aProp. Assign it in the constructor.
+Class TestInitializedProperty\TestAdditionalConstructor has an uninitialized property $one. Give it default value or assign it in the constructor.
+Class TestInitializedProperty\TestAdditionalConstructor has an uninitialized property $three. Give it default value or assign it in the constructor.
+Class UninitializedProperty\EarlyReturn has an uninitialized property $foo. Give it default value or assign it in the constructor.
+Class UninitializedProperty\Foo has an uninitialized property $bar. Give it default value or assign it in the constructor.
+Class UninitializedProperty\Foo has an uninitialized property $baz. Give it default value or assign it in the constructor.
+Class UninitializedProperty\FooTraitClass has an uninitialized property $bar. Give it default value or assign it in the constructor.
+Class UninitializedProperty\FooTraitClass has an uninitialized property $baz. Give it default value or assign it in the constructor.
+Class UninitializedProperty\Lorem has an uninitialized property $baz. Give it default value or assign it in the constructor.
+Class UninitializedProperty\SometimesInitializedInPrivateSetter has an uninitialized property $foo. Give it default value or assign it in the constructor.
+Class UninitializedProperty\TestExtension has an uninitialized property $uninited. Give it default value or assign it in the constructor.
+Class class@anonymous/tests/PHPStan/Rules/Properties/data/missing-readonly-anonymous-class-property-assign.php:10 has an uninitialized readonly property $foo. Assign it in the constructor.
+Final properties are supported only on PHP 8.4 and later.
+Interfaces can include properties only on PHP 8.4 and later.
+IpsumAccessStaticProperties::ipsum() accesses parent::$lorem but IpsumAccessStaticProperties does not extend any class.
+Non-static access to static property Bug12692\Foo::$static.
+Non-static access to static property Bug8668\Sample2::$sample.
+Non-static access to static property Bug8668\Sample::$sample.
+Non-static property OverridingProperty\Bar::$protectedStaticFoo overrides static property OverridingProperty\Foo::$protectedStaticFoo.
+Non-static property OverridingProperty\Bar::$publicStaticFoo overrides static property OverridingProperty\Foo::$publicStaticFoo.
+Nullable property fetch detected
+PHPDoc type 4 of property OverridingProperty\Typed2WithPhpDoc::$foo is not the same as PHPDoc type 1|2|3 of overridden property OverridingProperty\TypedWithPhpDoc::$foo.
+PHPDoc type array of property OverridingPropertyPhpDoc\Bar::$arrayClassStrings is not covariant with PHPDoc type array<class-string> of overridden property OverridingPropertyPhpDoc\Foo::$arrayClassStrings.
+PHPDoc type array of property OverridingPropertyPhpDoc\Bar::$arrayClassStrings is not the same as PHPDoc type array<class-string> of overridden property OverridingPropertyPhpDoc\Foo::$arrayClassStrings.
+PHPDoc type array<class-string> of property OverridingPropertyPhpDoc\Bar::$array is not the same as PHPDoc type array of overridden property OverridingPropertyPhpDoc\Foo::$array.
+PHPDoc type int of property OverridingPropertyPhpDoc\Bar::$string is not covariant with PHPDoc type string of overridden property OverridingPropertyPhpDoc\Foo::$string.
+PHPDoc type int of property OverridingPropertyPhpDoc\Bar::$string is not the same as PHPDoc type string of overridden property OverridingPropertyPhpDoc\Foo::$string.
+Private property OverridingProperty\PrivateDolor::$anotherPublicFoo overriding public property OverridingProperty\Dolor::$anotherPublicFoo should also be public.
+Private property OverridingProperty\PrivateDolor::$protectedFoo overriding protected property OverridingProperty\Dolor::$protectedFoo should be protected or public.
+Private property OverridingProperty\PrivateDolor::$publicFoo overriding public property OverridingProperty\Dolor::$publicFoo should also be public.
+Property AppendedArrayItem\Bar::$stringCallables (array<callable(): string>) does not accept non-empty-array<(callable(): string)|(Closure(): 1)>.
+Property AppendedArrayItem\Baz::$staticProperty (array<AppendedArrayItem\Lorem>) does not accept array<AppendedArrayItem\Baz|AppendedArrayItem\Lorem>.
+Property AppendedArrayItem\Foo::$callables (array<callable(): mixed>) does not accept non-empty-array<array{'AppendedArrayItem\\Foo', 'classMethod'}|(callable(): mixed)>.
+Property AppendedArrayItem\Foo::$callables (array<callable(): mixed>) does not accept non-empty-array<array{'Foo', 'Hello world'}|(callable(): mixed)>.
+Property AppendedArrayItem\Foo::$callables (array<callable(): mixed>) does not accept non-empty-array<array{1, 2, 3}|(callable(): mixed)>.
+Property AppendedArrayItem\Foo::$integers (array<int>) does not accept array<int|string>.
+Property AppendedArrayKey\Foo::$intArray (array<int, mixed>) does not accept array<int|string, mixed>.
+Property AppendedArrayKey\Foo::$stringArray (array<string, mixed>) does not accept array<int|string, mixed>.
+Property AppendedArrayKey\MorePreciseKey::$test (array<1|2|3, string>) does not accept non-empty-array<1|2|3|4, string>.
+Property AppendedArrayKey\MorePreciseKey::$test (array<1|2|3, string>) does not accept non-empty-array<int, string>.
+Property Bug11241\ActualProp::$id is not writable.
+Property Bug11241\MagicProp::$id is not writable.
+Property Bug11241b\HelloWorld::$property1 (bool) does not accept string.
+Property Bug11275\D::$b (list<Bug11275\B>) does not accept array<int|string, Bug11275\B>.
+Property Bug11617\HelloWorld::$params (array<string, string>) does not accept array<int|string, array<mixed>|string>.
+Property Bug12131\Test::$array (non-empty-list<int>) does not accept non-empty-array<int<0, max>, int>.
+Property Bug1216PropertyTest\Baz::$untypedBar (string) does not accept int.
+Property Bug1216PropertyTest\Dummy::$foo (Exception) does not accept stdClass.
+Property Bug13438\Test::$queue (non-empty-list<int>) does not accept list<int>.
+Property Bug13438b\Test::$queue (non-empty-list<int>) does not accept list<int>.
+Property Bug13438d\Test::$queue (array{}) does not accept array{1}.
+Property Bug13438e\Test::$queue (array{}) does not accept array{1}.
+Property Bug13438f\Test::$queue (array<int, non-empty-list<int>>) does not accept non-empty-array<int, list<int>>.
+Property Bug14150Properties\HelloWorld::$x (int) does not accept null.
+Property Bug2888\MyClass::$prop (array<int>) does not accept array<int|string>.
+Property Bug3311b\Foo::$bar (list<string>) does not accept non-empty-array<int<0, max>, string>.
+Property Bug3703\Foo::$bar (array<string, array<string, array<int>>>) does not accept array<string, array<string, array<int>>|string>.
+Property Bug3703\Foo::$bar (array<string, array<string, array<int>>>) does not accept array<string, array<string, array<int|string>>>.
+Property Bug3703\Foo::$bar (array<string, array<string, array<int>>>) does not accept array<string, array<string, array<int|string>|int>>.
+Property Bug3777\Bar::$foo (Bug3777\Foo<stdClass>) does not accept Bug3777\Fooo<object>.
+Property Bug3777\Ipsum2::$ipsum2 (Bug3777\Lorem2<stdClass, Exception>) does not accept Bug3777\Lorem2<Exception, object>.
+Property Bug3777\Ipsum2::$lorem2 (Bug3777\Lorem2<stdClass, Exception>) does not accept Bug3777\Lorem2<stdClass, object>.
+Property Bug3777\Ipsum3::$ipsum3 (Bug3777\Lorem3<stdClass, Exception>) does not accept Bug3777\Lorem3<Exception, stdClass>.
+Property Bug3777\Ipsum::$ipsum (Bug3777\Lorem<stdClass, Exception>) does not accept Bug3777\Lorem<Exception, stdClass>.
+Property Bug5298\WorldProviderManager::$providers (array<string, Bug5298\WorldProviderManagerEntry<Bug5298\WorldProvider>>) does not accept non-empty-array<string, Bug5298\WorldProviderManagerEntry<Bug5298\WorldProvider>|Bug5298\WorldProviderManagerEntry<T of Bug5298\WorldProvider>>.
+Property Bug5607\Cl::$u (Bug5607\A|null) does not accept default value of type array<int|string, string>.
+Property Bug5804\Blah::$value (array<int>|null) does not accept array<Bug5804\Blah|int>.
+Property Bug5804\Blah::$value (array<int>|null) does not accept array<int|string>.
+Property Bug6286\HelloWorld::$details (array{name: string, age: int}) does not accept array{name: string, age: 'Forty-two'}.
+Property Bug6286\HelloWorld::$nestedDetails (array<array{name: string, age: int}>) does not accept non-empty-array<array{name: string, age: 'Eleventy-one'|int}>.
+Property Bug6356b\HelloWorld2::$details (array{name: string, age: int}) does not accept array{name: string, age: 'Forty-two'}.
+Property Bug6356b\HelloWorld2::$nestedDetails (array<array{name: string, age: int}>) does not accept non-empty-array<array{name: string, age: 'Eleventy-one'|int}>.
+Property Bug6356b\HelloWorld2::$nestedDetails (array<array{name: string, age: int}>) does not accept non-empty-array<array{name: string, age: 'Twelve'|int}>.
+Property Bug7074\SomeModel2::$primaryKey (array<int, string>|string) does not accept default value of type array<int, float>.
+Property Bug7912\A::$has (int<0, 1>) does not accept 999.
+Property DefaultValueForNativePropertyType\Foo::$foo (DateTime) does not accept default value of type null.
+Property GenericObjectUnspecifiedTemplateTypes\Bar::$ints (GenericObjectUnspecifiedTemplateTypes\ArrayCollection<int, int>) does not accept GenericObjectUnspecifiedTemplateTypes\ArrayCollection<int, string>.
+Property GenericObjectUnspecifiedTemplateTypes\Foo::$obj (GenericObjectUnspecifiedTemplateTypes\MyObject<int, string>) does not accept GenericObjectUnspecifiedTemplateTypes\MyObject<(int|string), mixed>.
+Property IntegerRangesAndConstants\HelloWorld::$i (0|1|3) does not accept int<0, 3>.
+Property IntegerRangesAndConstants\HelloWorld::$x (int<0, 3>) does not accept 0|1|2|3|bool.
+Property IntegerRangesAndConstants\HelloWorld::$x (int<0, 3>) does not accept 0|1|2|3|string.
+Property IntegerRangesAndConstants\HelloWorld::$x (int<0, 3>) does not accept 0|1|3|4.
+Property IntegerRangesAndConstants\HelloWorld::$x (int<0, 3>) does not accept 0|1|3|bool.
+Property InvalidCallablePropertyType\HelloWorld::$a cannot have callable in its type declaration.
+Property InvalidCallablePropertyType\HelloWorld::$b cannot have callable in its type declaration.
+Property InvalidCallablePropertyType\HelloWorld::$c cannot have callable in its type declaration.
+Property InvalidCallablePropertyType\HelloWorld::$callback cannot have callable in its type declaration.
+Property MissingPropertyTypehint\Bar::$baz with generic class MissingPropertyTypehint\GenericClass does not specify its types: A, B
+Property MissingPropertyTypehint\Bar::$foo with generic interface MissingPropertyTypehint\GenericInterface does not specify its types: T, U
+Property MissingPropertyTypehint\Baz::$bar with generic class MissingPropertyTypehint\GenericClassWithSomeDefaults does not specify its types: T, U (1-2 required)
+Property MissingPropertyTypehint\CallableSignature::$cb type has no signature specified for callable.
+Property MissingPropertyTypehint\ChildClass::$unionProp type has no value type specified in iterable type array.
+Property MissingPropertyTypehint\MyClass::$prop1 has no type specified.
+Property MissingPropertyTypehint\MyClass::$prop2 has no type specified.
+Property MissingPropertyTypehint\MyClass::$prop3 has no type specified.
+Property MissingPropertyTypehint\NestedArrayInProperty::$args type has no value type specified in iterable type array.
+Property OverridingProperty\TypeChild::$withType overriding property OverridingProperty\Typed::$withType (int) should also have native type int.
+Property OverridingProperty\TypeChild::$withoutType (int) overriding property OverridingProperty\Typed::$withoutType should not have a native type.
+Property PrivatePropertyTagRead\Foo::$foo is not writable.
+Property PrivatePropertyTagWrite\Foo::$foo is not readable.
+Property PromotedPropertiesExistingClasses\Foo::$baz has invalid type PromotedPropertiesExistingClasses\SomeTrait.
+Property PromotedPropertiesExistingClasses\Foo::$dolor has unknown class PromotedPropertiesExistingClasses\Bar as its type.
+Property PromotedPropertiesExistingClasses\Foo::$ipsum has unknown class PromotedPropertiesExistingClasses\Bar as its type.
+Property PromotedPropertiesExistingClasses\Foo::$lorem has invalid type PromotedPropertiesExistingClasses\SomeTrait.
+Property PropertiesAssignedDefaultValuesTypes\Foo::$stringPropertyWithWrongDefaultValue (string) does not accept default value of type int.
+Property PropertiesAssignedTypes\AppendToArrayAccess::$collection2 (ArrayAccess<int, string>&Countable) does not accept Countable.
+Property PropertiesAssignedTypes\AssignRefFoo::$stringProperty (string) does not accept int.
+Property PropertiesAssignedTypes\Foo::$fooProperty (PropertiesAssignedTypes\Foo) does not accept PropertiesAssignedTypes\Bar.
+Property PropertiesAssignedTypes\Foo::$intProperty (int) does not accept string.
+Property PropertiesAssignedTypes\Foo::$stringProperty (string) does not accept int.
+Property PropertiesAssignedTypes\Foo::$unionPropertySelf (array<PropertiesAssignedTypes\Foo>|(iterable<PropertiesAssignedTypes\Foo>&PropertiesAssignedTypes\Collection)) does not accept PropertiesAssignedTypes\Bar.
+Property PropertiesAssignedTypes\Foo::$unionPropertySelf (array<PropertiesAssignedTypes\Foo>|(iterable<PropertiesAssignedTypes\Foo>&PropertiesAssignedTypes\Collection)) does not accept PropertiesAssignedTypes\Foo.
+Property PropertiesAssignedTypes\Foo::$unionPropertySelf (array<PropertiesAssignedTypes\Foo>|(iterable<PropertiesAssignedTypes\Foo>&PropertiesAssignedTypes\Collection)) does not accept array<int, PropertiesAssignedTypes\Bar>.
+Property PropertiesAssignedTypes\Ipsum::$foo (PropertiesAssignedTypes\Ipsum) does not accept PropertiesAssignedTypes\Bar.
+Property PropertiesAssignedTypes\Ipsum::$parentStringProperty (string) does not accept int.
+Property PropertiesAssignedTypes\ListAssign::$foo (string) does not accept int.
+Property PropertiesAssignedTypes\ParamOutAssign::$foo (list<string>) does not accept string.
+Property PropertiesAssignedTypes\ParamOutAssign::$foo2 (list<list<string>>) does not accept non-empty-list<list<string>|string>.
+Property PropertiesAssignedTypes\ParamOutAssign::$foo2 (list<list<string>>) does not accept string.
+Property PropertiesAssignedTypes\PostInc::$bar (int<3, max>) does not accept int<2, max>.
+Property PropertiesAssignedTypes\PostInc::$foo (int<min, 3>) does not accept int<min, 4>.
+Property PropertiesFromArrayIntoObject\Foo::$foo (string) does not accept float.
+Property PropertiesFromArrayIntoObject\Foo::$foo (string) does not accept float|int|string.
+Property PropertiesFromArrayIntoObject\Foo::$lall (int) does not accept string.
+Property PropertiesFromArrayIntoObject\Foo::$test (int|null) does not accept stdClass.
+Property PropertiesFromArrayIntoObject\FooBar::$foo (string) does not accept float.
+Property PropertiesNativeTypes\Foo::$bar has unknown class PropertiesNativeTypes\Bar as its type.
+Property PropertiesNativeTypes\Foo::$baz has unknown class PropertiesNativeTypes\Baz as its type.
+Property PropertiesTypes\Foo::$bar has unknown class PropertiesTypes\Bar as its type.
+Property PropertiesTypes\Foo::$bars has unknown class PropertiesTypes\Bar as its type.
+Property PropertiesTypes\Foo::$dolors has unknown class PropertiesTypes\Dolor as its type.
+Property PropertiesTypes\Foo::$dolors has unknown class PropertiesTypes\Ipsum as its type.
+Property PropertiesTypes\Foo::$fooWithWrongCase has unknown class PropertiesTypes\BAR as its type.
+Property PropertiesTypes\Foo::$fooWithWrongCase has unknown class PropertiesTypes\Fooo as its type.
+Property PropertiesTypes\Foo::$nonexistentClassInGenericObjectType has unknown class PropertiesTypes\Barrrr as its type.
+Property PropertiesTypes\Foo::$nonexistentClassInGenericObjectType has unknown class PropertiesTypes\Foooo as its type.
+Property PropertiesTypes\Foo::$withTrait has invalid type PropertiesTypes\SomeTrait.
+Property PropertyIntersectionTypes\Test::$prop2 has unresolvable native type.
+Property PropertyIntersectionTypes\Test::$prop3 has unresolvable native type.
+Property PropertyOverrideAttr\Bar::$bar has #[\Override] attribute but does not override any property.
+Property PropertyOverrideAttr\Baz::$bar has #[\Override] attribute but does not override any property.
+Property PropertyOverrideAttr\Lorem::$foo overrides property PropertyOverrideAttr\Foo::$foo but is missing the #[\Override] attribute.
+Property PropertyTypeAfterUnset\Foo::$listProp (list<int>) does not accept array<int<0, max>, int>.
+Property PropertyTypeAfterUnset\Foo::$nestedListProp (array<list<int>>) does not accept array<array<int<0, max>, int>>.
+Property PropertyTypeAfterUnset\Foo::$nonEmpty (non-empty-array<int>) does not accept array<int>.
+Property ReadingWriteOnlyProperties\Foo::$writeOnlyProperty is not readable.
+Property WritingToReadOnlyProperties\Foo::$readOnlyProperty is not writable.
+Property WritingToReadOnlyProperties\Foo::$usualProperty (int) does not accept string.
+Property WritingToReadOnlyProperties\Foo::$writeOnlyProperty (int) does not accept string.
+Property WritingToReadOnlyProperties\Foo::$writeOnlyProperty is not readable.
+Property hooks are supported only on PHP 8.4 and later.
+Property name for $this(DynamicStringableAccess\Foo) must be a string, but $this(DynamicStringableAccess\Foo) was given.
+Property name for $this(DynamicStringableAccess\Foo) must be a string, but array was given.
+Property name for $this(DynamicStringableNullsafeAccess\Foo) must be a string, but $this(DynamicStringableNullsafeAccess\Foo) was given.
+Property name for DynamicStringableAccess\Foo must be a string, but $this(DynamicStringableAccess\Foo) was given.
+Property name for DynamicStringableNullsafeAccess\Foo must be a string, but $this(DynamicStringableNullsafeAccess\Foo) was given.
+Property object{foo: int, bar?: string}::$foo is not writable.
+Property object{foo: int}|stdClass::$foo is not writable.
+Protected property OverridingProperty\ProtectedDolor::$anotherPublicFoo overriding public property OverridingProperty\Dolor::$anotherPublicFoo should also be public.
+Protected property OverridingProperty\ProtectedDolor::$publicFoo overriding public property OverridingProperty\Dolor::$publicFoo should also be public.
+Readonly properties are supported only on PHP 8.1 and later.
+Readonly property Bug10523\MultipleWrites::$userAccount is already assigned.
+Readonly property Bug6773\Repository::$data is assigned outside of the constructor.
+Readonly property Bug8101\B::$myProp is already assigned.
+Readonly property Bug9863\ReadonlyChildWithoutIsset::$foo is already assigned.
+Readonly property Feature7648\Request::$offset is assigned outside of the constructor.
+Readonly property MissingReadOnlyPropertyAssign\AdditionalAssignOfReadonlyPromotedProperty::$x is already assigned.
+Readonly property MissingReadOnlyPropertyAssign\Foo::$doubleAssigned is already assigned.
+Readonly property MissingReadOnlyPropertyAssign\FooTraitClass::$doubleAssigned is already assigned.
+Readonly property OverridingProperty\ReadonlyChild2::$readWrite overrides readwrite property OverridingProperty\ReadonlyParent::$readWrite.
+Readonly property OverridingProperty\ReadonlyChild::$readWrite overrides readwrite property OverridingProperty\ReadonlyParent::$readWrite.
+Readonly property ReadOnlyPropertyAssignRef\Foo::$bar is assigned by reference.
+Readonly property ReadOnlyPropertyAssignRef\Foo::$foo is assigned by reference.
+Readonly property ReadonlyClassPropertyAssign\Foo::$foo is assigned outside of the constructor.
+Readonly property ReadonlyPropertyAssign\ArrayAccessPropertyFetch::$storage is assigned outside of the constructor.
+Readonly property ReadonlyPropertyAssign\Foo::$bar is assigned outside of its declaring class.
+Readonly property ReadonlyPropertyAssign\Foo::$baz is assigned outside of its declaring class.
+Readonly property ReadonlyPropertyAssign\Foo::$foo is assigned outside of the constructor.
+Readonly property ReadonlyPropertyAssign\FooArrays::$details is assigned outside of the constructor.
+Readonly property ReadonlyPropertyAssign\ListAssign::$foo is assigned outside of the constructor.
+Readonly property ReadonlyPropertyAssign\NotThis::$foo is not assigned on $this.
+Readonly property ReadonlyPropertyAssign\PostInc::$foo is assigned outside of the constructor.
+Readonly property RedeclarePropertyOfReadonlyClass\B1::$promotedProp is already assigned.
+Readonly property RedeclareReadonlyProperty\A@anonymous/tests/PHPStan/Rules/Properties/data/redeclare-readonly-property.php:117::$myProp is already assigned.
+Readonly property RedeclareReadonlyProperty\B1::$myProp is already assigned.
+Readonly property RedeclareReadonlyProperty\B5::$myProp is already assigned.
+Readonly property RedeclareReadonlyProperty\B7::$myProp is already assigned.
+Readonly property cannot be static.
+Readonly property cannot have a default value.
+Readonly property must have a native type.
+Readwrite property OverridingProperty\ReadonlyChild2::$readOnly overrides readonly property OverridingProperty\ReadonlyParent::$readOnly.
+Readwrite property OverridingProperty\ReadonlyChild::$readOnly overrides readonly property OverridingProperty\ReadonlyParent::$readOnly.
+Regular property fetch detected
+Static access to instance property AccessWithStatic::$bar.
+Static access to instance property Bug8668Bis\Sample2::$sample.
+Static access to instance property Bug8668Bis\Sample::$sample.
+Static access to instance property ClassOrString::$instanceProperty.
+Static access to instance property FooAccessStaticProperties::$loremIpsum.
+Static access to instance property ParentClassWithInstanceProperty::$i.
+Static property Bug3777Static\Bar::$foo (Bug3777Static\Foo<stdClass>) does not accept Bug3777Static\Fooo<object>.
+Static property Bug3777Static\Ipsum2::$ipsum2 (Bug3777Static\Lorem2<stdClass, Exception>) does not accept Bug3777Static\Lorem2<Exception, object>.
+Static property Bug3777Static\Ipsum2::$lorem2 (Bug3777Static\Lorem2<stdClass, Exception>) does not accept Bug3777Static\Lorem2<stdClass, object>.
+Static property Bug3777Static\Ipsum3::$ipsum3 (Bug3777Static\Lorem3<stdClass, Exception>) does not accept Bug3777Static\Lorem3<Exception, stdClass>.
+Static property Bug3777Static\Ipsum::$ipsum (Bug3777Static\Lorem<stdClass, Exception>) does not accept Bug3777Static\Lorem<Exception, stdClass>.
+Static property Bug9384\Deprecation::$type (int<0, 3>) does not accept 10|11.
+Static property OverridingProperty\Bar::$protectedFoo overrides non-static property OverridingProperty\Foo::$protectedFoo.
+Static property OverridingProperty\Bar::$publicFoo overrides non-static property OverridingProperty\Foo::$publicFoo.
+Static property PropertiesAssignedDefaultValuesTypes\Foo::$staticStringPropertyWithWrongDefaultValue (string) does not accept default value of type int.
+Static property PropertiesAssignedDefaultValuesTypes\Foo::$windowsNtVersions (array<string, string>) does not accept default value of type array<int|string, string>.
+Static property PropertiesAssignedTypes\Foo::$staticStringProperty (string) does not accept int.
+Static property PropertiesAssignedTypes\Ipsum::$fooStatic (PropertiesAssignedTypes\Ipsum) does not accept PropertiesAssignedTypes\Bar.
+Static property PropertiesAssignedTypes\Ipsum::$parentStaticStringProperty (string) does not accept int.
+Static property PropertiesFromArrayIntoStaticObject\Foo::$foo (string) does not accept float.
+Static property PropertiesFromArrayIntoStaticObject\Foo::$lall (stdClass|null) does not accept string.
+Static property PropertiesFromArrayIntoStaticObject\FooBar::$foo (string) does not accept float.
+Type string of property OverridingProperty\Typed2Child::$foo is not the same as type int of overridden property OverridingProperty\Typed2::$foo.
+Unsafe access to private property AccessPrivatePropertyThroughStatic\Foo::$foo through static::.
+Using nullsafe property access on non-nullable type $this(Bug14150NullsafeProperty\HelloWorld). Use -> instead.
+Using nullsafe property access on non-nullable type Exception. Use -> instead.

@@ -1,0 +1,7 @@
+Class DateTime referenced with incorrect case: DATETIME.
+Function Uses\foo used with incorrect case: Uses\Foo.
+Interface Uses\Lorem referenced with incorrect case: Uses\LOREM.
+Referencing prefixed PHPStan class: _PHPStan_156ee64ba\PrefixedRuntimeException.
+Used constant Uses\OTHER_CONSTANT not found.
+Used function Uses\bar not found.
+Used function Uses\baz not found.

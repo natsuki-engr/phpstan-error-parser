@@ -1,0 +1,178 @@
+Access to an offset on an unknown class NonexistentOffset\Bar.
+Access to offset '%customer…' on an unknown class Bug5669\arr.
+Access to offset 'bar' on an unknown class NonexistentOffset\Bar.
+Argument of an invalid type T of mixed supplied for foreach, only iterables are supported.
+Argument of an invalid type array<int>|null supplied for foreach, only iterables are supported.
+Argument of an invalid type list<int>|false supplied for foreach, only iterables are supported.
+Argument of an invalid type mixed supplied for foreach, only iterables are supported.
+Argument of an invalid type string supplied for foreach, only iterables are supported.
+Array has 2 duplicate keys with value '' (null, NULL).
+Array has 2 duplicate keys with value '=' (self::EQ, self::IS).
+Array has 2 duplicate keys with value 'bar' ($key, 'bar').
+Array has 2 duplicate keys with value 'bar' ('bar', $key).
+Array has 2 duplicate keys with value 'baz' ($key, 'baz').
+Array has 2 duplicate keys with value 'foo' ('foo', $key).
+Array has 2 duplicate keys with value 'key' ('key', $key2).
+Array has 2 duplicate keys with value -41 (-41, -41).
+Array has 2 duplicate keys with value 0 (0, 0).
+Array has 2 duplicate keys with value 101 (101, 101).
+Array has 2 duplicate keys with value 102 (102, 102).
+Array has 2 duplicate keys with value 2 ($idx, $idx).
+Array has 3 duplicate keys with value 0 (false, 0, PHPSTAN_DUPLICATE_KEY).
+Array has 4 duplicate keys with value 1 (1, 1, 1.0, true).
+Array has 5 duplicate keys with value 1 (1, '1', true, 1.0, 1.1).
+ArrayAccess<int, int> does not accept array<int, string>.
+ArrayAccess<int, int> does not accept float.
+ArrayAccess<int, int> does not accept int|null.
+ArrayAccess<int, int> does not accept string.
+ArrayAccess<int, string> does not accept int.
+Cannot access an offset on callable.
+Cannot access an offset on int.
+Cannot access an offset on int<3, 4>.
+Cannot access an offset on mixed.
+Cannot access offset 'a' on Closure(): void.
+Cannot access offset 'a' on array{a: 1, b: 1}|(Closure(): void).
+Cannot access offset 'a' on stdClass.
+Cannot access offset 'foo' on 4.141.
+Cannot access offset 'foo' on 42.
+Cannot access offset 'foo' on array|int.
+Cannot access offset 'foo' on bool.
+Cannot access offset 'foo' on false.
+Cannot access offset 'foo' on resource.
+Cannot access offset 'foo' on stdClass.
+Cannot access offset 'foo' on true.
+Cannot access offset 'invalidoffset' on Bug6605\X.
+Cannot access offset 'path' on Closure.
+Cannot access offset 'path' on iterable<int|string, object>.
+Cannot access offset 'permission' on mixed.
+Cannot access offset 'title' on mixed.
+Cannot access offset (int|string) on $this(Bug3782\HelloWorld)|(ArrayAccess&Bug3782\HelloWorld).
+Cannot access offset 0 on Closure(): void.
+Cannot access offset 0 on array{'test'}|(Closure(): void).
+Cannot access offset 0 on array{'test'}|stdClass.
+Cannot access offset 0 on parent.
+Cannot access offset 0 on stdClass.
+Cannot access offset 42 on bool.
+Cannot access offset 42 on float.
+Cannot access offset 42 on int.
+Cannot access offset 42 on resource.
+Cannot access offset 5 on T of mixed.
+Cannot access offset 5 on mixed.
+Cannot access offset mixed on (float|int).
+Cannot access offset string on mixed.
+Cannot assign new offset to OffsetAccessAssignment\ObjectWithOffsetAccess.
+Cannot assign new offset to string.
+Cannot assign offset 'foo' to array|int.
+Cannot assign offset 'foo' to array|string.
+Cannot assign offset 'foo' to string.
+Cannot assign offset 12.34 to string.
+Cannot assign offset array{1, 2, 3} to SplObjectStorage<object, mixed>.
+Cannot assign offset false to OffsetAccessAssignment\ObjectWithOffsetAccess.
+Cannot assign offset false to string.
+Cannot assign offset int|null to string.
+Cannot assign offset int|object to array|string.
+Cannot assign offset int|object to string.
+Cannot assign offset stdClass to string.
+Cannot use [] for reading.
+Cannot use array destructuring on array|null.
+Cannot use array destructuring on stdClass.
+Empty array passed to foreach.
+Invalid array key type Bug6315\FooEnum::A.
+Invalid array key type Bug6315\FooEnum::B.
+Invalid array key type DateTimeImmutable.
+Invalid array key type InvalidKeyArrayItemEnum\FooEnum::A.
+Invalid array key type array.
+Invalid array key type array<int, int|string>.
+Invalid array key type false.
+Invalid array key type float.
+Invalid array key type null.
+Invalid array key type stdClass.
+Iterating over an object of an unknown class IterablesInForeach\Bar.
+Offset '0' does not exist on array<string, string>.
+Offset 'a' does not exist on array{b: 1}.
+Offset 'b' does not exist on array<'a', string>.
+Offset 'b' does not exist on array{a: 'blabla'}.
+Offset 'b' does not exist on array{a: 1}.
+Offset 'b' does not exist on array{a: stdClass, 0: 2}.
+Offset 'bar' might not exist on non-empty-array{foo?: string, bar?: string, 1?: 1, 2?: 2, 3?: 3, 4?: 4, 5?: 5, 6?: 6, ...}.
+Offset 'bar' might not exist on non-empty-array{foo?: string, bar?: string}.
+Offset 'baz' might not exist on array{bar: 1, baz?: 2}.
+Offset 'c' might not exist on array{c: false}|array{c: true}|array{e: true}.
+Offset 'feature_pretty_version' might not exist on array{version: non-falsy-string, commit: string|null, pretty_version: string|null, feature_version: non-falsy-string, feature_pretty_version?: string|null}.
+Offset 'foo' does not exist on 'Foo'.
+Offset 'foo' does not exist on 'foo'.
+Offset 'foo' does not exist on ArrayAccess<int, stdClass>.
+Offset 'foo' does not exist on array{}.
+Offset 'foo' might not exist on array.
+Offset 'foo' might not exist on array|string.
+Offset 'foo' might not exist on non-empty-array{foo?: string, bar?: string, 1?: 1, 2?: 2, 3?: 3, 4?: 4, 5?: 5, 6?: 6, ...}.
+Offset 'foo' might not exist on non-empty-array{foo?: string, bar?: string}.
+Offset 'invalid' does not exist on array{a: array{b: array{5}}}.
+Offset 'invalid' does not exist on array{b: array{5}}.
+Offset 'one'|'two' might not exist on array{two: 1, three: 2}.
+Offset 'require'|'require-dev' might not exist on array{require?: array<string, string>, require-dev?: array<string, string>}.
+Offset 'require'|'require-dev' might not exist on non-empty-array{require?: array<string, string>, require-dev?: array<string, string>}.
+Offset 'something' does not exist on array{categoryKeys: array<string>, tagNames: array<string>}.
+Offset 'test' does not exist on null.
+Offset 'x' might not exist on array<mixed>|string.
+Offset (int|string) might not exist on non-empty-list<string>.
+Offset -1|3|6|10 might not exist on list<int>.
+Offset -5|int<0, max> might not exist on list<int>.
+Offset 0 does not exist on array<string, string>.
+Offset 0 does not exist on array{}.
+Offset 0|array<int> might not exist on array<int>.
+Offset 1 does not exist on array{a: int}.
+Offset 1 does not exist on array{a: stdClass, 0: 2}.
+Offset 1 might not exist on list<int>.
+Offset 10 might not exist on non-empty-list<int>.
+Offset 12.34 does not exist on 'foo'.
+Offset 12.34 might not exist on array|string.
+Offset 1|int<3, max> does not exist on array{}.
+Offset 2 does not exist on array{1, 2}.
+Offset 2|4 might not exist on array{array{0}, array{1}, array{2}}.
+Offset 3 does not exist on array{non-falsy-string, 'x', array{non-falsy-string, 'x'}}.
+Offset array<int, int|string>|int|string might not exist on non-empty-array<bool|float|int|string>.
+Offset array<int>|int might not exist on array<int>.
+Offset array<int>|int might not exist on array<int>|string.
+Offset array<int>|int might not exist on array{string}.
+Offset array<int>|string might not exist on array<int>.
+Offset array<int>|string might not exist on array{string}.
+Offset int does not exist on array<string, string>.
+Offset int might not exist on array.
+Offset int might not exist on array<int>.
+Offset int might not exist on array{string}.
+Offset int might not exist on array{}|array{1: 1, 2: 2}|array{3: 3, 4: 4}.
+Offset int might not exist on list<int>.
+Offset int might not exist on non-empty-array<int, ''>.
+Offset int<-1, max> might not exist on array<string>.
+Offset int<-1, max> might not exist on non-empty-list<string>.
+Offset int<0, 4> might not exist on array{1, 2, 3, 4}.
+Offset int<0, max> might not exist on array.
+Offset int<0, max> might not exist on list<int>.
+Offset int<0, max> might not exist on list<mixed>.
+Offset int<0, max> might not exist on list<string>.
+Offset int<0, max> might not exist on non-empty-array<int, string>.
+Offset int<0, max> might not exist on non-empty-array<string>.
+Offset int<0, max>|null might not exist on list<string>.
+Offset int<1, max> might not exist on non-empty-list<int>.
+Offset int<2, max> might not exist on non-empty-array<int<0, max>, string>.
+Offset int|null might not exist on array<int, string>.
+Offset int|null might not exist on array<string, string>.
+Offset int|object does not exist on array{baz: 21}|array{foo: 17, bar: 19}.
+Offset int|object might not exist on 'foo'.
+Offset int|object might not exist on array|string.
+Offset int|string might not exist on non-empty-array.
+Offset null does not exist on array<int, string>.
+Offset null does not exist on array{}.
+Offset string might not exist on array<int>.
+Offset string might not exist on array{foo: 1}.
+Offset string might not exist on array{string}.
+Only iterables can be unpacked, T of mixed given.
+Only iterables can be unpacked, array<int>|null given.
+Only iterables can be unpacked, int given.
+Only iterables can be unpacked, mixed given.
+Only iterables can be unpacked, string given.
+Possibly invalid array key type Tk of mixed.
+Possibly invalid array key type array<int, int|string>|int|string.
+Possibly invalid array key type mixed.
+Possibly invalid array key type stdClass|string.

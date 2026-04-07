@@ -1,0 +1,7 @@
+Cannot declare class NoNamespace because the name is already in use.
+Cannot declare class SomeNamespace\SimpleUses because the name is already in use.
+Cannot declare interface SomeNamespace\GroupedUses because the name is already in use.
+Cannot declare trait FirstNamespace\MultipleNamespaces because the name is already in use.
+Cannot use SomeOtherNamespace\FooBar as FooBar because the name is already in use.
+Cannot use SomeOtherNamespace\UsesUnderClass as GroupedUsesUnderClass because the name is already in use.
+Cannot use SomeOtherNamespace\UsesUnderClass as SimpleUsesUnderClass because the name is already in use.

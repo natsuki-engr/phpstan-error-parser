@@ -1,0 +1,19 @@
+Attribute class AllowDynamicProperties cannot be used with trait.
+Attribute class Deprecated can be used with traits only on PHP 8.5 and later.
+Attribute class TraitAttributes\AbstractAttribute is abstract.
+Attribute class TraitAttributes\MyTargettedAttribute does not have the class target.
+Constant ConflictingTraitConstantsTypes\Baz::BAR_CONST (int) overriding constant ConflictingTraitConstantsTypes\Foo::BAR_CONST should not have a native type.
+Constant ConflictingTraitConstantsTypes\Baz::FOO_CONST (int) overriding constant ConflictingTraitConstantsTypes\Foo::FOO_CONST (int|string) should have the same native type int|string.
+Constant ConflictingTraitConstantsTypes\Lorem::FOO_CONST overriding constant ConflictingTraitConstantsTypes\Foo::FOO_CONST (int|string) should also have native type int|string.
+Constant ConflictingTraitConstants\Bar9::PUBLIC_CONSTANT with value 2 overriding constant ConflictingTraitConstants\Foo::PUBLIC_CONSTANT with different value 1 should have the same value.
+Constant is declared inside a trait but is only supported on PHP 8.2 and later.
+Final constant ConflictingTraitConstants\Bar8::PUBLIC_CONSTANT overriding non-final constant ConflictingTraitConstants\Foo::PUBLIC_CONSTANT should also be non-final.
+Non-final constant ConflictingTraitConstants\Bar7::PUBLIC_FINAL_CONSTANT overriding final constant ConflictingTraitConstants\Foo::PUBLIC_FINAL_CONSTANT should also be final.
+Parameter #1 $name of attribute class Bug12011Trait\Table constructor expects string|null, int given.
+Private constant ConflictingTraitConstants\Bar2::PUBLIC_CONSTANT overriding public constant ConflictingTraitConstants\Foo::PUBLIC_CONSTANT should also be public.
+Private constant ConflictingTraitConstants\Bar4::PROTECTED_CONSTANT overriding protected constant ConflictingTraitConstants\Foo::PROTECTED_CONSTANT should also be protected.
+Protected constant ConflictingTraitConstants\Bar5::PRIVATE_CONSTANT overriding private constant ConflictingTraitConstants\Foo::PRIVATE_CONSTANT should also be private.
+Protected constant ConflictingTraitConstants\Bar::PUBLIC_CONSTANT overriding public constant ConflictingTraitConstants\Foo::PUBLIC_CONSTANT should also be public.
+Public constant ConflictingTraitConstants\Bar3::PROTECTED_CONSTANT overriding protected constant ConflictingTraitConstants\Foo::PROTECTED_CONSTANT should also be protected.
+Public constant ConflictingTraitConstants\Bar6::PRIVATE_CONSTANT overriding private constant ConflictingTraitConstants\Foo::PRIVATE_CONSTANT should also be private.
+Trait NotAnalysedTrait\Bar is used zero times and is not analysed.

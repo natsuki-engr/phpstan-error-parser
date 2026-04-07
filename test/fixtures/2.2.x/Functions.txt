@@ -1,0 +1,692 @@
+- duplicate-function.php:10
+- duplicate-function.php:15
+- duplicate-function.php:20
+Anonymous function has an unused use $anotherUnused.
+Anonymous function has an unused use $unused.
+Anonymous function has an unused use $usedInClosureUse.
+Anonymous function has invalid return type ArrowFunctionExistingClassesInTypehints\Baz.
+Anonymous function has invalid return type TestClosureFunctionTypehintsPhp71\NonexistentClass.
+Anonymous function has invalid return type TestClosureFunctionTypehints\NonexistentClass.
+Anonymous function has invalid return type TestClosureFunctionTypehints\SomeTrait.
+Anonymous function has unresolvable native return type.
+Anonymous function should never return but return statement found.
+Anonymous function should return ClosureReturnTypes\Bar&ClosureReturnTypes\Foo but returns ClosureReturnTypes\Bar.
+Anonymous function should return ClosureReturnTypes\Foo&SomeOtherNamespace\Baz but returns ClosureReturnTypes\Foo.
+Anonymous function should return ClosureReturnTypes\Foo&SomeOtherNamespace\Foo but returns ClosureReturnTypes\Foo.
+Anonymous function should return array{}|null but empty return statement found.
+Anonymous function should return int but empty return statement found.
+Anonymous function should return int but returns string.
+Anonymous function should return int|null but returns string.
+Anonymous function should return iterable but returns string.
+Anonymous function should return string but empty return statement found.
+Anonymous function should return string but returns int.
+Anonymous function uses native union types but they're supported only on PHP 8.0 and later.
+Argument #3 ($case_insensitive) is ignored since declaration of case-insensitive constants is no longer supported.
+Argument for parameter $b has already been passed.
+Attribute NoDiscard cannot be used on never anonymous function.
+Attribute NoDiscard cannot be used on never function TestFunctionTypehints\returnNever().
+Attribute NoDiscard cannot be used on void anonymous function.
+Attribute NoDiscard cannot be used on void function TestFunctionTypehints\nothing().
+Attribute class ArrowFunctionAttributes\Foo does not have the function target.
+Attribute class ClosureAttributes\Foo does not have the function target.
+Attribute class FunctionAttributes\Foo does not have the function target.
+Attribute class ParamAttributes\Foo does not have the parameter or property target.
+Attribute class ParamAttributes\Foo does not have the parameter target.
+Attribute class ParamAttributes\Qux does not have the parameter target.
+Call to fscanf contains 2 placeholders, 1 value given.
+Call to function FirstClassCallableFunctionWithoutSideEffect\bar() on a separate line has no effect.
+Call to function FirstClassCallableFunctionWithoutSideEffect\foo() on a separate line has no effect.
+Call to function FunctionCallStatementNoSideEffectsPhpDoc\pure1() on a separate line has no effect.
+Call to function FunctionCallStatementNoSideEffectsPhpDoc\pure2() on a separate line has no effect.
+Call to function FunctionCallStatementNoSideEffectsPhpDoc\pure3() on a separate line has no effect.
+Call to function FunctionCallStatementNoSideEffectsPhpDoc\pure4() on a separate line has no effect.
+Call to function FunctionCallStatementNoSideEffectsPhpDoc\pure5() on a separate line has no effect.
+Call to function FunctionCallStatementNoSideEffectsPhpDoc\pureAndThrowsVoid() on a separate line has no effect.
+Call to function IncorrectFunctionCase\fooBar() with incorrect case: IncorrectFunctionCase\foobar
+Call to function IncorrectFunctionCase\fooBar() with incorrect case: foobar
+Call to function MongoDB\Driver\Monitoring\addSubscriber() with incorrect case: MONGODB\Driver\Monitoring\addSubscriber
+Call to function MongoDB\Driver\Monitoring\addSubscriber() with incorrect case: mongodb\driver\monitoring\addsubscriber
+Call to function highlight_string() on a separate line has no effect.
+Call to function htmlspecialchars() with incorrect case: htmlSpecialChars
+Call to function mkdir() on a separate line has no effect.
+Call to function print_r() on a separate line has no effect.
+Call to function sprintf() on a separate line has no effect.
+Call to function strlen() on a separate line has no effect.
+Call to function strlen() with incorrect case: StrLen
+Call to function var_export() on a separate line has no effect.
+Call to printf contains an invalid placeholder.
+Call to private method privateFooMethod() of class CallCallables\Foo.
+Call to sprintf contains 0 placeholders, 1 value given.
+Call to sprintf contains 1 placeholder, 0 values given.
+Call to sprintf contains 1 placeholder, 2 values given.
+Call to sprintf contains 2 placeholders, 0 values given.
+Call to sprintf contains 2 placeholders, 1 value given.
+Call to sprintf contains 2 placeholders, 3 values given.
+Call to sprintf contains 4 placeholders, 0 values given.
+Call to sprintf contains 5 placeholders, 2 values given.
+Call to sprintf contains 6 placeholders, 0 values given.
+Call to sscanf contains 2 placeholders, 1 value given.
+Call to vprintf contains 2 placeholders, 1 value given.
+Call to vsprintf contains 0 placeholders, 1 value given.
+Call to vsprintf contains 1 placeholder, 1-2 values given.
+Call to vsprintf contains 1 placeholder, 2 values given.
+Call to vsprintf contains 2 placeholders, 0 values given.
+Call to vsprintf contains 2 placeholders, 1 value given.
+Call to vsprintf contains 4 placeholders, 0 values given.
+Call to vsprintf contains 5 placeholders, 2 values given.
+Call to vsprintf contains an invalid placeholder.
+Callable 'CallCallables\\Foo:…' invoked with 1 parameter, 0 required.
+Callable 'date' invoked with 0 parameters, 1-2 required.
+Callable array{'CallCallables\\Foo', 'doStaticBaz'} invoked with 1 parameter, 0 required.
+Callable passed to call_user_func() invoked with 0 parameters, 1 required.
+Callable passed to call_user_func() invoked with 0 parameters, 2-4 required.
+Callable passed to call_user_func() invoked with 0 parameters, at least 2 required.
+Callable passed to call_user_func() invoked with 1 parameter, 2-4 required.
+Callable passed to call_user_func() invoked with 1 parameter, at least 2 required.
+Callable passed to call_user_func() invoked with named argument $i, but it's not allowed because of @no-named-arguments.
+Callable passed to call_user_func_array() invoked with 0 parameters, 1 required.
+Callable passed to call_user_func_array() invoked with 0 parameters, 2-4 required.
+Callable passed to call_user_func_array() invoked with 0 parameters, at least 2 required.
+Callable passed to call_user_func_array() invoked with 1 parameter, 2-4 required.
+Callable passed to call_user_func_array() invoked with 1 parameter, at least 2 required.
+Cannot use $this as lexical variable.
+Cannot use $this as parameter.
+Cannot use lexical variable $bar since a parameter with the same name already exists.
+Cannot use lexical variable $baz since a parameter with the same name already exists.
+Cannot use superglobal variable $GLOBALS as lexical variable.
+Cannot use superglobal variable $_COOKIE as lexical variable.
+Cannot use superglobal variable $_ENV as lexical variable.
+Cannot use superglobal variable $_FILES as lexical variable.
+Cannot use superglobal variable $_GET as lexical variable.
+Cannot use superglobal variable $_POST as lexical variable.
+Cannot use superglobal variable $_REQUEST as lexical variable.
+Cannot use superglobal variable $_SERVER as lexical variable.
+Cannot use superglobal variable $_SESSION as lexical variable.
+Class DateTimeImmutable referenced with incorrect case: dateTimeImmutable.
+Class FooFunctionTypehints referenced with incorrect case: FOOFunctionTypehints.
+Class FooFunctionTypehints referenced with incorrect case: fOOFunctionTypehintS.
+Class FooFunctionTypehints referenced with incorrect case: fOOFunctionTypehints.
+Class ParamClosureThisClassesFunctions\Foo referenced with incorrect case: ParamClosureThisClassesFunctions\fOO.
+Class ParamOutClasses\Foo referenced with incorrect case: ParamOutClasses\fOO.
+Class TestClosureFunctionTypehints\FooFunctionTypehints referenced with incorrect case: TestClosureFunctionTypehints\FOOfUnctionTypehintS.
+Class TestClosureFunctionTypehints\FooFunctionTypehints referenced with incorrect case: TestClosureFunctionTypehints\fOOfUnctionTypehints.
+Class TestFunctionTypehints\FooFunctionTypehints referenced with incorrect case: TestFunctionTypehints\FOOFunctionTypehints.
+Class TestFunctionTypehints\FooFunctionTypehints referenced with incorrect case: TestFunctionTypehints\fOOFunctionTypehintS.
+Class TestFunctionTypehints\FooFunctionTypehints referenced with incorrect case: TestFunctionTypehints\fOOFunctionTypehints.
+Closure invoked with 0 parameters, 1-2 required.
+Closure invoked with 0 parameters, 3 required.
+Closure invoked with 0 parameters, at least 1 required.
+Closure invoked with 1 parameter, 3 required.
+Closure invoked with 2 parameters, 3 required.
+Combining constants with | is not allowed for parameter #2 $filter of function filter_var.
+Combining constants with | is not allowed for parameter #2 $flags of function array_unique.
+Constant FILE_APPEND is not allowed for parameter #2 $flags of function file.
+Constant FILE_APPEND is not allowed for parameter #2 $operation of function flock.
+Constant JSON_BIGINT_AS_STRING is not allowed for parameter #3 $flags of function json_validate.
+Constant JSON_PRETTY_PRINT is not allowed for parameter #4 $flags of function json_decode.
+Constant JSON_THROW_ON_ERROR is not allowed for parameter #3 $depth of function json_decode.
+Constant SORT_REGULAR is not allowed for parameter #2 $filter of function filter_var.
+Constant SORT_REGULAR is not allowed for parameter #2 $flags of callable passed to call_user_func().
+Constant SORT_REGULAR is not allowed for parameter #2 $flags of closure.
+Constant SORT_REGULAR is not allowed for parameter #2 $flags of function json_encode.
+Constant SORT_REGULAR is not allowed for parameter $flags of function json_encode.
+Constants ENT_HTML401, ENT_HTML5 cannot be combined for parameter #2 $flags of function htmlspecialchars.
+Constants ENT_QUOTES, ENT_NOQUOTES cannot be combined for parameter #2 $flags of function htmlspecialchars.
+Constants LOCK_EX, LOCK_SH cannot be combined for parameter #2 $operation of function flock.
+Constants LOCK_SH, LOCK_EX cannot be combined for parameter #2 $operation of function flock.
+Constants SORT_NUMERIC, SORT_STRING cannot be combined for parameter #2 $flags of function sort.
+Creating callable from 1 but it's not a callable.
+Creating callable from 1|(callable(): mixed) but it might not be a callable.
+Creating callable from an unknown class FunctionCallable\Nonexistent.
+Creating callable from string but it might not be a callable.
+Default value of the parameter #1 $i (string) of anonymous function is incompatible with type int.
+Default value of the parameter #1 $string (false) of function IncompatibleDefaultParameter\takesString() is incompatible with type string.
+Deprecated in PHP 8.0: Required parameter $bar follows optional parameter $foo.
+Deprecated in PHP 8.0: Required parameter $quuz follows optional parameter $quux.
+Deprecated in PHP 8.1: Required parameter $bar follows optional parameter $foo.
+Deprecated in PHP 8.1: Required parameter $qux follows optional parameter $baz.
+Deprecated in PHP 8.3: Required parameter $bar follows optional parameter $foo.
+Function Bug10077\mergeMediaQueries() should return list<Bug10077\CssMediaQuery>|null but returns list<Bug10077\MediaQueryMergeResult>.
+Function Bug11301\cString() should return array<string, string> but returns array<int, string>.
+Function Bug11559b\maybe_variadic_fn invoked with 5 parameters, 0 required.
+Function Bug11559b\maybe_variadic_fn4 invoked with 2 parameters, 0 required.
+Function Bug12274\getItemsByModifiedIndex() should return non-empty-list<int> but returns non-empty-array<int<0, max>, int>.
+Function Bug2723\baz() should return Bug2723\Bar<Bug2723\Foo<T4>> but returns Bug2723\BarOfFoo<string>.
+Function Bug3028\run() should return Bug3028\Format<Bug3028\Output> but returns Bug3028\Format<O of Bug3028\Output>.
+Function Bug3801\do_foo() should return array{bool, null}|array{null, bool} but returns array{false, false}.
+Function Bug3801\do_foo() should return array{bool, null}|array{null, bool} but returns array{false, true}.
+Function Bug6568\test() should return T of array but returns array<mixed, mixed>.
+Function Bug6787\f() should return T of DateTimeInterface but returns DateTime.
+Function Bug7766\problem() should return array<array{id: int, created: DateTimeInterface, updated: DateTimeInterface, valid_from: DateTimeInterface, valid_till: DateTimeInterface, string: string, other_string: string, another_string: string, ...}> but returns array{array{id: 1, created: DateTimeImmutable, updated: DateTimeImmutable, valid_from: DateTimeImmutable, valid_till: DateTimeImmutable, string: 'string', other_string: 'string', another_string: 'string', ...}}.
+Function Bug9401\foo() should return list<int<1, max>> but returns list<int<0, max>>.
+Function CallToFunctionWithOptionalParameters\foo invoked with 3 parameters, 1-2 required.
+Function DuplicateFunctionDeclaration\foo declared multiple times:
+Function FunctionIntersectionTypes\doBar() has unresolvable native return type.
+Function FunctionIntersectionTypes\doBaz() has unresolvable native return type.
+Function FunctionWithNullableVariadicParameters\foo invoked with 0 parameters, at least 1 required.
+Function FunctionWithVariadicParameters\bar invoked with 0 parameters, at least 1 required.
+Function FunctionWithVariadicParameters\foo invoked with 0 parameters, at least 1 required.
+Function IncorrectCallToFunction\foo invoked with 1 parameter, 2 required.
+Function IncorrectCallToFunction\foo invoked with 3 parameters, 2 required.
+Function MissingFunctionParameterTypehint\acceptsGenericClass() has parameter $c with generic class MissingFunctionParameterTypehint\GenericClass but does not specify its types: A, B
+Function MissingFunctionParameterTypehint\acceptsGenericInterface() has parameter $i with generic interface MissingFunctionParameterTypehint\GenericInterface but does not specify its types: T, U
+Function MissingFunctionParameterTypehint\missingArrayTypehint() has parameter $a with no value type specified in iterable type array.
+Function MissingFunctionParameterTypehint\missingCallableSignature() has parameter $cb with no signature specified for callable.
+Function MissingFunctionParameterTypehint\missingIterableTypehint() has parameter $iterable with no value type specified in iterable type iterable.
+Function MissingFunctionParameterTypehint\missingIterableTypehintPhpDoc() has parameter $iterable with no value type specified in iterable type iterable.
+Function MissingFunctionParameterTypehint\missingPhpDocIterableTypehint() has parameter $a with no value type specified in iterable type array.
+Function MissingFunctionParameterTypehint\missingTraversableTypehint() has parameter $traversable with no value type specified in iterable type Traversable.
+Function MissingFunctionParameterTypehint\missingTraversableTypehintPhpDoc() has parameter $traversable with no value type specified in iterable type Traversable.
+Function MissingFunctionParameterTypehint\namespacedFunction() has parameter $d with no type specified.
+Function MissingFunctionParameterTypehint\unionTypeWithUnknownArrayValueTypehint() has parameter $a with no value type specified in iterable type array.
+Function MissingFunctionReturnTypehint\callableNestedNoPrototype() return type has no signature specified for callable.
+Function MissingFunctionReturnTypehint\callableWithNoPrototype() return type has no signature specified for callable.
+Function MissingFunctionReturnTypehint\closureWithNoPrototype() return type has no signature specified for Closure.
+Function MissingFunctionReturnTypehint\genericGenericMissingTemplateArgs() return type with generic class MissingFunctionReturnTypehint\GenericClass does not specify its types: A, B
+Function MissingFunctionReturnTypehint\namespacedFunction1() has no return type specified.
+Function MissingFunctionReturnTypehint\returnsGeneratorOfIntegersByStringNoPrototype() return type with generic class Generator does not specify its types: TKey, TValue, TSend, TReturn
+Function MissingFunctionReturnTypehint\returnsGeneratorOfIntegersNoPrototype() return type with generic class Generator does not specify its types: TKey, TValue, TSend, TReturn
+Function MissingFunctionReturnTypehint\returnsGenericClass() return type with generic class MissingFunctionReturnTypehint\GenericClass does not specify its types: A, B
+Function MissingFunctionReturnTypehint\returnsGenericInterface() return type with generic interface MissingFunctionReturnTypehint\GenericInterface does not specify its types: T, U
+Function MissingFunctionReturnTypehint\returnsIteratorAggregateNoPrototype() return type with generic interface IteratorAggregate does not specify its types: TKey, TValue
+Function MissingFunctionReturnTypehint\returnsIteratorNoPrototype() return type with generic interface Iterator does not specify its types: TKey, TValue
+Function MissingFunctionReturnTypehint\returnsTraversableNoPrototype() return type has no value type specified in iterable type Traversable.
+Function MissingFunctionReturnTypehint\unionTypeWithUnknownArrayValueTypehint() return type has no value type specified in iterable type array.
+Function MissingParamClosureThisType\generics() has @param-closure-this PHPDoc tag for parameter $cb with generic class ReflectionClass but does not specify its types: T
+Function MissingParamOutType\generics() has @param-out PHPDoc tag for parameter $a with generic class ReflectionClass but does not specify its types: T
+Function MissingParamOutType\oneArray() has @param-out PHPDoc tag for parameter $a with no value type specified in iterable type array.
+Function NativeUnionTypesSupport\bar() uses native union types but they're supported only on PHP 8.0 and later.
+Function NativeUnionTypesSupport\foo() uses native union types but they're supported only on PHP 8.0 and later.
+Function NoNamedArgumentsFunction\foo invoked with named argument $i, but it's not allowed because of @no-named-arguments.
+Function NoNamedArgumentsFunction\foo invoked with unpacked array with possibly string key, but it's not allowed because of @no-named-arguments.
+Function NoNamedArgumentsFunction\foo invoked with unpacked array with string key, but it's not allowed because of @no-named-arguments.
+Function PHPStan\dumpNativeType invoked with 0 parameters, at least 1 required.
+Function PHPStan\dumpPhpDocType invoked with 0 parameters, at least 1 required.
+Function PHPStan\dumpType invoked with 0 parameters, at least 1 required.
+Function RequiredAfterOptional\doAmet() uses native union types but they're supported only on PHP 8.0 and later.
+Function RequiredAfterOptional\doConsectetur() uses native union types but they're supported only on PHP 8.0 and later.
+Function RequiredAfterOptional\doSed() uses native union types but they're supported only on PHP 8.0 and later.
+Function ReturnListNullables\doFoo() should return array<string>|null but returns list<string|null>.
+Function ReturnTypes\Php70\returnInteger() should return int but empty return statement found.
+Function ReturnTypes\returnChild() should return ReturnTypes\Foo but returns ReturnTypes\OtherInterfaceImpl.
+Function ReturnTypes\returnFromGeneratorString() should return string but empty return statement found.
+Function ReturnTypes\returnFromGeneratorString() should return string but returns int.
+Function ReturnTypes\returnInteger() should return int but returns string.
+Function ReturnTypes\returnNever() should never return but return statement found.
+Function ReturnTypes\returnObject() should return ReturnTypes\Bar but returns ReturnTypes\Foo.
+Function ReturnTypes\returnObject() should return ReturnTypes\Bar but returns int.
+Function ReturnTypes\returnVoid() with return type void returns int but should not return anything.
+Function ReturnTypes\returnVoid() with return type void returns null but should not return anything.
+Function ReturnTypes\returnVoidFromGenerator2() with return type void returns int but should not return anything.
+Function TestFunctionTypehints\foo() has invalid return type TestFunctionTypehints\NonexistentClass.
+Function TestFunctionTypehints\referencesTraitsInNative() has invalid return type TestFunctionTypehints\SomeTrait.
+Function TestFunctionTypehints\referencesTraitsInPhpDoc() has invalid return type TestFunctionTypehints\SomeTrait.
+Function TestFunctionTypehints\returnParent() has invalid return type TestFunctionTypehints\parent.
+Function another_unknown_function not found.
+Function array_unique invoked with 3 parameters, 1-2 required.
+Function barNonExistentFunction not found.
+Function bug3576 not found.
+Function convert_cyr_string not found.
+Function create_function not found.
+Function dolor not found.
+Function ezmlm_hash not found.
+Function fgetss not found.
+Function fooWithoutNamespace() has invalid return type NonexistentClass.
+Function foobarNonExistentFunction not found.
+Function fputcsv invoked with 1 parameter, 2-6 required.
+Function get_magic_quotes_gpc not found.
+Function globalFunction() has parameter $b with no type specified.
+Function globalFunction() has parameter $c with no type specified.
+Function globalFunction1() has no return type specified.
+Function hebrevc not found.
+Function imagepng invoked with 0 parameters, 1-4 required.
+Function imagepng invoked with 5 parameters, 1-4 required.
+Function imap_header not found.
+Function implode invoked with 0 parameters, 1-2 required.
+Function implode invoked with 3 parameters, 1-2 required.
+Function ipsum not found.
+Function ldap_control_paged_result not found.
+Function ldap_control_paged_result_response not found.
+Function locale_get_display_language invoked with 3 parameters, 1-2 required.
+Function lorem not found.
+Function mysqli_fetch_all invoked with 0 parameters, 1-2 required.
+Function mysqli_fetch_all invoked with 3 parameters, 1-2 required.
+Function nonexistent not found.
+Function openssl_open invoked with 4 parameters, 5-6 required.
+Function openssl_open invoked with 7 parameters, 5-6 required.
+Function openssl_pkcs12_export invoked with 6 parameters, 4-5 required.
+Function openssl_x509_parse invoked with 3 parameters, 1-2 required.
+Function referencesTraitsInNativeWithoutNamespace() has invalid return type SomeTraitWithoutNamespace.
+Function referencesTraitsInPhpDocWithoutNamespace() has invalid return type SomeTraitWithoutNamespace.
+Function restore_include_path not found.
+Function returnParentWithoutNamespace() has invalid return type parent.
+Function setcookie invoked with 9 parameters, 1-7 required.
+Function setrawcookie invoked with 9 parameters, 1-7 required.
+Function sit not found.
+Function strtok invoked with 0 parameters, 1-2 required.
+Function strtok invoked with 3 parameters, 1-2 required.
+Function unpack invoked with 0 parameters, 2-3 required.
+Inner named functions are not supported by PHPStan. Consider refactoring to an anonymous function, class method, or a top-level-defined function. See issue #165 (https://github.com/phpstan/phpstan/issues/165) for more details.
+Invoking callable on an unknown class CallCallables\Bar.
+Missing parameter $ (int) in call to callable callable(int, int): void.
+Missing parameter $i (int) in call to callable passed to call_user_func().
+Missing parameter $i (int) in call to callable passed to call_user_func_array().
+Missing parameter $j (int) in call to callable callable(int, int): void.
+Missing parameter $j (int) in call to closure.
+Missing parameter $j (int) in call to function FunctionNamedArguments\foo.
+Missing parameter $separator (string) in call to function implode.
+Missing parameter $separator (string) in call to function join.
+Missing parameter $string1 (string) in call to function levenshtein.
+Missing parameter $string2 (string) in call to function levenshtein.
+Named parameter $var overwrites previous argument.
+Nullsafe cannot be returned by reference.
+Only the last parameter can be variadic.
+Parameter #1 $a of function CallGenericFunction\g expects DateTime, DateTimeImmutable given.
+Parameter #1 $arr1 of function array_udiff expects array<(int&TK)|(string&TK), string>, null given.
+Parameter #1 $array (array<class-string>) to function array_filter does not contain falsy values, the array will always stay the same.
+Parameter #1 $array (array<false|null>) to function array_filter contains falsy values only, the result will always be an empty array.
+Parameter #1 $array (array<stdClass>) to function array_filter does not contain falsy values, the array will always stay the same.
+Parameter #1 $array (array{'', 'test'}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{'test'}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{'test'}) to function array_filter does not contain falsy values, the array will always stay the same.
+Parameter #1 $array (array{0, 1, 3}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{0}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{0}) to function array_filter contains falsy values only, the result will always be an empty array.
+Parameter #1 $array (array{1, 3}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{1, 3}) to function array_filter does not contain falsy values, the array will always stay the same.
+Parameter #1 $array (array{null, 0}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{null, 0}) to function array_filter contains falsy values only, the result will always be an empty array.
+Parameter #1 $array (array{null, null}) of array_values is already a list, call has no effect.
+Parameter #1 $array (array{null, null}) to function array_filter contains falsy values only, the result will always be an empty array.
+Parameter #1 $array (array{null}) to function array_filter contains falsy values only, the result will always be an empty array.
+Parameter #1 $array (array{stdClass}) to function array_filter does not contain falsy values, the array will always stay the same.
+Parameter #1 $array (array{true, true}) to function array_filter does not contain falsy values, the array will always stay the same.
+Parameter #1 $array (array{}) to function array_filter is empty, call has no effect.
+Parameter #1 $array (array{}) to function array_values is empty, call has no effect.
+Parameter #1 $array (list<int>) of array_values is already a list, call has no effect.
+Parameter #1 $array is passed by reference so it does not accept @readonly property Bug12676\A::$a.
+Parameter #1 $array is passed by reference so it does not accept @readonly property Bug12676\B::$readonlyArr.
+Parameter #1 $array is passed by reference so it does not accept static @readonly property Bug12676\C::$readonlyArr.
+Parameter #1 $array of function Bug12847\doSomething expects non-empty-array<mixed>, mixed given.
+Parameter #1 $array of function Bug12847\doSomethingWithInt expects non-empty-array<int>, non-empty-array given.
+Parameter #1 $array of function Bug2911\bar expects array{bar: string}, non-empty-array<mixed> given.
+Parameter #1 $array of function array_count_values expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function array_count_values expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter #1 $array of function array_diff expects an array of values castable to string, array<int, Bug11141\Language::DAN|Bug11141\Language::ENG|Bug11141\Language::GER> given.
+Parameter #1 $array of function array_diff expects an array of values castable to string, array<int, stdClass> given.
+Parameter #1 $array of function array_intersect expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function array_intersect expects an array of values castable to string, array<int, array> given.
+Parameter #1 $array of function array_intersect expects an array of values castable to string, array<int|stdClass> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, Bug11883\SomeEnum::A|Bug11883\SomeEnum::B> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, CurlHandle> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, GMP|stdClass> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, ParamCastableToNumberFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, ParamCastableToNumberFunctions\ClassWithToString> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, array<int, int>> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, array> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, int|string> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, mixed> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, resource|false> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, stdClass> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int, string> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<int|stdClass> given.
+Parameter #1 $array of function array_product expects an array of values castable to number, array<string> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, Bug11883\SomeEnum::A|Bug11883\SomeEnum::B> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, CurlHandle> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, GMP|stdClass> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, ParamCastableToNumberFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, ParamCastableToNumberFunctions\ClassWithToString> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, array<int, int>> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, array> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, int|string> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, mixed> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, resource|false> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, stdClass> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int, string> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<int|stdClass> given.
+Parameter #1 $array of function array_sum expects an array of values castable to number, array<string> given.
+Parameter #1 $array of function array_unique expects an array of values castable to string, array<int, SortParamCastableToStringFunctionsEnum\FooEnum::A|string> given.
+Parameter #1 $array of function array_unique expects an array of values castable to string, array<int, list<string>> given.
+Parameter #1 $array of function array_unique expects an array of values castable to string, array<int|stdClass> given.
+Parameter #1 $array of function arsort expects an array of values castable to float, array<int, SortParamCastableToStringFunctions\ClassWithToString> given.
+Parameter #1 $array of function arsort expects an array of values castable to string and float, array<int, SortParamCastableToStringFunctions\ClassWithToString> given.
+Parameter #1 $array of function arsort expects an array of values castable to string, array<int, SortParamCastableToStringFunctionsEnum\FooEnum> given.
+Parameter #1 $array of function arsort expects an array of values castable to string, array<int, list<string>> given.
+Parameter #1 $array of function asort expects an array of values castable to string, list<SortParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function asort expects an array of values castable to string, list<array<int, string>> given.
+Parameter #1 $array of function implode expects array<string>, array<int, array<int, int>> given.
+Parameter #1 $array of function implode expects array<string>, array<int, array<int, int|true>> given.
+Parameter #1 $array of function implode expects array<string>, array<int, array<int, string>> given.
+Parameter #1 $array of function natcasesort expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function natcasesort expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter #1 $array of function natsort expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function natsort expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter #1 $array of function reset expects array|object, null given.
+Parameter #1 $array of function rsort expects an array of values castable to string, list<SortParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function rsort expects an array of values castable to string, list<array<int, string>> given.
+Parameter #1 $array of function sort expects an array of values castable to string and float, list<array<int, string>> given.
+Parameter #1 $array of function sort expects an array of values castable to string, array<int, SortParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $array of function sort expects an array of values castable to string, array<int, SortParamCastableToStringFunctions\ClassWithoutToString> given.
+Parameter #1 $array of function sort expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter #1 $array of function sort expects an array of values castable to string, array<int, list<string>> given.
+Parameter #1 $callback of function array_map expects (callable(1|2, 'bar'|'foo'): mixed)|null, Closure(int, int): void given.
+Parameter #1 $callback of function array_map expects (callable(1|stdClass): mixed)|null, Closure(string): string given.
+Parameter #1 $callback of function array_map expects (callable(Bug12317\Uuid): mixed)|null, Closure(string): string given.
+Parameter #1 $callback of function array_map expects (callable(string): mixed)|null, Closure(array): 'a' given.
+Parameter #1 $callback of function set_error_handler expects (callable(int, string, string, int): bool)|null, Closure(mixed, mixed, mixed, mixed): void given.
+Parameter #1 $cb of function FunctionCallParamClosureThis\acceptClosure expects bindable closure, static closure given.
+Parameter #1 $closure of function VaryingAcceptor\bar expects callable(callable(): string): string, callable(callable(): int): string given.
+Parameter #1 $command of function proc_open expects list<string>|string, array{something: 'bogus', in: 'here'} given.
+Parameter #1 $data of function Bug5986\test2 expects array{mov?: int, appliesTo?: string, expireDate?: string|null, effectiveFrom?: int, merchantId?: int, link?: string, channel?: string, voucherExternalId?: int}, array{mov?: int, appliesTo?: string, expireDate?: string|null, effectiveFrom?: string, merchantId?: int, link?: string, channel?: string, voucherExternalId?: int} given.
+Parameter #1 $date of function Bug4413\takesDate expects class-string<DateTime>, string given.
+Parameter #1 $depth of function xdebug_call_class expects int, string given.
+Parameter #1 $f of function Bug9699\int_int_int_string expects Closure(int, int, int, string): int, Closure(int, int, int ...): int given.
+Parameter #1 $foo of function Discussion7450\foo expects array{policy: non-empty-string, entitlements: array<non-empty-string>}, array{policy: mixed, entitlements: mixed} given.
+Parameter #1 $foo of function IncorrectCallToFunction\bar expects int, string given.
+Parameter #1 $foo of function PassedByReference\foo is passed by reference, so it expects variables only.
+Parameter #1 $i of callable array{$this(CallCallables\Foo), 'doBar'} expects int, string given.
+Parameter #1 $i of callable passed to call_user_func() expects int, string given.
+Parameter #1 $i of callable passed to call_user_func_array() expects int, string given.
+Parameter #1 $i of callable passed to call_user_func_array() expects int|null, string given.
+Parameter #1 $i of closure expects int, string given.
+Parameter #1 $i of function CallToFunctionInForeachCondition\takesString expects string, int given.
+Parameter #1 $input of function array_rand expects non-empty-array, array{} given.
+Parameter #1 $iterator of function iterator_apply expects Traversable, array<stdClass> given.
+Parameter #1 $iterator of function iterator_apply expects Traversable, array<stdClass>|Iterator<mixed, stdClass> given.
+Parameter #1 $keys of function array_combine expects an array of values castable to string, array<int, Bug3946\stdClass|float|int|list<string>|string> given.
+Parameter #1 $keys of function array_combine expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $keys of function array_combine expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter #1 $keys of function array_fill_keys expects an array of values castable to string, array<Bug11111\Language> given.
+Parameter #1 $keys of function array_fill_keys expects an array of values castable to string, array<int, Bug11111\Language::DUT|Bug11111\Language::ITA> given.
+Parameter #1 $keys of function array_fill_keys expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #1 $keys of function array_fill_keys expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter #1 $keys of function array_fill_keys expects an array of values castable to string, array<int|stdClass> given.
+Parameter #1 $min (0) of function random_int expects lower number than parameter #2 $max (-1).
+Parameter #1 $min (0) of function random_int expects lower number than parameter #2 $max (int<-10, -1>).
+Parameter #1 $min (0) of function random_int expects lower number than parameter #2 $max (int<-10, 10>).
+Parameter #1 $min (1) of function random_int expects lower number than parameter #2 $max (0).
+Parameter #1 $min (int<-10, 10>) of function random_int expects lower number than parameter #2 $max (0).
+Parameter #1 $min (int<-5, 0>) of function random_int expects lower number than parameter #2 $max (int<-1, 5>).
+Parameter #1 $min (int<-5, 1>) of function random_int expects lower number than parameter #2 $max (int<0, 5>).
+Parameter #1 $min (int<0, 10>) of function random_int expects lower number than parameter #2 $max (int<0, 10>).
+Parameter #1 $min (int<1, 10>) of function random_int expects lower number than parameter #2 $max (0).
+Parameter #1 $num of function dechex expects int, float|int given.
+Parameter #1 $object of function get_class expects object, null given.
+Parameter #1 $object of function get_class expects object, object|null given.
+Parameter #1 $object_or_class of function is_a expects object, string given.
+Parameter #1 $object_or_class of function is_subclass_of expects object, string given.
+Parameter #1 $s of function Bug757\useString is passed by reference, so it expects variables only.
+Parameter #1 $s of function Bug7823\sayHello expects literal-string, class-string given.
+Parameter #1 $s of function PassedByReference\bar expects string, int given.
+Parameter #1 $separator of function explode expects non-empty-string, '' given.
+Parameter #1 $separator of function explode expects non-empty-string, 1 given.
+Parameter #1 $separator of function explode expects non-empty-string, string given.
+Parameter #1 $separator of function implode expects array, array<string>|string given.
+Parameter #1 $separator of function implode expects array, list<int>|null given.
+Parameter #1 $separator of function implode expects string, array given.
+Parameter #1 $separator of function join expects array, array<string>|string given.
+Parameter #1 $separator of function join expects array, list<int>|null given.
+Parameter #1 $str of callable class@anonymous/tests/PHPStan/Rules/Functions/data/callables.php:75 expects string, int given.
+Parameter #1 $string of function strlen expects string, int given.
+Parameter #1 $string1 of function strnatcasecmp expects string, Bug11619Strict\Foo given.
+Parameter #1 $test of closure expects string|null, int given.
+Parameter #1 $type of function filter_input expects 0|1|2|4|5, -1 given.
+Parameter #1 $type of function filter_input expects 0|1|2|4|5, int given.
+Parameter #1 $type of function filter_input_array expects 0|1|2|4|5, -1 given.
+Parameter #1 $type of function filter_input_array expects 0|1|2|4|5, int given.
+Parameter #1 $val of closure expects int, int|null given.
+Parameter #1 $val of function Bug7082\takesStr expects string, mixed given.
+Parameter #1 $value of function Bug10626\intByReference expects int, string given.
+Parameter #1 $value of function Bug10626\intByValue expects int, string given.
+Parameter #1 $value of function Bug9133\assertNever expects never, int given.
+Parameter #1 $value of function count expects array|Countable, array<mixed>|false given.
+Parameter #1 $value of function floatval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, Stringable@anonymous/tests/PHPStan/Rules/Functions/data/bug-6560-strict.php:13 given.
+Parameter #1 $value of function floatval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, Stringable@anonymous/tests/PHPStan/Rules/Functions/data/bug-6560.php:13 given.
+Parameter #1 $value of function floatval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, mixed given.
+Parameter #1 $value of function floatval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, stdClass given.
+Parameter #1 $value of function intval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, Stringable@anonymous/tests/PHPStan/Rules/Functions/data/bug-6560-strict.php:13 given.
+Parameter #1 $value of function intval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, Stringable@anonymous/tests/PHPStan/Rules/Functions/data/bug-6560.php:13 given.
+Parameter #1 $value of function intval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, mixed given.
+Parameter #1 $value of function intval expects array|bool|float|GMP|int|resource|SimpleXMLElement|string|null, stdClass given.
+Parameter #1 $value of function strval expects bool|float|GMP|int|resource|string|null, array given.
+Parameter #1 $value of function strval expects bool|float|GMP|int|resource|string|null, mixed given.
+Parameter #1 $value of function strval expects bool|float|GMP|int|resource|string|null, stdClass given.
+Parameter #1 ...$arg1 of function max expects non-empty-array, array{} given.
+Parameter #1 ...$arg1 of function min expects non-empty-array, array{} given.
+Parameter #1 ...$foo of closure expects CallCallables\Foo, array<CallCallables\Foo> given.
+Parameter #1 of closure expects DateTime, DateTimeImmutable given.
+Parameter #1 of closure expects int, TMemberType given.
+Parameter #1 of closure expects never, TBlockType of Bug6485\Block given.
+Parameter #2 $arr2 of function array_udiff expects array<(int&TK)|(string&TK), string>, null given.
+Parameter #2 $array of function array_map expects array, mixed given.
+Parameter #2 $array of function implode expects array, array<string>|string given.
+Parameter #2 $array of function implode expects array, list<int>|null given.
+Parameter #2 $array of function implode expects array, string given.
+Parameter #2 $array of function implode expects array<string>, array<int, ImplodeParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #2 $array of function implode expects array<string>, array<int, array<int, string>> given.
+Parameter #2 $array of function implode expects array<string>, array<int, list<string>|string> given.
+Parameter #2 $array of function implode expects array<string>, array<int|stdClass> given.
+Parameter #2 $array of function join expects array, array<string>|string given.
+Parameter #2 $array of function join expects array, list<int>|null given.
+Parameter #2 $array of function join expects array<string>, array<int, array<int, string>> given.
+Parameter #2 $arrays of function array_diff expects an array of values castable to string, array<int, Bug11141\Language::DAN> given.
+Parameter #2 $arrays of function array_diff expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #2 $arrays of function array_diff expects an array of values castable to string, array<int, ParamCastableToStringFunctions\ClassWithoutToString> given.
+Parameter #2 $arrays of function array_diff expects an array of values castable to string, array<int, stdClass> given.
+Parameter #2 $arrays of function array_diff_assoc expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #2 $arrays of function array_diff_assoc expects an array of values castable to string, array<int, ParamCastableToStringFunctions\ClassWithoutToString> given.
+Parameter #2 $arrays of function array_intersect expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #2 $arrays of function array_intersect expects an array of values castable to string, array<int, ParamCastableToStringFunctions\ClassWithoutToString> given.
+Parameter #2 $callback of function array_filter expects (callable('bar'|'baz'|'foo'|'quux'|'qux'): bool)|null, Closure(string): stdClass given.
+Parameter #2 $callback of function array_filter expects (callable(int): bool)|null, Closure(string): true given.
+Parameter #2 $callback of function array_filter expects (callable(mixed): bool)|null, Closure(int): true given.
+Parameter #2 $callback of function array_find expects callable(1|2, 'bar'|'foo'): bool, Closure(int, string): ('bar'|'foo') given.
+Parameter #2 $callback of function array_find expects callable(1|2, 'bar'|'foo'): bool, Closure(string, int): bool given.
+Parameter #2 $callback of function array_find expects callable(mixed, int|string): bool, Closure(string, array): false given.
+Parameter #2 $callback of function array_find expects callable(mixed, int|string): bool, Closure(string, int): array{} given.
+Parameter #2 $callback of function array_find_key expects callable(1|2, 'bar'|'foo'): bool, Closure(int, string): ('bar'|'foo') given.
+Parameter #2 $callback of function array_find_key expects callable(1|2, 'bar'|'foo'): bool, Closure(string, int): bool given.
+Parameter #2 $callback of function array_find_key expects callable(mixed, int|string): bool, Closure(string, array): false given.
+Parameter #2 $callback of function array_find_key expects callable(mixed, int|string): bool, Closure(string, int): array{} given.
+Parameter #2 $callback of function array_reduce expects callable(non-falsy-string|null, 1|2|3): (non-falsy-string|null), Closure(string, int): non-falsy-string given.
+Parameter #2 $callback of function array_reduce expects callable(string, 1|2|3): string, Closure(string, string): string given.
+Parameter #2 $callback of function array_walk expects callable(1|2, 'bar'|'foo'): mixed, Closure(int, string, int): '' given.
+Parameter #2 $callback of function array_walk expects callable(1|2, 'bar'|'foo'): mixed, Closure(stdClass, float): '' given.
+Parameter #2 $callback of function array_walk expects callable(1|2, 'bar'|'foo', 'extra'): mixed, Closure(int, string, int): '' given.
+Parameter #2 $callback of function mb_ereg_replace_callback expects callable(array<int|string, string>): string, Closure(): void given.
+Parameter #2 $callback of function mb_ereg_replace_callback expects callable(array<int|string, string>): string, Closure(array): void given.
+Parameter #2 $callback of function mb_ereg_replace_callback expects callable(array<int|string, string>): string, Closure(string): string given.
+Parameter #2 $callback of function preg_replace_callback expects callable(array<string>): string, Closure(): void given.
+Parameter #2 $callback of function preg_replace_callback expects callable(array<string>): string, Closure(array): void given.
+Parameter #2 $callback of function preg_replace_callback expects callable(array<string>): string, Closure(string): string given.
+Parameter #2 $callback of function uasort expects callable(1|2|3, 1|2|3): int, Closure(string, string): 1 given.
+Parameter #2 $callback of function uksort expects callable('one'|'three'|'two', 'one'|'three'|'two'): int, Closure(stdClass, stdClass): 1 given.
+Parameter #2 $callback of function uksort expects callable(int, int): int, Closure(string, string): 1 given.
+Parameter #2 $callback of function usort expects callable(1|2|3, 1|2|3): int, Closure(string, string): 1 given.
+Parameter #2 $callback of function usort expects callable(stdClass, stdClass): int, Closure(int, int): (-1|1) given.
+Parameter #2 $depth of function json_validate expects int<1, max>, 0 given.
+Parameter #2 $f of function Bug11619Strict\customUsort expects callable(Stringable, Stringable): int, 'strnatcasecmp' given.
+Parameter #2 $fields of function fputcsv expects array<int|string, bool|float|int|string|null>, array<int, Fputcsv\Person> given.
+Parameter #2 $flags of function file expects 0|1|2|3|4|5|6|7|16|17|18|19|20|21|22|23, 8 given.
+Parameter #2 $message_type of function error_log expects 0|1|3|4, 2 given.
+Parameter #2 $num_req of function array_rand expects int<1, max>, -5 given.
+Parameter #2 $num_req of function array_rand expects int<1, max>, 0 given.
+Parameter #2 $num_req of function array_rand expects int<1, max>, int given.
+Parameter #2 $operation of function flock expects int<0, 7>, 8 given.
+Parameter #2 $options of function curl_setopt_array expects array{10022?: non-empty-string}, array{}|array{10022: 123} given.
+Parameter #2 $options of function curl_setopt_array expects array{19913: bool, 10102: string, 68: int, 13: int, 84: int, 10036: non-empty-string|null}, array{19913: true, 10102: '', 68: 10, 13: 30, 84: 2, 10036: CurlSetOptArray\BackedRequestMethod::POST} given.
+Parameter #2 $options of function curl_setopt_array expects array{19913: bool, 10102: string, 68: int, 13: int, 84: int, 10036: non-empty-string|null}, array{19913: true, 10102: '', 68: 10, 13: 30, 84: 2, 10036: CurlSetOptArray\RequestMethod::POST} given.
+Parameter #2 $options of function curl_setopt_array expects array{19913: bool, 10102: string, 68: int, 13: int, 84: int}, array{19913: '123', 10102: '', 68: 10, 13: 30, 84: false} given.
+Parameter #2 $param2 of function Bug11534\hello expects int, mixed given.
+Parameter #2 $string2 of function strnatcasecmp expects string, Bug11619Strict\Foo given.
+Parameter #2 ...$foo of function FunctionWithVariadicParameters\foo expects int, string given.
+Parameter #2 ...$values of function printf expects bool|float|int|string|null, UnpackOperator\Foo given.
+Parameter #2 ...$values of function sprintf expects bool|float|int|string|null, UnpackOperator\Foo given.
+Parameter #2 ...$values of function sprintf expects bool|float|int|string|null, array<int, string> given.
+Parameter #2 ...$values of function sprintf expects bool|float|int|string|null, array<string> given.
+Parameter #2 of function printf is expected to be castable to float by placeholder #1 ("%1$-'X10.2f"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be castable to float by placeholder #1 ("%1$f"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be castable to float by placeholder #1 ("%f"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be castable to float by placeholder #2 ("%1$*.*f" (value)), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be castable to int by placeholder #1 ("%d"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be castable to int by placeholder #1 ("%d"), int|PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be castable to int by placeholder #2 ("%1$d"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be float by placeholder #1 ("%1$-'X10.2f"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be float by placeholder #1 ("%1$f"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be float by placeholder #1 ("%f"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be float by placeholder #1 ("%f"), SimpleXMLElement given.
+Parameter #2 of function printf is expected to be float by placeholder #1 ("%f"), null given.
+Parameter #2 of function printf is expected to be float by placeholder #1 ("%f"), true given.
+Parameter #2 of function printf is expected to be float by placeholder #2 ("%1$*.*f" (value)), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%*s" (width)), SimpleXMLElement given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%*s" (width)), float given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%*s" (width)), null given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%*s" (width)), string given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%*s" (width)), true given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%.*s" (precision)), string given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%1$*d" (value)), float given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%1$*d" (width)), float given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), SimpleXMLElement given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), float given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), float|int given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), int|PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), null given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), string given.
+Parameter #2 of function printf is expected to be int by placeholder #1 ("%d"), true given.
+Parameter #2 of function printf is expected to be int by placeholder #2 ("%1$d"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function printf is expected to be int by placeholder #2 ("%3$.*s" (precision)), string given.
+Parameter #2 of function printf is expected to be string by placeholder #1 ("%s"), true given.
+Parameter #2 of function sprintf is expected to be castable to int by placeholder #1 ("%d"), PrintfParamTypes\FooStringable given.
+Parameter #2 of function sprintf is expected to be int by placeholder #1 ("%d"), PrintfParamTypes\FooStringable given.
+Parameter #3 $data_comp_func of function array_diff_uassoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $data_comp_func of function array_diff_uassoc expects callable(0|1|2|3, 0|1|2|3): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $data_comp_func of function array_udiff expects callable(1|2|3|4|5|6, 1|2|3|4|5|6): int, Closure(int, int): ('11'|'12'|'13'|'14'|'15'|'16'|'21'|'22'|'23'|'24'|'25'|'26'|'31'|'32'|'33'|'34'|'35'|'36'|'41'|'42'|'43'|'44'|'45'|'46'|'51'|'52'|'53'|'54'|'55'|'56'|'61'|'62'|'63'|'64'|'65'|'66') given.
+Parameter #3 $data_comp_func of function array_udiff expects callable(1|2|3|4|5|6, 1|2|3|4|5|6): int, Closure(string, string): string given.
+Parameter #3 $data_comp_func of function array_udiff expects callable(string, string): int, Closure(string, int): non-empty-string given.
+Parameter #3 $data_comp_func of function array_udiff_uassoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $data_comp_func of function array_udiff_uassoc expects callable(1|2|3|4|5, 1|2|3|4|5): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $data_compare_func of function array_uintersect expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $data_compare_func of function array_uintersect expects callable(1|2|3|4, 1|2|3|4): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $data_compare_func of function array_uintersect_assoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $data_compare_func of function array_uintersect_assoc expects callable(1|2|3|4, 1|2|3|4): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $data_compare_func of function array_uintersect_uassoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $data_compare_func of function array_uintersect_uassoc expects callable(1|2|3|4|5, 1|2|3|4|5): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $flags of function json_validate expects 0|1048576, 2 given.
+Parameter #3 $key_comp_func of function array_diff_ukey expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $key_comp_func of function array_diff_ukey expects callable(0|1|2|3, 0|1|2|3): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $key_comp_func of function array_udiff_assoc expects callable(1|2, 1|2): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $key_comp_func of function array_udiff_assoc expects callable(1|2|3|4|5, 1|2|3|4|5): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $key_compare_func of function array_intersect_uassoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $key_compare_func of function array_intersect_uassoc expects callable(0|1|2|3, 0|1|2|3): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $key_compare_func of function array_intersect_ukey expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #3 $key_compare_func of function array_intersect_ukey expects callable(0|1|2|3, 0|1|2|3): int, Closure(string, string): int<-1, 1> given.
+Parameter #3 $value of function curl_setopt expects 0|2, bool given.
+Parameter #3 $value of function curl_setopt expects CurlShareHandle, string given.
+Parameter #3 $value of function curl_setopt expects array, string given.
+Parameter #3 $value of function curl_setopt expects array<int, string>, array<string, string> given.
+Parameter #3 $value of function curl_setopt expects array<int, string>, int given.
+Parameter #3 $value of function curl_setopt expects array|string, int given.
+Parameter #3 $value of function curl_setopt expects bool, int given.
+Parameter #3 $value of function curl_setopt expects bool, string given.
+Parameter #3 $value of function curl_setopt expects bool|int, int|string given.
+Parameter #3 $value of function curl_setopt expects int, string given.
+Parameter #3 $value of function curl_setopt expects non-empty-string, '' given.
+Parameter #3 $value of function curl_setopt expects non-empty-string, int given.
+Parameter #3 $value of function curl_setopt expects non-empty-string, null given.
+Parameter #3 $value of function curl_setopt expects non-empty-string|null, '' given.
+Parameter #3 $value of function curl_setopt expects resource, string given.
+Parameter #3 $value of function curl_setopt expects string, int given.
+Parameter #3 ...$foo of function FunctionWithVariadicParameters\foo expects int, null given.
+Parameter #3 of function array_intersect expects an array of values castable to string, array<int, ParamCastableToStringFunctionsEnum\FooEnum::A> given.
+Parameter #3 of function array_intersect expects an array of values castable to string, array<int, ParamCastableToStringFunctions\ClassWithoutToString> given.
+Parameter #3 of function fprintf is expected to be castable to float by placeholder #1 ("%f"), PrintfParamTypes\FooStringable given.
+Parameter #3 of function fprintf is expected to be float by placeholder #1 ("%f"), PrintfParamTypes\FooStringable given.
+Parameter #4 $key_comp_func of function array_udiff_uassoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #4 $key_comp_func of function array_udiff_uassoc expects callable(0|1|2|3, 0|1|2|3): int, Closure(string, string): int<-1, 1> given.
+Parameter #4 $key_compare_func of function array_uintersect_uassoc expects callable('a'|'b'|'c'|'d', 'a'|'b'|'c'|'d'): int, Closure(int, int): int<-1, 1> given.
+Parameter #4 $key_compare_func of function array_uintersect_uassoc expects callable(0|1|2|3, 0|1|2|3): int, Closure(string, string): int<-1, 1> given.
+Parameter #4 of function printf is expected to be castable to float by placeholder #1 ("%3$f"), PrintfParamTypes\FooStringable given.
+Parameter #4 of function printf is expected to be float by placeholder #1 ("%3$f"), PrintfParamTypes\FooStringable given.
+Parameter $a of anonymous function has unresolvable native type.
+Parameter $a of function FunctionIntersectionTypes\doBar() has unresolvable native type.
+Parameter $a of function FunctionIntersectionTypes\doBaz() has unresolvable native type.
+Parameter $a of function ParamClosureThisClassesFunctions\doFoo() has invalid type ParamClosureThisClassesFunctions\Nonexistent.
+Parameter $array of function array_product expects an array of values castable to number, array<int, array<int, int>> given.
+Parameter $array of function array_sum expects an array of values castable to number, array<int, array<int, int>> given.
+Parameter $array of function array_unique expects an array of values castable to string, array<int, list<string>> given.
+Parameter $array of function arsort expects an array of values castable to string, array<int, list<string>> given.
+Parameter $array of function asort expects an array of values castable to string, list<array<int, string>> given.
+Parameter $array of function implode expects array<string>, array<int, array<int, string>> given.
+Parameter $array of function rsort expects an array of values castable to string, list<array<int, string>> given.
+Parameter $array of function sort expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter $b of function ParamClosureThisClassesFunctions\doFoo() has invalid type ParamClosureThisClassesFunctions\FooTrait.
+Parameter $bar of anonymous function has invalid type ArrowFunctionExistingClassesInTypehints\Bar.
+Parameter $bar of anonymous function has invalid type TestClosureFunctionTypehintsPhp71\NonexistentClass.
+Parameter $bar of anonymous function has invalid type TestClosureFunctionTypehints\BarFunctionTypehints.
+Parameter $bar of function TestFunctionTypehints\bar() has invalid type TestFunctionTypehints\BarFunctionTypehints.
+Parameter $bar of function barWithoutNamespace() has invalid type BarFunctionTypehints.
+Parameter $callback of function array_map expects (callable(Bug12317\Uuid): mixed)|null, Closure(string): string given.
+Parameter $i of callable passed to call_user_func() expects int, string given.
+Parameter $i of callable passed to call_user_func_array() expects int, string given.
+Parameter $keys of function array_combine expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter $keys of function array_fill_keys expects an array of values castable to string, array<int, array<int, string>> given.
+Parameter $p of function ParamOutClasses\doFoo() has invalid type ParamOutClasses\Nonexistent.
+Parameter $param of anonymous function has invalid type void.
+Parameter $param of function VoidParameterTypehint\doFoo() has invalid type void.
+Parameter $q of function ParamOutClasses\doFoo() has invalid type ParamOutClasses\FooTrait.
+Parameter $separator of function implode expects array<string>, array<int, array<int, string>> given.
+Parameter $string of function TestFunctionTypehints\genericClassString() has invalid type TestFunctionTypehints\SomeNonexistentClass.
+Parameter $string of function TestFunctionTypehints\genericTemplateClassString() has invalid type TestFunctionTypehints\SomeNonexistentClass.
+Parameter $trait of anonymous function has invalid type TestClosureFunctionTypehints\SomeTrait.
+Parameter $trait of function TestFunctionTypehints\referencesTraitsInNative() has invalid type TestFunctionTypehints\SomeTrait.
+Parameter $trait of function TestFunctionTypehints\referencesTraitsInPhpDoc() has invalid type TestFunctionTypehints\SomeTrait.
+Parameter $trait of function referencesTraitsInNativeWithoutNamespace() has invalid type SomeTraitWithoutNamespace.
+Parameter $trait of function referencesTraitsInPhpDocWithoutNamespace() has invalid type SomeTraitWithoutNamespace.
+Redefinition of parameter $bar.
+Redefinition of parameter $baz.
+Redefinition of parameter $foo.
+Result of callable passed to call_user_func() (void) is used.
+Result of callable passed to call_user_func_array() (void) is used.
+Result of closure (void) is used.
+Return value of function print_r() is always true and the result is printed instead of being returned. Pass in true as parameter #2 $return to return the output instead.
+Return value of function var_export() is always null and the result is printed instead of being returned. Pass in true as parameter #2 $return to return the output instead.
+Superglobal variable $GLOBALS cannot be used as a parameter.
+Superglobal variable $_COOKIE cannot be used as a parameter.
+Superglobal variable $_ENV cannot be used as a parameter.
+Superglobal variable $_FILES cannot be used as a parameter.
+Superglobal variable $_GET cannot be used as a parameter.
+Superglobal variable $_POST cannot be used as a parameter.
+Superglobal variable $_REQUEST cannot be used as a parameter.
+Superglobal variable $_SERVER cannot be used as a parameter.
+Superglobal variable $_SESSION cannot be used as a parameter.
+Template type S of function ParamOutTemplate\uselessGeneric() is not referenced in a parameter.
+Template type T of function FunctionConditionalReturnType\notGet() is not referenced in a parameter.
+Template type T of function TestFunctionTypehints\templateTypeMissingInParameter() is not referenced in a parameter.
+Trying to invoke '' but it's not a callable.
+Trying to invoke 'nonexistent' but it's not a callable.
+Trying to invoke CallCallables\Baz but it might not be a callable.
+Trying to invoke CallCallables\Baz but it's not a callable.
+Trying to invoke array{'CallCallables\\CallableInForeach', 'bar'|'foo'} but it might not be a callable.
+Trying to invoke array{'CallCallables\\ConstantArrayUnionCallables', 'doBaz'|'doFoo'} but it might not be a callable.
+Trying to invoke array{'CallCallables\\ConstantArrayUnionCallables'|'CallCallables\\ConstantArrayUnionCallablesTest', 'doBar'|'doFoo'} but it's not a callable.
+Trying to invoke array{'CallCallables\\ConstantArrayUnionCallables'|'DateTimeImmutable', 'doFoo'} but it might not be a callable.
+Trying to invoke array{'MaybeNotCallable\\Bar'|$this(MaybeNotCallable\Bar), 'doFoo'} but it might not be a callable.
+Trying to invoke array{object, 'bar'} but it might not be a callable.
+Trying to invoke array{object, 'yo'} but it might not be a callable.
+Trying to invoke string but it might not be a callable.
+Unable to resolve the template type A in call to function CallGenericFunction\f
+Unable to resolve the template type A in call to function CallGenericFunction\g
+Unable to resolve the template type T in call to closure
+Unknown parameter $a in call to function array_merge.
+Unknown parameter $greetings in call to function Bug13719\implicit_variadic.
+Unknown parameter $greetings in call to function Bug13719\non_variadic.
+Unknown parameter $i in call to callable callable(int, int): void.
+Unknown parameter $j in call to callable passed to call_user_func().
+Unknown parameter $j in call to callable passed to call_user_func_array().
+Unknown parameter $samesite in call to function setcookie.
+Unknown parameter $samesite in call to function setrawcookie.
+Unknown parameter $str1 in call to function levenshtein.
+Unknown parameter $str2 in call to function levenshtein.
+Unknown parameter $z in call to callable callable(int, int): void.
+Unknown parameter $z in call to function FunctionNamedArguments\foo.

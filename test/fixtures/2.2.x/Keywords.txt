@@ -1,0 +1,15 @@
+Declare strict_types must be the very first statement.
+Declare strict_types must have 0 or 1 as its value, 'foo' given.
+Declare strict_types must have 0 or 1 as its value, \true given.
+Keyword break used outside of a loop or a switch statement.
+Keyword continue used outside of a loop or a switch statement.
+Path in include() "a-file-that-does-not-exist.php" is not a file or it does not exist.
+Path in include() "data/include-me-to-prove-you-work.txt" is not a file or it does not exist.
+Path in include_once() "a-file-that-does-not-exist.php" is not a file or it does not exist.
+Path in include_once() "data/include-me-to-prove-you-work.txt" is not a file or it does not exist.
+Path in require() "a-file-that-does-not-exist.php" is not a file or it does not exist.
+Path in require() "data/include-me-to-prove-you-work.txt" is not a file or it does not exist.
+Path in require_once() "../bug-12203-sure-does-not-exist.php" is not a file or it does not exist.
+Path in require_once() "/tmp/phpstan-src-2.2.x/tests/PHPStan/Rules/Keywords/data/../bug-12203-sure-does-not-exist.php" is not a file or it does not exist.
+Path in require_once() "a-file-that-does-not-exist.php" is not a file or it does not exist.
+Path in require_once() "data/include-me-to-prove-you-work.txt" is not a file or it does not exist.

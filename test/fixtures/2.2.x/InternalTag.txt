@@ -1,0 +1,29 @@
+Access to constant BAR of internal class ClassConstantAccessOnInternalSubclassOne\Bar from outside its root namespace ClassConstantAccessOnInternalSubclassOne.
+Access to constant FOO of internal class ClassConstantInternalTagOne\FooInternal from outside its root namespace ClassConstantInternalTagOne.
+Access to constant FOO of internal class FooInternalWithClassConstantWithoutNamespace.
+Access to constant NUMERIC_COLLATION of internal class Bug12951Polyfill\NumberFormatter from outside its root namespace Bug12951Polyfill.
+Access to internal constant ClassConstantInternalTagOne\Foo::INTERNAL from outside its root namespace ClassConstantInternalTagOne.
+Access to internal constant ClassInternal::INTERNAL_CONSTANT.
+Access to internal constant FooWithInternalClassConstantWithoutNamespace::INTERNAL.
+Access to internal property FooWithInternalPropertyWithoutNamespace::$internal.
+Access to internal property PropertyInternalTagOne\Foo::$internal from outside its root namespace PropertyInternalTagOne.
+Access to internal static property FooWithInternalStaticPropertyWithoutNamespace::$internal.
+Access to internal static property StaticPropertyInternalTagOne\Foo::$internal from outside its root namespace StaticPropertyInternalTagOne.
+Access to property $foo of internal class FooInternalWithPropertyWithoutNamespace.
+Access to property $foo of internal class PropertyInternalTagOne\FooInternal from outside its root namespace PropertyInternalTagOne.
+Access to static property $bar of internal class StaticPropertyAccessOnInternalSubclassOne\Bar from outside its root namespace StaticPropertyAccessOnInternalSubclassOne.
+Access to static property $foo of internal class FooInternalWithStaticPropertyWithoutNamespace.
+Access to static property $foo of internal class StaticPropertyInternalTagOne\FooInternal from outside its root namespace StaticPropertyInternalTagOne.
+Call to internal function FunctionInternalTagOne\doInternal() from outside its root namespace FunctionInternalTagOne.
+Call to internal function doInternalWithoutNamespace().
+Call to internal method ClassInternal::internalMethod().
+Call to internal method FooWithInternalMethodWithoutNamespace::doInternal().
+Call to internal method MethodInternalTagOne\Foo::doInternal() from outside its root namespace MethodInternalTagOne.
+Call to internal static method ClassInternal::internalStaticMethod().
+Call to internal static method FooWithInternalStaticMethodWithoutNamespace::doInternal().
+Call to internal static method StaticMethodInternalTagOne\Foo::doInternal() from outside its root namespace StaticMethodInternalTagOne.
+Call to method doFoo() of internal class FooInternalWithoutNamespace.
+Call to method doFoo() of internal class MethodInternalTagOne\FooInternal from outside its root namespace MethodInternalTagOne.
+Call to static method doBar() of internal class StaticMethodCallOnInternalSubclassOne\Bar from outside its root namespace StaticMethodCallOnInternalSubclassOne.
+Call to static method doFoo() of internal class FooInternalStaticWithoutNamespace.
+Call to static method doFoo() of internal class StaticMethodInternalTagOne\FooInternal from outside its root namespace StaticMethodInternalTagOne.

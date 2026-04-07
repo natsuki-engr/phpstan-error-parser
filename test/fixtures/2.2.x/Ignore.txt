@@ -1,0 +1,5 @@
+Parse error in @phpstan-ignore: Unexpected T_CLOSE_PARENTHESIS after identifier, expected comma (,) or end or T_OPEN_PARENTHESIS
+Parse error in @phpstan-ignore: Unexpected T_OTHER 'čičí' after @phpstan-ignore, expected identifier
+Parse error in @phpstan-ignore: Unexpected comma (,) after comma (,), expected identifier
+Parse error in @phpstan-ignore: Unexpected end after @phpstan-ignore, expected identifier
+Parse error in @phpstan-ignore: Unexpected end, unclosed opening parenthesis

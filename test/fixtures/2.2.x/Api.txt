@@ -1,0 +1,49 @@
+Accessing PHPStan\Analyser\NodeScopeResolver::FOO is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Accessing PHPStan\Command\AnalyseCommand::class is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Although PHPStan\Reflection\ClassReflection is covered by backward compatibility promise, this instanceof assumption might break because it's not guaranteed to always stay the same.
+Asking about instanceof PHPStan\Reflection\BetterReflection\SourceLocator\AutoloadSourceLocator is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Call to PHPStan\Type\ObjectType::getTemplateType() references unknown template type TSendd on class Generator.
+Call to PHPStan\Type\Type::getTemplateType() references unknown template type TSendd on class Generator.
+Calling PHPStan\Command\CommandHelper::begin() is not covered by backward compatibility promise. The method might change in a minor PHPStan version.
+Calling PHPStan\Node\InClassNode::__construct() is not covered by backward compatibility promise. The method might change in a minor PHPStan version.
+Calling PHPStan\Rules\Debug\DumpTypeRule::getNodeType() is not covered by backward compatibility promise. The method might change in a minor PHPStan version.
+Calling PHPStan\Type\Php\ArrayKeyDynamicReturnTypeExtension::isFunctionSupported() is not covered by backward compatibility promise. The method might change in a minor PHPStan version.
+Class PhpParser\Node\Expr\ArrayItem not found. It has been renamed to PhpParser\Node\ArrayItem in PHP-Parser v5.
+Creating new PHPStan\DependencyInjection\NeonAdapter is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Creating new PHPStan\Type\FileTypeMapper is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Creating new PHPStan\Type\StringAlwaysAcceptingObjectWithToStringType is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Creating new ReflectionClass is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionClassConstant is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionEnum is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionEnumBackedCase is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionExtension is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionFiber is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionFunction is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionGenerator is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionMethod is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionObject is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionParameter is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionProperty is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Creating new ReflectionZendExtension is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Declaring PHPStan namespace is not allowed in 3rd party packages.
+Doing instanceof PHPStan\Type\Generic\GenericObjectType is error-prone and deprecated.
+Doing instanceof PHPStan\Type\TypeWithClassName is error-prone and deprecated. Use Type::getObjectClassNames() or Type::getObjectClassReflections() instead.
+Doing instanceof phpstan\type\typewithclassname is error-prone and deprecated. Use Type::getObjectClassNames() or Type::getObjectClassReflections() instead.
+Extending PHPStan\DependencyInjection\Type\DynamicThrowTypeExtensionProvider is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Extending PHPStan\Reflection\ExtendedMethodReflection is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Extending PHPStan\Reflection\ReflectionProvider is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Extending PHPStan\Type\FileTypeMapper is not covered by backward compatibility promise. The class might change in a minor PHPStan version.
+Extending PHPStan\Type\Type is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Function class_implements() is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Function class_parents() is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Function class_uses() is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Function is_a() is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Function is_subclass_of() is a runtime reflection concept that might not work in PHPStan because it uses fully static reflection engine. Use objects retrieved from ReflectionProvider instead.
+Implementing PHPStan\Analyser\Scope is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Implementing PHPStan\DependencyInjection\Type\DynamicThrowTypeExtensionProvider is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Implementing PHPStan\Reflection\ExtendedMethodReflection is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Implementing PHPStan\Reflection\FunctionReflection is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Implementing PHPStan\Reflection\ReflectionProvider is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Implementing PHPStan\Type\Type is not covered by backward compatibility promise. The interface might change in a minor PHPStan version.
+Node attribute 'parent' is no longer available.
+Using PHPStan\Type\JustNullableTypeTrait is not covered by backward compatibility promise. The trait might change in a minor PHPStan version.

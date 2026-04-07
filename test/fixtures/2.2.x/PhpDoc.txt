@@ -1,0 +1,292 @@
+Assert references unknown $this->barProp.
+Assert references unknown parameter $j.
+Assert references unknown parameter $this.
+Asserted negated type int for $i with type int can never happen.
+Asserted negated type string for $i with type int does not narrow down the type.
+Asserted type int for $i with type int does not narrow down the type.
+Asserted type int|string for $i with type int does not narrow down the type.
+Asserted type non-empty-list<static(IncompatibleAssertTypeWithMethodReturnType\Foo)> for $this->getValues() with type list<int> can never happen.
+Asserted type string for $i with type int can never happen.
+Call-site variance of contravariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<contravariant int> in PHPDoc tag @param for parameter $foo is in conflict with covariant template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric.
+Call-site variance of contravariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<contravariant int> in PHPDoc tag @return is in conflict with covariant template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric.
+Call-site variance of contravariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<contravariant int> in PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$genericIncompatibleTypeProjection is in conflict with covariant template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric.
+Call-site variance of contravariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<contravariant int> in PHPDoc tag @var for variable $test is in conflict with covariant template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric.
+Call-site variance of covariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<covariant int> in PHPDoc tag @param for parameter $foo is redundant, template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric has the same variance.
+Call-site variance of covariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<covariant int> in PHPDoc tag @return is redundant, template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric has the same variance.
+Call-site variance of covariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<covariant int> in PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$genericRedundantTypeProjection is redundant, template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric has the same variance.
+Call-site variance of covariant int in generic type InvalidPhpDocDefinitions\FooCovariantGeneric<covariant int> in PHPDoc tag @var for variable $test is redundant, template type T of class InvalidPhpDocDefinitions\FooCovariantGeneric has the same variance.
+Class InvalidVarTagType\Foo referenced with incorrect case: InvalidVarTagType\foo.
+Class MethodAssert\Foo referenced with incorrect case: MethodAssert\fOO.
+Condition "T of int is int" in conditional return type is always true.
+Condition "T of int is string" in conditional return type is always false.
+Condition "array{foo: string} is array{foo: int}" in conditional return type is always false.
+Condition "int is int" in conditional return type is always true.
+Condition "int is not int" in conditional return type is always false.
+Condition "int is not string" in conditional return type is always true.
+Condition "int is string" in conditional return type is always false.
+Conditional return type references unknown parameter $callable.
+Conditional return type references unknown parameter $j.
+Conditional return type uses subject type stdClass which is not part of PHPDoc @template tags.
+Generic type IncompatibleSelfOutType\GenericCheck2<InvalidArgumentException, int<1, max>, string> in PHPDoc tag @phpstan-self-out specifies 3 template types, but class IncompatibleSelfOutType\GenericCheck2 supports only 2: T, U
+Generic type IncompatibleSelfOutType\GenericCheck2<InvalidArgumentException> in PHPDoc tag @phpstan-self-out does not specify all template types of class IncompatibleSelfOutType\GenericCheck2: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @param for parameter $lorem specifies 3 template types, but class InvalidPhpDocDefinitions\FooGeneric supports only 2: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @return specifies 3 template types, but class InvalidPhpDocDefinitions\FooGeneric supports only 2: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$tooManyTypesGenericfoo specifies 3 template types, but class InvalidPhpDocDefinitions\FooGeneric supports only 2: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int, InvalidArgumentException, string> in PHPDoc tag @var for variable $test specifies 3 template types, but class InvalidPhpDocDefinitions\FooGeneric supports only 2: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int, InvalidArgumentException, string> in PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$tooManyTypesGenericfoo specifies 3 template types, but class InvalidPhpDocDefinitions\FooGeneric supports only 2: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int> in PHPDoc tag @param for parameter $baz does not specify all template types of class InvalidPhpDocDefinitions\FooGeneric: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int> in PHPDoc tag @return does not specify all template types of class InvalidPhpDocDefinitions\FooGeneric: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int> in PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$notEnoughTypesGenericfoo does not specify all template types of class InvalidPhpDocDefinitions\FooGeneric: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int> in PHPDoc tag @var for variable $test does not specify all template types of class InvalidPhpDocDefinitions\FooGeneric: T, U
+Generic type InvalidPhpDocDefinitions\FooGeneric<int> in PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$notEnoughTypesGenericfoo does not specify all template types of class InvalidPhpDocDefinitions\FooGeneric: T, U
+Generic type MethodAssert\FooBar<int, string, float> in PHPDoc tag @phpstan-assert for $m specifies 3 template types, but class MethodAssert\FooBar supports only 2: T, TT
+Generic type MethodAssert\FooBar<int> in PHPDoc tag @phpstan-assert for $m does not specify all template types of class MethodAssert\FooBar: T, TT
+Generic type MethodAssert\FooBar<mixed> in PHPDoc tag @phpstan-assert for $m does not specify all template types of class MethodAssert\FooBar: T, TT
+Generic type ParamClosureThisPhpDocRule\FooBar<int> in PHPDoc tag @param-closure-this for parameter $i does not specify all template types of class ParamClosureThisPhpDocRule\FooBar: T, TT
+Generic type ParamClosureThisPhpDocRule\FooBar<mixed> in PHPDoc tag @param-closure-this for parameter $i does not specify all template types of class ParamClosureThisPhpDocRule\FooBar: T, TT
+Generic type ParamOutPhpDocRule\FooBar<int> in PHPDoc tag @param-out for parameter $i does not specify all template types of class ParamOutPhpDocRule\FooBar: T, TT
+Generic type ParamOutPhpDocRule\FooBar<mixed> in PHPDoc tag @param-out for parameter $i does not specify all template types of class ParamOutPhpDocRule\FooBar: T, TT
+Generic type static(IncompatiblePhpDocGenericStatic\Foo<int, string>) in PHPDoc tag @return specifies 2 template types, but class IncompatiblePhpDocGenericStatic\Foo supports only 1: T
+Multiple PHPDoc @var tags above single variable assignment are not supported.
+PHPDoc tag @param for parameter $a with type T is not subtype of native type int.
+PHPDoc tag @param for parameter $arr contains unresolvable type.
+PHPDoc tag @param for parameter $b with type U of DateTimeInterface is not subtype of native type DateTime.
+PHPDoc tag @param for parameter $b with type array is incompatible with native type string.
+PHPDoc tag @param for parameter $cb contains unresolvable type.
+PHPDoc tag @param for parameter $cl contains unresolvable type.
+PHPDoc tag @param for parameter $d with type float|int is not subtype of native type int.
+PHPDoc tag @param for parameter $e contains generic type GenericEnumParam\FooEnum<int> but enum GenericEnumParam\FooEnum is not generic.
+PHPDoc tag @param for parameter $existingClass template of Closure<stdClass of mixed>(stdClass): stdClass cannot have existing class stdClass as its name.
+PHPDoc tag @param for parameter $existingTypeAlias template of Closure<TypeAlias of mixed>(TypeAlias): TypeAlias cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @param for parameter $foo contains generic type InvalidPhpDocDefinitions\Foo<stdClass> but class InvalidPhpDocDefinitions\Foo is not generic.
+PHPDoc tag @param for parameter $foo contains unresolvable type.
+PHPDoc tag @param for parameter $i with type TFoo is not subtype of native type int.
+PHPDoc tag @param for parameter $invalidBoundType template T of Closure<T of GenericCallablesIncompatible\Invalid>(T): T has invalid bound type GenericCallablesIncompatible\Invalid.
+PHPDoc tag @param for parameter $numbers with type string is incompatible with native type int.
+PHPDoc tag @param for parameter $shadows template T of Closure<T of mixed, U of mixed>(T): T shadows @template T for method GenericCallablesIncompatible\Test::testShadowMethod.
+PHPDoc tag @param for parameter $shadows template T of Closure<T of mixed>(T): T shadows @template T for class GenericCallablesIncompatible\Test3.
+PHPDoc tag @param for parameter $shadows template T of Closure<T of mixed>(T): T shadows @template T for function GenericCallablesIncompatible\testShadowFunction.
+PHPDoc tag @param for parameter $shadows template U of Closure<T of mixed, U of mixed>(T): T shadows @template U for class GenericCallablesIncompatible\Test.
+PHPDoc tag @param for parameter $shouldError with type int is incompatible with native type string.
+PHPDoc tag @param for parameter $shouldError with type string is incompatible with native type int.
+PHPDoc tag @param for parameter $strings with type array<int> is incompatible with native type string.
+PHPDoc tag @param for parameter $value with type array{a: string, b: bool, c: int, d: float}[TKey] is not subtype of native type bool|int|string.
+PHPDoc tag @param has invalid value ((A & B $paramNameB): Unexpected token "$paramNameB", expected ')' at offset 105 on line 6
+PHPDoc tag @param has invalid value (): Unexpected token "\n * ", expected type at offset 13 on line 2
+PHPDoc tag @param has invalid value (A & B | C $paramNameA): Unexpected token "|", expected variable at offset 72 on line 5
+PHPDoc tag @param has invalid value (~A & B $paramNameC): Unexpected token "~A", expected type at offset 127 on line 7
+PHPDoc tag @param references unknown parameter: $arrX
+PHPDoc tag @param references unknown parameter: $unknown
+PHPDoc tag @param-closure-this for parameter $i contains generic type Exception<int, float> but class Exception is not generic.
+PHPDoc tag @param-closure-this for parameter $i contains unresolvable type.
+PHPDoc tag @param-closure-this is for parameter $i with non-Closure type string.
+PHPDoc tag @param-closure-this references unknown parameter: $b
+PHPDoc tag @param-immediately-invoked-callable is for parameter $b with non-callable type int.
+PHPDoc tag @param-immediately-invoked-callable references unknown parameter: $b
+PHPDoc tag @param-later-invoked-callable is for parameter $b with non-callable type int.
+PHPDoc tag @param-later-invoked-callable references unknown parameter: $c
+PHPDoc tag @param-out for parameter $existingClass template T of Closure<T of mixed>(T): T shadows @template T for function GenericCallablesIncompatible\shadowsParamOut.
+PHPDoc tag @param-out for parameter $existingClass template of Closure<stdClass of mixed>(stdClass): stdClass cannot have existing class stdClass as its name.
+PHPDoc tag @param-out for parameter $existingClasses template T of Closure<T of mixed>(T): T shadows @template T for function GenericCallablesIncompatible\shadowsParamOutArray.
+PHPDoc tag @param-out for parameter $i contains generic type Exception<int, float> but class Exception is not generic.
+PHPDoc tag @param-out references unknown parameter: $z
+PHPDoc tag @phpstan-assert for $a contains unknown class MethodAssert\Nonexistent.
+PHPDoc tag @phpstan-assert for $array has no value type specified in iterable type list.
+PHPDoc tag @phpstan-assert for $b contains invalid type MethodAssert\FooTrait.
+PHPDoc tag @phpstan-assert for $m contains generic class MethodAssert\FooBar but does not specify its types: T, TT
+PHPDoc tag @phpstan-assert for $m contains generic type Exception<int, float> but class Exception is not generic.
+PHPDoc tag @phpstan-assert for $m has no signature specified for callable.
+PHPDoc tag @phpstan-assert for $m has no value type specified in iterable type array.
+PHPDoc tag @phpstan-assert for $this->fooProp contains unresolvable type.
+PHPDoc tag @phpstan-assert-if-true for $a contains unresolvable type.
+PHPDoc tag @phpstan-require-extends can only be used once.
+PHPDoc tag @phpstan-require-extends cannot contain an interface IncompatibleRequireExtends\SomeInterface, expected a class.
+PHPDoc tag @phpstan-require-extends cannot contain an interface IncompatibleRequireExtends\UnresolvableExtendsInterface, expected a class.
+PHPDoc tag @phpstan-require-extends cannot contain final class IncompatibleRequireExtends\SomeFinalClass.
+PHPDoc tag @phpstan-require-extends cannot contain non-class type IncompatibleRequireExtends\SomeEnum.
+PHPDoc tag @phpstan-require-extends cannot contain non-class type IncompatibleRequireExtends\SomeTrait.
+PHPDoc tag @phpstan-require-extends contains non-object type *NEVER*.
+PHPDoc tag @phpstan-require-extends contains non-object type int.
+PHPDoc tag @phpstan-require-extends contains unknown class IncompatibleRequireExtends\NonExistentClass.
+PHPDoc tag @phpstan-require-extends contains unknown class IncompatibleRequireExtends\TypeDoesNotExist.
+PHPDoc tag @phpstan-require-extends is only valid on trait or interface.
+PHPDoc tag @phpstan-require-implements cannot contain non-interface type IncompatibleRequireImplements\SomeClass.
+PHPDoc tag @phpstan-require-implements cannot contain non-interface type IncompatibleRequireImplements\SomeEnum.
+PHPDoc tag @phpstan-require-implements cannot contain non-interface type IncompatibleRequireImplements\SomeTrait.
+PHPDoc tag @phpstan-require-implements contains non-object type *NEVER*.
+PHPDoc tag @phpstan-require-implements contains non-object type int.
+PHPDoc tag @phpstan-require-implements contains unknown class IncompatibleRequireImplements\TypeDoesNotExist.
+PHPDoc tag @phpstan-require-implements is only valid on trait.
+PHPDoc tag @phpstan-return has invalid value (array{'numeric': stdClass[], 'branches': array{'names': string[], 'exclude': bool}}}|int): Unexpected token "}", expected TOKEN_HORIZONTAL_WS at offset 107 on line 2
+PHPDoc tag @phpstan-sealed contains unknown class IncompatibleSealed\UnknownClass.
+PHPDoc tag @phpstan-sealed is only valid on class or interface.
+PHPDoc tag @phpstan-self-out contains generic type IncompatibleSelfOutType\GenericCheck<int> but class IncompatibleSelfOutType\GenericCheck is not generic.
+PHPDoc tag @phpstan-self-out for method IncompatibleSelfOutType\Foo::doBar() contains unresolvable type.
+PHPDoc tag @phpstan-self-out for method IncompatibleSelfOutType\Foo::doFoo() contains unresolvable type.
+PHPDoc tag @phpstan-self-out is not supported above static method IncompatibleSelfOutType\Foo::selfOutStatic().
+PHPDoc tag @phpstan-type InvalidFoo has invalid value: Unexpected token "{", expected TOKEN_PHPDOC_EOL at offset 65 on line 3
+PHPDoc tag @return contains generic type InvalidPhpDocDefinitions\Foo<int, Exception> but class InvalidPhpDocDefinitions\Foo is not generic.
+PHPDoc tag @return contains generic type InvalidPhpDocDefinitions\Foo<stdClass> but class InvalidPhpDocDefinitions\Foo is not generic.
+PHPDoc tag @return contains unresolvable type.
+PHPDoc tag @return has invalid value ($this<string>): Unexpected token "<", expected TOKEN_HORIZONTAL_WS at offset 21 on line 2
+PHPDoc tag @return has invalid value (): Unexpected token "\n * ", expected type at offset 208 on line 13
+PHPDoc tag @return has invalid value (A & B | C): Unexpected token "|", expected TOKEN_OTHER at offset 251 on line 15
+PHPDoc tag @return has invalid value ([int, string]): Unexpected token "[", expected type at offset 220 on line 14
+PHPDoc tag @return template T of Closure<T of GenericCallablesIncompatible\Invalid>(T): T has invalid bound type GenericCallablesIncompatible\Invalid.
+PHPDoc tag @return template T of Closure<T of mixed, U of mixed>(T): T shadows @template T for method GenericCallablesIncompatible\Test::testShadowMethodReturn.
+PHPDoc tag @return template T of Closure<T of mixed>(T): T shadows @template T for function GenericCallablesIncompatible\shadowsReturnArray.
+PHPDoc tag @return template T of Closure<T of mixed>(T): T shadows @template T for function GenericCallablesIncompatible\testShadowFunctionReturn.
+PHPDoc tag @return template U of Closure<T of mixed, U of mixed>(T): T shadows @template U for class GenericCallablesIncompatible\Test.
+PHPDoc tag @return template of Closure<TypeAlias of mixed>(TypeAlias): TypeAlias cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @return template of Closure<stdClass of mixed>(stdClass): stdClass cannot have existing class stdClass as its name.
+PHPDoc tag @return with type ($p is int ? int : string) is not subtype of native type int.
+PHPDoc tag @return with type T is not subtype of native type object.
+PHPDoc tag @return with type U of DateTimeInterface is not subtype of native type DateTime.
+PHPDoc tag @return with type array{a: string, b: bool, c: int, d: float}[TKey] is not subtype of native type bool|int|string.
+PHPDoc tag @return with type int|string is not subtype of native type int.
+PHPDoc tag @return with type string is incompatible with native type int.
+PHPDoc tag @throws has invalid value ((\Exception): Unexpected token "*/", expected ')' at offset 24 on line 1
+PHPDoc tag @throws with type DateTimeImmutable is not subtype of Throwable
+PHPDoc tag @throws with type DateTimeImmutable&IteratorAggregate is not subtype of Throwable
+PHPDoc tag @throws with type DateTimeImmutable|Throwable is not subtype of Throwable
+PHPDoc tag @throws with type DateTimeInterface|ThrowsWithRequire\RequiresExtendsExceptionInterface is not subtype of Throwable
+PHPDoc tag @throws with type Exception|ThrowsWithRequire\RequiresExtendsStdClassInterface is not subtype of Throwable
+PHPDoc tag @throws with type InvalidThrowsPhpDocMergeInherited\A is not subtype of Throwable
+PHPDoc tag @throws with type InvalidThrowsPhpDocMergeInherited\B is not subtype of Throwable
+PHPDoc tag @throws with type InvalidThrowsPhpDocMergeInherited\C|InvalidThrowsPhpDocMergeInherited\D is not subtype of Throwable
+PHPDoc tag @throws with type Iterator&ThrowsWithRequire\RequiresExtendsStdClassInterface is not subtype of Throwable
+PHPDoc tag @throws with type Throwable|void is not subtype of Throwable
+PHPDoc tag @throws with type ThrowsWithRequire\RequiresExtendsStdClassInterface is not subtype of Throwable
+PHPDoc tag @throws with type Undefined is not subtype of Throwable
+PHPDoc tag @throws with type bool is not subtype of Throwable
+PHPDoc tag @throws with type stdClass is not subtype of Throwable
+PHPDoc tag @throws with type stdClass|void is not subtype of Throwable
+PHPDoc tag @var above a class has no effect.
+PHPDoc tag @var above a function has no effect.
+PHPDoc tag @var above a method has no effect.
+PHPDoc tag @var above an enum has no effect.
+PHPDoc tag @var above assignment does not specify variable name.
+PHPDoc tag @var above foreach loop does not specify variable name.
+PHPDoc tag @var above multiple global variables does not specify variable name.
+PHPDoc tag @var above multiple static variables does not specify variable name.
+PHPDoc tag @var assumes the expression with type PHPStan\Type\ObjectType|null is always PHPStan\Type\ObjectType but it's error-prone and dangerous.
+PHPDoc tag @var assumes the expression with type PHPStan\Type\Type|null is always PHPStan\Type\ObjectType but it's error-prone and dangerous.
+PHPDoc tag @var assumes the expression with type PHPStan\Type\Type|null is always PHPStan\Type\ObjectType|null but it's error-prone and dangerous.
+PHPDoc tag @var contains unresolvable type.
+PHPDoc tag @var does not specify variable name.
+PHPDoc tag @var for constant IncompatibleClassConstantPhpDocNativeType\Foo::BAZ with type string is incompatible with native type int.
+PHPDoc tag @var for constant IncompatibleClassConstantPhpDocNativeType\Foo::LOREM with type int|string is not subtype of native type int.
+PHPDoc tag @var for constant IncompatibleClassConstantPhpDoc\Foo::DOLOR contains generic type IncompatibleClassConstantPhpDoc\Foo<int> but class IncompatibleClassConstantPhpDoc\Foo is not generic.
+PHPDoc tag @var for constant IncompatibleClassConstantPhpDoc\Foo::FOO contains unresolvable type.
+PHPDoc tag @var for property IncompatiblePhpDocPropertyNativeType\Foo::$foo with type IncompatiblePhpDocPropertyNativeType\Bar is incompatible with native type IncompatiblePhpDocPropertyNativeType\Foo.
+PHPDoc tag @var for property IncompatiblePhpDocPropertyNativeType\Foo::$selfTwo with type object is not subtype of native type IncompatiblePhpDocPropertyNativeType\Foo.
+PHPDoc tag @var for property IncompatiblePhpDocPropertyNativeType\Foo::$stringOrInt with type int|string is not subtype of native type string.
+PHPDoc tag @var for property IncompatiblePhpDocPropertyNativeType\Lorem::$string with type T is not subtype of native type string.
+PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$bar contains unresolvable type.
+PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$classStringInt contains unresolvable type.
+PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$fooGeneric contains generic type InvalidPhpDocDefinitions\Foo<stdClass> but class InvalidPhpDocDefinitions\Foo is not generic.
+PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$unknownClassConstant contains unresolvable type.
+PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$unknownClassConstant2 contains unresolvable type.
+PHPDoc tag @var for variable $foo contains unknown class InvalidVarTagType\Blabla.
+PHPDoc tag @var for variable $one contains unknown class Bug4486Namespace\ClassName1.
+PHPDoc tag @var for variable $one contains unknown class Some\Namespaced\ClassName1.
+PHPDoc tag @var for variable $staticVar contains unresolvable type.
+PHPDoc tag @var for variable $test contains generic class InvalidPhpDocDefinitions\FooGeneric but does not specify its types: T, U
+PHPDoc tag @var for variable $test contains generic class InvalidPhpDocDefinitions\FooGenericWithSomeDefaults but does not specify its types: T, U (1-2 required)
+PHPDoc tag @var for variable $test contains generic type InvalidPhpDoc\Foo<stdClass> but class InvalidPhpDoc\Foo is not generic.
+PHPDoc tag @var for variable $test contains unknown class InvalidVarTagType\aray.
+PHPDoc tag @var for variable $test contains unresolvable type.
+PHPDoc tag @var for variable $test has invalid type InvalidVarTagType\FooTrait.
+PHPDoc tag @var for variable $test has no value type specified in iterable type array.
+PHPDoc tag @var for variable $three contains unknown class Some\Namespaced\ClassName1.
+PHPDoc tag @var for variable $two contains unknown class Bug4486Namespace\ClassName1.
+PHPDoc tag @var for variable $two contains unknown class Some\Namespaced\ClassName2.
+PHPDoc tag @var for variable $value contains unresolvable type.
+PHPDoc tag @var for variable $x contains unknown class Bug9055\uncheckedNotExisting.
+PHPDoc tag @var has invalid value ($invalid Foo): Unexpected token "$invalid", expected type at offset 182 on line 11
+PHPDoc tag @var has invalid value ($invalid): Unexpected token "$invalid", expected type at offset 165 on line 10
+PHPDoc tag @var has invalid value ((Foo&): Unexpected token "*/", expected type at offset 15 on line 1
+PHPDoc tag @var has invalid value ((Foo|Bar): Unexpected token "*/", expected ')' at offset 18 on line 1
+PHPDoc tag @var has invalid value (): Unexpected token "\n * ", expected type at offset 156 on line 9
+PHPDoc tag @var has invalid value (\\Foo|\Bar $test): Unexpected token "\\\\Foo|\\Bar", expected type at offset 9 on line 1
+PHPDoc tag @var has invalid value (callable(int)): Unexpected token "(", expected TOKEN_HORIZONTAL_WS at offset 17 on line 1
+PHPDoc tag @var template T of Closure<T of mixed>(T): T shadows @template T for class GenericCallableProperties\Test.
+PHPDoc tag @var template TInvalid of callable<TInvalid of GenericCallableProperties\Invalid>(TInvalid): TInvalid has invalid bound type GenericCallableProperties\Invalid.
+PHPDoc tag @var template of Closure<stdClass of mixed>(stdClass): stdClass cannot have existing class stdClass as its name.
+PHPDoc tag @var template of callable<TypeAlias of mixed>(TypeAlias): TypeAlias cannot have existing type alias TypeAlias as its name.
+PHPDoc tag @var with type Closure(string): array<int> is not subtype of native type Closure(string): array{1, 2, 3}.
+PHPDoc tag @var with type GenericSubtype\IRepository<E of GenericSubtype\IEntity> is not subtype of type GenericSubtype\IRepository<GenericSubtype\IEntity>.
+PHPDoc tag @var with type GenericSubtype\IRepository<GenericSubtype\Foo> is not subtype of type GenericSubtype\IRepository<GenericSubtype\IEntity>.
+PHPDoc tag @var with type Iterator<mixed, int> is not subtype of native type array.
+PHPDoc tag @var with type Iterator<mixed, string> is not subtype of type Iterator<int, int>.
+PHPDoc tag @var with type PHPStan\Type\ObjectType|null is not subtype of type PHPStan\Type\Generic\GenericObjectType|null.
+PHPDoc tag @var with type PHPStan\Type\Type|null is not subtype of native type PHPStan\Type\ObjectType|null.
+PHPDoc tag @var with type array<Traversable<mixed, string>> is not subtype of type array<list<string|null>>.
+PHPDoc tag @var with type array<array<int>> is not subtype of type array<list<string|null>>.
+PHPDoc tag @var with type array<array<string>> is not subtype of type array<list<string|null>>.
+PHPDoc tag @var with type array<int> is not subtype of type array<int, int>.
+PHPDoc tag @var with type array<int> is not subtype of type array<int, string>.
+PHPDoc tag @var with type array<int> is not subtype of type list<int>.
+PHPDoc tag @var with type array<mixed> is not subtype of type array<int>.
+PHPDoc tag @var with type array<mixed> is not subtype of type array{id: int}.
+PHPDoc tag @var with type array<mixed> is not subtype of type list<array{id: int}>.
+PHPDoc tag @var with type array<mixed> is not subtype of type list<int>.
+PHPDoc tag @var with type array<mixed>|null is not subtype of type array{id: int}|null.
+PHPDoc tag @var with type array<string> is not subtype of type array<int, string>.
+PHPDoc tag @var with type array<string> is not subtype of type list<int>.
+PHPDoc tag @var with type array{numeric-string} is not subtype of type array{lowercase-string&numeric-string&uppercase-string}.
+PHPDoc tag @var with type callable(): string is not subtype of type callable(): numeric-string&lowercase-string&uppercase-string.
+PHPDoc tag @var with type int is not subtype of native type 'foo'.
+PHPDoc tag @var with type int is not subtype of native type array{}.
+PHPDoc tag @var with type int is not subtype of native type string.
+PHPDoc tag @var with type int is not subtype of native type void.
+PHPDoc tag @var with type int is not subtype of type string.
+PHPDoc tag @var with type list<string> is not subtype of native type array{-1: 'z', 0: 'a', 1: 'b', 2: 'c'}.
+PHPDoc tag @var with type list<string> is not subtype of native type array{0: 'a', -1: 'z', 1: 'b', 2: 'c'}.
+PHPDoc tag @var with type list<string> is not subtype of native type array{0: 'a', 2: 'c'}.
+PHPDoc tag @var with type list<string> is not subtype of native type array{1: 'b', 2: 'c'}.
+PHPDoc tag @var with type stdClass is not subtype of native type PHPStan\Type\Type|null.
+PHPDoc tag @var with type stdClass is not subtype of native type SplObjectStorage<object, mixed>.
+PHPDoc tag @var with type string is not subtype of native type 1.
+PHPDoc tag @var with type string is not subtype of native type int.
+PHPDoc tag @var with type string is not subtype of type int.
+PHPDoc tag @var with type string|null is not subtype of native type string.
+PHPDoc type for property InvalidPhpDocPromotedProperties\BazWithProperty::$bar with type string is incompatible with native type int.
+PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$bar contains unresolvable type.
+PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$classStringInt contains unresolvable type.
+PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$fooGeneric contains generic type InvalidPhpDocDefinitions\Foo<stdClass> but class InvalidPhpDocDefinitions\Foo is not generic.
+PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$unknownClassConstant contains unresolvable type.
+PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$unknownClassConstant2 contains unresolvable type.
+Parameter $i for PHPDoc tag @param-out is not passed by reference.
+Self-out type IncompatibleSelfOutType\A|null of method IncompatibleSelfOutType\A::four is not subtype of IncompatibleSelfOutType\A.
+Self-out type int of method IncompatibleSelfOutType\A::three is not subtype of IncompatibleSelfOutType\A.
+Type Throwable in generic type InvalidPhpDocDefinitions\FooGeneric<int, Throwable> in PHPDoc tag @param for parameter $ipsum is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type Throwable in generic type InvalidPhpDocDefinitions\FooGeneric<int, Throwable> in PHPDoc tag @param for parameter $v is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type Throwable in generic type InvalidPhpDocDefinitions\FooGeneric<int, Throwable> in PHPDoc tag @return is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type Throwable in generic type InvalidPhpDocDefinitions\FooGeneric<int, Throwable> in PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$invalidTypeGenericfoo is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type Throwable in generic type InvalidPhpDocDefinitions\FooGeneric<int, Throwable> in PHPDoc tag @var for variable $test is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type Throwable in generic type InvalidPhpDocDefinitions\FooGeneric<int, Throwable> in PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$invalidTypeGenericfoo is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type mixed in generic type InvalidPhpDocDefinitions\FooGeneric<int, mixed> in PHPDoc tag @param for parameter $t is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type mixed in generic type MethodAssert\FooBar<mixed> in PHPDoc tag @phpstan-assert for $m is not subtype of template type T of int of class MethodAssert\FooBar.
+Type mixed in generic type ParamClosureThisPhpDocRule\FooBar<mixed> in PHPDoc tag @param-closure-this for parameter $i is not subtype of template type T of int of class ParamClosureThisPhpDocRule\FooBar.
+Type mixed in generic type ParamOutPhpDocRule\FooBar<mixed> in PHPDoc tag @param-out for parameter $i is not subtype of template type T of int of class ParamOutPhpDocRule\FooBar.
+Type stdClass in generic type InvalidPhpDocDefinitions\FooGeneric<int, stdClass> in PHPDoc tag @param for parameter $dolor is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type stdClass in generic type InvalidPhpDocDefinitions\FooGeneric<int, stdClass> in PHPDoc tag @param for parameter $x is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type stdClass in generic type InvalidPhpDocDefinitions\FooGeneric<int, stdClass> in PHPDoc tag @return is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type stdClass in generic type InvalidPhpDocDefinitions\FooGeneric<int, stdClass> in PHPDoc tag @var for property InvalidPhpDoc\FooWithProperty::$anotherInvalidTypeGenericfoo is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type stdClass in generic type InvalidPhpDocDefinitions\FooGeneric<int, stdClass> in PHPDoc tag @var for variable $test is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type stdClass in generic type InvalidPhpDocDefinitions\FooGeneric<int, stdClass> in PHPDoc type for property InvalidPhpDocPromotedProperties\FooWithProperty::$anotherInvalidTypeGenericfoo is not subtype of template type U of Exception of class InvalidPhpDocDefinitions\FooGeneric.
+Type string in generic type IncompatibleSelfOutType\GenericCheck2<InvalidArgumentException, string> in PHPDoc tag @phpstan-self-out is not subtype of template type U of int of class IncompatibleSelfOutType\GenericCheck2.
+Unknown PHPDoc tag: @phpstan-extens
+Unknown PHPDoc tag: @phpstan-pararm
+Unknown PHPDoc tag: @phpstan-va
+Unknown PHPDoc tag: @phpstan-varr
+Variable $b in PHPDoc tag @var does not exist.
+Variable $bar in PHPDoc tag @var does not exist.
+Variable $baz in PHPDoc tag @var does not match any global variable: $lorem
+Variable $foo in PHPDoc tag @var does not exist.
+Variable $foo in PHPDoc tag @var does not match any static variable: $test
+Variable $foo in PHPDoc tag @var does not match any variable in the foreach loop: $list, $key, $val
+Variable $foo in PHPDoc tag @var does not match assigned variable $test.
+Variable $slots in PHPDoc tag @var does not exist.
+Variable $slots in PHPDoc tag @var does not match assigned variable $itemSlots.

@@ -10,13 +10,13 @@ set -euo pipefail
 #   branch  - phpstan-src branch to collect from (default: 2.2.x)
 #
 # Output:
-#   ../test/fixtures/phpstan-errors-{branch}.txt
+#   ../test/fixtures/{branch}/{Category}.txt
 
 BRANCH="${1:-2.2.x}"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 WORKDIR="/app"
 PHPSTAN_DIR="${WORKDIR}/phpstan-src"
-OUTPUT_FILE="/tmp/phpstan-error-messages.txt"
+OUTPUT_DIR="/tmp/phpstan-errors"
 SANITIZED_BRANCH="${BRANCH//\//-}"
 
 echo "==> Collecting error messages from phpstan-src branch: ${BRANCH}"
@@ -41,6 +41,7 @@ echo "==> Installing dependencies..."
 composer install --no-interaction --quiet
 
 echo "==> Collecting error messages..."
+COLLECTOR_OUTPUT_DIR="${OUTPUT_DIR}" \
 vendor/bin/phpunit \
     --bootstrap "${WORKDIR}/collector/bootstrap.php" \
     --no-coverage \
@@ -48,18 +49,28 @@ vendor/bin/phpunit \
     tests/PHPStan/Rules/ \
     2>/dev/null || true
 
-# Sort and deduplicate
-if [ -f "${OUTPUT_FILE}" ]; then
-    TOTAL=$(wc -l < "${OUTPUT_FILE}")
-    sort -u "${OUTPUT_FILE}" -o "${OUTPUT_FILE}"
-    UNIQUE=$(wc -l < "${OUTPUT_FILE}")
-    echo "==> Collected ${TOTAL} messages (${UNIQUE} unique)"
+# Sort and deduplicate each category file
+DEST_DIR="${WORKDIR}/test/fixtures/${SANITIZED_BRANCH}"
+mkdir -p "${DEST_DIR}"
 
-    DEST="${WORKDIR}/test/fixtures/phpstan-errors-${SANITIZED_BRANCH}.txt"
-    mkdir -p "$(dirname "${DEST}")"
-    cp "${OUTPUT_FILE}" "${DEST}"
-    echo "==> Output: ${DEST}"
-else
+TOTAL=0
+UNIQUE=0
+for f in "${OUTPUT_DIR}"/*.txt; do
+    [ -f "$f" ] || continue
+    CATEGORY=$(basename "$f")
+    FILE_TOTAL=$(wc -l < "$f")
+    sort -u "$f" -o "$f"
+    FILE_UNIQUE=$(wc -l < "$f")
+    TOTAL=$((TOTAL + FILE_TOTAL))
+    UNIQUE=$((UNIQUE + FILE_UNIQUE))
+    cp "$f" "${DEST_DIR}/${CATEGORY}"
+    echo "    ${CATEGORY}: ${FILE_TOTAL} messages (${FILE_UNIQUE} unique)"
+done
+
+if [ "${TOTAL}" -eq 0 ]; then
     echo "==> ERROR: No error messages collected"
     exit 1
 fi
+
+echo "==> Collected ${TOTAL} messages (${UNIQUE} unique) across $(ls "${DEST_DIR}"/*.txt | wc -l) categories"
+echo "==> Output: ${DEST_DIR}/"
