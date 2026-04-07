@@ -106,6 +106,39 @@ describe('sample test', () => {
       m: 'Attribute class Deprecated can be used with traits only on PHP 8.5 and later.',
       assertions: [['Number:8.5', true]],
     },
+    {
+      name: 'parse parentheses',
+      m: 'Parameter #1 (stdClass) of echo cannot be converted to string.',
+      assertions: [
+        ['lparen:(', true],
+        ['rparen:)', true],
+        ['CommonWord:stdClass', true],
+      ],
+    },
+    {
+      name: 'parentheses with type annotation are not structured - content is flat tokens',
+      m: 'Parameter #1 $min (0) of function random_int expects lower number than parameter #2 $max (-1).',
+      assertions: [
+        ['lparen:(', true],
+        ['rparen:)', true],
+        ['Variable:$min', true],
+        ['Number:0', true],
+        ['Number:-1', true],
+        // type annotation inside parentheses is not grouped as a single structured node
+        ['ParameterNumber:#1', true],
+      ],
+    },
+    {
+      name: 'parentheses with complex type are not deeply parsed',
+      m: 'Parameter #1 (Closure(): void) of echo cannot be converted to string.',
+      assertions: [
+        ['lparen:(', true],
+        ['rparen:)', true],
+        // Closure(): void is split into flat tokens, not parsed as a callable type
+        ['CommonWord:Closure', true],
+        ['CommonWord:void', true],
+      ],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {
