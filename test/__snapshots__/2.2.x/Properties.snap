@@ -19246,19 +19246,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "AppendedArrayItem",
+        "type": "single_quoted_string",
+        "value": "'AppendedArrayItem\\\\Foo'",
         "location": {
-          "startColumn": 109,
-          "endColumn": 126
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 128,
-          "endColumn": 131
+          "startColumn": 108,
+          "endColumn": 132
         }
       },
       {
@@ -19270,11 +19262,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "classMethod",
+        "type": "single_quoted_string",
+        "value": "'classMethod'",
         "location": {
-          "startColumn": 135,
-          "endColumn": 146
+          "startColumn": 134,
+          "endColumn": 147
         }
       },
       {
@@ -19499,11 +19491,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Foo",
+        "type": "single_quoted_string",
+        "value": "'Foo'",
         "location": {
-          "startColumn": 109,
-          "endColumn": 112
+          "startColumn": 108,
+          "endColumn": 113
         }
       },
       {
@@ -19515,19 +19507,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Hello",
+        "type": "single_quoted_string",
+        "value": "'Hello world'",
         "location": {
-          "startColumn": 116,
-          "endColumn": 121
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "world",
-        "location": {
-          "startColumn": 122,
-          "endColumn": 127
+          "startColumn": 115,
+          "endColumn": 128
         }
       },
       {
@@ -25634,19 +25618,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Forty",
+        "type": "single_quoted_string",
+        "value": "'Forty-two'",
         "location": {
-          "startColumn": 112,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "two",
-        "location": {
-          "startColumn": 118,
-          "endColumn": 121
+          "startColumn": 111,
+          "endColumn": 122
         }
       },
       {
@@ -25895,19 +25871,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Eleventy",
+        "type": "single_quoted_string",
+        "value": "'Eleventy-one'",
         "location": {
-          "startColumn": 141,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "one",
-        "location": {
-          "startColumn": 150,
-          "endColumn": 153
+          "startColumn": 140,
+          "endColumn": 154
         }
       },
       {
@@ -26148,19 +26116,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Forty",
+        "type": "single_quoted_string",
+        "value": "'Forty-two'",
         "location": {
-          "startColumn": 114,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "two",
-        "location": {
-          "startColumn": 120,
-          "endColumn": 123
+          "startColumn": 113,
+          "endColumn": 124
         }
       },
       {
@@ -26425,19 +26385,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Eleventy",
+        "type": "single_quoted_string",
+        "value": "'Eleventy-one'",
         "location": {
-          "startColumn": 143,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "one",
-        "location": {
-          "startColumn": 152,
-          "endColumn": 155
+          "startColumn": 142,
+          "endColumn": 156
         }
       },
       {
@@ -26710,11 +26662,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Twelve",
+        "type": "single_quoted_string",
+        "value": "'Twelve'",
         "location": {
-          "startColumn": 143,
-          "endColumn": 149
+          "startColumn": 142,
+          "endColumn": 150
         }
       },
       {

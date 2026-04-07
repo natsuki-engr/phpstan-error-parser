@@ -272,11 +272,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "i",
+        "type": "single_quoted_string",
+        "value": "'čičí'",
         "location": {
-          "startColumn": 53,
-          "endColumn": 54
+          "startColumn": 51,
+          "endColumn": 57
         }
       },
       {

@@ -184,11 +184,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 53,
-          "endColumn": 56
+          "startColumn": 52,
+          "endColumn": 57
         }
       },
       {
@@ -580,59 +580,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "double_quoted_string",
+        "value": "\"a-file-that-does-not-exist.php\"",
         "location": {
-          "startColumn": 19,
-          "endColumn": 20
+          "startColumn": 18,
+          "endColumn": 50
         }
       },
       {
         "type": "common_word",
-        "value": "file",
+        "value": "is",
         "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "that",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 35
+          "startColumn": 51,
+          "endColumn": 53
         }
       },
       {
         "type": "common_word",
         "value": "not",
         "location": {
-          "startColumn": 36,
-          "endColumn": 39
+          "startColumn": 54,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
         }
       },
       {
         "type": "common_word",
         "value": "exist",
         "location": {
-          "startColumn": 40,
-          "endColumn": 45
+          "startColumn": 80,
+          "endColumn": 85
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 45,
-          "endColumn": 46
+          "startColumn": 85,
+          "endColumn": 86
         }
       }
     ]
@@ -681,67 +713,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "data",
+        "type": "double_quoted_string",
+        "value": "\"data/include-me-to-prove-you-work.txt\"",
         "location": {
-          "startColumn": 19,
-          "endColumn": 23
+          "startColumn": 18,
+          "endColumn": 57
         }
       },
       {
         "type": "common_word",
-        "value": "include",
+        "value": "is",
         "location": {
-          "startColumn": 24,
-          "endColumn": 31
+          "startColumn": 58,
+          "endColumn": 60
         }
       },
       {
         "type": "common_word",
-        "value": "me",
+        "value": "not",
         "location": {
-          "startColumn": 32,
-          "endColumn": 34
+          "startColumn": 61,
+          "endColumn": 64
         }
       },
       {
         "type": "common_word",
-        "value": "to",
+        "value": "a",
         "location": {
-          "startColumn": 35,
-          "endColumn": 37
+          "startColumn": 65,
+          "endColumn": 66
         }
       },
       {
         "type": "common_word",
-        "value": "prove",
+        "value": "file",
         "location": {
-          "startColumn": 38,
-          "endColumn": 43
+          "startColumn": 67,
+          "endColumn": 71
         }
       },
       {
         "type": "common_word",
-        "value": "you",
+        "value": "or",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 72,
+          "endColumn": 74
         }
       },
       {
         "type": "common_word",
-        "value": "work",
+        "value": "it",
         "location": {
-          "startColumn": 48,
-          "endColumn": 52
+          "startColumn": 75,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 92
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 52,
-          "endColumn": 53
+          "startColumn": 92,
+          "endColumn": 93
         }
       }
     ]
@@ -798,59 +854,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "double_quoted_string",
+        "value": "\"a-file-that-does-not-exist.php\"",
         "location": {
-          "startColumn": 24,
-          "endColumn": 25
+          "startColumn": 23,
+          "endColumn": 55
         }
       },
       {
         "type": "common_word",
-        "value": "file",
+        "value": "is",
         "location": {
-          "startColumn": 26,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "that",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 40
+          "startColumn": 56,
+          "endColumn": 58
         }
       },
       {
         "type": "common_word",
         "value": "not",
         "location": {
-          "startColumn": 41,
-          "endColumn": 44
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
         }
       },
       {
         "type": "common_word",
         "value": "exist",
         "location": {
-          "startColumn": 45,
-          "endColumn": 50
+          "startColumn": 85,
+          "endColumn": 90
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 50,
-          "endColumn": 51
+          "startColumn": 90,
+          "endColumn": 91
         }
       }
     ]
@@ -907,67 +995,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "data",
+        "type": "double_quoted_string",
+        "value": "\"data/include-me-to-prove-you-work.txt\"",
         "location": {
-          "startColumn": 24,
-          "endColumn": 28
+          "startColumn": 23,
+          "endColumn": 62
         }
       },
       {
         "type": "common_word",
-        "value": "include",
+        "value": "is",
         "location": {
-          "startColumn": 29,
-          "endColumn": 36
+          "startColumn": 63,
+          "endColumn": 65
         }
       },
       {
         "type": "common_word",
-        "value": "me",
+        "value": "not",
         "location": {
-          "startColumn": 37,
-          "endColumn": 39
+          "startColumn": 66,
+          "endColumn": 69
         }
       },
       {
         "type": "common_word",
-        "value": "to",
+        "value": "a",
         "location": {
-          "startColumn": 40,
-          "endColumn": 42
+          "startColumn": 70,
+          "endColumn": 71
         }
       },
       {
         "type": "common_word",
-        "value": "prove",
+        "value": "file",
         "location": {
-          "startColumn": 43,
-          "endColumn": 48
+          "startColumn": 72,
+          "endColumn": 76
         }
       },
       {
         "type": "common_word",
-        "value": "you",
+        "value": "or",
         "location": {
-          "startColumn": 49,
-          "endColumn": 52
+          "startColumn": 77,
+          "endColumn": 79
         }
       },
       {
         "type": "common_word",
-        "value": "work",
+        "value": "it",
         "location": {
-          "startColumn": 53,
-          "endColumn": 57
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 97
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 57,
-          "endColumn": 58
+          "startColumn": 97,
+          "endColumn": 98
         }
       }
     ]
@@ -1016,59 +1128,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "double_quoted_string",
+        "value": "\"a-file-that-does-not-exist.php\"",
         "location": {
-          "startColumn": 19,
-          "endColumn": 20
+          "startColumn": 18,
+          "endColumn": 50
         }
       },
       {
         "type": "common_word",
-        "value": "file",
+        "value": "is",
         "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "that",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 35
+          "startColumn": 51,
+          "endColumn": 53
         }
       },
       {
         "type": "common_word",
         "value": "not",
         "location": {
-          "startColumn": 36,
-          "endColumn": 39
+          "startColumn": 54,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
         }
       },
       {
         "type": "common_word",
         "value": "exist",
         "location": {
-          "startColumn": 40,
-          "endColumn": 45
+          "startColumn": 80,
+          "endColumn": 85
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 45,
-          "endColumn": 46
+          "startColumn": 85,
+          "endColumn": 86
         }
       }
     ]
@@ -1117,67 +1261,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "data",
+        "type": "double_quoted_string",
+        "value": "\"data/include-me-to-prove-you-work.txt\"",
         "location": {
-          "startColumn": 19,
-          "endColumn": 23
+          "startColumn": 18,
+          "endColumn": 57
         }
       },
       {
         "type": "common_word",
-        "value": "include",
+        "value": "is",
         "location": {
-          "startColumn": 24,
-          "endColumn": 31
+          "startColumn": 58,
+          "endColumn": 60
         }
       },
       {
         "type": "common_word",
-        "value": "me",
+        "value": "not",
         "location": {
-          "startColumn": 32,
-          "endColumn": 34
+          "startColumn": 61,
+          "endColumn": 64
         }
       },
       {
         "type": "common_word",
-        "value": "to",
+        "value": "a",
         "location": {
-          "startColumn": 35,
-          "endColumn": 37
+          "startColumn": 65,
+          "endColumn": 66
         }
       },
       {
         "type": "common_word",
-        "value": "prove",
+        "value": "file",
         "location": {
-          "startColumn": 38,
-          "endColumn": 43
+          "startColumn": 67,
+          "endColumn": 71
         }
       },
       {
         "type": "common_word",
-        "value": "you",
+        "value": "or",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 72,
+          "endColumn": 74
         }
       },
       {
         "type": "common_word",
-        "value": "work",
+        "value": "it",
         "location": {
-          "startColumn": 48,
-          "endColumn": 52
+          "startColumn": 75,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 92
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 52,
-          "endColumn": 53
+          "startColumn": 92,
+          "endColumn": 93
         }
       }
     ]
@@ -1234,11 +1402,91 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"../bug-12203-sure-does-not-exist.php\"",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 96
+        }
+      },
+      {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 24,
-          "endColumn": 25
+          "startColumn": 96,
+          "endColumn": 97
         }
       }
     ]
@@ -1295,43 +1543,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "tmp",
+        "type": "double_quoted_string",
+        "value": "\"/tmp/phpstan-src-2.2.x/tests/PHPStan/Rules/Keywords/data/../bug-12203-sure-does-not-exist.php\"",
         "location": {
-          "startColumn": 25,
-          "endColumn": 28
+          "startColumn": 23,
+          "endColumn": 118
         }
       },
       {
         "type": "common_word",
-        "value": "phpstan",
+        "value": "is",
         "location": {
-          "startColumn": 29,
-          "endColumn": 36
+          "startColumn": 119,
+          "endColumn": 121
         }
       },
       {
         "type": "common_word",
-        "value": "src",
+        "value": "not",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
+          "startColumn": 122,
+          "endColumn": 125
         }
       },
       {
-        "type": "number",
-        "value": "-2.2",
+        "type": "common_word",
+        "value": "a",
         "location": {
-          "startColumn": 40,
-          "endColumn": 44
+          "startColumn": 126,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 133,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 136,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 153
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 153,
+          "endColumn": 154
         }
       }
     ]
@@ -1388,59 +1684,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "double_quoted_string",
+        "value": "\"a-file-that-does-not-exist.php\"",
         "location": {
-          "startColumn": 24,
-          "endColumn": 25
+          "startColumn": 23,
+          "endColumn": 55
         }
       },
       {
         "type": "common_word",
-        "value": "file",
+        "value": "is",
         "location": {
-          "startColumn": 26,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "that",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 40
+          "startColumn": 56,
+          "endColumn": 58
         }
       },
       {
         "type": "common_word",
         "value": "not",
         "location": {
-          "startColumn": 41,
-          "endColumn": 44
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "it",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 84
         }
       },
       {
         "type": "common_word",
         "value": "exist",
         "location": {
-          "startColumn": 45,
-          "endColumn": 50
+          "startColumn": 85,
+          "endColumn": 90
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 50,
-          "endColumn": 51
+          "startColumn": 90,
+          "endColumn": 91
         }
       }
     ]
@@ -1497,67 +1825,91 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "data",
+        "type": "double_quoted_string",
+        "value": "\"data/include-me-to-prove-you-work.txt\"",
         "location": {
-          "startColumn": 24,
-          "endColumn": 28
+          "startColumn": 23,
+          "endColumn": 62
         }
       },
       {
         "type": "common_word",
-        "value": "include",
+        "value": "is",
         "location": {
-          "startColumn": 29,
-          "endColumn": 36
+          "startColumn": 63,
+          "endColumn": 65
         }
       },
       {
         "type": "common_word",
-        "value": "me",
+        "value": "not",
         "location": {
-          "startColumn": 37,
-          "endColumn": 39
+          "startColumn": 66,
+          "endColumn": 69
         }
       },
       {
         "type": "common_word",
-        "value": "to",
+        "value": "a",
         "location": {
-          "startColumn": 40,
-          "endColumn": 42
+          "startColumn": 70,
+          "endColumn": 71
         }
       },
       {
         "type": "common_word",
-        "value": "prove",
+        "value": "file",
         "location": {
-          "startColumn": 43,
-          "endColumn": 48
+          "startColumn": 72,
+          "endColumn": 76
         }
       },
       {
         "type": "common_word",
-        "value": "you",
+        "value": "or",
         "location": {
-          "startColumn": 49,
-          "endColumn": 52
+          "startColumn": 77,
+          "endColumn": 79
         }
       },
       {
         "type": "common_word",
-        "value": "work",
+        "value": "it",
         "location": {
-          "startColumn": 53,
-          "endColumn": 57
+          "startColumn": 80,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 97
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 57,
-          "endColumn": 58
+          "startColumn": 97,
+          "endColumn": 98
         }
       }
     ]

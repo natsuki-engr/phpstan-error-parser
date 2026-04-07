@@ -809,11 +809,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 15,
-          "endColumn": 21
+          "startColumn": 14,
+          "endColumn": 22
         }
       },
       {
@@ -825,11 +825,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 30,
-          "endColumn": 36
+          "startColumn": 29,
+          "endColumn": 37
         }
       },
       {
@@ -1511,11 +1511,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 11,
-          "endColumn": 17
+          "startColumn": 10,
+          "endColumn": 18
         }
       },
       {
@@ -1527,11 +1527,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 26,
-          "endColumn": 32
+          "startColumn": 25,
+          "endColumn": 33
         }
       },
       {

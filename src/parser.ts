@@ -1,6 +1,16 @@
 import { CstParser, createToken, Lexer } from 'chevrotain';
 
 const tokens = {
+  SINGLE_QUOTED_STRING: createToken({
+    name: 'SingleQuotedString',
+    pattern: /'[^']*'/,
+    line_breaks: false,
+  }),
+  DOUBLE_QUOTED_STRING: createToken({
+    name: 'DoubleQuotedString',
+    pattern: /"[^"]*"/,
+    line_breaks: false,
+  }),
   FUNCTION_NAME: createToken({
     name: 'FunctionName',
     pattern: /(?<!(A|a)nonymous function )(?<=(F|f)unction )[\w]+(\\[\w]+)*/,
@@ -70,6 +80,8 @@ export class Parser extends CstParser {
   public sentence = this.RULE('sentence', () => {
     this.AT_LEAST_ONE(() => {
       this.OR([
+        { ALT: () => this.CONSUME(tokens.SINGLE_QUOTED_STRING) },
+        { ALT: () => this.CONSUME(tokens.DOUBLE_QUOTED_STRING) },
         { ALT: () => this.CONSUME(tokens.FUNCTION_NAME) },
         { ALT: () => this.CONSUME(tokens.STATIC_METHOD_NAME) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },

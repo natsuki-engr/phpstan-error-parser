@@ -158,6 +158,20 @@ describe('sample test', () => {
         ['colon::', false],
       ],
     },
+    {
+      name: 'parse single quoted string',
+      m: "Array has 2 duplicate keys with value 'bar' ($key, 'bar').",
+      assertions: [
+        ["SingleQuotedString:'bar'", true],
+        // 'bar' is captured as a single token, not split into CommonWord
+        ['CommonWord:bar', false],
+      ],
+    },
+    {
+      name: 'parse double quoted string',
+      m: 'Result of || is always the same as the left operand, because the right operand "+" is always truthy.',
+      assertions: [['DoubleQuotedString:"+"', true]],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {

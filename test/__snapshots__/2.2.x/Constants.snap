@@ -59,11 +59,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "class",
+        "type": "single_quoted_string",
+        "value": "'class'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 42
+          "startColumn": 36,
+          "endColumn": 43
         }
       },
       {
@@ -2561,11 +2561,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 86,
-          "endColumn": 89
+          "startColumn": 85,
+          "endColumn": 90
         }
       },
       {

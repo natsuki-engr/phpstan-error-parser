@@ -224,11 +224,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 48,
-          "endColumn": 51
+          "startColumn": 47,
+          "endColumn": 52
         }
       },
       {
@@ -256,11 +256,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 60,
-          "endColumn": 63
+          "startColumn": 59,
+          "endColumn": 64
         }
       },
       {
@@ -288,11 +288,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "baz",
+        "type": "single_quoted_string",
+        "value": "'baz'",
         "location": {
-          "startColumn": 72,
-          "endColumn": 75
+          "startColumn": 71,
+          "endColumn": 76
         }
       },
       {
@@ -429,11 +429,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 50,
-          "endColumn": 53
+          "startColumn": 49,
+          "endColumn": 54
         }
       },
       {
@@ -461,11 +461,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "baz",
+        "type": "single_quoted_string",
+        "value": "'baz'",
         "location": {
-          "startColumn": 62,
-          "endColumn": 65
+          "startColumn": 61,
+          "endColumn": 66
         }
       },
       {
@@ -578,11 +578,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 42,
-          "endColumn": 43
+          "startColumn": 41,
+          "endColumn": 44
         }
       },
       {
@@ -767,11 +767,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "c",
+        "type": "single_quoted_string",
+        "value": "'c'",
         "location": {
-          "startColumn": 42,
-          "endColumn": 43
+          "startColumn": 41,
+          "endColumn": 44
         }
       },
       {
@@ -1307,11 +1307,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 34,
-          "endColumn": 35
+          "startColumn": 33,
+          "endColumn": 36
         }
       },
       {
@@ -1456,11 +1456,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 34,
-          "endColumn": 35
+          "startColumn": 33,
+          "endColumn": 36
         }
       },
       {
@@ -1605,11 +1605,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NotAnEnumCase",
+        "type": "single_quoted_string",
+        "value": "'NotAnEnumCase'",
         "location": {
-          "startColumn": 34,
-          "endColumn": 47
+          "startColumn": 33,
+          "endColumn": 48
         }
       },
       {
@@ -1770,11 +1770,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NotAnEnumCase",
+        "type": "single_quoted_string",
+        "value": "'NotAnEnumCase'",
         "location": {
-          "startColumn": 34,
-          "endColumn": 47
+          "startColumn": 33,
+          "endColumn": 48
         }
       },
       {
@@ -1967,11 +1967,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 86,
-          "endColumn": 87
+          "startColumn": 85,
+          "endColumn": 88
         }
       },
       {
@@ -2414,11 +2414,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 84,
-          "endColumn": 85
+          "startColumn": 83,
+          "endColumn": 86
         }
       },
       {
@@ -3215,11 +3215,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {
@@ -3404,11 +3404,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {
@@ -3577,11 +3577,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {
@@ -3750,11 +3750,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {
@@ -3806,11 +3806,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 70,
-          "endColumn": 71
+          "startColumn": 69,
+          "endColumn": 72
         }
       },
       {
@@ -3947,11 +3947,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "b",
+        "type": "single_quoted_string",
+        "value": "'b'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {
@@ -4003,11 +4003,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 70,
-          "endColumn": 71
+          "startColumn": 69,
+          "endColumn": 72
         }
       },
       {
@@ -4144,11 +4144,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 43,
+          "endColumn": 48
         }
       },
       {
@@ -4176,11 +4176,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 65,
-          "endColumn": 68
+          "startColumn": 64,
+          "endColumn": 69
         }
       },
       {
@@ -4317,19 +4317,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 43,
+          "endColumn": 48
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 50,
-          "endColumn": 53
+          "startColumn": 49,
+          "endColumn": 54
         }
       },
       {
@@ -4349,11 +4349,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "baz",
+        "type": "single_quoted_string",
+        "value": "'baz'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
+          "startColumn": 62,
+          "endColumn": 67
         }
       },
       {
@@ -4365,11 +4365,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "lorem",
+        "type": "single_quoted_string",
+        "value": "'lorem'",
         "location": {
-          "startColumn": 70,
-          "endColumn": 75
+          "startColumn": 69,
+          "endColumn": 76
         }
       },
       {
@@ -4506,11 +4506,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "baz",
+        "type": "single_quoted_string",
+        "value": "'baz'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 43,
+          "endColumn": 48
         }
       },
       {
@@ -4546,11 +4546,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 60,
-          "endColumn": 63
+          "startColumn": 59,
+          "endColumn": 64
         }
       },
       {
@@ -4578,11 +4578,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 71,
-          "endColumn": 74
+          "startColumn": 70,
+          "endColumn": 75
         }
       },
       {
@@ -4719,11 +4719,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "c",
+        "type": "single_quoted_string",
+        "value": "'c'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {
@@ -4743,19 +4743,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 54,
-          "endColumn": 55
+          "startColumn": 53,
+          "endColumn": 56
         }
       },
       {
-        "type": "common_word",
-        "value": "b",
+        "type": "single_quoted_string",
+        "value": "'b'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 59
+          "startColumn": 57,
+          "endColumn": 60
         }
       },
       {
@@ -4892,11 +4892,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 43,
+          "endColumn": 48
         }
       },
       {
@@ -4916,11 +4916,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 57,
-          "endColumn": 60
+          "startColumn": 56,
+          "endColumn": 61
         }
       },
       {
@@ -4932,11 +4932,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 64,
-          "endColumn": 67
+          "startColumn": 63,
+          "endColumn": 68
         }
       },
       {
@@ -5073,11 +5073,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 43,
+          "endColumn": 48
         }
       },
       {
@@ -5097,11 +5097,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 57,
-          "endColumn": 60
+          "startColumn": 56,
+          "endColumn": 61
         }
       },
       {
@@ -5238,11 +5238,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 47
+          "startColumn": 43,
+          "endColumn": 48
         }
       },
       {
@@ -5592,11 +5592,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 93,
-          "endColumn": 94
+          "startColumn": 92,
+          "endColumn": 95
         }
       },
       {
@@ -5954,11 +5954,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 133,
-          "endColumn": 134
+          "startColumn": 132,
+          "endColumn": 135
         }
       },
       {
@@ -6662,11 +6662,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 91,
-          "endColumn": 92
+          "startColumn": 90,
+          "endColumn": 93
         }
       },
       {
@@ -8733,11 +8733,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 55,
-          "endColumn": 58
+          "startColumn": 54,
+          "endColumn": 59
         }
       },
       {
@@ -8749,11 +8749,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 62,
-          "endColumn": 65
+          "startColumn": 61,
+          "endColumn": 66
         }
       },
       {
@@ -10705,27 +10705,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BugPR",
+        "type": "single_quoted_string",
+        "value": "'BugPR3404\\\\Location'",
         "location": {
-          "startColumn": 60,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "number",
-        "value": "3404",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Location",
-        "location": {
-          "startColumn": 71,
-          "endColumn": 79
+          "startColumn": 59,
+          "endColumn": 80
         }
       },
       {
@@ -10971,11 +10955,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "date",
+        "type": "single_quoted_string",
+        "value": "'date'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 41
+          "startColumn": 36,
+          "endColumn": 42
         }
       },
       {
@@ -11088,11 +11072,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "nonexistentFunction",
+        "type": "single_quoted_string",
+        "value": "'nonexistentFunction'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -11354,11 +11338,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "count",
+        "type": "single_quoted_string",
+        "value": "'count'",
         "location": {
-          "startColumn": 46,
-          "endColumn": 51
+          "startColumn": 45,
+          "endColumn": 52
         }
       },
       {
@@ -11575,11 +11559,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "count",
+        "type": "single_quoted_string",
+        "value": "'count'",
         "location": {
-          "startColumn": 66,
-          "endColumn": 71
+          "startColumn": 65,
+          "endColumn": 72
         }
       },
       {
@@ -12277,11 +12261,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "123",
+        "type": "single_quoted_string",
+        "value": "'123'",
         "location": {
-          "startColumn": 36,
-          "endColumn": 39
+          "startColumn": 35,
+          "endColumn": 40
         }
       },
       {
@@ -12394,11 +12378,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "blabla",
+        "type": "single_quoted_string",
+        "value": "'blabla'",
         "location": {
-          "startColumn": 36,
-          "endColumn": 42
+          "startColumn": 35,
+          "endColumn": 43
         }
       },
       {
@@ -13253,27 +13237,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug6305\\\\A'",
         "location": {
-          "startColumn": 54,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "number",
-        "value": "6305",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 64
+          "startColumn": 53,
+          "endColumn": 65
         }
       },
       {
@@ -13418,27 +13386,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug6305\\\\B'",
         "location": {
-          "startColumn": 54,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "number",
-        "value": "6305",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 64
+          "startColumn": 53,
+          "endColumn": 65
         }
       },
       {
@@ -13591,11 +13543,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "stdClass",
+        "type": "single_quoted_string",
+        "value": "'stdClass'",
         "location": {
-          "startColumn": 65,
-          "endColumn": 73
+          "startColumn": 64,
+          "endColumn": 74
         }
       },
       {
@@ -13780,11 +13732,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "stdClass",
+        "type": "single_quoted_string",
+        "value": "'stdClass'",
         "location": {
-          "startColumn": 79,
-          "endColumn": 87
+          "startColumn": 78,
+          "endColumn": 88
         }
       },
       {
@@ -13961,11 +13913,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "doBar",
+        "type": "single_quoted_string",
+        "value": "'doBar'",
         "location": {
-          "startColumn": 99,
-          "endColumn": 104
+          "startColumn": 98,
+          "endColumn": 105
         }
       },
       {
@@ -14126,11 +14078,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "doFoo",
+        "type": "single_quoted_string",
+        "value": "'doFoo'",
         "location": {
-          "startColumn": 99,
-          "endColumn": 104
+          "startColumn": 98,
+          "endColumn": 105
         }
       },
       {
@@ -14291,11 +14243,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "method",
+        "type": "single_quoted_string",
+        "value": "'method'",
         "location": {
-          "startColumn": 94,
-          "endColumn": 100
+          "startColumn": 93,
+          "endColumn": 101
         }
       },
       {
@@ -14456,11 +14408,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "someAnother",
+        "type": "single_quoted_string",
+        "value": "'someAnother'",
         "location": {
-          "startColumn": 94,
-          "endColumn": 105
+          "startColumn": 93,
+          "endColumn": 106
         }
       },
       {
@@ -14621,11 +14573,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "unknown",
+        "type": "single_quoted_string",
+        "value": "'unknown'",
         "location": {
-          "startColumn": 94,
-          "endColumn": 101
+          "startColumn": 93,
+          "endColumn": 102
         }
       },
       {
@@ -14738,19 +14690,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CheckTypeFunctionCall",
+        "type": "single_quoted_string",
+        "value": "'CheckTypeFunctionCall\\\\MethodExists'",
         "location": {
-          "startColumn": 39,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MethodExists",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 74
+          "startColumn": 38,
+          "endColumn": 75
         }
       },
       {
@@ -14762,11 +14706,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "testWithStringFirst",
+        "type": "single_quoted_string",
+        "value": "'testWithStringFirst…'",
         "location": {
-          "startColumn": 81,
-          "endColumn": 100
+          "startColumn": 80,
+          "endColumn": 102
         }
       },
       {
@@ -14879,19 +14823,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CheckTypeFunctionCall",
+        "type": "single_quoted_string",
+        "value": "'CheckTypeFunctionCall\\\\MethodExistsWithTrait'",
         "location": {
-          "startColumn": 39,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MethodExistsWithTrait",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 83
+          "startColumn": 38,
+          "endColumn": 84
         }
       },
       {
@@ -14903,11 +14839,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "method",
+        "type": "single_quoted_string",
+        "value": "'method'",
         "location": {
-          "startColumn": 90,
-          "endColumn": 96
+          "startColumn": 89,
+          "endColumn": 97
         }
       },
       {
@@ -15020,19 +14956,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CheckTypeFunctionCall",
+        "type": "single_quoted_string",
+        "value": "'CheckTypeFunctionCall\\\\MethodExistsWithTrait'",
         "location": {
-          "startColumn": 39,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MethodExistsWithTrait",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 83
+          "startColumn": 38,
+          "endColumn": 84
         }
       },
       {
@@ -15044,11 +14972,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "someAnother",
+        "type": "single_quoted_string",
+        "value": "'someAnother'",
         "location": {
-          "startColumn": 90,
-          "endColumn": 101
+          "startColumn": 89,
+          "endColumn": 102
         }
       },
       {
@@ -15161,19 +15089,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CheckTypeFunctionCall",
+        "type": "single_quoted_string",
+        "value": "'CheckTypeFunctionCall\\\\MethodExistsWithTrait'",
         "location": {
-          "startColumn": 39,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MethodExistsWithTrait",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 83
+          "startColumn": 38,
+          "endColumn": 84
         }
       },
       {
@@ -15185,11 +15105,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "unknown",
+        "type": "single_quoted_string",
+        "value": "'unknown'",
         "location": {
-          "startColumn": 90,
-          "endColumn": 97
+          "startColumn": 89,
+          "endColumn": 98
         }
       },
       {
@@ -15302,11 +15222,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UndefinedClass",
+        "type": "single_quoted_string",
+        "value": "'UndefinedClass'",
         "location": {
-          "startColumn": 39,
-          "endColumn": 53
+          "startColumn": 38,
+          "endColumn": 54
         }
       },
       {
@@ -15318,11 +15238,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "test",
+        "type": "single_quoted_string",
+        "value": "'test'",
         "location": {
-          "startColumn": 60,
-          "endColumn": 64
+          "startColumn": 59,
+          "endColumn": 65
         }
       },
       {
@@ -15435,11 +15355,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UndefinedClass",
+        "type": "single_quoted_string",
+        "value": "'UndefinedClass'",
         "location": {
-          "startColumn": 39,
-          "endColumn": 53
+          "startColumn": 38,
+          "endColumn": 54
         }
       },
       {
@@ -15592,11 +15512,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "doFoo",
+        "type": "single_quoted_string",
+        "value": "'doFoo'",
         "location": {
-          "startColumn": 69,
-          "endColumn": 74
+          "startColumn": 68,
+          "endColumn": 75
         }
       },
       {
@@ -15733,11 +15653,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "test",
+        "type": "single_quoted_string",
+        "value": "'test'",
         "location": {
-          "startColumn": 69,
-          "endColumn": 73
+          "startColumn": 68,
+          "endColumn": 74
         }
       },
       {
@@ -15874,11 +15794,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "testWithNewObjectIn",
+        "type": "single_quoted_string",
+        "value": "'testWithNewObjectIn…'",
         "location": {
-          "startColumn": 78,
-          "endColumn": 97
+          "startColumn": 77,
+          "endColumn": 99
         }
       },
       {
@@ -16015,11 +15935,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "undefinedMethod",
+        "type": "single_quoted_string",
+        "value": "'undefinedMethod'",
         "location": {
-          "startColumn": 78,
-          "endColumn": 93
+          "startColumn": 77,
+          "endColumn": 94
         }
       },
       {
@@ -16188,11 +16108,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "nonExistent",
+        "type": "single_quoted_string",
+        "value": "'nonExistent'",
         "location": {
-          "startColumn": 122,
-          "endColumn": 133
+          "startColumn": 121,
+          "endColumn": 134
         }
       },
       {
@@ -16361,11 +16281,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "nonStaticAbc",
+        "type": "single_quoted_string",
+        "value": "'nonStaticAbc'",
         "location": {
-          "startColumn": 122,
-          "endColumn": 134
+          "startColumn": 121,
+          "endColumn": 135
         }
       },
       {
@@ -16534,11 +16454,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "staticAbc",
+        "type": "single_quoted_string",
+        "value": "'staticAbc'",
         "location": {
-          "startColumn": 122,
-          "endColumn": 131
+          "startColumn": 121,
+          "endColumn": 132
         }
       },
       {
@@ -16707,11 +16627,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "nonStaticAbc",
+        "type": "single_quoted_string",
+        "value": "'nonStaticAbc'",
         "location": {
-          "startColumn": 117,
-          "endColumn": 129
+          "startColumn": 116,
+          "endColumn": 130
         }
       },
       {
@@ -16880,11 +16800,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "staticAbc",
+        "type": "single_quoted_string",
+        "value": "'staticAbc'",
         "location": {
-          "startColumn": 117,
-          "endColumn": 126
+          "startColumn": 116,
+          "endColumn": 127
         }
       },
       {
@@ -17045,11 +16965,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "fooProperty",
+        "type": "single_quoted_string",
+        "value": "'fooProperty'",
         "location": {
-          "startColumn": 103,
-          "endColumn": 114
+          "startColumn": 102,
+          "endColumn": 115
         }
       },
       {
@@ -17194,11 +17114,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 75,
-          "endColumn": 78
+          "startColumn": 74,
+          "endColumn": 79
         }
       },
       {
@@ -17383,11 +17303,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "baz",
+        "type": "single_quoted_string",
+        "value": "'baz'",
         "location": {
-          "startColumn": 76,
-          "endColumn": 79
+          "startColumn": 75,
+          "endColumn": 80
         }
       },
       {
@@ -18457,11 +18377,27 @@
         }
       },
       {
+        "type": "single_quoted_string",
+        "value": "''",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
         "type": "common_word",
         "value": "and",
         "location": {
           "startColumn": 61,
           "endColumn": 64
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "''",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
         }
       },
       {
@@ -18558,11 +18494,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 59,
-          "endColumn": 60
+          "startColumn": 58,
+          "endColumn": 61
         }
       },
       {
@@ -18675,11 +18611,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 59,
-          "endColumn": 62
+          "startColumn": 58,
+          "endColumn": 63
         }
       },
       {
@@ -18691,11 +18627,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 69,
-          "endColumn": 72
+          "startColumn": 68,
+          "endColumn": 73
         }
       },
       {
@@ -19268,11 +19204,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 65,
-          "endColumn": 66
+          "startColumn": 64,
+          "endColumn": 67
         }
       },
       {
@@ -19284,11 +19220,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "b",
+        "type": "single_quoted_string",
+        "value": "'b'",
         "location": {
-          "startColumn": 70,
-          "endColumn": 71
+          "startColumn": 69,
+          "endColumn": 72
         }
       },
       {
@@ -19723,11 +19659,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 72,
-          "endColumn": 73
+          "startColumn": 71,
+          "endColumn": 74
         }
       },
       {
@@ -19941,11 +19877,27 @@
         }
       },
       {
+        "type": "single_quoted_string",
+        "value": "''",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
         "type": "common_word",
         "value": "and",
         "location": {
           "startColumn": 58,
           "endColumn": 61
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "''",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 64
         }
       },
       {
@@ -20042,11 +19994,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 56,
-          "endColumn": 57
+          "startColumn": 55,
+          "endColumn": 58
         }
       },
       {
@@ -20159,11 +20111,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 56,
-          "endColumn": 59
+          "startColumn": 55,
+          "endColumn": 60
         }
       },
       {
@@ -20175,11 +20127,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 66,
-          "endColumn": 69
+          "startColumn": 65,
+          "endColumn": 70
         }
       },
       {
@@ -20635,11 +20587,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "a",
+        "type": "single_quoted_string",
+        "value": "'a'",
         "location": {
-          "startColumn": 62,
-          "endColumn": 63
+          "startColumn": 61,
+          "endColumn": 64
         }
       },
       {
@@ -20651,11 +20603,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "b",
+        "type": "single_quoted_string",
+        "value": "'b'",
         "location": {
-          "startColumn": 67,
-          "endColumn": 68
+          "startColumn": 66,
+          "endColumn": 69
         }
       },
       {
@@ -21090,11 +21042,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 69,
-          "endColumn": 70
+          "startColumn": 68,
+          "endColumn": 71
         }
       },
       {
@@ -21760,27 +21712,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug12473\\\\PictureProduct'",
         "location": {
-          "startColumn": 75,
-          "endColumn": 78
-        }
-      },
-      {
-        "type": "number",
-        "value": "12473",
-        "location": {
-          "startColumn": 78,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PictureProduct",
-        "location": {
-          "startColumn": 85,
-          "endColumn": 99
+          "startColumn": 74,
+          "endColumn": 100
         }
       },
       {
@@ -22672,6 +22608,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"<\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -22757,6 +22701,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"<\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -22839,6 +22791,14 @@
         "location": {
           "startColumn": 11,
           "endColumn": 20
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\"<\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
         }
       },
       {
@@ -22975,6 +22935,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"<\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -23081,6 +23049,14 @@
         "location": {
           "startColumn": 11,
           "endColumn": 20
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\"<\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
         }
       },
       {
@@ -23217,6 +23193,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"<\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -23323,6 +23307,14 @@
         "location": {
           "startColumn": 11,
           "endColumn": 20
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\"<=\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
         }
       },
       {
@@ -23459,6 +23451,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"<=\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -23568,6 +23568,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\">\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -23650,6 +23658,14 @@
         "location": {
           "startColumn": 11,
           "endColumn": 20
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\">\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
         }
       },
       {
@@ -23786,6 +23802,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\">\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "between",
         "location": {
@@ -23892,6 +23916,14 @@
         "location": {
           "startColumn": 11,
           "endColumn": 20
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\">=\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
         }
       },
       {
@@ -24025,6 +24057,14 @@
         "location": {
           "startColumn": 11,
           "endColumn": 20
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\">=\"",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
         }
       },
       {
@@ -25270,11 +25310,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "23",
+        "type": "single_quoted_string",
+        "value": "' 23'",
         "location": {
-          "startColumn": 36,
-          "endColumn": 38
+          "startColumn": 34,
+          "endColumn": 39
         }
       },
       {
@@ -25403,11 +25443,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "3",
+        "type": "single_quoted_string",
+        "value": "' 3'",
         "location": {
-          "startColumn": 36,
-          "endColumn": 37
+          "startColumn": 34,
+          "endColumn": 38
         }
       },
       {
@@ -25536,19 +25576,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "13",
+        "type": "single_quoted_string",
+        "value": "'13foo'",
         "location": {
-          "startColumn": 35,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "foo",
-        "location": {
-          "startColumn": 37,
-          "endColumn": 40
+          "startColumn": 34,
+          "endColumn": 41
         }
       },
       {
@@ -25693,11 +25725,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "0",
+        "type": "single_quoted_string",
+        "value": "'0'",
         "location": {
-          "startColumn": 41,
-          "endColumn": 42
+          "startColumn": 40,
+          "endColumn": 43
         }
       },
       {
@@ -25802,11 +25834,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 41,
-          "endColumn": 42
+          "startColumn": 40,
+          "endColumn": 43
         }
       },
       {
@@ -27390,11 +27422,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "23",
+        "type": "single_quoted_string",
+        "value": "' 23'",
         "location": {
-          "startColumn": 52,
-          "endColumn": 54
+          "startColumn": 50,
+          "endColumn": 55
         }
       },
       {
@@ -27523,11 +27555,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "3",
+        "type": "single_quoted_string",
+        "value": "' 3'",
         "location": {
-          "startColumn": 52,
-          "endColumn": 53
+          "startColumn": 50,
+          "endColumn": 54
         }
       },
       {
@@ -27656,19 +27688,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "13",
+        "type": "single_quoted_string",
+        "value": "'13foo'",
         "location": {
-          "startColumn": 51,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "foo",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 56
+          "startColumn": 50,
+          "endColumn": 57
         }
       },
       {
@@ -29502,11 +29526,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 40,
-          "endColumn": 43
+          "startColumn": 39,
+          "endColumn": 44
         }
       },
       {
@@ -33458,11 +33482,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "AB",
+        "type": "single_quoted_string",
+        "value": "'AB'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 39
+          "startColumn": 36,
+          "endColumn": 40
         }
       },
       {
@@ -33575,27 +33599,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\FinalClass'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FinalClass",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -33607,27 +33615,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\FinalClass'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FinalClass",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -33716,11 +33708,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ab",
+        "type": "single_quoted_string",
+        "value": "'ab'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 39
+          "startColumn": 36,
+          "endColumn": 40
         }
       },
       {
@@ -33849,11 +33841,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 43,
-          "endColumn": 44
+          "startColumn": 42,
+          "endColumn": 45
         }
       },
       {
@@ -34937,11 +34929,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "aBc",
+        "type": "single_quoted_string",
+        "value": "'aBc'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 61
+          "startColumn": 57,
+          "endColumn": 62
         }
       },
       {
@@ -35708,11 +35700,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "aBc",
+        "type": "single_quoted_string",
+        "value": "'aBc'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 61
+          "startColumn": 57,
+          "endColumn": 62
         }
       },
       {
@@ -35974,11 +35966,35 @@
         }
       },
       {
+        "type": "single_quoted_string",
+        "value": "'/'",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'\\\\'",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
         "type": "common_word",
         "value": "and",
         "location": {
           "startColumn": 45,
           "endColumn": 48
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'//'",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 53
         }
       },
       {
@@ -36067,11 +36083,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "0",
+        "type": "single_quoted_string",
+        "value": "'0'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 38
+          "startColumn": 36,
+          "endColumn": 39
         }
       },
       {
@@ -36192,11 +36208,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "18446744073709551615",
+        "type": "single_quoted_string",
+        "value": "'18446744073709551615'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 57
+          "startColumn": 36,
+          "endColumn": 58
         }
       },
       {
@@ -36208,11 +36224,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "9223372036854775807",
+        "type": "single_quoted_string",
+        "value": "'9223372036854775807'",
         "location": {
-          "startColumn": 64,
-          "endColumn": 83
+          "startColumn": 63,
+          "endColumn": 84
         }
       },
       {
@@ -36301,11 +36317,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "AB",
+        "type": "single_quoted_string",
+        "value": "'AB'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 39
+          "startColumn": 36,
+          "endColumn": 40
         }
       },
       {
@@ -36418,27 +36434,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\FinalClass'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FinalClass",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -36450,27 +36450,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\FinalClass'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FinalClass",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -36559,27 +36543,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\FinalClass'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FinalClass",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -36591,27 +36559,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -36700,27 +36652,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\FinalClass'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FinalClass",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -36732,27 +36668,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -36841,27 +36761,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -36873,27 +36777,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -36982,27 +36870,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -37014,27 +36886,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -37123,27 +36979,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -37155,27 +36995,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -37264,27 +37088,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 57
         }
       },
       {
@@ -37296,27 +37104,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 82
+          "startColumn": 62,
+          "endColumn": 83
         }
       },
       {
@@ -37405,11 +37197,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ab",
+        "type": "single_quoted_string",
+        "value": "'ab'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 39
+          "startColumn": 36,
+          "endColumn": 40
         }
       },
       {
@@ -37522,11 +37314,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
+          "startColumn": 36,
+          "endColumn": 41
         }
       },
       {
@@ -37538,11 +37330,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 47,
-          "endColumn": 50
+          "startColumn": 46,
+          "endColumn": 51
         }
       },
       {
@@ -37631,11 +37423,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bbb",
+        "type": "single_quoted_string",
+        "value": "'bbb'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
+          "startColumn": 36,
+          "endColumn": 41
         }
       },
       {
@@ -37647,11 +37439,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bbb",
+        "type": "single_quoted_string",
+        "value": "'bbb'",
         "location": {
-          "startColumn": 47,
-          "endColumn": 50
+          "startColumn": 46,
+          "endColumn": 51
         }
       },
       {
@@ -37740,11 +37532,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 40
+          "startColumn": 36,
+          "endColumn": 41
         }
       },
       {
@@ -37756,11 +37548,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 47,
-          "endColumn": 50
+          "startColumn": 46,
+          "endColumn": 51
         }
       },
       {
@@ -37849,11 +37641,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foofoofoofoofoofoof",
+        "type": "single_quoted_string",
+        "value": "'foofoofoofoofoofoof…'",
         "location": {
-          "startColumn": 37,
-          "endColumn": 56
+          "startColumn": 36,
+          "endColumn": 58
         }
       },
       {
@@ -37865,11 +37657,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foofoofoofoofoofoof",
+        "type": "single_quoted_string",
+        "value": "'foofoofoofoofoofoof…'",
         "location": {
-          "startColumn": 64,
-          "endColumn": 83
+          "startColumn": 63,
+          "endColumn": 85
         }
       },
       {
@@ -38456,11 +38248,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "A",
+        "type": "single_quoted_string",
+        "value": "'A'",
         "location": {
-          "startColumn": 111,
-          "endColumn": 112
+          "startColumn": 110,
+          "endColumn": 113
         }
       },
       {
@@ -38621,11 +38413,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ABC",
+        "type": "single_quoted_string",
+        "value": "'ABC'",
         "location": {
-          "startColumn": 83,
-          "endColumn": 86
+          "startColumn": 82,
+          "endColumn": 87
         }
       },
       {
@@ -38730,11 +38522,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ccc",
+        "type": "single_quoted_string",
+        "value": "'ccc'",
         "location": {
-          "startColumn": 49,
-          "endColumn": 52
+          "startColumn": 48,
+          "endColumn": 53
         }
       },
       {
@@ -39065,11 +38857,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "single_quoted_string",
+        "value": "'1'",
         "location": {
-          "startColumn": 43,
-          "endColumn": 44
+          "startColumn": 42,
+          "endColumn": 45
         }
       },
       {
@@ -39868,11 +39660,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 45,
-          "endColumn": 48
+          "startColumn": 44,
+          "endColumn": 49
         }
       },
       {
@@ -42361,27 +42153,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 81,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 84,
-          "endColumn": 88
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 100
+          "startColumn": 80,
+          "endColumn": 101
         }
       },
       {
@@ -42542,27 +42318,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 81,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 84,
-          "endColumn": 88
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 100
+          "startColumn": 80,
+          "endColumn": 101
         }
       },
       {
@@ -42723,27 +42483,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\OtherClass'",
         "location": {
-          "startColumn": 81,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 84,
-          "endColumn": 88
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherClass",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 100
+          "startColumn": 80,
+          "endColumn": 101
         }
       },
       {
@@ -42904,27 +42648,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug3633\\\\HelloWorld'",
         "location": {
-          "startColumn": 81,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "number",
-        "value": "3633",
-        "location": {
-          "startColumn": 84,
-          "endColumn": 88
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 100
+          "startColumn": 80,
+          "endColumn": 101
         }
       },
       {
@@ -43138,11 +42866,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 47,
-          "endColumn": 53
+          "startColumn": 46,
+          "endColumn": 54
         }
       },
       {
@@ -43404,11 +43132,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 53,
-          "endColumn": 59
+          "startColumn": 52,
+          "endColumn": 60
         }
       },
       {
@@ -43537,11 +43265,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "single_quoted_string",
+        "value": "'string'",
         "location": {
-          "startColumn": 53,
-          "endColumn": 59
+          "startColumn": 52,
+          "endColumn": 60
         }
       },
       {
@@ -43803,11 +43531,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 54,
-          "endColumn": 57
+          "startColumn": 53,
+          "endColumn": 58
         }
       },
       {
@@ -43920,11 +43648,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "AB",
+        "type": "single_quoted_string",
+        "value": "'AB'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 60
+          "startColumn": 57,
+          "endColumn": 61
         }
       },
       {
@@ -44037,11 +43765,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "aBc",
+        "type": "single_quoted_string",
+        "value": "'aBc'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 61
+          "startColumn": 57,
+          "endColumn": 62
         }
       },
       {
@@ -44178,11 +43906,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ABC",
+        "type": "single_quoted_string",
+        "value": "'ABC'",
         "location": {
-          "startColumn": 75,
-          "endColumn": 78
+          "startColumn": 74,
+          "endColumn": 79
         }
       },
       {
@@ -44303,11 +44031,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "AB",
+        "type": "single_quoted_string",
+        "value": "'AB'",
         "location": {
-          "startColumn": 64,
-          "endColumn": 66
+          "startColumn": 63,
+          "endColumn": 67
         }
       },
       {
@@ -44412,11 +44140,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 47,
-          "endColumn": 50
+          "startColumn": 46,
+          "endColumn": 51
         }
       },
       {
@@ -45933,11 +45661,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "aBc",
+        "type": "single_quoted_string",
+        "value": "'aBc'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 61
+          "startColumn": 57,
+          "endColumn": 62
         }
       },
       {
@@ -46050,11 +45778,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ab",
+        "type": "single_quoted_string",
+        "value": "'ab'",
         "location": {
-          "startColumn": 58,
-          "endColumn": 60
+          "startColumn": 57,
+          "endColumn": 61
         }
       },
       {
