@@ -31,6 +31,7 @@ if [ -d "${PHPSTAN_DIR}" ]; then
 else
     echo "==> Cloning phpstan-src..."
     git clone --depth 1 --branch "${BRANCH}" \
+        --filter=blob:none \
         https://github.com/phpstan/phpstan-src.git "${PHPSTAN_DIR}"
 fi
 
@@ -43,7 +44,8 @@ echo "==> Collecting error messages..."
 vendor/bin/phpunit \
     --bootstrap "${WORKDIR}/collector/bootstrap.php" \
     --no-coverage \
-    --testsuite PHPStan \
+    --dont-report-useless-tests \
+    tests/PHPStan/Rules/ \
     2>/dev/null || true
 
 # Sort and deduplicate

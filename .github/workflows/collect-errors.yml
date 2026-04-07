@@ -50,6 +50,7 @@ jobs:
             OUTPUT_FILE="/tmp/phpstan-errors-${SANITIZED_BRANCH}.txt"
 
             git clone --depth 1 --branch "${BRANCH}" \
+              --filter=blob:none \
               https://github.com/phpstan/phpstan-src.git "${PHPSTAN_DIR}"
 
             cd "${PHPSTAN_DIR}"
@@ -59,7 +60,8 @@ jobs:
             vendor/bin/phpunit \
               --bootstrap "${{ github.workspace }}/collector/bootstrap-ci.php" \
               --no-coverage \
-              --testsuite PHPStan \
+              --dont-report-useless-tests \
+              tests/PHPStan/Rules/ \
               2>/dev/null || true
 
             cd "${{ github.workspace }}"
