@@ -1,0 +1,667 @@
+[
+  {
+    "input": "Parse error in @phpstan-ignore: Unexpected T_CLOSE_PARENTHESIS after identifier, expected comma (,) or end or T_OPEN_PARENTHESIS",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parse",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "error",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CLOSE",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PARENTHESIS",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "after",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "identifier",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expected",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "comma",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "end",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OPEN",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PARENTHESIS",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 128
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parse error in @phpstan-ignore: Unexpected T_OTHER 'čičí' after @phpstan-ignore, expected identifier",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parse",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "error",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OTHER",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "i",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "after",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expected",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "identifier",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 100
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parse error in @phpstan-ignore: Unexpected comma (,) after comma (,), expected identifier",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parse",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "error",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "comma",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "after",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "comma",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expected",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "identifier",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 89
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parse error in @phpstan-ignore: Unexpected end after @phpstan-ignore, expected identifier",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parse",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "error",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "end",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "after",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expected",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "identifier",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 89
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parse error in @phpstan-ignore: Unexpected end, unclosed opening parenthesis",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parse",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "error",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@phpstan-i",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "gnore",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "end",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unclosed",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "opening",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "parenthesis",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 76
+        }
+      }
+    ]
+  }
+]

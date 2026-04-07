@@ -1,0 +1,464 @@
+[
+  {
+    "input": "Access to static property $prop of internal class Bug12951Polyfill\\NumberFormatter from outside its root namespace Bug12951Polyfill.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$prop",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "number",
+        "value": "12951",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Polyfill",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NumberFormatter",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "number",
+        "value": "12951",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Polyfill",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to static method doBar() of internal class Bug12951Polyfill\\NumberFormatter from outside its root namespace Bug12951Polyfill.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "doBar()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "number",
+        "value": "12951",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Polyfill",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NumberFormatter",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "number",
+        "value": "12951",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Polyfill",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot access $foo",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "access",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot access FOO",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "access",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 17
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot call __toString",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "toString",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      }
+    ]
+  },
+  {
+    "input": "Cannot call doFoo",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Cannot",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "call",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "doFoo",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      }
+    ]
+  }
+]

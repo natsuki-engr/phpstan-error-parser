@@ -1,0 +1,2817 @@
+[
+  {
+    "input": "Attribute class AllowDynamicProperties cannot be used with trait.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Attribute",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "AllowDynamicProperties",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "trait",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Attribute class Deprecated can be used with traits only on PHP 8.5 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Attribute",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Deprecated",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "can",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "traits",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.5",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "Attribute class TraitAttributes\\AbstractAttribute is abstract.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Attribute",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TraitAttributes",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "AbstractAttribute",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "abstract",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Attribute class TraitAttributes\\MyTargettedAttribute does not have the class target.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Attribute",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TraitAttributes",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MyTargettedAttribute",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "target",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 84
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ConflictingTraitConstantsTypes\\Baz::BAR_CONST (int) overriding constant ConflictingTraitConstantsTypes\\Foo::BAR_CONST should not have a native type.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 144
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 156
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 157
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ConflictingTraitConstantsTypes\\Baz::FOO_CONST (int) overriding constant ConflictingTraitConstantsTypes\\Foo::FOO_CONST (int|string) should have the same native type int|string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 147,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 155
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "same",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 160
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 161,
+          "endColumn": 167
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 168,
+          "endColumn": 172
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 173,
+          "endColumn": 176
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 177,
+          "endColumn": 183
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 183,
+          "endColumn": 184
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ConflictingTraitConstantsTypes\\Lorem::FOO_CONST overriding constant ConflictingTraitConstantsTypes\\Foo::FOO_CONST (int|string) should also have native type int|string.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 136,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 152
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "native",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 160,
+          "endColumn": 164
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 165,
+          "endColumn": 168
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 169,
+          "endColumn": 175
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 175,
+          "endColumn": 176
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant ConflictingTraitConstants\\Bar9::PUBLIC_CONSTANT with value 2 overriding constant ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT with different value 1 should have the same value.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "number",
+        "value": "9",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "different",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 160,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 167,
+          "endColumn": 171
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 172,
+          "endColumn": 175
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "same",
+        "location": {
+          "startColumn": 176,
+          "endColumn": 180
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 181,
+          "endColumn": 186
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 186,
+          "endColumn": 187
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant is declared inside a trait but is only supported on PHP 8.2 and later.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declared",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "inside",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "trait",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "but",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "supported",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHP",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "number",
+        "value": "8.2",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "later",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
+        }
+      }
+    ]
+  },
+  {
+    "input": "Final constant ConflictingTraitConstants\\Bar8::PUBLIC_CONSTANT overriding non-final constant ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT should also be non-final.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Final",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "number",
+        "value": "8",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "non",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 147,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "non",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 164
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 164,
+          "endColumn": 165
+        }
+      }
+    ]
+  },
+  {
+    "input": "Non-final constant ConflictingTraitConstants\\Bar7::PUBLIC_FINAL_CONSTANT overriding final constant ConflictingTraitConstants\\Foo::PUBLIC_FINAL_CONSTANT should also be final.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Non",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "number",
+        "value": "7",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FINAL",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FINAL",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 163
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 164,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "final",
+        "location": {
+          "startColumn": 167,
+          "endColumn": 172
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 172,
+          "endColumn": 173
+        }
+      }
+    ]
+  },
+  {
+    "input": "Parameter #1 $name of attribute class Bug12011Trait\\Table constructor expects string|null, int given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Parameter",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "parameter_number",
+        "value": "#1",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$name",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "attribute",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "number",
+        "value": "12011",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Trait",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Table",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constructor",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "expects",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
+        }
+      }
+    ]
+  },
+  {
+    "input": "Private constant ConflictingTraitConstants\\Bar2::PUBLIC_CONSTANT overriding public constant ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT should also be public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Private",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 151,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 154,
+          "endColumn": 160
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 160,
+          "endColumn": 161
+        }
+      }
+    ]
+  },
+  {
+    "input": "Private constant ConflictingTraitConstants\\Bar4::PROTECTED_CONSTANT overriding protected constant ConflictingTraitConstants\\Foo::PROTECTED_CONSTANT should also be protected.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Private",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "number",
+        "value": "4",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "protected",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 160,
+          "endColumn": 162
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "protected",
+        "location": {
+          "startColumn": 163,
+          "endColumn": 172
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 172,
+          "endColumn": 173
+        }
+      }
+    ]
+  },
+  {
+    "input": "Protected constant ConflictingTraitConstants\\Bar5::PRIVATE_CONSTANT overriding private constant ConflictingTraitConstants\\Foo::PRIVATE_CONSTANT should also be private.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Protected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "number",
+        "value": "5",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "private",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 144,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 151,
+          "endColumn": 155
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "private",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 166
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 166,
+          "endColumn": 167
+        }
+      }
+    ]
+  },
+  {
+    "input": "Protected constant ConflictingTraitConstants\\Bar::PUBLIC_CONSTANT overriding public constant ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT should also be public.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Protected",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 147,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 154
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "public",
+        "location": {
+          "startColumn": 155,
+          "endColumn": 161
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 161,
+          "endColumn": 162
+        }
+      }
+    ]
+  },
+  {
+    "input": "Public constant ConflictingTraitConstants\\Bar3::PROTECTED_CONSTANT overriding protected constant ConflictingTraitConstants\\Foo::PROTECTED_CONSTANT should also be protected.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Public",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "number",
+        "value": "3",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "protected",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 147,
+          "endColumn": 153
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 154,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 161
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "protected",
+        "location": {
+          "startColumn": 162,
+          "endColumn": 171
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 171,
+          "endColumn": 172
+        }
+      }
+    ]
+  },
+  {
+    "input": "Public constant ConflictingTraitConstants\\Bar6::PRIVATE_CONSTANT overriding private constant ConflictingTraitConstants\\Foo::PRIVATE_CONSTANT should also be private.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Public",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "number",
+        "value": "6",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "overriding",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "private",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 140
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "should",
+        "location": {
+          "startColumn": 141,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "also",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 152
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 153,
+          "endColumn": 155
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "private",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 163
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 163,
+          "endColumn": 164
+        }
+      }
+    ]
+  },
+  {
+    "input": "Trait NotAnalysedTrait\\Bar is used zero times and is not analysed.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Trait",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NotAnalysedTrait",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "zero",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "times",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "analysed",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  }
+]

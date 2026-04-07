@@ -1,0 +1,560 @@
+[
+  {
+    "input": "Type mixed cannot be part of a nullable type declaration.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mixed",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "part",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nullable",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declaration",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type mixed cannot be part of a union type declaration.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mixed",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "part",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "union",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declaration",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type never cannot be part of a nullable type declaration.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "part",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nullable",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declaration",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type never cannot be part of a union type declaration.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "part",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "union",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declaration",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type void cannot be part of a nullable type declaration.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "part",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "nullable",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declaration",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Type void cannot be part of a union type declaration.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Type",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "part",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "union",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "type",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "declaration",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      }
+    ]
+  }
+]

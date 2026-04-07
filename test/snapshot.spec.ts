@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { parse } from '../src/index';
 
 const fixturesDir = join(__dirname, 'fixtures');
+const snapshotsDir = join(__dirname, '__snapshots__');
 
 function getBranchDirs(): string[] {
   try {
@@ -46,7 +47,9 @@ describe.skipIf(branchDirs.length === 0)(
               tokens: parse(message),
             }));
 
-            expect(results).toMatchSnapshot();
+            expect(JSON.stringify(results, null, 2)).toMatchFileSnapshot(
+              join(snapshotsDir, branch, `${category}.snap`),
+            );
           }, 60_000);
         }
       });

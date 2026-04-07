@@ -1,0 +1,501 @@
+[
+  {
+    "input": "Class DateTime referenced with incorrect case: DATETIME.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Class",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "referenced",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incorrect",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "case",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DATETIME",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Function Uses\\foo used with incorrect case: Uses\\Foo.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Function",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "Uses\\foo",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incorrect",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "case",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Uses",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      }
+    ]
+  },
+  {
+    "input": "Interface Uses\\Lorem referenced with incorrect case: Uses\\LOREM.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Interface",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Uses",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "referenced",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "incorrect",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "case",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Uses",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LOREM",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Referencing prefixed PHPStan class: _PHPStan_156ee64ba\\PrefixedRuntimeException.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Referencing",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "prefixed",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPStan",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPStan",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "number",
+        "value": "156",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ee",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "number",
+        "value": "64",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ba",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrefixedRuntimeException",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      }
+    ]
+  },
+  {
+    "input": "Used constant Uses\\OTHER_CONSTANT not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Used",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Uses",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "OTHER",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      }
+    ]
+  },
+  {
+    "input": "Used function Uses\\bar not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Used",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "Uses\\bar",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      }
+    ]
+  },
+  {
+    "input": "Used function Uses\\baz not found.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Used",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "Uses\\baz",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      }
+    ]
+  }
+]

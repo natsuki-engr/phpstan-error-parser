@@ -1,0 +1,1565 @@
+[
+  {
+    "input": "Declare strict_types must be the very first statement.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Declare",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "strict",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "types",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "very",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "first",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "statement",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      }
+    ]
+  },
+  {
+    "input": "Declare strict_types must have 0 or 1 as its value, 'foo' given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Declare",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "strict",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "types",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "number",
+        "value": "0",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Declare strict_types must have 0 or 1 as its value, \\true given.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Declare",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "strict",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "types",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "must",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "have",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "number",
+        "value": "0",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "as",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "value",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "true",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "given",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Keyword break used outside of a loop or a switch statement.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Keyword",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "break",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "loop",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "switch",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "statement",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      }
+    ]
+  },
+  {
+    "input": "Keyword continue used outside of a loop or a switch statement.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Keyword",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "continue",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "used",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "loop",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "switch",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "statement",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in include() \"a-file-that-does-not-exist.php\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "that",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in include() \"data/include-me-to-prove-you-work.txt\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "data",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "me",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "prove",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "you",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "work",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in include_once() \"a-file-that-does-not-exist.php\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "once",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "that",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in include_once() \"data/include-me-to-prove-you-work.txt\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "once",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "data",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "me",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "prove",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "you",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "work",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in require() \"a-file-that-does-not-exist.php\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "require",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "that",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in require() \"data/include-me-to-prove-you-work.txt\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "require",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "data",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "me",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "prove",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "you",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "work",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in require_once() \"../bug-12203-sure-does-not-exist.php\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "require",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "once",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in require_once() \"/tmp/phpstan-src-2.2.x/tests/PHPStan/Rules/Keywords/data/../bug-12203-sure-does-not-exist.php\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "require",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "once",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tmp",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "phpstan",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "src",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "number",
+        "value": "-2.2",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in require_once() \"a-file-that-does-not-exist.php\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "require",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "once",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "file",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "that",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "exist",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      }
+    ]
+  },
+  {
+    "input": "Path in require_once() \"data/include-me-to-prove-you-work.txt\" is not a file or it does not exist.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Path",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "require",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "once",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "data",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "include",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "me",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "prove",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "you",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "work",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  }
+]

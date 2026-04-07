@@ -1,0 +1,132 @@
+[
+  {
+    "input": "File begins with UTF-8 BOM character. This may cause problems when running the code in the web browser.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "File",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "begins",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UTF",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "number",
+        "value": "-8",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BOM",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "character",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      }
+    ]
+  },
+  {
+    "input": "File ends with a trailing whitespace. This may cause problems when running the code in the web browser. Remove the closing ?> mark or remove the whitespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "File",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ends",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "trailing",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "whitespace",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,629 @@
+[
+  {
+    "input": "2× doFoo, 2× doBar",
+    "tokens": [
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 1
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "doFoo",
+        "location": {
+          "startColumn": 3,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "doBar",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 18
+        }
+      }
+    ]
+  },
+  {
+    "input": "Instantiating DateTime with 2020.11.17 produces an error: Double time specification",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Instantiating",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTime",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "number",
+        "value": "2020.11",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      }
+    ]
+  },
+  {
+    "input": "Instantiating DateTimeImmutable with 2020.11.17 produces an error: Double time specification",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Instantiating",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "number",
+        "value": "2020.11",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      }
+    ]
+  },
+  {
+    "input": "Instantiating DateTimeImmutable with 2020.11.18 produces an error: Double time specification",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Instantiating",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "number",
+        "value": "2020.11",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      }
+    ]
+  },
+  {
+    "input": "Instantiating DateTimeImmutable with asdfasdf produces an error: The timezone could not be found in the database",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Instantiating",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DateTimeImmutable",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "with",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "asdfasdf",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "produces",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "an",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "error",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "The",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "timezone",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "could",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "be",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "in",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "the",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "database",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 112
+        }
+      }
+    ]
+  },
+  {
+    "input": "ScopeFunctionCallStack\\NamedArgumentTest::testMethod",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "ScopeFunctionCallStack",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NamedArgumentTest",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "testMethod",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 52
+        }
+      }
+    ]
+  },
+  {
+    "input": "ScopeFunctionCallStack\\NamedArgumentTest::testMethod ($notImmediate)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "ScopeFunctionCallStack",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NamedArgumentTest",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "testMethod",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$notImmediate",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      }
+    ]
+  },
+  {
+    "input": "found echo",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 10
+        }
+      }
+    ]
+  },
+  {
+    "input": "found virtual echo",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "found",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "virtual",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "echo",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 18
+        }
+      }
+    ]
+  },
+  {
+    "input": "print_r",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "r",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 7
+        }
+      }
+    ]
+  },
+  {
+    "input": "print_r ($value)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "print",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "r",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$value",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      }
+    ]
+  },
+  {
+    "input": "sleep",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "sleep",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      }
+    ]
+  },
+  {
+    "input": "sleep ($seconds)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "sleep",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$seconds",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      }
+    ]
+  },
+  {
+    "input": "var_dump",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "var",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dump",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 8
+        }
+      }
+    ]
+  },
+  {
+    "input": "var_dump ($value)",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "var",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "dump",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$value",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      }
+    ]
+  }
+]

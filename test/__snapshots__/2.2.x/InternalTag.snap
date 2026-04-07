@@ -1,0 +1,2915 @@
+[
+  {
+    "input": "Access to constant BAR of internal class ClassConstantAccessOnInternalSubclassOne\\Bar from outside its root namespace ClassConstantAccessOnInternalSubclassOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantAccessOnInternalSubclassOne",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantAccessOnInternalSubclassOne",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 159
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to constant FOO of internal class ClassConstantInternalTagOne\\FooInternal from outside its root namespace ClassConstantInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantInternalTagOne",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternal",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantInternalTagOne",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 140
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 141
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to constant FOO of internal class FooInternalWithClassConstantWithoutNamespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternalWithClassConstantWithoutNamespace",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 86
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to constant NUMERIC_COLLATION of internal class Bug12951Polyfill\\NumberFormatter from outside its root namespace Bug12951Polyfill.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NUMERIC",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "COLLATION",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "number",
+        "value": "12951",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Polyfill",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NumberFormatter",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 105,
+          "endColumn": 109
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 110,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "number",
+        "value": "12951",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Polyfill",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 136,
+          "endColumn": 137
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal constant ClassConstantInternalTagOne\\Foo::INTERNAL from outside its root namespace ClassConstantInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantInternalTagOne",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "INTERNAL",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassConstantInternalTagOne",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal constant ClassInternal::INTERNAL_CONSTANT.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ClassInternal",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "INTERNAL",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal constant FooWithInternalClassConstantWithoutNamespace::INTERNAL.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constant",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooWithInternalClassConstantWithoutNamespace",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "INTERNAL",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal property FooWithInternalPropertyWithoutNamespace::$internal.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooWithInternalPropertyWithoutNamespace",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$internal",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal property PropertyInternalTagOne\\Foo::$internal from outside its root namespace PropertyInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PropertyInternalTagOne",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$internal",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PropertyInternalTagOne",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 121
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal static property FooWithInternalStaticPropertyWithoutNamespace::$internal.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooWithInternalStaticPropertyWithoutNamespace",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$internal",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to internal static property StaticPropertyInternalTagOne\\Foo::$internal from outside its root namespace StaticPropertyInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticPropertyInternalTagOne",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$internal",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticPropertyInternalTagOne",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 140
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to property $foo of internal class FooInternalWithPropertyWithoutNamespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternalWithPropertyWithoutNamespace",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 82
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to property $foo of internal class PropertyInternalTagOne\\FooInternal from outside its root namespace PropertyInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PropertyInternalTagOne",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternal",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PropertyInternalTagOne",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to static property $bar of internal class StaticPropertyAccessOnInternalSubclassOne\\Bar from outside its root namespace StaticPropertyAccessOnInternalSubclassOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$bar",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticPropertyAccessOnInternalSubclassOne",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticPropertyAccessOnInternalSubclassOne",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 168
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 168,
+          "endColumn": 169
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to static property $foo of internal class FooInternalWithStaticPropertyWithoutNamespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternalWithStaticPropertyWithoutNamespace",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      }
+    ]
+  },
+  {
+    "input": "Access to static property $foo of internal class StaticPropertyInternalTagOne\\FooInternal from outside its root namespace StaticPropertyInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Access",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticPropertyInternalTagOne",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternal",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticPropertyInternalTagOne",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 151
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal function FunctionInternalTagOne\\doInternal() from outside its root namespace FunctionInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "FunctionInternalTagOne\\doInternal",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FunctionInternalTagOne",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 117
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal function doInternalWithoutNamespace().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "doInternalWithoutNamespace",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal method ClassInternal::internalMethod().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "ClassInternal::internalMethod()",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal method FooWithInternalMethodWithoutNamespace::doInternal().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "FooWithInternalMethodWithoutNamespace::doInternal()",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal method MethodInternalTagOne\\Foo::doInternal() from outside its root namespace MethodInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "MethodInternalTagOne\\Foo::doInternal()",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MethodInternalTagOne",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal static method ClassInternal::internalStaticMethod().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "ClassInternal::internalStaticMethod()",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal static method FooWithInternalStaticMethodWithoutNamespace::doInternal().",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "FooWithInternalStaticMethodWithoutNamespace::doInternal()",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to internal static method StaticMethodInternalTagOne\\Foo::doInternal() from outside its root namespace StaticMethodInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "StaticMethodInternalTagOne\\Foo::doInternal()",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticMethodInternalTagOne",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 135
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method doFoo() of internal class FooInternalWithoutNamespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "doFoo()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternalWithoutNamespace",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method doFoo() of internal class MethodInternalTagOne\\FooInternal from outside its root namespace MethodInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "doFoo()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MethodInternalTagOne",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternal",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MethodInternalTagOne",
+        "location": {
+          "startColumn": 106,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 127
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to static method doBar() of internal class StaticMethodCallOnInternalSubclassOne\\Bar from outside its root namespace StaticMethodCallOnInternalSubclassOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "doBar()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticMethodCallOnInternalSubclassOne",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticMethodCallOnInternalSubclassOne",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 159,
+          "endColumn": 160
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to static method doFoo() of internal class FooInternalStaticWithoutNamespace.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "doFoo()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternalStaticWithoutNamespace",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 82
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to static method doFoo() of internal class StaticMethodInternalTagOne\\FooInternal from outside its root namespace StaticMethodInternalTagOne.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "static",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "doFoo()",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "internal",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticMethodInternalTagOne",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInternal",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "from",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "outside",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "its",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "root",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "namespace",
+        "location": {
+          "startColumn": 109,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "StaticMethodInternalTagOne",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 145,
+          "endColumn": 146
+        }
+      }
+    ]
+  }
+]

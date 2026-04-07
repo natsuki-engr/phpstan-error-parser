@@ -1,0 +1,6188 @@
+[
+  {
+    "input": "Another unreachable",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Another",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unreachable",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 19
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to CallToStaticMethodWithoutImpurePoints\\SubSubY::mySubSubFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CallToStaticMethodWithoutImpurePoints",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "SubSubY",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "mySubSubFunc",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to CallToStaticMethodWithoutImpurePoints\\X::myFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CallToStaticMethodWithoutImpurePoints",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "X",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "myFunc",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to CallToStaticMethodWithoutImpurePoints\\y::myFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CallToStaticMethodWithoutImpurePoints",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "y",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "myFunc",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to function CallToFunctionWithoutImpurePoints\\myFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "function",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "function_name",
+        "value": "CallToFunctionWithoutImpurePoints\\myFunc",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method Bug11011\\AnotherPureImpl::doFoo() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug11011\\AnotherPureImpl::doFoo()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 82
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\AbstractFoo::myFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\AbstractFoo::myFunc()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\CallsPrivateMethodWithoutImpurePoints::doBar() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\CallsPrivateMethodWithoutImpurePoints::doBar()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 107
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 127
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\finalSubSubY::mySubSubFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\finalSubSubY::mySubSubFunc()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 108
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 108,
+          "endColumn": 109
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\finalX::myFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\finalX::myFunc()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\foo::finalFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\foo::finalFunc()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 83,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 96
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\y::myFinalBaseFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\y::myFinalBaseFunc()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 86
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to method CallToMethodWithoutImpurePoints\\y::myFunc() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "CallToMethodWithoutImpurePoints\\y::myFunc()",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 81
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 92
+        }
+      }
+    ]
+  },
+  {
+    "input": "Call to new CallToConstructorWithoutImpurePoints\\Foo() on a separate line has no effect.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Call",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "to",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "new",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CallToConstructorWithoutImpurePoints",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "has",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "no",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "effect",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 88
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant UnusedPrivateConstantDynamicFetch\\Baz::FOO is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateConstantDynamicFetch",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant UnusedPrivateConstantEnum\\Foo::TEST_2 is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateConstantEnum",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TEST",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant UnusedPrivateConstant\\Foo::BAR_CONST is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateConstant",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Constant UnusedPrivateConstant\\TestExtension::UNUSED is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Constant",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateConstant",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestExtension",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UNUSED",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"$arr\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$arr",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"$arr['test']\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$arr",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "test",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"$b()\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$b",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"$foo->test\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "test",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"$foo::$test\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$test",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"$ref?->name\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$ref",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "name",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"'foo'\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"(string) 1\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"+1\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"-1\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "number",
+        "value": "-1",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"1\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"@'foo'\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "foo",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"\\DeadCodeNoop\\Foo::TEST\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DeadCodeNoop",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TEST",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"empty($test)\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "empty",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$test",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"isset($test)\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "isset",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$test",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"new class extends \\Bug13698\\NoConstructorClass…\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "new",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "extends",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "number",
+        "value": "13698",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NoConstructorClass",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 84
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"new class…\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "new",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Expression \"true\" on a separate line does not do anything.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Expression",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "true",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "a",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "separate",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "line",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "does",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "not",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "do",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "anything",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  },
+  {
+    "input": "First unreachable",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "First",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unreachable",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 17
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug11802b\\HelloWorld::doBar() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug11802b\\HelloWorld::doBar()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug7389\\HelloWorld::getTest() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug7389\\HelloWorld::getTest()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method Bug7389\\HelloWorld::getTest1() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "Bug7389\\HelloWorld::getTest1()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method UnusedPrivateMethodEnunm\\Foo::doBaz() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethodEnunm\\Foo::doBaz()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method UnusedPrivateMethod\\Bar::doBaz() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethod\\Bar::doBaz()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method UnusedPrivateMethod\\Foo::doBar() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethod\\Foo::doBar()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method UnusedPrivateMethod\\Foo::doFoo() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethod\\Foo::doFoo()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method UnusedPrivateMethod\\IgnoredByExtension::bar() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethod\\IgnoredByExtension::bar()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      }
+    ]
+  },
+  {
+    "input": "Method UnusedPrivateMethod\\Lorem::doBaz() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Method",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethod\\Lorem::doBaz()",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property Bug11802\\HelloWorld::$isFinal is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "number",
+        "value": "11802",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "HelloWorld",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$isFinal",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property Bug3636\\Bar::$date is never written, only read.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "number",
+        "value": "3636",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$date",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property PrivatePropertyWithTags\\Foo::$text is never written, only read.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivatePropertyWithTags",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$text",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 71
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 72
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property PrivatePropertyWithTags\\Foo::$title is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivatePropertyWithTags",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$title",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 72,
+          "endColumn": 73
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivatePromotedProperty\\Foo::$lorem is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivatePromotedProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$lorem",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 71,
+          "endColumn": 78
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\ArrayAssign::$foo is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ArrayAssign",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\Bar::$baz is never written, only read.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$baz",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\DolorWithAnonymous::$foo is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DolorWithAnonymous",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\Foo::$bar is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$bar",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\Foo::$baz is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$baz",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\Foo::$lorem is never written, only read.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$lorem",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\ListAssign::$foo is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ListAssign",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\Lorem::$baz is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$baz",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\TestExtension::$read is never written, only read.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestExtension",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$read",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 79,
+          "endColumn": 80
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\TestExtension::$unused is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestExtension",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$unused",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 64
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property UnusedPrivateProperty\\TestExtension::$written is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "TestExtension",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$written",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      }
+    ]
+  },
+  {
+    "input": "Property class@anonymous/tests/PHPStan/Rules/DeadCode/data/unused-private-property.php:152::$bar is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Property",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "class",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "doc_tag",
+        "value": "@anonymous",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "tests",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PHPStan",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Rules",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DeadCode",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "data",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "private",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 82
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      }
+    ]
+  },
+  {
+    "input": "Static method UnusedPrivateMethod\\Foo::unusedStaticMethod() is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Static",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "method",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "method_name",
+        "value": "UnusedPrivateMethod\\Foo::unusedStaticMethod()",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      }
+    ]
+  },
+  {
+    "input": "Static property UnusedPrivateProperty\\Baz::$bar is never read, only written.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Static",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 75
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
+        }
+      }
+    ]
+  },
+  {
+    "input": "Static property UnusedPrivateProperty\\Baz::$baz is unused.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Static",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$baz",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unused",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 57,
+          "endColumn": 58
+        }
+      }
+    ]
+  },
+  {
+    "input": "Static property UnusedPrivateProperty\\Baz::$lorem is never written, only read.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Static",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "property",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "UnusedPrivateProperty",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$lorem",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "never",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "written",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "only",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "read",
+        "location": {
+          "startColumn": 73,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unreachable statement - code above always terminates.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unreachable",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "statement",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "code",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "above",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "always",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "terminates",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unused result of \"&&\" operator.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unused",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "operator",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unused result of \"and\" operator.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unused",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "operator",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 32
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unused result of \"or\" operator.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unused",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "operator",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unused result of \"xor\" operator.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unused",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "xor",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "operator",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 32
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unused result of \"||\" operator.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unused",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "operator",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      }
+    ]
+  },
+  {
+    "input": "Unused result of ternary operator.",
+    "tokens": [
+      {
+        "type": "common_word",
+        "value": "Unused",
+        "location": {
+          "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "result",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ternary",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "operator",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "period",
+        "value": ".",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 34
+        }
+      }
+    ]
+  }
+]
