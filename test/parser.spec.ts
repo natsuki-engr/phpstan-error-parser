@@ -77,6 +77,14 @@ describe('sample test', () => {
         ['CommonWord:doBar', false],
       ],
     },
+    {
+      name: 'parse parameter number',
+      m: 'Parameter #1 $bar of method Test\\ClassWithNullableProperty::doBar() is passed by reference, so it expects variables only.',
+      assertions: [
+        ['ParameterNumber:#1', true],
+        ['Variable:$bar', true],
+      ],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {

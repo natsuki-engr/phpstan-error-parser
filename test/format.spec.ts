@@ -373,6 +373,121 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
+  it('parse parameter number', () => {
+    const message =
+      'Parameter #1 $foo of method Test\\ObjectTypehint::doBar() expects Test\\Foo, object given.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Parameter',
+        location: {
+          startColumn: 0,
+          endColumn: 9,
+        },
+      },
+      {
+        type: 'parameter_number',
+        value: '#1',
+        location: {
+          startColumn: 10,
+          endColumn: 12,
+        },
+      },
+      {
+        type: 'variable_name',
+        value: '$foo',
+        location: {
+          startColumn: 13,
+          endColumn: 17,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'of',
+        location: {
+          startColumn: 18,
+          endColumn: 20,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'method',
+        location: {
+          startColumn: 21,
+          endColumn: 27,
+        },
+      },
+      {
+        type: 'method_name',
+        value: 'Test\\ObjectTypehint::doBar()',
+        location: {
+          startColumn: 28,
+          endColumn: 56,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'expects',
+        location: {
+          startColumn: 57,
+          endColumn: 64,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'Test',
+        location: {
+          startColumn: 65,
+          endColumn: 69,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'Foo',
+        location: {
+          startColumn: 70,
+          endColumn: 73,
+        },
+      },
+      {
+        type: 'comma',
+        value: ',',
+        location: {
+          startColumn: 73,
+          endColumn: 74,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'object',
+        location: {
+          startColumn: 75,
+          endColumn: 81,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'given',
+        location: {
+          startColumn: 82,
+          endColumn: 87,
+        },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: {
+          startColumn: 87,
+          endColumn: 88,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
   it('parse static method', () => {
     const message =
       'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';

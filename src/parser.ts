@@ -38,6 +38,11 @@ const tokens = {
     pattern: /\$[a-z][\w]*/,
     line_breaks: false,
   }),
+  PARAMETER_NUMBER: createToken({
+    name: 'ParameterNumber',
+    pattern: /#\d+/,
+    line_breaks: false,
+  }),
 };
 
 export const lexer = new Lexer(Object.values(tokens), {
@@ -59,6 +64,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },
         { ALT: () => this.CONSUME(tokens.VARIABLE) },
+        { ALT: () => this.CONSUME(tokens.PARAMETER_NUMBER) },
         { ALT: () => this.CONSUME(tokens.COMMA) },
       ]);
     });
