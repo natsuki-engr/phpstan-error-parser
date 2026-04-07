@@ -104,9 +104,7 @@ describe('sample test', () => {
     {
       name: 'parse decimal number',
       m: 'Attribute class Deprecated can be used with traits only on PHP 8.5 and later.',
-      assertions: [
-        ['Number:8.5', true],
-      ],
+      assertions: [['Number:8.5', true]],
     },
   ] satisfies DataSet[];
 
