@@ -958,6 +958,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 24
+        }
+      },
+      {
         "type": "common_word",
         "value": "void",
         "location": {
@@ -1625,6 +1633,14 @@
         "location": {
           "startColumn": 18,
           "endColumn": 19
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
         }
       },
       {

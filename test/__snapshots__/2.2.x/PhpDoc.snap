@@ -3208,6 +3208,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
         "type": "common_word",
         "value": "InvalidVarTagType",
         "location": {
@@ -3290,6 +3298,14 @@
         "location": {
           "startColumn": 49,
           "endColumn": 53
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
         }
       },
       {
@@ -3580,6 +3596,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -3609,6 +3633,14 @@
         "location": {
           "startColumn": 39,
           "endColumn": 42
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
         }
       },
       {
@@ -4636,6 +4668,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 221,
+          "endColumn": 222
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -4846,6 +4886,14 @@
         "location": {
           "startColumn": 190,
           "endColumn": 191
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 191,
+          "endColumn": 192
         }
       },
       {
@@ -5102,6 +5150,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 219,
+          "endColumn": 220
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -5328,6 +5384,14 @@
         "location": {
           "startColumn": 198,
           "endColumn": 199
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 199,
+          "endColumn": 200
         }
       },
       {
@@ -5600,6 +5664,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 264,
+          "endColumn": 265
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -5850,6 +5922,14 @@
         "location": {
           "startColumn": 214,
           "endColumn": 215
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 215,
+          "endColumn": 216
         }
       },
       {
@@ -6114,6 +6194,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 278,
+          "endColumn": 279
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -6319,6 +6407,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 174,
+          "endColumn": 175
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -6497,6 +6593,14 @@
         "location": {
           "startColumn": 146,
           "endColumn": 156
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 157
         }
       },
       {
@@ -6721,6 +6825,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 223,
+          "endColumn": 224
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -6923,6 +7035,14 @@
         "location": {
           "startColumn": 162,
           "endColumn": 172
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 172,
+          "endColumn": 173
         }
       },
       {
@@ -7136,6 +7256,14 @@
         "location": {
           "startColumn": 227,
           "endColumn": 237
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 237,
+          "endColumn": 238
         }
       },
       {
@@ -7392,6 +7520,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 163,
+          "endColumn": 164
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -7597,6 +7733,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 140
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -7799,6 +7943,14 @@
         "location": {
           "startColumn": 135,
           "endColumn": 141
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 141,
+          "endColumn": 142
         }
       },
       {
@@ -8023,6 +8175,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 181,
+          "endColumn": 182
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -8244,6 +8404,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 183,
+          "endColumn": 184
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -8457,6 +8625,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 157
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -8667,6 +8843,14 @@
         "location": {
           "startColumn": 152,
           "endColumn": 158
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 159
         }
       },
       {
@@ -8904,6 +9088,14 @@
         "location": {
           "startColumn": 180,
           "endColumn": 181
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 181,
+          "endColumn": 182
         }
       },
       {
@@ -10141,6 +10333,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 95,
+          "endColumn": 96
+        }
+      },
+      {
         "type": "common_word",
         "value": "stdClass",
         "location": {
@@ -10343,6 +10543,14 @@
         "location": {
           "startColumn": 100,
           "endColumn": 101
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
         }
       },
       {
@@ -10966,6 +11174,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 118
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -11328,6 +11544,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -11530,6 +11754,14 @@
         "location": {
           "startColumn": 76,
           "endColumn": 77
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
         }
       },
       {
@@ -11743,6 +11975,14 @@
         "location": {
           "startColumn": 76,
           "endColumn": 77
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
         }
       },
       {
@@ -11972,6 +12212,14 @@
         "location": {
           "startColumn": 88,
           "endColumn": 89
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
         }
       },
       {
@@ -12539,6 +12787,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -12560,6 +12816,14 @@
         "location": {
           "startColumn": 66,
           "endColumn": 67
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
         }
       },
       {
@@ -12587,6 +12851,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      },
+      {
         "type": "common_word",
         "value": "int",
         "location": {
@@ -12608,6 +12880,14 @@
         "location": {
           "startColumn": 83,
           "endColumn": 84
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
         }
       },
       {
@@ -12808,6 +13088,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -12970,6 +13258,14 @@
         "location": {
           "startColumn": 37,
           "endColumn": 38
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
         }
       },
       {
@@ -13170,6 +13466,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -13351,6 +13655,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -13500,6 +13812,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
         "type": "variable_name",
         "value": "$arrX",
         "location": {
@@ -13558,6 +13878,14 @@
         "location": {
           "startColumn": 37,
           "endColumn": 46
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
         }
       },
       {
@@ -14045,6 +14373,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
         "type": "variable_name",
         "value": "$b",
         "location": {
@@ -14260,6 +14596,14 @@
         "location": {
           "startColumn": 66,
           "endColumn": 75
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
         }
       },
       {
@@ -14481,6 +14825,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
+        }
+      },
+      {
         "type": "variable_name",
         "value": "$c",
         "location": {
@@ -14627,6 +14979,14 @@
         "location": {
           "startColumn": 86,
           "endColumn": 87
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 88
         }
       },
       {
@@ -14824,6 +15184,14 @@
         "location": {
           "startColumn": 98,
           "endColumn": 99
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
         }
       },
       {
@@ -15045,6 +15413,14 @@
         "location": {
           "startColumn": 88,
           "endColumn": 89
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 90
         }
       },
       {
@@ -15343,6 +15719,14 @@
         "location": {
           "startColumn": 41,
           "endColumn": 50
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
         }
       },
       {
@@ -15827,6 +16211,14 @@
         "location": {
           "startColumn": 102,
           "endColumn": 107
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 107,
+          "endColumn": 108
         }
       },
       {
@@ -18398,6 +18790,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
         "type": "common_word",
         "value": "stdClass",
         "location": {
@@ -18422,6 +18822,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 86
+        }
+      },
+      {
         "type": "common_word",
         "value": "array",
         "location": {
@@ -18435,6 +18843,14 @@
         "location": {
           "startColumn": 94,
           "endColumn": 99
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
         }
       },
       {
@@ -18462,6 +18878,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 122
+        }
+      },
+      {
         "type": "common_word",
         "value": "bool",
         "location": {
@@ -18483,6 +18907,14 @@
         "location": {
           "startColumn": 134,
           "endColumn": 135
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 135,
+          "endColumn": 136
         }
       },
       {
@@ -19313,6 +19745,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -19861,6 +20301,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -20031,6 +20479,14 @@
         "location": {
           "startColumn": 38,
           "endColumn": 39
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 40
         }
       },
       {
@@ -20223,6 +20679,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -20409,6 +20873,14 @@
         "location": {
           "startColumn": 51,
           "endColumn": 52
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
         }
       },
       {
@@ -20617,6 +21089,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 87
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -20822,6 +21302,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -21003,6 +21491,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -21173,6 +21669,14 @@
         "location": {
           "startColumn": 54,
           "endColumn": 55
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
         }
       },
       {
@@ -21381,6 +21885,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -21551,6 +22063,14 @@
         "location": {
           "startColumn": 68,
           "endColumn": 69
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 69,
+          "endColumn": 70
         }
       },
       {
@@ -21743,6 +22263,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
         "type": "common_word",
         "value": "stdClass",
         "location": {
@@ -21905,6 +22433,14 @@
         "location": {
           "startColumn": 42,
           "endColumn": 45
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
         }
       },
       {
@@ -22299,6 +22835,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -22320,6 +22864,14 @@
         "location": {
           "startColumn": 46,
           "endColumn": 47
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
         }
       },
       {
@@ -22347,6 +22899,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
         "type": "common_word",
         "value": "int",
         "location": {
@@ -22368,6 +22928,14 @@
         "location": {
           "startColumn": 63,
           "endColumn": 64
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
         }
       },
       {
@@ -22783,6 +23351,14 @@
         "location": {
           "startColumn": 49,
           "endColumn": 50
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
         }
       },
       {
@@ -28312,6 +28888,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 125
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -28474,6 +29058,14 @@
         "location": {
           "startColumn": 135,
           "endColumn": 140
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 140,
+          "endColumn": 141
         }
       },
       {
@@ -29764,6 +30356,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -29934,6 +30534,14 @@
         "location": {
           "startColumn": 43,
           "endColumn": 44
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
         }
       },
       {
@@ -30118,6 +30726,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 42
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -30299,6 +30915,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
         "type": "common_word",
         "value": "Unexpected",
         "location": {
@@ -30453,6 +31077,14 @@
         "location": {
           "startColumn": 35,
           "endColumn": 36
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
         }
       },
       {
@@ -30642,6 +31274,14 @@
         "location": {
           "startColumn": 51,
           "endColumn": 52
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
         }
       },
       {
@@ -30847,6 +31487,14 @@
         "location": {
           "startColumn": 48,
           "endColumn": 49
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
         }
       },
       {
@@ -31071,6 +31719,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
         "type": "common_word",
         "value": "T",
         "location": {
@@ -31260,6 +31916,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
+        }
+      },
+      {
         "type": "common_word",
         "value": "TInvalid",
         "location": {
@@ -31422,6 +32086,14 @@
         "location": {
           "startColumn": 63,
           "endColumn": 64
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 65
         }
       },
       {
@@ -31606,6 +32278,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
         "type": "common_word",
         "value": "TypeAlias",
         "location": {
@@ -31771,6 +32451,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 42
+        }
+      },
+      {
         "type": "common_word",
         "value": "array",
         "location": {
@@ -31864,6 +32552,14 @@
         "location": {
           "startColumn": 98,
           "endColumn": 99
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 99,
+          "endColumn": 100
         }
       },
       {
@@ -33993,6 +34689,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 70,
+          "endColumn": 71
+        }
+      },
+      {
         "type": "common_word",
         "value": "int",
         "location": {
@@ -34131,6 +34835,14 @@
         "location": {
           "startColumn": 73,
           "endColumn": 75
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
         }
       },
       {
@@ -34397,6 +35109,14 @@
         "location": {
           "startColumn": 73,
           "endColumn": 75
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 75,
+          "endColumn": 76
         }
       },
       {
@@ -34932,6 +35652,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -35001,6 +35729,14 @@
         "location": {
           "startColumn": 77,
           "endColumn": 78
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 78,
+          "endColumn": 79
         }
       },
       {
@@ -35762,6 +36498,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 77,
+          "endColumn": 78
+        }
+      },
+      {
         "type": "common_word",
         "value": "z",
         "location": {
@@ -35783,6 +36527,14 @@
         "location": {
           "startColumn": 84,
           "endColumn": 85
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 86
         }
       },
       {
@@ -35810,6 +36562,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      },
+      {
         "type": "common_word",
         "value": "b",
         "location": {
@@ -35831,6 +36591,14 @@
         "location": {
           "startColumn": 100,
           "endColumn": 101
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
         }
       },
       {
@@ -35975,6 +36743,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      },
+      {
         "type": "common_word",
         "value": "a",
         "location": {
@@ -35996,6 +36772,14 @@
         "location": {
           "startColumn": 83,
           "endColumn": 85
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 86
         }
       },
       {
@@ -36023,6 +36807,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 94
+        }
+      },
+      {
         "type": "common_word",
         "value": "b",
         "location": {
@@ -36044,6 +36836,14 @@
         "location": {
           "startColumn": 100,
           "endColumn": 101
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
         }
       },
       {
@@ -36188,6 +36988,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      },
+      {
         "type": "common_word",
         "value": "a",
         "location": {
@@ -36209,6 +37017,14 @@
         "location": {
           "startColumn": 83,
           "endColumn": 84
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
         }
       },
       {
@@ -36353,6 +37169,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 77
+        }
+      },
+      {
         "type": "common_word",
         "value": "b",
         "location": {
@@ -36374,6 +37198,14 @@
         "location": {
           "startColumn": 83,
           "endColumn": 84
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
         }
       },
       {
@@ -42518,6 +43350,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
         "type": "doc_tag",
         "value": "@phpstan-e",
         "location": {
@@ -42560,6 +43400,14 @@
         "location": {
           "startColumn": 15,
           "endColumn": 18
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
         }
       },
       {
@@ -42608,6 +43456,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
         "type": "doc_tag",
         "value": "@phpstan-v",
         "location": {
@@ -42650,6 +43506,14 @@
         "location": {
           "startColumn": 15,
           "endColumn": 18
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
         }
       },
       {
@@ -42940,6 +43804,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
         "type": "variable_name",
         "value": "$lorem",
         "location": {
@@ -43134,6 +44006,14 @@
         }
       },
       {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
         "type": "variable_name",
         "value": "$test",
         "location": {
@@ -43264,6 +44144,14 @@
         "location": {
           "startColumn": 76,
           "endColumn": 80
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 81
         }
       },
       {

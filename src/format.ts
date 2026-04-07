@@ -12,6 +12,7 @@ export type Word = {
     | 'comma'
     | 'lparen'
     | 'rparen'
+    | 'colon'
     | 'period';
   value: string;
   location: {
@@ -47,6 +48,7 @@ export function format(errorMessageCst: CstNode): Word[] {
     { tokenType: 'comma', nodes: comma },
     { tokenType: 'lparen', nodes: sentenceNode?.children?.lparen },
     { tokenType: 'rparen', nodes: sentenceNode?.children?.rparen },
+    { tokenType: 'colon', nodes: sentenceNode?.children?.colon },
     { tokenType: 'period', nodes: sentenceNode?.children?.period },
   ] as const;
 
