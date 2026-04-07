@@ -56,7 +56,7 @@ jobs:
 
             SANITIZED_BRANCH="${BRANCH//\//-}"
             PHPSTAN_DIR="/tmp/phpstan-src-${SANITIZED_BRANCH}"
-            OUTPUT_FILE="/tmp/phpstan-errors-${SANITIZED_BRANCH}.txt"
+            OUTPUT_DIR="/tmp/phpstan-errors-${SANITIZED_BRANCH}"
 
             git clone --depth 1 --branch "${BRANCH}" \
               --filter=blob:none \
@@ -65,7 +65,7 @@ jobs:
             cd "${PHPSTAN_DIR}"
             composer install --no-interaction --quiet
 
-            COLLECTOR_OUTPUT_FILE="${OUTPUT_FILE}" \
+            COLLECTOR_OUTPUT_DIR="${OUTPUT_DIR}" \
             vendor/bin/phpunit \
               --bootstrap "${{ github.workspace }}/collector/bootstrap-ci.php" \
               --no-coverage \
@@ -75,16 +75,25 @@ jobs:
 
             cd "${{ github.workspace }}"
 
-            if [ -f "${OUTPUT_FILE}" ]; then
-              TOTAL=$(wc -l < "${OUTPUT_FILE}")
-              sort -u "${OUTPUT_FILE}" -o "${OUTPUT_FILE}"
-              UNIQUE=$(wc -l < "${OUTPUT_FILE}")
-              echo "Collected ${TOTAL} messages (${UNIQUE} unique) from ${BRANCH}"
-              cp "${OUTPUT_FILE}" "test/fixtures/phpstan-errors-${SANITIZED_BRANCH}.txt"
-            else
+            DEST_DIR="test/fixtures/${SANITIZED_BRANCH}"
+            mkdir -p "${DEST_DIR}"
+
+            TOTAL=0
+            for f in "${OUTPUT_DIR}"/*.txt; do
+              [ -f "$f" ] || continue
+              CATEGORY=$(basename "$f")
+              sort -u "$f" -o "$f"
+              cp "$f" "${DEST_DIR}/${CATEGORY}"
+              COUNT=$(wc -l < "$f")
+              TOTAL=$((TOTAL + COUNT))
+              echo "  ${CATEGORY}: ${COUNT} unique messages"
+            done
+
+            if [ "${TOTAL}" -eq 0 ]; then
               echo "ERROR: No error messages collected from ${BRANCH}"
               exit 1
             fi
+            echo "Collected ${TOTAL} unique messages from ${BRANCH}"
           done
 
       - name: Update snapshots
@@ -94,7 +103,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add test/fixtures/phpstan-errors-*.txt test/__snapshots__/
+          git add test/fixtures/ test/__snapshots__/
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

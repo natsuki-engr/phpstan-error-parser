@@ -5,36 +5,50 @@ import { parse } from '../src/index';
 
 const fixturesDir = join(__dirname, 'fixtures');
 
-function getErrorFiles(): string[] {
+function getBranchDirs(): string[] {
   try {
-    return readdirSync(fixturesDir).filter((f) =>
-      f.startsWith('phpstan-errors-'),
-    );
+    return readdirSync(fixturesDir, { withFileTypes: true })
+      .filter((d) => d.isDirectory())
+      .map((d) => d.name);
   } catch {
     return [];
   }
 }
 
-const errorFiles = getErrorFiles();
+function getCategoryFiles(branchDir: string): string[] {
+  const dir = join(fixturesDir, branchDir);
+  try {
+    return readdirSync(dir).filter((f) => f.endsWith('.txt'));
+  } catch {
+    return [];
+  }
+}
 
-describe.skipIf(errorFiles.length === 0)(
+const branchDirs = getBranchDirs();
+
+describe.skipIf(branchDirs.length === 0)(
   'snapshot: PHPStan error messages',
   () => {
-    for (const file of errorFiles) {
-      describe(file, () => {
-        const filePath = join(fixturesDir, file);
-        const messages = readFileSync(filePath, 'utf-8')
-          .split('\n')
-          .filter((line) => line.length > 0);
+    for (const branch of branchDirs) {
+      describe(branch, () => {
+        const categoryFiles = getCategoryFiles(branch);
 
-        it(`parses ${messages.length} messages and matches snapshot`, () => {
-          const results = messages.map((message) => ({
-            input: message,
-            tokens: parse(message),
-          }));
+        for (const file of categoryFiles) {
+          const filePath = join(fixturesDir, branch, file);
+          const category = file.replace('.txt', '');
+          const messages = readFileSync(filePath, 'utf-8')
+            .split('\n')
+            .filter((line) => line.length > 0);
 
-          expect(results).toMatchSnapshot();
-        }, 60_000);
+          it(`${category} (${messages.length} messages)`, () => {
+            const results = messages.map((message) => ({
+              input: message,
+              tokens: parse(message),
+            }));
+
+            expect(results).toMatchSnapshot();
+          }, 60_000);
+        }
       });
     }
   },
