@@ -28,10 +28,12 @@ export function format(errorMessageCst: CstNode): Word[] {
     ...(sentenceNode?.children?.StaticMethodName ?? []),
   ];
   const docTags = sentenceNode?.children?.DocTag;
+  const variables = sentenceNode?.children?.Variable;
   const comma = sentenceNode?.children?.comma;
   const nodeLists = [
     { tokenType: 'function_name', nodes: functionNames },
     { tokenType: 'method_name', nodes: methodNames },
+    { tokenType: 'variable_name', nodes: variables },
     { tokenType: 'common_word', nodes: commonWords },
     { tokenType: 'doc_tag', nodes: docTags },
     { tokenType: 'comma', nodes: comma },

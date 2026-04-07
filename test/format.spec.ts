@@ -282,6 +282,97 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
+  it('parse variable', () => {
+    const message =
+      'Parameter $a of anonymous function has unresolvable native type.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Parameter',
+        location: {
+          startColumn: 0,
+          endColumn: 9,
+        },
+      },
+      {
+        type: 'variable_name',
+        value: '$a',
+        location: {
+          startColumn: 10,
+          endColumn: 12,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'of',
+        location: {
+          startColumn: 13,
+          endColumn: 15,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'anonymous',
+        location: {
+          startColumn: 16,
+          endColumn: 25,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'function',
+        location: {
+          startColumn: 26,
+          endColumn: 34,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'has',
+        location: {
+          startColumn: 35,
+          endColumn: 38,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'unresolvable',
+        location: {
+          startColumn: 39,
+          endColumn: 51,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'native',
+        location: {
+          startColumn: 52,
+          endColumn: 58,
+        },
+      },
+      {
+        type: 'common_word',
+        value: 'type',
+        location: {
+          startColumn: 59,
+          endColumn: 63,
+        },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: {
+          startColumn: 63,
+          endColumn: 64,
+        },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
   it('parse static method', () => {
     const message =
       'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';
