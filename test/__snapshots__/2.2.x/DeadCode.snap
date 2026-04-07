@@ -1717,11 +1717,11 @@
         }
       },
       {
-        "type": "variable_name",
-        "value": "$arr",
+        "type": "double_quoted_string",
+        "value": "\"$arr\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 16
+          "startColumn": 11,
+          "endColumn": 17
         }
       },
       {
@@ -1810,19 +1810,11 @@
         }
       },
       {
-        "type": "variable_name",
-        "value": "$arr",
+        "type": "double_quoted_string",
+        "value": "\"$arr['test']\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "test",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 22
+          "startColumn": 11,
+          "endColumn": 25
         }
       },
       {
@@ -1911,27 +1903,11 @@
         }
       },
       {
-        "type": "variable_name",
-        "value": "$b",
+        "type": "double_quoted_string",
+        "value": "\"$b()\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 14
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 14,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 15,
-          "endColumn": 16
+          "startColumn": 11,
+          "endColumn": 17
         }
       },
       {
@@ -2020,19 +1996,11 @@
         }
       },
       {
-        "type": "variable_name",
-        "value": "$foo",
+        "type": "double_quoted_string",
+        "value": "\"$foo->test\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "test",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 22
+          "startColumn": 11,
+          "endColumn": 23
         }
       },
       {
@@ -2121,19 +2089,11 @@
         }
       },
       {
-        "type": "variable_name",
-        "value": "$foo",
+        "type": "double_quoted_string",
+        "value": "\"$foo::$test\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$test",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 23
+          "startColumn": 11,
+          "endColumn": 24
         }
       },
       {
@@ -2222,19 +2182,11 @@
         }
       },
       {
-        "type": "variable_name",
-        "value": "$ref",
+        "type": "double_quoted_string",
+        "value": "\"$ref?->name\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "name",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 23
+          "startColumn": 11,
+          "endColumn": 24
         }
       },
       {
@@ -2323,11 +2275,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "double_quoted_string",
+        "value": "\"'foo'\"",
         "location": {
-          "startColumn": 13,
-          "endColumn": 16
+          "startColumn": 11,
+          "endColumn": 18
         }
       },
       {
@@ -2416,35 +2368,11 @@
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "double_quoted_string",
+        "value": "\"(string) 1\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 13
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 13,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 22
+          "startColumn": 11,
+          "endColumn": 23
         }
       },
       {
@@ -2533,11 +2461,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "double_quoted_string",
+        "value": "\"+1\"",
         "location": {
-          "startColumn": 13,
-          "endColumn": 14
+          "startColumn": 11,
+          "endColumn": 15
         }
       },
       {
@@ -2626,11 +2554,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "-1",
+        "type": "double_quoted_string",
+        "value": "\"-1\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 14
+          "startColumn": 11,
+          "endColumn": 15
         }
       },
       {
@@ -2719,11 +2647,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "1",
+        "type": "double_quoted_string",
+        "value": "\"1\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 13
+          "startColumn": 11,
+          "endColumn": 14
         }
       },
       {
@@ -2812,11 +2740,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "double_quoted_string",
+        "value": "\"@'foo'\"",
         "location": {
-          "startColumn": 14,
-          "endColumn": 17
+          "startColumn": 11,
+          "endColumn": 19
         }
       },
       {
@@ -2905,27 +2833,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DeadCodeNoop",
+        "type": "double_quoted_string",
+        "value": "\"\\DeadCodeNoop\\Foo::TEST\"",
         "location": {
-          "startColumn": 13,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEST",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 35
+          "startColumn": 11,
+          "endColumn": 36
         }
       },
       {
@@ -3014,35 +2926,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "empty",
+        "type": "double_quoted_string",
+        "value": "\"empty($test)\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 17,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$test",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 23,
-          "endColumn": 24
+          "startColumn": 11,
+          "endColumn": 25
         }
       },
       {
@@ -3131,35 +3019,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "isset",
+        "type": "double_quoted_string",
+        "value": "\"isset($test)\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 17,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$test",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 23,
-          "endColumn": 24
+          "startColumn": 11,
+          "endColumn": 25
         }
       },
       {
@@ -3248,51 +3112,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "new",
+        "type": "double_quoted_string",
+        "value": "\"new class extends \\Bug13698\\NoConstructorClass…\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "class",
-        "location": {
-          "startColumn": 16,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "extends",
-        "location": {
-          "startColumn": 22,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bug",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "number",
-        "value": "13698",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NoConstructorClass",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 58
+          "startColumn": 11,
+          "endColumn": 60
         }
       },
       {
@@ -3381,19 +3205,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "new",
+        "type": "double_quoted_string",
+        "value": "\"new class…\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "class",
-        "location": {
-          "startColumn": 16,
-          "endColumn": 21
+          "startColumn": 11,
+          "endColumn": 23
         }
       },
       {
@@ -3482,11 +3298,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "true",
+        "type": "double_quoted_string",
+        "value": "\"true\"",
         "location": {
-          "startColumn": 12,
-          "endColumn": 16
+          "startColumn": 11,
+          "endColumn": 17
         }
       },
       {
@@ -5911,6 +5727,14 @@
         }
       },
       {
+        "type": "double_quoted_string",
+        "value": "\"&&\"",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 21
+        }
+      },
+      {
         "type": "common_word",
         "value": "operator",
         "location": {
@@ -5956,11 +5780,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "and",
+        "type": "double_quoted_string",
+        "value": "\"and\"",
         "location": {
-          "startColumn": 18,
-          "endColumn": 21
+          "startColumn": 17,
+          "endColumn": 22
         }
       },
       {
@@ -6009,11 +5833,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "or",
+        "type": "double_quoted_string",
+        "value": "\"or\"",
         "location": {
-          "startColumn": 18,
-          "endColumn": 20
+          "startColumn": 17,
+          "endColumn": 21
         }
       },
       {
@@ -6062,11 +5886,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "xor",
+        "type": "double_quoted_string",
+        "value": "\"xor\"",
         "location": {
-          "startColumn": 18,
-          "endColumn": 21
+          "startColumn": 17,
+          "endColumn": 22
         }
       },
       {
@@ -6112,6 +5936,14 @@
         "location": {
           "startColumn": 14,
           "endColumn": 16
+        }
+      },
+      {
+        "type": "double_quoted_string",
+        "value": "\"||\"",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 21
         }
       },
       {

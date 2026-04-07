@@ -1416,11 +1416,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "y",
+        "type": "single_quoted_string",
+        "value": "'y'",
         "location": {
-          "startColumn": 44,
-          "endColumn": 45
+          "startColumn": 43,
+          "endColumn": 46
         }
       },
       {

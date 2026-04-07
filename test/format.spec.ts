@@ -906,6 +906,71 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
+  it('parse quoted strings in array shape', () => {
+    const message = "Offset 'a' does not exist on array{b: 1}.";
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Offset',
+        location: { startColumn: 0, endColumn: 6 },
+      },
+      {
+        type: 'single_quoted_string',
+        value: "'a'",
+        location: { startColumn: 7, endColumn: 10 },
+      },
+      {
+        type: 'common_word',
+        value: 'does',
+        location: { startColumn: 11, endColumn: 15 },
+      },
+      {
+        type: 'common_word',
+        value: 'not',
+        location: { startColumn: 16, endColumn: 19 },
+      },
+      {
+        type: 'common_word',
+        value: 'exist',
+        location: { startColumn: 20, endColumn: 25 },
+      },
+      {
+        type: 'common_word',
+        value: 'on',
+        location: { startColumn: 26, endColumn: 28 },
+      },
+      {
+        type: 'common_word',
+        value: 'array',
+        location: { startColumn: 29, endColumn: 34 },
+      },
+      {
+        type: 'common_word',
+        value: 'b',
+        location: { startColumn: 35, endColumn: 36 },
+      },
+      {
+        type: 'colon',
+        value: ':',
+        location: { startColumn: 36, endColumn: 37 },
+      },
+      {
+        type: 'number',
+        value: '1',
+        location: { startColumn: 38, endColumn: 39 },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: { startColumn: 40, endColumn: 41 },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
   it('parse static method', () => {
     const message =
       'Call to static method PHPStan\\Tests\\AssertionClass::assertInt() with int will always evaluate to true.';

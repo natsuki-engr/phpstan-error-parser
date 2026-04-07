@@ -6598,11 +6598,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "parent",
+        "type": "single_quoted_string",
+        "value": "'parent'",
         "location": {
-          "startColumn": 16,
-          "endColumn": 22
+          "startColumn": 15,
+          "endColumn": 23
         }
       },
       {

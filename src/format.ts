@@ -2,6 +2,8 @@ import type { CstElement, CstNode, IToken } from 'chevrotain';
 
 export type Word = {
   type:
+    | 'single_quoted_string'
+    | 'double_quoted_string'
     | 'function_name'
     | 'method_name'
     | 'variable_name'
@@ -37,7 +39,11 @@ export function format(errorMessageCst: CstNode): Word[] {
   const parameterNumbers = sentenceNode?.children?.ParameterNumber;
   const numbers = sentenceNode?.children?.Number;
   const comma = sentenceNode?.children?.comma;
+  const singleQuotedStrings = sentenceNode?.children?.SingleQuotedString;
+  const doubleQuotedStrings = sentenceNode?.children?.DoubleQuotedString;
   const nodeLists = [
+    { tokenType: 'single_quoted_string', nodes: singleQuotedStrings },
+    { tokenType: 'double_quoted_string', nodes: doubleQuotedStrings },
     { tokenType: 'function_name', nodes: functionNames },
     { tokenType: 'method_name', nodes: methodNames },
     { tokenType: 'variable_name', nodes: variables },

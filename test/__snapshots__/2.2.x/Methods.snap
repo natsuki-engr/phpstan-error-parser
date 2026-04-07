@@ -20002,11 +20002,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 67,
-          "endColumn": 70
+          "startColumn": 66,
+          "endColumn": 71
         }
       },
       {
@@ -20281,11 +20281,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 67,
-          "endColumn": 70
+          "startColumn": 66,
+          "endColumn": 71
         }
       },
       {
@@ -23067,43 +23067,1347 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "B",
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 4.'",
         "location": {
-          "startColumn": 292,
-          "endColumn": 293
+          "startColumn": 291,
+          "endColumn": 307
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 307,
+          "endColumn": 308
         }
       },
       {
         "type": "common_word",
-        "value": "cs",
+        "value": "true",
         "location": {
-          "startColumn": 294,
-          "endColumn": 296
+          "startColumn": 309,
+          "endColumn": 313
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 313,
+          "endColumn": 314
         }
       },
       {
         "type": "common_word",
-        "value": "Kiskun",
+        "value": "false",
         "location": {
-          "startColumn": 297,
-          "endColumn": 303
+          "startColumn": 315,
+          "endColumn": 320
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 320,
+          "endColumn": 321
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 322,
+          "endColumn": 325
         }
       },
       {
         "type": "number",
-        "value": "4",
+        "value": "8146",
         "location": {
-          "startColumn": 304,
-          "endColumn": 305
+          "startColumn": 325,
+          "endColumn": 329
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bError",
+        "location": {
+          "startColumn": 329,
+          "endColumn": 335
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "X",
+        "location": {
+          "startColumn": 336,
+          "endColumn": 337
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 337,
+          "endColumn": 338
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 339,
+          "endColumn": 343
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 344,
+          "endColumn": 345
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 346,
+          "endColumn": 357
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 357,
+          "endColumn": 358
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 359,
+          "endColumn": 364
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 365,
+          "endColumn": 368
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 368,
+          "endColumn": 369
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.8386043",
+        "location": {
+          "startColumn": 370,
+          "endColumn": 380
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 380,
+          "endColumn": 381
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 382,
+          "endColumn": 385
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 385,
+          "endColumn": 386
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.4502899",
+        "location": {
+          "startColumn": 387,
+          "endColumn": 397
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 399,
+          "endColumn": 400
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Akaszt",
+        "location": {
+          "startColumn": 401,
+          "endColumn": 407
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 408,
+          "endColumn": 409
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 410,
+          "endColumn": 415
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 416,
+          "endColumn": 430
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 430,
+          "endColumn": 431
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 432,
+          "endColumn": 437
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 3.'",
+        "location": {
+          "startColumn": 438,
+          "endColumn": 454
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 455,
+          "endColumn": 456
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 457,
+          "endColumn": 468
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 468,
+          "endColumn": 469
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 470,
+          "endColumn": 475
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 476,
+          "endColumn": 479
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 479,
+          "endColumn": 480
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.6898175",
+        "location": {
+          "startColumn": 481,
+          "endColumn": 491
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 491,
+          "endColumn": 492
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 493,
+          "endColumn": 496
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 496,
+          "endColumn": 497
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.205086",
+        "location": {
+          "startColumn": 498,
+          "endColumn": 507
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 509,
+          "endColumn": 510
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Apostag",
+        "location": {
+          "startColumn": 511,
+          "endColumn": 518
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 518,
+          "endColumn": 519
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 520,
+          "endColumn": 525
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 526,
+          "endColumn": 540
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 540,
+          "endColumn": 541
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 542,
+          "endColumn": 547
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 3.'",
+        "location": {
+          "startColumn": 548,
+          "endColumn": 564
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 565,
+          "endColumn": 566
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 567,
+          "endColumn": 578
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 578,
+          "endColumn": 579
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 580,
+          "endColumn": 585
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 586,
+          "endColumn": 589
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 589,
+          "endColumn": 590
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.8812652",
+        "location": {
+          "startColumn": 591,
+          "endColumn": 601
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 601,
+          "endColumn": 602
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 603,
+          "endColumn": 606
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 606,
+          "endColumn": 607
+        }
+      },
+      {
+        "type": "number",
+        "value": "18.9648478",
+        "location": {
+          "startColumn": 608,
+          "endColumn": 618
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 620,
+          "endColumn": 621
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 622,
+          "endColumn": 623
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "csalm",
+        "location": {
+          "startColumn": 624,
+          "endColumn": 629
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 630,
+          "endColumn": 631
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 631,
+          "endColumn": 632
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 633,
+          "endColumn": 638
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 639,
+          "endColumn": 653
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 653,
+          "endColumn": 654
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 655,
+          "endColumn": 660
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 5.'",
+        "location": {
+          "startColumn": 661,
+          "endColumn": 677
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 678,
+          "endColumn": 679
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 680,
+          "endColumn": 691
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 691,
+          "endColumn": 692
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 693,
+          "endColumn": 698
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 699,
+          "endColumn": 702
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 702,
+          "endColumn": 703
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.1250396",
+        "location": {
+          "startColumn": 704,
+          "endColumn": 714
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 714,
+          "endColumn": 715
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 716,
+          "endColumn": 719
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 719,
+          "endColumn": 720
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.3357509",
+        "location": {
+          "startColumn": 721,
+          "endColumn": 731
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 733,
+          "endColumn": 734
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 735,
+          "endColumn": 736
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "csbokod",
+        "location": {
+          "startColumn": 737,
+          "endColumn": 744
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 744,
+          "endColumn": 745
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 746,
+          "endColumn": 751
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 752,
+          "endColumn": 766
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 766,
+          "endColumn": 767
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 768,
+          "endColumn": 773
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 6.'",
+        "location": {
+          "startColumn": 774,
+          "endColumn": 790
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 791,
+          "endColumn": 792
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 793,
+          "endColumn": 804
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 804,
+          "endColumn": 805
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 806,
+          "endColumn": 811
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 812,
+          "endColumn": 815
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 815,
+          "endColumn": 816
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.1234737",
+        "location": {
+          "startColumn": 817,
+          "endColumn": 827
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 827,
+          "endColumn": 828
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 829,
+          "endColumn": 832
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 832,
+          "endColumn": 833
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.155708",
+        "location": {
+          "startColumn": 834,
+          "endColumn": 843
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 845,
+          "endColumn": 846
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 847,
+          "endColumn": 848
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "csbors",
+        "location": {
+          "startColumn": 849,
+          "endColumn": 855
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "d",
+        "location": {
+          "startColumn": 856,
+          "endColumn": 857
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 857,
+          "endColumn": 858
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 859,
+          "endColumn": 864
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 865,
+          "endColumn": 879
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 879,
+          "endColumn": 880
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 881,
+          "endColumn": 886
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 6.'",
+        "location": {
+          "startColumn": 887,
+          "endColumn": 903
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 904,
+          "endColumn": 905
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 906,
+          "endColumn": 917
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 917,
+          "endColumn": 918
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 919,
+          "endColumn": 924
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 925,
+          "endColumn": 928
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 928,
+          "endColumn": 929
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.0989373",
+        "location": {
+          "startColumn": 930,
+          "endColumn": 940
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 940,
+          "endColumn": 941
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 942,
+          "endColumn": 945
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 945,
+          "endColumn": 946
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.1566725",
+        "location": {
+          "startColumn": 947,
+          "endColumn": 957
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 959,
+          "endColumn": 960
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 961,
+          "endColumn": 962
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "csszentgy",
+        "location": {
+          "startColumn": 963,
+          "endColumn": 972
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "rgy",
+        "location": {
+          "startColumn": 973,
+          "endColumn": 976
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 976,
+          "endColumn": 977
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 978,
+          "endColumn": 983
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 984,
+          "endColumn": 998
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 998,
+          "endColumn": 999
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 1000,
+          "endColumn": 1005
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 6.'",
+        "location": {
+          "startColumn": 1006,
+          "endColumn": 1022
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 1023,
+          "endColumn": 1024
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 1025,
+          "endColumn": 1036
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1036,
+          "endColumn": 1037
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 1038,
+          "endColumn": 1043
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 1044,
+          "endColumn": 1047
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1047,
+          "endColumn": 1048
+        }
+      },
+      {
+        "type": "number",
+        "value": "45.9746039",
+        "location": {
+          "startColumn": 1049,
+          "endColumn": 1059
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 1059,
+          "endColumn": 1060
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 1061,
+          "endColumn": 1064
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1064,
+          "endColumn": 1065
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.0398066",
+        "location": {
+          "startColumn": 1066,
+          "endColumn": 1076
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 1078,
+          "endColumn": 1079
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 1080,
+          "endColumn": 1081
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cssz",
+        "location": {
+          "startColumn": 1082,
+          "endColumn": 1086
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "l",
+        "location": {
+          "startColumn": 1087,
+          "endColumn": 1088
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "s",
+        "location": {
+          "startColumn": 1089,
+          "endColumn": 1090
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1090,
+          "endColumn": 1091
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 1092,
+          "endColumn": 1097
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "constituencies",
+        "location": {
+          "startColumn": 1098,
+          "endColumn": 1112
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1112,
+          "endColumn": 1113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 1114,
+          "endColumn": 1119
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Bács-Kiskun 5.'",
+        "location": {
+          "startColumn": 1120,
+          "endColumn": 1136
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 1137,
+          "endColumn": 1138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "coordinates",
+        "location": {
+          "startColumn": 1139,
+          "endColumn": 1150
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1150,
+          "endColumn": 1151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "array",
+        "location": {
+          "startColumn": 1152,
+          "endColumn": 1157
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lat",
+        "location": {
+          "startColumn": 1158,
+          "endColumn": 1161
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1161,
+          "endColumn": 1162
+        }
+      },
+      {
+        "type": "number",
+        "value": "46.1352003",
+        "location": {
+          "startColumn": 1163,
+          "endColumn": 1173
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 1173,
+          "endColumn": 1174
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lng",
+        "location": {
+          "startColumn": 1175,
+          "endColumn": 1178
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 1178,
+          "endColumn": 1179
+        }
+      },
+      {
+        "type": "number",
+        "value": "19.4215997",
+        "location": {
+          "startColumn": 1180,
+          "endColumn": 1190
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 1192,
+          "endColumn": 1193
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 305,
-          "endColumn": 306
+          "startColumn": 1194,
+          "endColumn": 1195
         }
       }
     ]
@@ -23224,11 +24528,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "23423",
+        "type": "single_quoted_string",
+        "value": "'23423'",
         "location": {
-          "startColumn": 99,
-          "endColumn": 104
+          "startColumn": 98,
+          "endColumn": 105
         }
       },
       {
@@ -33411,11 +34715,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 84,
-          "endColumn": 87
+          "startColumn": 83,
+          "endColumn": 88
         }
       },
       {
@@ -33443,11 +34747,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 95,
-          "endColumn": 98
+          "startColumn": 94,
+          "endColumn": 99
         }
       },
       {
@@ -33552,11 +34856,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 84,
-          "endColumn": 87
+          "startColumn": 83,
+          "endColumn": 88
         }
       },
       {
@@ -33584,11 +34888,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 95,
-          "endColumn": 98
+          "startColumn": 94,
+          "endColumn": 99
         }
       },
       {
@@ -33948,11 +35252,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 115,
-          "endColumn": 118
+          "startColumn": 114,
+          "endColumn": 119
         }
       },
       {
@@ -49159,11 +50463,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 135,
-          "endColumn": 138
+          "startColumn": 134,
+          "endColumn": 139
         }
       },
       {
@@ -51698,11 +53002,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 61,
-          "endColumn": 64
+          "startColumn": 60,
+          "endColumn": 65
         }
       },
       {
@@ -51714,11 +53018,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bla",
+        "type": "single_quoted_string",
+        "value": "'bla'",
         "location": {
-          "startColumn": 68,
-          "endColumn": 71
+          "startColumn": 67,
+          "endColumn": 72
         }
       },
       {
@@ -52696,11 +54000,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 115,
-          "endColumn": 118
+          "startColumn": 114,
+          "endColumn": 119
         }
       },
       {
@@ -52869,11 +54173,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 115,
-          "endColumn": 118
+          "startColumn": 114,
+          "endColumn": 119
         }
       },
       {
@@ -53026,11 +54330,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bar",
+        "type": "single_quoted_string",
+        "value": "'bar'",
         "location": {
-          "startColumn": 102,
-          "endColumn": 105
+          "startColumn": 101,
+          "endColumn": 106
         }
       },
       {
@@ -53175,27 +54479,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "single_quoted_string",
+        "value": "'Bug1971\\\\HelloWorld'",
         "location": {
-          "startColumn": 98,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "number",
-        "value": "1971",
-        "location": {
-          "startColumn": 101,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 117
+          "startColumn": 97,
+          "endColumn": 118
         }
       },
       {
@@ -53207,11 +54495,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "sayHello",
+        "type": "single_quoted_string",
+        "value": "'sayHello'",
         "location": {
-          "startColumn": 121,
-          "endColumn": 129
+          "startColumn": 120,
+          "endColumn": 130
         }
       },
       {
@@ -53428,11 +54716,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "sayHello",
+        "type": "single_quoted_string",
+        "value": "'sayHello'",
         "location": {
-          "startColumn": 140,
-          "endColumn": 148
+          "startColumn": 139,
+          "endColumn": 149
         }
       },
       {
@@ -53649,19 +54937,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "sayHello",
+        "type": "single_quoted_string",
+        "value": "'sayHello2'",
         "location": {
-          "startColumn": 140,
-          "endColumn": 148
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 148,
-          "endColumn": 149
+          "startColumn": 139,
+          "endColumn": 150
         }
       },
       {
@@ -57125,19 +58405,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "jfk",
+        "type": "single_quoted_string",
+        "value": "'jfk'",
         "location": {
-          "startColumn": 61,
-          "endColumn": 64
+          "startColumn": 60,
+          "endColumn": 65
         }
       },
       {
-        "type": "common_word",
-        "value": "lga",
+        "type": "single_quoted_string",
+        "value": "'lga'",
         "location": {
-          "startColumn": 67,
-          "endColumn": 70
+          "startColumn": 66,
+          "endColumn": 71
         }
       },
       {
@@ -57149,11 +58429,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "sfo",
+        "type": "single_quoted_string",
+        "value": "'sfo'",
         "location": {
-          "startColumn": 74,
-          "endColumn": 77
+          "startColumn": 73,
+          "endColumn": 78
         }
       },
       {
@@ -57234,27 +58514,51 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "John",
+        "type": "single_quoted_string",
+        "value": "'John F. Kennedy…'",
         "location": {
-          "startColumn": 63,
-          "endColumn": 67
+          "startColumn": 62,
+          "endColumn": 80
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'La Guardia Airport'",
+        "location": {
+          "startColumn": 81,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 102
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'Newark Liberty…'",
+        "location": {
+          "startColumn": 103,
+          "endColumn": 120
         }
       },
       {
         "type": "common_word",
-        "value": "F",
+        "value": "given",
         "location": {
-          "startColumn": 68,
-          "endColumn": 69
+          "startColumn": 121,
+          "endColumn": 126
         }
       },
       {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 69,
-          "endColumn": 70
+          "startColumn": 126,
+          "endColumn": 127
         }
       }
     ]
@@ -57327,35 +58631,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "The",
+        "type": "single_quoted_string",
+        "value": "'The Netherlands'",
         "location": {
-          "startColumn": 89,
-          "endColumn": 92
+          "startColumn": 88,
+          "endColumn": 105
         }
       },
       {
-        "type": "common_word",
-        "value": "Netherlands",
+        "type": "single_quoted_string",
+        "value": "'United States'",
         "location": {
-          "startColumn": 93,
-          "endColumn": 104
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "United",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "States",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 120
+          "startColumn": 106,
+          "endColumn": 121
         }
       },
       {
@@ -57500,35 +58788,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "The",
+        "type": "single_quoted_string",
+        "value": "'The Netherlands'",
         "location": {
-          "startColumn": 89,
-          "endColumn": 92
+          "startColumn": 88,
+          "endColumn": 105
         }
       },
       {
-        "type": "common_word",
-        "value": "Netherlands",
+        "type": "single_quoted_string",
+        "value": "'United States'",
         "location": {
-          "startColumn": 93,
-          "endColumn": 104
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "United",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "States",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 120
+          "startColumn": 106,
+          "endColumn": 121
         }
       },
       {
@@ -57673,35 +58945,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "The",
+        "type": "single_quoted_string",
+        "value": "'The Netherlands'",
         "location": {
-          "startColumn": 89,
-          "endColumn": 92
+          "startColumn": 88,
+          "endColumn": 105
         }
       },
       {
-        "type": "common_word",
-        "value": "Netherlands",
+        "type": "single_quoted_string",
+        "value": "'United States'",
         "location": {
-          "startColumn": 93,
-          "endColumn": 104
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "United",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "States",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 120
+          "startColumn": 106,
+          "endColumn": 121
         }
       },
       {
@@ -57822,35 +59078,19 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "The",
+        "type": "single_quoted_string",
+        "value": "'The Netherlands'",
         "location": {
-          "startColumn": 79,
-          "endColumn": 82
+          "startColumn": 78,
+          "endColumn": 95
         }
       },
       {
-        "type": "common_word",
-        "value": "Netherlands",
+        "type": "single_quoted_string",
+        "value": "'United States'",
         "location": {
-          "startColumn": 83,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "United",
-        "location": {
-          "startColumn": 97,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "States",
-        "location": {
-          "startColumn": 104,
-          "endColumn": 110
+          "startColumn": 96,
+          "endColumn": 111
         }
       },
       {
@@ -61495,11 +62735,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "foo",
+        "type": "single_quoted_string",
+        "value": "'foo'",
         "location": {
-          "startColumn": 61,
-          "endColumn": 64
+          "startColumn": 60,
+          "endColumn": 65
         }
       },
       {
@@ -61511,11 +62751,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "bla",
+        "type": "single_quoted_string",
+        "value": "'bla'",
         "location": {
-          "startColumn": 68,
-          "endColumn": 71
+          "startColumn": 67,
+          "endColumn": 72
         }
       },
       {
@@ -74720,11 +75960,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "stdClass",
+        "type": "single_quoted_string",
+        "value": "'stdClass'",
         "location": {
-          "startColumn": 220,
-          "endColumn": 228
+          "startColumn": 219,
+          "endColumn": 229
         }
       },
       {
@@ -76034,11 +77274,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NotLowerCase",
+        "type": "single_quoted_string",
+        "value": "'NotLowerCase'",
         "location": {
-          "startColumn": 98,
-          "endColumn": 110
+          "startColumn": 97,
+          "endColumn": 111
         }
       },
       {
@@ -77164,11 +78404,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NotUpperCase",
+        "type": "single_quoted_string",
+        "value": "'NotUpperCase'",
         "location": {
-          "startColumn": 98,
-          "endColumn": 110
+          "startColumn": 97,
+          "endColumn": 111
         }
       },
       {
@@ -79063,11 +80303,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Test",
+        "type": "single_quoted_string",
+        "value": "'Test…'",
         "location": {
-          "startColumn": 102,
-          "endColumn": 106
+          "startColumn": 101,
+          "endColumn": 108
         }
       },
       {
@@ -79422,11 +80662,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Test",
+        "type": "single_quoted_string",
+        "value": "'Test…'",
         "location": {
-          "startColumn": 85,
-          "endColumn": 89
+          "startColumn": 84,
+          "endColumn": 91
         }
       },
       {
@@ -79555,11 +80795,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "nonexistentFunction",
+        "type": "single_quoted_string",
+        "value": "'nonexistentFunction'",
         "location": {
-          "startColumn": 85,
-          "endColumn": 104
+          "startColumn": 84,
+          "endColumn": 105
         }
       },
       {
@@ -79874,11 +81114,11 @@
         }
       },
       {
-        "type": "number",
-        "value": "0",
+        "type": "single_quoted_string",
+        "value": "'0'",
         "location": {
-          "startColumn": 103,
-          "endColumn": 104
+          "startColumn": 102,
+          "endColumn": 105
         }
       },
       {
@@ -81289,11 +82529,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "abc",
+        "type": "single_quoted_string",
+        "value": "'abc'",
         "location": {
-          "startColumn": 90,
-          "endColumn": 93
+          "startColumn": 89,
+          "endColumn": 94
         }
       },
       {
@@ -84099,11 +85339,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "static",
+        "type": "single_quoted_string",
+        "value": "'static'",
         "location": {
-          "startColumn": 60,
-          "endColumn": 66
+          "startColumn": 59,
+          "endColumn": 67
         }
       },
       {
@@ -84147,27 +85387,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallClosureBind",
+        "type": "single_quoted_string",
+        "value": "'CallClosureBind\\\\Bar3'",
         "location": {
-          "startColumn": 95,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 112,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 115,
-          "endColumn": 116
+          "startColumn": 94,
+          "endColumn": 117
         }
       },
       {
@@ -85611,11 +86835,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "static",
+        "type": "single_quoted_string",
+        "value": "'static'",
         "location": {
-          "startColumn": 65,
-          "endColumn": 71
+          "startColumn": 64,
+          "endColumn": 72
         }
       },
       {
@@ -85659,27 +86883,11 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallClosureBind",
+        "type": "single_quoted_string",
+        "value": "'CallClosureBind\\\\Bar3'",
         "location": {
-          "startColumn": 100,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 117,
-          "endColumn": 120
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 120,
-          "endColumn": 121
+          "startColumn": 99,
+          "endColumn": 122
         }
       },
       {
