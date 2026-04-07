@@ -200,6 +200,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
         "type": "common_word",
         "value": "null",
         "location": {
@@ -362,6 +370,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -415,6 +431,14 @@
         "location": {
           "startColumn": 53,
           "endColumn": 54
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
         }
       },
       {
@@ -564,6 +588,14 @@
         }
       },
       {
+        "type": "lbrace",
+        "value": "{",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
         "type": "number",
         "value": "0",
         "location": {
@@ -684,6 +716,14 @@
         }
       },
       {
+        "type": "rbrace",
+        "value": "}",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      },
+      {
         "type": "comma",
         "value": ",",
         "location": {
@@ -697,6 +737,14 @@
         "location": {
           "startColumn": 97,
           "endColumn": 102
+        }
+      },
+      {
+        "type": "lbrace",
+        "value": "{",
+        "location": {
+          "startColumn": 102,
+          "endColumn": 103
         }
       },
       {
@@ -753,6 +801,14 @@
         "location": {
           "startColumn": 133,
           "endColumn": 150
+        }
+      },
+      {
+        "type": "rbrace",
+        "value": "}",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 151
         }
       },
       {
@@ -817,6 +873,14 @@
         }
       },
       {
+        "type": "lbrace",
+        "value": "{",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
         "type": "common_word",
         "value": "DateTime",
         "location": {
@@ -873,6 +937,14 @@
         }
       },
       {
+        "type": "rbrace",
+        "value": "}",
+        "location": {
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      },
+      {
         "type": "comma",
         "value": ",",
         "location": {
@@ -886,6 +958,14 @@
         "location": {
           "startColumn": 85,
           "endColumn": 90
+        }
+      },
+      {
+        "type": "lbrace",
+        "value": "{",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
         }
       },
       {
@@ -1006,6 +1086,14 @@
         "location": {
           "startColumn": 133,
           "endColumn": 150
+        }
+      },
+      {
+        "type": "rbrace",
+        "value": "}",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 151
         }
       },
       {

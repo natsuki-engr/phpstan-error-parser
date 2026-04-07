@@ -947,6 +947,11 @@ describe('test formatted results', () => {
         location: { startColumn: 29, endColumn: 34 },
       },
       {
+        type: 'lbrace',
+        value: '{',
+        location: { startColumn: 34, endColumn: 35 },
+      },
+      {
         type: 'common_word',
         value: 'b',
         location: { startColumn: 35, endColumn: 36 },
@@ -962,9 +967,69 @@ describe('test formatted results', () => {
         location: { startColumn: 38, endColumn: 39 },
       },
       {
+        type: 'rbrace',
+        value: '}',
+        location: { startColumn: 39, endColumn: 40 },
+      },
+      {
         type: 'period',
         value: '.',
         location: { startColumn: 40, endColumn: 41 },
+      },
+    ];
+
+    expect(result).toStrictEqual(expected);
+  });
+
+  it('parse type delimiters in generic type', () => {
+    const message = 'Parameter expects array<int, string>.';
+    const result = parse(message);
+
+    const expected = [
+      {
+        type: 'common_word',
+        value: 'Parameter',
+        location: { startColumn: 0, endColumn: 9 },
+      },
+      {
+        type: 'common_word',
+        value: 'expects',
+        location: { startColumn: 10, endColumn: 17 },
+      },
+      {
+        type: 'common_word',
+        value: 'array',
+        location: { startColumn: 18, endColumn: 23 },
+      },
+      {
+        type: 'langle',
+        value: '<',
+        location: { startColumn: 23, endColumn: 24 },
+      },
+      {
+        type: 'common_word',
+        value: 'int',
+        location: { startColumn: 24, endColumn: 27 },
+      },
+      {
+        type: 'comma',
+        value: ',',
+        location: { startColumn: 27, endColumn: 28 },
+      },
+      {
+        type: 'common_word',
+        value: 'string',
+        location: { startColumn: 29, endColumn: 35 },
+      },
+      {
+        type: 'rangle',
+        value: '>',
+        location: { startColumn: 35, endColumn: 36 },
+      },
+      {
+        type: 'period',
+        value: '.',
+        location: { startColumn: 36, endColumn: 37 },
       },
     ];
 
