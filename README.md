@@ -26,17 +26,27 @@ This is a JavaScript/TypeScript library that parses PHPStan error messages and e
 - [x] variable name (`$a`, `$foo`)
 - [x] error including parameter number (`#1`, `#2`, ...)
 - [x] number as a word (`-123`, `8.5`)
-- [ ] `->` ("Using nullsafe method call on non-nullable type Exception. Use -> instead.")
-- [ ] number as a type (`array{1, 3}`)
-- [ ] static keyword (`static::`)
+- [x] parentheses (`(`, `)`)
+- [ ] `->`, `?->` operators
+- [ ] `static::` keyword
+- [ ] quoted strings (`'foo'`, `"bar"`)
 - [ ] types
-  - [ ] array types (`int[]`, `string[][]`)
+  - [ ] generic types with angle brackets (`array<int, string>`, `list<int>`, `int<0, max>`)
   - [ ] array shapes (`array{key: value, ...}`, `array{0}`, `array{}`)
-  - [ ] generic types (`Path\SomeClass<int, string>`, `array<int, string>`)
-  - [ ] Union type
-  - [ ] Intersection type
-
-- [] more...
+  - [ ] object shapes (`object{foo: int, bar: string}`)
+  - [ ] array types (`int[]`, `string[][]`)
+  - [ ] Union type (`Type1|Type2`)
+  - [ ] Intersection type (`Type1&Type2`)
+  - [ ] callable/Closure signatures (`Closure(): void`, `callable(int): string`)
+  - [ ] `$this(ClassName)` type annotation
+  - [ ] template type notation (`T of mixed`)
+  - [ ] variance keywords (`covariant`, `contravariant`)
+  - [ ] type modifiers (`non-empty-array`, `non-empty-list`, `non-falsy-string`)
+- [ ] punctuation
+  - [ ] colon (`:` in array shapes, return types)
+  - [ ] question mark (`?` nullable, optional keys)
+  - [ ] ellipsis (`...` variadic, spread)
+- [ ] special identifiers (`class@anonymous`)
 
 ## Installation
 
