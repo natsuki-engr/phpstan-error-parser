@@ -155,9 +155,14 @@ Snapshot tests parse real PHPStan error messages and track the results, so you c
 **Via GitHub Actions (recommended):**
 
 1. Go to the **Actions** tab → **Collect PHPStan Errors**
-2. Click **Run workflow**
-3. Enter PHPStan branches (e.g., `2.2.x` or `2.0.x, 2.1.x, 2.2.x`)
-4. The workflow collects error messages, updates snapshots, and commits the results
+2. Click **Run workflow**, select the target branch, and enter PHPStan branches
+3. The workflow collects error messages, updates snapshots, and commits the results
+
+**From a Pull Request:**
+
+1. Add the `collect-errors` label to the PR
+2. The workflow runs automatically, collecting errors and committing to the PR branch
+3. Defaults to PHPStan branch `2.2.x`
 
 **Locally with Docker:**
 
