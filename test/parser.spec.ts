@@ -172,6 +172,45 @@ describe('sample test', () => {
       m: 'Result of || is always the same as the left operand, because the right operand "+" is always truthy.',
       assertions: [['DoubleQuotedString:"+"', true]],
     },
+    {
+      name: 'parse generic type delimiters',
+      m: 'Method should return array<int, string>.',
+      assertions: [
+        ['langle:<', true],
+        ['rangle:>', true],
+      ],
+    },
+    {
+      name: 'parse array shape delimiters',
+      m: 'Offset does not exist on array{key: string}.',
+      assertions: [
+        ['lbrace:{', true],
+        ['rbrace:}', true],
+      ],
+    },
+    {
+      name: 'parse array type brackets',
+      m: 'Parameter expects int[], string given.',
+      assertions: [
+        ['lbracket:[', true],
+        ['rbracket:]', true],
+      ],
+    },
+    {
+      name: 'parse union and intersection type operators',
+      m: 'Parameter expects int|string|null.',
+      assertions: [['pipe:|', true]],
+    },
+    {
+      name: 'parse intersection type',
+      m: 'Call to method on ArrayAccess&Foo.',
+      assertions: [['ampersand:&', true]],
+    },
+    {
+      name: 'parse question mark for nullable',
+      m: 'Offset exists on array{foo?: string}.',
+      assertions: [['question:?', true]],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {

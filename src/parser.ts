@@ -50,6 +50,19 @@ const tokens = {
     pattern: /(?<!:):(?!:)/,
     line_breaks: false,
   }),
+  LANGLE: createToken({ name: 'langle', pattern: '<', line_breaks: false }),
+  RANGLE: createToken({ name: 'rangle', pattern: '>', line_breaks: false }),
+  LBRACE: createToken({ name: 'lbrace', pattern: '{', line_breaks: false }),
+  RBRACE: createToken({ name: 'rbrace', pattern: '}', line_breaks: false }),
+  LBRACKET: createToken({ name: 'lbracket', pattern: '[', line_breaks: false }),
+  RBRACKET: createToken({ name: 'rbracket', pattern: ']', line_breaks: false }),
+  PIPE: createToken({ name: 'pipe', pattern: '|', line_breaks: false }),
+  AMPERSAND: createToken({
+    name: 'ampersand',
+    pattern: '&',
+    line_breaks: false,
+  }),
+  QUESTION: createToken({ name: 'question', pattern: '?', line_breaks: false }),
   VARIABLE: createToken({
     name: 'Variable',
     pattern: /\$[a-z][\w]*/,
@@ -94,6 +107,15 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.LPAREN) },
         { ALT: () => this.CONSUME(tokens.RPAREN) },
         { ALT: () => this.CONSUME(tokens.COLON) },
+        { ALT: () => this.CONSUME(tokens.LANGLE) },
+        { ALT: () => this.CONSUME(tokens.RANGLE) },
+        { ALT: () => this.CONSUME(tokens.LBRACE) },
+        { ALT: () => this.CONSUME(tokens.RBRACE) },
+        { ALT: () => this.CONSUME(tokens.LBRACKET) },
+        { ALT: () => this.CONSUME(tokens.RBRACKET) },
+        { ALT: () => this.CONSUME(tokens.PIPE) },
+        { ALT: () => this.CONSUME(tokens.AMPERSAND) },
+        { ALT: () => this.CONSUME(tokens.QUESTION) },
       ]);
     });
     this.CONSUME(tokens.PERIOD);

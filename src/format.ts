@@ -15,6 +15,15 @@ export type Word = {
     | 'lparen'
     | 'rparen'
     | 'colon'
+    | 'langle'
+    | 'rangle'
+    | 'lbrace'
+    | 'rbrace'
+    | 'lbracket'
+    | 'rbracket'
+    | 'pipe'
+    | 'ampersand'
+    | 'question'
     | 'period';
   value: string;
   location: {
@@ -55,6 +64,15 @@ export function format(errorMessageCst: CstNode): Word[] {
     { tokenType: 'lparen', nodes: sentenceNode?.children?.lparen },
     { tokenType: 'rparen', nodes: sentenceNode?.children?.rparen },
     { tokenType: 'colon', nodes: sentenceNode?.children?.colon },
+    { tokenType: 'langle', nodes: sentenceNode?.children?.langle },
+    { tokenType: 'rangle', nodes: sentenceNode?.children?.rangle },
+    { tokenType: 'lbrace', nodes: sentenceNode?.children?.lbrace },
+    { tokenType: 'rbrace', nodes: sentenceNode?.children?.rbrace },
+    { tokenType: 'lbracket', nodes: sentenceNode?.children?.lbracket },
+    { tokenType: 'rbracket', nodes: sentenceNode?.children?.rbracket },
+    { tokenType: 'pipe', nodes: sentenceNode?.children?.pipe },
+    { tokenType: 'ampersand', nodes: sentenceNode?.children?.ampersand },
+    { tokenType: 'question', nodes: sentenceNode?.children?.question },
     { tokenType: 'period', nodes: sentenceNode?.children?.period },
   ] as const;
 

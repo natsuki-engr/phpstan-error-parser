@@ -2735,11 +2735,27 @@
         }
       },
       {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 117
+        }
+      },
+      {
         "type": "common_word",
         "value": "Override",
         "location": {
           "startColumn": 118,
           "endColumn": 126
+        }
+      },
+      {
+        "type": "rbracket",
+        "value": "]",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 127
         }
       },
       {

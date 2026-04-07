@@ -474,6 +474,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 62,
+          "endColumn": 63
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -604,6 +612,14 @@
         "location": {
           "startColumn": 59,
           "endColumn": 65
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
         }
       },
       {
@@ -2279,6 +2295,14 @@
         }
       },
       {
+        "type": "langle",
+        "value": "<",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 62
+        }
+      },
+      {
         "type": "number",
         "value": "1",
         "location": {
@@ -2300,6 +2324,14 @@
         "location": {
           "startColumn": 65,
           "endColumn": 68
+        }
+      },
+      {
+        "type": "rangle",
+        "value": ">",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 69
         }
       },
       {
@@ -3429,6 +3461,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -3607,6 +3647,14 @@
         "location": {
           "startColumn": 12,
           "endColumn": 15
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
         }
       },
       {
@@ -4278,11 +4326,27 @@
         }
       },
       {
+        "type": "langle",
+        "value": "<",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
         "type": "common_word",
         "value": "int",
         "location": {
           "startColumn": 112,
           "endColumn": 115
+        }
+      },
+      {
+        "type": "rangle",
+        "value": ">",
+        "location": {
+          "startColumn": 115,
+          "endColumn": 116
         }
       },
       {
@@ -5302,6 +5366,14 @@
         "location": {
           "startColumn": 5,
           "endColumn": 8
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 9
         }
       },
       {

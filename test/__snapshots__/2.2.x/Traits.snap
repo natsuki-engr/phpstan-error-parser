@@ -660,6 +660,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 132
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -729,6 +737,14 @@
         "location": {
           "startColumn": 173,
           "endColumn": 176
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 176,
+          "endColumn": 177
         }
       },
       {
@@ -857,6 +873,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 128
+        }
+      },
+      {
         "type": "common_word",
         "value": "string",
         "location": {
@@ -918,6 +942,14 @@
         "location": {
           "startColumn": 165,
           "endColumn": 168
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 168,
+          "endColumn": 169
         }
       },
       {
@@ -1735,6 +1767,14 @@
         "location": {
           "startColumn": 78,
           "endColumn": 84
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 84,
+          "endColumn": 85
         }
       },
       {

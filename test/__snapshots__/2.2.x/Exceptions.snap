@@ -3318,6 +3318,14 @@
         }
       },
       {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
         "type": "common_word",
         "value": "null",
         "location": {
