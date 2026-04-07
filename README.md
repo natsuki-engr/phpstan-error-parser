@@ -13,6 +13,8 @@ This is a JavaScript/TypeScript library that parses PHPStan error messages and e
   - Function names (including namespaced functions)
   - Method names (both static and instance methods)
   - Variable names
+  - Parameter numbers (`#1`, `#2`, ...)
+  - Numeric values (integers, negatives, decimals)
   - PHPDoc tags
   - Common words
 - Get location information (start/end columns) for each token
@@ -21,11 +23,12 @@ This is a JavaScript/TypeScript library that parses PHPStan error messages and e
 ## Tasks
 
 - [x] comma
+- [x] variable name (`$a`, `$foo`)
+- [x] error including parameter number (`#1`, `#2`, ...)
+- [x] number as a word (`-123`, `8.5`)
 - [ ] `->` ("Using nullsafe method call on non-nullable type Exception. Use -> instead.")
-- [ ] number as a word (`-123`, `8.5`)
 - [ ] number as a type (`array{1, 3}`)
-- [ ] error including parameter number(#1, #2, ...)
-- [ ] static keyword(`static::`)
+- [ ] static keyword (`static::`)
 - [ ] types
   - [ ] array types (`int[]`, `string[][]`)
   - [ ] array shapes (`array{key: value, ...}`, `array{0}`, `array{}`)
@@ -76,7 +79,7 @@ Parses a PHPStan error message and returns an array of structured word tokens.
 
 ```typescript
 type Word = {
-  type: "function_name" | "method_name" | "variable_name" | "doc_tag" | "common_word" | "period";
+  type: "function_name" | "method_name" | "variable_name" | "parameter_number" | "number" | "doc_tag" | "common_word" | "comma" | "period";
   value: string;
   location: {
     startColumn: number;
@@ -92,9 +95,11 @@ The parser can identify:
 - **Function names**: `Function format`, `Function abc\format` (with namespaces)
 - **Method names**: `Method formatString()`, `method getData`
 - **Variables**: `$variable`, `$user_name`
+- **Parameter numbers**: `#1`, `#2`, `#3`
+- **Numbers**: `1`, `-123`, `8.5`
 - **Doc tags**: `@param`, `@return`, `@var`
 - **Common words**: Regular words in the error message
-- **Punctuation**: Periods marking sentence endings
+- **Punctuation**: Commas and periods
 
 ## Development
 
