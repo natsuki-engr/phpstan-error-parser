@@ -1,0 +1,156 @@
+name: Benchmark
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: >-
+      github.event_name == 'pull_request' ||
+      (github.event_name == 'issue_comment' &&
+       github.event.issue.pull_request &&
+       github.event.comment.body == '/benchmark')
+
+    steps:
+      - name: Get PR info
+        id: pr
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            let prNumber, headRef, baseRef;
+            if (context.eventName === 'pull_request') {
+              prNumber = context.payload.pull_request.number;
+              headRef = context.payload.pull_request.head.ref;
+              baseRef = context.payload.pull_request.base.ref;
+            } else {
+              prNumber = context.payload.issue.number;
+              const { data: pr } = await github.rest.pulls.get({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: prNumber,
+              });
+              headRef = pr.head.ref;
+              baseRef = pr.base.ref;
+            }
+            core.setOutput('number', prNumber);
+            core.setOutput('head_ref', headRef);
+            core.setOutput('base_ref', baseRef);
+
+      - name: Checkout PR branch
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ steps.pr.outputs.head_ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
+        with:
+          node-version-file: .node-version
+          cache: npm
+
+      - name: Install dependencies (PR)
+        run: npm ci
+
+      - name: Benchmark PR branch
+        run: |
+          npm run build
+          node --experimental-strip-types test/benchmark.ts 2>/dev/null > /tmp/bench-pr.json
+
+      - name: Checkout base branch
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ steps.pr.outputs.base_ref }}
+          clean: false
+
+      - name: Install dependencies (base)
+        run: npm ci
+
+      - name: Benchmark base branch
+        run: |
+          npm run build
+          node --experimental-strip-types test/benchmark.ts 2>/dev/null > /tmp/bench-base.json || echo '{}' > /tmp/bench-base.json
+
+      - name: Compare and comment
+        uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea # v7.0.1
+        with:
+          script: |
+            const fs = require('fs');
+
+            function readResult(file) {
+              try { return JSON.parse(fs.readFileSync(file, 'utf-8')); }
+              catch { return null; }
+            }
+
+            const pr = readResult('/tmp/bench-pr.json');
+            const base = readResult('/tmp/bench-base.json');
+
+            if (!pr) {
+              core.setFailed('PR benchmark failed');
+              return;
+            }
+
+            let body = '## Benchmark Results\n\n';
+            body += `| Metric | Base | PR | Change |\n`;
+            body += `|--------|------|-----|--------|\n`;
+
+            const metrics = [
+              ['Messages', 'messages', '', false],
+              ['Mean (ms)', 'mean', 'ms', true],
+              ['Median (ms)', 'median', 'ms', true],
+              ['Min (ms)', 'min', 'ms', true],
+              ['Max (ms)', 'max', 'ms', true],
+              ['Per message (ms)', 'perMessage', 'ms', true],
+            ];
+
+            for (const [label, key, unit, showChange] of metrics) {
+              const baseVal = base?.[key];
+              const prVal = pr[key];
+              const baseStr = baseVal != null ? `${baseVal}` : 'N/A';
+              const prStr = prVal != null ? `${prVal}` : 'N/A';
+
+              let change = '';
+              if (showChange && baseVal != null && prVal != null && baseVal > 0) {
+                const pct = ((prVal - baseVal) / baseVal * 100).toFixed(1);
+                const sign = pct > 0 ? '+' : '';
+                const emoji = pct > 10 ? ' ⚠️' : pct < -10 ? ' 🚀' : '';
+                change = `${sign}${pct}%${emoji}`;
+              }
+
+              body += `| ${label} | ${baseStr} | ${prStr} | ${change} |\n`;
+            }
+
+            body += `\n> ${pr.iterations} iterations, ${pr.messages} messages. ⚠️ = >10% slower, 🚀 = >10% faster`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: ${{ steps.pr.outputs.number }},
+            });
+
+            const botComment = comments.find(c =>
+              c.user.type === 'Bot' && c.body.includes('## Benchmark Results')
+            );
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: ${{ steps.pr.outputs.number }},
+                body,
+              });
+            }
