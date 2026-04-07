@@ -192,26 +192,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "int",
+        "type": "type",
+        "value": "int|null",
         "location": {
           "startColumn": 44,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 47,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 48,
           "endColumn": 52
         }
       },
@@ -362,26 +346,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "int",
+        "type": "type",
+        "value": "int|string",
         "location": {
           "startColumn": 32,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 36,
           "endColumn": 42
         }
       },
@@ -580,146 +548,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "array",
+        "type": "type",
+        "value": "array{0: DateTime, 1: DateTime, 2: stdClass, 4: DateTimeImmutable}",
         "location": {
           "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "lbrace",
-        "value": "{",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "number",
-        "value": "0",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 38,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 49,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 59,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "stdClass",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "number",
-        "value": "4",
-        "location": {
-          "startColumn": 74,
-          "endColumn": 75
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 75,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTimeImmutable",
-        "location": {
-          "startColumn": 77,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "rbrace",
-        "value": "}",
-        "location": {
-          "startColumn": 94,
           "endColumn": 95
         }
       },
@@ -732,82 +564,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "array",
+        "type": "type",
+        "value": "array{DateTime, DateTime, stdClass, DateTimeImmutable}",
         "location": {
           "startColumn": 97,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "lbrace",
-        "value": "{",
-        "location": {
-          "startColumn": 102,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 103,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 111,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 113,
-          "endColumn": 121
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 121,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "stdClass",
-        "location": {
-          "startColumn": 123,
-          "endColumn": 131
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 131,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTimeImmutable",
-        "location": {
-          "startColumn": 133,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "rbrace",
-        "value": "}",
-        "location": {
-          "startColumn": 150,
           "endColumn": 151
         }
       },
@@ -865,82 +625,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "array",
+        "type": "type",
+        "value": "array{DateTime, DateTime, stdClass, DateTimeImmutable}",
         "location": {
           "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "lbrace",
-        "value": "{",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 45,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "stdClass",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTimeImmutable",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "rbrace",
-        "value": "}",
-        "location": {
-          "startColumn": 82,
           "endColumn": 83
         }
       },
@@ -953,146 +641,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "array",
+        "type": "type",
+        "value": "array{0: DateTime, 1: DateTime, 2: stdClass, 4: DateTimeImmutable}",
         "location": {
           "startColumn": 85,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "lbrace",
-        "value": "{",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 91
-        }
-      },
-      {
-        "type": "number",
-        "value": "0",
-        "location": {
-          "startColumn": 91,
-          "endColumn": 92
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 92,
-          "endColumn": 93
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 94,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 102,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 104,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 105,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTime",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 115,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 117,
-          "endColumn": 118
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 118,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "stdClass",
-        "location": {
-          "startColumn": 120,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 128,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "number",
-        "value": "4",
-        "location": {
-          "startColumn": 130,
-          "endColumn": 131
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 131,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTimeImmutable",
-        "location": {
-          "startColumn": 133,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "rbrace",
-        "value": "}",
-        "location": {
-          "startColumn": 150,
           "endColumn": 151
         }
       },
@@ -1373,26 +925,10 @@
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "type",
+        "value": "(void)",
         "location": {
           "startColumn": 16,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "void",
-        "location": {
-          "startColumn": 17,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 21,
           "endColumn": 22
         }
       },
@@ -1458,26 +994,10 @@
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "type",
+        "value": "(void)",
         "location": {
           "startColumn": 21,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "void",
-        "location": {
-          "startColumn": 22,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 26,
           "endColumn": 27
         }
       },

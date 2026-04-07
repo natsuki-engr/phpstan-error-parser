@@ -2,6 +2,7 @@ import type { CstElement, CstNode, IToken } from 'chevrotain';
 
 export type Word = {
   type:
+    | 'type'
     | 'single_quoted_string'
     | 'double_quoted_string'
     | 'function_name'
@@ -48,6 +49,24 @@ export function format(errorMessageCst: CstNode): Word[] {
 }
 
 function collectWords(node: CstNode, words: Word[]): void {
+  // Handle typeExpression nodes - collect all tokens into a single 'type' word
+  if (node.name === 'typeExpression') {
+    const allTokens = collectAllTokens(node);
+    const first = allTokens[0];
+    const last = allTokens[allTokens.length - 1];
+    if (first && last) {
+      words.push({
+        type: 'type',
+        value: reconstructText(allTokens),
+        location: {
+          startColumn: first.startOffset,
+          endColumn: last.startOffset + last.image.length,
+        },
+      });
+    }
+    return;
+  }
+
   const children = node.children;
   for (const key of Object.keys(children)) {
     const elements = children[key];
@@ -70,6 +89,41 @@ function collectWords(node: CstNode, words: Word[]): void {
       }
     }
   }
+}
+
+function collectAllTokens(node: CstNode): IToken[] {
+  const tokens: IToken[] = [];
+  const children = node.children;
+  for (const key of Object.keys(children)) {
+    const elements = children[key];
+    if (!elements) continue;
+    for (const element of elements) {
+      if (isIToken(element)) {
+        tokens.push(element);
+      } else {
+        tokens.push(...collectAllTokens(element));
+      }
+    }
+  }
+  tokens.sort((a, b) => a.startOffset - b.startOffset);
+  return tokens;
+}
+
+function reconstructText(tokens: IToken[]): string {
+  const first = tokens[0];
+  if (!first) return '';
+  let result = first.image;
+  for (let i = 1; i < tokens.length; i++) {
+    const current = tokens[i];
+    const prev = tokens[i - 1];
+    if (!current || !prev) continue;
+    const gap = current.startOffset - (prev.startOffset + prev.image.length);
+    if (gap > 0) {
+      result += ' '.repeat(gap);
+    }
+    result += current.image;
+  }
+  return result;
 }
 
 const tokenTypeMap: Record<string, Word['type']> = {

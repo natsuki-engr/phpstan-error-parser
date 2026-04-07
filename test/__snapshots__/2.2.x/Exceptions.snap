@@ -3278,26 +3278,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Exception",
+        "type": "type",
+        "value": "Exception|null",
         "location": {
           "startColumn": 13,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 22,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 23,
           "endColumn": 27
         }
       },

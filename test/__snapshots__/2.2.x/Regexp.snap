@@ -67,26 +67,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "delimiter",
+        "type": "type",
+        "value": "delimiter & to",
         "location": {
           "startColumn": 32,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 42,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "to",
-        "location": {
-          "startColumn": 44,
           "endColumn": 46
         }
       },
@@ -325,18 +309,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "uses",
+        "type": "type",
+        "value": "uses &",
         "location": {
           "startColumn": 60,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 65,
           "endColumn": 66
         }
       },
@@ -1496,74 +1472,26 @@
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "type",
+        "value": "(foo)",
         "location": {
           "startColumn": 60,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "foo",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 64,
           "endColumn": 65
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "type",
+        "value": "(bar)",
         "location": {
           "startColumn": 65,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "bar",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 69,
           "endColumn": 70
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "type",
+        "value": "(baz)",
         "location": {
           "startColumn": 70,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "baz",
-        "location": {
-          "startColumn": 71,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 74,
           "endColumn": 75
         }
       },

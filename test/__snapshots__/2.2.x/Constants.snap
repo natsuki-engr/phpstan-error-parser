@@ -466,26 +466,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "int",
+        "type": "type",
+        "value": "int|string",
         "location": {
           "startColumn": 59,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 63,
           "endColumn": 69
         }
       },
@@ -607,26 +591,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "type",
+        "value": "string|null",
         "location": {
           "startColumn": 59,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 66,
           "endColumn": 70
         }
       },
@@ -660,10 +628,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "Bug10212\\HelloWorld::B",
+        "type": "common_word",
+        "value": "Bug",
         "location": {
           "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "number",
+        "value": "10212",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "HelloWorld",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 30,
           "endColumn": 31
         }
       },
@@ -676,10 +668,34 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug10212\\X\\Foo",
+        "type": "common_word",
+        "value": "Bug",
         "location": {
           "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "number",
+        "value": "10212",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "X",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 44,
           "endColumn": 47
         }
       },
@@ -724,10 +740,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "Bug10212\\Foo::Bar",
+        "type": "common_word",
+        "value": "Bug",
         "location": {
           "startColumn": 71,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "number",
+        "value": "10212",
+        "location": {
+          "startColumn": 74,
+          "endColumn": 79
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 80,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 85,
           "endColumn": 88
         }
       },
@@ -753,10 +793,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ClassConstantNativeTypeForMissingTypehintRule\\Foo::B",
+        "type": "common_word",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule",
         "location": {
           "startColumn": 9,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 60,
           "endColumn": 61
         }
       },
@@ -862,10 +918,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ClassConstantNativeTypeForMissingTypehintRule\\Foo::D",
+        "type": "common_word",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule",
         "location": {
           "startColumn": 9,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "D",
+        "location": {
+          "startColumn": 60,
           "endColumn": 61
         }
       },
@@ -894,10 +966,18 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClassConstantNativeTypeForMissingTypehintRule\\Bar",
+        "type": "common_word",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule",
         "location": {
           "startColumn": 81,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 127,
           "endColumn": 130
         }
       },
@@ -1032,10 +1112,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "MissingClassConstantTypehint\\Foo::BAR",
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
         "location": {
           "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 43,
           "endColumn": 46
         }
       },
@@ -1141,10 +1237,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "MissingClassConstantTypehint\\Foo::BAZ",
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
         "location": {
           "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 43,
           "endColumn": 46
         }
       },
@@ -1173,10 +1285,18 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MissingClassConstantTypehint\\Bar",
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
         "location": {
           "startColumn": 66,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 95,
           "endColumn": 98
         }
       },
@@ -1250,10 +1370,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "MissingClassConstantTypehint\\Foo::LOREM",
+        "type": "common_word",
+        "value": "MissingClassConstantTypehint",
         "location": {
           "startColumn": 9,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "LOREM",
+        "location": {
+          "startColumn": 43,
           "endColumn": 48
         }
       },
@@ -1388,10 +1524,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstantNativeTypes\\Ipsum::B",
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
         "location": {
           "startColumn": 9,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Ipsum",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "B",
+        "location": {
+          "startColumn": 46,
           "endColumn": 47
         }
       },
@@ -1412,34 +1564,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstantNativeTypes\\Lorem::B",
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
         "location": {
           "startColumn": 68,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 108
+          "endColumn": 97
         }
       },
       {
         "type": "common_word",
-        "value": "int",
+        "value": "Lorem",
         "location": {
-          "startColumn": 108,
-          "endColumn": 111
+          "startColumn": 98,
+          "endColumn": 103
         }
       },
       {
-        "type": "rparen",
-        "value": ")",
+        "type": "common_word",
+        "value": "B",
         "location": {
-          "startColumn": 111,
+          "startColumn": 105,
+          "endColumn": 106
+        }
+      },
+      {
+        "type": "type",
+        "value": "(int)",
+        "location": {
+          "startColumn": 107,
           "endColumn": 112
         }
       },
@@ -1513,10 +1665,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstantNativeTypes\\PharChild::BZ2",
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
         "location": {
           "startColumn": 9,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PharChild",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BZ",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 52,
           "endColumn": 53
         }
       },
@@ -1537,34 +1713,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "Phar::BZ2",
+        "type": "common_word",
+        "value": "Phar",
         "location": {
           "startColumn": 74,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 84,
-          "endColumn": 85
+          "endColumn": 78
         }
       },
       {
         "type": "common_word",
-        "value": "int",
+        "value": "BZ",
         "location": {
-          "startColumn": 85,
-          "endColumn": 88
+          "startColumn": 80,
+          "endColumn": 82
         }
       },
       {
-        "type": "rparen",
-        "value": ")",
+        "type": "number",
+        "value": "2",
         "location": {
-          "startColumn": 88,
+          "startColumn": 82,
+          "endColumn": 83
+        }
+      },
+      {
+        "type": "type",
+        "value": "(int)",
+        "location": {
+          "startColumn": 84,
           "endColumn": 89
         }
       },
@@ -1638,10 +1814,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Bar::BAR",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 38,
           "endColumn": 41
         }
       },
@@ -1670,10 +1862,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Foo::BAR",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 67,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 96,
           "endColumn": 99
         }
       },
@@ -1699,10 +1907,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Bar::FOO",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 38,
           "endColumn": 41
         }
       },
@@ -1731,10 +1955,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Foo::FOO",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 67,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 94
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 96,
           "endColumn": 99
         }
       },
@@ -1760,10 +2000,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Baz::BAR",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Baz",
+        "location": {
+          "startColumn": 33,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 38,
           "endColumn": 41
         }
       },
@@ -1792,10 +2048,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\FooInterface::BAR",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 67,
+          "endColumn": 90
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FooInterface",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 103
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 105,
           "endColumn": 108
         }
       },
@@ -1919,74 +2191,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstantNativeType\\Bar::BAR",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
         "location": {
           "startColumn": 9,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 53,
           "endColumn": 56
         }
       },
       {
-        "type": "lparen",
-        "value": "(",
+        "type": "type",
+        "value": "(int<1, max>)",
         "location": {
           "startColumn": 57,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "max",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 68,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 69,
           "endColumn": 70
         }
       },
@@ -2052,34 +2284,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstantNativeType\\Floats::BAR",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
         "location": {
           "startColumn": 9,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 60,
-          "endColumn": 61
+          "endColumn": 47
         }
       },
       {
         "type": "common_word",
-        "value": "int",
+        "value": "Floats",
         "location": {
-          "startColumn": 61,
-          "endColumn": 64
+          "startColumn": 48,
+          "endColumn": 54
         }
       },
       {
-        "type": "rparen",
-        "value": ")",
+        "type": "common_word",
+        "value": "BAR",
         "location": {
-          "startColumn": 64,
+          "startColumn": 56,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "type",
+        "value": "(int)",
+        "location": {
+          "startColumn": 60,
           "endColumn": 65
         }
       },
@@ -2145,34 +2377,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstantNativeType\\Foo::BAR",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
         "location": {
           "startColumn": 9,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 58
+          "endColumn": 47
         }
       },
       {
         "type": "common_word",
-        "value": "int",
+        "value": "Foo",
         "location": {
-          "startColumn": 58,
-          "endColumn": 61
+          "startColumn": 48,
+          "endColumn": 51
         }
       },
       {
-        "type": "rparen",
-        "value": ")",
+        "type": "common_word",
+        "value": "BAR",
         "location": {
-          "startColumn": 61,
+          "startColumn": 53,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "type",
+        "value": "(int)",
+        "location": {
+          "startColumn": 57,
           "endColumn": 62
         }
       },
@@ -3069,26 +3301,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "int",
+        "type": "type",
+        "value": "int|string",
         "location": {
           "startColumn": 12,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 15,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 16,
           "endColumn": 22
         }
       },
@@ -3109,10 +3325,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstantNativeTypes\\Bar::D",
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
         "location": {
           "startColumn": 35,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "D",
+        "location": {
+          "startColumn": 70,
           "endColumn": 71
         }
       },
@@ -3189,10 +3421,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstantNativeTypes\\Foo::D",
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
         "location": {
           "startColumn": 122,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 152,
+          "endColumn": 155
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "D",
+        "location": {
+          "startColumn": 157,
           "endColumn": 158
         }
       },
@@ -3226,26 +3474,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "int",
+        "type": "type",
+        "value": "int|string",
         "location": {
           "startColumn": 12,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 15,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 16,
           "endColumn": 22
         }
       },
@@ -3266,10 +3498,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstantNativeTypes\\PharChild::NONE",
+        "type": "common_word",
+        "value": "OverridingConstantNativeTypes",
         "location": {
           "startColumn": 35,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PharChild",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NONE",
+        "location": {
+          "startColumn": 76,
           "endColumn": 80
         }
       },
@@ -3346,10 +3594,18 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "Phar::NONE",
+        "type": "common_word",
+        "value": "Phar",
         "location": {
           "startColumn": 131,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "NONE",
+        "location": {
+          "startColumn": 137,
           "endColumn": 141
         }
       },
@@ -3407,10 +3663,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstantNativeType\\Floats::BAZ",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstantNativeType",
         "location": {
           "startColumn": 29,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Floats",
+        "location": {
+          "startColumn": 68,
+          "endColumn": 74
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 76,
           "endColumn": 79
         }
       },
@@ -3532,10 +3804,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstant\\Bar::BAZ",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
         "location": {
           "startColumn": 29,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 63,
           "endColumn": 66
         }
       },
@@ -3657,10 +3945,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstant\\Foo::BAZ",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
         "location": {
           "startColumn": 29,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAZ",
+        "location": {
+          "startColumn": 63,
           "endColumn": 66
         }
       },
@@ -3782,10 +4086,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ValueAssignedToClassConstant\\Foo::DOLOR",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
         "location": {
           "startColumn": 29,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "DOLOR",
+        "location": {
+          "startColumn": 63,
           "endColumn": 68
         }
       },
@@ -3806,34 +4126,18 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ValueAssignedToClassConstant\\Foo",
+        "type": "common_word",
+        "value": "ValueAssignedToClassConstant",
         "location": {
           "startColumn": 79,
-          "endColumn": 111
+          "endColumn": 107
         }
       },
       {
-        "type": "langle",
-        "value": "<",
+        "type": "type",
+        "value": "Foo<int>",
         "location": {
-          "startColumn": 111,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 112,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 115,
+          "startColumn": 108,
           "endColumn": 116
         }
       },
@@ -3907,10 +4211,50 @@
         }
       },
       {
-        "type": "method_name",
-        "value": "FinalPrivateConstants\\User::FINAL_PRIVATE()",
+        "type": "common_word",
+        "value": "FinalPrivateConstants",
         "location": {
           "startColumn": 17,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "User",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FINAL",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 59,
           "endColumn": 60
         }
       },
@@ -4032,10 +4376,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\PrivateDolor::ANOTHER_PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 17,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivateDolor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 63,
+          "endColumn": 69
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 70,
           "endColumn": 75
         }
       },
@@ -4064,10 +4440,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Dolor::ANOTHER_PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 103,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 134,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 149,
           "endColumn": 154
         }
       },
@@ -4133,10 +4541,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\PrivateDolor::PROTECTED_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 17,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivateDolor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 65,
           "endColumn": 70
         }
       },
@@ -4165,10 +4597,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Dolor::PROTECTED_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 101,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 142,
           "endColumn": 147
         }
       },
@@ -4242,10 +4698,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\PrivateDolor::PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 17,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PrivateDolor",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 62,
           "endColumn": 67
         }
       },
@@ -4274,10 +4754,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Dolor::PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 95,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 132
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 133,
           "endColumn": 138
         }
       },
@@ -4343,10 +4847,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\ProtectedDolor::ANOTHER_PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 19,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ProtectedDolor",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 73
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 74,
           "endColumn": 79
         }
       },
@@ -4375,10 +4911,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Dolor::ANOTHER_PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 107,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ANOTHER",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 145
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 152
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 153,
           "endColumn": 158
         }
       },
@@ -4444,10 +5012,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\ProtectedDolor::PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 19,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "ProtectedDolor",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 66,
           "endColumn": 71
         }
       },
@@ -4476,10 +5068,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Dolor::PUBLIC_CONST",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 99,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Dolor",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 137,
           "endColumn": 142
         }
       },
@@ -4537,26 +5153,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "int",
+        "type": "type",
+        "value": "int|string",
         "location": {
           "startColumn": 5,
-          "endColumn": 8
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 8,
-          "endColumn": 9
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 9,
           "endColumn": 15
         }
       },
@@ -4577,10 +5177,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstant\\Bar::IPSUM",
+        "type": "common_word",
+        "value": "OverridingConstant",
         "location": {
           "startColumn": 28,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "IPSUM",
+        "location": {
+          "startColumn": 52,
           "endColumn": 57
         }
       },
@@ -4649,10 +5265,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstant\\Foo::IPSUM",
+        "type": "common_word",
+        "value": "OverridingConstant",
         "location": {
           "startColumn": 101,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 120,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "IPSUM",
+        "location": {
+          "startColumn": 125,
           "endColumn": 130
         }
       },
@@ -4702,10 +5334,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstant\\Bar::BAR",
+        "type": "common_word",
+        "value": "OverridingConstant",
         "location": {
           "startColumn": 24,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 48,
           "endColumn": 51
         }
       },
@@ -4774,10 +5422,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingConstant\\Foo::BAR",
+        "type": "common_word",
+        "value": "OverridingConstant",
         "location": {
           "startColumn": 95,
+          "endColumn": 113
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 114,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 119,
           "endColumn": 122
         }
       },
@@ -4827,10 +5491,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\Lorem::FOO",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 24,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 55,
           "endColumn": 58
         }
       },
@@ -4899,10 +5579,26 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "OverridingFinalConstant\\BarInterface::FOO",
+        "type": "common_word",
+        "value": "OverridingFinalConstant",
         "location": {
           "startColumn": 102,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BarInterface",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 140,
           "endColumn": 143
         }
       },
