@@ -78,6 +78,18 @@ describe('sample test', () => {
       ],
     },
     {
+      name: 'parse static method without method keyword',
+      m: 'Calling PHPStan\\Command\\CommandHelper::begin() is not covered.',
+      assertions: [
+        ['StaticMethodName:PHPStan\\Command\\CommandHelper::begin()', true],
+      ],
+    },
+    {
+      name: 'parse static method after constructor',
+      m: 'Cannot instantiate via constructor Test\\Foo::__construct().',
+      assertions: [['StaticMethodName:Test\\Foo::__construct()', true]],
+    },
+    {
       name: 'parse parameter number',
       m: 'Parameter #1 $bar of method Test\\ClassWithNullableProperty::doBar() is passed by reference, so it expects variables only.',
       assertions: [

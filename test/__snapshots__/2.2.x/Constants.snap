@@ -4419,50 +4419,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FinalPrivateConstants",
+        "type": "method_name",
+        "value": "FinalPrivateConstants\\User::FINAL_PRIVATE()",
         "location": {
           "startColumn": 17,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "User",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FINAL",
-        "location": {
-          "startColumn": 45,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PRIVATE",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 59,
           "endColumn": 60
         }
       },
