@@ -8128,26 +8128,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TooWidePropertyType",
+        "type": "static_property",
+        "value": "TooWidePropertyType\\Bar::$c",
         "location": {
           "startColumn": 9,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$c",
-        "location": {
-          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -8317,26 +8301,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TooWidePropertyType",
+        "type": "static_property",
+        "value": "TooWidePropertyType\\Bar::$d",
         "location": {
           "startColumn": 9,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$d",
-        "location": {
-          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -8506,26 +8474,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TooWidePropertyType",
+        "type": "static_property",
+        "value": "TooWidePropertyType\\Foo::$barr",
         "location": {
           "startColumn": 9,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$barr",
-        "location": {
-          "startColumn": 34,
           "endColumn": 39
         }
       },
@@ -8695,26 +8647,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TooWidePropertyType",
+        "type": "static_property",
+        "value": "TooWidePropertyType\\Foo::$baz",
         "location": {
           "startColumn": 9,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$baz",
-        "location": {
-          "startColumn": 34,
           "endColumn": 38
         }
       },
@@ -8884,26 +8820,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TooWidePropertyType",
+        "type": "static_property",
+        "value": "TooWidePropertyType\\Foo::$foo",
         "location": {
           "startColumn": 9,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 34,
           "endColumn": 38
         }
       },
@@ -10013,42 +9933,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug13384Phpdoc\\ShutdownHandlerPhpdocTypes::$registered",
         "location": {
           "startColumn": 16,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "number",
-        "value": "13384",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Phpdoc",
-        "location": {
-          "startColumn": 24,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ShutdownHandlerPhpdocTypes",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$registered",
-        "location": {
-          "startColumn": 59,
           "endColumn": 70
         }
       },
@@ -10210,34 +10098,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug13384\\ShutdownHandlerFalseDefault::$registered",
         "location": {
           "startColumn": 16,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "number",
-        "value": "13384",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ShutdownHandlerFalseDefault",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$registered",
-        "location": {
-          "startColumn": 54,
           "endColumn": 65
         }
       },
@@ -10399,34 +10263,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug13384\\ShutdownHandlerTrueDefault::$registered",
         "location": {
           "startColumn": 16,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "number",
-        "value": "13384",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ShutdownHandlerTrueDefault",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$registered",
-        "location": {
-          "startColumn": 53,
           "endColumn": 64
         }
       },
@@ -10668,26 +10508,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedTooWidePropertyType",
+        "type": "static_property",
+        "value": "NestedTooWidePropertyType\\Foo::$a",
         "location": {
           "startColumn": 41,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 67,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 72,
           "endColumn": 74
         }
       },
