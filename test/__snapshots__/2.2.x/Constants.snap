@@ -467,9 +467,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 59,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 63,
           "endColumn": 69
         }
       },
@@ -592,9 +600,17 @@
       },
       {
         "type": "type",
-        "value": "string|null",
+        "value": "string|",
         "location": {
           "startColumn": 59,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 66,
           "endColumn": 70
         }
       },
@@ -652,26 +668,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "B",
+        "type": "type",
+        "value": "B (Bug",
         "location": {
           "startColumn": 30,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bug",
-        "location": {
-          "startColumn": 33,
           "endColumn": 36
         }
       },
@@ -1580,26 +1580,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "B",
+        "type": "type",
+        "value": "B (int)should",
         "location": {
           "startColumn": 105,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int)",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "should",
-        "location": {
-          "startColumn": 113,
           "endColumn": 119
         }
       },
@@ -1737,10 +1721,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(int)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 84,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 85,
+          "endColumn": 88
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 88,
           "endColumn": 89
         }
       },
@@ -2207,26 +2207,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BAR",
+        "type": "type",
+        "value": "BAR (int<1, max>)does",
         "location": {
           "startColumn": 53,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int<1, max>)",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 71,
           "endColumn": 75
         }
       },
@@ -2300,26 +2284,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BAR",
+        "type": "type",
+        "value": "BAR (int)does",
         "location": {
           "startColumn": 56,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int)",
-        "location": {
-          "startColumn": 60,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 66,
           "endColumn": 70
         }
       },
@@ -2393,26 +2361,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BAR",
+        "type": "type",
+        "value": "BAR (int)does",
         "location": {
           "startColumn": 53,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int)",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "does",
-        "location": {
-          "startColumn": 63,
           "endColumn": 67
         }
       },
@@ -3302,9 +3254,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 16,
           "endColumn": 22
         }
       },
@@ -3475,9 +3435,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 12,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 16,
           "endColumn": 22
         }
       },
@@ -4235,34 +4203,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PRIVATE",
+        "type": "type",
+        "value": "PRIVATE()cannot",
         "location": {
           "startColumn": 51,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 59,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "cannot",
-        "location": {
-          "startColumn": 61,
           "endColumn": 67
         }
       },
@@ -5154,9 +5098,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 9,
           "endColumn": 15
         }
       },

@@ -110,43 +110,6 @@ export class Parser extends CstParser {
     this.performSelfAnalysis();
   }
 
-  /**
-   * Check if the next CommonWord token is followed by a type operator,
-   * indicating it should be parsed as a type expression.
-   */
-  private isTypeStart(): boolean {
-    const nextToken = this.LA(1);
-    if (nextToken.tokenType !== tokens.COMMON_WORD) return false;
-
-    const afterNext = this.LA(2);
-    if (!afterNext) return false;
-
-    const typeFollowers = [
-      tokens.LANGLE,
-      tokens.LBRACE,
-      tokens.LBRACKET,
-      tokens.PIPE,
-      tokens.AMPERSAND,
-    ];
-    return typeFollowers.some((t) => afterNext.tokenType === t);
-  }
-
-  /**
-   * Check if current position starts a parenthesized type: ( type )
-   * Requires ( followed by CommonWord/Number/'string'/? to distinguish
-   * from regular parentheses in natural language.
-   */
-  private isParenthesizedTypeStart(): boolean {
-    if (this.LA(1).tokenType !== tokens.LPAREN) return false;
-    const second = this.LA(2);
-    return (
-      second.tokenType === tokens.COMMON_WORD ||
-      second.tokenType === tokens.NUMBER ||
-      second.tokenType === tokens.SINGLE_QUOTED_STRING ||
-      second.tokenType === tokens.QUESTION
-    );
-  }
-
   // typeExpression: intersectionType (| intersectionType)*
   public typeExpression = this.RULE('typeExpression', () => {
     this.SUBRULE(this.intersectionType);
@@ -271,18 +234,52 @@ export class Parser extends CstParser {
     });
   });
 
+  /**
+   * wordOrType: consumes a CommonWord, then checks if type syntax follows.
+   * If so, wraps it as a typeExpression. Otherwise, stays as CommonWord.
+   * This avoids GATE overhead on every token.
+   */
+  public wordOrType = this.RULE('wordOrType', () => {
+    this.CONSUME(tokens.COMMON_WORD);
+    this.OPTION(() => {
+      this.OR([
+        {
+          ALT: () => {
+            this.CONSUME(tokens.LANGLE);
+            this.SUBRULE(this.typeList);
+            this.CONSUME(tokens.RANGLE);
+          },
+        },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.LBRACE);
+            this.OPTION2(() => {
+              this.SUBRULE(this.shapeMembers);
+            });
+            this.CONSUME(tokens.RBRACE);
+          },
+        },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.LPAREN);
+            this.OPTION3(() => {
+              this.SUBRULE2(this.typeList);
+            });
+            this.CONSUME(tokens.RPAREN);
+            this.CONSUME(tokens.COLON);
+            this.SUBRULE(this.typeExpression);
+          },
+        },
+        { ALT: () => this.CONSUME(tokens.LBRACKET) },
+        { ALT: () => this.CONSUME(tokens.PIPE) },
+        { ALT: () => this.CONSUME(tokens.AMPERSAND) },
+      ]);
+    });
+  });
+
   public sentence = this.RULE('sentence', () => {
     this.AT_LEAST_ONE(() => {
       this.OR([
-        // Type expression: only when we detect type-like patterns
-        {
-          GATE: () => this.isTypeStart(),
-          ALT: () => this.SUBRULE(this.typeExpression),
-        },
-        {
-          GATE: () => this.isParenthesizedTypeStart(),
-          ALT: () => this.SUBRULE2(this.typeExpression),
-        },
         { ALT: () => this.CONSUME(tokens.SINGLE_QUOTED_STRING) },
         { ALT: () => this.CONSUME(tokens.DOUBLE_QUOTED_STRING) },
         { ALT: () => this.CONSUME(tokens.FUNCTION_NAME) },
@@ -291,7 +288,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.STATIC_CONSTANT) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
         { ALT: () => this.CONSUME(tokens.NAMESPACED_NAME) },
-        { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
+        { ALT: () => this.SUBRULE(this.wordOrType) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },
         { ALT: () => this.CONSUME(tokens.VARIABLE) },
         { ALT: () => this.CONSUME(tokens.PARAMETER_NUMBER) },

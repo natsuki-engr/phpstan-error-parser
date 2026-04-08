@@ -3897,9 +3897,17 @@
       },
       {
         "type": "type",
-        "value": "FooCollection&iterable<int>",
+        "value": "FooCollection&",
         "location": {
           "startColumn": 104,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "type",
+        "value": "iterable<int>",
+        "location": {
+          "startColumn": 118,
           "endColumn": 131
         }
       },
@@ -5030,9 +5038,17 @@
       },
       {
         "type": "type",
-        "value": "FooCollection&iterable<int>",
+        "value": "FooCollection&",
         "location": {
           "startColumn": 113,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "type",
+        "value": "iterable<int>",
+        "location": {
+          "startColumn": 127,
           "endColumn": 140
         }
       },
@@ -5522,9 +5538,17 @@
       },
       {
         "type": "type",
-        "value": "FooIterator&iterable<int, object>",
+        "value": "FooIterator&",
         "location": {
           "startColumn": 111,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "type",
+        "value": "iterable<int, object>",
+        "location": {
+          "startColumn": 123,
           "endColumn": 144
         }
       },

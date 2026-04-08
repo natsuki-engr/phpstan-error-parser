@@ -232,9 +232,25 @@
       },
       {
         "type": "type",
-        "value": "array|float|int",
+        "value": "array|",
         "location": {
           "startColumn": 12,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "type",
+        "value": "float|",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 24,
           "endColumn": 27
         }
       },
@@ -497,9 +513,17 @@
       },
       {
         "type": "type",
-        "value": "object|string",
+        "value": "object|",
         "location": {
           "startColumn": 12,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 19,
           "endColumn": 25
         }
       },
@@ -709,9 +733,17 @@
       },
       {
         "type": "type",
-        "value": "stdClass|null",
+        "value": "stdClass|",
         "location": {
           "startColumn": 12,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 21,
           "endColumn": 25
         }
       },
@@ -761,10 +793,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "('string'|array{'string'})",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "single_quoted_string",
+        "value": "'string'",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{'string'}",
+        "location": {
+          "startColumn": 23,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
           "endColumn": 39
         }
       },
@@ -854,10 +918,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Closure(): void)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "type",
+        "value": "Closure(): void",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 29,
           "endColumn": 30
         }
       },
@@ -947,10 +1027,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "(array<int>|null)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "type",
+        "value": "array<int>",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 25,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 29,
           "endColumn": 30
         }
       },
@@ -1040,10 +1152,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(array{})",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{}",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
           "endColumn": 22
         }
       },
@@ -1133,10 +1261,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(stdClass)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 22,
           "endColumn": 23
         }
       },
@@ -1226,10 +1370,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(stdClass)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 13,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 22,
           "endColumn": 23
         }
       },
@@ -1412,42 +1572,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Closure",
+        "type": "type",
+        "value": "Closure(): void",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 17,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "void",
-        "location": {
-          "startColumn": 21,
           "endColumn": 25
         }
       },
@@ -1530,9 +1658,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|null",
+        "value": "array<int>",
         "location": {
           "startColumn": 10,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 20,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 21,
           "endColumn": 25
         }
       },
@@ -1808,26 +1952,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "obj",
+        "type": "type",
+        "value": "obj (stdClass|null)of",
         "location": {
           "startColumn": 12,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "type",
-        "value": "(stdClass|null)",
-        "location": {
-          "startColumn": 16,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "of",
-        "location": {
-          "startColumn": 32,
           "endColumn": 34
         }
       },
@@ -1917,10 +2045,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(stdClass)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
           "endColumn": 20
         }
       },
@@ -2002,26 +2146,10 @@
     "input": "The (unset) cast is no longer supported in PHP 8.0 and later.",
     "tokens": [
       {
-        "type": "common_word",
-        "value": "The",
+        "type": "type",
+        "value": "The (unset)cast",
         "location": {
           "startColumn": 0,
-          "endColumn": 3
-        }
-      },
-      {
-        "type": "type",
-        "value": "(unset)",
-        "location": {
-          "startColumn": 4,
-          "endColumn": 11
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "cast",
-        "location": {
-          "startColumn": 12,
           "endColumn": 16
         }
       },
@@ -2111,26 +2239,10 @@
     "input": "The (void) cast is supported only on PHP 8.5 and later.",
     "tokens": [
       {
-        "type": "common_word",
-        "value": "The",
+        "type": "type",
+        "value": "The (void)cast",
         "location": {
           "startColumn": 0,
-          "endColumn": 3
-        }
-      },
-      {
-        "type": "type",
-        "value": "(void)",
-        "location": {
-          "startColumn": 4,
-          "endColumn": 10
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "cast",
-        "location": {
-          "startColumn": 11,
           "endColumn": 15
         }
       },

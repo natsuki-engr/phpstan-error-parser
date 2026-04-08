@@ -472,9 +472,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|null",
+        "value": "array<int>",
         "location": {
           "startColumn": 28,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 39,
           "endColumn": 43
         }
       },
@@ -597,9 +613,25 @@
       },
       {
         "type": "type",
-        "value": "list<int>|false",
+        "value": "list<int>",
         "location": {
           "startColumn": 28,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "false",
+        "location": {
+          "startColumn": 38,
           "endColumn": 43
         }
       },
@@ -2953,9 +2985,17 @@
       },
       {
         "type": "type",
-        "value": "int|null",
+        "value": "int|",
         "location": {
           "startColumn": 38,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 42,
           "endColumn": 46
         }
       },
@@ -3363,42 +3403,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Closure",
+        "type": "type",
+        "value": "Closure(): void",
         "location": {
           "startColumn": 28,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 37,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "void",
-        "location": {
-          "startColumn": 39,
           "endColumn": 43
         }
       },
@@ -3457,9 +3465,41 @@
       },
       {
         "type": "type",
-        "value": "array{a: 1, b: 1}|(Closure(): void)",
+        "value": "array{a: 1, b: 1}",
         "location": {
           "startColumn": 28,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "type",
+        "value": "Closure(): void",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 62
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 62,
           "endColumn": 63
         }
       },
@@ -3701,9 +3741,17 @@
       },
       {
         "type": "type",
-        "value": "array|int",
+        "value": "array|",
         "location": {
           "startColumn": 30,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 36,
           "endColumn": 39
         }
       },
@@ -4363,26 +4411,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "offset",
+        "type": "type",
+        "value": "offset (int|string)on",
         "location": {
           "startColumn": 14,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int|string)",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "on",
-        "location": {
-          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -4443,11 +4475,27 @@
         }
       },
       {
-        "type": "type",
-        "value": "(ArrayAccess&Bug",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 63,
-          "endColumn": null
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "type",
+        "value": "ArrayAccess&",
+        "location": {
+          "startColumn": 64,
+          "endColumn": 76
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bug",
+        "location": {
+          "startColumn": 76,
+          "endColumn": 79
         }
       },
       {
@@ -4528,42 +4576,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Closure",
+        "type": "type",
+        "value": "Closure(): void",
         "location": {
           "startColumn": 26,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 33,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "void",
-        "location": {
-          "startColumn": 37,
           "endColumn": 41
         }
       },
@@ -4622,9 +4638,41 @@
       },
       {
         "type": "type",
-        "value": "array{'test'}|(Closure(): void)",
+        "value": "array{'test'}",
         "location": {
           "startColumn": 26,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "type",
+        "value": "Closure(): void",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -4683,9 +4731,25 @@
       },
       {
         "type": "type",
-        "value": "array{'test'}|stdClass",
+        "value": "array{'test'}",
         "location": {
           "startColumn": 26,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "stdClass",
+        "location": {
+          "startColumn": 40,
           "endColumn": 48
         }
       },
@@ -5239,18 +5303,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "on",
+        "type": "type",
+        "value": "on (float|int)",
         "location": {
           "startColumn": 27,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "type",
-        "value": "(float|int)",
-        "location": {
-          "startColumn": 30,
           "endColumn": 41
         }
       },
@@ -5500,9 +5556,17 @@
       },
       {
         "type": "type",
-        "value": "array|int",
+        "value": "array|",
         "location": {
           "startColumn": 30,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 36,
           "endColumn": 39
         }
       },
@@ -5561,9 +5625,17 @@
       },
       {
         "type": "type",
-        "value": "array|string",
+        "value": "array|",
         "location": {
           "startColumn": 30,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 36,
           "endColumn": 42
         }
       },
@@ -5919,9 +5991,17 @@
       },
       {
         "type": "type",
-        "value": "int|null",
+        "value": "int|",
         "location": {
           "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 25,
           "endColumn": 29
         }
       },
@@ -5980,9 +6060,17 @@
       },
       {
         "type": "type",
-        "value": "int|object",
+        "value": "int|",
         "location": {
           "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 25,
           "endColumn": 31
         }
       },
@@ -5996,9 +6084,17 @@
       },
       {
         "type": "type",
-        "value": "array|string",
+        "value": "array|",
         "location": {
           "startColumn": 35,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 41,
           "endColumn": 47
         }
       },
@@ -6041,9 +6137,17 @@
       },
       {
         "type": "type",
-        "value": "int|object",
+        "value": "int|",
         "location": {
           "startColumn": 21,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 25,
           "endColumn": 31
         }
       },
@@ -6147,9 +6251,17 @@
       },
       {
         "type": "type",
-        "value": "use []",
+        "value": "use [",
         "location": {
           "startColumn": 7,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "rbracket",
+        "value": "]",
+        "location": {
+          "startColumn": 12,
           "endColumn": 13
         }
       },
@@ -6224,9 +6336,17 @@
       },
       {
         "type": "type",
-        "value": "array|null",
+        "value": "array|",
         "location": {
           "startColumn": 34,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 40,
           "endColumn": 44
         }
       },
@@ -7747,9 +7867,41 @@
       },
       {
         "type": "type",
-        "value": "array{c: false}|array{c: true}|array{e: true}",
+        "value": "array{c: false}",
         "location": {
           "startColumn": 30,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{c: true}",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{e: true}",
+        "location": {
+          "startColumn": 61,
           "endColumn": 75
         }
       },
@@ -7864,9 +8016,17 @@
       },
       {
         "type": "type",
-        "value": "string|null",
+        "value": "string|",
         "location": {
           "startColumn": 92,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 99,
           "endColumn": 103
         }
       },
@@ -7904,9 +8064,17 @@
       },
       {
         "type": "type",
-        "value": "string|null",
+        "value": "string|",
         "location": {
           "startColumn": 121,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 128,
           "endColumn": 132
         }
       },
@@ -8016,9 +8184,17 @@
       },
       {
         "type": "type",
-        "value": "string|null",
+        "value": "string|",
         "location": {
           "startColumn": 194,
+          "endColumn": 201
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 201,
           "endColumn": 205
         }
       },
@@ -8438,9 +8614,17 @@
       },
       {
         "type": "type",
-        "value": "array|string",
+        "value": "array|",
         "location": {
           "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 38,
           "endColumn": 44
         }
       },
@@ -9304,9 +9488,25 @@
       },
       {
         "type": "type",
-        "value": "array<mixed>|string",
+        "value": "array<mixed>",
         "location": {
           "startColumn": 30,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 43,
           "endColumn": 49
         }
       },
@@ -9324,26 +9524,10 @@
     "input": "Offset (int|string) might not exist on non-empty-list<string>.",
     "tokens": [
       {
-        "type": "common_word",
-        "value": "Offset",
+        "type": "type",
+        "value": "Offset (int|string)might",
         "location": {
           "startColumn": 0,
-          "endColumn": 6
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int|string)",
-        "location": {
-          "startColumn": 7,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "might",
-        "location": {
-          "startColumn": 20,
           "endColumn": 25
         }
       },
@@ -10244,9 +10428,17 @@
       },
       {
         "type": "type",
-        "value": "array|string",
+        "value": "array|",
         "location": {
           "startColumn": 32,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 38,
           "endColumn": 44
         }
       },
@@ -10677,9 +10869,33 @@
       },
       {
         "type": "type",
-        "value": "array<int, int|string>|int|string",
+        "value": "array<int, int|string>",
         "location": {
           "startColumn": 7,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 29,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "type",
+        "value": "int|",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 34,
           "endColumn": 40
         }
       },
@@ -10762,9 +10978,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|int",
+        "value": "array<int>",
         "location": {
           "startColumn": 7,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 18,
           "endColumn": 21
         }
       },
@@ -10831,9 +11063,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|int",
+        "value": "array<int>",
         "location": {
           "startColumn": 7,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 18,
           "endColumn": 21
         }
       },
@@ -10871,9 +11119,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|string",
+        "value": "array<int>",
         "location": {
           "startColumn": 41,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 52,
           "endColumn": 58
         }
       },
@@ -10900,9 +11164,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|int",
+        "value": "array<int>",
         "location": {
           "startColumn": 7,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 18,
           "endColumn": 21
         }
       },
@@ -10969,9 +11249,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|string",
+        "value": "array<int>",
         "location": {
           "startColumn": 7,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 18,
           "endColumn": 24
         }
       },
@@ -11038,9 +11334,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|string",
+        "value": "array<int>",
         "location": {
           "startColumn": 7,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 18,
           "endColumn": 24
         }
       },
@@ -11423,9 +11735,41 @@
       },
       {
         "type": "type",
-        "value": "array{}|array{1: 1, 2: 2}|array{3: 3, 4: 4}",
+        "value": "array{}",
         "location": {
           "startColumn": 30,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{1: 1, 2: 2}",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{3: 3, 4: 4}",
+        "location": {
+          "startColumn": 56,
           "endColumn": 73
         }
       },
@@ -12275,9 +12619,25 @@
       },
       {
         "type": "type",
-        "value": "int<0, max>|null",
+        "value": "int<0, max>",
         "location": {
           "startColumn": 7,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 19,
           "endColumn": 23
         }
       },
@@ -12514,9 +12874,17 @@
       },
       {
         "type": "type",
-        "value": "int|null",
+        "value": "int|",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 11,
           "endColumn": 15
         }
       },
@@ -12583,9 +12951,17 @@
       },
       {
         "type": "type",
-        "value": "int|null",
+        "value": "int|",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 11,
           "endColumn": 15
         }
       },
@@ -12652,9 +13028,17 @@
       },
       {
         "type": "type",
-        "value": "int|object",
+        "value": "int|",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 11,
           "endColumn": 17
         }
       },
@@ -12692,9 +13076,25 @@
       },
       {
         "type": "type",
-        "value": "array{baz: 21}|array{foo: 17, bar: 19}",
+        "value": "array{baz: 21}",
         "location": {
           "startColumn": 36,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{foo: 17, bar: 19}",
+        "location": {
+          "startColumn": 51,
           "endColumn": 74
         }
       },
@@ -12721,9 +13121,17 @@
       },
       {
         "type": "type",
-        "value": "int|object",
+        "value": "int|",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 11,
           "endColumn": 17
         }
       },
@@ -12790,9 +13198,17 @@
       },
       {
         "type": "type",
-        "value": "int|object",
+        "value": "int|",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "object",
+        "location": {
+          "startColumn": 11,
           "endColumn": 17
         }
       },
@@ -12830,9 +13246,17 @@
       },
       {
         "type": "type",
-        "value": "array|string",
+        "value": "array|",
         "location": {
           "startColumn": 37,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 43,
           "endColumn": 49
         }
       },
@@ -12859,9 +13283,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 11,
           "endColumn": 17
         }
       },
@@ -13422,9 +13854,25 @@
       },
       {
         "type": "type",
-        "value": "array<int>|null",
+        "value": "array<int>",
         "location": {
           "startColumn": 32,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 43,
           "endColumn": 47
         }
       },
@@ -13799,9 +14247,33 @@
       },
       {
         "type": "type",
-        "value": "array<int, int|string>|int|string",
+        "value": "array<int, int|string>",
         "location": {
           "startColumn": 32,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "type",
+        "value": "int|",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 59,
           "endColumn": 65
         }
       },
@@ -13921,9 +14393,17 @@
       },
       {
         "type": "type",
-        "value": "stdClass|string",
+        "value": "stdClass|",
         "location": {
           "startColumn": 32,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 41,
           "endColumn": 47
         }
       },

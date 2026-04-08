@@ -193,9 +193,17 @@
       },
       {
         "type": "type",
-        "value": "int|null",
+        "value": "int|",
         "location": {
           "startColumn": 44,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 48,
           "endColumn": 52
         }
       },
@@ -347,9 +355,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 32,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 36,
           "endColumn": 42
         }
       },
@@ -917,26 +933,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "yield",
+        "type": "type",
+        "value": "yield (void)is",
         "location": {
           "startColumn": 10,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "type",
-        "value": "(void)",
-        "location": {
-          "startColumn": 16,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "is",
-        "location": {
-          "startColumn": 23,
           "endColumn": 25
         }
       },
@@ -986,26 +986,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "from",
+        "type": "type",
+        "value": "from (void)is",
         "location": {
           "startColumn": 16,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "type",
-        "value": "(void)",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "is",
-        "location": {
-          "startColumn": 28,
           "endColumn": 30
         }
       },

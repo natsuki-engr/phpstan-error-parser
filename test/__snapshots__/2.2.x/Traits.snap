@@ -221,10 +221,18 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "TraitAttributes\\AbstractAttribute",
+        "type": "common_word",
+        "value": "TraitAttributes",
         "location": {
           "startColumn": 16,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "AbstractAttribute",
+        "location": {
+          "startColumn": 32,
           "endColumn": 49
         }
       },
@@ -274,10 +282,18 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "TraitAttributes\\MyTargettedAttribute",
+        "type": "common_word",
+        "value": "TraitAttributes",
         "location": {
           "startColumn": 16,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "MyTargettedAttribute",
+        "location": {
+          "startColumn": 32,
           "endColumn": 52
         }
       },
@@ -351,26 +367,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstantsTypes\\Baz::BAR_CONST",
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
         "location": {
           "startColumn": 9,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int)",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 60
+          "endColumn": 39
         }
       },
       {
         "type": "common_word",
-        "value": "overriding",
+        "value": "Baz",
         "location": {
-          "startColumn": 61,
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "type",
+        "value": "CONST (int)overriding",
+        "location": {
+          "startColumn": 49,
           "endColumn": 71
         }
       },
@@ -383,10 +407,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstantsTypes\\Foo::BAR_CONST",
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
         "location": {
           "startColumn": 81,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 112,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "BAR",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 121,
           "endColumn": 126
         }
       },
@@ -460,26 +508,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstantsTypes\\Baz::FOO_CONST",
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
         "location": {
           "startColumn": 9,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int)",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 60
+          "endColumn": 39
         }
       },
       {
         "type": "common_word",
-        "value": "overriding",
+        "value": "Baz",
         "location": {
-          "startColumn": 61,
+          "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "type",
+        "value": "CONST (int)overriding",
+        "location": {
+          "startColumn": 49,
           "endColumn": 71
         }
       },
@@ -492,26 +548,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstantsTypes\\Foo::FOO_CONST",
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
         "location": {
           "startColumn": 81,
-          "endColumn": 126
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int|string)",
-        "location": {
-          "startColumn": 127,
-          "endColumn": 139
+          "endColumn": 111
         }
       },
       {
         "type": "common_word",
-        "value": "should",
+        "value": "Foo",
         "location": {
-          "startColumn": 140,
+          "startColumn": 112,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 117,
+          "endColumn": 120
+        }
+      },
+      {
+        "type": "type",
+        "value": "CONST (int|string)should",
+        "location": {
+          "startColumn": 121,
           "endColumn": 146
         }
       },
@@ -557,9 +621,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 173,
+          "endColumn": 177
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 177,
           "endColumn": 183
         }
       },
@@ -585,10 +657,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstantsTypes\\Lorem::FOO_CONST",
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
         "location": {
           "startColumn": 9,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Lorem",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONST",
+        "location": {
+          "startColumn": 51,
           "endColumn": 56
         }
       },
@@ -609,26 +705,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstantsTypes\\Foo::FOO_CONST",
+        "type": "common_word",
+        "value": "ConflictingTraitConstantsTypes",
         "location": {
           "startColumn": 77,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "type",
-        "value": "(int|string)",
-        "location": {
-          "startColumn": 123,
-          "endColumn": 135
+          "endColumn": 107
         }
       },
       {
         "type": "common_word",
-        "value": "should",
+        "value": "Foo",
         "location": {
-          "startColumn": 136,
+          "startColumn": 108,
+          "endColumn": 111
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FOO",
+        "location": {
+          "startColumn": 113,
+          "endColumn": 116
+        }
+      },
+      {
+        "type": "type",
+        "value": "CONST (int|string)should",
+        "location": {
+          "startColumn": 117,
           "endColumn": 142
         }
       },
@@ -666,9 +770,17 @@
       },
       {
         "type": "type",
-        "value": "int|string",
+        "value": "int|",
         "location": {
           "startColumn": 165,
+          "endColumn": 169
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 169,
           "endColumn": 175
         }
       },
@@ -694,10 +806,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar9::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 9,
+          "endColumn": 34
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "number",
+        "value": "9",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 48,
           "endColumn": 56
         }
       },
@@ -742,10 +886,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 90,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 119
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 128,
           "endColumn": 136
         }
       },
@@ -984,10 +1152,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar8::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 15,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "number",
+        "value": "8",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 54,
           "endColumn": 62
         }
       },
@@ -1024,10 +1224,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 93,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 131,
           "endColumn": 139
         }
       },
@@ -1109,10 +1333,50 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar7::PUBLIC_FINAL_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 19,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "number",
+        "value": "7",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FINAL",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 63
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 64,
           "endColumn": 72
         }
       },
@@ -1141,10 +1405,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PUBLIC_FINAL_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 99,
+          "endColumn": 124
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 125,
+          "endColumn": 128
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "FINAL",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 142
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 143,
           "endColumn": 151
         }
       },
@@ -1242,10 +1538,34 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12011Trait\\Table",
+        "type": "common_word",
+        "value": "Bug",
         "location": {
           "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "number",
+        "value": "12011",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Trait",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Table",
+        "location": {
+          "startColumn": 52,
           "endColumn": 57
         }
       },
@@ -1267,9 +1587,17 @@
       },
       {
         "type": "type",
-        "value": "string|null",
+        "value": "string|",
         "location": {
           "startColumn": 78,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 85,
           "endColumn": 89
         }
       },
@@ -1327,10 +1655,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar2::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 17,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "number",
+        "value": "2",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 56,
           "endColumn": 64
         }
       },
@@ -1359,10 +1719,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 92,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 130,
           "endColumn": 138
         }
       },
@@ -1428,10 +1812,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar4::PROTECTED_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 17,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "number",
+        "value": "4",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 59,
           "endColumn": 67
         }
       },
@@ -1460,10 +1876,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PROTECTED_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 98,
+          "endColumn": 123
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 139,
           "endColumn": 147
         }
       },
@@ -1529,10 +1969,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar5::PRIVATE_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 19,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "number",
+        "value": "5",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 59,
           "endColumn": 67
         }
       },
@@ -1561,10 +2033,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PRIVATE_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 96,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 122,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 134
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 135,
           "endColumn": 143
         }
       },
@@ -1630,10 +2126,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 19,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 57,
           "endColumn": 65
         }
       },
@@ -1662,10 +2182,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PUBLIC_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 93,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PUBLIC",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 131,
           "endColumn": 139
         }
       },
@@ -1731,10 +2275,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar3::PROTECTED_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 16,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "number",
+        "value": "3",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 58,
           "endColumn": 66
         }
       },
@@ -1763,10 +2339,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PROTECTED_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 97,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 123,
+          "endColumn": 126
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PROTECTED",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 138,
           "endColumn": 146
         }
       },
@@ -1832,10 +2432,42 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Bar6::PRIVATE_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 16,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 42,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "number",
+        "value": "6",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 56,
           "endColumn": 64
         }
       },
@@ -1864,10 +2496,34 @@
         }
       },
       {
-        "type": "static_constant",
-        "value": "ConflictingTraitConstants\\Foo::PRIVATE_CONSTANT",
+        "type": "common_word",
+        "value": "ConflictingTraitConstants",
         "location": {
           "startColumn": 93,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Foo",
+        "location": {
+          "startColumn": 119,
+          "endColumn": 122
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "PRIVATE",
+        "location": {
+          "startColumn": 124,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "CONSTANT",
+        "location": {
+          "startColumn": 132,
           "endColumn": 140
         }
       },
@@ -1925,10 +2581,18 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "NotAnalysedTrait\\Bar",
+        "type": "common_word",
+        "value": "NotAnalysedTrait",
         "location": {
           "startColumn": 6,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Bar",
+        "location": {
+          "startColumn": 23,
           "endColumn": 26
         }
       },

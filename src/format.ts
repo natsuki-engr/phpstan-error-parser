@@ -49,20 +49,61 @@ export function format(errorMessageCst: CstNode): Word[] {
 }
 
 function collectWords(node: CstNode, words: Word[]): void {
-  // Handle typeExpression nodes - collect all tokens into a single 'type' word
+  // Handle typeExpression - collapse into a single 'type' word
   if (node.name === 'typeExpression') {
-    const allTokens = collectAllTokens(node);
-    const first = allTokens[0];
-    const last = allTokens[allTokens.length - 1];
-    if (first && last) {
+    const span = getTokenSpan(node);
+    if (span) {
       words.push({
         type: 'type',
-        value: reconstructText(allTokens),
-        location: {
-          startColumn: first.startOffset,
-          endColumn: last.startOffset + last.image.length,
-        },
+        value: span.text,
+        location: { startColumn: span.start, endColumn: span.end },
       });
+    }
+    return;
+  }
+
+  // Handle wordOrType - if it has type syntax children, treat as 'type';
+  // otherwise just a 'common_word'
+  if (node.name === 'wordOrType') {
+    const childKeys = Object.keys(node.children);
+    const hasTypeSyntax = childKeys.some(
+      (k) =>
+        k === 'langle' ||
+        k === 'lbrace' ||
+        k === 'lparen' ||
+        k === 'lbracket' ||
+        k === 'pipe' ||
+        k === 'ampersand' ||
+        k === 'typeExpression' ||
+        k === 'typeList' ||
+        k === 'shapeMembers',
+    );
+    if (hasTypeSyntax) {
+      const span = getTokenSpan(node);
+      if (span) {
+        words.push({
+          type: 'type',
+          value: span.text,
+          location: { startColumn: span.start, endColumn: span.end },
+        });
+      }
+    } else {
+      // Plain CommonWord
+      const wordTokens = node.children.CommonWord;
+      if (wordTokens) {
+        for (const token of wordTokens) {
+          if (isIToken(token)) {
+            words.push({
+              type: 'common_word',
+              value: token.image,
+              location: {
+                startColumn: token.startOffset,
+                endColumn: token.startOffset + token.image.length,
+              },
+            });
+          }
+        }
+      }
     }
     return;
   }
@@ -91,39 +132,55 @@ function collectWords(node: CstNode, words: Word[]): void {
   }
 }
 
-function collectAllTokens(node: CstNode): IToken[] {
-  const tokens: IToken[] = [];
-  const children = node.children;
-  for (const key of Object.keys(children)) {
-    const elements = children[key];
-    if (!elements) continue;
-    for (const element of elements) {
-      if (isIToken(element)) {
-        tokens.push(element);
-      } else {
-        tokens.push(...collectAllTokens(element));
-      }
-    }
-  }
-  tokens.sort((a, b) => a.startOffset - b.startOffset);
-  return tokens;
+interface TokenSpan {
+  start: number;
+  end: number;
+  text: string;
 }
 
-function reconstructText(tokens: IToken[]): string {
+/**
+ * Traverse a CST node to find the min start offset, max end offset,
+ * and reconstruct text by collecting tokens in offset order.
+ */
+function getTokenSpan(node: CstNode): TokenSpan | null {
+  const tokens: IToken[] = [];
+  flattenTokens(node, tokens);
+  if (tokens.length === 0) return null;
+
+  tokens.sort((a, b) => a.startOffset - b.startOffset);
+
   const first = tokens[0];
-  if (!first) return '';
-  let result = first.image;
+  const lastToken = tokens[tokens.length - 1];
+  if (!first || !lastToken) return null;
+
+  const start = first.startOffset;
+  const end = lastToken.startOffset + lastToken.image.length;
+
+  let text = first.image;
   for (let i = 1; i < tokens.length; i++) {
     const current = tokens[i];
     const prev = tokens[i - 1];
     if (!current || !prev) continue;
     const gap = current.startOffset - (prev.startOffset + prev.image.length);
-    if (gap > 0) {
-      result += ' '.repeat(gap);
-    }
-    result += current.image;
+    if (gap > 0) text += ' '.repeat(gap);
+    text += current.image;
   }
-  return result;
+
+  return { start, end, text };
+}
+
+function flattenTokens(node: CstNode, out: IToken[]): void {
+  for (const key of Object.keys(node.children)) {
+    const elements = node.children[key];
+    if (!elements) continue;
+    for (const element of elements) {
+      if (isIToken(element)) {
+        out.push(element);
+      } else {
+        flattenTokens(element, out);
+      }
+    }
+  }
 }
 
 const tokenTypeMap: Record<string, Word['type']> = {

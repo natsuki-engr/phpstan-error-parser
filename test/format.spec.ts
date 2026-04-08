@@ -702,11 +702,13 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
-  it('parse parentheses with type annotation', () => {
+  it('parse parentheses with type annotation as flat tokens', () => {
     const message =
       'Parameter #1 (stdClass) of echo cannot be converted to string.';
     const result = parse(message);
 
+    // Parenthesized types like (stdClass) remain flat tokens for performance.
+    // Only CommonWord-starting types (e.g., array<int>) are structured.
     const expected = [
       {
         type: 'common_word',
@@ -719,9 +721,19 @@ describe('test formatted results', () => {
         location: { startColumn: 10, endColumn: 12 },
       },
       {
-        type: 'type',
-        value: '(stdClass)',
-        location: { startColumn: 13, endColumn: 23 },
+        type: 'lparen',
+        value: '(',
+        location: { startColumn: 13, endColumn: 14 },
+      },
+      {
+        type: 'common_word',
+        value: 'stdClass',
+        location: { startColumn: 14, endColumn: 22 },
+      },
+      {
+        type: 'rparen',
+        value: ')',
+        location: { startColumn: 22, endColumn: 23 },
       },
       {
         type: 'common_word',
@@ -768,7 +780,7 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
-  it('parse colon', () => {
+  it('parse callable type as structured type', () => {
     const message =
       'Parameter Closure(): void of print cannot be converted to string.';
     const result = parse(message);
@@ -780,29 +792,9 @@ describe('test formatted results', () => {
         location: { startColumn: 0, endColumn: 9 },
       },
       {
-        type: 'common_word',
-        value: 'Closure',
-        location: { startColumn: 10, endColumn: 17 },
-      },
-      {
-        type: 'lparen',
-        value: '(',
-        location: { startColumn: 17, endColumn: 18 },
-      },
-      {
-        type: 'rparen',
-        value: ')',
-        location: { startColumn: 18, endColumn: 19 },
-      },
-      {
-        type: 'colon',
-        value: ':',
-        location: { startColumn: 19, endColumn: 20 },
-      },
-      {
-        type: 'common_word',
-        value: 'void',
-        location: { startColumn: 21, endColumn: 25 },
+        type: 'type',
+        value: 'Closure(): void',
+        location: { startColumn: 10, endColumn: 25 },
       },
       {
         type: 'common_word',

@@ -3279,9 +3279,17 @@
       },
       {
         "type": "type",
-        "value": "Exception|null",
+        "value": "Exception|",
         "location": {
           "startColumn": 13,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 23,
           "endColumn": 27
         }
       },

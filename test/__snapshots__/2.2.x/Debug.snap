@@ -11,10 +11,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 3,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 7,
           "endColumn": 8
         }
       },
@@ -48,10 +64,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 3,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 7,
           "endColumn": 8
         }
       },
@@ -85,10 +117,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Maybe)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 3,
+          "endColumn": 4
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Maybe",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 9,
           "endColumn": 10
         }
       },
@@ -122,10 +170,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 7,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 11,
           "endColumn": 12
         }
       },
@@ -159,10 +223,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 8,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 12
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 12,
           "endColumn": 13
         }
       },
@@ -2170,18 +2250,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ERROR",
+        "type": "type",
+        "value": "ERROR  (No)",
         "location": {
           "startColumn": 51,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "type",
-        "value": "(No)",
-        "location": {
-          "startColumn": 58,
           "endColumn": 62
         }
       }
@@ -2287,10 +2359,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 55,
           "endColumn": 56
         }
       }
@@ -2316,10 +2404,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
           "endColumn": 15
         }
       },
@@ -2361,10 +2465,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
           "endColumn": 15
         }
       },
@@ -2406,10 +2526,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Maybe)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Maybe",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
           "endColumn": 17
         }
       },
@@ -2451,10 +2587,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 18,
           "endColumn": 19
         }
       },
@@ -2496,10 +2648,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "(Yes)",
+        "type": "lparen",
+        "value": "(",
         "location": {
           "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Yes",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
           "endColumn": 20
         }
       },
