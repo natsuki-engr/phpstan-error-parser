@@ -40,34 +40,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CallToStaticMethodWithoutImpurePoints\\SubSubY",
+        "type": "method_name",
+        "value": "CallToStaticMethodWithoutImpurePoints\\SubSubY::mySubSubFunc()",
         "location": {
           "startColumn": 8,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "mySubSubFunc",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 67,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 68,
           "endColumn": 69
         }
       },
@@ -157,34 +133,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CallToStaticMethodWithoutImpurePoints\\X",
+        "type": "method_name",
+        "value": "CallToStaticMethodWithoutImpurePoints\\X::myFunc()",
         "location": {
           "startColumn": 8,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "myFunc",
-        "location": {
-          "startColumn": 49,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -274,34 +226,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CallToStaticMethodWithoutImpurePoints\\y",
+        "type": "method_name",
+        "value": "CallToStaticMethodWithoutImpurePoints\\y::myFunc()",
         "location": {
           "startColumn": 8,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "myFunc",
-        "location": {
-          "startColumn": 49,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },

@@ -6216,34 +6216,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "TestInstantiation\\ProtectedConstructorClass",
+        "type": "method_name",
+        "value": "TestInstantiation\\ProtectedConstructorClass::__construct()",
         "location": {
           "startColumn": 107,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "construct",
-        "location": {
-          "startColumn": 154,
-          "endColumn": 163
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 163,
-          "endColumn": 164
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 164,
           "endColumn": 165
         }
       },
@@ -6317,34 +6293,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "TestInstantiation\\PrivateConstructorClass",
+        "type": "method_name",
+        "value": "TestInstantiation\\PrivateConstructorClass::__construct()",
         "location": {
           "startColumn": 98,
-          "endColumn": 139
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "construct",
-        "location": {
-          "startColumn": 143,
-          "endColumn": 152
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 152,
-          "endColumn": 153
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 153,
           "endColumn": 154
         }
       },
@@ -6418,34 +6370,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "TestInstantiation\\PrivateConstructorClass",
+        "type": "method_name",
+        "value": "TestInstantiation\\PrivateConstructorClass::__construct()",
         "location": {
           "startColumn": 91,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "construct",
-        "location": {
-          "startColumn": 136,
-          "endColumn": 145
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 145,
-          "endColumn": 146
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 146,
           "endColumn": 147
         }
       },
@@ -6519,34 +6447,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "TestInstantiation\\ProtectedConstructorClass",
+        "type": "method_name",
+        "value": "TestInstantiation\\ProtectedConstructorClass::__construct()",
         "location": {
           "startColumn": 95,
-          "endColumn": 138
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "construct",
-        "location": {
-          "startColumn": 142,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 151,
-          "endColumn": 152
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 152,
           "endColumn": 153
         }
       },
@@ -34966,34 +34870,10 @@
     "input": "TestInstantiation\\InstantiatingClass::doFoo() calls new parent but TestInstantiation\\InstantiatingClass does not extend any class.",
     "tokens": [
       {
-        "type": "namespaced_name",
-        "value": "TestInstantiation\\InstantiatingClass",
+        "type": "method_name",
+        "value": "TestInstantiation\\InstantiatingClass::doFoo()",
         "location": {
           "startColumn": 0,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "doFoo",
-        "location": {
-          "startColumn": 38,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 44,
           "endColumn": 45
         }
       },

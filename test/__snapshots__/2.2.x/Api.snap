@@ -511,34 +511,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Type\\ObjectType",
+        "type": "method_name",
+        "value": "PHPStan\\Type\\ObjectType::getTemplateType()",
         "location": {
           "startColumn": 8,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "getTemplateType",
-        "location": {
-          "startColumn": 33,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 49,
           "endColumn": 50
         }
       },
@@ -636,34 +612,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Type\\Type",
+        "type": "method_name",
+        "value": "PHPStan\\Type\\Type::getTemplateType()",
         "location": {
           "startColumn": 8,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "getTemplateType",
-        "location": {
-          "startColumn": 27,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 42,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 43,
           "endColumn": 44
         }
       },
@@ -753,34 +705,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Command\\CommandHelper",
+        "type": "method_name",
+        "value": "PHPStan\\Command\\CommandHelper::begin()",
         "location": {
           "startColumn": 8,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "begin",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 44,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 45,
           "endColumn": 46
         }
       },
@@ -862,34 +790,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Node\\InClassNode",
+        "type": "method_name",
+        "value": "PHPStan\\Node\\InClassNode::__construct()",
         "location": {
           "startColumn": 8,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "construct",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 45,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 46,
           "endColumn": 47
         }
       },
@@ -971,34 +875,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Rules\\Debug\\DumpTypeRule",
+        "type": "method_name",
+        "value": "PHPStan\\Rules\\Debug\\DumpTypeRule::getNodeType()",
         "location": {
           "startColumn": 8,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "getNodeType",
-        "location": {
-          "startColumn": 42,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 54,
           "endColumn": 55
         }
       },
@@ -1080,34 +960,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Type\\Php\\ArrayKeyDynamicReturnTypeExtension",
+        "type": "method_name",
+        "value": "PHPStan\\Type\\Php\\ArrayKeyDynamicReturnTypeExtension::isFunctionSupported()",
         "location": {
           "startColumn": 8,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "isFunctionSupported",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 80,
-          "endColumn": 81
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 81,
           "endColumn": 82
         }
       },
