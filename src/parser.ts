@@ -17,7 +17,7 @@ const tokens = {
   }),
   STATIC_METHOD_NAME: createToken({
     name: 'StaticMethodName',
-    pattern: /(?<!(T|t)he (M|m)ethod )(?<=(M|m)ethod )(\w+(\\[\w]+)*::\w+\(\))/,
+    pattern: /[a-zA-Z]\w*(\\[a-zA-Z]\w*)*::\w+\(\)/,
     line_breaks: false,
   }),
   METHOD_NAME: createToken({

@@ -16620,34 +16620,10 @@
     "input": "IpsumAccessStaticProperties::ipsum() accesses parent::$lorem but IpsumAccessStaticProperties does not extend any class.",
     "tokens": [
       {
-        "type": "common_word",
-        "value": "IpsumAccessStaticProperties",
+        "type": "method_name",
+        "value": "IpsumAccessStaticProperties::ipsum()",
         "location": {
           "startColumn": 0,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ipsum",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 35,
           "endColumn": 36
         }
       },
