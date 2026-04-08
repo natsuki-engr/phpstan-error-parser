@@ -101,30 +101,36 @@ jobs:
             body += `| Metric | Base | PR | Change |\n`;
             body += `|--------|------|-----|--------|\n`;
 
-            const metrics = [
-              ['Messages', 'messages', '', false],
-              ['Mean (ms)', 'mean', 'ms', true],
-              ['Median (ms)', 'median', 'ms', true],
-              ['Min (ms)', 'min', 'ms', true],
-              ['Max (ms)', 'max', 'ms', true],
-              ['Per message (ms)', 'perMessage', 'ms', true],
-            ];
+            function fmtChange(baseVal, prVal) {
+              if (baseVal == null || prVal == null || baseVal <= 0) return '';
+              const pct = ((prVal - baseVal) / baseVal * 100).toFixed(1);
+              const sign = pct > 0 ? '+' : '';
+              const emoji = pct > 10 ? ' ⚠️' : pct < -10 ? ' 🚀' : '';
+              return `${sign}${pct}%${emoji}`;
+            }
 
-            for (const [label, key, unit, showChange] of metrics) {
-              const baseVal = base?.[key];
-              const prVal = pr[key];
+            function addRow(label, baseVal, prVal, showChange = true) {
               const baseStr = baseVal != null ? `${baseVal}` : 'N/A';
               const prStr = prVal != null ? `${prVal}` : 'N/A';
-
-              let change = '';
-              if (showChange && baseVal != null && prVal != null && baseVal > 0) {
-                const pct = ((prVal - baseVal) / baseVal * 100).toFixed(1);
-                const sign = pct > 0 ? '+' : '';
-                const emoji = pct > 10 ? ' ⚠️' : pct < -10 ? ' 🚀' : '';
-                change = `${sign}${pct}%${emoji}`;
-              }
-
+              const change = showChange ? fmtChange(baseVal, prVal) : '';
               body += `| ${label} | ${baseStr} | ${prStr} | ${change} |\n`;
+            }
+
+            addRow('Messages', base?.messages, pr.messages, false);
+            addRow('**Total Mean (ms)**', base?.mean, pr.mean);
+            addRow('Total Median (ms)', base?.median, pr.median);
+            addRow('Per message (ms)', base?.perMessage, pr.perMessage);
+
+            // Phase breakdown
+            if (pr.phases) {
+              body += `\n### Phase Breakdown\n\n`;
+              body += `| Phase | Base (ms) | PR (ms) | Change |\n`;
+              body += `|-------|----------|---------|--------|\n`;
+              for (const phase of ['lexer', 'parser', 'formatter']) {
+                const basePhase = base?.phases?.[phase];
+                const prPhase = pr.phases[phase];
+                addRow(phase, basePhase?.mean, prPhase?.mean);
+              }
             }
 
             body += `\n> ${pr.iterations} iterations, ${pr.messages} messages. ⚠️ = >10% slower, 🚀 = >10% faster`;
