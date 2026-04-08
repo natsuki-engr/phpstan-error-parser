@@ -211,6 +211,11 @@ describe('sample test', () => {
       m: 'Offset exists on array{foo?: string}.',
       assertions: [['question:?', true]],
     },
+    {
+      name: 'parse ellipsis in variadic parameter',
+      m: 'Parameter #1 ...$arg1 of function max expects non-empty-array, array{} given.',
+      assertions: [['ellipsis:...', true]],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {

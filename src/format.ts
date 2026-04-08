@@ -24,6 +24,7 @@ export type Word = {
     | 'pipe'
     | 'ampersand'
     | 'question'
+    | 'ellipsis'
     | 'period';
   value: string;
   location: {
@@ -73,6 +74,7 @@ export function format(errorMessageCst: CstNode): Word[] {
     { tokenType: 'pipe', nodes: sentenceNode?.children?.pipe },
     { tokenType: 'ampersand', nodes: sentenceNode?.children?.ampersand },
     { tokenType: 'question', nodes: sentenceNode?.children?.question },
+    { tokenType: 'ellipsis', nodes: sentenceNode?.children?.ellipsis },
     { tokenType: 'period', nodes: sentenceNode?.children?.period },
   ] as const;
 
