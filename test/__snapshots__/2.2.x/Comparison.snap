@@ -2973,18 +2973,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 33,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 74,
           "endColumn": 75
         }
       },
@@ -3029,18 +3021,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 96,
-          "endColumn": 135
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 137,
           "endColumn": 138
         }
       },
@@ -3162,18 +3146,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::B",
         "location": {
           "startColumn": 33,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 74,
           "endColumn": 75
         }
       },
@@ -3218,18 +3194,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 96,
-          "endColumn": 135
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 137,
           "endColumn": 138
         }
       },
@@ -7416,18 +7384,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 43,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 84,
           "endColumn": 85
         }
       },
@@ -7472,18 +7432,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 103,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -7629,18 +7581,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 43,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 84,
           "endColumn": 85
         }
       },
@@ -7685,18 +7629,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 103,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -7842,18 +7778,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::B",
         "location": {
           "startColumn": 43,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 84,
           "endColumn": 85
         }
       },
@@ -7898,18 +7826,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 103,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -8055,18 +7975,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::B",
         "location": {
           "startColumn": 43,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 84,
           "endColumn": 85
         }
       },
@@ -8111,18 +8023,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LooseComparisonAgainstEnums\\FooUnitEnum",
+        "type": "static_constant",
+        "value": "LooseComparisonAgainstEnums\\FooUnitEnum::A",
         "location": {
           "startColumn": 103,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -23618,18 +23522,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::A",
         "location": {
           "startColumn": 33,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 46,
           "endColumn": 47
         }
       },
@@ -23642,18 +23538,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::B",
         "location": {
           "startColumn": 52,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 65,
           "endColumn": 66
         }
       },
@@ -24166,18 +24054,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::A",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 47,
           "endColumn": 48
         }
       },
@@ -24190,18 +24070,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::B",
         "location": {
           "startColumn": 53,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 66,
           "endColumn": 67
         }
       },
@@ -24501,18 +24373,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::A",
         "location": {
           "startColumn": 33,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 46,
           "endColumn": 47
         }
       },
@@ -24525,18 +24389,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::B",
         "location": {
           "startColumn": 52,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 65,
           "endColumn": 66
         }
       },
@@ -24743,18 +24599,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::A",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 47,
           "endColumn": 48
         }
       },
@@ -24767,18 +24615,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug7052\\Foo",
+        "type": "static_constant",
+        "value": "Bug7052\\Foo::B",
         "location": {
           "startColumn": 53,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 66,
           "endColumn": 67
         }
       },
@@ -29752,18 +29592,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LastMatchArmAlwaysTrue\\Bar",
+        "type": "static_constant",
+        "value": "LastMatchArmAlwaysTrue\\Bar::ONE",
         "location": {
           "startColumn": 63,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ONE",
-        "location": {
-          "startColumn": 91,
           "endColumn": 94
         }
       },
@@ -29776,18 +29608,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LastMatchArmAlwaysTrue\\Bar",
+        "type": "static_constant",
+        "value": "LastMatchArmAlwaysTrue\\Bar::ONE",
         "location": {
           "startColumn": 99,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ONE",
-        "location": {
-          "startColumn": 127,
           "endColumn": 130
         }
       },
@@ -29901,18 +29725,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LastMatchArmAlwaysTrue\\Foo",
+        "type": "static_constant",
+        "value": "LastMatchArmAlwaysTrue\\Foo::TWO",
         "location": {
           "startColumn": 63,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TWO",
-        "location": {
-          "startColumn": 91,
           "endColumn": 94
         }
       },
@@ -29925,18 +29741,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "LastMatchArmAlwaysTrue\\Foo",
+        "type": "static_constant",
+        "value": "LastMatchArmAlwaysTrue\\Foo::TWO",
         "location": {
           "startColumn": 99,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TWO",
-        "location": {
-          "startColumn": 127,
           "endColumn": 130
         }
       },
@@ -30050,18 +29858,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchAlwaysTrueLastArm\\Foo",
+        "type": "static_constant",
+        "value": "MatchAlwaysTrueLastArm\\Foo::BAR",
         "location": {
           "startColumn": 63,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 91,
           "endColumn": 94
         }
       },
@@ -30074,18 +29874,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchAlwaysTrueLastArm\\Foo",
+        "type": "static_constant",
+        "value": "MatchAlwaysTrueLastArm\\Foo::BAR",
         "location": {
           "startColumn": 99,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 127,
           "endColumn": 130
         }
       },
@@ -30970,18 +30762,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug8240\\Foo2",
+        "type": "static_constant",
+        "value": "Bug8240\\Foo2::BAZ",
         "location": {
           "startColumn": 29,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAZ",
-        "location": {
-          "startColumn": 43,
           "endColumn": 46
         }
       },
@@ -30994,18 +30778,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug8240\\Foo2",
+        "type": "static_constant",
+        "value": "Bug8240\\Foo2::BAZ",
         "location": {
           "startColumn": 51,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAZ",
-        "location": {
-          "startColumn": 65,
           "endColumn": 68
         }
       },
@@ -31079,18 +30855,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug8240\\Foo",
+        "type": "static_constant",
+        "value": "Bug8240\\Foo::BAR",
         "location": {
           "startColumn": 29,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 42,
           "endColumn": 45
         }
       },
@@ -31103,18 +30871,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug8240\\Foo",
+        "type": "static_constant",
+        "value": "Bug8240\\Foo::BAR",
         "location": {
           "startColumn": 50,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 63,
           "endColumn": 66
         }
       },
@@ -31204,18 +30964,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::ONE",
         "location": {
           "startColumn": 48,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ONE",
-        "location": {
-          "startColumn": 64,
           "endColumn": 67
         }
       },
@@ -31289,18 +31041,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::THREE",
         "location": {
           "startColumn": 29,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "THREE",
-        "location": {
-          "startColumn": 45,
           "endColumn": 50
         }
       },
@@ -31313,18 +31057,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::THREE",
         "location": {
           "startColumn": 55,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "THREE",
-        "location": {
-          "startColumn": 71,
           "endColumn": 76
         }
       },
@@ -31398,18 +31134,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::THREE",
         "location": {
           "startColumn": 29,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "THREE",
-        "location": {
-          "startColumn": 45,
           "endColumn": 50
         }
       },
@@ -31422,18 +31150,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::TWO",
         "location": {
           "startColumn": 51,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TWO",
-        "location": {
-          "startColumn": 67,
           "endColumn": 70
         }
       },
@@ -31446,18 +31166,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\DifferentEnum",
+        "type": "static_constant",
+        "value": "MatchEnums\\DifferentEnum::ONE",
         "location": {
           "startColumn": 75,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ONE",
-        "location": {
-          "startColumn": 101,
           "endColumn": 104
         }
       },
@@ -32132,18 +31844,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::THREE",
         "location": {
           "startColumn": 50,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "THREE",
-        "location": {
-          "startColumn": 66,
           "endColumn": 71
         }
       }
@@ -32935,18 +32639,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::THREE",
         "location": {
           "startColumn": 51,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "THREE",
-        "location": {
-          "startColumn": 67,
           "endColumn": 72
         }
       },
@@ -32959,18 +32655,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MatchEnums\\Foo",
+        "type": "static_constant",
+        "value": "MatchEnums\\Foo::TWO",
         "location": {
           "startColumn": 73,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TWO",
-        "location": {
-          "startColumn": 89,
           "endColumn": 92
         }
       }
@@ -33166,18 +32854,10 @@
     "input": "MatchEnumPartialArmRegression\\MyEnum::A",
     "tokens": [
       {
-        "type": "namespaced_name",
-        "value": "MatchEnumPartialArmRegression\\MyEnum",
+        "type": "static_constant",
+        "value": "MatchEnumPartialArmRegression\\MyEnum::A",
         "location": {
           "startColumn": 0,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 38,
           "endColumn": 39
         }
       }
@@ -36985,18 +36665,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug9142\\MyEnum",
+        "type": "static_constant",
+        "value": "Bug9142\\MyEnum::Three",
         "location": {
           "startColumn": 62,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Three",
-        "location": {
-          "startColumn": 78,
           "endColumn": 83
         }
       },
@@ -41876,18 +41548,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug8485\\FooEnum",
+        "type": "static_constant",
+        "value": "Bug8485\\FooEnum::C",
         "location": {
           "startColumn": 36,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "C",
-        "location": {
-          "startColumn": 53,
           "endColumn": 54
         }
       },
@@ -41900,18 +41564,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug8485\\FooEnum",
+        "type": "static_constant",
+        "value": "Bug8485\\FooEnum::C",
         "location": {
           "startColumn": 59,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "C",
-        "location": {
-          "startColumn": 76,
           "endColumn": 77
         }
       },
@@ -42017,18 +41673,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug9142\\MyEnum",
+        "type": "static_constant",
+        "value": "Bug9142\\MyEnum::Three",
         "location": {
           "startColumn": 55,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Three",
-        "location": {
-          "startColumn": 71,
           "endColumn": 76
         }
       },
@@ -42336,18 +41984,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "StrictComparisonEnumTips\\SomeEnum",
+        "type": "static_constant",
+        "value": "StrictComparisonEnumTips\\SomeEnum::Two",
         "location": {
           "startColumn": 36,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Two",
-        "location": {
-          "startColumn": 71,
           "endColumn": 74
         }
       },
@@ -42360,18 +42000,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "StrictComparisonEnumTips\\SomeEnum",
+        "type": "static_constant",
+        "value": "StrictComparisonEnumTips\\SomeEnum::Two",
         "location": {
           "startColumn": 79,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Two",
-        "location": {
-          "startColumn": 114,
           "endColumn": 117
         }
       },

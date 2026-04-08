@@ -11,18 +11,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PHPStan\\Analyser\\NodeScopeResolver",
+        "type": "static_constant",
+        "value": "PHPStan\\Analyser\\NodeScopeResolver::FOO",
         "location": {
           "startColumn": 10,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 46,
           "endColumn": 49
         }
       },

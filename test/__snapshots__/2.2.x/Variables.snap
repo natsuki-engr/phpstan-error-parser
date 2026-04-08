@@ -983,18 +983,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12421\\PhpdocImmutableClass",
+        "type": "static_property",
+        "value": "Bug12421\\PhpdocImmutableClass::$y",
         "location": {
           "startColumn": 23,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 54,
           "endColumn": 56
         }
       },
@@ -1044,18 +1036,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12421\\PhpdocReadonlyClass",
+        "type": "static_property",
+        "value": "Bug12421\\PhpdocReadonlyClass::$y",
         "location": {
           "startColumn": 23,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 53,
           "endColumn": 55
         }
       },
@@ -1105,18 +1089,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12421\\PhpdocReadonlyProperty",
+        "type": "static_property",
+        "value": "Bug12421\\PhpdocReadonlyProperty::$y",
         "location": {
           "startColumn": 23,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 56,
           "endColumn": 58
         }
       },
@@ -1812,18 +1788,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12421\\NativeReadonlyClass",
+        "type": "static_property",
+        "value": "Bug12421\\NativeReadonlyClass::$y",
         "location": {
           "startColumn": 22,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 52,
           "endColumn": 54
         }
       },
@@ -1873,18 +1841,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12421\\NativeReadonlyProperty",
+        "type": "static_property",
+        "value": "Bug12421\\NativeReadonlyProperty::$y",
         "location": {
           "startColumn": 22,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 55,
           "endColumn": 57
         }
       },
@@ -11994,18 +11954,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug14393\\MyClass",
+        "type": "static_property",
+        "value": "Bug14393\\MyClass::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 27,
           "endColumn": 29
         }
       },
@@ -12111,18 +12063,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug14393\\MyClass",
+        "type": "static_property",
+        "value": "Bug14393\\MyClass::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 27,
           "endColumn": 29
         }
       },
@@ -12244,18 +12188,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug14393\\MyClassPhpDoc",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassPhpDoc::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 33,
           "endColumn": 35
         }
       },
@@ -12361,18 +12297,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug14393\\MyClassPhpDoc",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassPhpDoc::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 33,
           "endColumn": 35
         }
       },
@@ -12494,18 +12422,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug4846\\Foo",
+        "type": "static_property",
+        "value": "Bug4846\\Foo::$alwaysString",
         "location": {
           "startColumn": 9,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysString",
-        "location": {
-          "startColumn": 22,
           "endColumn": 35
         }
       },
@@ -12627,18 +12547,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceAssignRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$alwaysNull",
         "location": {
           "startColumn": 9,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysNull",
-        "location": {
-          "startColumn": 41,
           "endColumn": 52
         }
       },
@@ -12760,18 +12672,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceAssignRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 41,
           "endColumn": 48
         }
       },
@@ -12893,18 +12797,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$alwaysNull",
         "location": {
           "startColumn": 9,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysNull",
-        "location": {
-          "startColumn": 35,
           "endColumn": 46
         }
       },
@@ -13026,18 +12922,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 35,
           "endColumn": 42
         }
       },
@@ -13159,18 +13047,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetNativePropertyTypes\\Foo",
+        "type": "static_property",
+        "value": "IssetNativePropertyTypes\\Foo::$hasDefaultValue",
         "location": {
           "startColumn": 9,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$hasDefaultValue",
-        "location": {
-          "startColumn": 39,
           "endColumn": 55
         }
       },
@@ -13276,18 +13156,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetNativePropertyTypes\\Foo",
+        "type": "static_property",
+        "value": "IssetNativePropertyTypes\\Foo::$isAssignedBefore",
         "location": {
           "startColumn": 9,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$isAssignedBefore",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -13393,18 +13265,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\MoreEmptyCases",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\MoreEmptyCases::$false",
         "location": {
           "startColumn": 9,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$false",
-        "location": {
-          "startColumn": 73,
           "endColumn": 79
         }
       },
@@ -13502,18 +13366,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\MoreEmptyCases",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\MoreEmptyCases::$true",
         "location": {
           "startColumn": 9,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$true",
-        "location": {
-          "startColumn": 73,
           "endColumn": 78
         }
       },
@@ -13611,18 +13467,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\User",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\User::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 63,
           "endColumn": 70
         }
       },
@@ -13720,18 +13568,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\User",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\User::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 63,
           "endColumn": 70
         }
       },
@@ -13845,18 +13685,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$alwaysNull",
         "location": {
           "startColumn": 9,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysNull",
-        "location": {
-          "startColumn": 32,
           "endColumn": 43
         }
       },
@@ -13962,18 +13794,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 32,
           "endColumn": 39
         }
       },
@@ -14087,18 +13911,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug14393\\MyClassStatic",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassStatic::$i",
         "location": {
           "startColumn": 16,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 40,
           "endColumn": 42
         }
       },
@@ -14212,18 +14028,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug14393\\MyClassStatic",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassStatic::$i",
         "location": {
           "startColumn": 16,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 40,
           "endColumn": 42
         }
       },
@@ -14353,18 +14161,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceAssignRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$staticAlwaysNull",
         "location": {
           "startColumn": 16,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticAlwaysNull",
-        "location": {
-          "startColumn": 48,
           "endColumn": 65
         }
       },
@@ -14494,18 +14294,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceAssignRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$staticString",
         "location": {
           "startColumn": 16,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticString",
-        "location": {
-          "startColumn": 48,
           "endColumn": 61
         }
       },
@@ -14635,18 +14427,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$staticAlwaysNull",
         "location": {
           "startColumn": 16,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticAlwaysNull",
-        "location": {
-          "startColumn": 42,
           "endColumn": 59
         }
       },
@@ -14776,18 +14560,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CoalesceRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$staticString",
         "location": {
           "startColumn": 16,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticString",
-        "location": {
-          "startColumn": 42,
           "endColumn": 55
         }
       },
@@ -14917,18 +14693,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$staticAlwaysNull",
         "location": {
           "startColumn": 16,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticAlwaysNull",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -15042,18 +14810,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IssetRule\\FooCoalesce",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$staticString",
         "location": {
           "startColumn": 16,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticString",
-        "location": {
-          "startColumn": 39,
           "endColumn": 52
         }
       },

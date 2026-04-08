@@ -1353,18 +1353,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateConstantDynamicFetch\\Baz",
+        "type": "static_constant",
+        "value": "UnusedPrivateConstantDynamicFetch\\Baz::FOO",
         "location": {
           "startColumn": 9,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 48,
           "endColumn": 51
         }
       },
@@ -1406,26 +1398,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateConstantEnum\\Foo",
+        "type": "static_constant",
+        "value": "UnusedPrivateConstantEnum\\Foo::TEST_2",
         "location": {
           "startColumn": 9,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEST",
-        "location": {
-          "startColumn": 40,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 45,
           "endColumn": 46
         }
       },
@@ -1467,26 +1443,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateConstant\\Foo",
+        "type": "static_constant",
+        "value": "UnusedPrivateConstant\\Foo::BAR_CONST",
         "location": {
           "startColumn": 9,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONST",
-        "location": {
-          "startColumn": 40,
           "endColumn": 45
         }
       },
@@ -1528,18 +1488,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateConstant\\TestExtension",
+        "type": "static_constant",
+        "value": "UnusedPrivateConstant\\TestExtension::UNUSED",
         "location": {
           "startColumn": 9,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "UNUSED",
-        "location": {
-          "startColumn": 46,
           "endColumn": 52
         }
       },
@@ -3681,18 +3633,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11802\\HelloWorld",
+        "type": "static_property",
+        "value": "Bug11802\\HelloWorld::$isFinal",
         "location": {
           "startColumn": 9,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$isFinal",
-        "location": {
-          "startColumn": 30,
           "endColumn": 38
         }
       },
@@ -3766,18 +3710,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug3636\\Bar",
+        "type": "static_property",
+        "value": "Bug3636\\Bar::$date",
         "location": {
           "startColumn": 9,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$date",
-        "location": {
-          "startColumn": 22,
           "endColumn": 27
         }
       },
@@ -3851,18 +3787,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PrivatePropertyWithTags\\Foo",
+        "type": "static_property",
+        "value": "PrivatePropertyWithTags\\Foo::$text",
         "location": {
           "startColumn": 9,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$text",
-        "location": {
-          "startColumn": 38,
           "endColumn": 43
         }
       },
@@ -3936,18 +3864,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PrivatePropertyWithTags\\Foo",
+        "type": "static_property",
+        "value": "PrivatePropertyWithTags\\Foo::$title",
         "location": {
           "startColumn": 9,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$title",
-        "location": {
-          "startColumn": 38,
           "endColumn": 44
         }
       },
@@ -4021,18 +3941,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivatePromotedProperty\\Foo",
+        "type": "static_property",
+        "value": "UnusedPrivatePromotedProperty\\Foo::$lorem",
         "location": {
           "startColumn": 9,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$lorem",
-        "location": {
-          "startColumn": 44,
           "endColumn": 50
         }
       },
@@ -4106,18 +4018,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\ArrayAssign",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\ArrayAssign::$foo",
         "location": {
           "startColumn": 9,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 44,
           "endColumn": 48
         }
       },
@@ -4191,18 +4095,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Bar",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Bar::$baz",
         "location": {
           "startColumn": 9,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$baz",
-        "location": {
-          "startColumn": 36,
           "endColumn": 40
         }
       },
@@ -4276,18 +4172,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\DolorWithAnonymous",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\DolorWithAnonymous::$foo",
         "location": {
           "startColumn": 9,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 51,
           "endColumn": 55
         }
       },
@@ -4329,18 +4217,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Foo",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Foo::$bar",
         "location": {
           "startColumn": 9,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 36,
           "endColumn": 40
         }
       },
@@ -4414,18 +4294,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Foo",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Foo::$baz",
         "location": {
           "startColumn": 9,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$baz",
-        "location": {
-          "startColumn": 36,
           "endColumn": 40
         }
       },
@@ -4467,18 +4339,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Foo",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Foo::$lorem",
         "location": {
           "startColumn": 9,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$lorem",
-        "location": {
-          "startColumn": 36,
           "endColumn": 42
         }
       },
@@ -4552,18 +4416,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\ListAssign",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\ListAssign::$foo",
         "location": {
           "startColumn": 9,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 43,
           "endColumn": 47
         }
       },
@@ -4637,18 +4493,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Lorem",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Lorem::$baz",
         "location": {
           "startColumn": 9,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$baz",
-        "location": {
-          "startColumn": 38,
           "endColumn": 42
         }
       },
@@ -4722,18 +4570,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\TestExtension",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\TestExtension::$read",
         "location": {
           "startColumn": 9,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$read",
-        "location": {
-          "startColumn": 46,
           "endColumn": 51
         }
       },
@@ -4807,18 +4647,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\TestExtension",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\TestExtension::$unused",
         "location": {
           "startColumn": 9,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unused",
-        "location": {
-          "startColumn": 46,
           "endColumn": 53
         }
       },
@@ -4860,18 +4692,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\TestExtension",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\TestExtension::$written",
         "location": {
           "startColumn": 9,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$written",
-        "location": {
-          "startColumn": 46,
           "endColumn": 54
         }
       },
@@ -5107,18 +4931,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Baz",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Baz::$bar",
         "location": {
           "startColumn": 16,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 43,
           "endColumn": 47
         }
       },
@@ -5200,18 +5016,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Baz",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Baz::$baz",
         "location": {
           "startColumn": 16,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$baz",
-        "location": {
-          "startColumn": 43,
           "endColumn": 47
         }
       },
@@ -5261,18 +5069,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "UnusedPrivateProperty\\Baz",
+        "type": "static_property",
+        "value": "UnusedPrivateProperty\\Baz::$lorem",
         "location": {
           "startColumn": 16,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$lorem",
-        "location": {
-          "startColumn": 43,
           "endColumn": 49
         }
       },

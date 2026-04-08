@@ -1674,18 +1674,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$genericIncompatibleTypeProjection",
         "location": {
           "startColumn": 152,
-          "endColumn": 181
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$genericIncompatibleTypeProjection",
-        "location": {
-          "startColumn": 183,
           "endColumn": 217
         }
       },
@@ -2766,18 +2758,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$genericRedundantTypeProjection",
         "location": {
           "startColumn": 144,
-          "endColumn": 173
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$genericRedundantTypeProjection",
-        "location": {
-          "startColumn": 175,
           "endColumn": 206
         }
       },
@@ -5328,18 +5312,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$tooManyTypesGenericfoo",
         "location": {
           "startColumn": 120,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$tooManyTypesGenericfoo",
-        "location": {
-          "startColumn": 151,
           "endColumn": 174
         }
       },
@@ -5850,18 +5826,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$tooManyTypesGenericfoo",
         "location": {
           "startColumn": 116,
-          "endColumn": 163
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$tooManyTypesGenericfoo",
-        "location": {
-          "startColumn": 165,
           "endColumn": 188
         }
       },
@@ -6489,18 +6457,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$notEnoughTypesGenericfoo",
         "location": {
           "startColumn": 86,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$notEnoughTypesGenericfoo",
-        "location": {
-          "startColumn": 117,
           "endColumn": 142
         }
       },
@@ -6915,18 +6875,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$notEnoughTypesGenericfoo",
         "location": {
           "startColumn": 82,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$notEnoughTypesGenericfoo",
-        "location": {
-          "startColumn": 131,
           "endColumn": 156
         }
       },
@@ -26707,18 +26659,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleClassConstantPhpDocNativeType\\Foo",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDocNativeType\\Foo::BAZ",
         "location": {
           "startColumn": 29,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAZ",
-        "location": {
-          "startColumn": 76,
           "endColumn": 79
         }
       },
@@ -26848,18 +26792,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleClassConstantPhpDocNativeType\\Foo",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDocNativeType\\Foo::LOREM",
         "location": {
           "startColumn": 29,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "LOREM",
-        "location": {
-          "startColumn": 76,
           "endColumn": 81
         }
       },
@@ -27013,18 +26949,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleClassConstantPhpDoc\\Foo",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDoc\\Foo::DOLOR",
         "location": {
           "startColumn": 29,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DOLOR",
-        "location": {
-          "startColumn": 66,
           "endColumn": 71
         }
       },
@@ -27186,18 +27114,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleClassConstantPhpDoc\\Foo",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDoc\\Foo::FOO",
         "location": {
           "startColumn": 29,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 66,
           "endColumn": 69
         }
       },
@@ -27279,18 +27199,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatiblePhpDocPropertyNativeType\\Foo",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo::$foo",
         "location": {
           "startColumn": 29,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 71,
           "endColumn": 75
         }
       },
@@ -27420,18 +27332,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatiblePhpDocPropertyNativeType\\Foo",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo::$selfTwo",
         "location": {
           "startColumn": 29,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$selfTwo",
-        "location": {
-          "startColumn": 71,
           "endColumn": 79
         }
       },
@@ -27569,18 +27473,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatiblePhpDocPropertyNativeType\\Foo",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo::$stringOrInt",
         "location": {
           "startColumn": 29,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$stringOrInt",
-        "location": {
-          "startColumn": 71,
           "endColumn": 83
         }
       },
@@ -27734,18 +27630,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatiblePhpDocPropertyNativeType\\Lorem",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Lorem::$string",
         "location": {
           "startColumn": 29,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 73,
           "endColumn": 80
         }
       },
@@ -27883,18 +27771,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$bar",
         "location": {
           "startColumn": 29,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 60,
           "endColumn": 64
         }
       },
@@ -27976,18 +27856,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$classStringInt",
         "location": {
           "startColumn": 29,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$classStringInt",
-        "location": {
-          "startColumn": 60,
           "endColumn": 75
         }
       },
@@ -28069,18 +27941,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$fooGeneric",
         "location": {
           "startColumn": 29,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$fooGeneric",
-        "location": {
-          "startColumn": 60,
           "endColumn": 71
         }
       },
@@ -28242,18 +28106,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$unknownClassConstant",
         "location": {
           "startColumn": 29,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant",
-        "location": {
-          "startColumn": 60,
           "endColumn": 81
         }
       },
@@ -28335,18 +28191,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$unknownClassConstant2",
         "location": {
           "startColumn": 29,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant2",
-        "location": {
-          "startColumn": 60,
           "endColumn": 82
         }
       },
@@ -38788,18 +38636,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\BazWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\BazWithProperty::$bar",
         "location": {
           "startColumn": 25,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 74,
           "endColumn": 78
         }
       },
@@ -38921,18 +38761,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$bar",
         "location": {
           "startColumn": 25,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 74,
           "endColumn": 78
         }
       },
@@ -39006,18 +38838,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$classStringInt",
         "location": {
           "startColumn": 25,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$classStringInt",
-        "location": {
-          "startColumn": 74,
           "endColumn": 89
         }
       },
@@ -39091,18 +38915,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$fooGeneric",
         "location": {
           "startColumn": 25,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$fooGeneric",
-        "location": {
-          "startColumn": 74,
           "endColumn": 85
         }
       },
@@ -39256,18 +39072,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$unknownClassConstant",
         "location": {
           "startColumn": 25,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant",
-        "location": {
-          "startColumn": 74,
           "endColumn": 95
         }
       },
@@ -39341,18 +39149,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$unknownClassConstant2",
         "location": {
           "startColumn": 25,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant2",
-        "location": {
-          "startColumn": 74,
           "endColumn": 96
         }
       },
@@ -40624,18 +40424,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$invalidTypeGenericfoo",
         "location": {
           "startColumn": 115,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$invalidTypeGenericfoo",
-        "location": {
-          "startColumn": 146,
           "endColumn": 168
         }
       },
@@ -41130,18 +40922,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$invalidTypeGenericfoo",
         "location": {
           "startColumn": 111,
-          "endColumn": 158
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$invalidTypeGenericfoo",
-        "location": {
-          "startColumn": 160,
           "endColumn": 182
         }
       },
@@ -43114,18 +42898,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDoc\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$anotherInvalidTypeGenericfoo",
         "location": {
           "startColumn": 113,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$anotherInvalidTypeGenericfoo",
-        "location": {
-          "startColumn": 144,
           "endColumn": 173
         }
       },
@@ -43620,18 +43396,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$anotherInvalidTypeGenericfoo",
         "location": {
           "startColumn": 109,
-          "endColumn": 156
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$anotherInvalidTypeGenericfoo",
-        "location": {
-          "startColumn": 158,
           "endColumn": 187
         }
       },

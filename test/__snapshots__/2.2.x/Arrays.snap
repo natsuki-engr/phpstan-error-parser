@@ -1168,18 +1168,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "self",
+        "type": "static_constant",
+        "value": "self::EQ",
         "location": {
           "startColumn": 43,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "EQ",
-        "location": {
-          "startColumn": 49,
           "endColumn": 51
         }
       },
@@ -1192,18 +1184,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "self",
+        "type": "static_constant",
+        "value": "self::IS",
         "location": {
           "startColumn": 53,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IS",
-        "location": {
-          "startColumn": 59,
           "endColumn": 61
         }
       },
@@ -7318,18 +7302,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug6315\\FooEnum",
+        "type": "static_constant",
+        "value": "Bug6315\\FooEnum::A",
         "location": {
           "startColumn": 23,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 40,
           "endColumn": 41
         }
       },
@@ -7379,18 +7355,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug6315\\FooEnum",
+        "type": "static_constant",
+        "value": "Bug6315\\FooEnum::B",
         "location": {
           "startColumn": 23,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 40,
           "endColumn": 41
         }
       },
@@ -7493,18 +7461,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "InvalidKeyArrayItemEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "InvalidKeyArrayItemEnum\\FooEnum::A",
         "location": {
           "startColumn": 23,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },

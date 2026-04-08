@@ -35141,18 +35141,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12676\\A",
+        "type": "static_property",
+        "value": "Bug12676\\A::$a",
         "location": {
           "startColumn": 84,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 96,
           "endColumn": 98
         }
       },
@@ -35282,18 +35274,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12676\\B",
+        "type": "static_property",
+        "value": "Bug12676\\B::$readonlyArr",
         "location": {
           "startColumn": 84,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$readonlyArr",
-        "location": {
-          "startColumn": 96,
           "endColumn": 108
         }
       },
@@ -35431,18 +35415,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug12676\\C",
+        "type": "static_property",
+        "value": "Bug12676\\C::$readonlyArr",
         "location": {
           "startColumn": 91,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$readonlyArr",
-        "location": {
-          "startColumn": 103,
           "endColumn": 115
         }
       },
@@ -36091,18 +36067,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 109,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 153,
           "endColumn": 154
         }
       },
@@ -36517,18 +36485,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11141\\Language",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::DAN",
         "location": {
           "startColumn": 101,
-          "endColumn": 118
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DAN",
-        "location": {
-          "startColumn": 120,
           "endColumn": 123
         }
       },
@@ -36541,18 +36501,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11141\\Language",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::ENG",
         "location": {
           "startColumn": 124,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ENG",
-        "location": {
-          "startColumn": 143,
           "endColumn": 146
         }
       },
@@ -36565,18 +36517,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11141\\Language",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::GER",
         "location": {
           "startColumn": 147,
-          "endColumn": 164
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GER",
-        "location": {
-          "startColumn": 166,
           "endColumn": 169
         }
       },
@@ -36951,18 +36895,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 106,
-          "endColumn": 148
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 150,
           "endColumn": 151
         }
       },
@@ -37526,18 +37462,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11883\\SomeEnum",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::A",
         "location": {
           "startColumn": 104,
-          "endColumn": 121
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 123,
           "endColumn": 124
         }
       },
@@ -37550,18 +37478,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11883\\SomeEnum",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::B",
         "location": {
           "startColumn": 125,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -38141,18 +38061,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToNumberFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToNumberFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 104,
-          "endColumn": 146
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 148,
           "endColumn": 149
         }
       },
@@ -40284,18 +40196,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11883\\SomeEnum",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::A",
         "location": {
           "startColumn": 100,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 119,
           "endColumn": 120
         }
       },
@@ -40308,18 +40212,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11883\\SomeEnum",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::B",
         "location": {
           "startColumn": 121,
-          "endColumn": 138
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 140,
           "endColumn": 141
         }
       },
@@ -40899,18 +40795,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToNumberFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToNumberFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 100,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -43042,18 +42930,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 103,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 151,
           "endColumn": 152
         }
       },
@@ -44437,18 +44317,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 90,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 138,
           "endColumn": 139
         }
       },
@@ -45478,18 +45350,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 102,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 146,
           "endColumn": 147
         }
       },
@@ -45904,18 +45768,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 98,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 142,
           "endColumn": 143
         }
       },
@@ -46431,18 +46287,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 90,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 138,
           "endColumn": 139
         }
       },
@@ -47070,18 +46918,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 95,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 143,
           "endColumn": 144
         }
       },
@@ -53103,18 +52943,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 103,
-          "endColumn": 145
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 147,
           "endColumn": 148
         }
       },
@@ -53702,18 +53534,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11111\\Language",
+        "type": "static_constant",
+        "value": "Bug11111\\Language::DUT",
         "location": {
           "startColumn": 105,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DUT",
-        "location": {
-          "startColumn": 124,
           "endColumn": 127
         }
       },
@@ -53726,18 +53550,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11111\\Language",
+        "type": "static_constant",
+        "value": "Bug11111\\Language::ITA",
         "location": {
           "startColumn": 128,
-          "endColumn": 145
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ITA",
-        "location": {
-          "startColumn": 147,
           "endColumn": 150
         }
       },
@@ -53923,18 +53739,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 105,
-          "endColumn": 147
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 149,
           "endColumn": 150
         }
       },
@@ -64115,18 +63923,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImplodeParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ImplodeParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 74,
-          "endColumn": 123
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 125,
           "endColumn": 126
         }
       },
@@ -65374,18 +65174,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug11141\\Language",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::DAN",
         "location": {
           "startColumn": 102,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DAN",
-        "location": {
-          "startColumn": 121,
           "endColumn": 124
         }
       },
@@ -65571,18 +65363,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 102,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 146,
           "endColumn": 147
         }
       },
@@ -66146,18 +65930,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 108,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 152,
           "endColumn": 153
         }
       },
@@ -66532,18 +66308,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 107,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 151,
           "endColumn": 152
         }
       },
@@ -75775,18 +75543,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CurlSetOptArray\\BackedRequestMethod",
+        "type": "static_constant",
+        "value": "CurlSetOptArray\\BackedRequestMethod::POST",
         "location": {
           "startColumn": 212,
-          "endColumn": 247
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "POST",
-        "location": {
-          "startColumn": 249,
           "endColumn": 253
         }
       },
@@ -76316,18 +76076,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CurlSetOptArray\\RequestMethod",
+        "type": "static_constant",
+        "value": "CurlSetOptArray\\RequestMethod::POST",
         "location": {
           "startColumn": 212,
-          "endColumn": 241
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "POST",
-        "location": {
-          "startColumn": 243,
           "endColumn": 247
         }
       },
@@ -94195,18 +93947,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctionsEnum\\FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
           "startColumn": 99,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 143,
           "endColumn": 144
         }
       },
