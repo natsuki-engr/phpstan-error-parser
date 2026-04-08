@@ -18,7 +18,7 @@ jobs:
       github.event_name == 'pull_request' ||
       (github.event_name == 'issue_comment' &&
        github.event.issue.pull_request &&
-       github.event.comment.body == '/benchmark')
+       startsWith(github.event.comment.body, '/benchmark'))
 
     steps:
       - name: Get PR info
@@ -101,30 +101,67 @@ jobs:
             body += `| Metric | Base | PR | Change |\n`;
             body += `|--------|------|-----|--------|\n`;
 
-            const metrics = [
-              ['Messages', 'messages', '', false],
-              ['Mean (ms)', 'mean', 'ms', true],
-              ['Median (ms)', 'median', 'ms', true],
-              ['Min (ms)', 'min', 'ms', true],
-              ['Max (ms)', 'max', 'ms', true],
-              ['Per message (ms)', 'perMessage', 'ms', true],
-            ];
+            function fmtChange(baseVal, prVal) {
+              if (baseVal == null || prVal == null || baseVal <= 0) return '';
+              const pct = ((prVal - baseVal) / baseVal * 100).toFixed(1);
+              const sign = pct > 0 ? '+' : '';
+              const emoji = pct > 10 ? ' ⚠️' : pct < -10 ? ' 🚀' : '';
+              return `${sign}${pct}%${emoji}`;
+            }
 
-            for (const [label, key, unit, showChange] of metrics) {
-              const baseVal = base?.[key];
-              const prVal = pr[key];
+            function addRow(label, baseVal, prVal, showChange = true) {
               const baseStr = baseVal != null ? `${baseVal}` : 'N/A';
               const prStr = prVal != null ? `${prVal}` : 'N/A';
-
-              let change = '';
-              if (showChange && baseVal != null && prVal != null && baseVal > 0) {
-                const pct = ((prVal - baseVal) / baseVal * 100).toFixed(1);
-                const sign = pct > 0 ? '+' : '';
-                const emoji = pct > 10 ? ' ⚠️' : pct < -10 ? ' 🚀' : '';
-                change = `${sign}${pct}%${emoji}`;
-              }
-
+              const change = showChange ? fmtChange(baseVal, prVal) : '';
               body += `| ${label} | ${baseStr} | ${prStr} | ${change} |\n`;
+            }
+
+            addRow('Messages', base?.messages, pr.messages, false);
+            addRow('**Total Mean (ms)**', base?.mean, pr.mean);
+            addRow('Total Median (ms)', base?.median, pr.median);
+            addRow('Per message (ms)', base?.perMessage, pr.perMessage);
+
+            // Phase breakdown
+            if (pr.phases) {
+              body += `\n### Phase Breakdown\n\n`;
+              body += `| Phase | Base (ms) | PR (ms) | Change |\n`;
+              body += `|-------|----------|---------|--------|\n`;
+              for (const phase of ['lexer', 'parserInit', 'parserExec', 'formatter']) {
+                const labels = { lexer: 'Lexer', parserInit: 'Parser init', parserExec: 'Parser exec', formatter: 'Formatter' };
+                const basePhase = base?.phases?.[phase];
+                const prPhase = pr.phases[phase];
+                addRow(labels[phase] ?? phase, basePhase?.mean, prPhase?.mean);
+              }
+            }
+
+            // Slowest messages
+            if (pr.slowest?.length > 0) {
+              body += `\n### Top ${pr.slowest.length} Slowest Messages\n\n`;
+              body += `| # | Time (ms) | Tokens | Message |\n`;
+              body += `|---|----------|--------|--------|\n`;
+              pr.slowest.forEach((s, i) => {
+                const msg = s.message.replace(/\|/g, '\\|');
+                body += `| ${i + 1} | ${s.time} | ${s.tokenCount} | \`${msg}\` |\n`;
+              });
+            }
+
+            // Token buckets
+            if (pr.tokenBuckets) {
+              body += `\n### Parse Time by Token Count\n\n`;
+              body += `| Tokens | Messages | Avg Time (ms) |\n`;
+              body += `|--------|----------|---------------|\n`;
+              for (const bucket of ['1-9', '10-19', '20-29', '30-49', '50+']) {
+                const b = pr.tokenBuckets[bucket];
+                if (b) body += `| ${bucket} | ${b.count} | ${b.avgTime} |\n`;
+              }
+            }
+
+            // Type stats
+            if (pr.typeStats) {
+              body += `\n### Type Detection\n\n`;
+              body += `- Total tokens: ${pr.typeStats.totalTokens}\n`;
+              body += `- Total words output: ${pr.typeStats.totalWords}\n`;
+              body += `- Type words: ${pr.typeStats.typeWords} (${(pr.typeStats.typeRatio * 100).toFixed(1)}%)\n`;
             }
 
             body += `\n> ${pr.iterations} iterations, ${pr.messages} messages. ⚠️ = >10% slower, 🚀 = >10% faster`;
