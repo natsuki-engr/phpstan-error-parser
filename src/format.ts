@@ -37,69 +37,68 @@ export function format(errorMessageCst: CstNode): Word[] {
   const sentenceNode = errorMessageCst?.children?.sentence?.at(0);
   if (sentenceNode === undefined || isIToken(sentenceNode)) return [];
 
-  let words: Word[] = [];
-  const commonWords = sentenceNode?.children?.CommonWord;
-  const functionNames = sentenceNode?.children?.FunctionName;
-  const methodNames = [
-    ...(sentenceNode?.children?.MethodName ?? []),
-    ...(sentenceNode?.children?.StaticMethodName ?? []),
-  ];
-  const docTags = sentenceNode?.children?.DocTag;
-  const variables = sentenceNode?.children?.Variable;
-  const parameterNumbers = sentenceNode?.children?.ParameterNumber;
-  const numbers = sentenceNode?.children?.Number;
-  const comma = sentenceNode?.children?.comma;
-  const singleQuotedStrings = sentenceNode?.children?.SingleQuotedString;
-  const doubleQuotedStrings = sentenceNode?.children?.DoubleQuotedString;
-  const nodeLists = [
-    { tokenType: 'single_quoted_string', nodes: singleQuotedStrings },
-    { tokenType: 'double_quoted_string', nodes: doubleQuotedStrings },
-    { tokenType: 'function_name', nodes: functionNames },
-    { tokenType: 'method_name', nodes: methodNames },
-    { tokenType: 'variable_name', nodes: variables },
-    { tokenType: 'parameter_number', nodes: parameterNumbers },
-    { tokenType: 'number', nodes: numbers },
-    { tokenType: 'common_word', nodes: commonWords },
-    { tokenType: 'doc_tag', nodes: docTags },
-    { tokenType: 'comma', nodes: comma },
-    { tokenType: 'lparen', nodes: sentenceNode?.children?.lparen },
-    { tokenType: 'rparen', nodes: sentenceNode?.children?.rparen },
-    { tokenType: 'colon', nodes: sentenceNode?.children?.colon },
-    { tokenType: 'langle', nodes: sentenceNode?.children?.langle },
-    { tokenType: 'rangle', nodes: sentenceNode?.children?.rangle },
-    { tokenType: 'lbrace', nodes: sentenceNode?.children?.lbrace },
-    { tokenType: 'rbrace', nodes: sentenceNode?.children?.rbrace },
-    { tokenType: 'lbracket', nodes: sentenceNode?.children?.lbracket },
-    { tokenType: 'rbracket', nodes: sentenceNode?.children?.rbracket },
-    { tokenType: 'pipe', nodes: sentenceNode?.children?.pipe },
-    { tokenType: 'ampersand', nodes: sentenceNode?.children?.ampersand },
-    { tokenType: 'question', nodes: sentenceNode?.children?.question },
-    { tokenType: 'ellipsis', nodes: sentenceNode?.children?.ellipsis },
-    { tokenType: 'period', nodes: sentenceNode?.children?.period },
-  ] as const;
+  const words: Word[] = [];
+  collectWords(sentenceNode, words);
 
-  nodeLists.forEach(({ tokenType, nodes }) => {
-    for (const word of nodes ?? []) {
-      if (word === undefined || !isIToken(word)) continue;
-
-      const startColumn = word.startOffset;
-      const endColumn = startColumn + word.image.length;
-      words.push({
-        type: tokenType,
-        value: word.image,
-        location: {
-          startColumn: startColumn,
-          endColumn: endColumn,
-        },
-      });
-    }
-  });
-
-  words = words.sort((a, b) => {
-    return a.location.startColumn - b.location.startColumn;
-  });
-
+  words.sort((a, b) => a.location.startColumn - b.location.startColumn);
   return words;
+}
+
+function collectWords(node: CstNode, words: Word[]): void {
+  const children = node.children;
+  for (const key of Object.keys(children)) {
+    const elements = children[key];
+    if (!elements) continue;
+    for (const element of elements) {
+      if (isIToken(element)) {
+        const tokenType = getTokenType(element.tokenType?.name ?? key);
+        if (tokenType) {
+          words.push({
+            type: tokenType,
+            value: element.image,
+            location: {
+              startColumn: element.startOffset,
+              endColumn: element.startOffset + element.image.length,
+            },
+          });
+        }
+      } else {
+        collectWords(element, words);
+      }
+    }
+  }
+}
+
+const tokenTypeMap: Record<string, Word['type']> = {
+  SingleQuotedString: 'single_quoted_string',
+  DoubleQuotedString: 'double_quoted_string',
+  FunctionName: 'function_name',
+  MethodName: 'method_name',
+  StaticMethodName: 'method_name',
+  Variable: 'variable_name',
+  DocTag: 'doc_tag',
+  ParameterNumber: 'parameter_number',
+  Number: 'number',
+  CommonWord: 'common_word',
+  comma: 'comma',
+  lparen: 'lparen',
+  rparen: 'rparen',
+  colon: 'colon',
+  langle: 'langle',
+  rangle: 'rangle',
+  lbrace: 'lbrace',
+  rbrace: 'rbrace',
+  lbracket: 'lbracket',
+  rbracket: 'rbracket',
+  pipe: 'pipe',
+  ampersand: 'ampersand',
+  question: 'question',
+  ellipsis: 'ellipsis',
+  period: 'period',
+};
+
+function getTokenType(name: string): Word['type'] | null {
+  return tokenTypeMap[name] ?? null;
 }
 
 function isIToken(element: CstElement): element is IToken {
