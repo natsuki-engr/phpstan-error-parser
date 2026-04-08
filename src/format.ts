@@ -25,6 +25,7 @@ export type Word = {
     | 'ampersand'
     | 'static_property'
     | 'static_constant'
+    | 'namespaced_name'
     | 'question'
     | 'ellipsis'
     | 'period';
@@ -96,6 +97,7 @@ const tokenTypeMap: Record<string, Word['type']> = {
   ampersand: 'ampersand',
   StaticProperty: 'static_property',
   StaticConstant: 'static_constant',
+  NamespacedName: 'namespaced_name',
   question: 'question',
   ellipsis: 'ellipsis',
   period: 'period',

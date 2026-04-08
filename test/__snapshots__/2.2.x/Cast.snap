@@ -178,18 +178,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Test",
+        "type": "namespaced_name",
+        "value": "Test\\Foo",
         "location": {
           "startColumn": 12,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 17,
           "endColumn": 20
         }
       },

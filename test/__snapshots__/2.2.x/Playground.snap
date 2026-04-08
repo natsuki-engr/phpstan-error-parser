@@ -11,18 +11,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PromoteParameter",
+        "type": "namespaced_name",
+        "value": "PromoteParameter\\Foo",
         "location": {
           "startColumn": 6,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 23,
           "endColumn": 26
         }
       },

@@ -436,18 +436,10 @@ describe('test formatted results', () => {
         },
       },
       {
-        type: 'common_word',
-        value: 'Test',
+        type: 'namespaced_name',
+        value: 'Test\\Foo',
         location: {
           startColumn: 65,
-          endColumn: 69,
-        },
-      },
-      {
-        type: 'common_word',
-        value: 'Foo',
-        location: {
-          startColumn: 70,
           endColumn: 73,
         },
       },

@@ -324,18 +324,10 @@
     "input": "ScopeFunctionCallStack\\NamedArgumentTest::testMethod",
     "tokens": [
       {
-        "type": "common_word",
-        "value": "ScopeFunctionCallStack",
+        "type": "namespaced_name",
+        "value": "ScopeFunctionCallStack\\NamedArgumentTest",
         "location": {
           "startColumn": 0,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NamedArgumentTest",
-        "location": {
-          "startColumn": 23,
           "endColumn": 40
         }
       },
@@ -353,18 +345,10 @@
     "input": "ScopeFunctionCallStack\\NamedArgumentTest::testMethod ($notImmediate)",
     "tokens": [
       {
-        "type": "common_word",
-        "value": "ScopeFunctionCallStack",
+        "type": "namespaced_name",
+        "value": "ScopeFunctionCallStack\\NamedArgumentTest",
         "location": {
           "startColumn": 0,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NamedArgumentTest",
-        "location": {
-          "startColumn": 23,
           "endColumn": 40
         }
       },

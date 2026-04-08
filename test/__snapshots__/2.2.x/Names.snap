@@ -128,18 +128,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeNamespace",
+        "type": "namespaced_name",
+        "value": "SomeNamespace\\SimpleUses",
         "location": {
           "startColumn": 21,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SimpleUses",
-        "location": {
-          "startColumn": 35,
           "endColumn": 45
         }
       },
@@ -237,18 +229,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeNamespace",
+        "type": "namespaced_name",
+        "value": "SomeNamespace\\GroupedUses",
         "location": {
           "startColumn": 25,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GroupedUses",
-        "location": {
-          "startColumn": 39,
           "endColumn": 50
         }
       },
@@ -346,18 +330,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FirstNamespace",
+        "type": "namespaced_name",
+        "value": "FirstNamespace\\MultipleNamespaces",
         "location": {
           "startColumn": 21,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MultipleNamespaces",
-        "location": {
-          "startColumn": 36,
           "endColumn": 54
         }
       },
@@ -447,18 +423,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeOtherNamespace",
+        "type": "namespaced_name",
+        "value": "SomeOtherNamespace\\FooBar",
         "location": {
           "startColumn": 11,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 30,
           "endColumn": 36
         }
       },
@@ -564,18 +532,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeOtherNamespace",
+        "type": "namespaced_name",
+        "value": "SomeOtherNamespace\\UsesUnderClass",
         "location": {
           "startColumn": 11,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "UsesUnderClass",
-        "location": {
-          "startColumn": 30,
           "endColumn": 44
         }
       },
@@ -681,18 +641,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeOtherNamespace",
+        "type": "namespaced_name",
+        "value": "SomeOtherNamespace\\UsesUnderClass",
         "location": {
           "startColumn": 11,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "UsesUnderClass",
-        "location": {
-          "startColumn": 30,
           "endColumn": 44
         }
       },

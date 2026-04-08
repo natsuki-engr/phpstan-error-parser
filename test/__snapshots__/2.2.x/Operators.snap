@@ -171,18 +171,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -1652,18 +1644,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -2254,18 +2238,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -3089,18 +3065,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -3691,18 +3659,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -5231,18 +5191,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 83,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 107,
           "endColumn": 110
         }
       },
@@ -5965,18 +5917,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 31,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 55,
           "endColumn": 58
         }
       },
@@ -6633,18 +6577,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -7235,18 +7171,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -9399,18 +9327,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -9865,18 +9785,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -11572,18 +11484,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -12275,18 +12179,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -13384,18 +13280,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -14087,18 +13975,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -16012,18 +15892,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -16614,18 +16486,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 83,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 107,
           "endColumn": 110
         }
       },
@@ -17449,18 +17313,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 31,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 55,
           "endColumn": 58
         }
       },
@@ -18152,18 +18008,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 83,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 107,
           "endColumn": 110
         }
       },
@@ -18987,18 +18835,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 31,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 55,
           "endColumn": 58
         }
       },
@@ -19690,18 +19530,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -20323,18 +20155,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -20925,18 +20749,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 82,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 106,
           "endColumn": 109
         }
       },
@@ -21760,18 +21576,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "BinaryOpBenevolentUnion",
+        "type": "namespaced_name",
+        "value": "BinaryOpBenevolentUnion\\Foo",
         "location": {
           "startColumn": 30,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -22295,18 +22103,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidIncDec",
+        "type": "namespaced_name",
+        "value": "InvalidIncDec\\ClassWithToString",
         "location": {
           "startColumn": 17,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassWithToString",
-        "location": {
-          "startColumn": 31,
           "endColumn": 48
         }
       },
@@ -23019,18 +22819,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidIncDec",
+        "type": "namespaced_name",
+        "value": "InvalidIncDec\\ClassWithToString",
         "location": {
           "startColumn": 17,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassWithToString",
-        "location": {
-          "startColumn": 31,
           "endColumn": 48
         }
       },

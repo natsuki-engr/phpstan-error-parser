@@ -8128,10 +8128,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "TooWidePropertyType\\Bar::$c",
+        "type": "namespaced_name",
+        "value": "TooWidePropertyType\\Bar",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$c",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -8301,10 +8309,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "TooWidePropertyType\\Bar::$d",
+        "type": "namespaced_name",
+        "value": "TooWidePropertyType\\Bar",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$d",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -8474,10 +8490,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "TooWidePropertyType\\Foo::$barr",
+        "type": "namespaced_name",
+        "value": "TooWidePropertyType\\Foo",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$barr",
+        "location": {
+          "startColumn": 34,
           "endColumn": 39
         }
       },
@@ -8647,10 +8671,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "TooWidePropertyType\\Foo::$baz",
+        "type": "namespaced_name",
+        "value": "TooWidePropertyType\\Foo",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$baz",
+        "location": {
+          "startColumn": 34,
           "endColumn": 38
         }
       },
@@ -8820,10 +8852,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "TooWidePropertyType\\Foo::$foo",
+        "type": "namespaced_name",
+        "value": "TooWidePropertyType\\Foo",
         "location": {
           "startColumn": 9,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$foo",
+        "location": {
+          "startColumn": 34,
           "endColumn": 38
         }
       },
@@ -9933,10 +9973,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "Bug13384Phpdoc\\ShutdownHandlerPhpdocTypes::$registered",
+        "type": "namespaced_name",
+        "value": "Bug13384Phpdoc\\ShutdownHandlerPhpdocTypes",
         "location": {
           "startColumn": 16,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$registered",
+        "location": {
+          "startColumn": 59,
           "endColumn": 70
         }
       },
@@ -10098,10 +10146,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "Bug13384\\ShutdownHandlerFalseDefault::$registered",
+        "type": "namespaced_name",
+        "value": "Bug13384\\ShutdownHandlerFalseDefault",
         "location": {
           "startColumn": 16,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$registered",
+        "location": {
+          "startColumn": 54,
           "endColumn": 65
         }
       },
@@ -10263,10 +10319,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "Bug13384\\ShutdownHandlerTrueDefault::$registered",
+        "type": "namespaced_name",
+        "value": "Bug13384\\ShutdownHandlerTrueDefault",
         "location": {
           "startColumn": 16,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$registered",
+        "location": {
+          "startColumn": 53,
           "endColumn": 64
         }
       },
@@ -10508,10 +10572,18 @@
         }
       },
       {
-        "type": "static_property",
-        "value": "NestedTooWidePropertyType\\Foo::$a",
+        "type": "namespaced_name",
+        "value": "NestedTooWidePropertyType\\Foo",
         "location": {
           "startColumn": 41,
+          "endColumn": 70
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$a",
+        "location": {
+          "startColumn": 72,
           "endColumn": 74
         }
       },

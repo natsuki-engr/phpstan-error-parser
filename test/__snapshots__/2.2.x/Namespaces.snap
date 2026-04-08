@@ -136,18 +136,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Uses",
+        "type": "namespaced_name",
+        "value": "Uses\\Foo",
         "location": {
           "startColumn": 44,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 49,
           "endColumn": 52
         }
       },
@@ -173,18 +165,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Uses",
+        "type": "namespaced_name",
+        "value": "Uses\\Lorem",
         "location": {
           "startColumn": 10,
-          "endColumn": 14
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Lorem",
-        "location": {
-          "startColumn": 15,
           "endColumn": 20
         }
       },
@@ -229,18 +213,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Uses",
+        "type": "namespaced_name",
+        "value": "Uses\\LOREM",
         "location": {
           "startColumn": 53,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "LOREM",
-        "location": {
-          "startColumn": 58,
           "endColumn": 63
         }
       },
@@ -298,50 +274,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan_156ee64ba\\PrefixedRuntimeException",
         "location": {
           "startColumn": 37,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "number",
-        "value": "156",
-        "location": {
-          "startColumn": 45,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ee",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "number",
-        "value": "64",
-        "location": {
-          "startColumn": 50,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ba",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PrefixedRuntimeException",
-        "location": {
-          "startColumn": 55,
           "endColumn": 79
         }
       },
@@ -375,26 +311,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Uses",
+        "type": "namespaced_name",
+        "value": "Uses\\OTHER_CONSTANT",
         "location": {
           "startColumn": 14,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OTHER",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONSTANT",
-        "location": {
-          "startColumn": 25,
           "endColumn": 33
         }
       },
