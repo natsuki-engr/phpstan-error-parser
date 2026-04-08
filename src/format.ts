@@ -23,6 +23,8 @@ export type Word = {
     | 'rbracket'
     | 'pipe'
     | 'ampersand'
+    | 'static_property'
+    | 'static_constant'
     | 'question'
     | 'ellipsis'
     | 'period';
@@ -92,6 +94,8 @@ const tokenTypeMap: Record<string, Word['type']> = {
   rbracket: 'rbracket',
   pipe: 'pipe',
   ampersand: 'ampersand',
+  StaticProperty: 'static_property',
+  StaticConstant: 'static_constant',
   question: 'question',
   ellipsis: 'ellipsis',
   period: 'period',

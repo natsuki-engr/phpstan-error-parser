@@ -1007,34 +1007,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12421\\PhpdocImmutableClass::$y",
         "location": {
           "startColumn": 23,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "number",
-        "value": "12421",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PhpdocImmutableClass",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 54,
           "endColumn": 56
         }
       },
@@ -1084,34 +1060,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12421\\PhpdocReadonlyClass::$y",
         "location": {
           "startColumn": 23,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "number",
-        "value": "12421",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PhpdocReadonlyClass",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 53,
           "endColumn": 55
         }
       },
@@ -1161,34 +1113,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12421\\PhpdocReadonlyProperty::$y",
         "location": {
           "startColumn": 23,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "number",
-        "value": "12421",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PhpdocReadonlyProperty",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 56,
           "endColumn": 58
         }
       },
@@ -1884,34 +1812,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12421\\NativeReadonlyClass::$y",
         "location": {
           "startColumn": 22,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "number",
-        "value": "12421",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NativeReadonlyClass",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 52,
           "endColumn": 54
         }
       },
@@ -1961,34 +1865,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12421\\NativeReadonlyProperty::$y",
         "location": {
           "startColumn": 22,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "number",
-        "value": "12421",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NativeReadonlyProperty",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$y",
-        "location": {
-          "startColumn": 55,
           "endColumn": 57
         }
       },
@@ -12122,34 +12002,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14393\\MyClass::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "number",
-        "value": "14393",
-        "location": {
-          "startColumn": 12,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyClass",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 27,
           "endColumn": 29
         }
       },
@@ -12255,34 +12111,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14393\\MyClass::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "number",
-        "value": "14393",
-        "location": {
-          "startColumn": 12,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyClass",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 27,
           "endColumn": 29
         }
       },
@@ -12404,34 +12236,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassPhpDoc::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "number",
-        "value": "14393",
-        "location": {
-          "startColumn": 12,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyClassPhpDoc",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 33,
           "endColumn": 35
         }
       },
@@ -12537,34 +12345,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassPhpDoc::$i",
         "location": {
           "startColumn": 9,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "number",
-        "value": "14393",
-        "location": {
-          "startColumn": 12,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyClassPhpDoc",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 33,
           "endColumn": 35
         }
       },
@@ -12686,34 +12470,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug4846\\Foo::$alwaysString",
         "location": {
           "startColumn": 9,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "number",
-        "value": "4846",
-        "location": {
-          "startColumn": 12,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 17,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysString",
-        "location": {
-          "startColumn": 22,
           "endColumn": 35
         }
       },
@@ -12835,26 +12595,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceAssignRule",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$alwaysNull",
         "location": {
           "startColumn": 9,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 28,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysNull",
-        "location": {
-          "startColumn": 41,
           "endColumn": 52
         }
       },
@@ -12976,26 +12720,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceAssignRule",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 28,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 41,
           "endColumn": 48
         }
       },
@@ -13117,26 +12845,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceRule",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$alwaysNull",
         "location": {
           "startColumn": 9,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 22,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysNull",
-        "location": {
-          "startColumn": 35,
           "endColumn": 46
         }
       },
@@ -13258,26 +12970,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceRule",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 22,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 35,
           "endColumn": 42
         }
       },
@@ -13399,26 +13095,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetNativePropertyTypes",
+        "type": "static_property",
+        "value": "IssetNativePropertyTypes\\Foo::$hasDefaultValue",
         "location": {
           "startColumn": 9,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$hasDefaultValue",
-        "location": {
-          "startColumn": 39,
           "endColumn": 55
         }
       },
@@ -13524,26 +13204,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetNativePropertyTypes",
+        "type": "static_property",
+        "value": "IssetNativePropertyTypes\\Foo::$isAssignedBefore",
         "location": {
           "startColumn": 9,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$isAssignedBefore",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -13649,26 +13313,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\MoreEmptyCases::$false",
         "location": {
           "startColumn": 9,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MoreEmptyCases",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$false",
-        "location": {
-          "startColumn": 73,
           "endColumn": 79
         }
       },
@@ -13766,26 +13414,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\MoreEmptyCases::$true",
         "location": {
           "startColumn": 9,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MoreEmptyCases",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$true",
-        "location": {
-          "startColumn": 73,
           "endColumn": 78
         }
       },
@@ -13883,26 +13515,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\User::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "User",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 63,
           "endColumn": 70
         }
       },
@@ -14000,26 +13616,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetOrCoalesceOnNonNullableInitializedProperty",
+        "type": "static_property",
+        "value": "IssetOrCoalesceOnNonNullableInitializedProperty\\User::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "User",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 63,
           "endColumn": 70
         }
       },
@@ -14133,26 +13733,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetRule",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$alwaysNull",
         "location": {
           "startColumn": 9,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$alwaysNull",
-        "location": {
-          "startColumn": 32,
           "endColumn": 43
         }
       },
@@ -14258,26 +13842,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetRule",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$string",
         "location": {
           "startColumn": 9,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 32,
           "endColumn": 39
         }
       },
@@ -14391,34 +13959,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassStatic::$i",
         "location": {
           "startColumn": 16,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "number",
-        "value": "14393",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyClassStatic",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 40,
           "endColumn": 42
         }
       },
@@ -14532,34 +14076,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14393\\MyClassStatic::$i",
         "location": {
           "startColumn": 16,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "number",
-        "value": "14393",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyClassStatic",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$i",
-        "location": {
-          "startColumn": 40,
           "endColumn": 42
         }
       },
@@ -14689,26 +14209,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceAssignRule",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$staticAlwaysNull",
         "location": {
           "startColumn": 16,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticAlwaysNull",
-        "location": {
-          "startColumn": 48,
           "endColumn": 65
         }
       },
@@ -14838,26 +14342,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceAssignRule",
+        "type": "static_property",
+        "value": "CoalesceAssignRule\\FooCoalesce::$staticString",
         "location": {
           "startColumn": 16,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticString",
-        "location": {
-          "startColumn": 48,
           "endColumn": 61
         }
       },
@@ -14987,26 +14475,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceRule",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$staticAlwaysNull",
         "location": {
           "startColumn": 16,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticAlwaysNull",
-        "location": {
-          "startColumn": 42,
           "endColumn": 59
         }
       },
@@ -15136,26 +14608,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CoalesceRule",
+        "type": "static_property",
+        "value": "CoalesceRule\\FooCoalesce::$staticString",
         "location": {
           "startColumn": 16,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticString",
-        "location": {
-          "startColumn": 42,
           "endColumn": 55
         }
       },
@@ -15285,26 +14741,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetRule",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$staticAlwaysNull",
         "location": {
           "startColumn": 16,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticAlwaysNull",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -15418,26 +14858,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IssetRule",
+        "type": "static_property",
+        "value": "IssetRule\\FooCoalesce::$staticString",
         "location": {
           "startColumn": 16,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCoalesce",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$staticString",
-        "location": {
-          "startColumn": 39,
           "endColumn": 52
         }
       },

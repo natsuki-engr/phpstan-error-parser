@@ -551,26 +551,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantInternalTagOne",
+        "type": "static_constant",
+        "value": "ClassConstantInternalTagOne\\Foo::INTERNAL",
         "location": {
           "startColumn": 28,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "INTERNAL",
-        "location": {
-          "startColumn": 61,
           "endColumn": 69
         }
       },
@@ -668,26 +652,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassInternal",
+        "type": "static_constant",
+        "value": "ClassInternal::INTERNAL_CONSTANT",
         "location": {
           "startColumn": 28,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "INTERNAL",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONSTANT",
-        "location": {
-          "startColumn": 52,
           "endColumn": 60
         }
       },
@@ -737,18 +705,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FooWithInternalClassConstantWithoutNamespace",
+        "type": "static_constant",
+        "value": "FooWithInternalClassConstantWithoutNamespace::INTERNAL",
         "location": {
           "startColumn": 28,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "INTERNAL",
-        "location": {
-          "startColumn": 74,
           "endColumn": 82
         }
       },
@@ -798,18 +758,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FooWithInternalPropertyWithoutNamespace",
+        "type": "static_property",
+        "value": "FooWithInternalPropertyWithoutNamespace::$internal",
         "location": {
           "startColumn": 28,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$internal",
-        "location": {
-          "startColumn": 69,
           "endColumn": 78
         }
       },
@@ -859,26 +811,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyInternalTagOne",
+        "type": "static_property",
+        "value": "PropertyInternalTagOne\\Foo::$internal",
         "location": {
           "startColumn": 28,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$internal",
-        "location": {
-          "startColumn": 56,
           "endColumn": 65
         }
       },
@@ -984,18 +920,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FooWithInternalStaticPropertyWithoutNamespace",
+        "type": "static_property",
+        "value": "FooWithInternalStaticPropertyWithoutNamespace::$internal",
         "location": {
           "startColumn": 35,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$internal",
-        "location": {
-          "startColumn": 82,
           "endColumn": 91
         }
       },
@@ -1053,26 +981,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "StaticPropertyInternalTagOne",
+        "type": "static_property",
+        "value": "StaticPropertyInternalTagOne\\Foo::$internal",
         "location": {
           "startColumn": 35,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$internal",
-        "location": {
-          "startColumn": 69,
           "endColumn": 78
         }
       },

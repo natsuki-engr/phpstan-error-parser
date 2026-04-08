@@ -470,18 +470,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "parent",
+        "type": "static_constant",
+        "value": "parent::BAZ",
         "location": {
           "startColumn": 10,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAZ",
-        "location": {
-          "startColumn": 18,
           "endColumn": 21
         }
       },
@@ -959,26 +951,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstFetchDefined",
+        "type": "static_constant",
+        "value": "ClassConstFetchDefined\\Foo::TEST",
         "location": {
           "startColumn": 29,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEST",
-        "location": {
-          "startColumn": 57,
           "endColumn": 61
         }
       },
@@ -1028,26 +1004,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantAttribute",
+        "type": "static_constant",
+        "value": "ClassConstantAttribute\\Foo::BAR",
         "location": {
           "startColumn": 29,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 57,
           "endColumn": 60
         }
       },
@@ -1097,26 +1057,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantDynamicAccess",
+        "type": "static_constant",
+        "value": "ClassConstantDynamicAccess\\Foo::BUZ",
         "location": {
           "startColumn": 29,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BUZ",
-        "location": {
-          "startColumn": 61,
           "endColumn": 64
         }
       },
@@ -1166,26 +1110,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantDynamicAccess",
+        "type": "static_constant",
+        "value": "ClassConstantDynamicAccess\\Foo::FOO",
         "location": {
           "startColumn": 29,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 61,
           "endColumn": 64
         }
       },
@@ -1235,26 +1163,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantDynamicAccess",
+        "type": "static_constant",
+        "value": "ClassConstantDynamicAccess\\Foo::QUX",
         "location": {
           "startColumn": 29,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "QUX",
-        "location": {
-          "startColumn": 61,
           "endColumn": 64
         }
       },
@@ -1304,26 +1216,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantNamespace",
+        "type": "static_constant",
+        "value": "ClassConstantNamespace\\Foo::DOLOR",
         "location": {
           "startColumn": 29,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DOLOR",
-        "location": {
-          "startColumn": 57,
           "endColumn": 62
         }
       },
@@ -1397,18 +1293,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "static_constant",
+        "value": "string::DOLOR",
         "location": {
           "startColumn": 56,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DOLOR",
-        "location": {
-          "startColumn": 64,
           "endColumn": 69
         }
       },
@@ -1458,34 +1346,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantVisibility",
+        "type": "static_constant",
+        "value": "ClassConstantVisibility\\Bar::PRIVATE_FOO",
         "location": {
           "startColumn": 29,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PRIVATE",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 66,
           "endColumn": 69
         }
       },
@@ -1559,26 +1423,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantVisibility",
+        "type": "static_constant",
+        "value": "ClassConstantVisibility\\WithFooConstant::BAZ",
         "location": {
           "startColumn": 75,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "WithFooConstant",
-        "location": {
-          "startColumn": 99,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAZ",
-        "location": {
-          "startColumn": 116,
           "endColumn": 119
         }
       },
@@ -1652,26 +1500,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantVisibility",
+        "type": "static_constant",
+        "value": "ClassConstantVisibility\\WithFooConstant::BAR",
         "location": {
           "startColumn": 75,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "WithFooConstant",
-        "location": {
-          "startColumn": 99,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 116,
           "endColumn": 119
         }
       },
@@ -1721,18 +1553,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Foo",
+        "type": "static_constant",
+        "value": "Foo::TEST",
         "location": {
           "startColumn": 29,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEST",
-        "location": {
-          "startColumn": 34,
           "endColumn": 38
         }
       },
@@ -7296,42 +7120,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug14250\\TraitWithDuplicateConstants::CONST1",
         "location": {
           "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "14250",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TraitWithDuplicateConstants",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONST",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 69,
           "endColumn": 70
         }
       },
@@ -7373,42 +7165,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug14250\\TraitWithDuplicateConstants::CONST2",
         "location": {
           "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "14250",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TraitWithDuplicateConstants",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONST",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 69,
           "endColumn": 70
         }
       },
@@ -7450,34 +7210,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicateDeclarations",
+        "type": "static_constant",
+        "value": "DuplicateDeclarations\\Foo::CONST1",
         "location": {
           "startColumn": 26,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONST",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 58,
           "endColumn": 59
         }
       },
@@ -7519,34 +7255,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicateDeclarations",
+        "type": "static_constant",
+        "value": "DuplicateDeclarations\\Foo::CONST2",
         "location": {
           "startColumn": 26,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CONST",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 58,
           "endColumn": 59
         }
       },
@@ -7588,26 +7300,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicatedEnumCase",
+        "type": "static_constant",
+        "value": "DuplicatedEnumCase\\Hoo::BAR",
         "location": {
           "startColumn": 26,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Hoo",
-        "location": {
-          "startColumn": 45,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 50,
           "endColumn": 53
         }
       },
@@ -7657,26 +7353,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicatedEnumCase",
+        "type": "static_constant",
+        "value": "DuplicatedEnumCase\\Boo::BAR",
         "location": {
           "startColumn": 27,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Boo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 51,
           "endColumn": 54
         }
       },
@@ -7726,26 +7406,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicatedEnumCase",
+        "type": "static_constant",
+        "value": "DuplicatedEnumCase\\Foo::BAR",
         "location": {
           "startColumn": 27,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 51,
           "endColumn": 54
         }
       },
@@ -8012,42 +7676,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14250PromotedProperties\\TraitWithDuplicatePromotedProperties::$bar",
         "location": {
           "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "14250",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PromotedProperties",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TraitWithDuplicatePromotedProperties",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 91,
           "endColumn": 95
         }
       },
@@ -8089,42 +7721,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14250PromotedProperties\\TraitWithDuplicatePromotedProperties::$foo",
         "location": {
           "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "14250",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PromotedProperties",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TraitWithDuplicatePromotedProperties",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 91,
           "endColumn": 95
         }
       },
@@ -8166,34 +7766,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14250\\TraitWithDuplicateProperties::$prop1",
         "location": {
           "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "14250",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TraitWithDuplicateProperties",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$prop1",
-        "location": {
-          "startColumn": 65,
           "endColumn": 71
         }
       },
@@ -8235,34 +7811,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug14250\\TraitWithDuplicateProperties::$prop2",
         "location": {
           "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "14250",
-        "location": {
-          "startColumn": 29,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TraitWithDuplicateProperties",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$prop2",
-        "location": {
-          "startColumn": 65,
           "endColumn": 71
         }
       },
@@ -8304,26 +7856,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicateDeclarations",
+        "type": "static_property",
+        "value": "DuplicateDeclarations\\Foo::$prop1",
         "location": {
           "startColumn": 26,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$prop1",
-        "location": {
-          "startColumn": 53,
           "endColumn": 59
         }
       },
@@ -8365,26 +7901,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicateDeclarations",
+        "type": "static_property",
+        "value": "DuplicateDeclarations\\Foo::$prop2",
         "location": {
           "startColumn": 26,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$prop2",
-        "location": {
-          "startColumn": 53,
           "endColumn": 59
         }
       },
@@ -8426,26 +7946,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicatedPromotedProperty",
+        "type": "static_property",
+        "value": "DuplicatedPromotedProperty\\Foo::$bar",
         "location": {
           "startColumn": 26,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 58,
           "endColumn": 62
         }
       },
@@ -8487,26 +7991,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "DuplicatedPromotedProperty",
+        "type": "static_property",
+        "value": "DuplicatedPromotedProperty\\Foo::$foo",
         "location": {
           "startColumn": 26,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 58,
           "endColumn": 62
         }
       },
@@ -16251,18 +15739,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IntlDateFormatter",
+        "type": "static_constant",
+        "value": "IntlDateFormatter::GREGORIAN",
         "location": {
           "startColumn": 9,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GREGORIAN",
-        "location": {
-          "startColumn": 28,
           "endColumn": 37
         }
       },
@@ -16376,26 +15856,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "RecursiveIteratorIterator",
+        "type": "static_constant",
+        "value": "RecursiveIteratorIterator::CHILD_FIRST",
         "location": {
           "startColumn": 9,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CHILD",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FIRST",
-        "location": {
-          "startColumn": 42,
           "endColumn": 47
         }
       },
@@ -19995,34 +19459,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug9402\\Foo::Two",
         "location": {
           "startColumn": 10,
-          "endColumn": 13
-        }
-      },
-      {
-        "type": "number",
-        "value": "9402",
-        "location": {
-          "startColumn": 13,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Two",
-        "location": {
-          "startColumn": 23,
           "endColumn": 26
         }
       },
@@ -20120,26 +19560,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumSanity",
+        "type": "static_constant",
+        "value": "EnumSanity\\EnumInconsistentCaseType::BAR",
         "location": {
           "startColumn": 10,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "EnumInconsistentCaseType",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 47,
           "endColumn": 50
         }
       },
@@ -20285,26 +19709,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumSanity",
+        "type": "static_constant",
+        "value": "EnumSanity\\EnumInconsistentCaseType::FOO",
         "location": {
           "startColumn": 10,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "EnumInconsistentCaseType",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 47,
           "endColumn": 50
         }
       },
@@ -20402,26 +19810,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumSanity",
+        "type": "static_constant",
+        "value": "EnumSanity\\EnumInconsistentStringCaseType::BAR",
         "location": {
           "startColumn": 10,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "EnumInconsistentStringCaseType",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAR",
-        "location": {
-          "startColumn": 53,
           "endColumn": 56
         }
       },
@@ -21539,26 +20931,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\TestGenerics::$c",
         "location": {
           "startColumn": 90,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TestGenerics",
-        "location": {
-          "startColumn": 102,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$c",
-        "location": {
-          "startColumn": 116,
           "endColumn": 118
         }
       },
@@ -21800,26 +21176,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\TestGenerics::$b",
         "location": {
           "startColumn": 75,
-          "endColumn": 86
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TestGenerics",
-        "location": {
-          "startColumn": 87,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$b",
-        "location": {
-          "startColumn": 101,
           "endColumn": 103
         }
       },
@@ -32984,26 +32344,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTagTrait",
+        "type": "static_property",
+        "value": "PropertyTagTrait\\Foo::$foo",
         "location": {
           "startColumn": 34,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 56,
           "endColumn": 60
         }
       },
@@ -33101,26 +32445,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Bar::$unresolvable",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unresolvable",
-        "location": {
-          "startColumn": 51,
           "endColumn": 64
         }
       },
@@ -33202,26 +32530,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$a",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -33319,26 +32631,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$b",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$b",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -33436,26 +32732,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$c",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$c",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -33553,26 +32833,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$c",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$c",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -33670,26 +32934,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$d",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$d",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -33787,26 +33035,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$e",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$e",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -33904,26 +33136,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$e",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$e",
-        "location": {
-          "startColumn": 51,
           "endColumn": 53
         }
       },
@@ -34021,26 +33237,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\MissingGenerics::$a",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MissingGenerics",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 63,
           "endColumn": 65
         }
       },
@@ -34210,26 +33410,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\NonexistentClasses::$a",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonexistentClasses",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 66,
           "endColumn": 68
         }
       },
@@ -34327,26 +33511,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\NonexistentClasses::$b",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonexistentClasses",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$b",
-        "location": {
-          "startColumn": 66,
           "endColumn": 68
         }
       },
@@ -34444,26 +33612,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\TestGenerics::$a",
         "location": {
           "startColumn": 34,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TestGenerics",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 60,
           "endColumn": 62
         }
       },
@@ -34633,26 +33785,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$f",
         "location": {
           "startColumn": 39,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$f",
-        "location": {
-          "startColumn": 56,
           "endColumn": 58
         }
       },
@@ -34758,26 +33894,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\Foo::$g",
         "location": {
           "startColumn": 40,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$g",
-        "location": {
-          "startColumn": 57,
           "endColumn": 59
         }
       },
@@ -45606,26 +44726,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyTag",
+        "type": "static_property",
+        "value": "PropertyTag\\TestGenerics::$d",
         "location": {
           "startColumn": 101,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TestGenerics",
-        "location": {
-          "startColumn": 113,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$d",
-        "location": {
-          "startColumn": 127,
           "endColumn": 129
         }
       },
@@ -46324,26 +45428,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "AccessPrivateConstantThroughStatic",
+        "type": "static_constant",
+        "value": "AccessPrivateConstantThroughStatic\\Foo::FOO",
         "location": {
           "startColumn": 34,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 69,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 74,
           "endColumn": 77
         }
       },

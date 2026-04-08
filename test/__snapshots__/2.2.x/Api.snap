@@ -11,34 +11,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "static_constant",
+        "value": "PHPStan\\Analyser\\NodeScopeResolver::FOO",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Analyser",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NodeScopeResolver",
-        "location": {
-          "startColumn": 27,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 46,
           "endColumn": 49
         }
       },

@@ -20,6 +20,16 @@ const tokens = {
     pattern: /[a-zA-Z]\w*(\\[a-zA-Z]\w*)*::\w+\(\)/,
     line_breaks: false,
   }),
+  STATIC_PROPERTY: createToken({
+    name: 'StaticProperty',
+    pattern: /[a-zA-Z]\w*(\\[a-zA-Z]\w*)*::\$\w+/,
+    line_breaks: false,
+  }),
+  STATIC_CONSTANT: createToken({
+    name: 'StaticConstant',
+    pattern: /[a-zA-Z]\w*(\\[a-zA-Z]\w*)*::[A-Z]\w*/,
+    line_breaks: false,
+  }),
   METHOD_NAME: createToken({
     name: 'MethodName',
     pattern: /(?<!(T|t)he (M|m)ethod )(?<=(M|m)ethod )([\w]+(\\[\w]+)*(\(\))?)/,
@@ -102,6 +112,8 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.DOUBLE_QUOTED_STRING) },
         { ALT: () => this.CONSUME(tokens.FUNCTION_NAME) },
         { ALT: () => this.CONSUME(tokens.STATIC_METHOD_NAME) },
+        { ALT: () => this.CONSUME(tokens.STATIC_PROPERTY) },
+        { ALT: () => this.CONSUME(tokens.STATIC_CONSTANT) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
         { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },

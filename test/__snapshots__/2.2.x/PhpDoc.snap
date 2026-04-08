@@ -1722,26 +1722,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$genericIncompatibleTypeProjection",
         "location": {
           "startColumn": 152,
-          "endColumn": 165
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 166,
-          "endColumn": 181
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$genericIncompatibleTypeProjection",
-        "location": {
-          "startColumn": 183,
           "endColumn": 217
         }
       },
@@ -2886,26 +2870,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$genericRedundantTypeProjection",
         "location": {
           "startColumn": 144,
-          "endColumn": 157
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 158,
-          "endColumn": 173
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$genericRedundantTypeProjection",
-        "location": {
-          "startColumn": 175,
           "endColumn": 206
         }
       },
@@ -5616,26 +5584,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$tooManyTypesGenericfoo",
         "location": {
           "startColumn": 120,
-          "endColumn": 133
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 134,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$tooManyTypesGenericfoo",
-        "location": {
-          "startColumn": 151,
           "endColumn": 174
         }
       },
@@ -6178,26 +6130,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$tooManyTypesGenericfoo",
         "location": {
           "startColumn": 116,
-          "endColumn": 147
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 148,
-          "endColumn": 163
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$tooManyTypesGenericfoo",
-        "location": {
-          "startColumn": 165,
           "endColumn": 188
         }
       },
@@ -6873,26 +6809,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$notEnoughTypesGenericfoo",
         "location": {
           "startColumn": 86,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 100,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$notEnoughTypesGenericfoo",
-        "location": {
-          "startColumn": 117,
           "endColumn": 142
         }
       },
@@ -7339,26 +7259,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$notEnoughTypesGenericfoo",
         "location": {
           "startColumn": 82,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$notEnoughTypesGenericfoo",
-        "location": {
-          "startColumn": 131,
           "endColumn": 156
         }
       },
@@ -27699,26 +27603,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleClassConstantPhpDocNativeType",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDocNativeType\\Foo::BAZ",
         "location": {
           "startColumn": 29,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 71,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BAZ",
-        "location": {
-          "startColumn": 76,
           "endColumn": 79
         }
       },
@@ -27848,26 +27736,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleClassConstantPhpDocNativeType",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDocNativeType\\Foo::LOREM",
         "location": {
           "startColumn": 29,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 71,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "LOREM",
-        "location": {
-          "startColumn": 76,
           "endColumn": 81
         }
       },
@@ -28021,26 +27893,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleClassConstantPhpDoc",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDoc\\Foo::DOLOR",
         "location": {
           "startColumn": 29,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DOLOR",
-        "location": {
-          "startColumn": 66,
           "endColumn": 71
         }
       },
@@ -28218,26 +28074,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleClassConstantPhpDoc",
+        "type": "static_constant",
+        "value": "IncompatibleClassConstantPhpDoc\\Foo::FOO",
         "location": {
           "startColumn": 29,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 66,
           "endColumn": 69
         }
       },
@@ -28319,26 +28159,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo::$foo",
         "location": {
           "startColumn": 29,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$foo",
-        "location": {
-          "startColumn": 71,
           "endColumn": 75
         }
       },
@@ -28484,26 +28308,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo::$selfTwo",
         "location": {
           "startColumn": 29,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$selfTwo",
-        "location": {
-          "startColumn": 71,
           "endColumn": 79
         }
       },
@@ -28649,26 +28457,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo::$stringOrInt",
         "location": {
           "startColumn": 29,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$stringOrInt",
-        "location": {
-          "startColumn": 71,
           "endColumn": 83
         }
       },
@@ -28822,26 +28614,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "static_property",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Lorem::$string",
         "location": {
           "startColumn": 29,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Lorem",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$string",
-        "location": {
-          "startColumn": 73,
           "endColumn": 80
         }
       },
@@ -28979,26 +28755,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$bar",
         "location": {
           "startColumn": 29,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 60,
           "endColumn": 64
         }
       },
@@ -29080,26 +28840,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$classStringInt",
         "location": {
           "startColumn": 29,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$classStringInt",
-        "location": {
-          "startColumn": 60,
           "endColumn": 75
         }
       },
@@ -29181,26 +28925,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$fooGeneric",
         "location": {
           "startColumn": 29,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$fooGeneric",
-        "location": {
-          "startColumn": 60,
           "endColumn": 71
         }
       },
@@ -29378,26 +29106,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$unknownClassConstant",
         "location": {
           "startColumn": 29,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant",
-        "location": {
-          "startColumn": 60,
           "endColumn": 81
         }
       },
@@ -29479,26 +29191,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$unknownClassConstant2",
         "location": {
           "startColumn": 29,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant2",
-        "location": {
-          "startColumn": 60,
           "endColumn": 82
         }
       },
@@ -40324,26 +40020,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\BazWithProperty::$bar",
         "location": {
           "startColumn": 25,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BazWithProperty",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 74,
           "endColumn": 78
         }
       },
@@ -40465,26 +40145,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$bar",
         "location": {
           "startColumn": 25,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 74,
           "endColumn": 78
         }
       },
@@ -40558,26 +40222,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$classStringInt",
         "location": {
           "startColumn": 25,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$classStringInt",
-        "location": {
-          "startColumn": 74,
           "endColumn": 89
         }
       },
@@ -40651,26 +40299,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$fooGeneric",
         "location": {
           "startColumn": 25,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$fooGeneric",
-        "location": {
-          "startColumn": 74,
           "endColumn": 85
         }
       },
@@ -40840,26 +40472,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$unknownClassConstant",
         "location": {
           "startColumn": 25,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant",
-        "location": {
-          "startColumn": 74,
           "endColumn": 95
         }
       },
@@ -40933,26 +40549,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$unknownClassConstant2",
         "location": {
           "startColumn": 25,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$unknownClassConstant2",
-        "location": {
-          "startColumn": 74,
           "endColumn": 96
         }
       },
@@ -42304,26 +41904,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$invalidTypeGenericfoo",
         "location": {
           "startColumn": 115,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 129,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$invalidTypeGenericfoo",
-        "location": {
-          "startColumn": 146,
           "endColumn": 168
         }
       },
@@ -42850,26 +42434,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$invalidTypeGenericfoo",
         "location": {
           "startColumn": 111,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 143,
-          "endColumn": 158
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$invalidTypeGenericfoo",
-        "location": {
-          "startColumn": 160,
           "endColumn": 182
         }
       },
@@ -44970,26 +44538,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "static_property",
+        "value": "InvalidPhpDoc\\FooWithProperty::$anotherInvalidTypeGenericfoo",
         "location": {
           "startColumn": 113,
-          "endColumn": 126
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 127,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$anotherInvalidTypeGenericfoo",
-        "location": {
-          "startColumn": 144,
           "endColumn": 173
         }
       },
@@ -45516,26 +45068,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocPromotedProperties",
+        "type": "static_property",
+        "value": "InvalidPhpDocPromotedProperties\\FooWithProperty::$anotherInvalidTypeGenericfoo",
         "location": {
           "startColumn": 109,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWithProperty",
-        "location": {
-          "startColumn": 141,
-          "endColumn": 156
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$anotherInvalidTypeGenericfoo",
-        "location": {
-          "startColumn": 158,
           "endColumn": 187
         }
       },

@@ -14601,26 +14601,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Collator",
+        "type": "static_constant",
+        "value": "Collator::FRENCH_COLLATION",
         "location": {
           "startColumn": 9,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FRENCH",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "COLLATION",
-        "location": {
-          "startColumn": 26,
           "endColumn": 35
         }
       },
@@ -14726,18 +14710,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IntlDateFormatter",
+        "type": "static_constant",
+        "value": "IntlDateFormatter::GREGORIAN",
         "location": {
           "startColumn": 9,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GREGORIAN",
-        "location": {
-          "startColumn": 28,
           "endColumn": 37
         }
       },
@@ -14851,34 +14827,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NumberFormatter",
+        "type": "static_constant",
+        "value": "NumberFormatter::TYPE_INT32",
         "location": {
           "startColumn": 9,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TYPE",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "INT",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "number",
-        "value": "32",
-        "location": {
-          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -14992,26 +14944,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PDO",
+        "type": "static_constant",
+        "value": "PDO::ATTR_ERRMODE",
         "location": {
           "startColumn": 9,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ATTR",
-        "location": {
-          "startColumn": 14,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ERRMODE",
-        "location": {
-          "startColumn": 19,
           "endColumn": 26
         }
       },
@@ -72438,26 +72374,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallMethodInEnum",
+        "type": "static_constant",
+        "value": "CallMethodInEnum\\CountryNo::NL",
         "location": {
           "startColumn": 113,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CountryNo",
-        "location": {
-          "startColumn": 130,
-          "endColumn": 139
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NL",
-        "location": {
-          "startColumn": 141,
           "endColumn": 143
         }
       },
@@ -88676,26 +88596,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallMethodInEnum",
+        "type": "static_constant",
+        "value": "CallMethodInEnum\\TestPassingEnums::ONE",
         "location": {
           "startColumn": 84,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TestPassingEnums",
-        "location": {
-          "startColumn": 101,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ONE",
-        "location": {
-          "startColumn": 119,
           "endColumn": 122
         }
       },
@@ -89163,26 +89067,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReadonlyPropertyPassedByRef",
+        "type": "static_property",
+        "value": "ReadonlyPropertyPassedByRef\\Foo::$bar",
         "location": {
           "startColumn": 83,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 111,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 116,
           "endColumn": 120
         }
       },
@@ -106472,26 +106360,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReadonlyPropertyPassedByRef",
+        "type": "static_property",
+        "value": "ReadonlyPropertyPassedByRef\\Foo::$bar",
         "location": {
           "startColumn": 80,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 108,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$bar",
-        "location": {
-          "startColumn": 113,
           "endColumn": 117
         }
       },

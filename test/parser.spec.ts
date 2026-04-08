@@ -228,6 +228,16 @@ describe('sample test', () => {
       m: 'Parameter #1 ...$arg1 of function max expects non-empty-array, array{} given.',
       assertions: [['ellipsis:...', true]],
     },
+    {
+      name: 'parse static property',
+      m: 'Access to property Bug3703\\Foo::$bar.',
+      assertions: [['StaticProperty:Bug3703\\Foo::$bar', true]],
+    },
+    {
+      name: 'parse static constant',
+      m: 'Access to constant MatchEnums\\Foo::THREE.',
+      assertions: [['StaticConstant:MatchEnums\\Foo::THREE', true]],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {
