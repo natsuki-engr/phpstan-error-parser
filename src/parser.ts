@@ -41,6 +41,11 @@ const tokens = {
     group: Lexer.SKIPPED,
     line_breaks: false,
   }),
+  ELLIPSIS: createToken({
+    name: 'ellipsis',
+    pattern: '...',
+    line_breaks: false,
+  }),
   PERIOD: createToken({ name: 'period', pattern: '.', line_breaks: false }),
   COMMA: createToken({ name: 'comma', pattern: ',', line_breaks: false }),
   LPAREN: createToken({ name: 'lparen', pattern: '(', line_breaks: false }),
@@ -116,6 +121,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.PIPE) },
         { ALT: () => this.CONSUME(tokens.AMPERSAND) },
         { ALT: () => this.CONSUME(tokens.QUESTION) },
+        { ALT: () => this.CONSUME(tokens.ELLIPSIS) },
       ]);
     });
     this.CONSUME(tokens.PERIOD);

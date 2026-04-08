@@ -9211,11 +9211,27 @@
         }
       },
       {
+        "type": "ellipsis",
+        "value": "...",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "rbrace",
+        "value": "}",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 122
+        }
+      },
+      {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 118,
-          "endColumn": 119
+          "startColumn": 122,
+          "endColumn": 123
         }
       }
     ]
@@ -11010,11 +11026,27 @@
         }
       },
       {
+        "type": "ellipsis",
+        "value": "...",
+        "location": {
+          "startColumn": 118,
+          "endColumn": 121
+        }
+      },
+      {
+        "type": "rbrace",
+        "value": "}",
+        "location": {
+          "startColumn": 121,
+          "endColumn": 122
+        }
+      },
+      {
         "type": "period",
         "value": ".",
         "location": {
-          "startColumn": 118,
-          "endColumn": 119
+          "startColumn": 122,
+          "endColumn": 123
         }
       }
     ]
