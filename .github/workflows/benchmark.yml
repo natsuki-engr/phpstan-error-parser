@@ -126,11 +126,42 @@ jobs:
               body += `\n### Phase Breakdown\n\n`;
               body += `| Phase | Base (ms) | PR (ms) | Change |\n`;
               body += `|-------|----------|---------|--------|\n`;
-              for (const phase of ['lexer', 'parser', 'formatter']) {
+              for (const phase of ['lexer', 'parserInit', 'parserExec', 'formatter']) {
+                const labels = { lexer: 'Lexer', parserInit: 'Parser init', parserExec: 'Parser exec', formatter: 'Formatter' };
                 const basePhase = base?.phases?.[phase];
                 const prPhase = pr.phases[phase];
-                addRow(phase, basePhase?.mean, prPhase?.mean);
+                addRow(labels[phase] ?? phase, basePhase?.mean, prPhase?.mean);
               }
+            }
+
+            // Slowest messages
+            if (pr.slowest?.length > 0) {
+              body += `\n### Top ${pr.slowest.length} Slowest Messages\n\n`;
+              body += `| # | Time (ms) | Tokens | Message |\n`;
+              body += `|---|----------|--------|--------|\n`;
+              pr.slowest.forEach((s, i) => {
+                const msg = s.message.replace(/\|/g, '\\|');
+                body += `| ${i + 1} | ${s.time} | ${s.tokenCount} | \`${msg}\` |\n`;
+              });
+            }
+
+            // Token buckets
+            if (pr.tokenBuckets) {
+              body += `\n### Parse Time by Token Count\n\n`;
+              body += `| Tokens | Messages | Avg Time (ms) |\n`;
+              body += `|--------|----------|---------------|\n`;
+              for (const bucket of ['1-9', '10-19', '20-29', '30-49', '50+']) {
+                const b = pr.tokenBuckets[bucket];
+                if (b) body += `| ${bucket} | ${b.count} | ${b.avgTime} |\n`;
+              }
+            }
+
+            // Type stats
+            if (pr.typeStats) {
+              body += `\n### Type Detection\n\n`;
+              body += `- Total tokens: ${pr.typeStats.totalTokens}\n`;
+              body += `- Total words output: ${pr.typeStats.totalWords}\n`;
+              body += `- Type words: ${pr.typeStats.typeWords} (${(pr.typeStats.typeRatio * 100).toFixed(1)}%)\n`;
             }
 
             body += `\n> ${pr.iterations} iterations, ${pr.messages} messages. ⚠️ = >10% slower, 🚀 = >10% faster`;
