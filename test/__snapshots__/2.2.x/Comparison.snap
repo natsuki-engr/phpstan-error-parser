@@ -29777,10 +29777,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "expression (void)is",
+        "type": "common_word",
+        "value": "expression",
         "location": {
           "startColumn": 16,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 27,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 28,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -34622,10 +34654,74 @@
         }
       },
       {
-        "type": "type",
-        "value": "between (int<min, 0>|int<2, max>|string)and",
+        "type": "common_word",
+        "value": "between",
         "location": {
           "startColumn": 28,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<min, 0>",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<2, max>",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 69,
           "endColumn": 72
         }
       },
@@ -34715,10 +34811,74 @@
         }
       },
       {
-        "type": "type",
-        "value": "between (int<min, 0>|int<2, max>|string)and",
+        "type": "common_word",
+        "value": "between",
         "location": {
           "startColumn": 28,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<min, 0>",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<2, max>",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "pipe",
+        "value": "|",
+        "location": {
+          "startColumn": 60,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 61,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 68
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "and",
+        "location": {
+          "startColumn": 69,
           "endColumn": 72
         }
       },
@@ -34808,10 +34968,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "between (lowercase",
+        "type": "common_word",
+        "value": "between",
         "location": {
           "startColumn": 28,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lowercase",
+        "location": {
+          "startColumn": 37,
           "endColumn": 46
         }
       },
@@ -34997,10 +35173,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "between (lowercase",
+        "type": "common_word",
+        "value": "between",
         "location": {
           "startColumn": 28,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "lowercase",
+        "location": {
+          "startColumn": 37,
           "endColumn": 46
         }
       },

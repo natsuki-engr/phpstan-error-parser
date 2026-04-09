@@ -1920,10 +1920,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "obj (stdClass|null)of",
+        "type": "common_word",
+        "value": "obj",
         "location": {
           "startColumn": 12,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "type",
+        "value": "stdClass|null",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 30
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 32,
           "endColumn": 34
         }
       },
@@ -2114,10 +2146,42 @@
     "input": "The (unset) cast is no longer supported in PHP 8.0 and later.",
     "tokens": [
       {
-        "type": "type",
-        "value": "The (unset)cast",
+        "type": "common_word",
+        "value": "The",
         "location": {
           "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "unset",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 12,
           "endColumn": 16
         }
       },
@@ -2207,10 +2271,42 @@
     "input": "The (void) cast is supported only on PHP 8.5 and later.",
     "tokens": [
       {
-        "type": "type",
-        "value": "The (void)cast",
+        "type": "common_word",
+        "value": "The",
         "location": {
           "startColumn": 0,
+          "endColumn": 3
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 4,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 5,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cast",
+        "location": {
+          "startColumn": 11,
           "endColumn": 15
         }
       },

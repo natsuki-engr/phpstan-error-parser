@@ -917,10 +917,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "yield (void)is",
+        "type": "common_word",
+        "value": "yield",
         "location": {
           "startColumn": 10,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 17,
+          "endColumn": 21
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 23,
           "endColumn": 25
         }
       },
@@ -970,10 +1002,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "from (void)is",
+        "type": "common_word",
+        "value": "from",
         "location": {
           "startColumn": 16,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "void",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "is",
+        "location": {
+          "startColumn": 28,
           "endColumn": 30
         }
       },

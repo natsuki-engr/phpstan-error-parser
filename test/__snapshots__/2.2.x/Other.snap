@@ -353,10 +353,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "testMethod (             )",
+        "type": "common_word",
+        "value": "testMethod",
         "location": {
           "startColumn": 42,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$notImmediate",
+        "location": {
+          "startColumn": 54,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 67,
           "endColumn": 68
         }
       }
@@ -445,10 +469,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "r (      )",
+        "type": "common_word",
+        "value": "r",
         "location": {
           "startColumn": 6,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$value",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
           "endColumn": 16
         }
       }
@@ -471,10 +519,34 @@
     "input": "sleep ($seconds)",
     "tokens": [
       {
-        "type": "type",
-        "value": "sleep (        )",
+        "type": "common_word",
+        "value": "sleep",
         "location": {
           "startColumn": 0,
+          "endColumn": 5
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 6,
+          "endColumn": 7
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$seconds",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
           "endColumn": 16
         }
       }
@@ -513,10 +585,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "dump (      )",
+        "type": "common_word",
+        "value": "dump",
         "location": {
           "startColumn": 4,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$value",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
           "endColumn": 17
         }
       }

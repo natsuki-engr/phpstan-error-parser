@@ -12392,10 +12392,66 @@
         }
       },
       {
-        "type": "type",
-        "value": "value ((A & B            ): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "type",
+        "value": "A & B",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$paramNameB",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 58,
           "endColumn": 68
         }
       },
@@ -12533,10 +12589,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 40,
           "endColumn": 50
         }
       },
@@ -12674,10 +12762,58 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (A & B | C            ): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "type",
+        "value": "A & B | C",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$paramNameA",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 58
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 60
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 61,
           "endColumn": 71
         }
       },
@@ -12815,10 +12951,58 @@
         }
       },
       {
-        "type": "type",
-        "value": "value ( A & B            ): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 30,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "type",
+        "value": "A & B",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$paramNameC",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 55
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 55,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 56,
+          "endColumn": 57
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 58,
           "endColumn": 68
         }
       },
@@ -17734,10 +17918,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (array{'numeric': stdClass[], 'branches': array{'names': string[], 'exclude': bool}}",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 39,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 45,
+          "endColumn": 46
+        }
+      },
+      {
+        "type": "type",
+        "value": "array{'numeric': stdClass[], 'branches': array{'names': string[], 'exclude': bool}}",
+        "location": {
+          "startColumn": 46,
           "endColumn": 129
         }
       },
@@ -19133,10 +19333,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
           "endColumn": 38
         }
       },
@@ -19346,10 +19554,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 39,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 41,
           "endColumn": 51
         }
       },
@@ -19487,10 +19727,50 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (A & B | C): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "type",
+        "value": "A & B | C",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 47
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 47,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 48,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 50,
           "endColumn": 60
         }
       },
@@ -19636,10 +19916,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
           "endColumn": 38
         }
       },
@@ -21188,10 +21476,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 24,
+          "endColumn": 28
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 29,
           "endColumn": 30
         }
       },
@@ -21986,10 +22282,58 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (( Exception): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 31,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 38
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 38,
+          "endColumn": 39
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Exception",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 49
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 52,
           "endColumn": 62
         }
       },
@@ -27237,10 +27581,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "U (1",
+        "type": "common_word",
+        "value": "U",
         "location": {
           "startColumn": 145,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 147,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 148,
           "endColumn": 149
         }
       },
@@ -28340,10 +28700,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
           "endColumn": 35
         }
       },
@@ -28521,10 +28889,50 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (        ): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$invalid",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 46,
           "endColumn": 56
         }
       },
@@ -28662,10 +29070,58 @@
         }
       },
       {
-        "type": "type",
-        "value": "value ((Foo&): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "type",
+        "value": "Foo&",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 40,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 41,
+          "endColumn": 42
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 43,
           "endColumn": 53
         }
       },
@@ -28803,10 +29259,58 @@
         }
       },
       {
-        "type": "type",
-        "value": "value ((Foo|Bar): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "type",
+        "value": "Foo|Bar",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 43,
+          "endColumn": 44
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 44,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 46,
           "endColumn": 56
         }
       },
@@ -28944,10 +29448,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 36,
+          "endColumn": 37
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -29085,10 +29621,58 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (  Foo| Bar      ): Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "type",
+        "value": "Foo| Bar",
+        "location": {
+          "startColumn": 37,
+          "endColumn": 45
+        }
+      },
+      {
+        "type": "variable_name",
+        "value": "$test",
+        "location": {
+          "startColumn": 46,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "colon",
+        "value": ":",
+        "location": {
+          "startColumn": 52,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "Unexpected",
+        "location": {
+          "startColumn": 54,
           "endColumn": 64
         }
       },
@@ -29226,10 +29810,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "value (callable(int) : Unexpected",
+        "type": "common_word",
+        "value": "value",
         "location": {
           "startColumn": 28,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 34,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "type",
+        "value": "callable(int) : Unexpected",
+        "location": {
+          "startColumn": 35,
           "endColumn": 61
         }
       },

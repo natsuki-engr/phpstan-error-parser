@@ -2250,10 +2250,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "ERROR  (No)",
+        "type": "common_word",
+        "value": "ERROR",
         "location": {
           "startColumn": 51,
+          "endColumn": 56
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 58,
+          "endColumn": 59
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "No",
+        "location": {
+          "startColumn": 59,
+          "endColumn": 61
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 61,
           "endColumn": 62
         }
       }

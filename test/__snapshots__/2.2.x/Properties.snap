@@ -22211,10 +22211,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "U (1",
+        "type": "common_word",
+        "value": "U",
         "location": {
           "startColumn": 146,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 149,
           "endColumn": 150
         }
       },

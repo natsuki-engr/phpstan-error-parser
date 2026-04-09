@@ -240,7 +240,7 @@ export class Parser extends CstParser {
    * This avoids GATE overhead on every token.
    */
   public wordOrType = this.RULE('wordOrType', () => {
-    this.CONSUME(tokens.COMMON_WORD);
+    const word = this.CONSUME(tokens.COMMON_WORD);
     this.OPTION(() => {
       this.OR([
         {
@@ -260,6 +260,12 @@ export class Parser extends CstParser {
           },
         },
         {
+          // Callable: name(typeList?): returnType
+          // Only match if ( immediately follows the word (no space)
+          GATE: () => {
+            const next = this.LA(1);
+            return next.startOffset === word.startOffset + word.image.length;
+          },
           ALT: () => {
             this.CONSUME(tokens.LPAREN);
             this.OPTION3(() => {

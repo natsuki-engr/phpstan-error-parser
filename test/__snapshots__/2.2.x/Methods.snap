@@ -19569,10 +19569,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "of (int|string)",
+        "type": "common_word",
+        "value": "of",
         "location": {
           "startColumn": 87,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 90,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "type",
+        "value": "int|string",
+        "location": {
+          "startColumn": 91,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 101,
           "endColumn": 102
         }
       },
@@ -20470,10 +20494,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "of (int|string)",
+        "type": "common_word",
+        "value": "of",
         "location": {
           "startColumn": 63,
+          "endColumn": 65
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "type",
+        "value": "int|string",
+        "location": {
+          "startColumn": 67,
+          "endColumn": 77
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 77,
           "endColumn": 78
         }
       },
@@ -27529,10 +27577,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "U (1",
+        "type": "common_word",
+        "value": "U",
         "location": {
           "startColumn": 207,
+          "endColumn": 208
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 209,
+          "endColumn": 210
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 210,
           "endColumn": 211
         }
       },
@@ -29577,10 +29641,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "U (1",
+        "type": "common_word",
+        "value": "U",
         "location": {
           "startColumn": 192,
+          "endColumn": 193
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 194,
+          "endColumn": 195
+        }
+      },
+      {
+        "type": "number",
+        "value": "1",
+        "location": {
+          "startColumn": 195,
           "endColumn": 196
         }
       },
@@ -33899,10 +33979,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "returns (T",
+        "type": "common_word",
+        "value": "returns",
         "location": {
           "startColumn": 86,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 94,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "T",
+        "location": {
+          "startColumn": 95,
           "endColumn": 96
         }
       },
@@ -36713,10 +36809,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "returns (iterable<",
+        "type": "common_word",
+        "value": "returns",
         "location": {
           "startColumn": 142,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 150,
+          "endColumn": 151
+        }
+      },
+      {
+        "type": "type",
+        "value": "iterable<",
+        "location": {
+          "startColumn": 151,
           "endColumn": 160
         }
       },
@@ -43985,10 +44097,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "unpacked (   )argument",
+        "type": "common_word",
+        "value": "unpacked",
         "location": {
           "startColumn": 40,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "ellipsis",
+        "value": "...",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 53
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 53,
+          "endColumn": 54
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "argument",
+        "location": {
+          "startColumn": 55,
           "endColumn": 63
         }
       },
@@ -84934,10 +85078,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type ((",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 13,
           "endColumn": 14
         }
       },
@@ -85078,10 +85238,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type ((",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 144,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 149,
+          "endColumn": 150
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 150,
           "endColumn": 151
         }
       },
@@ -85195,10 +85371,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (           )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "Bug3523\\Baz",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 24
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 24,
+          "endColumn": 25
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 26,
           "endColumn": 28
         }
       },
@@ -85259,10 +85467,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (static(                    ))of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 95,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "type",
+        "value": "static(                    )",
+        "location": {
+          "startColumn": 101,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 130
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 131,
           "endColumn": 133
         }
       },
@@ -85296,10 +85536,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                      )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Animal",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 37,
           "endColumn": 39
         }
       },
@@ -85360,10 +85632,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 123,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 150,
           "endColumn": 152
         }
       },
@@ -85397,10 +85701,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                      )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Animal",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 37,
           "endColumn": 39
         }
       },
@@ -85461,10 +85797,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 123,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 129,
+          "endColumn": 148
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 148,
+          "endColumn": 149
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 150,
           "endColumn": 152
         }
       },
@@ -85498,10 +85866,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                      )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Animal",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 37,
           "endColumn": 39
         }
       },
@@ -85562,10 +85962,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 133,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 160,
           "endColumn": 162
         }
       },
@@ -85599,10 +86031,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                      )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Animal",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 35,
+          "endColumn": 36
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 37,
           "endColumn": 39
         }
       },
@@ -85663,10 +86127,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 133,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 138,
+          "endColumn": 139
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 139,
+          "endColumn": 158
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 158,
+          "endColumn": 159
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 160,
           "endColumn": 162
         }
       },
@@ -85700,10 +86196,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Cat",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -85764,10 +86292,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 121,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 148,
           "endColumn": 150
         }
       },
@@ -85801,10 +86361,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Cat",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -85865,10 +86457,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 121,
+          "endColumn": 125
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 126,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 127,
+          "endColumn": 146
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 146,
+          "endColumn": 147
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 148,
           "endColumn": 150
         }
       },
@@ -85902,10 +86526,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Cat",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -85966,10 +86622,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 131,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 136,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 156
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 158,
           "endColumn": 160
         }
       },
@@ -86003,10 +86691,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Cat",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -86067,10 +86787,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (                   )of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 131,
+          "endColumn": 135
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 136,
+          "endColumn": 137
+        }
+      },
+      {
+        "type": "namespaced_name",
+        "value": "MethodSignature\\Dog",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 156
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 156,
+          "endColumn": 157
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 158,
           "endColumn": 160
         }
       },
@@ -86104,10 +86856,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (array<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "array<",
+        "location": {
+          "startColumn": 13,
           "endColumn": 19
         }
       },
@@ -86200,10 +86968,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 137,
+          "endColumn": 141
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 142,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 143,
           "endColumn": 148
         }
       },
@@ -86301,10 +87085,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (array<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "array<",
+        "location": {
+          "startColumn": 13,
           "endColumn": 19
         }
       },
@@ -86397,10 +87197,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 127,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 132,
+          "endColumn": 133
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 133,
           "endColumn": 138
         }
       },
@@ -86498,10 +87314,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (array<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "array<",
+        "location": {
+          "startColumn": 13,
           "endColumn": 19
         }
       },
@@ -86610,10 +87442,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 132,
+          "endColumn": 136
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 137,
+          "endColumn": 138
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 138,
           "endColumn": 143
         }
       },
@@ -86711,10 +87559,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (array<int, string>)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "array<int, string>",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 33,
           "endColumn": 35
         }
       },
@@ -86775,10 +87655,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<string>)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 125,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 130,
+          "endColumn": 131
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<string>",
+        "location": {
+          "startColumn": 131,
+          "endColumn": 143
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 143,
+          "endColumn": 144
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 145,
           "endColumn": 147
         }
       },
@@ -86812,10 +87724,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (array<string>)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "array<string>",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 26
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 26,
+          "endColumn": 27
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 28,
           "endColumn": 30
         }
       },
@@ -86876,10 +87820,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 111,
+          "endColumn": 115
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 116,
+          "endColumn": 117
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 117,
           "endColumn": 122
         }
       },
@@ -86977,10 +87937,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (int)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 18,
           "endColumn": 20
         }
       },
@@ -87041,10 +88033,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (int<0, max>)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 81,
+          "endColumn": 85
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 86,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<0, max>",
+        "location": {
+          "startColumn": 87,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 100,
           "endColumn": 102
         }
       },
@@ -87078,10 +88102,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (int)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 16,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 18,
           "endColumn": 20
         }
       },
@@ -87142,10 +88198,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (int<0, max>)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<0, max>",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 100
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 100,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 102,
           "endColumn": 104
         }
       },
@@ -87179,10 +88267,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 13,
           "endColumn": 18
         }
       },
@@ -87275,10 +88379,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 123,
+          "endColumn": 127
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 128,
+          "endColumn": 129
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 129,
           "endColumn": 134
         }
       },
@@ -87368,10 +88488,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 13,
           "endColumn": 18
         }
       },
@@ -87464,10 +88600,26 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (list<",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 106,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 111,
+          "endColumn": 112
+        }
+      },
+      {
+        "type": "type",
+        "value": "list<",
+        "location": {
+          "startColumn": 112,
           "endColumn": 117
         }
       },
@@ -87557,10 +88709,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (string)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 21,
           "endColumn": 23
         }
       },
@@ -87621,10 +88805,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (int<0, max>)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 87,
+          "endColumn": 91
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "type",
+        "value": "int<0, max>",
+        "location": {
+          "startColumn": 93,
+          "endColumn": 104
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 104,
+          "endColumn": 105
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 106,
           "endColumn": 108
         }
       },
@@ -87658,10 +88874,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (string)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 7,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 12,
+          "endColumn": 13
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "string",
+        "location": {
+          "startColumn": 13,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 21,
           "endColumn": 23
         }
       },
@@ -87722,10 +88970,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "type (int)of",
+        "type": "common_word",
+        "value": "type",
         "location": {
           "startColumn": 83,
+          "endColumn": 87
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 88,
+          "endColumn": 89
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "int",
+        "location": {
+          "startColumn": 89,
+          "endColumn": 92
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 92,
+          "endColumn": 93
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "of",
+        "location": {
+          "startColumn": 94,
           "endColumn": 96
         }
       },
@@ -94610,10 +95890,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "argument (   )cannot",
+        "type": "common_word",
+        "value": "argument",
         "location": {
           "startColumn": 9,
+          "endColumn": 17
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "ellipsis",
+        "value": "...",
+        "location": {
+          "startColumn": 19,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 23
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "cannot",
+        "location": {
+          "startColumn": 24,
           "endColumn": 30
         }
       },

@@ -4331,10 +4331,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "offset (int|string)on",
+        "type": "common_word",
+        "value": "offset",
         "location": {
           "startColumn": 14,
+          "endColumn": 20
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 21,
+          "endColumn": 22
+        }
+      },
+      {
+        "type": "type",
+        "value": "int|string",
+        "location": {
+          "startColumn": 22,
+          "endColumn": 32
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 32,
+          "endColumn": 33
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "on",
+        "location": {
+          "startColumn": 34,
           "endColumn": 36
         }
       },
@@ -5191,10 +5223,34 @@
         }
       },
       {
-        "type": "type",
-        "value": "on (float|int)",
+        "type": "common_word",
+        "value": "on",
         "location": {
           "startColumn": 27,
+          "endColumn": 29
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 30,
+          "endColumn": 31
+        }
+      },
+      {
+        "type": "type",
+        "value": "float|int",
+        "location": {
+          "startColumn": 31,
+          "endColumn": 40
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 40,
           "endColumn": 41
         }
       },
@@ -9236,10 +9292,42 @@
     "input": "Offset (int|string) might not exist on non-empty-list<string>.",
     "tokens": [
       {
-        "type": "type",
-        "value": "Offset (int|string)might",
+        "type": "common_word",
+        "value": "Offset",
         "location": {
           "startColumn": 0,
+          "endColumn": 6
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 7,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "type",
+        "value": "int|string",
+        "location": {
+          "startColumn": 8,
+          "endColumn": 18
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 18,
+          "endColumn": 19
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "might",
+        "location": {
+          "startColumn": 20,
           "endColumn": 25
         }
       },

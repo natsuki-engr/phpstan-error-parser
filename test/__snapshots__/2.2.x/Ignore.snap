@@ -115,10 +115,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "comma ( )or",
+        "type": "common_word",
+        "value": "comma",
         "location": {
           "startColumn": 90,
+          "endColumn": 95
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 96,
+          "endColumn": 97
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 97,
+          "endColumn": 98
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 98,
+          "endColumn": 99
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "or",
+        "location": {
+          "startColumn": 100,
           "endColumn": 102
         }
       },
@@ -357,18 +389,74 @@
         }
       },
       {
-        "type": "type",
-        "value": "comma ( )after",
+        "type": "common_word",
+        "value": "comma",
         "location": {
           "startColumn": 43,
+          "endColumn": 48
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 49,
+          "endColumn": 50
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 50,
+          "endColumn": 51
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 51,
+          "endColumn": 52
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "after",
+        "location": {
+          "startColumn": 53,
           "endColumn": 58
         }
       },
       {
-        "type": "type",
-        "value": "comma ( )",
+        "type": "common_word",
+        "value": "comma",
         "location": {
           "startColumn": 59,
+          "endColumn": 64
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 65,
+          "endColumn": 66
+        }
+      },
+      {
+        "type": "comma",
+        "value": ",",
+        "location": {
+          "startColumn": 66,
+          "endColumn": 67
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 67,
           "endColumn": 68
         }
       },

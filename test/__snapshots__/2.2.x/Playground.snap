@@ -1442,10 +1442,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "false (bool)will",
+        "type": "common_word",
+        "value": "false",
         "location": {
           "startColumn": 4,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "will",
+        "location": {
+          "startColumn": 17,
           "endColumn": 21
         }
       },
@@ -1559,10 +1591,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "false (bool)will",
+        "type": "common_word",
+        "value": "false",
         "location": {
           "startColumn": 4,
+          "endColumn": 9
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 11
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 11,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 15,
+          "endColumn": 16
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "will",
+        "location": {
+          "startColumn": 17,
           "endColumn": 21
         }
       },
@@ -1668,10 +1732,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "null (null)will",
+        "type": "common_word",
+        "value": "null",
         "location": {
           "startColumn": 4,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "will",
+        "location": {
+          "startColumn": 16,
           "endColumn": 20
         }
       },
@@ -1785,10 +1881,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "null (null)will",
+        "type": "common_word",
+        "value": "null",
         "location": {
           "startColumn": 4,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "null",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "will",
+        "location": {
+          "startColumn": 16,
           "endColumn": 20
         }
       },
@@ -1894,10 +2022,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "true (bool)will",
+        "type": "common_word",
+        "value": "true",
         "location": {
           "startColumn": 4,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "will",
+        "location": {
+          "startColumn": 16,
           "endColumn": 20
         }
       },
@@ -2011,10 +2171,42 @@
         }
       },
       {
-        "type": "type",
-        "value": "true (bool)will",
+        "type": "common_word",
+        "value": "true",
         "location": {
           "startColumn": 4,
+          "endColumn": 8
+        }
+      },
+      {
+        "type": "lparen",
+        "value": "(",
+        "location": {
+          "startColumn": 9,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "bool",
+        "location": {
+          "startColumn": 10,
+          "endColumn": 14
+        }
+      },
+      {
+        "type": "rparen",
+        "value": ")",
+        "location": {
+          "startColumn": 14,
+          "endColumn": 15
+        }
+      },
+      {
+        "type": "common_word",
+        "value": "will",
+        "location": {
+          "startColumn": 16,
           "endColumn": 20
         }
       },
