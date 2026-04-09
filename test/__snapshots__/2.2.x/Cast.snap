@@ -232,25 +232,9 @@
       },
       {
         "type": "type",
-        "value": "array|",
+        "value": "array|float|int",
         "location": {
           "startColumn": 12,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "type",
-        "value": "float|",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 24,
           "endColumn": 27
         }
       },
@@ -513,17 +497,9 @@
       },
       {
         "type": "type",
-        "value": "object|",
+        "value": "object|string",
         "location": {
           "startColumn": 12,
-          "endColumn": 19
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 19,
           "endColumn": 25
         }
       },
@@ -733,17 +709,9 @@
       },
       {
         "type": "type",
-        "value": "stdClass|",
+        "value": "stdClass|null",
         "location": {
           "startColumn": 12,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 21,
           "endColumn": 25
         }
       },

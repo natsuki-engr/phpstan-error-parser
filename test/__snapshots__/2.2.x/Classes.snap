@@ -4864,17 +4864,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|string",
         "location": {
           "startColumn": 30,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 34,
           "endColumn": 40
         }
       },
@@ -5063,17 +5055,9 @@
       },
       {
         "type": "type",
-        "value": "stdClass|",
+        "value": "stdClass|null",
         "location": {
           "startColumn": 32,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 41,
           "endColumn": 45
         }
       },
@@ -5132,17 +5116,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 32,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 39,
           "endColumn": 43
         }
       },
@@ -13122,17 +13098,9 @@
       },
       {
         "type": "type",
-        "value": "DateTime|",
+        "value": "DateTime|string",
         "location": {
           "startColumn": 87,
-          "endColumn": 96
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 96,
           "endColumn": 102
         }
       },
@@ -13380,17 +13348,9 @@
       },
       {
         "type": "type",
-        "value": "Stringable|",
+        "value": "Stringable|null",
         "location": {
           "startColumn": 87,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 98,
           "endColumn": 102
         }
       },
@@ -13638,17 +13598,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|null",
         "location": {
           "startColumn": 87,
-          "endColumn": 91
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 91,
           "endColumn": 95
         }
       },
@@ -13896,17 +13848,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 87,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 94,
           "endColumn": 98
         }
       },
@@ -13973,17 +13917,9 @@
       },
       {
         "type": "type",
-        "value": "DateTime|",
+        "value": "DateTime|DateTimeImmutable",
         "location": {
           "startColumn": 24,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DateTimeImmutable",
-        "location": {
-          "startColumn": 33,
           "endColumn": 50
         }
       },
@@ -24346,17 +24282,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 32,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 39,
           "endColumn": 43
         }
       },
@@ -26582,17 +26510,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|TEnd",
         "location": {
           "startColumn": 24,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEnd",
-        "location": {
-          "startColumn": 28,
           "endColumn": 32
         }
       },
@@ -31306,17 +31226,9 @@
       },
       {
         "type": "type",
-        "value": "IteratorAggregate|",
+        "value": "IteratorAggregate|RecursiveIterator",
         "location": {
           "startColumn": 83,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "RecursiveIterator",
-        "location": {
-          "startColumn": 101,
           "endColumn": 118
         }
       },
@@ -31540,17 +31452,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 73,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 80,
           "endColumn": 84
         }
       },
@@ -32311,17 +32215,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|TEnd",
         "location": {
           "startColumn": 58,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEnd",
-        "location": {
-          "startColumn": 62,
           "endColumn": 66
         }
       },
@@ -32561,17 +32457,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|TEnd",
         "location": {
           "startColumn": 55,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TEnd",
-        "location": {
-          "startColumn": 59,
           "endColumn": 63
         }
       },

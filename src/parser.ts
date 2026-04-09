@@ -271,8 +271,18 @@ export class Parser extends CstParser {
           },
         },
         { ALT: () => this.CONSUME(tokens.LBRACKET) },
-        { ALT: () => this.CONSUME(tokens.PIPE) },
-        { ALT: () => this.CONSUME(tokens.AMPERSAND) },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.PIPE);
+            this.SUBRULE3(this.typeExpression);
+          },
+        },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.AMPERSAND);
+            this.SUBRULE4(this.typeExpression);
+          },
+        },
       ]);
     });
   });

@@ -485,17 +485,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|string",
         "location": {
           "startColumn": 13,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 17,
           "endColumn": 23
         }
       },
@@ -825,17 +817,9 @@
       },
       {
         "type": "type",
-        "value": "stdClass|",
+        "value": "stdClass|null",
         "location": {
           "startColumn": 13,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 22,
           "endColumn": 26
         }
       },
@@ -6631,17 +6615,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 90,
-          "endColumn": 97
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 97,
           "endColumn": 101
         }
       },
@@ -7357,17 +7333,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 93,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 100,
           "endColumn": 104
         }
       },
@@ -7482,17 +7450,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 93,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 100,
           "endColumn": 104
         }
       },
@@ -7607,17 +7567,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|null",
         "location": {
           "startColumn": 93,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 100,
           "endColumn": 104
         }
       },

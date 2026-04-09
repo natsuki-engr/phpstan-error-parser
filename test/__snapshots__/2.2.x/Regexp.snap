@@ -44,17 +44,9 @@
       },
       {
         "type": "type",
-        "value": "delimiter &",
+        "value": "delimiter & to",
         "location": {
           "startColumn": 32,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "to",
-        "location": {
-          "startColumn": 44,
           "endColumn": 46
         }
       },
