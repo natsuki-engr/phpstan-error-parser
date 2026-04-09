@@ -110,6 +110,189 @@ export class Parser extends CstParser {
     this.performSelfAnalysis();
   }
 
+  // typeExpression: intersectionType (| intersectionType)*
+  public typeExpression = this.RULE('typeExpression', () => {
+    this.SUBRULE(this.intersectionType);
+    this.MANY(() => {
+      this.CONSUME(tokens.PIPE);
+      this.SUBRULE2(this.intersectionType);
+    });
+  });
+
+  // intersectionType: postfixType (& postfixType)*
+  public intersectionType = this.RULE('intersectionType', () => {
+    this.SUBRULE(this.postfixType);
+    this.MANY(() => {
+      this.CONSUME(tokens.AMPERSAND);
+      this.SUBRULE2(this.postfixType);
+    });
+  });
+
+  // postfixType: primaryType ([])*
+  public postfixType = this.RULE('postfixType', () => {
+    this.SUBRULE(this.primaryType);
+    this.MANY(() => {
+      this.CONSUME(tokens.LBRACKET);
+      this.CONSUME(tokens.RBRACKET);
+    });
+  });
+
+  // primaryType: base type forms
+  public primaryType = this.RULE('primaryType', () => {
+    this.OR([
+      // Parenthesized type
+      {
+        ALT: () => {
+          this.CONSUME(tokens.LPAREN);
+          this.SUBRULE(this.typeExpression);
+          this.CONSUME(tokens.RPAREN);
+        },
+      },
+      // Named type with optional generics, shapes, or callable signature
+      {
+        ALT: () => {
+          this.OPTION(() => {
+            this.CONSUME(tokens.QUESTION);
+          });
+          this.CONSUME(tokens.COMMON_WORD);
+          this.OPTION2(() => {
+            this.OR2([
+              // Generic: name<typeList>
+              {
+                ALT: () => {
+                  this.CONSUME(tokens.LANGLE);
+                  this.SUBRULE(this.typeList);
+                  this.CONSUME(tokens.RANGLE);
+                },
+              },
+              // Shape: name{ shapeMembers? }
+              {
+                ALT: () => {
+                  this.CONSUME(tokens.LBRACE);
+                  this.OPTION3(() => {
+                    this.SUBRULE(this.shapeMembers);
+                  });
+                  this.CONSUME(tokens.RBRACE);
+                },
+              },
+              // Callable: name(typeList?): returnType
+              {
+                ALT: () => {
+                  this.CONSUME2(tokens.LPAREN);
+                  this.OPTION4(() => {
+                    this.SUBRULE2(this.typeList);
+                  });
+                  this.CONSUME2(tokens.RPAREN);
+                  this.CONSUME(tokens.COLON);
+                  this.SUBRULE3(this.typeExpression);
+                },
+              },
+            ]);
+          });
+        },
+      },
+      // String literal type
+      { ALT: () => this.CONSUME(tokens.SINGLE_QUOTED_STRING) },
+      // Number literal type
+      { ALT: () => this.CONSUME(tokens.NUMBER) },
+    ]);
+  });
+
+  // typeList: typeExpression (, typeExpression)*
+  public typeList = this.RULE('typeList', () => {
+    this.SUBRULE(this.typeExpression);
+    this.MANY(() => {
+      this.CONSUME(tokens.COMMA);
+      this.SUBRULE2(this.typeExpression);
+    });
+  });
+
+  // shapeMembers: (shapeMember | ...) (, (shapeMember | ...))*
+  public shapeMembers = this.RULE('shapeMembers', () => {
+    this.OR([
+      { ALT: () => this.CONSUME(tokens.ELLIPSIS) },
+      { ALT: () => this.SUBRULE(this.shapeMember) },
+    ]);
+    this.MANY(() => {
+      this.CONSUME(tokens.COMMA);
+      this.OR2([
+        { ALT: () => this.CONSUME2(tokens.ELLIPSIS) },
+        { ALT: () => this.SUBRULE2(this.shapeMember) },
+      ]);
+    });
+  });
+
+  // shapeMember: typeExpression (??: typeExpression)?
+  public shapeMember = this.RULE('shapeMember', () => {
+    this.SUBRULE(this.typeExpression);
+    this.OPTION(() => {
+      this.OPTION2(() => {
+        this.CONSUME(tokens.QUESTION);
+      });
+      this.CONSUME(tokens.COLON);
+      this.SUBRULE2(this.typeExpression);
+    });
+  });
+
+  /**
+   * wordOrType: consumes a CommonWord, then checks if type syntax follows.
+   * If so, wraps it as a typeExpression. Otherwise, stays as CommonWord.
+   * This avoids GATE overhead on every token.
+   */
+  public wordOrType = this.RULE('wordOrType', () => {
+    const word = this.CONSUME(tokens.COMMON_WORD);
+    this.OPTION(() => {
+      this.OR([
+        {
+          ALT: () => {
+            this.CONSUME(tokens.LANGLE);
+            this.SUBRULE(this.typeList);
+            this.CONSUME(tokens.RANGLE);
+          },
+        },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.LBRACE);
+            this.OPTION2(() => {
+              this.SUBRULE(this.shapeMembers);
+            });
+            this.CONSUME(tokens.RBRACE);
+          },
+        },
+        {
+          // Callable: name(typeList?): returnType
+          // Only match if ( immediately follows the word (no space)
+          GATE: () => {
+            const next = this.LA(1);
+            return next.startOffset === word.startOffset + word.image.length;
+          },
+          ALT: () => {
+            this.CONSUME(tokens.LPAREN);
+            this.OPTION3(() => {
+              this.SUBRULE2(this.typeList);
+            });
+            this.CONSUME(tokens.RPAREN);
+            this.CONSUME(tokens.COLON);
+            this.SUBRULE(this.typeExpression);
+          },
+        },
+        { ALT: () => this.CONSUME(tokens.LBRACKET) },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.PIPE);
+            this.SUBRULE3(this.typeExpression);
+          },
+        },
+        {
+          ALT: () => {
+            this.CONSUME(tokens.AMPERSAND);
+            this.SUBRULE4(this.typeExpression);
+          },
+        },
+      ]);
+    });
+  });
+
   public sentence = this.RULE('sentence', () => {
     this.AT_LEAST_ONE(() => {
       this.OR([
@@ -121,7 +304,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.STATIC_CONSTANT) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
         { ALT: () => this.CONSUME(tokens.NAMESPACED_NAME) },
-        { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
+        { ALT: () => this.SUBRULE(this.wordOrType) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },
         { ALT: () => this.CONSUME(tokens.VARIABLE) },
         { ALT: () => this.CONSUME(tokens.PARAMETER_NUMBER) },

@@ -3912,34 +3912,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "iterable",
+        "type": "type",
+        "value": "iterable<int>",
         "location": {
           "startColumn": 118,
-          "endColumn": 126
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 126,
-          "endColumn": 127
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 127,
-          "endColumn": 130
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 130,
           "endColumn": 131
         }
       },
@@ -4723,18 +4699,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "type",
+        "value": "string<",
         "location": {
           "startColumn": 99,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 105,
           "endColumn": 106
         }
       },
@@ -4973,34 +4941,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "iterable",
+        "type": "type",
+        "value": "iterable<int>",
         "location": {
           "startColumn": 127,
-          "endColumn": 135
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 135,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 136,
-          "endColumn": 139
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 139,
           "endColumn": 140
         }
       },
@@ -5449,50 +5393,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "iterable",
+        "type": "type",
+        "value": "iterable<int, object>",
         "location": {
           "startColumn": 123,
-          "endColumn": 131
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 131,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 132,
-          "endColumn": 135
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 135,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "object",
-        "location": {
-          "startColumn": 137,
-          "endColumn": 143
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 143,
           "endColumn": 144
         }
       },
@@ -5973,18 +5877,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "type",
+        "value": "string<",
         "location": {
           "startColumn": 108,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 114,
           "endColumn": 115
         }
       },
@@ -9927,18 +9823,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "type",
+        "value": "string<",
         "location": {
           "startColumn": 110,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 116,
           "endColumn": 117
         }
       },
@@ -12851,18 +12739,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "string",
+        "type": "type",
+        "value": "string<",
         "location": {
           "startColumn": 116,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 122,
           "endColumn": 123
         }
       },

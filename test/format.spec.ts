@@ -702,122 +702,85 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
-  it('parse parentheses with type annotation', () => {
+  it('parse parentheses with type annotation as flat tokens', () => {
     const message =
       'Parameter #1 (stdClass) of echo cannot be converted to string.';
     const result = parse(message);
 
+    // Parenthesized types like (stdClass) remain flat tokens for performance.
+    // Only CommonWord-starting types (e.g., array<int>) are structured.
     const expected = [
       {
         type: 'common_word',
         value: 'Parameter',
-        location: {
-          startColumn: 0,
-          endColumn: 9,
-        },
+        location: { startColumn: 0, endColumn: 9 },
       },
       {
         type: 'parameter_number',
         value: '#1',
-        location: {
-          startColumn: 10,
-          endColumn: 12,
-        },
+        location: { startColumn: 10, endColumn: 12 },
       },
       {
         type: 'lparen',
         value: '(',
-        location: {
-          startColumn: 13,
-          endColumn: 14,
-        },
+        location: { startColumn: 13, endColumn: 14 },
       },
       {
         type: 'common_word',
         value: 'stdClass',
-        location: {
-          startColumn: 14,
-          endColumn: 22,
-        },
+        location: { startColumn: 14, endColumn: 22 },
       },
       {
         type: 'rparen',
         value: ')',
-        location: {
-          startColumn: 22,
-          endColumn: 23,
-        },
+        location: { startColumn: 22, endColumn: 23 },
       },
       {
         type: 'common_word',
         value: 'of',
-        location: {
-          startColumn: 24,
-          endColumn: 26,
-        },
+        location: { startColumn: 24, endColumn: 26 },
       },
       {
         type: 'common_word',
         value: 'echo',
-        location: {
-          startColumn: 27,
-          endColumn: 31,
-        },
+        location: { startColumn: 27, endColumn: 31 },
       },
       {
         type: 'common_word',
         value: 'cannot',
-        location: {
-          startColumn: 32,
-          endColumn: 38,
-        },
+        location: { startColumn: 32, endColumn: 38 },
       },
       {
         type: 'common_word',
         value: 'be',
-        location: {
-          startColumn: 39,
-          endColumn: 41,
-        },
+        location: { startColumn: 39, endColumn: 41 },
       },
       {
         type: 'common_word',
         value: 'converted',
-        location: {
-          startColumn: 42,
-          endColumn: 51,
-        },
+        location: { startColumn: 42, endColumn: 51 },
       },
       {
         type: 'common_word',
         value: 'to',
-        location: {
-          startColumn: 52,
-          endColumn: 54,
-        },
+        location: { startColumn: 52, endColumn: 54 },
       },
       {
         type: 'common_word',
         value: 'string',
-        location: {
-          startColumn: 55,
-          endColumn: 61,
-        },
+        location: { startColumn: 55, endColumn: 61 },
       },
       {
         type: 'period',
         value: '.',
-        location: {
-          startColumn: 61,
-          endColumn: 62,
-        },
+        location: { startColumn: 61, endColumn: 62 },
       },
     ];
 
     expect(result).toStrictEqual(expected);
   });
 
-  it('parse colon', () => {
+  it('parse callable type as structured type', () => {
     const message =
       'Parameter Closure(): void of print cannot be converted to string.';
     const result = parse(message);
@@ -829,29 +792,9 @@ describe('test formatted results', () => {
         location: { startColumn: 0, endColumn: 9 },
       },
       {
-        type: 'common_word',
-        value: 'Closure',
-        location: { startColumn: 10, endColumn: 17 },
-      },
-      {
-        type: 'lparen',
-        value: '(',
-        location: { startColumn: 17, endColumn: 18 },
-      },
-      {
-        type: 'rparen',
-        value: ')',
-        location: { startColumn: 18, endColumn: 19 },
-      },
-      {
-        type: 'colon',
-        value: ':',
-        location: { startColumn: 19, endColumn: 20 },
-      },
-      {
-        type: 'common_word',
-        value: 'void',
-        location: { startColumn: 21, endColumn: 25 },
+        type: 'type',
+        value: 'Closure(): void',
+        location: { startColumn: 10, endColumn: 25 },
       },
       {
         type: 'common_word',
@@ -934,34 +877,9 @@ describe('test formatted results', () => {
         location: { startColumn: 26, endColumn: 28 },
       },
       {
-        type: 'common_word',
-        value: 'array',
-        location: { startColumn: 29, endColumn: 34 },
-      },
-      {
-        type: 'lbrace',
-        value: '{',
-        location: { startColumn: 34, endColumn: 35 },
-      },
-      {
-        type: 'common_word',
-        value: 'b',
-        location: { startColumn: 35, endColumn: 36 },
-      },
-      {
-        type: 'colon',
-        value: ':',
-        location: { startColumn: 36, endColumn: 37 },
-      },
-      {
-        type: 'number',
-        value: '1',
-        location: { startColumn: 38, endColumn: 39 },
-      },
-      {
-        type: 'rbrace',
-        value: '}',
-        location: { startColumn: 39, endColumn: 40 },
+        type: 'type',
+        value: 'array{b: 1}',
+        location: { startColumn: 29, endColumn: 40 },
       },
       {
         type: 'period',
@@ -973,7 +891,7 @@ describe('test formatted results', () => {
     expect(result).toStrictEqual(expected);
   });
 
-  it('parse type delimiters in generic type', () => {
+  it('parse generic type as structured type', () => {
     const message = 'Parameter expects array<int, string>.';
     const result = parse(message);
 
@@ -989,34 +907,9 @@ describe('test formatted results', () => {
         location: { startColumn: 10, endColumn: 17 },
       },
       {
-        type: 'common_word',
-        value: 'array',
-        location: { startColumn: 18, endColumn: 23 },
-      },
-      {
-        type: 'langle',
-        value: '<',
-        location: { startColumn: 23, endColumn: 24 },
-      },
-      {
-        type: 'common_word',
-        value: 'int',
-        location: { startColumn: 24, endColumn: 27 },
-      },
-      {
-        type: 'comma',
-        value: ',',
-        location: { startColumn: 27, endColumn: 28 },
-      },
-      {
-        type: 'common_word',
-        value: 'string',
-        location: { startColumn: 29, endColumn: 35 },
-      },
-      {
-        type: 'rangle',
-        value: '>',
-        location: { startColumn: 35, endColumn: 36 },
+        type: 'type',
+        value: 'array<int, string>',
+        location: { startColumn: 18, endColumn: 36 },
       },
       {
         type: 'period',
