@@ -67,18 +67,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NonexistentOffset",
+        "type": "namespaced_name",
+        "value": "NonexistentOffset\\Bar",
         "location": {
           "startColumn": 40,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 58,
           "endColumn": 61
         }
       },
@@ -160,26 +152,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug5669\\arr",
         "location": {
           "startColumn": 50,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "number",
-        "value": "5669",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "arr",
-        "location": {
-          "startColumn": 58,
           "endColumn": 61
         }
       },
@@ -261,18 +237,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NonexistentOffset",
+        "type": "namespaced_name",
+        "value": "NonexistentOffset\\Bar",
         "location": {
           "startColumn": 43,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 61,
           "endColumn": 64
         }
       },
@@ -4578,26 +4546,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug6605\\X",
         "location": {
           "startColumn": 40,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "number",
-        "value": "6605",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "X",
-        "location": {
-          "startColumn": 48,
           "endColumn": 49
         }
       },
@@ -5003,26 +4955,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3782\\HelloWorld",
         "location": {
           "startColumn": 43,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "number",
-        "value": "3782",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 51,
           "endColumn": 61
         }
       },
@@ -5067,26 +5003,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3782\\HelloWorld",
         "location": {
           "startColumn": 76,
-          "endColumn": 79
-        }
-      },
-      {
-        "type": "number",
-        "value": "3782",
-        "location": {
-          "startColumn": 79,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 84,
           "endColumn": 94
         }
       },
@@ -6153,18 +6073,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "OffsetAccessAssignment",
+        "type": "namespaced_name",
+        "value": "OffsetAccessAssignment\\ObjectWithOffsetAccess",
         "location": {
           "startColumn": 28,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectWithOffsetAccess",
-        "location": {
-          "startColumn": 51,
           "endColumn": 73
         }
       },
@@ -6716,18 +6628,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "OffsetAccessAssignment",
+        "type": "namespaced_name",
+        "value": "OffsetAccessAssignment\\ObjectWithOffsetAccess",
         "location": {
           "startColumn": 30,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectWithOffsetAccess",
-        "location": {
-          "startColumn": 53,
           "endColumn": 75
         }
       },
@@ -8016,18 +7920,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IterablesInForeach",
+        "type": "namespaced_name",
+        "value": "IterablesInForeach\\Bar",
         "location": {
           "startColumn": 45,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 64,
           "endColumn": 67
         }
       },

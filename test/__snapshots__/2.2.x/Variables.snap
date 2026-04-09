@@ -601,18 +601,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "VariableCloning",
+        "type": "namespaced_name",
+        "value": "VariableCloning\\Foo",
         "location": {
           "startColumn": 53,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 69,
           "endColumn": 72
         }
       },
@@ -694,18 +686,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "VariableCloning",
+        "type": "namespaced_name",
+        "value": "VariableCloning\\Bar",
         "location": {
           "startColumn": 46,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 62,
           "endColumn": 65
         }
       },
@@ -718,18 +702,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "VariableCloning",
+        "type": "namespaced_name",
+        "value": "VariableCloning\\Foo",
         "location": {
           "startColumn": 66,
-          "endColumn": 81
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 82,
           "endColumn": 85
         }
       },
@@ -2064,18 +2040,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "VariableCloning",
+        "type": "namespaced_name",
+        "value": "VariableCloning\\Bar",
         "location": {
           "startColumn": 35,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 51,
           "endColumn": 54
         }
       },
@@ -9639,26 +9607,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PR",
+        "type": "namespaced_name",
+        "value": "PR4374\\Foo",
         "location": {
           "startColumn": 33,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "number",
-        "value": "4374",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 40,
           "endColumn": 43
         }
       },

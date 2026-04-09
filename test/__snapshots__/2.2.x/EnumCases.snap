@@ -19,18 +19,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumCaseAttributes",
+        "type": "namespaced_name",
+        "value": "EnumCaseAttributes\\AttributeWithPropertyTarget",
         "location": {
           "startColumn": 16,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AttributeWithPropertyTarget",
-        "location": {
-          "startColumn": 35,
           "endColumn": 62
         }
       },

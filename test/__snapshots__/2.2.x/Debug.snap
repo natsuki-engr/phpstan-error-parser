@@ -2048,18 +2048,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Foo",
+        "type": "namespaced_name",
+        "value": "Foo\\Bar",
         "location": {
           "startColumn": 19,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 23,
           "endColumn": 26
         }
       },

@@ -742,18 +742,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleAssertTypeWithMethodReturnType",
+        "type": "namespaced_name",
+        "value": "IncompatibleAssertTypeWithMethodReturnType\\Foo",
         "location": {
           "startColumn": 36,
-          "endColumn": 78
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 79,
           "endColumn": 82
         }
       },
@@ -1080,18 +1072,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 56,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 81,
           "endColumn": 100
         }
       },
@@ -1264,18 +1248,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 215,
-          "endColumn": 239
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 240,
           "endColumn": 259
         }
       },
@@ -1365,18 +1341,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 56,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 81,
           "endColumn": 100
         }
       },
@@ -1525,18 +1493,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 197,
-          "endColumn": 221
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 222,
           "endColumn": 241
         }
       },
@@ -1626,18 +1586,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 56,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 81,
           "endColumn": 100
         }
       },
@@ -1810,18 +1762,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 273,
-          "endColumn": 297
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 298,
           "endColumn": 317
         }
       },
@@ -1911,18 +1855,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 56,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 81,
           "endColumn": 100
         }
       },
@@ -2095,18 +2031,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 213,
-          "endColumn": 237
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 238,
           "endColumn": 257
         }
       },
@@ -2196,18 +2124,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 52,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 77,
           "endColumn": 96
         }
       },
@@ -2364,18 +2284,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 191,
-          "endColumn": 215
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 216,
           "endColumn": 235
         }
       },
@@ -2497,18 +2409,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 52,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 77,
           "endColumn": 96
         }
       },
@@ -2641,18 +2545,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 173,
-          "endColumn": 197
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 198,
           "endColumn": 217
         }
       },
@@ -2774,18 +2670,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 52,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 77,
           "endColumn": 96
         }
       },
@@ -2942,18 +2830,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 246,
-          "endColumn": 270
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 271,
           "endColumn": 290
         }
       },
@@ -3075,18 +2955,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 52,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 77,
           "endColumn": 96
         }
       },
@@ -3243,18 +3115,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooCovariantGeneric",
         "location": {
           "startColumn": 189,
-          "endColumn": 213
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCovariantGeneric",
-        "location": {
-          "startColumn": 214,
           "endColumn": 233
         }
       },
@@ -3312,18 +3176,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidVarTagType",
+        "type": "namespaced_name",
+        "value": "InvalidVarTagType\\Foo",
         "location": {
           "startColumn": 6,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 24,
           "endColumn": 27
         }
       },
@@ -3368,18 +3224,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidVarTagType",
+        "type": "namespaced_name",
+        "value": "InvalidVarTagType\\foo",
         "location": {
           "startColumn": 60,
-          "endColumn": 77
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "foo",
-        "location": {
-          "startColumn": 78,
           "endColumn": 81
         }
       },
@@ -3405,18 +3253,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\Foo",
         "location": {
           "startColumn": 6,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 19,
           "endColumn": 22
         }
       },
@@ -3461,18 +3301,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\fOO",
         "location": {
           "startColumn": 55,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "fOO",
-        "location": {
-          "startColumn": 68,
           "endColumn": 71
         }
       },
@@ -4372,26 +4204,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck2",
         "location": {
           "startColumn": 13,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 37,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 49,
           "endColumn": 50
         }
       },
@@ -4596,26 +4412,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck2",
         "location": {
           "startColumn": 168,
-          "endColumn": 191
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 192,
-          "endColumn": 204
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 204,
           "endColumn": 205
         }
       },
@@ -4697,26 +4497,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck2",
         "location": {
           "startColumn": 13,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 37,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 49,
           "endColumn": 50
         }
       },
@@ -4857,26 +4641,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck2",
         "location": {
           "startColumn": 154,
-          "endColumn": 177
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 178,
-          "endColumn": 190
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 190,
           "endColumn": 191
         }
       },
@@ -4934,18 +4702,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -5118,18 +4878,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 168,
-          "endColumn": 192
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 193,
           "endColumn": 203
         }
       },
@@ -5211,18 +4963,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -5371,18 +5115,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 148,
-          "endColumn": 172
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 173,
           "endColumn": 183
         }
       },
@@ -5464,18 +5200,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -5648,18 +5376,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 213,
-          "endColumn": 237
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 238,
           "endColumn": 248
         }
       },
@@ -5741,18 +5461,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -5925,18 +5637,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 164,
-          "endColumn": 188
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 189,
           "endColumn": 199
         }
       },
@@ -6018,18 +5722,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -6194,18 +5890,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 227,
-          "endColumn": 251
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 252,
           "endColumn": 262
         }
       },
@@ -6287,18 +5975,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -6447,18 +6127,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 139,
-          "endColumn": 163
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 164,
           "endColumn": 174
         }
       },
@@ -6516,18 +6188,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -6652,18 +6316,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 121,
-          "endColumn": 145
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 146,
           "endColumn": 156
         }
       },
@@ -6721,18 +6377,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -6881,18 +6529,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 188,
-          "endColumn": 212
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 213,
           "endColumn": 223
         }
       },
@@ -6950,18 +6590,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -7110,18 +6742,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 137,
-          "endColumn": 161
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 162,
           "endColumn": 172
         }
       },
@@ -7179,18 +6803,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -7331,18 +6947,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 202,
-          "endColumn": 226
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 227,
           "endColumn": 237
         }
       },
@@ -7400,18 +7008,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 26,
           "endColumn": 32
         }
       },
@@ -7584,18 +7184,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 128,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 141,
           "endColumn": 147
         }
       },
@@ -7677,18 +7269,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 26,
           "endColumn": 32
         }
       },
@@ -7837,18 +7421,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 120,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 133,
           "endColumn": 139
         }
       },
@@ -7906,18 +7482,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 26,
           "endColumn": 32
         }
       },
@@ -8066,18 +7634,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 122,
-          "endColumn": 134
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 135,
           "endColumn": 141
         }
       },
@@ -8135,18 +7695,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisPhpDocRule\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 40,
           "endColumn": 46
         }
       },
@@ -8311,18 +7863,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisPhpDocRule\\FooBar",
         "location": {
           "startColumn": 148,
-          "endColumn": 174
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 175,
           "endColumn": 181
         }
       },
@@ -8380,18 +7924,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisPhpDocRule\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 40,
           "endColumn": 46
         }
       },
@@ -8556,18 +8092,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisPhpDocRule\\FooBar",
         "location": {
           "startColumn": 150,
-          "endColumn": 176
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 177,
           "endColumn": 183
         }
       },
@@ -8625,18 +8153,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamOutPhpDocRule\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 32,
           "endColumn": 38
         }
       },
@@ -8793,18 +8313,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamOutPhpDocRule\\FooBar",
         "location": {
           "startColumn": 131,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 150,
           "endColumn": 156
         }
       },
@@ -8862,18 +8374,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamOutPhpDocRule\\FooBar",
         "location": {
           "startColumn": 13,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 32,
           "endColumn": 38
         }
       },
@@ -9030,18 +8534,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamOutPhpDocRule\\FooBar",
         "location": {
           "startColumn": 133,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 152,
           "endColumn": 158
         }
       },
@@ -9115,18 +8611,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocGenericStatic",
+        "type": "namespaced_name",
+        "value": "IncompatiblePhpDocGenericStatic\\Foo",
         "location": {
           "startColumn": 20,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 52,
           "endColumn": 55
         }
       },
@@ -9267,18 +8755,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocGenericStatic",
+        "type": "namespaced_name",
+        "value": "IncompatiblePhpDocGenericStatic\\Foo",
         "location": {
           "startColumn": 130,
-          "endColumn": 161
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 162,
           "endColumn": 165
         }
       },
@@ -10344,18 +9824,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericEnumParam",
+        "type": "namespaced_name",
+        "value": "GenericEnumParam\\FooEnum",
         "location": {
           "startColumn": 57,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooEnum",
-        "location": {
-          "startColumn": 74,
           "endColumn": 81
         }
       },
@@ -10400,18 +9872,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericEnumParam",
+        "type": "namespaced_name",
+        "value": "GenericEnumParam\\FooEnum",
         "location": {
           "startColumn": 96,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooEnum",
-        "location": {
-          "startColumn": 113,
           "endColumn": 120
         }
       },
@@ -10991,18 +10455,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 59,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 84,
           "endColumn": 87
         }
       },
@@ -11047,18 +10503,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 108,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 133,
           "endColumn": 136
         }
       },
@@ -11430,18 +10878,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Invalid",
         "location": {
           "startColumn": 77,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Invalid",
-        "location": {
-          "startColumn": 106,
           "endColumn": 113
         }
       },
@@ -11526,18 +10966,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Invalid",
         "location": {
           "startColumn": 144,
-          "endColumn": 172
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Invalid",
-        "location": {
-          "startColumn": 173,
           "endColumn": 180
         }
       },
@@ -12149,26 +11581,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Test3",
         "location": {
           "startColumn": 111,
-          "endColumn": 139
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Test",
-        "location": {
-          "startColumn": 140,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -12639,18 +12055,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Test",
         "location": {
           "startColumn": 123,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Test",
-        "location": {
-          "startColumn": 152,
           "endColumn": 156
         }
       },
@@ -16367,18 +15775,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\Nonexistent",
         "location": {
           "startColumn": 57,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Nonexistent",
-        "location": {
-          "startColumn": 70,
           "endColumn": 81
         }
       },
@@ -16601,18 +16001,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooTrait",
         "location": {
           "startColumn": 56,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooTrait",
-        "location": {
-          "startColumn": 69,
           "endColumn": 77
         }
       },
@@ -16702,18 +16094,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 57,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 70,
           "endColumn": 76
         }
       },
@@ -17593,18 +16977,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\SomeInterface",
         "location": {
           "startColumn": 64,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeInterface",
-        "location": {
-          "startColumn": 91,
           "endColumn": 104
         }
       },
@@ -17726,18 +17102,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\UnresolvableExtendsInterface",
         "location": {
           "startColumn": 64,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "UnresolvableExtendsInterface",
-        "location": {
-          "startColumn": 91,
           "endColumn": 119
         }
       },
@@ -17859,18 +17227,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\SomeFinalClass",
         "location": {
           "startColumn": 63,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeFinalClass",
-        "location": {
-          "startColumn": 90,
           "endColumn": 104
         }
       },
@@ -17968,18 +17328,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\SomeEnum",
         "location": {
           "startColumn": 66,
-          "endColumn": 92
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeEnum",
-        "location": {
-          "startColumn": 93,
           "endColumn": 101
         }
       },
@@ -18077,18 +17429,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\SomeTrait",
         "location": {
           "startColumn": 66,
-          "endColumn": 92
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 93,
           "endColumn": 102
         }
       },
@@ -18356,18 +17700,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\NonExistentClass",
         "location": {
           "startColumn": 59,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonExistentClass",
-        "location": {
-          "startColumn": 86,
           "endColumn": 102
         }
       },
@@ -18449,18 +17785,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireExtends",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireExtends\\TypeDoesNotExist",
         "location": {
           "startColumn": 59,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TypeDoesNotExist",
-        "location": {
-          "startColumn": 86,
           "endColumn": 102
         }
       },
@@ -18667,18 +17995,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireImplements",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireImplements\\SomeClass",
         "location": {
           "startColumn": 73,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeClass",
-        "location": {
-          "startColumn": 103,
           "endColumn": 112
         }
       },
@@ -18776,18 +18096,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireImplements",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireImplements\\SomeEnum",
         "location": {
           "startColumn": 73,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeEnum",
-        "location": {
-          "startColumn": 103,
           "endColumn": 111
         }
       },
@@ -18885,18 +18197,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireImplements",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireImplements\\SomeTrait",
         "location": {
           "startColumn": 73,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 103,
           "endColumn": 112
         }
       },
@@ -19164,18 +18468,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleRequireImplements",
+        "type": "namespaced_name",
+        "value": "IncompatibleRequireImplements\\TypeDoesNotExist",
         "location": {
           "startColumn": 62,
-          "endColumn": 91
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TypeDoesNotExist",
-        "location": {
-          "startColumn": 92,
           "endColumn": 108
         }
       },
@@ -19747,18 +19043,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSealed",
+        "type": "namespaced_name",
+        "value": "IncompatibleSealed\\UnknownClass",
         "location": {
           "startColumn": 50,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "UnknownClass",
-        "location": {
-          "startColumn": 69,
           "endColumn": 81
         }
       },
@@ -19941,18 +19229,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck",
         "location": {
           "startColumn": 51,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 75,
           "endColumn": 87
         }
       },
@@ -19997,18 +19277,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck",
         "location": {
           "startColumn": 103,
-          "endColumn": 126
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 127,
           "endColumn": 139
         }
       },
@@ -20598,18 +19870,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 41,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 66,
           "endColumn": 69
         }
       },
@@ -20670,18 +19934,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 96,
-          "endColumn": 120
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 121,
           "endColumn": 124
         }
       },
@@ -20771,18 +20027,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 41,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 66,
           "endColumn": 69
         }
       },
@@ -20827,18 +20075,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 90,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 115,
           "endColumn": 118
         }
       },
@@ -21849,18 +21089,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Invalid",
         "location": {
           "startColumn": 46,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Invalid",
-        "location": {
-          "startColumn": 75,
           "endColumn": 82
         }
       },
@@ -21945,18 +21177,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Invalid",
         "location": {
           "startColumn": 113,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Invalid",
-        "location": {
-          "startColumn": 142,
           "endColumn": 149
         }
       },
@@ -22813,18 +22037,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallablesIncompatible",
+        "type": "namespaced_name",
+        "value": "GenericCallablesIncompatible\\Test",
         "location": {
           "startColumn": 101,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Test",
-        "location": {
-          "startColumn": 130,
           "endColumn": 134
         }
       },
@@ -24798,18 +24014,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ThrowsWithRequire",
+        "type": "namespaced_name",
+        "value": "ThrowsWithRequire\\RequiresExtendsExceptionInterface",
         "location": {
           "startColumn": 47,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "RequiresExtendsExceptionInterface",
-        "location": {
-          "startColumn": 65,
           "endColumn": 98
         }
       },
@@ -24915,18 +24123,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ThrowsWithRequire",
+        "type": "namespaced_name",
+        "value": "ThrowsWithRequire\\RequiresExtendsStdClassInterface",
         "location": {
           "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "RequiresExtendsStdClassInterface",
-        "location": {
-          "startColumn": 57,
           "endColumn": 89
         }
       },
@@ -25016,18 +24216,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidThrowsPhpDocMergeInherited",
+        "type": "namespaced_name",
+        "value": "InvalidThrowsPhpDocMergeInherited\\A",
         "location": {
           "startColumn": 29,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 63,
           "endColumn": 64
         }
       },
@@ -25117,18 +24309,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidThrowsPhpDocMergeInherited",
+        "type": "namespaced_name",
+        "value": "InvalidThrowsPhpDocMergeInherited\\B",
         "location": {
           "startColumn": 29,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 63,
           "endColumn": 64
         }
       },
@@ -25218,18 +24402,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidThrowsPhpDocMergeInherited",
+        "type": "namespaced_name",
+        "value": "InvalidThrowsPhpDocMergeInherited\\C",
         "location": {
           "startColumn": 29,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "C",
-        "location": {
-          "startColumn": 63,
           "endColumn": 64
         }
       },
@@ -25242,18 +24418,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidThrowsPhpDocMergeInherited",
+        "type": "namespaced_name",
+        "value": "InvalidThrowsPhpDocMergeInherited\\D",
         "location": {
           "startColumn": 65,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "D",
-        "location": {
-          "startColumn": 99,
           "endColumn": 100
         }
       },
@@ -25359,18 +24527,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ThrowsWithRequire",
+        "type": "namespaced_name",
+        "value": "ThrowsWithRequire\\RequiresExtendsStdClassInterface",
         "location": {
           "startColumn": 38,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "RequiresExtendsStdClassInterface",
-        "location": {
-          "startColumn": 56,
           "endColumn": 88
         }
       },
@@ -25569,18 +24729,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ThrowsWithRequire",
+        "type": "namespaced_name",
+        "value": "ThrowsWithRequire\\RequiresExtendsStdClassInterface",
         "location": {
           "startColumn": 29,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "RequiresExtendsStdClassInterface",
-        "location": {
-          "startColumn": 47,
           "endColumn": 79
         }
       },
@@ -26834,26 +25986,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\ObjectType",
         "location": {
           "startColumn": 49,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 62,
           "endColumn": 72
         }
       },
@@ -26890,26 +26026,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\ObjectType",
         "location": {
           "startColumn": 88,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 96,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 101,
           "endColumn": 111
         }
       },
@@ -27047,26 +26167,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Type",
         "location": {
           "startColumn": 49,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 62,
           "endColumn": 66
         }
       },
@@ -27103,26 +26207,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\ObjectType",
         "location": {
           "startColumn": 82,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 95,
           "endColumn": 105
         }
       },
@@ -27260,26 +26348,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Type",
         "location": {
           "startColumn": 49,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 62,
           "endColumn": 66
         }
       },
@@ -27316,26 +26388,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\ObjectType",
         "location": {
           "startColumn": 82,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 90,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 95,
           "endColumn": 105
         }
       },
@@ -27925,18 +26981,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleClassConstantPhpDoc",
+        "type": "namespaced_name",
+        "value": "IncompatibleClassConstantPhpDoc\\Foo",
         "location": {
           "startColumn": 94,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 126,
           "endColumn": 129
         }
       },
@@ -27981,18 +27029,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleClassConstantPhpDoc",
+        "type": "namespaced_name",
+        "value": "IncompatibleClassConstantPhpDoc\\Foo",
         "location": {
           "startColumn": 145,
-          "endColumn": 176
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 177,
           "endColumn": 180
         }
       },
@@ -28183,18 +27223,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "namespaced_name",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Bar",
         "location": {
           "startColumn": 86,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 123,
           "endColumn": 126
         }
       },
@@ -28239,18 +27271,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "namespaced_name",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo",
         "location": {
           "startColumn": 160,
-          "endColumn": 196
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 197,
           "endColumn": 200
         }
       },
@@ -28388,18 +27412,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatiblePhpDocPropertyNativeType",
+        "type": "namespaced_name",
+        "value": "IncompatiblePhpDocPropertyNativeType\\Foo",
         "location": {
           "startColumn": 127,
-          "endColumn": 163
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 164,
           "endColumn": 167
         }
       },
@@ -28957,18 +27973,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 94,
-          "endColumn": 118
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 119,
           "endColumn": 122
         }
       },
@@ -29013,18 +28021,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 143,
-          "endColumn": 167
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 168,
           "endColumn": 171
         }
       },
@@ -29308,18 +28308,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidVarTagType",
+        "type": "namespaced_name",
+        "value": "InvalidVarTagType\\Blabla",
         "location": {
           "startColumn": 57,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Blabla",
-        "location": {
-          "startColumn": 75,
           "endColumn": 81
         }
       },
@@ -29409,42 +28401,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug4486Namespace\\ClassName1",
         "location": {
           "startColumn": 57,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "number",
-        "value": "4486",
-        "location": {
-          "startColumn": 60,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Namespace",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassName",
-        "location": {
-          "startColumn": 74,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 83,
           "endColumn": 84
         }
       },
@@ -29534,34 +28494,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Some",
+        "type": "namespaced_name",
+        "value": "Some\\Namespaced\\ClassName1",
         "location": {
           "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Namespaced",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassName",
-        "location": {
-          "startColumn": 73,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 82,
           "endColumn": 83
         }
       },
@@ -29736,18 +28672,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 58,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 83,
           "endColumn": 93
         }
       },
@@ -29909,18 +28837,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGenericWithSomeDefaults",
         "location": {
           "startColumn": 58,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericWithSomeDefaults",
-        "location": {
-          "startColumn": 83,
           "endColumn": 109
         }
       },
@@ -30122,18 +29042,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDoc\\Foo",
         "location": {
           "startColumn": 57,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 71,
           "endColumn": 74
         }
       },
@@ -30178,18 +29090,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDoc",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDoc\\Foo",
         "location": {
           "startColumn": 95,
-          "endColumn": 108
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 109,
           "endColumn": 112
         }
       },
@@ -30303,18 +29207,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidVarTagType",
+        "type": "namespaced_name",
+        "value": "InvalidVarTagType\\aray",
         "location": {
           "startColumn": 58,
-          "endColumn": 75
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "aray",
-        "location": {
-          "startColumn": 76,
           "endColumn": 80
         }
       },
@@ -30489,18 +29385,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidVarTagType",
+        "type": "namespaced_name",
+        "value": "InvalidVarTagType\\FooTrait",
         "location": {
           "startColumn": 52,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooTrait",
-        "location": {
-          "startColumn": 70,
           "endColumn": 78
         }
       },
@@ -30723,34 +29611,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Some",
+        "type": "namespaced_name",
+        "value": "Some\\Namespaced\\ClassName1",
         "location": {
           "startColumn": 59,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Namespaced",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassName",
-        "location": {
-          "startColumn": 75,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 84,
           "endColumn": 85
         }
       },
@@ -30840,42 +29704,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug4486Namespace\\ClassName1",
         "location": {
           "startColumn": 57,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "number",
-        "value": "4486",
-        "location": {
-          "startColumn": 60,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Namespace",
-        "location": {
-          "startColumn": 64,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassName",
-        "location": {
-          "startColumn": 74,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "number",
-        "value": "1",
-        "location": {
-          "startColumn": 83,
           "endColumn": 84
         }
       },
@@ -30965,34 +29797,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Some",
+        "type": "namespaced_name",
+        "value": "Some\\Namespaced\\ClassName2",
         "location": {
           "startColumn": 57,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Namespaced",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassName",
-        "location": {
-          "startColumn": 73,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 82,
           "endColumn": 83
         }
       },
@@ -31167,26 +29975,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug9055\\uncheckedNotExisting",
         "location": {
           "startColumn": 55,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "number",
-        "value": "9055",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "uncheckedNotExisting",
-        "location": {
-          "startColumn": 63,
           "endColumn": 83
         }
       },
@@ -32751,18 +31543,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallableProperties",
+        "type": "namespaced_name",
+        "value": "GenericCallableProperties\\Test",
         "location": {
           "startColumn": 86,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Test",
-        "location": {
-          "startColumn": 112,
           "endColumn": 116
         }
       },
@@ -32860,18 +31644,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallableProperties",
+        "type": "namespaced_name",
+        "value": "GenericCallableProperties\\Invalid",
         "location": {
           "startColumn": 58,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Invalid",
-        "location": {
-          "startColumn": 84,
           "endColumn": 91
         }
       },
@@ -32956,18 +31732,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericCallableProperties",
+        "type": "namespaced_name",
+        "value": "GenericCallableProperties\\Invalid",
         "location": {
           "startColumn": 136,
-          "endColumn": 161
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Invalid",
-        "location": {
-          "startColumn": 162,
           "endColumn": 169
         }
       },
@@ -33720,18 +32488,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IRepository",
         "location": {
           "startColumn": 26,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IRepository",
-        "location": {
-          "startColumn": 41,
           "endColumn": 52
         }
       },
@@ -33760,18 +32520,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IEntity",
         "location": {
           "startColumn": 58,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IEntity",
-        "location": {
-          "startColumn": 73,
           "endColumn": 80
         }
       },
@@ -33824,18 +32576,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IRepository",
         "location": {
           "startColumn": 105,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IRepository",
-        "location": {
-          "startColumn": 120,
           "endColumn": 131
         }
       },
@@ -33848,18 +32592,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IEntity",
         "location": {
           "startColumn": 132,
-          "endColumn": 146
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IEntity",
-        "location": {
-          "startColumn": 147,
           "endColumn": 154
         }
       },
@@ -33925,18 +32661,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IRepository",
         "location": {
           "startColumn": 26,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IRepository",
-        "location": {
-          "startColumn": 41,
           "endColumn": 52
         }
       },
@@ -33949,18 +32677,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\Foo",
         "location": {
           "startColumn": 53,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 68,
           "endColumn": 71
         }
       },
@@ -34013,18 +32733,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IRepository",
         "location": {
           "startColumn": 96,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IRepository",
-        "location": {
-          "startColumn": 111,
           "endColumn": 122
         }
       },
@@ -34037,18 +32749,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "GenericSubtype",
+        "type": "namespaced_name",
+        "value": "GenericSubtype\\IEntity",
         "location": {
           "startColumn": 123,
-          "endColumn": 137
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "IEntity",
-        "location": {
-          "startColumn": 138,
           "endColumn": 145
         }
       },
@@ -34460,26 +33164,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\ObjectType",
         "location": {
           "startColumn": 26,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 39,
           "endColumn": 49
         }
       },
@@ -34540,34 +33228,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Generic\\GenericObjectType",
         "location": {
           "startColumn": 78,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 86,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Generic",
-        "location": {
-          "startColumn": 91,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericObjectType",
-        "location": {
-          "startColumn": 99,
           "endColumn": 116
         }
       },
@@ -34641,26 +33305,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Type",
         "location": {
           "startColumn": 26,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 39,
           "endColumn": 43
         }
       },
@@ -34729,26 +33377,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\ObjectType",
         "location": {
           "startColumn": 79,
-          "endColumn": 86
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 87,
-          "endColumn": 91
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 92,
           "endColumn": 102
         }
       },
@@ -39302,26 +37934,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Type",
         "location": {
           "startColumn": 65,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 73,
-          "endColumn": 77
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 78,
           "endColumn": 82
         }
       },
@@ -40331,18 +38947,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 108,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 133,
           "endColumn": 136
         }
       },
@@ -40387,18 +38995,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\Foo",
         "location": {
           "startColumn": 157,
-          "endColumn": 181
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 182,
           "endColumn": 185
         }
       },
@@ -40727,18 +39327,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\A",
         "location": {
           "startColumn": 14,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 38,
           "endColumn": 39
         }
       },
@@ -40823,18 +39415,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\A",
         "location": {
           "startColumn": 105,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 129,
           "endColumn": 130
         }
       },
@@ -40948,18 +39532,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\A",
         "location": {
           "startColumn": 79,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 103,
           "endColumn": 104
         }
       },
@@ -41017,18 +39593,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -41217,18 +39785,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 181,
-          "endColumn": 205
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 206,
           "endColumn": 216
         }
       },
@@ -41286,18 +39846,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -41486,18 +40038,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 177,
-          "endColumn": 201
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 202,
           "endColumn": 212
         }
       },
@@ -41555,18 +40099,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -41731,18 +40267,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 161,
-          "endColumn": 185
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 186,
           "endColumn": 196
         }
       },
@@ -41800,18 +40328,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -42000,18 +40520,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 225,
-          "endColumn": 249
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 250,
           "endColumn": 260
         }
       },
@@ -42069,18 +40581,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -42269,18 +40773,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 177,
-          "endColumn": 201
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 202,
           "endColumn": 212
         }
       },
@@ -42338,18 +40834,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -42530,18 +41018,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 239,
-          "endColumn": 263
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 264,
           "endColumn": 274
         }
       },
@@ -42599,18 +41079,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 27,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 52,
           "endColumn": 62
         }
       },
@@ -42799,18 +41271,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 169,
-          "endColumn": 193
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 194,
           "endColumn": 204
         }
       },
@@ -42868,18 +41332,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 27,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 40,
           "endColumn": 46
         }
       },
@@ -43052,18 +41508,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodAssert",
+        "type": "namespaced_name",
+        "value": "MethodAssert\\FooBar",
         "location": {
           "startColumn": 141,
-          "endColumn": 153
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 154,
           "endColumn": 160
         }
       },
@@ -43121,18 +41569,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisPhpDocRule\\FooBar",
         "location": {
           "startColumn": 27,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 54,
           "endColumn": 60
         }
       },
@@ -43321,18 +41761,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisPhpDocRule\\FooBar",
         "location": {
           "startColumn": 169,
-          "endColumn": 195
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 196,
           "endColumn": 202
         }
       },
@@ -43390,18 +41822,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamOutPhpDocRule\\FooBar",
         "location": {
           "startColumn": 27,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 46,
           "endColumn": 52
         }
       },
@@ -43582,18 +42006,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutPhpDocRule",
+        "type": "namespaced_name",
+        "value": "ParamOutPhpDocRule\\FooBar",
         "location": {
           "startColumn": 152,
-          "endColumn": 170
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooBar",
-        "location": {
-          "startColumn": 171,
           "endColumn": 177
         }
       },
@@ -43651,18 +42067,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -43851,18 +42259,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 179,
-          "endColumn": 203
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 204,
           "endColumn": 214
         }
       },
@@ -43920,18 +42320,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -44120,18 +42512,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 175,
-          "endColumn": 199
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 200,
           "endColumn": 210
         }
       },
@@ -44189,18 +42573,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -44365,18 +42741,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 159,
-          "endColumn": 183
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 184,
           "endColumn": 194
         }
       },
@@ -44434,18 +42802,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -44634,18 +42994,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 230,
-          "endColumn": 254
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 255,
           "endColumn": 265
         }
       },
@@ -44703,18 +43055,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -44903,18 +43247,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 175,
-          "endColumn": 199
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 200,
           "endColumn": 210
         }
       },
@@ -44972,18 +43308,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -45164,18 +43492,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InvalidPhpDocDefinitions",
+        "type": "namespaced_name",
+        "value": "InvalidPhpDocDefinitions\\FooGeneric",
         "location": {
           "startColumn": 244,
-          "endColumn": 268
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 269,
           "endColumn": 279
         }
       },
@@ -45233,26 +43553,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck2",
         "location": {
           "startColumn": 28,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 64,
           "endColumn": 65
         }
       },
@@ -45433,26 +43737,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncompatibleSelfOutType",
+        "type": "namespaced_name",
+        "value": "IncompatibleSelfOutType\\GenericCheck2",
         "location": {
           "startColumn": 182,
-          "endColumn": 205
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCheck",
-        "location": {
-          "startColumn": 206,
-          "endColumn": 218
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 218,
           "endColumn": 219
         }
       },

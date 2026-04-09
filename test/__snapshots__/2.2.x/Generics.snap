@@ -51,18 +51,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\NonGeneric",
         "location": {
           "startColumn": 43,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonGeneric",
-        "location": {
-          "startColumn": 64,
           "endColumn": 74
         }
       },
@@ -91,18 +83,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Generic",
         "location": {
           "startColumn": 91,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Generic",
-        "location": {
-          "startColumn": 112,
           "endColumn": 119
         }
       },
@@ -123,18 +107,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\NonGeneric",
         "location": {
           "startColumn": 130,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonGeneric",
-        "location": {
-          "startColumn": 151,
           "endColumn": 161
         }
       },
@@ -312,18 +288,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 74,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 100,
           "endColumn": 110
         }
       },
@@ -525,18 +493,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 69,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 91,
           "endColumn": 101
         }
       },
@@ -738,18 +698,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 69,
-          "endColumn": 93
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 94,
           "endColumn": 104
         }
       },
@@ -951,18 +903,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 69,
-          "endColumn": 79
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 80,
           "endColumn": 92
         }
       },
@@ -1140,18 +1084,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Consecteur",
         "location": {
           "startColumn": 56,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Consecteur",
-        "location": {
-          "startColumn": 74,
           "endColumn": 84
         }
       },
@@ -1308,18 +1244,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Consecteur",
         "location": {
           "startColumn": 185,
-          "endColumn": 202
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Consecteur",
-        "location": {
-          "startColumn": 203,
           "endColumn": 213
         }
       },
@@ -1409,18 +1337,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionTemplateType",
+        "type": "namespaced_name",
+        "value": "FunctionTemplateType\\GenericCovariant",
         "location": {
           "startColumn": 56,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCovariant",
-        "location": {
-          "startColumn": 77,
           "endColumn": 93
         }
       },
@@ -1577,18 +1497,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionTemplateType",
+        "type": "namespaced_name",
+        "value": "FunctionTemplateType\\GenericCovariant",
         "location": {
           "startColumn": 194,
-          "endColumn": 214
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCovariant",
-        "location": {
-          "startColumn": 215,
           "endColumn": 231
         }
       },
@@ -1678,18 +1590,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Covariant",
         "location": {
           "startColumn": 56,
-          "endColumn": 77
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Covariant",
-        "location": {
-          "startColumn": 78,
           "endColumn": 87
         }
       },
@@ -1846,18 +1750,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Covariant",
         "location": {
           "startColumn": 192,
-          "endColumn": 213
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Covariant",
-        "location": {
-          "startColumn": 214,
           "endColumn": 223
         }
       },
@@ -1947,18 +1843,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Dolor",
         "location": {
           "startColumn": 56,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 75,
           "endColumn": 80
         }
       },
@@ -2115,18 +2003,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Dolor",
         "location": {
           "startColumn": 181,
-          "endColumn": 199
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 200,
           "endColumn": 205
         }
       },
@@ -2216,18 +2096,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Dolor",
         "location": {
           "startColumn": 56,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 74,
           "endColumn": 79
         }
       },
@@ -2384,18 +2256,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Dolor",
         "location": {
           "startColumn": 180,
-          "endColumn": 197
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 198,
           "endColumn": 203
         }
       },
@@ -2485,18 +2349,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Consecteur",
         "location": {
           "startColumn": 52,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Consecteur",
-        "location": {
-          "startColumn": 70,
           "endColumn": 80
         }
       },
@@ -2637,18 +2493,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Consecteur",
         "location": {
           "startColumn": 161,
-          "endColumn": 178
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Consecteur",
-        "location": {
-          "startColumn": 179,
           "endColumn": 189
         }
       },
@@ -2770,18 +2618,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionTemplateType",
+        "type": "namespaced_name",
+        "value": "FunctionTemplateType\\GenericCovariant",
         "location": {
           "startColumn": 52,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCovariant",
-        "location": {
-          "startColumn": 73,
           "endColumn": 89
         }
       },
@@ -2922,18 +2762,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionTemplateType",
+        "type": "namespaced_name",
+        "value": "FunctionTemplateType\\GenericCovariant",
         "location": {
           "startColumn": 170,
-          "endColumn": 190
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericCovariant",
-        "location": {
-          "startColumn": 191,
           "endColumn": 207
         }
       },
@@ -3055,18 +2887,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Covariant",
         "location": {
           "startColumn": 52,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Covariant",
-        "location": {
-          "startColumn": 74,
           "endColumn": 83
         }
       },
@@ -3207,18 +3031,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Covariant",
         "location": {
           "startColumn": 168,
-          "endColumn": 189
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Covariant",
-        "location": {
-          "startColumn": 190,
           "endColumn": 199
         }
       },
@@ -3340,18 +3156,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Dolor",
         "location": {
           "startColumn": 52,
-          "endColumn": 70
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 71,
           "endColumn": 76
         }
       },
@@ -3492,18 +3300,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Dolor",
         "location": {
           "startColumn": 157,
-          "endColumn": 175
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 176,
           "endColumn": 181
         }
       },
@@ -3625,18 +3425,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Dolor",
         "location": {
           "startColumn": 52,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 70,
           "endColumn": 75
         }
       },
@@ -3777,18 +3569,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Dolor",
         "location": {
           "startColumn": 156,
-          "endColumn": 173
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 174,
           "endColumn": 179
         }
       },
@@ -3846,26 +3630,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug11552\\SomeResult",
         "location": {
           "startColumn": 6,
-          "endColumn": 9
-        }
-      },
-      {
-        "type": "number",
-        "value": "11552",
-        "location": {
-          "startColumn": 9,
-          "endColumn": 14
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeResult",
-        "location": {
-          "startColumn": 15,
           "endColumn": 25
         }
       },
@@ -3931,18 +3699,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FilterIteratorChild",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FilterIteratorChild",
-        "location": {
-          "startColumn": 28,
           "endColumn": 47
         }
       },
@@ -4088,18 +3848,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooCollection",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCollection",
-        "location": {
-          "startColumn": 28,
           "endColumn": 41
         }
       },
@@ -4144,18 +3896,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooCollection",
         "location": {
           "startColumn": 82,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCollection",
-        "location": {
-          "startColumn": 104,
           "endColumn": 117
         }
       },
@@ -4221,18 +3965,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooCollection",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCollection",
-        "location": {
-          "startColumn": 28,
           "endColumn": 41
         }
       },
@@ -4261,18 +3997,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\AbstractFooCollection",
         "location": {
           "startColumn": 64,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AbstractFooCollection",
-        "location": {
-          "startColumn": 86,
           "endColumn": 107
         }
       },
@@ -4354,18 +4082,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooDoesNotExtendAnything",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooDoesNotExtendAnything",
-        "location": {
-          "startColumn": 28,
           "endColumn": 52
         }
       },
@@ -4471,18 +4191,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooExtendsGenericClass",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooExtendsGenericClass",
-        "location": {
-          "startColumn": 28,
           "endColumn": 50
         }
       },
@@ -4511,18 +4223,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 73,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 95,
           "endColumn": 105
         }
       },
@@ -4620,18 +4324,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooObjectStorage",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooObjectStorage",
-        "location": {
-          "startColumn": 28,
           "endColumn": 44
         }
       },
@@ -4676,18 +4372,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooObjectStorage",
         "location": {
           "startColumn": 85,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooObjectStorage",
-        "location": {
-          "startColumn": 107,
           "endColumn": 123
         }
       },
@@ -4713,18 +4401,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooObjectStorage",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooObjectStorage",
-        "location": {
-          "startColumn": 28,
           "endColumn": 44
         }
       },
@@ -4854,18 +4534,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooWrongClassExtended",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassExtended",
-        "location": {
-          "startColumn": 28,
           "endColumn": 49
         }
       },
@@ -4894,18 +4566,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 72,
-          "endColumn": 93
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 94,
           "endColumn": 104
         }
       },
@@ -5003,18 +4667,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooWrongTypeInExtendsTag",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInExtendsTag",
-        "location": {
-          "startColumn": 28,
           "endColumn": 52
         }
       },
@@ -5083,18 +4739,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\T",
         "location": {
           "startColumn": 106,
-          "endColumn": 127
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 128,
           "endColumn": 129
         }
       },
@@ -5128,18 +4776,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooWrongTypeInExtendsTag",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInExtendsTag",
-        "location": {
-          "startColumn": 28,
           "endColumn": 52
         }
       },
@@ -5168,18 +4808,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 75,
-          "endColumn": 96
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 97,
           "endColumn": 107
         }
       },
@@ -5277,18 +4909,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooCollection",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCollection",
-        "location": {
-          "startColumn": 31,
           "endColumn": 44
         }
       },
@@ -5333,18 +4957,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooCollection",
         "location": {
           "startColumn": 88,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCollection",
-        "location": {
-          "startColumn": 113,
           "endColumn": 126
         }
       },
@@ -5410,18 +5026,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooCollection",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCollection",
-        "location": {
-          "startColumn": 31,
           "endColumn": 44
         }
       },
@@ -5450,18 +5058,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\AbstractFooCollection",
         "location": {
           "startColumn": 74,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AbstractFooCollection",
-        "location": {
-          "startColumn": 99,
           "endColumn": 120
         }
       },
@@ -5543,18 +5143,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooDoesNotImplementAnything",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooDoesNotImplementAnything",
-        "location": {
-          "startColumn": 31,
           "endColumn": 58
         }
       },
@@ -5660,18 +5252,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooImplementsGenericInterface",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooImplementsGenericInterface",
-        "location": {
-          "startColumn": 31,
           "endColumn": 60
         }
       },
@@ -5700,18 +5284,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 90,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 115,
           "endColumn": 125
         }
       },
@@ -5809,18 +5385,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooIterator",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooIterator",
-        "location": {
-          "startColumn": 31,
           "endColumn": 42
         }
       },
@@ -5865,18 +5433,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooIterator",
         "location": {
           "startColumn": 86,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooIterator",
-        "location": {
-          "startColumn": 111,
           "endColumn": 122
         }
       },
@@ -5958,18 +5518,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooIterator",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooIterator",
-        "location": {
-          "startColumn": 31,
           "endColumn": 42
         }
       },
@@ -6099,18 +5651,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooWrongClassImplemented",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 31,
           "endColumn": 55
         }
       },
@@ -6139,18 +5683,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 85,
-          "endColumn": 109
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 110,
           "endColumn": 120
         }
       },
@@ -6248,18 +5784,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooWrongClassImplemented",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 31,
           "endColumn": 55
         }
       },
@@ -6288,26 +5816,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric3",
         "location": {
           "startColumn": 85,
-          "endColumn": 109
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 110,
-          "endColumn": 120
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 120,
           "endColumn": 121
         }
       },
@@ -6405,18 +5917,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooWrongTypeInImplementsTag",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInImplementsTag",
-        "location": {
-          "startColumn": 31,
           "endColumn": 58
         }
       },
@@ -6485,18 +5989,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\T",
         "location": {
           "startColumn": 115,
-          "endColumn": 139
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 140,
           "endColumn": 141
         }
       },
@@ -6530,18 +6026,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooWrongTypeInImplementsTag",
         "location": {
           "startColumn": 6,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInImplementsTag",
-        "location": {
-          "startColumn": 31,
           "endColumn": 58
         }
       },
@@ -6570,18 +6058,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 88,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 113,
           "endColumn": 123
         }
       },
@@ -6679,18 +6159,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Baz",
         "location": {
           "startColumn": 6,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Baz",
-        "location": {
-          "startColumn": 24,
           "endColumn": 27
         }
       },
@@ -6735,18 +6207,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\baz",
         "location": {
           "startColumn": 60,
-          "endColumn": 77
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "baz",
-        "location": {
-          "startColumn": 78,
           "endColumn": 81
         }
       },
@@ -6772,18 +6236,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\Baz",
         "location": {
           "startColumn": 6,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Baz",
-        "location": {
-          "startColumn": 17,
           "endColumn": 20
         }
       },
@@ -6812,18 +6268,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 40,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 51,
           "endColumn": 63
         }
       },
@@ -6977,18 +6425,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Venenatis",
         "location": {
           "startColumn": 54,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Venenatis",
-        "location": {
-          "startColumn": 72,
           "endColumn": 81
         }
       },
@@ -7315,18 +6755,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\OutOfBoundsDefault",
         "location": {
           "startColumn": 58,
-          "endColumn": 79
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OutOfBoundsDefault",
-        "location": {
-          "startColumn": 80,
           "endColumn": 98
         }
       },
@@ -7637,18 +7069,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Elit",
         "location": {
           "startColumn": 54,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Elit",
-        "location": {
-          "startColumn": 72,
           "endColumn": 76
         }
       },
@@ -7730,18 +7154,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Foo",
         "location": {
           "startColumn": 5,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 26,
           "endColumn": 29
         }
       },
@@ -7847,26 +7263,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Foo4",
         "location": {
           "startColumn": 5,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "4",
-        "location": {
-          "startColumn": 29,
           "endColumn": 30
         }
       },
@@ -7895,18 +7295,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Generic",
         "location": {
           "startColumn": 60,
-          "endColumn": 80
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Generic",
-        "location": {
-          "startColumn": 81,
           "endColumn": 88
         }
       },
@@ -8004,26 +7396,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Foo7",
         "location": {
           "startColumn": 5,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "number",
-        "value": "7",
-        "location": {
-          "startColumn": 29,
           "endColumn": 30
         }
       },
@@ -8113,18 +7489,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumTemplate",
+        "type": "namespaced_name",
+        "value": "EnumTemplate\\Bar",
         "location": {
           "startColumn": 5,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 18,
           "endColumn": 21
         }
       },
@@ -8222,18 +7590,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumTemplate",
+        "type": "namespaced_name",
+        "value": "EnumTemplate\\Foo",
         "location": {
           "startColumn": 5,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 18,
           "endColumn": 21
         }
       },
@@ -8339,18 +7699,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 35,
           "endColumn": 45
         }
       },
@@ -8499,18 +7851,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 146,
-          "endColumn": 167
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 168,
           "endColumn": 178
         }
       },
@@ -8592,18 +7936,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 35,
           "endColumn": 45
         }
       },
@@ -8728,18 +8064,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 119,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 141,
           "endColumn": 151
         }
       },
@@ -8797,18 +8125,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -8957,18 +8277,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 156,
-          "endColumn": 180
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 181,
           "endColumn": 191
         }
       },
@@ -9050,18 +8362,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 38,
           "endColumn": 48
         }
       },
@@ -9186,18 +8490,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 129,
-          "endColumn": 153
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 154,
           "endColumn": 164
         }
       },
@@ -9255,18 +8551,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Generic",
         "location": {
           "startColumn": 13,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Generic",
-        "location": {
-          "startColumn": 34,
           "endColumn": 41
         }
       },
@@ -9391,18 +8679,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\Generic",
         "location": {
           "startColumn": 127,
-          "endColumn": 147
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Generic",
-        "location": {
-          "startColumn": 148,
           "endColumn": 155
         }
       },
@@ -9460,18 +8740,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 39,
           "endColumn": 49
         }
       },
@@ -9620,18 +8892,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 154,
-          "endColumn": 179
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 180,
           "endColumn": 190
         }
       },
@@ -9713,18 +8977,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 13,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 39,
           "endColumn": 49
         }
       },
@@ -9849,18 +9105,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 127,
-          "endColumn": 152
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 153,
           "endColumn": 163
         }
       },
@@ -9918,18 +9166,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 13,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 24,
           "endColumn": 36
         }
       },
@@ -10062,18 +9302,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 115,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 126,
           "endColumn": 138
         }
       },
@@ -10131,18 +9363,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\ExtendsGenericInterface",
         "location": {
           "startColumn": 10,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ExtendsGenericInterface",
-        "location": {
-          "startColumn": 36,
           "endColumn": 59
         }
       },
@@ -10171,18 +9395,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 86,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 112,
           "endColumn": 122
         }
       },
@@ -10280,18 +9496,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooDoesNotImplementAnything",
         "location": {
           "startColumn": 10,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooDoesNotImplementAnything",
-        "location": {
-          "startColumn": 36,
           "endColumn": 63
         }
       },
@@ -10397,18 +9605,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooWrongClassImplemented",
         "location": {
           "startColumn": 10,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 36,
           "endColumn": 60
         }
       },
@@ -10437,18 +9637,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 87,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 113,
           "endColumn": 123
         }
       },
@@ -10546,18 +9738,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooWrongClassImplemented",
         "location": {
           "startColumn": 10,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 36,
           "endColumn": 60
         }
       },
@@ -10586,26 +9770,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric3",
         "location": {
           "startColumn": 87,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 113,
-          "endColumn": 123
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 123,
           "endColumn": 124
         }
       },
@@ -10703,18 +9871,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooWrongTypeInImplementsTag",
         "location": {
           "startColumn": 10,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInImplementsTag",
-        "location": {
-          "startColumn": 36,
           "endColumn": 63
         }
       },
@@ -10783,18 +9943,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\T",
         "location": {
           "startColumn": 117,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 143,
           "endColumn": 144
         }
       },
@@ -10828,18 +9980,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooWrongTypeInImplementsTag",
         "location": {
           "startColumn": 10,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInImplementsTag",
-        "location": {
-          "startColumn": 36,
           "endColumn": 63
         }
       },
@@ -10868,18 +10012,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 90,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 116,
           "endColumn": 126
         }
       },
@@ -10977,18 +10113,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooAlsoNotSubtype",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooAlsoNotSubtype",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -11134,18 +10262,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooCorrect",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooCorrect",
-        "location": {
-          "startColumn": 39,
           "endColumn": 49
         }
       },
@@ -11291,18 +10411,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooDoesNotImplementAnything",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooDoesNotImplementAnything",
-        "location": {
-          "startColumn": 39,
           "endColumn": 66
         }
       },
@@ -11448,18 +10560,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooExtraTypes",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooExtraTypes",
-        "location": {
-          "startColumn": 39,
           "endColumn": 52
         }
       },
@@ -11605,18 +10709,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -11762,26 +10858,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric2",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -11927,26 +11007,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric3",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -12092,26 +11156,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric4",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "4",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -12257,26 +11305,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric5",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "5",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -12422,26 +11454,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric6",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "6",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -12587,26 +11603,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric7",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "7",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -12752,26 +11752,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooGenericGeneric8",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGenericGeneric",
-        "location": {
-          "startColumn": 39,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "8",
-        "location": {
-          "startColumn": 56,
           "endColumn": 57
         }
       },
@@ -12917,18 +11901,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooInvalidImplementsTags",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInvalidImplementsTags",
-        "location": {
-          "startColumn": 39,
           "endColumn": 63
         }
       },
@@ -13074,18 +12050,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooNotEnough",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooNotEnough",
-        "location": {
-          "startColumn": 39,
           "endColumn": 51
         }
       },
@@ -13231,18 +12199,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooNotSubtype",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooNotSubtype",
-        "location": {
-          "startColumn": 39,
           "endColumn": 52
         }
       },
@@ -13388,18 +12348,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooTypeProjection",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooTypeProjection",
-        "location": {
-          "startColumn": 39,
           "endColumn": 56
         }
       },
@@ -13545,18 +12497,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooUnknownClass",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooUnknownClass",
-        "location": {
-          "startColumn": 39,
           "endColumn": 54
         }
       },
@@ -13702,18 +12646,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooWrongClassImplemented",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 39,
           "endColumn": 63
         }
       },
@@ -13859,18 +12795,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\FooWrongTypeInImplementsTag",
         "location": {
           "startColumn": 10,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongTypeInImplementsTag",
-        "location": {
-          "startColumn": 39,
           "endColumn": 66
         }
       },
@@ -13939,18 +12867,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsImplements\\T",
         "location": {
           "startColumn": 123,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 152,
           "endColumn": 153
         }
       },
@@ -14112,18 +13032,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CrossCheckInterfacesEnums",
+        "type": "namespaced_name",
+        "value": "CrossCheckInterfacesEnums\\Item",
         "location": {
           "startColumn": 124,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Item",
-        "location": {
-          "startColumn": 150,
           "endColumn": 154
         }
       },
@@ -14277,18 +13189,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CrossCheckInterfacesInInterfaces",
+        "type": "namespaced_name",
+        "value": "CrossCheckInterfacesInInterfaces\\Item",
         "location": {
           "startColumn": 124,
-          "endColumn": 156
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Item",
-        "location": {
-          "startColumn": 157,
           "endColumn": 161
         }
       },
@@ -14442,18 +13346,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CrossCheckInterfaces",
+        "type": "namespaced_name",
+        "value": "CrossCheckInterfaces\\Item",
         "location": {
           "startColumn": 124,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Item",
-        "location": {
-          "startColumn": 145,
           "endColumn": 149
         }
       },
@@ -14519,18 +13415,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooTrait",
         "location": {
           "startColumn": 37,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooTrait",
-        "location": {
-          "startColumn": 59,
           "endColumn": 67
         }
       },
@@ -14596,18 +13484,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\Zazzuuuu",
         "location": {
           "startColumn": 37,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzuuuu",
-        "location": {
-          "startColumn": 59,
           "endColumn": 67
         }
       },
@@ -14673,18 +13553,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\Zazzuuuu",
         "location": {
           "startColumn": 37,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzuuuu",
-        "location": {
-          "startColumn": 63,
           "endColumn": 71
         }
       },
@@ -14750,18 +13622,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\NonGeneric",
         "location": {
           "startColumn": 45,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonGeneric",
-        "location": {
-          "startColumn": 66,
           "endColumn": 76
         }
       },
@@ -14806,18 +13670,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "EnumGenericAncestors",
+        "type": "namespaced_name",
+        "value": "EnumGenericAncestors\\NonGeneric",
         "location": {
           "startColumn": 96,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonGeneric",
-        "location": {
-          "startColumn": 117,
           "endColumn": 127
         }
       },
@@ -14907,18 +13763,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\Zazzuuuu",
         "location": {
           "startColumn": 40,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzuuuu",
-        "location": {
-          "startColumn": 65,
           "endColumn": 73
         }
       },
@@ -15040,18 +13888,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTagTemplate",
+        "type": "namespaced_name",
+        "value": "MethodTagTemplate\\HelloWorld",
         "location": {
           "startColumn": 112,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 130,
           "endColumn": 140
         }
       },
@@ -15173,18 +14013,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTagTraitTemplate",
+        "type": "namespaced_name",
+        "value": "MethodTagTraitTemplate\\HelloWorld",
         "location": {
           "startColumn": 117,
-          "endColumn": 139
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "HelloWorld",
-        "location": {
-          "startColumn": 140,
           "endColumn": 150
         }
       },
@@ -15298,18 +14130,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTagTemplate",
+        "type": "namespaced_name",
+        "value": "MethodTagTemplate\\Nonexisting",
         "location": {
           "startColumn": 105,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Nonexisting",
-        "location": {
-          "startColumn": 123,
           "endColumn": 134
         }
       },
@@ -15423,18 +14247,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTagTraitTemplate",
+        "type": "namespaced_name",
+        "value": "MethodTagTraitTemplate\\Nonexisting",
         "location": {
           "startColumn": 110,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Nonexisting",
-        "location": {
-          "startColumn": 133,
           "endColumn": 144
         }
       },
@@ -16088,18 +14904,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Zazzzu",
         "location": {
           "startColumn": 66,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 84,
           "endColumn": 90
         }
       },
@@ -16165,18 +14973,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Bar",
         "location": {
           "startColumn": 33,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 51,
           "endColumn": 54
         }
       },
@@ -16213,18 +15013,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Zazzzu",
         "location": {
           "startColumn": 78,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 96,
           "endColumn": 102
         }
       },
@@ -16290,18 +15082,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Elit",
         "location": {
           "startColumn": 33,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Elit",
-        "location": {
-          "startColumn": 51,
           "endColumn": 55
         }
       },
@@ -16338,18 +15122,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Zazzzu",
         "location": {
           "startColumn": 81,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 99,
           "endColumn": 105
         }
       },
@@ -16471,18 +15247,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionTemplateType",
+        "type": "namespaced_name",
+        "value": "FunctionTemplateType\\Zazzzu",
         "location": {
           "startColumn": 86,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 107,
           "endColumn": 113
         }
       },
@@ -16604,18 +15372,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionTemplateType",
+        "type": "namespaced_name",
+        "value": "FunctionTemplateType\\Zazzzu",
         "location": {
           "startColumn": 99,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 120,
           "endColumn": 126
         }
       },
@@ -16822,18 +15582,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Bar",
         "location": {
           "startColumn": 37,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 59,
           "endColumn": 62
         }
       },
@@ -16870,18 +15622,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Zazzzu",
         "location": {
           "startColumn": 86,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 108,
           "endColumn": 114
         }
       },
@@ -16947,18 +15691,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\InvalidDefault",
         "location": {
           "startColumn": 37,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "InvalidDefault",
-        "location": {
-          "startColumn": 59,
           "endColumn": 73
         }
       },
@@ -16995,18 +15731,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Zazzzu",
         "location": {
           "startColumn": 99,
-          "endColumn": 120
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 121,
           "endColumn": 127
         }
       },
@@ -17136,18 +15864,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Bar",
         "location": {
           "startColumn": 109,
-          "endColumn": 127
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 128,
           "endColumn": 131
         }
       },
@@ -17253,18 +15973,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Zazzzu",
         "location": {
           "startColumn": 89,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 108,
           "endColumn": 114
         }
       },
@@ -17370,18 +16082,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodTemplateType",
+        "type": "namespaced_name",
+        "value": "MethodTemplateType\\Zazzzu",
         "location": {
           "startColumn": 104,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 123,
           "endColumn": 129
         }
       },
@@ -17447,18 +16151,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Adipiscing",
         "location": {
           "startColumn": 33,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Adipiscing",
-        "location": {
-          "startColumn": 51,
           "endColumn": 61
         }
       },
@@ -17495,18 +16191,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Zazzzu",
         "location": {
           "startColumn": 87,
-          "endColumn": 104
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 105,
           "endColumn": 111
         }
       },
@@ -17572,18 +16260,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Bar",
         "location": {
           "startColumn": 33,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 51,
           "endColumn": 54
         }
       },
@@ -17620,18 +16300,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Zazzzu",
         "location": {
           "startColumn": 78,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Zazzzu",
-        "location": {
-          "startColumn": 96,
           "endColumn": 102
         }
       },
@@ -17713,18 +16385,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\NotGeneric",
         "location": {
           "startColumn": 51,
-          "endColumn": 79
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NotGeneric",
-        "location": {
-          "startColumn": 80,
           "endColumn": 90
         }
       },
@@ -17769,18 +16433,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\NotGeneric",
         "location": {
           "startColumn": 112,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NotGeneric",
-        "location": {
-          "startColumn": 141,
           "endColumn": 151
         }
       },
@@ -17878,18 +16534,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\MultipleGenerics",
         "location": {
           "startColumn": 38,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MultipleGenerics",
-        "location": {
-          "startColumn": 67,
           "endColumn": 83
         }
       },
@@ -17990,18 +16638,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\MultipleGenerics",
         "location": {
           "startColumn": 149,
-          "endColumn": 177
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MultipleGenerics",
-        "location": {
-          "startColumn": 178,
           "endColumn": 194
         }
       },
@@ -18091,18 +16731,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Mauris",
         "location": {
           "startColumn": 33,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Mauris",
-        "location": {
-          "startColumn": 51,
           "endColumn": 57
         }
       },
@@ -18445,18 +17077,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\RequiredAfterOptional",
         "location": {
           "startColumn": 37,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "RequiredAfterOptional",
-        "location": {
-          "startColumn": 59,
           "endColumn": 80
         }
       },
@@ -18783,18 +17407,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Consecteur",
         "location": {
           "startColumn": 33,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Consecteur",
-        "location": {
-          "startColumn": 51,
           "endColumn": 61
         }
       },
@@ -18964,18 +17580,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\MultipleGenerics",
         "location": {
           "startColumn": 38,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MultipleGenerics",
-        "location": {
-          "startColumn": 67,
           "endColumn": 83
         }
       },
@@ -19100,18 +17708,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\MultipleGenerics",
         "location": {
           "startColumn": 166,
-          "endColumn": 194
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MultipleGenerics",
-        "location": {
-          "startColumn": 195,
           "endColumn": 211
         }
       },
@@ -19475,26 +18075,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug10049\\SimpleEntity",
         "location": {
           "startColumn": 31,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "number",
-        "value": "10049",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SimpleEntity",
-        "location": {
-          "startColumn": 40,
           "endColumn": 52
         }
       },
@@ -19531,26 +18115,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug10049\\SimpleEntity",
         "location": {
           "startColumn": 80,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "number",
-        "value": "10049",
-        "location": {
-          "startColumn": 83,
-          "endColumn": 88
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SimpleEntity",
-        "location": {
-          "startColumn": 89,
           "endColumn": 101
         }
       },
@@ -19632,18 +18200,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Dolor",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 49,
           "endColumn": 54
         }
       },
@@ -19773,18 +18333,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Dolor",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Dolor",
-        "location": {
-          "startColumn": 49,
           "endColumn": 54
         }
       },
@@ -19914,18 +18466,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Foo",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 49,
           "endColumn": 52
         }
       },
@@ -20047,18 +18591,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassTemplateType",
+        "type": "namespaced_name",
+        "value": "ClassTemplateType\\Ipsum",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ipsum",
-        "location": {
-          "startColumn": 49,
           "endColumn": 54
         }
       },
@@ -20478,18 +19014,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Foo",
         "location": {
           "startColumn": 35,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 57,
           "endColumn": 60
         }
       },
@@ -20611,18 +19139,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Ipsum",
         "location": {
           "startColumn": 35,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ipsum",
-        "location": {
-          "startColumn": 57,
           "endColumn": 62
         }
       },
@@ -20752,18 +19272,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Ipsum",
         "location": {
           "startColumn": 35,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ipsum",
-        "location": {
-          "startColumn": 57,
           "endColumn": 62
         }
       },
@@ -20893,18 +19405,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceTemplateType",
+        "type": "namespaced_name",
+        "value": "InterfaceTemplateType\\Lorem",
         "location": {
           "startColumn": 35,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Lorem",
-        "location": {
-          "startColumn": 57,
           "endColumn": 62
         }
       },
@@ -21558,18 +20062,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Foo",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 49,
           "endColumn": 52
         }
       },
@@ -21691,18 +20187,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Ipsum",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ipsum",
-        "location": {
-          "startColumn": 49,
           "endColumn": 54
         }
       },
@@ -21832,18 +20320,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Ipsum",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ipsum",
-        "location": {
-          "startColumn": 49,
           "endColumn": 54
         }
       },
@@ -21973,18 +20453,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitTemplateType",
+        "type": "namespaced_name",
+        "value": "TraitTemplateType\\Lorem",
         "location": {
           "startColumn": 31,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Lorem",
-        "location": {
-          "startColumn": 49,
           "endColumn": 54
         }
       },
@@ -22122,18 +20594,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\NongenericTrait",
         "location": {
           "startColumn": 38,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NongenericTrait",
-        "location": {
-          "startColumn": 49,
           "endColumn": 64
         }
       },
@@ -22178,18 +20642,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\NongenericTrait",
         "location": {
           "startColumn": 85,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NongenericTrait",
-        "location": {
-          "startColumn": 96,
           "endColumn": 111
         }
       },
@@ -22524,26 +20980,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric8",
         "location": {
           "startColumn": 96,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 118,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "number",
-        "value": "8",
-        "location": {
-          "startColumn": 128,
           "endColumn": 129
         }
       },
@@ -22604,26 +21044,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric10",
         "location": {
           "startColumn": 145,
-          "endColumn": 166
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 167,
-          "endColumn": 177
-        }
-      },
-      {
-        "type": "number",
-        "value": "10",
-        "location": {
-          "startColumn": 177,
           "endColumn": 179
         }
       },
@@ -22769,26 +21193,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric8",
         "location": {
           "startColumn": 96,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 118,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "number",
-        "value": "8",
-        "location": {
-          "startColumn": 128,
           "endColumn": 129
         }
       },
@@ -22849,26 +21257,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric10",
         "location": {
           "startColumn": 145,
-          "endColumn": 166
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 167,
-          "endColumn": 177
-        }
-      },
-      {
-        "type": "number",
-        "value": "10",
-        "location": {
-          "startColumn": 177,
           "endColumn": 179
         }
       },
@@ -23179,26 +21571,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric8",
         "location": {
           "startColumn": 92,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 124
-        }
-      },
-      {
-        "type": "number",
-        "value": "8",
-        "location": {
-          "startColumn": 124,
           "endColumn": 125
         }
       },
@@ -23259,26 +21635,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric9",
         "location": {
           "startColumn": 141,
-          "endColumn": 162
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 163,
-          "endColumn": 173
-        }
-      },
-      {
-        "type": "number",
-        "value": "9",
-        "location": {
-          "startColumn": 173,
           "endColumn": 174
         }
       },
@@ -23424,26 +21784,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric9",
         "location": {
           "startColumn": 92,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 118,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "number",
-        "value": "9",
-        "location": {
-          "startColumn": 128,
           "endColumn": 129
         }
       },
@@ -23504,26 +21848,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric10",
         "location": {
           "startColumn": 149,
-          "endColumn": 174
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 175,
-          "endColumn": 185
-        }
-      },
-      {
-        "type": "number",
-        "value": "10",
-        "location": {
-          "startColumn": 185,
           "endColumn": 187
         }
       },
@@ -23669,26 +21997,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric9",
         "location": {
           "startColumn": 95,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 120,
-          "endColumn": 130
-        }
-      },
-      {
-        "type": "number",
-        "value": "9",
-        "location": {
-          "startColumn": 130,
           "endColumn": 131
         }
       },
@@ -23749,26 +22061,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric10",
         "location": {
           "startColumn": 147,
-          "endColumn": 171
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 172,
-          "endColumn": 182
-        }
-      },
-      {
-        "type": "number",
-        "value": "10",
-        "location": {
-          "startColumn": 182,
           "endColumn": 184
         }
       },
@@ -33890,18 +32186,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooDuplicateExtendsTags",
         "location": {
           "startColumn": 26,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooDuplicateExtendsTags",
-        "location": {
-          "startColumn": 48,
           "endColumn": 71
         }
       },
@@ -33914,26 +32202,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric2",
         "location": {
           "startColumn": 82,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 104,
-          "endColumn": 114
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 114,
           "endColumn": 115
         }
       },
@@ -33970,18 +32242,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 138,
-          "endColumn": 159
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 160,
           "endColumn": 170
         }
       },
@@ -34039,18 +32303,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooWrongClassExtended",
         "location": {
           "startColumn": 26,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassExtended",
-        "location": {
-          "startColumn": 48,
           "endColumn": 69
         }
       },
@@ -34063,26 +32319,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric2",
         "location": {
           "startColumn": 80,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 102,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 112,
           "endColumn": 113
         }
       },
@@ -34119,18 +32359,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 136,
-          "endColumn": 157
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 158,
           "endColumn": 168
         }
       },
@@ -34188,18 +32420,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooInvalidImplementsTags",
         "location": {
           "startColumn": 30,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInvalidImplementsTags",
-        "location": {
-          "startColumn": 56,
           "endColumn": 80
         }
       },
@@ -34212,26 +32436,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric2",
         "location": {
           "startColumn": 91,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 117,
-          "endColumn": 127
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 127,
           "endColumn": 128
         }
       },
@@ -34276,18 +32484,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 156,
-          "endColumn": 181
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 182,
           "endColumn": 192
         }
       }
@@ -34337,18 +32537,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooWrongClassImplemented",
         "location": {
           "startColumn": 30,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 56,
           "endColumn": 80
         }
       },
@@ -34361,26 +32553,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric2",
         "location": {
           "startColumn": 91,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 117,
-          "endColumn": 127
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 127,
           "endColumn": 128
         }
       },
@@ -34425,18 +32601,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 156,
-          "endColumn": 181
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 182,
           "endColumn": 192
         }
       },
@@ -34449,26 +32617,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric3",
         "location": {
           "startColumn": 194,
-          "endColumn": 219
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 220,
-          "endColumn": 230
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 230,
           "endColumn": 231
         }
       }
@@ -34518,18 +32670,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooInvalidImplementsTags",
         "location": {
           "startColumn": 29,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInvalidImplementsTags",
-        "location": {
-          "startColumn": 54,
           "endColumn": 78
         }
       },
@@ -34542,26 +32686,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric2",
         "location": {
           "startColumn": 89,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 124
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 124,
           "endColumn": 125
         }
       },
@@ -34606,18 +32734,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 152,
-          "endColumn": 176
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 177,
           "endColumn": 187
         }
       }
@@ -34667,18 +32787,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooWrongClassImplemented",
         "location": {
           "startColumn": 29,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooWrongClassImplemented",
-        "location": {
-          "startColumn": 54,
           "endColumn": 78
         }
       },
@@ -34691,26 +32803,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric2",
         "location": {
           "startColumn": 89,
-          "endColumn": 113
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 114,
-          "endColumn": 124
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 124,
           "endColumn": 125
         }
       },
@@ -34755,18 +32851,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 152,
-          "endColumn": 176
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 177,
           "endColumn": 187
         }
       },
@@ -34779,26 +32867,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric3",
         "location": {
           "startColumn": 189,
-          "endColumn": 213
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 214,
-          "endColumn": 224
-        }
-      },
-      {
-        "type": "number",
-        "value": "3",
-        "location": {
-          "startColumn": 224,
           "endColumn": 225
         }
       }
@@ -34848,18 +32920,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\NestedTrait",
         "location": {
           "startColumn": 22,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NestedTrait",
-        "location": {
-          "startColumn": 33,
           "endColumn": 44
         }
       },
@@ -34872,18 +32936,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\NongenericTrait",
         "location": {
           "startColumn": 55,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NongenericTrait",
-        "location": {
-          "startColumn": 66,
           "endColumn": 81
         }
       },
@@ -34920,18 +32976,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 101,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 112,
           "endColumn": 124
         }
       },
@@ -34957,18 +33005,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\NestedTrait",
         "location": {
           "startColumn": 6,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NestedTrait",
-        "location": {
-          "startColumn": 17,
           "endColumn": 28
         }
       },
@@ -34997,18 +33037,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 48,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 59,
           "endColumn": 71
         }
       },
@@ -35090,34 +33122,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922Ancestors\\BarQuery",
         "location": {
           "startColumn": 5,
-          "endColumn": 8
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 8,
-          "endColumn": 12
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ancestors",
-        "location": {
-          "startColumn": 12,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BarQuery",
-        "location": {
-          "startColumn": 22,
           "endColumn": 30
         }
       },
@@ -35146,34 +33154,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922Ancestors\\QueryHandlerInterface",
         "location": {
           "startColumn": 47,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 50,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ancestors",
-        "location": {
-          "startColumn": 54,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "QueryHandlerInterface",
-        "location": {
-          "startColumn": 64,
           "endColumn": 85
         }
       },
@@ -35202,34 +33186,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922Ancestors\\BarQuery",
         "location": {
           "startColumn": 94,
-          "endColumn": 97
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 97,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ancestors",
-        "location": {
-          "startColumn": 101,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BarQuery",
-        "location": {
-          "startColumn": 111,
           "endColumn": 119
         }
       },
@@ -35338,34 +33298,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922Ancestors\\QueryInterface",
         "location": {
           "startColumn": 189,
-          "endColumn": 192
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 192,
-          "endColumn": 196
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ancestors",
-        "location": {
-          "startColumn": 196,
-          "endColumn": 205
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "QueryInterface",
-        "location": {
-          "startColumn": 206,
           "endColumn": 220
         }
       },
@@ -35410,34 +33346,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922Ancestors\\QueryHandlerInterface",
         "location": {
           "startColumn": 242,
-          "endColumn": 245
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 245,
-          "endColumn": 249
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Ancestors",
-        "location": {
-          "startColumn": 249,
-          "endColumn": 258
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "QueryHandlerInterface",
-        "location": {
-          "startColumn": 259,
           "endColumn": 280
         }
       },
@@ -35495,18 +33407,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 53,
           "endColumn": 63
         }
       },
@@ -35671,18 +33575,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 159,
-          "endColumn": 180
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 181,
           "endColumn": 191
         }
       },
@@ -35740,18 +33636,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -35916,18 +33804,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 169,
-          "endColumn": 193
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 194,
           "endColumn": 204
         }
       },
@@ -35985,18 +33865,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 31,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 57,
           "endColumn": 67
         }
       },
@@ -36161,18 +34033,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 167,
-          "endColumn": 192
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 193,
           "endColumn": 203
         }
       },
@@ -36230,18 +34094,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\SomeObjectInterface",
         "location": {
           "startColumn": 25,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeObjectInterface",
-        "location": {
-          "startColumn": 54,
           "endColumn": 73
         }
       },
@@ -36398,18 +34254,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\SomeObjectInterface",
         "location": {
           "startColumn": 162,
-          "endColumn": 190
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeObjectInterface",
-        "location": {
-          "startColumn": 191,
           "endColumn": 210
         }
       },
@@ -36467,18 +34315,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 25,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 36,
           "endColumn": 48
         }
       },
@@ -36627,18 +34467,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UsedTraits",
+        "type": "namespaced_name",
+        "value": "UsedTraits\\GenericTrait",
         "location": {
           "startColumn": 126,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericTrait",
-        "location": {
-          "startColumn": 137,
           "endColumn": 149
         }
       },
@@ -36696,18 +34528,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 27,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 49,
           "endColumn": 59
         }
       },
@@ -36872,18 +34696,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 151,
-          "endColumn": 172
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 173,
           "endColumn": 183
         }
       },
@@ -36941,18 +34757,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 27,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 52,
           "endColumn": 62
         }
       },
@@ -37117,18 +34925,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 161,
-          "endColumn": 185
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 186,
           "endColumn": 196
         }
       },
@@ -37186,18 +34986,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 27,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 53,
           "endColumn": 63
         }
       },
@@ -37362,18 +35154,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 159,
-          "endColumn": 184
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 185,
           "endColumn": 195
         }
       },
@@ -37431,18 +35215,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\SomeObjectInterface",
         "location": {
           "startColumn": 27,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeObjectInterface",
-        "location": {
-          "startColumn": 56,
           "endColumn": 75
         }
       },
@@ -37599,18 +35375,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NestedGenericTypesClassCheck",
+        "type": "namespaced_name",
+        "value": "NestedGenericTypesClassCheck\\SomeObjectInterface",
         "location": {
           "startColumn": 166,
-          "endColumn": 194
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeObjectInterface",
-        "location": {
-          "startColumn": 195,
           "endColumn": 214
         }
       },
@@ -37668,18 +35436,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 52,
           "endColumn": 62
         }
       },
@@ -37844,18 +35604,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 157,
-          "endColumn": 178
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 179,
           "endColumn": 189
         }
       },
@@ -37913,26 +35665,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric2",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 65,
           "endColumn": 66
         }
       },
@@ -38097,26 +35833,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric2",
         "location": {
           "startColumn": 168,
-          "endColumn": 192
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 193,
-          "endColumn": 203
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 203,
           "endColumn": 204
         }
       },
@@ -38174,18 +35894,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 55,
           "endColumn": 65
         }
       },
@@ -38350,18 +36062,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassAncestorsImplements",
+        "type": "namespaced_name",
+        "value": "ClassAncestorsImplements\\FooGeneric",
         "location": {
           "startColumn": 167,
-          "endColumn": 191
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 192,
           "endColumn": 202
         }
       },
@@ -38419,26 +36123,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric2",
         "location": {
           "startColumn": 30,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 66,
           "endColumn": 67
         }
       },
@@ -38603,26 +36291,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric2",
         "location": {
           "startColumn": 166,
-          "endColumn": 191
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 192,
-          "endColumn": 202
-        }
-      },
-      {
-        "type": "number",
-        "value": "2",
-        "location": {
-          "startColumn": 202,
           "endColumn": 203
         }
       },
@@ -38680,18 +36352,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 30,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 56,
           "endColumn": 66
         }
       },
@@ -38856,18 +36520,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "InterfaceAncestorsExtends",
+        "type": "namespaced_name",
+        "value": "InterfaceAncestorsExtends\\FooGeneric",
         "location": {
           "startColumn": 165,
-          "endColumn": 190
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooGeneric",
-        "location": {
-          "startColumn": 191,
           "endColumn": 201
         }
       },
@@ -38925,34 +36581,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922AncestorsReversed\\QueryHandlerInterface",
         "location": {
           "startColumn": 28,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AncestorsReversed",
-        "location": {
-          "startColumn": 35,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "QueryHandlerInterface",
-        "location": {
-          "startColumn": 53,
           "endColumn": 74
         }
       },
@@ -38965,34 +36597,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922AncestorsReversed\\BarQuery",
         "location": {
           "startColumn": 75,
-          "endColumn": 78
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 78,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AncestorsReversed",
-        "location": {
-          "startColumn": 82,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BarQuery",
-        "location": {
-          "startColumn": 100,
           "endColumn": 108
         }
       },
@@ -39125,34 +36733,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3922AncestorsReversed\\QueryHandlerInterface",
         "location": {
           "startColumn": 193,
-          "endColumn": 196
-        }
-      },
-      {
-        "type": "number",
-        "value": "3922",
-        "location": {
-          "startColumn": 196,
-          "endColumn": 200
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AncestorsReversed",
-        "location": {
-          "startColumn": 200,
-          "endColumn": 217
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "QueryHandlerInterface",
-        "location": {
-          "startColumn": 218,
           "endColumn": 239
         }
       },

@@ -67,34 +67,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug12951Polyfill\\NumberFormatter",
         "location": {
           "startColumn": 50,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "number",
-        "value": "12951",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Polyfill",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NumberFormatter",
-        "location": {
-          "startColumn": 67,
           "endColumn": 82
         }
       },
@@ -240,34 +216,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug12951Polyfill\\NumberFormatter",
         "location": {
           "startColumn": 48,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "number",
-        "value": "12951",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Polyfill",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NumberFormatter",
-        "location": {
-          "startColumn": 65,
           "endColumn": 80
         }
       },

@@ -221,18 +221,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitAttributes",
+        "type": "namespaced_name",
+        "value": "TraitAttributes\\AbstractAttribute",
         "location": {
           "startColumn": 16,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AbstractAttribute",
-        "location": {
-          "startColumn": 32,
           "endColumn": 49
         }
       },
@@ -282,18 +274,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TraitAttributes",
+        "type": "namespaced_name",
+        "value": "TraitAttributes\\MyTargettedAttribute",
         "location": {
           "startColumn": 16,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MyTargettedAttribute",
-        "location": {
-          "startColumn": 32,
           "endColumn": 52
         }
       },
@@ -1386,34 +1370,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug12011Trait\\Table",
         "location": {
           "startColumn": 38,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "number",
-        "value": "12011",
-        "location": {
-          "startColumn": 41,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Trait",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Table",
-        "location": {
-          "startColumn": 52,
           "endColumn": 57
         }
       },
@@ -2109,18 +2069,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "NotAnalysedTrait",
+        "type": "namespaced_name",
+        "value": "NotAnalysedTrait\\Bar",
         "location": {
           "startColumn": 6,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 23,
           "endColumn": 26
         }
       },

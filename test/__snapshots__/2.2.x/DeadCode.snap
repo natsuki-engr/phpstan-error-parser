@@ -1252,18 +1252,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallToConstructorWithoutImpurePoints",
+        "type": "namespaced_name",
+        "value": "CallToConstructorWithoutImpurePoints\\Foo",
         "location": {
           "startColumn": 12,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 49,
           "endColumn": 52
         }
       },

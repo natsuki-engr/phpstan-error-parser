@@ -3314,18 +3314,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PureMethod",
+        "type": "namespaced_name",
+        "value": "PureMethod\\ImpureConstructor",
         "location": {
           "startColumn": 30,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ImpureConstructor",
-        "location": {
-          "startColumn": 41,
           "endColumn": 58
         }
       },
@@ -7572,18 +7564,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PureMethod",
+        "type": "namespaced_name",
+        "value": "PureMethod\\PossiblyImpureConstructor",
         "location": {
           "startColumn": 39,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "PossiblyImpureConstructor",
-        "location": {
-          "startColumn": 50,
           "endColumn": 75
         }
       },

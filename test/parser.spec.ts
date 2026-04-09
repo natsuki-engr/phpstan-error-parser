@@ -238,6 +238,27 @@ describe('sample test', () => {
       m: 'Access to constant MatchEnums\\Foo::THREE.',
       assertions: [['StaticConstant:MatchEnums\\Foo::THREE', true]],
     },
+    {
+      name: 'parse namespaced name as single token',
+      m: 'Cannot access offset on Bug3782\\HelloWorld.',
+      assertions: [
+        ['NamespacedName:Bug3782\\HelloWorld', true],
+        ['CommonWord:Bug', false],
+      ],
+    },
+    {
+      name: 'namespaced name with multiple segments',
+      m: 'Parameter expects Test\\Foo\\Bar.',
+      assertions: [['NamespacedName:Test\\Foo\\Bar', true]],
+    },
+    {
+      name: 'function name with namespace still uses FunctionName token',
+      m: 'Function abc\\format not found.',
+      assertions: [
+        ['FunctionName:abc\\format', true],
+        ['NamespacedName:abc\\format', false],
+      ],
+    },
   ] satisfies DataSet[];
 
   test.each(dataSet)('$name', ({ m, assertions }) => {

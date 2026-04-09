@@ -59,18 +59,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantAccessOnInternalSubclassOne",
+        "type": "namespaced_name",
+        "value": "ClassConstantAccessOnInternalSubclassOne\\Bar",
         "location": {
           "startColumn": 41,
-          "endColumn": 81
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 82,
           "endColumn": 85
         }
       },
@@ -192,18 +184,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantInternalTagOne",
+        "type": "namespaced_name",
+        "value": "ClassConstantInternalTagOne\\FooInternal",
         "location": {
           "startColumn": 41,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInternal",
-        "location": {
-          "startColumn": 69,
           "endColumn": 80
         }
       },
@@ -410,34 +394,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug12951Polyfill\\NumberFormatter",
         "location": {
           "startColumn": 55,
-          "endColumn": 58
-        }
-      },
-      {
-        "type": "number",
-        "value": "12951",
-        "location": {
-          "startColumn": 58,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Polyfill",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NumberFormatter",
-        "location": {
-          "startColumn": 72,
           "endColumn": 87
         }
       },
@@ -1183,18 +1143,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PropertyInternalTagOne",
+        "type": "namespaced_name",
+        "value": "PropertyInternalTagOne\\FooInternal",
         "location": {
           "startColumn": 42,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInternal",
-        "location": {
-          "startColumn": 65,
           "endColumn": 76
         }
       },
@@ -1324,18 +1276,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "StaticPropertyAccessOnInternalSubclassOne",
+        "type": "namespaced_name",
+        "value": "StaticPropertyAccessOnInternalSubclassOne\\Bar",
         "location": {
           "startColumn": 49,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 91,
           "endColumn": 94
         }
       },
@@ -1550,18 +1494,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "StaticPropertyInternalTagOne",
+        "type": "namespaced_name",
+        "value": "StaticPropertyInternalTagOne\\FooInternal",
         "location": {
           "startColumn": 49,
-          "endColumn": 77
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInternal",
-        "location": {
-          "startColumn": 78,
           "endColumn": 89
         }
       },
@@ -2384,18 +2320,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MethodInternalTagOne",
+        "type": "namespaced_name",
+        "value": "MethodInternalTagOne\\FooInternal",
         "location": {
           "startColumn": 41,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInternal",
-        "location": {
-          "startColumn": 62,
           "endColumn": 73
         }
       },
@@ -2525,18 +2453,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "StaticMethodCallOnInternalSubclassOne",
+        "type": "namespaced_name",
+        "value": "StaticMethodCallOnInternalSubclassOne\\Bar",
         "location": {
           "startColumn": 48,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 86,
           "endColumn": 89
         }
       },
@@ -2751,18 +2671,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "StaticMethodInternalTagOne",
+        "type": "namespaced_name",
+        "value": "StaticMethodInternalTagOne\\FooInternal",
         "location": {
           "startColumn": 48,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooInternal",
-        "location": {
-          "startColumn": 75,
           "endColumn": 86
         }
       },

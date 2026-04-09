@@ -676,34 +676,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug10212\\X\\Foo",
         "location": {
           "startColumn": 33,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "number",
-        "value": "10212",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 41
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "X",
-        "location": {
-          "startColumn": 42,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 44,
           "endColumn": 47
         }
       },
@@ -918,18 +894,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassConstantNativeTypeForMissingTypehintRule",
+        "type": "namespaced_name",
+        "value": "ClassConstantNativeTypeForMissingTypehintRule\\Bar",
         "location": {
           "startColumn": 81,
-          "endColumn": 126
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 127,
           "endColumn": 130
         }
       },
@@ -1205,18 +1173,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MissingClassConstantTypehint",
+        "type": "namespaced_name",
+        "value": "MissingClassConstantTypehint\\Bar",
         "location": {
           "startColumn": 66,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 95,
           "endColumn": 98
         }
       },
@@ -3846,18 +3806,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ValueAssignedToClassConstant",
+        "type": "namespaced_name",
+        "value": "ValueAssignedToClassConstant\\Foo",
         "location": {
           "startColumn": 79,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 108,
           "endColumn": 111
         }
       },

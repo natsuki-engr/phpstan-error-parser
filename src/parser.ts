@@ -35,6 +35,11 @@ const tokens = {
     pattern: /(?<!(T|t)he (M|m)ethod )(?<=(M|m)ethod )([\w]+(\\[\w]+)*(\(\))?)/,
     line_breaks: false,
   }),
+  NAMESPACED_NAME: createToken({
+    name: 'NamespacedName',
+    pattern: /[a-zA-Z]\w*(\\[a-zA-Z]\w*)+/,
+    line_breaks: false,
+  }),
   COMMON_WORD: createToken({
     name: 'CommonWord',
     pattern: /[a-zA-Z]+/,
@@ -115,6 +120,7 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.STATIC_PROPERTY) },
         { ALT: () => this.CONSUME(tokens.STATIC_CONSTANT) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
+        { ALT: () => this.CONSUME(tokens.NAMESPACED_NAME) },
         { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },
         { ALT: () => this.CONSUME(tokens.VARIABLE) },
