@@ -11,34 +11,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "static_constant",
+        "value": "PHPStan\\Analyser\\NodeScopeResolver::FOO",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Analyser",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NodeScopeResolver",
-        "location": {
-          "startColumn": 27,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOO",
-        "location": {
-          "startColumn": 46,
           "endColumn": 49
         }
       },
@@ -120,26 +96,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Command\\AnalyseCommand",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Command",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AnalyseCommand",
-        "location": {
-          "startColumn": 26,
           "endColumn": 40
         }
       },
@@ -229,26 +189,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\ClassReflection",
         "location": {
           "startColumn": 9,
-          "endColumn": 16
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 17,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ClassReflection",
-        "location": {
-          "startColumn": 28,
           "endColumn": 43
         }
       },
@@ -466,42 +410,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\BetterReflection\\SourceLocator\\AutoloadSourceLocator",
         "location": {
           "startColumn": 24,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BetterReflection",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SourceLocator",
-        "location": {
-          "startColumn": 60,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "AutoloadSourceLocator",
-        "location": {
-          "startColumn": 74,
           "endColumn": 95
         }
       },
@@ -591,34 +503,18 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "method_name",
+        "value": "PHPStan\\Type\\ObjectType::getTemplateType()",
         "location": {
           "startColumn": 8,
-          "endColumn": 15
+          "endColumn": 50
         }
       },
       {
         "type": "common_word",
-        "value": "Type",
+        "value": "references",
         "location": {
-          "startColumn": 16,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ObjectType",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "type",
-        "value": "getTemplateType()references",
-        "location": {
-          "startColumn": 33,
+          "startColumn": 51,
           "endColumn": 61
         }
       },
@@ -708,34 +604,18 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "method_name",
+        "value": "PHPStan\\Type\\Type::getTemplateType()",
         "location": {
           "startColumn": 8,
-          "endColumn": 15
+          "endColumn": 44
         }
       },
       {
         "type": "common_word",
-        "value": "Type",
+        "value": "references",
         "location": {
-          "startColumn": 16,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "type",
-        "value": "getTemplateType()references",
-        "location": {
-          "startColumn": 27,
+          "startColumn": 45,
           "endColumn": 55
         }
       },
@@ -817,34 +697,18 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "method_name",
+        "value": "PHPStan\\Command\\CommandHelper::begin()",
         "location": {
           "startColumn": 8,
-          "endColumn": 15
+          "endColumn": 46
         }
       },
       {
         "type": "common_word",
-        "value": "Command",
+        "value": "is",
         "location": {
-          "startColumn": 16,
-          "endColumn": 23
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CommandHelper",
-        "location": {
-          "startColumn": 24,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "type",
-        "value": "begin()is",
-        "location": {
-          "startColumn": 39,
+          "startColumn": 47,
           "endColumn": 49
         }
       },
@@ -918,34 +782,18 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "method_name",
+        "value": "PHPStan\\Node\\InClassNode::__construct()",
         "location": {
           "startColumn": 8,
-          "endColumn": 15
+          "endColumn": 47
         }
       },
       {
         "type": "common_word",
-        "value": "Node",
+        "value": "is",
         "location": {
-          "startColumn": 16,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "InClassNode",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "type",
-        "value": "construct()is",
-        "location": {
-          "startColumn": 36,
+          "startColumn": 48,
           "endColumn": 50
         }
       },
@@ -1019,42 +867,18 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "method_name",
+        "value": "PHPStan\\Rules\\Debug\\DumpTypeRule::getNodeType()",
         "location": {
           "startColumn": 8,
-          "endColumn": 15
+          "endColumn": 55
         }
       },
       {
         "type": "common_word",
-        "value": "Rules",
+        "value": "is",
         "location": {
-          "startColumn": 16,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Debug",
-        "location": {
-          "startColumn": 22,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DumpTypeRule",
-        "location": {
-          "startColumn": 28,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "type",
-        "value": "getNodeType()is",
-        "location": {
-          "startColumn": 42,
+          "startColumn": 56,
           "endColumn": 58
         }
       },
@@ -1128,42 +952,18 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "method_name",
+        "value": "PHPStan\\Type\\Php\\ArrayKeyDynamicReturnTypeExtension::isFunctionSupported()",
         "location": {
           "startColumn": 8,
-          "endColumn": 15
+          "endColumn": 82
         }
       },
       {
         "type": "common_word",
-        "value": "Type",
+        "value": "is",
         "location": {
-          "startColumn": 16,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Php",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ArrayKeyDynamicReturnTypeExtension",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "type",
-        "value": "isFunctionSupported()is",
-        "location": {
-          "startColumn": 61,
+          "startColumn": 83,
           "endColumn": 85
         }
       },
@@ -1237,34 +1037,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PhpParser",
+        "type": "namespaced_name",
+        "value": "PhpParser\\Node\\Expr\\ArrayItem",
         "location": {
           "startColumn": 6,
-          "endColumn": 15
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Node",
-        "location": {
-          "startColumn": 16,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Expr",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ArrayItem",
-        "location": {
-          "startColumn": 26,
           "endColumn": 35
         }
       },
@@ -1314,26 +1090,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\DependencyInjection\\NeonAdapter",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DependencyInjection",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NeonAdapter",
-        "location": {
-          "startColumn": 41,
           "endColumn": 52
         }
       },
@@ -1423,26 +1183,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\FileTypeMapper",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FileTypeMapper",
-        "location": {
-          "startColumn": 26,
           "endColumn": 40
         }
       },
@@ -1532,26 +1276,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\StringAlwaysAcceptingObjectWithToStringType",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "StringAlwaysAcceptingObjectWithToStringType",
-        "location": {
-          "startColumn": 26,
           "endColumn": 69
         }
       },
@@ -4095,34 +3823,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Generic\\GenericObjectType",
         "location": {
           "startColumn": 17,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Generic",
-        "location": {
-          "startColumn": 30,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericObjectType",
-        "location": {
-          "startColumn": 38,
           "endColumn": 55
         }
       },
@@ -4196,26 +3900,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\TypeWithClassName",
         "location": {
           "startColumn": 17,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "TypeWithClassName",
-        "location": {
-          "startColumn": 30,
           "endColumn": 47
         }
       },
@@ -4289,26 +3977,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "phpstan",
+        "type": "namespaced_name",
+        "value": "phpstan\\type\\typewithclassname",
         "location": {
           "startColumn": 17,
-          "endColumn": 24
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "type",
-        "location": {
-          "startColumn": 25,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "typewithclassname",
-        "location": {
-          "startColumn": 30,
           "endColumn": 47
         }
       },
@@ -4374,34 +4046,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\DependencyInjection\\Type\\DynamicThrowTypeExtensionProvider",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DependencyInjection",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 38,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DynamicThrowTypeExtensionProvider",
-        "location": {
-          "startColumn": 43,
           "endColumn": 76
         }
       },
@@ -4483,26 +4131,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\ExtendedMethodReflection",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ExtendedMethodReflection",
-        "location": {
-          "startColumn": 29,
           "endColumn": 53
         }
       },
@@ -4584,26 +4216,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\ReflectionProvider",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 28
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ReflectionProvider",
-        "location": {
-          "startColumn": 29,
           "endColumn": 47
         }
       },
@@ -4685,26 +4301,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\FileTypeMapper",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FileTypeMapper",
-        "location": {
-          "startColumn": 23,
           "endColumn": 37
         }
       },
@@ -4786,26 +4386,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Type",
         "location": {
           "startColumn": 10,
-          "endColumn": 17
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 18,
-          "endColumn": 22
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 23,
           "endColumn": 27
         }
       },
@@ -5832,26 +5416,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Analyser\\Scope",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Analyser",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 29
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Scope",
-        "location": {
-          "startColumn": 30,
           "endColumn": 35
         }
       },
@@ -5933,34 +5501,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\DependencyInjection\\Type\\DynamicThrowTypeExtensionProvider",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DependencyInjection",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 40
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 41,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DynamicThrowTypeExtensionProvider",
-        "location": {
-          "startColumn": 46,
           "endColumn": 79
         }
       },
@@ -6042,26 +5586,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\ExtendedMethodReflection",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ExtendedMethodReflection",
-        "location": {
-          "startColumn": 32,
           "endColumn": 56
         }
       },
@@ -6143,26 +5671,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\FunctionReflection",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FunctionReflection",
-        "location": {
-          "startColumn": 32,
           "endColumn": 50
         }
       },
@@ -6244,26 +5756,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Reflection\\ReflectionProvider",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Reflection",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ReflectionProvider",
-        "location": {
-          "startColumn": 32,
           "endColumn": 50
         }
       },
@@ -6345,26 +5841,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\Type",
         "location": {
           "startColumn": 13,
-          "endColumn": 20
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 21,
-          "endColumn": 25
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 26,
           "endColumn": 30
         }
       },
@@ -6515,26 +5995,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PHPStan",
+        "type": "namespaced_name",
+        "value": "PHPStan\\Type\\JustNullableTypeTrait",
         "location": {
           "startColumn": 6,
-          "endColumn": 13
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Type",
-        "location": {
-          "startColumn": 14,
-          "endColumn": 18
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "JustNullableTypeTrait",
-        "location": {
-          "startColumn": 19,
           "endColumn": 40
         }
       },

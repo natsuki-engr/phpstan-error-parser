@@ -345,18 +345,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ArrowFunctionExistingClassesInTypehints",
+        "type": "namespaced_name",
+        "value": "ArrowFunctionExistingClassesInTypehints\\Baz",
         "location": {
           "startColumn": 43,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Baz",
-        "location": {
-          "startColumn": 83,
           "endColumn": 86
         }
       },
@@ -422,26 +414,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehintsPhp",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehintsPhp71\\NonexistentClass",
         "location": {
           "startColumn": 43,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "number",
-        "value": "71",
-        "location": {
-          "startColumn": 74,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonexistentClass",
-        "location": {
-          "startColumn": 77,
           "endColumn": 93
         }
       },
@@ -507,18 +483,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\NonexistentClass",
         "location": {
           "startColumn": 43,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonexistentClass",
-        "location": {
-          "startColumn": 72,
           "endColumn": 88
         }
       },
@@ -584,18 +552,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\SomeTrait",
         "location": {
           "startColumn": 43,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 72,
           "endColumn": 81
         }
       },
@@ -799,34 +759,26 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Bar",
         "location": {
           "startColumn": 33,
-          "endColumn": 51
+          "endColumn": 55
         }
       },
       {
-        "type": "type",
-        "value": "Bar&",
+        "type": "ampersand",
+        "value": "&",
         "location": {
-          "startColumn": 52,
+          "startColumn": 55,
           "endColumn": 56
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Foo",
         "location": {
           "startColumn": 56,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 75,
           "endColumn": 78
         }
       },
@@ -847,18 +799,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Bar",
         "location": {
           "startColumn": 91,
-          "endColumn": 109
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 110,
           "endColumn": 113
         }
       },
@@ -908,34 +852,26 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Foo",
         "location": {
           "startColumn": 33,
-          "endColumn": 51
+          "endColumn": 55
         }
       },
       {
-        "type": "type",
-        "value": "Foo&",
+        "type": "ampersand",
+        "value": "&",
         "location": {
-          "startColumn": 52,
+          "startColumn": 55,
           "endColumn": 56
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeOtherNamespace",
+        "type": "namespaced_name",
+        "value": "SomeOtherNamespace\\Baz",
         "location": {
           "startColumn": 56,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Baz",
-        "location": {
-          "startColumn": 75,
           "endColumn": 78
         }
       },
@@ -956,18 +892,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Foo",
         "location": {
           "startColumn": 91,
-          "endColumn": 109
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 110,
           "endColumn": 113
         }
       },
@@ -1017,34 +945,26 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Foo",
         "location": {
           "startColumn": 33,
-          "endColumn": 51
+          "endColumn": 55
         }
       },
       {
-        "type": "type",
-        "value": "Foo&",
+        "type": "ampersand",
+        "value": "&",
         "location": {
-          "startColumn": 52,
+          "startColumn": 55,
           "endColumn": 56
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeOtherNamespace",
+        "type": "namespaced_name",
+        "value": "SomeOtherNamespace\\Foo",
         "location": {
           "startColumn": 56,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 75,
           "endColumn": 78
         }
       },
@@ -1065,18 +985,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureReturnTypes",
+        "type": "namespaced_name",
+        "value": "ClosureReturnTypes\\Foo",
         "location": {
           "startColumn": 91,
-          "endColumn": 109
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 110,
           "endColumn": 113
         }
       },
@@ -2460,18 +2372,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ArrowFunctionAttributes",
+        "type": "namespaced_name",
+        "value": "ArrowFunctionAttributes\\Foo",
         "location": {
           "startColumn": 16,
-          "endColumn": 39
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 40,
           "endColumn": 43
         }
       },
@@ -2553,18 +2457,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ClosureAttributes",
+        "type": "namespaced_name",
+        "value": "ClosureAttributes\\Foo",
         "location": {
           "startColumn": 16,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 34,
           "endColumn": 37
         }
       },
@@ -2646,18 +2542,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionAttributes",
+        "type": "namespaced_name",
+        "value": "FunctionAttributes\\Foo",
         "location": {
           "startColumn": 16,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 35,
           "endColumn": 38
         }
       },
@@ -2739,18 +2627,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamAttributes",
+        "type": "namespaced_name",
+        "value": "ParamAttributes\\Foo",
         "location": {
           "startColumn": 16,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 32,
           "endColumn": 35
         }
       },
@@ -2848,18 +2728,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamAttributes",
+        "type": "namespaced_name",
+        "value": "ParamAttributes\\Foo",
         "location": {
           "startColumn": 16,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 32,
           "endColumn": 35
         }
       },
@@ -2941,18 +2813,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamAttributes",
+        "type": "namespaced_name",
+        "value": "ParamAttributes\\Qux",
         "location": {
           "startColumn": 16,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Qux",
-        "location": {
-          "startColumn": 32,
           "endColumn": 35
         }
       },
@@ -4127,18 +3991,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "IncorrectFunctionCase",
+        "type": "namespaced_name",
+        "value": "IncorrectFunctionCase\\foobar",
         "location": {
           "startColumn": 69,
-          "endColumn": 90
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "foobar",
-        "location": {
-          "startColumn": 91,
           "endColumn": 97
         }
       }
@@ -4321,34 +4177,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MONGODB",
+        "type": "namespaced_name",
+        "value": "MONGODB\\Driver\\Monitoring\\addSubscriber",
         "location": {
           "startColumn": 80,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Driver",
-        "location": {
-          "startColumn": 88,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Monitoring",
-        "location": {
-          "startColumn": 95,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "addSubscriber",
-        "location": {
-          "startColumn": 106,
           "endColumn": 119
         }
       }
@@ -4438,34 +4270,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "mongodb",
+        "type": "namespaced_name",
+        "value": "mongodb\\driver\\monitoring\\addsubscriber",
         "location": {
           "startColumn": 80,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "driver",
-        "location": {
-          "startColumn": 88,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "monitoring",
-        "location": {
-          "startColumn": 95,
-          "endColumn": 105
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "addsubscriber",
-        "location": {
-          "startColumn": 106,
           "endColumn": 119
         }
       }
@@ -5488,18 +5296,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallCallables",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Foo",
         "location": {
           "startColumn": 51,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 65,
           "endColumn": 68
         }
       },
@@ -10311,18 +10111,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisClassesFunctions",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisClassesFunctions\\Foo",
         "location": {
           "startColumn": 6,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 39,
           "endColumn": 42
         }
       },
@@ -10367,18 +10159,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisClassesFunctions",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisClassesFunctions\\fOO",
         "location": {
           "startColumn": 75,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "fOO",
-        "location": {
-          "startColumn": 108,
           "endColumn": 111
         }
       },
@@ -10404,18 +10188,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutClasses",
+        "type": "namespaced_name",
+        "value": "ParamOutClasses\\Foo",
         "location": {
           "startColumn": 6,
-          "endColumn": 21
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 22,
           "endColumn": 25
         }
       },
@@ -10460,18 +10236,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutClasses",
+        "type": "namespaced_name",
+        "value": "ParamOutClasses\\fOO",
         "location": {
           "startColumn": 58,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "fOO",
-        "location": {
-          "startColumn": 74,
           "endColumn": 77
         }
       },
@@ -10497,18 +10265,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\FooFunctionTypehints",
         "location": {
           "startColumn": 6,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooFunctionTypehints",
-        "location": {
-          "startColumn": 35,
           "endColumn": 55
         }
       },
@@ -10553,18 +10313,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\FOOfUnctionTypehintS",
         "location": {
           "startColumn": 88,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOOfUnctionTypehintS",
-        "location": {
-          "startColumn": 117,
           "endColumn": 137
         }
       },
@@ -10590,18 +10342,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\FooFunctionTypehints",
         "location": {
           "startColumn": 6,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooFunctionTypehints",
-        "location": {
-          "startColumn": 35,
           "endColumn": 55
         }
       },
@@ -10646,18 +10390,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\fOOfUnctionTypehints",
         "location": {
           "startColumn": 88,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "fOOfUnctionTypehints",
-        "location": {
-          "startColumn": 117,
           "endColumn": 137
         }
       },
@@ -10683,18 +10419,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\FooFunctionTypehints",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooFunctionTypehints",
-        "location": {
-          "startColumn": 28,
           "endColumn": 48
         }
       },
@@ -10739,18 +10467,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\FOOFunctionTypehints",
         "location": {
           "startColumn": 81,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FOOFunctionTypehints",
-        "location": {
-          "startColumn": 103,
           "endColumn": 123
         }
       },
@@ -10776,18 +10496,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\FooFunctionTypehints",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooFunctionTypehints",
-        "location": {
-          "startColumn": 28,
           "endColumn": 48
         }
       },
@@ -10832,18 +10544,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\fOOFunctionTypehintS",
         "location": {
           "startColumn": 81,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "fOOFunctionTypehintS",
-        "location": {
-          "startColumn": 103,
           "endColumn": 123
         }
       },
@@ -10869,18 +10573,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\FooFunctionTypehints",
         "location": {
           "startColumn": 6,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooFunctionTypehints",
-        "location": {
-          "startColumn": 28,
           "endColumn": 48
         }
       },
@@ -10925,18 +10621,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\fOOFunctionTypehints",
         "location": {
           "startColumn": 81,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "fOOFunctionTypehints",
-        "location": {
-          "startColumn": 103,
           "endColumn": 123
         }
       },
@@ -13818,18 +13506,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "FunctionCallable",
+        "type": "namespaced_name",
+        "value": "FunctionCallable\\Nonexistent",
         "location": {
           "startColumn": 40,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Nonexistent",
-        "location": {
-          "startColumn": 57,
           "endColumn": 68
         }
       },
@@ -14872,25 +14552,17 @@
       },
       {
         "type": "type",
-        "value": "list<Bug",
+        "value": "list<",
         "location": {
           "startColumn": 52,
-          "endColumn": null
+          "endColumn": 57
         }
       },
       {
-        "type": "number",
-        "value": "10077",
+        "type": "namespaced_name",
+        "value": "Bug10077\\CssMediaQuery",
         "location": {
-          "startColumn": 60,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "CssMediaQuery",
-        "location": {
-          "startColumn": 66,
+          "startColumn": 57,
           "endColumn": 79
         }
       },
@@ -14936,25 +14608,17 @@
       },
       {
         "type": "type",
-        "value": "list<Bug",
+        "value": "list<",
         "location": {
           "startColumn": 98,
-          "endColumn": null
+          "endColumn": 103
         }
       },
       {
-        "type": "number",
-        "value": "10077",
+        "type": "namespaced_name",
+        "value": "Bug10077\\MediaQueryMergeResult",
         "location": {
-          "startColumn": 106,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "MediaQueryMergeResult",
-        "location": {
-          "startColumn": 112,
+          "startColumn": 103,
           "endColumn": 133
         }
       },
@@ -15416,43 +15080,43 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug2723\\Bar",
         "location": {
           "startColumn": 37,
-          "endColumn": 40
+          "endColumn": 48
         }
       },
       {
-        "type": "number",
-        "value": "2723",
+        "type": "langle",
+        "value": "<",
         "location": {
-          "startColumn": 40,
-          "endColumn": 44
+          "startColumn": 48,
+          "endColumn": 49
         }
       },
       {
-        "type": "type",
-        "value": "Bar<Bug",
+        "type": "namespaced_name",
+        "value": "Bug2723\\Foo",
         "location": {
-          "startColumn": 45,
-          "endColumn": null
+          "startColumn": 49,
+          "endColumn": 60
         }
       },
       {
-        "type": "number",
-        "value": "2723",
+        "type": "langle",
+        "value": "<",
         "location": {
-          "startColumn": 52,
-          "endColumn": 56
+          "startColumn": 60,
+          "endColumn": 61
         }
       },
       {
-        "type": "type",
-        "value": "Foo<T",
+        "type": "common_word",
+        "value": "T",
         "location": {
-          "startColumn": 57,
-          "endColumn": null
+          "startColumn": 61,
+          "endColumn": 62
         }
       },
       {
@@ -15496,26 +15160,34 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug2723\\BarOfFoo",
         "location": {
           "startColumn": 78,
-          "endColumn": 81
+          "endColumn": 94
         }
       },
       {
-        "type": "number",
-        "value": "2723",
+        "type": "langle",
+        "value": "<",
         "location": {
-          "startColumn": 81,
-          "endColumn": 85
+          "startColumn": 94,
+          "endColumn": 95
         }
       },
       {
-        "type": "type",
-        "value": "BarOfFoo<string>",
+        "type": "common_word",
+        "value": "string",
         "location": {
-          "startColumn": 86,
+          "startColumn": 95,
+          "endColumn": 101
+        }
+      },
+      {
+        "type": "rangle",
+        "value": ">",
+        "location": {
+          "startColumn": 101,
           "endColumn": 102
         }
       },
@@ -15581,42 +15253,26 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3028\\Format",
         "location": {
           "startColumn": 37,
-          "endColumn": 40
+          "endColumn": 51
         }
       },
       {
-        "type": "number",
-        "value": "3028",
+        "type": "langle",
+        "value": "<",
         "location": {
-          "startColumn": 40,
-          "endColumn": 44
+          "startColumn": 51,
+          "endColumn": 52
         }
       },
       {
-        "type": "type",
-        "value": "Format<Bug",
+        "type": "namespaced_name",
+        "value": "Bug3028\\Output",
         "location": {
-          "startColumn": 45,
-          "endColumn": null
-        }
-      },
-      {
-        "type": "number",
-        "value": "3028",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Output",
-        "location": {
-          "startColumn": 60,
+          "startColumn": 52,
           "endColumn": 66
         }
       },
@@ -15645,27 +15301,27 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3028\\Format",
         "location": {
           "startColumn": 80,
-          "endColumn": 83
+          "endColumn": 94
         }
       },
       {
-        "type": "number",
-        "value": "3028",
+        "type": "langle",
+        "value": "<",
         "location": {
-          "startColumn": 83,
-          "endColumn": 87
+          "startColumn": 94,
+          "endColumn": 95
         }
       },
       {
-        "type": "type",
-        "value": "Format<O",
+        "type": "common_word",
+        "value": "O",
         "location": {
-          "startColumn": 88,
-          "endColumn": null
+          "startColumn": 95,
+          "endColumn": 96
         }
       },
       {
@@ -15677,26 +15333,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug3028\\Output",
         "location": {
           "startColumn": 100,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "number",
-        "value": "3028",
-        "location": {
-          "startColumn": 103,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Output",
-        "location": {
-          "startColumn": 108,
           "endColumn": 114
         }
       },
@@ -17629,18 +17269,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MissingFunctionParameterTypehint",
+        "type": "namespaced_name",
+        "value": "MissingFunctionParameterTypehint\\GenericClass",
         "location": {
           "startColumn": 100,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericClass",
-        "location": {
-          "startColumn": 133,
           "endColumn": 145
         }
       },
@@ -17810,18 +17442,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MissingFunctionParameterTypehint",
+        "type": "namespaced_name",
+        "value": "MissingFunctionParameterTypehint\\GenericInterface",
         "location": {
           "startColumn": 108,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericInterface",
-        "location": {
-          "startColumn": 141,
           "endColumn": 157
         }
       },
@@ -19515,18 +19139,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MissingFunctionReturnTypehint",
+        "type": "namespaced_name",
+        "value": "MissingFunctionReturnTypehint\\GenericClass",
         "location": {
           "startColumn": 106,
-          "endColumn": 135
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericClass",
-        "location": {
-          "startColumn": 136,
           "endColumn": 148
         }
       },
@@ -20143,18 +19759,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MissingFunctionReturnTypehint",
+        "type": "namespaced_name",
+        "value": "MissingFunctionReturnTypehint\\GenericClass",
         "location": {
           "startColumn": 92,
-          "endColumn": 121
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericClass",
-        "location": {
-          "startColumn": 122,
           "endColumn": 134
         }
       },
@@ -20308,18 +19916,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MissingFunctionReturnTypehint",
+        "type": "namespaced_name",
+        "value": "MissingFunctionReturnTypehint\\GenericInterface",
         "location": {
           "startColumn": 100,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GenericInterface",
-        "location": {
-          "startColumn": 130,
           "endColumn": 146
         }
       },
@@ -23429,18 +23029,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReturnTypes",
+        "type": "namespaced_name",
+        "value": "ReturnTypes\\Foo",
         "location": {
           "startColumn": 49,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 61,
           "endColumn": 64
         }
       },
@@ -23461,18 +23053,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReturnTypes",
+        "type": "namespaced_name",
+        "value": "ReturnTypes\\OtherInterfaceImpl",
         "location": {
           "startColumn": 77,
-          "endColumn": 88
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "OtherInterfaceImpl",
-        "location": {
-          "startColumn": 89,
           "endColumn": 107
         }
       },
@@ -23934,18 +23518,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReturnTypes",
+        "type": "namespaced_name",
+        "value": "ReturnTypes\\Bar",
         "location": {
           "startColumn": 50,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 62,
           "endColumn": 65
         }
       },
@@ -23966,18 +23542,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReturnTypes",
+        "type": "namespaced_name",
+        "value": "ReturnTypes\\Foo",
         "location": {
           "startColumn": 78,
-          "endColumn": 89
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 90,
           "endColumn": 93
         }
       },
@@ -24043,18 +23611,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ReturnTypes",
+        "type": "namespaced_name",
+        "value": "ReturnTypes\\Bar",
         "location": {
           "startColumn": 50,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 62,
           "endColumn": 65
         }
       },
@@ -24559,18 +24119,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\NonexistentClass",
         "location": {
           "startColumn": 61,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonexistentClass",
-        "location": {
-          "startColumn": 83,
           "endColumn": 99
         }
       },
@@ -24652,18 +24204,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\SomeTrait",
         "location": {
           "startColumn": 82,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 104,
           "endColumn": 113
         }
       },
@@ -24745,18 +24289,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\SomeTrait",
         "location": {
           "startColumn": 82,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 104,
           "endColumn": 113
         }
       },
@@ -24838,18 +24374,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\parent",
         "location": {
           "startColumn": 70,
-          "endColumn": 91
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "parent",
-        "location": {
-          "startColumn": 92,
           "endColumn": 98
         }
       },
@@ -28148,18 +27676,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallCallables",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Bar",
         "location": {
           "startColumn": 38,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 52,
           "endColumn": 55
         }
       },
@@ -33349,34 +32869,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12676\\A::$a",
         "location": {
           "startColumn": 84,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "number",
-        "value": "12676",
-        "location": {
-          "startColumn": 87,
-          "endColumn": 92
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 93,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$a",
-        "location": {
-          "startColumn": 96,
           "endColumn": 98
         }
       },
@@ -33506,34 +33002,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12676\\B::$readonlyArr",
         "location": {
           "startColumn": 84,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "number",
-        "value": "12676",
-        "location": {
-          "startColumn": 87,
-          "endColumn": 92
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 93,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$readonlyArr",
-        "location": {
-          "startColumn": 96,
           "endColumn": 108
         }
       },
@@ -33671,34 +33143,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_property",
+        "value": "Bug12676\\C::$readonlyArr",
         "location": {
           "startColumn": 91,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "number",
-        "value": "12676",
-        "location": {
-          "startColumn": 94,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "C",
-        "location": {
-          "startColumn": 100,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "variable_name",
-        "value": "$readonlyArr",
-        "location": {
-          "startColumn": 103,
           "endColumn": 115
         }
       },
@@ -34204,25 +33652,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 98,
-          "endColumn": null
+          "endColumn": 108
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 144,
-          "endColumn": 151
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 153,
+          "startColumn": 109,
           "endColumn": 154
         }
       },
@@ -34526,97 +33966,49 @@
       },
       {
         "type": "type",
-        "value": "array<int, Bug",
+        "value": "array<int,",
         "location": {
           "startColumn": 90,
-          "endColumn": null
+          "endColumn": 100
         }
       },
       {
-        "type": "number",
-        "value": "11141",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::DAN",
         "location": {
-          "startColumn": 104,
-          "endColumn": 109
+          "startColumn": 101,
+          "endColumn": 123
         }
       },
       {
-        "type": "common_word",
-        "value": "Language",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 110,
-          "endColumn": 118
-        }
-      },
-      {
-        "type": "type",
-        "value": "DAN|",
-        "location": {
-          "startColumn": 120,
+          "startColumn": 123,
           "endColumn": 124
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::ENG",
         "location": {
           "startColumn": 124,
-          "endColumn": 127
+          "endColumn": 146
         }
       },
       {
-        "type": "number",
-        "value": "11141",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 127,
-          "endColumn": 132
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Language",
-        "location": {
-          "startColumn": 133,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "type",
-        "value": "ENG|",
-        "location": {
-          "startColumn": 143,
+          "startColumn": 146,
           "endColumn": 147
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::GER",
         "location": {
           "startColumn": 147,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "number",
-        "value": "11141",
-        "location": {
-          "startColumn": 150,
-          "endColumn": 155
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Language",
-        "location": {
-          "startColumn": 156,
-          "endColumn": 164
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "GER",
-        "location": {
-          "startColumn": 166,
           "endColumn": 169
         }
       },
@@ -34920,25 +34312,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 95,
-          "endColumn": null
+          "endColumn": 105
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 141,
-          "endColumn": 148
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 150,
+          "startColumn": 106,
           "endColumn": 151
         }
       },
@@ -35391,65 +34775,33 @@
       },
       {
         "type": "type",
-        "value": "array<int, Bug",
+        "value": "array<int,",
         "location": {
           "startColumn": 93,
-          "endColumn": null
+          "endColumn": 103
         }
       },
       {
-        "type": "number",
-        "value": "11883",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::A",
         "location": {
-          "startColumn": 107,
-          "endColumn": 112
+          "startColumn": 104,
+          "endColumn": 124
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeEnum",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 113,
-          "endColumn": 121
-        }
-      },
-      {
-        "type": "type",
-        "value": "A|",
-        "location": {
-          "startColumn": 123,
+          "startColumn": 124,
           "endColumn": 125
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::B",
         "location": {
           "startColumn": 125,
-          "endColumn": 128
-        }
-      },
-      {
-        "type": "number",
-        "value": "11883",
-        "location": {
-          "startColumn": 128,
-          "endColumn": 133
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeEnum",
-        "location": {
-          "startColumn": 134,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 144,
           "endColumn": 145
         }
       },
@@ -35902,25 +35254,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToNumberFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 93,
-          "endColumn": null
+          "endColumn": 103
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToNumberFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 139,
-          "endColumn": 146
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 148,
+          "startColumn": 104,
           "endColumn": 149
         }
       },
@@ -36075,17 +35419,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToNumberFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 93,
-          "endColumn": null
+          "endColumn": 103
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithToString",
+        "type": "namespaced_name",
+        "value": "ParamCastableToNumberFunctions\\ClassWithToString",
         "location": {
-          "startColumn": 135,
+          "startColumn": 104,
           "endColumn": 152
         }
       },
@@ -37581,65 +36925,33 @@
       },
       {
         "type": "type",
-        "value": "array<int, Bug",
+        "value": "array<int,",
         "location": {
           "startColumn": 89,
-          "endColumn": null
+          "endColumn": 99
         }
       },
       {
-        "type": "number",
-        "value": "11883",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::A",
         "location": {
-          "startColumn": 103,
-          "endColumn": 108
+          "startColumn": 100,
+          "endColumn": 120
         }
       },
       {
-        "type": "common_word",
-        "value": "SomeEnum",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 109,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "type",
-        "value": "A|",
-        "location": {
-          "startColumn": 119,
+          "startColumn": 120,
           "endColumn": 121
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug11883\\SomeEnum::B",
         "location": {
           "startColumn": 121,
-          "endColumn": 124
-        }
-      },
-      {
-        "type": "number",
-        "value": "11883",
-        "location": {
-          "startColumn": 124,
-          "endColumn": 129
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeEnum",
-        "location": {
-          "startColumn": 130,
-          "endColumn": 138
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "B",
-        "location": {
-          "startColumn": 140,
           "endColumn": 141
         }
       },
@@ -38092,25 +37404,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToNumberFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 89,
-          "endColumn": null
+          "endColumn": 99
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToNumberFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 135,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 144,
+          "startColumn": 100,
           "endColumn": 145
         }
       },
@@ -38265,17 +37569,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToNumberFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 89,
-          "endColumn": null
+          "endColumn": 99
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithToString",
+        "type": "namespaced_name",
+        "value": "ParamCastableToNumberFunctions\\ClassWithToString",
         "location": {
-          "startColumn": 131,
+          "startColumn": 100,
           "endColumn": 148
         }
       },
@@ -39771,25 +39075,25 @@
       },
       {
         "type": "type",
-        "value": "array<int, SortParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 92,
-          "endColumn": null
+          "endColumn": 102
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 142,
-          "endColumn": 149
+          "startColumn": 103,
+          "endColumn": 152
         }
       },
       {
-        "type": "type",
-        "value": "A|",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 151,
+          "startColumn": 152,
           "endColumn": 153
         }
       },
@@ -40250,17 +39554,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, SortParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 85,
-          "endColumn": null
+          "endColumn": 95
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithToString",
+        "type": "namespaced_name",
+        "value": "SortParamCastableToStringFunctions\\ClassWithToString",
         "location": {
-          "startColumn": 131,
+          "startColumn": 96,
           "endColumn": 148
         }
       },
@@ -40431,17 +39735,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, SortParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 96,
-          "endColumn": null
+          "endColumn": 106
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithToString",
+        "type": "namespaced_name",
+        "value": "SortParamCastableToStringFunctions\\ClassWithToString",
         "location": {
-          "startColumn": 142,
+          "startColumn": 107,
           "endColumn": 159
         }
       },
@@ -40596,17 +39900,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, SortParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 86,
-          "endColumn": null
+          "endColumn": 96
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "namespaced_name",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum",
         "location": {
-          "startColumn": 136,
+          "startColumn": 97,
           "endColumn": 143
         }
       },
@@ -40910,25 +40214,17 @@
       },
       {
         "type": "type",
-        "value": "list<SortParamCastableToStringFunctionsEnum",
+        "value": "list<",
         "location": {
           "startColumn": 85,
-          "endColumn": null
+          "endColumn": 90
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 129,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 138,
+          "startColumn": 90,
           "endColumn": 139
         }
       },
@@ -41535,25 +40831,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 91,
-          "endColumn": null
+          "endColumn": 101
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 137,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 146,
+          "startColumn": 102,
           "endColumn": 147
         }
       },
@@ -41857,25 +41145,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 87,
-          "endColumn": null
+          "endColumn": 97
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 133,
-          "endColumn": 140
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 142,
+          "startColumn": 98,
           "endColumn": 143
         }
       },
@@ -42288,25 +41568,17 @@
       },
       {
         "type": "type",
-        "value": "list<SortParamCastableToStringFunctionsEnum",
+        "value": "list<",
         "location": {
           "startColumn": 85,
-          "endColumn": null
+          "endColumn": 90
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 129,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 138,
+          "startColumn": 90,
           "endColumn": 139
         }
       },
@@ -42775,25 +42047,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, SortParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 84,
-          "endColumn": null
+          "endColumn": 94
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 134,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 143,
+          "startColumn": 95,
           "endColumn": 144
         }
       },
@@ -42948,17 +42212,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, SortParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 84,
-          "endColumn": null
+          "endColumn": 94
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithoutToString",
+        "type": "namespaced_name",
+        "value": "SortParamCastableToStringFunctions\\ClassWithoutToString",
         "location": {
-          "startColumn": 130,
+          "startColumn": 95,
           "endColumn": 150
         }
       },
@@ -43557,57 +42821,9 @@
       },
       {
         "type": "type",
-        "value": "expects (callable(Bug",
+        "value": "expects (callable(             ): mixed)",
         "location": {
           "startColumn": 45,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "number",
-        "value": "12317",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 71
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Uuid",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 76,
-          "endColumn": 77
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 77,
-          "endColumn": 78
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "mixed",
-        "location": {
-          "startColumn": 79,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 84,
           "endColumn": 85
         }
       },
@@ -45117,18 +44333,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallCallables",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Foo",
         "location": {
           "startColumn": 40,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -46267,25 +45475,25 @@
       },
       {
         "type": "type",
-        "value": "array<int, Bug",
+        "value": "array<int,",
         "location": {
           "startColumn": 92,
-          "endColumn": null
+          "endColumn": 102
         }
       },
       {
-        "type": "number",
-        "value": "3946",
+        "type": "namespaced_name",
+        "value": "Bug3946\\stdClass",
         "location": {
-          "startColumn": 106,
-          "endColumn": 110
+          "startColumn": 103,
+          "endColumn": 119
         }
       },
       {
-        "type": "type",
-        "value": "stdClass|",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 111,
+          "startColumn": 119,
           "endColumn": 120
         }
       },
@@ -46480,25 +45688,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 92,
-          "endColumn": null
+          "endColumn": 102
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 138,
-          "endColumn": 145
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 147,
+          "startColumn": 103,
           "endColumn": 148
         }
       },
@@ -46802,25 +46002,17 @@
       },
       {
         "type": "type",
-        "value": "array<Bug",
+        "value": "array<",
         "location": {
           "startColumn": 94,
-          "endColumn": null
+          "endColumn": 100
         }
       },
       {
-        "type": "number",
-        "value": "11111",
+        "type": "namespaced_name",
+        "value": "Bug11111\\Language",
         "location": {
-          "startColumn": 103,
-          "endColumn": 108
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Language",
-        "location": {
-          "startColumn": 109,
+          "startColumn": 100,
           "endColumn": 117
         }
       },
@@ -46975,65 +46167,33 @@
       },
       {
         "type": "type",
-        "value": "array<int, Bug",
+        "value": "array<int,",
         "location": {
           "startColumn": 94,
-          "endColumn": null
+          "endColumn": 104
         }
       },
       {
-        "type": "number",
-        "value": "11111",
+        "type": "static_constant",
+        "value": "Bug11111\\Language::DUT",
         "location": {
-          "startColumn": 108,
-          "endColumn": 113
+          "startColumn": 105,
+          "endColumn": 127
         }
       },
       {
-        "type": "common_word",
-        "value": "Language",
+        "type": "pipe",
+        "value": "|",
         "location": {
-          "startColumn": 114,
-          "endColumn": 122
-        }
-      },
-      {
-        "type": "type",
-        "value": "DUT|",
-        "location": {
-          "startColumn": 124,
+          "startColumn": 127,
           "endColumn": 128
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "static_constant",
+        "value": "Bug11111\\Language::ITA",
         "location": {
           "startColumn": 128,
-          "endColumn": 131
-        }
-      },
-      {
-        "type": "number",
-        "value": "11111",
-        "location": {
-          "startColumn": 131,
-          "endColumn": 136
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Language",
-        "location": {
-          "startColumn": 137,
-          "endColumn": 145
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "ITA",
-        "location": {
-          "startColumn": 147,
           "endColumn": 150
         }
       },
@@ -47188,25 +46348,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 94,
-          "endColumn": null
+          "endColumn": 104
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 140,
-          "endColumn": 147
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 149,
+          "startColumn": 105,
           "endColumn": 150
         }
       },
@@ -51113,34 +50265,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug11619Strict\\Foo",
         "location": {
           "startColumn": 64,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "number",
-        "value": "11619",
-        "location": {
-          "startColumn": 67,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Strict",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 78
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 79,
           "endColumn": 82
         }
       },
@@ -54870,18 +53998,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallCallables",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Foo",
         "location": {
           "startColumn": 40,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 54,
           "endColumn": 57
         }
       },
@@ -54895,17 +54015,17 @@
       },
       {
         "type": "type",
-        "value": "array<CallCallables",
+        "value": "array<",
         "location": {
           "startColumn": 59,
-          "endColumn": null
+          "endColumn": 65
         }
       },
       {
-        "type": "common_word",
-        "value": "Foo",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Foo",
         "location": {
-          "startColumn": 79,
+          "startColumn": 65,
           "endColumn": 82
         }
       },
@@ -55181,26 +54301,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug6485\\Block",
         "location": {
           "startColumn": 53,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "number",
-        "value": "6485",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Block",
-        "location": {
-          "startColumn": 61,
           "endColumn": 66
         }
       },
@@ -55836,25 +54940,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ImplodeParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 63,
-          "endColumn": null
+          "endColumn": 73
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ImplodeParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 116,
-          "endColumn": 123
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 125,
+          "startColumn": 74,
           "endColumn": 126
         }
       },
@@ -56647,33 +55743,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, Bug",
+        "value": "array<int,",
         "location": {
           "startColumn": 91,
-          "endColumn": null
+          "endColumn": 101
         }
       },
       {
-        "type": "number",
-        "value": "11141",
+        "type": "static_constant",
+        "value": "Bug11141\\Language::DAN",
         "location": {
-          "startColumn": 105,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Language",
-        "location": {
-          "startColumn": 111,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "DAN",
-        "location": {
-          "startColumn": 121,
+          "startColumn": 102,
           "endColumn": 124
         }
       },
@@ -56828,25 +55908,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 91,
-          "endColumn": null
+          "endColumn": 101
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 137,
-          "endColumn": 144
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 146,
+          "startColumn": 102,
           "endColumn": 147
         }
       },
@@ -57001,17 +56073,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 91,
-          "endColumn": null
+          "endColumn": 101
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithoutToString",
+        "type": "namespaced_name",
+        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
         "location": {
-          "startColumn": 133,
+          "startColumn": 102,
           "endColumn": 153
         }
       },
@@ -57315,25 +56387,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 97,
-          "endColumn": null
+          "endColumn": 107
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 143,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 152,
+          "startColumn": 108,
           "endColumn": 153
         }
       },
@@ -57488,17 +56552,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 97,
-          "endColumn": null
+          "endColumn": 107
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithoutToString",
+        "type": "namespaced_name",
+        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
         "location": {
-          "startColumn": 139,
+          "startColumn": 108,
           "endColumn": 159
         }
       },
@@ -57653,25 +56717,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 96,
-          "endColumn": null
+          "endColumn": 106
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 142,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 151,
+          "startColumn": 107,
           "endColumn": 152
         }
       },
@@ -57826,17 +56882,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 96,
-          "endColumn": null
+          "endColumn": 106
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithoutToString",
+        "type": "namespaced_name",
+        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
         "location": {
-          "startColumn": 138,
+          "startColumn": 107,
           "endColumn": 158
         }
       },
@@ -61048,17 +60104,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, Fputcsv",
+        "value": "array<int,",
         "location": {
           "startColumn": 96,
-          "endColumn": null
+          "endColumn": 106
         }
       },
       {
-        "type": "common_word",
-        "value": "Person",
+        "type": "namespaced_name",
+        "value": "Fputcsv\\Person",
         "location": {
-          "startColumn": 115,
+          "startColumn": 107,
           "endColumn": 121
         }
       },
@@ -62232,25 +61288,17 @@
       },
       {
         "type": "type",
-        "value": "array{19913: true, 10102: '', 68: 10, 13: 30, 84: 2, 10036: CurlSetOptArray",
+        "value": "array{19913: true, 10102: '', 68: 10, 13: 30, 84: 2, 10036:",
         "location": {
           "startColumn": 152,
-          "endColumn": null
+          "endColumn": 211
         }
       },
       {
-        "type": "common_word",
-        "value": "BackedRequestMethod",
+        "type": "static_constant",
+        "value": "CurlSetOptArray\\BackedRequestMethod::POST",
         "location": {
-          "startColumn": 228,
-          "endColumn": 247
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "POST",
-        "location": {
-          "startColumn": 249,
+          "startColumn": 212,
           "endColumn": 253
         }
       },
@@ -62389,25 +61437,17 @@
       },
       {
         "type": "type",
-        "value": "array{19913: true, 10102: '', 68: 10, 13: 30, 84: 2, 10036: CurlSetOptArray",
+        "value": "array{19913: true, 10102: '', 68: 10, 13: 30, 84: 2, 10036:",
         "location": {
           "startColumn": 152,
-          "endColumn": null
+          "endColumn": 211
         }
       },
       {
-        "type": "common_word",
-        "value": "RequestMethod",
+        "type": "static_constant",
+        "value": "CurlSetOptArray\\RequestMethod::POST",
         "location": {
-          "startColumn": 228,
-          "endColumn": 241
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "POST",
-        "location": {
-          "startColumn": 243,
+          "startColumn": 212,
           "endColumn": 247
         }
       },
@@ -62715,34 +61755,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "Bug",
+        "type": "namespaced_name",
+        "value": "Bug11619Strict\\Foo",
         "location": {
           "startColumn": 64,
-          "endColumn": 67
-        }
-      },
-      {
-        "type": "number",
-        "value": "11619",
-        "location": {
-          "startColumn": 67,
-          "endColumn": 72
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Strict",
-        "location": {
-          "startColumn": 72,
-          "endColumn": 78
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 79,
           "endColumn": 82
         }
       },
@@ -62989,18 +62005,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UnpackOperator",
+        "type": "namespaced_name",
+        "value": "UnpackOperator\\Foo",
         "location": {
           "startColumn": 79,
-          "endColumn": 93
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 94,
           "endColumn": 97
         }
       },
@@ -63138,18 +62146,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "UnpackOperator",
+        "type": "namespaced_name",
+        "value": "UnpackOperator\\Foo",
         "location": {
           "startColumn": 80,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Foo",
-        "location": {
-          "startColumn": 95,
           "endColumn": 98
         }
       },
@@ -63609,18 +62609,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 103,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 120,
           "endColumn": 133
         }
       },
@@ -63798,18 +62790,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 96,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 113,
           "endColumn": 126
         }
       },
@@ -63987,18 +62971,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 94,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 111,
           "endColumn": 124
         }
       },
@@ -64200,18 +63176,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 107,
-          "endColumn": 123
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 124,
           "endColumn": 137
         }
       },
@@ -64389,18 +63357,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 92,
-          "endColumn": 108
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 109,
           "endColumn": 122
         }
       },
@@ -64586,18 +63546,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 96,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 113,
           "endColumn": 126
         }
       },
@@ -64775,18 +63727,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 94,
-          "endColumn": 110
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 111,
           "endColumn": 124
         }
       },
@@ -64948,18 +63892,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 91,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 108,
           "endColumn": 121
         }
       },
@@ -65121,18 +64057,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 84,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 101,
           "endColumn": 114
         }
       },
@@ -65294,18 +64222,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 82,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 99,
           "endColumn": 112
         }
       },
@@ -65986,18 +64906,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 95,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 112,
           "endColumn": 125
         }
       },
@@ -67671,18 +66583,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 80,
-          "endColumn": 96
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 97,
           "endColumn": 110
         }
       },
@@ -68355,18 +67259,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 84,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 101,
           "endColumn": 114
         }
       },
@@ -69023,18 +67919,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 82,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 99,
           "endColumn": 112
         }
       },
@@ -69566,18 +68454,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 93,
-          "endColumn": 109
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 110,
           "endColumn": 123
         }
       },
@@ -69739,18 +68619,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 81,
-          "endColumn": 97
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 98,
           "endColumn": 111
         }
       },
@@ -73980,25 +72852,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctionsEnum",
+        "value": "array<int,",
         "location": {
           "startColumn": 88,
-          "endColumn": null
+          "endColumn": 98
         }
       },
       {
-        "type": "common_word",
-        "value": "FooEnum",
+        "type": "static_constant",
+        "value": "ParamCastableToStringFunctionsEnum\\FooEnum::A",
         "location": {
-          "startColumn": 134,
-          "endColumn": 141
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "A",
-        "location": {
-          "startColumn": 143,
+          "startColumn": 99,
           "endColumn": 144
         }
       },
@@ -74145,17 +73009,17 @@
       },
       {
         "type": "type",
-        "value": "array<int, ParamCastableToStringFunctions",
+        "value": "array<int,",
         "location": {
           "startColumn": 88,
-          "endColumn": null
+          "endColumn": 98
         }
       },
       {
-        "type": "common_word",
-        "value": "ClassWithoutToString",
+        "type": "namespaced_name",
+        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
         "location": {
-          "startColumn": 130,
+          "startColumn": 99,
           "endColumn": 150
         }
       },
@@ -74341,18 +73205,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 95,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 112,
           "endColumn": 125
         }
       },
@@ -74514,18 +73370,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 83,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 100,
           "endColumn": 113
         }
       },
@@ -75107,18 +73955,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 96,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 113,
           "endColumn": 126
         }
       },
@@ -75280,18 +74120,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "PrintfParamTypes",
+        "type": "namespaced_name",
+        "value": "PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 84,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooStringable",
-        "location": {
-          "startColumn": 101,
           "endColumn": 114
         }
       },
@@ -75684,18 +74516,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisClassesFunctions",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisClassesFunctions\\Nonexistent",
         "location": {
           "startColumn": 83,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Nonexistent",
-        "location": {
-          "startColumn": 116,
           "endColumn": 127
         }
       },
@@ -76873,18 +75697,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamClosureThisClassesFunctions",
+        "type": "namespaced_name",
+        "value": "ParamClosureThisClassesFunctions\\FooTrait",
         "location": {
           "startColumn": 83,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooTrait",
-        "location": {
-          "startColumn": 116,
           "endColumn": 124
         }
       },
@@ -76966,18 +75782,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ArrowFunctionExistingClassesInTypehints",
+        "type": "namespaced_name",
+        "value": "ArrowFunctionExistingClassesInTypehints\\Bar",
         "location": {
           "startColumn": 54,
-          "endColumn": 93
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 94,
           "endColumn": 97
         }
       },
@@ -77059,26 +75867,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehintsPhp",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehintsPhp71\\NonexistentClass",
         "location": {
           "startColumn": 54,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "number",
-        "value": "71",
-        "location": {
-          "startColumn": 85,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "NonexistentClass",
-        "location": {
-          "startColumn": 88,
           "endColumn": 104
         }
       },
@@ -77160,18 +75952,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\BarFunctionTypehints",
         "location": {
           "startColumn": 54,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BarFunctionTypehints",
-        "location": {
-          "startColumn": 83,
           "endColumn": 103
         }
       },
@@ -77269,18 +76053,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\BarFunctionTypehints",
         "location": {
           "startColumn": 72,
-          "endColumn": 93
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "BarFunctionTypehints",
-        "location": {
-          "startColumn": 94,
           "endColumn": 114
         }
       },
@@ -77440,57 +76216,9 @@
       },
       {
         "type": "type",
-        "value": "expects (callable(Bug",
+        "value": "expects (callable(             ): mixed)",
         "location": {
           "startColumn": 42,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "number",
-        "value": "12317",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 68
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Uuid",
-        "location": {
-          "startColumn": 69,
-          "endColumn": 73
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 73,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 74,
-          "endColumn": 75
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "mixed",
-        "location": {
-          "startColumn": 76,
-          "endColumn": 81
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 81,
           "endColumn": 82
         }
       },
@@ -78152,18 +76880,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutClasses",
+        "type": "namespaced_name",
+        "value": "ParamOutClasses\\Nonexistent",
         "location": {
           "startColumn": 66,
-          "endColumn": 81
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Nonexistent",
-        "location": {
-          "startColumn": 82,
           "endColumn": 93
         }
       },
@@ -78447,18 +77167,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "ParamOutClasses",
+        "type": "namespaced_name",
+        "value": "ParamOutClasses\\FooTrait",
         "location": {
           "startColumn": 66,
-          "endColumn": 81
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "FooTrait",
-        "location": {
-          "startColumn": 82,
           "endColumn": 90
         }
       },
@@ -78649,18 +77361,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\SomeNonexistentClass",
         "location": {
           "startColumn": 90,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeNonexistentClass",
-        "location": {
-          "startColumn": 112,
           "endColumn": 132
         }
       },
@@ -78758,18 +77462,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\SomeNonexistentClass",
         "location": {
           "startColumn": 98,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeNonexistentClass",
-        "location": {
-          "startColumn": 120,
           "endColumn": 140
         }
       },
@@ -78851,18 +77547,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestClosureFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestClosureFunctionTypehints\\SomeTrait",
         "location": {
           "startColumn": 56,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 85,
           "endColumn": 94
         }
       },
@@ -78960,18 +77648,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\SomeTrait",
         "location": {
           "startColumn": 95,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 117,
           "endColumn": 126
         }
       },
@@ -79069,18 +77749,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "TestFunctionTypehints",
+        "type": "namespaced_name",
+        "value": "TestFunctionTypehints\\SomeTrait",
         "location": {
           "startColumn": 95,
-          "endColumn": 116
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "SomeTrait",
-        "location": {
-          "startColumn": 117,
           "endColumn": 126
         }
       },
@@ -81354,18 +80026,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallCallables",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Baz",
         "location": {
           "startColumn": 17,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Baz",
-        "location": {
-          "startColumn": 31,
           "endColumn": 34
         }
       },
@@ -81463,18 +80127,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "CallCallables",
+        "type": "namespaced_name",
+        "value": "CallCallables\\Baz",
         "location": {
           "startColumn": 17,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Baz",
-        "location": {
-          "startColumn": 31,
           "endColumn": 34
         }
       },
@@ -81984,18 +80640,10 @@
         }
       },
       {
-        "type": "common_word",
-        "value": "MaybeNotCallable",
+        "type": "namespaced_name",
+        "value": "MaybeNotCallable\\Bar",
         "location": {
           "startColumn": 53,
-          "endColumn": 69
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "Bar",
-        "location": {
-          "startColumn": 70,
           "endColumn": 73
         }
       },

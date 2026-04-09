@@ -1081,17 +1081,17 @@
       },
       {
         "type": "type",
-        "value": "array{Foo",
+        "value": "array{",
         "location": {
           "startColumn": 13,
           "endColumn": null
         }
       },
       {
-        "type": "common_word",
-        "value": "Bar",
+        "type": "namespaced_name",
+        "value": "Foo\\Bar",
         "location": {
-          "startColumn": 23,
+          "startColumn": 19,
           "endColumn": 26
         }
       },
