@@ -111,6 +111,19 @@ The parser can identify:
 - **Common words**: Regular words in the error message
 - **Punctuation**: Commas and periods
 
+## Reporting Wrong Parse Results
+
+If you find an input that the parser tokenizes incorrectly, please file an issue using the **Wrong parse result** template:
+
+[Open a wrong-parse issue](https://github.com/natsuki-engr/phpstan-error-parser/issues/new?template=wrong-parse.yml)
+
+The form asks for:
+
+- **Input**: the original PHPStan error message
+- **Actual tokens**: the current parse result (you can copy it from `test/__snapshots__/`)
+- **Expected tokens**: what the parse result should look like
+- **Snapshot file** (optional): the relevant file under `test/__snapshots__/`
+
 ## Development
 
 ### Setup
