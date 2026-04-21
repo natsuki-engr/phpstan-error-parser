@@ -1,0 +1,62 @@
+name: Wrong parse result
+description: パース結果が期待と異なる場合に報告する
+title: "[wrong-parse] "
+labels: ["wrong-parse"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        パーサーが誤ったトークン列を出力しているケースを報告するためのテンプレートです。
+        `test/__snapshots__/` から該当のトークン列をコピーして貼り付けてください。
+
+  - type: input
+    id: input
+    attributes:
+      label: Input (エラー原文)
+      description: PHPStan が出力したエラーメッセージの原文（1 行）
+      placeholder: 'Method Foo::bar() has parameter $baz with no type specified.'
+    validations:
+      required: true
+
+  - type: input
+    id: snapshot-file
+    attributes:
+      label: Snapshot file
+      description: 該当スナップショットのパス（任意）
+      placeholder: 'test/__snapshots__/2.2.x/Methods.snap'
+    validations:
+      required: false
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual tokens (現状のパース結果)
+      description: スナップショット（または `parse()` の戻り値）をそのまま貼り付けてください
+      render: json
+      placeholder: |
+        [
+          { "type": "common_word", "value": "Method", "location": { "startColumn": 0, "endColumn": 6 } }
+        ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected tokens (期待するパース結果)
+      description: 正しくパースされた場合に得られるべきトークン列。差分が明確な箇所だけでも可
+      render: json
+      placeholder: |
+        [
+          { "type": "method_name", "value": "Foo::bar()", "location": { "startColumn": 7, "endColumn": 17 } }
+        ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: 補足（関連する未対応トークン、再現手順、参照先 Issue/PR など）
+    validations:
+      required: false
