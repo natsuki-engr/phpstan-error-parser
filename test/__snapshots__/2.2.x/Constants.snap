@@ -3702,34 +3702,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ValueAssignedToClassConstant\\Foo",
+        "type": "type",
+        "value": "ValueAssignedToClassConstant\\Foo<int>",
         "location": {
           "startColumn": 79,
-          "endColumn": 111
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 111,
-          "endColumn": 112
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 112,
-          "endColumn": 115
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 115,
           "endColumn": 116
         }
       },

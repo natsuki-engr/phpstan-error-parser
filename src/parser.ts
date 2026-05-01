@@ -154,9 +154,12 @@ export class Parser extends CstParser {
           this.OPTION(() => {
             this.CONSUME(tokens.QUESTION);
           });
-          this.CONSUME(tokens.COMMON_WORD);
+          this.OR2([
+            { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
+            { ALT: () => this.CONSUME(tokens.NAMESPACED_NAME) },
+          ]);
           this.OPTION2(() => {
-            this.OR2([
+            this.OR3([
               // Generic: name<typeList>
               {
                 ALT: () => {
@@ -240,9 +243,12 @@ export class Parser extends CstParser {
    * This avoids GATE overhead on every token.
    */
   public wordOrType = this.RULE('wordOrType', () => {
-    const word = this.CONSUME(tokens.COMMON_WORD);
+    const word = this.OR([
+      { ALT: () => this.CONSUME(tokens.COMMON_WORD) },
+      { ALT: () => this.CONSUME(tokens.NAMESPACED_NAME) },
+    ]);
     this.OPTION(() => {
-      this.OR([
+      this.OR2([
         {
           ALT: () => {
             this.CONSUME(tokens.LANGLE);
@@ -312,7 +318,6 @@ export class Parser extends CstParser {
         { ALT: () => this.CONSUME(tokens.STATIC_PROPERTY) },
         { ALT: () => this.CONSUME(tokens.STATIC_CONSTANT) },
         { ALT: () => this.CONSUME(tokens.METHOD_NAME) },
-        { ALT: () => this.CONSUME(tokens.NAMESPACED_NAME) },
         { ALT: () => this.SUBRULE(this.wordOrType) },
         { ALT: () => this.CONSUME(tokens.DOC_TAG) },
         { ALT: () => this.CONSUME(tokens.VARIABLE) },

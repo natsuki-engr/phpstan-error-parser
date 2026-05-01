@@ -4420,17 +4420,9 @@
       },
       {
         "type": "type",
-        "value": "ArrayAccess&",
+        "value": "ArrayAccess&Bug3782\\HelloWorld",
         "location": {
           "startColumn": 64,
-          "endColumn": 76
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug3782\\HelloWorld",
-        "location": {
-          "startColumn": 76,
           "endColumn": 94
         }
       },

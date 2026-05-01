@@ -88,13 +88,17 @@ function collectWords(node: CstNode, words: Word[]): void {
         });
       }
     } else {
-      // Plain CommonWord
-      const wordTokens = node.children.CommonWord;
+      // Plain CommonWord or NamespacedName
+      const wordTokens =
+        node.children.CommonWord ?? node.children.NamespacedName;
       if (wordTokens) {
         for (const token of wordTokens) {
           if (isIToken(token)) {
+            const tokenType = getTokenType(
+              token.tokenType?.name ?? 'CommonWord',
+            );
             words.push({
-              type: 'common_word',
+              type: tokenType ?? 'common_word',
               value: token.image,
               location: {
                 startColumn: token.startOffset,

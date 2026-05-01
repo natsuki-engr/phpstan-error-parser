@@ -570,17 +570,9 @@
       },
       {
         "type": "type",
-        "value": "string|",
+        "value": "string|VariableCloning\\Foo",
         "location": {
           "startColumn": 46,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "VariableCloning\\Foo",
-        "location": {
-          "startColumn": 53,
           "endColumn": 72
         }
       },
@@ -662,42 +654,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "VariableCloning\\Bar",
+        "type": "type",
+        "value": "VariableCloning\\Bar|VariableCloning\\Foo|null",
         "location": {
           "startColumn": 46,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "VariableCloning\\Foo",
-        "location": {
-          "startColumn": 66,
-          "endColumn": 85
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 85,
-          "endColumn": 86
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 86,
           "endColumn": 90
         }
       },
@@ -6152,25 +6112,9 @@
       },
       {
         "type": "type",
-        "value": "array<",
+        "value": "array<PR4374\\Foo>",
         "location": {
           "startColumn": 27,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "PR4374\\Foo",
-        "location": {
-          "startColumn": 33,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 43,
           "endColumn": 44
         }
       },

@@ -759,26 +759,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClosureReturnTypes\\Bar",
+        "type": "type",
+        "value": "ClosureReturnTypes\\Bar&ClosureReturnTypes\\Foo",
         "location": {
           "startColumn": 33,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ClosureReturnTypes\\Foo",
-        "location": {
-          "startColumn": 56,
           "endColumn": 78
         }
       },
@@ -852,26 +836,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClosureReturnTypes\\Foo",
+        "type": "type",
+        "value": "ClosureReturnTypes\\Foo&SomeOtherNamespace\\Baz",
         "location": {
           "startColumn": 33,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "SomeOtherNamespace\\Baz",
-        "location": {
-          "startColumn": 56,
           "endColumn": 78
         }
       },
@@ -945,26 +913,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClosureReturnTypes\\Foo",
+        "type": "type",
+        "value": "ClosureReturnTypes\\Foo&SomeOtherNamespace\\Foo",
         "location": {
           "startColumn": 33,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 55,
-          "endColumn": 56
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "SomeOtherNamespace\\Foo",
-        "location": {
-          "startColumn": 56,
           "endColumn": 78
         }
       },
@@ -14528,25 +14480,9 @@
       },
       {
         "type": "type",
-        "value": "list<",
+        "value": "list<Bug10077\\CssMediaQuery>",
         "location": {
           "startColumn": 52,
-          "endColumn": 57
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug10077\\CssMediaQuery",
-        "location": {
-          "startColumn": 57,
-          "endColumn": 79
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 79,
           "endColumn": 80
         }
       },
@@ -14584,25 +14520,9 @@
       },
       {
         "type": "type",
-        "value": "list<",
+        "value": "list<Bug10077\\MediaQueryMergeResult>",
         "location": {
           "startColumn": 98,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug10077\\MediaQueryMergeResult",
-        "location": {
-          "startColumn": 103,
-          "endColumn": 133
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 133,
           "endColumn": 134
         }
       },
@@ -15056,66 +14976,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug2723\\Bar",
+        "type": "type",
+        "value": "Bug2723\\Bar<Bug2723\\Foo<T >>",
         "location": {
           "startColumn": 37,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug2723\\Foo",
-        "location": {
-          "startColumn": 49,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 60,
-          "endColumn": 61
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 61,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "number",
-        "value": "4",
-        "location": {
-          "startColumn": 62,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 63,
-          "endColumn": 64
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 64,
           "endColumn": 65
         }
       },
@@ -15136,34 +15000,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug2723\\BarOfFoo",
+        "type": "type",
+        "value": "Bug2723\\BarOfFoo<string>",
         "location": {
           "startColumn": 78,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 94,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 95,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 101,
           "endColumn": 102
         }
       },
@@ -15229,34 +15069,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug3028\\Format",
+        "type": "type",
+        "value": "Bug3028\\Format<Bug3028\\Output>",
         "location": {
           "startColumn": 37,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 51,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug3028\\Output",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 66,
           "endColumn": 67
         }
       },
@@ -15277,27 +15093,11 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "Bug3028\\Format",
+        "type": "type",
+        "value": "Bug3028\\Format<O",
         "location": {
           "startColumn": 80,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 94,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "O",
-        "location": {
-          "startColumn": 95,
-          "endColumn": 96
+          "endColumn": null
         }
       },
       {
@@ -35427,25 +35227,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, ParamCastableToNumberFunctions\\ClassWithToString>",
         "location": {
           "startColumn": 93,
-          "endColumn": 103
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ParamCastableToNumberFunctions\\ClassWithToString",
-        "location": {
-          "startColumn": 104,
-          "endColumn": 152
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 152,
           "endColumn": 153
         }
       },
@@ -37577,25 +37361,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, ParamCastableToNumberFunctions\\ClassWithToString>",
         "location": {
           "startColumn": 89,
-          "endColumn": 99
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ParamCastableToNumberFunctions\\ClassWithToString",
-        "location": {
-          "startColumn": 100,
-          "endColumn": 148
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 148,
           "endColumn": 149
         }
       },
@@ -39562,25 +39330,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, SortParamCastableToStringFunctions\\ClassWithToString>",
         "location": {
           "startColumn": 85,
-          "endColumn": 95
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctions\\ClassWithToString",
-        "location": {
-          "startColumn": 96,
-          "endColumn": 148
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 148,
           "endColumn": 149
         }
       },
@@ -39743,25 +39495,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, SortParamCastableToStringFunctions\\ClassWithToString>",
         "location": {
           "startColumn": 96,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctions\\ClassWithToString",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 159
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 159,
           "endColumn": 160
         }
       },
@@ -39908,25 +39644,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, SortParamCastableToStringFunctionsEnum\\FooEnum>",
         "location": {
           "startColumn": 86,
-          "endColumn": 96
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctionsEnum\\FooEnum",
-        "location": {
-          "startColumn": 97,
-          "endColumn": 143
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 143,
           "endColumn": 144
         }
       },
@@ -42212,25 +41932,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, SortParamCastableToStringFunctions\\ClassWithoutToString>",
         "location": {
           "startColumn": 84,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "SortParamCastableToStringFunctions\\ClassWithoutToString",
-        "location": {
-          "startColumn": 95,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 150,
           "endColumn": 151
         }
       },
@@ -42885,7 +42589,7 @@
       },
       {
         "type": "type",
-        "value": "callable(             ): mixed",
+        "value": "callable(Bug12317\\Uuid): mixed",
         "location": {
           "startColumn": 54,
           "endColumn": 84
@@ -45587,41 +45291,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, Bug3946\\stdClass|float|int|list<string>|string>",
         "location": {
           "startColumn": 92,
-          "endColumn": 102
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug3946\\stdClass",
-        "location": {
-          "startColumn": 103,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 119,
-          "endColumn": 120
-        }
-      },
-      {
-        "type": "type",
-        "value": "float|int|list<string>|string",
-        "location": {
-          "startColumn": 120,
-          "endColumn": 149
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 149,
           "endColumn": 150
         }
       },
@@ -46082,25 +45754,9 @@
       },
       {
         "type": "type",
-        "value": "array<",
+        "value": "array<Bug11111\\Language>",
         "location": {
           "startColumn": 94,
-          "endColumn": 100
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug11111\\Language",
-        "location": {
-          "startColumn": 100,
-          "endColumn": 117
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 117,
           "endColumn": 118
         }
       },
@@ -53399,25 +53055,9 @@
       },
       {
         "type": "type",
-        "value": "array<",
+        "value": "array<CallCallables\\Foo>",
         "location": {
           "startColumn": 59,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "CallCallables\\Foo",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 82,
           "endColumn": 83
         }
       },
@@ -55457,25 +55097,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, ParamCastableToStringFunctions\\ClassWithoutToString>",
         "location": {
           "startColumn": 91,
-          "endColumn": 101
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
-        "location": {
-          "startColumn": 102,
-          "endColumn": 153
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 153,
           "endColumn": 154
         }
       },
@@ -55936,25 +55560,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, ParamCastableToStringFunctions\\ClassWithoutToString>",
         "location": {
           "startColumn": 97,
-          "endColumn": 107
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
-        "location": {
-          "startColumn": 108,
-          "endColumn": 159
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 159,
           "endColumn": 160
         }
       },
@@ -56266,25 +55874,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, ParamCastableToStringFunctions\\ClassWithoutToString>",
         "location": {
           "startColumn": 96,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 158
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 158,
           "endColumn": 159
         }
       },
@@ -59544,25 +59136,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, Fputcsv\\Person>",
         "location": {
           "startColumn": 96,
-          "endColumn": 106
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Fputcsv\\Person",
-        "location": {
-          "startColumn": 107,
-          "endColumn": 121
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 121,
           "endColumn": 122
         }
       },
@@ -62835,17 +62411,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 92,
-          "endColumn": 96
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "PrintfParamTypes\\FooStringable",
-        "location": {
-          "startColumn": 96,
           "endColumn": 126
         }
       },
@@ -66540,17 +66108,9 @@
       },
       {
         "type": "type",
-        "value": "int|",
+        "value": "int|PrintfParamTypes\\FooStringable",
         "location": {
           "startColumn": 80,
-          "endColumn": 84
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "PrintfParamTypes\\FooStringable",
-        "location": {
-          "startColumn": 84,
           "endColumn": 114
         }
       },
@@ -72265,25 +71825,9 @@
       },
       {
         "type": "type",
-        "value": "array<int,",
+        "value": "array<int, ParamCastableToStringFunctions\\ClassWithoutToString>",
         "location": {
           "startColumn": 88,
-          "endColumn": 98
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ParamCastableToStringFunctions\\ClassWithoutToString",
-        "location": {
-          "startColumn": 99,
-          "endColumn": 150
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 150,
           "endColumn": 151
         }
       },
@@ -75488,7 +75032,7 @@
       },
       {
         "type": "type",
-        "value": "callable(             ): mixed",
+        "value": "callable(Bug12317\\Uuid): mixed",
         "location": {
           "startColumn": 51,
           "endColumn": 81

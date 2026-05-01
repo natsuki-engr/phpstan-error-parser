@@ -1197,18 +1197,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClassConstantNamespace\\Foo",
+        "type": "type",
+        "value": "ClassConstantNamespace\\Foo|",
         "location": {
           "startColumn": 29,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 55,
           "endColumn": 56
         }
       },
@@ -1319,18 +1311,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClassConstantVisibility\\WithFooAndBarConstant",
+        "type": "type",
+        "value": "ClassConstantVisibility\\WithFooAndBarConstant&",
         "location": {
           "startColumn": 29,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 74,
           "endColumn": 75
         }
       },
@@ -1388,18 +1372,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ClassConstantVisibility\\WithFooAndBarConstant",
+        "type": "type",
+        "value": "ClassConstantVisibility\\WithFooAndBarConstant|",
         "location": {
           "startColumn": 29,
-          "endColumn": 74
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 74,
           "endColumn": 75
         }
       },
@@ -1511,7 +1487,7 @@
       },
       {
         "type": "type",
-        "value": "static(                  )FIELDS",
+        "value": "static(Bug8034\\HelloWorld)FIELDS",
         "location": {
           "startColumn": 29,
           "endColumn": 63
@@ -1564,7 +1540,7 @@
       },
       {
         "type": "type",
-        "value": "static(                                        )BAR",
+        "value": "static(ClassConstantVisibility\\AccessWithStatic)BAR",
         "location": {
           "startColumn": 29,
           "endColumn": 82
@@ -4389,27 +4365,11 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MixinRule\\Adipiscing",
+        "type": "type",
+        "value": "MixinRule\\Adipiscing<contravariant",
         "location": {
           "startColumn": 66,
-          "endColumn": 86
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 86,
-          "endColumn": 87
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "contravariant",
-        "location": {
-          "startColumn": 87,
-          "endColumn": 100
+          "endColumn": null
         }
       },
       {
@@ -4634,27 +4594,11 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MixinRule\\Adipiscing",
+        "type": "type",
+        "value": "MixinRule\\Adipiscing<covariant",
         "location": {
           "startColumn": 62,
-          "endColumn": 82
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 82,
-          "endColumn": 83
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "covariant",
-        "location": {
-          "startColumn": 83,
-          "endColumn": 92
+          "endColumn": null
         }
       },
       {
@@ -18060,66 +18004,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MethodTag\\Generic",
+        "type": "type",
+        "value": "MethodTag\\Generic<int, string, float>",
         "location": {
           "startColumn": 13,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 30,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 35
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 42
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 42,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "float",
-        "location": {
-          "startColumn": 44,
-          "endColumn": 49
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 49,
           "endColumn": 50
         }
       },
@@ -18337,34 +18225,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MethodTag\\Generic",
+        "type": "type",
+        "value": "MethodTag\\Generic<int>",
         "location": {
           "startColumn": 13,
-          "endColumn": 30
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 30,
-          "endColumn": 31
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 31,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 34,
           "endColumn": 35
         }
       },
@@ -18566,34 +18430,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MixinRule\\Consecteur",
+        "type": "type",
+        "value": "MixinRule\\Consecteur<MixinRule\\Foo>",
         "location": {
           "startColumn": 13,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 33,
-          "endColumn": 34
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "MixinRule\\Foo",
-        "location": {
-          "startColumn": 34,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 47,
           "endColumn": 48
         }
       },
@@ -18755,66 +18595,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PropertyTag\\Generic",
+        "type": "type",
+        "value": "PropertyTag\\Generic<int, string, float>",
         "location": {
           "startColumn": 13,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 33,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 36,
-          "endColumn": 37
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 38,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 44,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "float",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 51
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 51,
           "endColumn": 52
         }
       },
@@ -19016,34 +18800,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PropertyTag\\Generic",
+        "type": "type",
+        "value": "PropertyTag\\Generic<int>",
         "location": {
           "startColumn": 13,
-          "endColumn": 32
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 32,
-          "endColumn": 33
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 33,
-          "endColumn": 36
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 36,
           "endColumn": 37
         }
       },
@@ -21084,26 +20844,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceOf\\Bar",
+        "type": "type",
+        "value": "ImpossibleInstanceOf\\Bar&ImpossibleInstanceOf\\Foo",
         "location": {
           "startColumn": 19,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceOf\\Foo",
-        "location": {
-          "startColumn": 44,
           "endColumn": 68
         }
       },
@@ -21193,26 +20937,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceOf\\Bar",
+        "type": "type",
+        "value": "ImpossibleInstanceOf\\Bar&ImpossibleInstanceOf\\Foo",
         "location": {
           "startColumn": 19,
-          "endColumn": 43
-        }
-      },
-      {
-        "type": "ampersand",
-        "value": "&",
-        "location": {
-          "startColumn": 43,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceOf\\Foo",
-        "location": {
-          "startColumn": 44,
           "endColumn": 68
         }
       },
@@ -22139,26 +21867,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceOf\\Test",
+        "type": "type",
+        "value": "ImpossibleInstanceOf\\Test|null",
         "location": {
           "startColumn": 19,
-          "endColumn": 44
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 44,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 45,
           "endColumn": 49
         }
       },
@@ -22527,26 +22239,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceofNewIsAlwaysFinal\\Bar",
+        "type": "type",
+        "value": "ImpossibleInstanceofNewIsAlwaysFinal\\Bar|null",
         "location": {
           "startColumn": 19,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 59,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 60,
           "endColumn": 64
         }
       },
@@ -22636,26 +22332,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceofNewIsAlwaysFinal\\Bar",
+        "type": "type",
+        "value": "ImpossibleInstanceofNewIsAlwaysFinal\\Bar|null",
         "location": {
           "startColumn": 19,
-          "endColumn": 59
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 59,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "null",
-        "location": {
-          "startColumn": 60,
           "endColumn": 64
         }
       },
@@ -23444,26 +23124,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "ImpossibleInstanceOf\\InvalidTypeTest",
+        "type": "type",
+        "value": "ImpossibleInstanceOf\\InvalidTypeTest|int",
         "location": {
           "startColumn": 29,
-          "endColumn": 65
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 65,
-          "endColumn": 66
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "int",
-        "location": {
-          "startColumn": 66,
           "endColumn": 69
         }
       },
@@ -25510,26 +25174,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\NonExistentClass",
+        "type": "type",
+        "value": "IncompatibleRequireExtends\\NonExistentClass|IncompatibleRequireExtends\\SomeClass",
         "location": {
           "startColumn": 114,
-          "endColumn": 157
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 157,
-          "endColumn": 158
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\SomeClass",
-        "location": {
-          "startColumn": 158,
           "endColumn": 194
         }
       },
@@ -25699,26 +25347,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\NonExistentClass",
+        "type": "type",
+        "value": "IncompatibleRequireExtends\\NonExistentClass|IncompatibleRequireExtends\\SomeClass",
         "location": {
           "startColumn": 114,
-          "endColumn": 157
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 157,
-          "endColumn": 158
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\SomeClass",
-        "location": {
-          "startColumn": 158,
           "endColumn": 194
         }
       },
@@ -28539,25 +28171,9 @@
       },
       {
         "type": "type",
-        "value": "Exception<",
+        "value": "Exception<MixinRule\\Foo>",
         "location": {
           "startColumn": 40,
-          "endColumn": 50
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "MixinRule\\Foo",
-        "location": {
-          "startColumn": 50,
-          "endColumn": 63
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 63,
           "endColumn": 64
         }
       },
@@ -32590,33 +32206,9 @@
       },
       {
         "type": "type",
-        "value": "string<",
+        "value": "string<Bug7171\\EntityRepository<T",
         "location": {
           "startColumn": 87,
-          "endColumn": 94
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Bug7171\\EntityRepository",
-        "location": {
-          "startColumn": 94,
-          "endColumn": 118
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 118,
-          "endColumn": 119
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 119,
           "endColumn": 120
         }
       },
@@ -34119,26 +33711,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\NonExistentClass",
+        "type": "type",
+        "value": "IncompatibleRequireExtends\\NonExistentClass|IncompatibleRequireExtends\\SomeClass",
         "location": {
           "startColumn": 99,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 142,
-          "endColumn": 143
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\SomeClass",
-        "location": {
-          "startColumn": 143,
           "endColumn": 179
         }
       },
@@ -34308,26 +33884,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\NonExistentClass",
+        "type": "type",
+        "value": "IncompatibleRequireExtends\\NonExistentClass|IncompatibleRequireExtends\\SomeClass",
         "location": {
           "startColumn": 99,
-          "endColumn": 142
-        }
-      },
-      {
-        "type": "pipe",
-        "value": "|",
-        "location": {
-          "startColumn": 142,
-          "endColumn": 143
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireExtends\\SomeClass",
-        "location": {
-          "startColumn": 143,
           "endColumn": 179
         }
       },
@@ -35428,34 +34988,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "IncompatibleRequireImplements\\SomeClass",
+        "type": "type",
+        "value": "IncompatibleRequireImplements\\SomeClass<T>",
         "location": {
           "startColumn": 84,
-          "endColumn": 123
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 123,
-          "endColumn": 124
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "T",
-        "location": {
-          "startColumn": 124,
-          "endColumn": 125
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 125,
           "endColumn": 126
         }
       },
@@ -39081,50 +38617,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "MethodTag\\Generic",
+        "type": "type",
+        "value": "MethodTag\\Generic<string, string>",
         "location": {
           "startColumn": 28,
-          "endColumn": 45
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 45,
-          "endColumn": 46
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 46,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 54,
-          "endColumn": 60
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 60,
           "endColumn": 61
         }
       },
@@ -39350,50 +38846,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "PropertyTag\\Generic",
+        "type": "type",
+        "value": "PropertyTag\\Generic<string, string>",
         "location": {
           "startColumn": 28,
-          "endColumn": 47
-        }
-      },
-      {
-        "type": "langle",
-        "value": "<",
-        "location": {
-          "startColumn": 47,
-          "endColumn": 48
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 48,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "comma",
-        "value": ",",
-        "location": {
-          "startColumn": 54,
-          "endColumn": 55
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "string",
-        "location": {
-          "startColumn": 56,
-          "endColumn": 62
-        }
-      },
-      {
-        "type": "rangle",
-        "value": ">",
-        "location": {
-          "startColumn": 62,
           "endColumn": 63
         }
       },

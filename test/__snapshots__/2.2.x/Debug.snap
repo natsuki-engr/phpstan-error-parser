@@ -1081,41 +1081,9 @@
       },
       {
         "type": "type",
-        "value": "array{",
+        "value": "array{Foo\\Bar: 'Foo\\\\Bar'}",
         "location": {
           "startColumn": 13,
-          "endColumn": null
-        }
-      },
-      {
-        "type": "namespaced_name",
-        "value": "Foo\\Bar",
-        "location": {
-          "startColumn": 19,
-          "endColumn": 26
-        }
-      },
-      {
-        "type": "colon",
-        "value": ":",
-        "location": {
-          "startColumn": 26,
-          "endColumn": 27
-        }
-      },
-      {
-        "type": "single_quoted_string",
-        "value": "'Foo\\\\Bar'",
-        "location": {
-          "startColumn": 28,
-          "endColumn": 38
-        }
-      },
-      {
-        "type": "rbrace",
-        "value": "}",
-        "location": {
-          "startColumn": 38,
           "endColumn": 39
         }
       }
