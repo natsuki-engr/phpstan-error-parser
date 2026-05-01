@@ -276,7 +276,16 @@ export class Parser extends CstParser {
             this.SUBRULE(this.typeExpression);
           },
         },
-        { ALT: () => this.CONSUME(tokens.LBRACKET) },
+        {
+          GATE: () => {
+            const next = this.LA(1);
+            return next.startOffset === word.startOffset + word.image.length;
+          },
+          ALT: () => {
+            this.CONSUME(tokens.LBRACKET);
+            this.CONSUME(tokens.RBRACKET);
+          },
+        },
         {
           ALT: () => {
             this.CONSUME(tokens.PIPE);

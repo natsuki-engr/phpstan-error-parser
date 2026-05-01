@@ -26637,10 +26637,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "has  [",
+        "type": "common_word",
+        "value": "has",
         "location": {
           "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 45,
           "endColumn": 46
         }
       },
@@ -26746,10 +26754,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "has  [",
+        "type": "common_word",
+        "value": "has",
         "location": {
           "startColumn": 40,
+          "endColumn": 43
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 45,
           "endColumn": 46
         }
       },
@@ -26903,10 +26919,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "the  [",
+        "type": "common_word",
+        "value": "the",
         "location": {
           "startColumn": 107,
+          "endColumn": 110
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 112,
           "endColumn": 113
         }
       },

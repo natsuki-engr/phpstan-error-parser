@@ -6130,10 +6130,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "use [",
+        "type": "common_word",
+        "value": "use",
         "location": {
           "startColumn": 7,
+          "endColumn": 10
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 11,
           "endColumn": 12
         }
       },

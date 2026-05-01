@@ -16728,10 +16728,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "has  [",
+        "type": "common_word",
+        "value": "has",
         "location": {
           "startColumn": 32,
+          "endColumn": 35
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 37,
           "endColumn": 38
         }
       },
@@ -24013,10 +24021,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "the  [",
+        "type": "common_word",
+        "value": "the",
         "location": {
           "startColumn": 115,
+          "endColumn": 118
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 120,
           "endColumn": 121
         }
       },
@@ -24122,10 +24138,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "the  [",
+        "type": "common_word",
+        "value": "the",
         "location": {
           "startColumn": 186,
+          "endColumn": 189
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 191,
           "endColumn": 192
         }
       },
@@ -32140,10 +32164,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "has  [",
+        "type": "common_word",
+        "value": "has",
         "location": {
           "startColumn": 38,
+          "endColumn": 41
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 43,
           "endColumn": 44
         }
       },
@@ -32249,10 +32281,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "has  [",
+        "type": "common_word",
+        "value": "has",
         "location": {
           "startColumn": 69,
+          "endColumn": 72
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 74,
           "endColumn": 75
         }
       },

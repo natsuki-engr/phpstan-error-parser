@@ -2719,10 +2719,18 @@
         }
       },
       {
-        "type": "type",
-        "value": "the  [",
+        "type": "common_word",
+        "value": "the",
         "location": {
           "startColumn": 111,
+          "endColumn": 114
+        }
+      },
+      {
+        "type": "lbracket",
+        "value": "[",
+        "location": {
+          "startColumn": 116,
           "endColumn": 117
         }
       },
