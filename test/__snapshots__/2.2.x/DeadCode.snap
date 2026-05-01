@@ -1252,34 +1252,10 @@
         }
       },
       {
-        "type": "namespaced_name",
-        "value": "CallToConstructorWithoutImpurePoints\\Foo",
+        "type": "type",
+        "value": "CallToConstructorWithoutImpurePoints\\Foo()on",
         "location": {
           "startColumn": 12,
-          "endColumn": 52
-        }
-      },
-      {
-        "type": "lparen",
-        "value": "(",
-        "location": {
-          "startColumn": 52,
-          "endColumn": 53
-        }
-      },
-      {
-        "type": "rparen",
-        "value": ")",
-        "location": {
-          "startColumn": 53,
-          "endColumn": 54
-        }
-      },
-      {
-        "type": "common_word",
-        "value": "on",
-        "location": {
-          "startColumn": 55,
           "endColumn": 57
         }
       },
